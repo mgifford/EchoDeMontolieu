@@ -1,5 +1,14 @@
+---
+title: "Issues over time"
+machine_generated: true
+produced_by: "software (programmed rules) written with AI assistance"
+human_reviewed: false
+ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
+---
 # Issues over time
 
+> **AI disclosure.** This page was generated automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model wrote its text: it is extracted from the minutes by programmed rules. No person has checked it, and it can be wrong. The original documents are authoritative. [About AI in this project](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
+>
 > Machine-generated grouping. Items are linked because they share distinctive words, and the words are shown so you can judge. A grouping can be wrong, and a missing link does not mean there is none. Every entry links to the page of the original PDF.
 
 22 issues came up in more than one of the 25 meetings (7 in three or more). See also [themes over time](themes.md).

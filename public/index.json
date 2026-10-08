@@ -1,5 +1,9 @@
 {
   "count": 25,
+  "produced_by": "software (extraction and OCR) written with AI assistance",
+  "human_reviewed": false,
+  "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+  "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative.",
   "documents": [
     {
       "document_id": "0fff47b73223",

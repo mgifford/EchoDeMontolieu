@@ -6,11 +6,16 @@ document_id: 650cf05da13b
 version: 1
 source: https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf
 source_sha256: 6404b911b83c26cd652ca114fb70e9ded4e6186db0c0df287adf364b52a1893a
-language: fr
+language: en
 machine_generated: true
+produced_by: "software (programmed rules) written with AI assistance"
+human_reviewed: false
+ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 ---
 
 # Facts found in the council meeting of 2026-04-01
+
+> **AI disclosure.** This page was generated automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model wrote its text: it is extracted from the minutes by programmed rules. No person has checked it, and it can be wrong. The original documents are authoritative. [About AI in this project](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 

@@ -22,8 +22,12 @@ Live pages:
 48 hours without visitors) ·
 [urgent alerts from the Mairie on PanneauPocket](https://app.panneaupocket.com/ville/922810321-montolieu-11170)
 
-> Everything here that a machine produced (extracted text, summaries, translations) can be
-> wrong, and says so. The original document is always the authority, and every page links to it.
+> **AI disclosure.** This project and its software were written with AI assistance (Claude, an AI
+> assistant from Anthropic, used through Claude Code), and this README was written by that assistant.
+> Most generated pages are produced by programmed rules; French summaries and the English and Dutch
+> versions are written or translated by AI models, named in each file. No person has checked any
+> generated page. Everything a machine produced can be wrong, and says so. The original document is
+> always the authority, and every page links to it. See [AI.md](AI.md) for who produced what.
 
 ## What exists today
 

@@ -14,10 +14,11 @@ than it is.
 import collections
 from pathlib import Path
 
+from . import disclosure
 from .render import page_link
 from .threads import NOTE, slug
 
-CAVEAT = ("> Machine-generated from the minutes' own wording. Co-mentions in one agenda item, not a legal "
+CAVEAT = (disclosure.markdown("rules") + "\n>\n> Machine-generated from the minutes' own wording. Co-mentions in one agenda item, not a legal "
           "analysis: an item that cites nothing may still have a legal basis, and a citation next to an amount "
           "does not prove the amount follows from it. Every row links to the original page.")
 
@@ -137,5 +138,5 @@ def render_finance(meetings, threads_result=None):
 def write_finance(public_dir, meetings, threads_result=None):
     target = Path(public_dir) / "finance"
     target.mkdir(parents=True, exist_ok=True)
-    (target / "index.md").write_text(render_finance(meetings, threads_result), encoding="utf-8")
+    (target / "index.md").write_text(disclosure.with_front_matter(render_finance(meetings, threads_result), "Finance, rules and exceptions"), encoding="utf-8")
     return {"money_items": len(money_rows(meetings)), "exception_items": len(exception_rows(meetings))}

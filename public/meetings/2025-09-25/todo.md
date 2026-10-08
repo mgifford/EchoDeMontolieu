@@ -6,11 +6,16 @@ document_id: f950f0c50c7a
 version: 1
 source: https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf
 source_sha256: 663ab0bfea7087783575a44555d283ec3731e90d06dd237381c08cc8a600480d
-language: fr
+language: en
 machine_generated: true
+produced_by: "software (programmed rules) written with AI assistance"
+human_reviewed: false
+ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 ---
 
 # Follow-ups from the council meeting of 2025-09-25
+
+> **AI disclosure.** This page was generated automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model wrote its text: it is extracted from the minutes by programmed rules. No person has checked it, and it can be wrong. The original documents are authoritative. [About AI in this project](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 

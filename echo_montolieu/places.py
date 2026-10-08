@@ -24,6 +24,7 @@ from pathlib import Path
 
 import requests
 
+from . import disclosure
 from .fetch import USER_AGENT, StopFetching
 from .privacy import _fold
 from .render import page_link
@@ -197,7 +198,7 @@ def _osm(p):
 
 
 def render_places_md(places, info):
-    out = ["# Places discussed", "",
+    out = ["# Places discussed", "", disclosure.markdown("rules"), "",
            "> Machine-generated. Street and place names were picked out of the minutes by pattern and kept only "
            "if the national address database (BAN) confirms a street or locality of that name in Montolieu. A pin "
            "shows where a street or place is, not the exact spot a decision concerned.", "",
@@ -238,6 +239,7 @@ caption{text-align:left;font-weight:bold;padding:.5rem 0}
 th,td{border:1px solid #6b6b6b;padding:.4rem .6rem;text-align:left;vertical-align:top}
 th{background:#EBF3FA}
 .note{font-size:.95rem}
+.ai{border-left:6px solid #6b6b6b;background:#F1EFEA;padding:.25rem 1rem}
 """
 
 
@@ -335,6 +337,7 @@ def render_map_html(places, info):
 and items naming a private person are not shown ({info['held_back_items']} {'item' if info['held_back_items'] == 1 else 'items'} kept off this page on purpose).
 The map opens on the village; places up to about {far} km away appear when you zoom out, and every place is in the list below.
 <a href="{e(OSM_TOWN)}">Map of Montolieu on OpenStreetMap</a>. <a href="../index.html">Back to the home page</a>.</p>
+{disclosure.html("rules")}
 <noscript><p>The interactive map needs JavaScript. The list below has the same places and works without it.</p></noscript>
 <p class="note">The map loads its code from unpkg.com and its tiles from OpenStreetMap, which therefore see your
 address when it loads. The list does not.</p>
@@ -356,9 +359,9 @@ def write_places(public_dir, meetings, lookup):
     target = Path(public_dir) / "places"
     target.mkdir(parents=True, exist_ok=True)
     places, info = build_places(meetings, lookup)
-    (target / "places.json").write_text(json.dumps({"commune": COMMUNE, "places": places, **{k: v for k, v in info.items() if k != "unconfirmed"}},
+    (target / "places.json").write_text(json.dumps({"commune": COMMUNE, **disclosure.labels("rules"), "places": places, **{k: v for k, v in info.items() if k != "unconfirmed"}},
                                                     ensure_ascii=False, indent=1), encoding="utf-8")
-    (target / "index.md").write_text(render_places_md(places, info), encoding="utf-8")
+    (target / "index.md").write_text(disclosure.with_front_matter(render_places_md(places, info), "Places discussed"), encoding="utf-8")
     (target / "map.html").write_text(render_map_html(places, info), encoding="utf-8")
     return {"places": len(places), "candidates": info["candidates"], "unconfirmed": len(info["unconfirmed"]),
             "held_back_items": info["held_back_items"]}

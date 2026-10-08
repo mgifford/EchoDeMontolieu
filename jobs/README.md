@@ -1,5 +1,7 @@
 # Hugging Face Job spike
 
+> **AI disclosure.** Written by an AI assistant (Claude, from Anthropic) at the maintainer's direction. See [AI.md](../AI.md).
+
 A one-off check of whether a Hugging Face Job can run the weekly pipeline. It
 answers four questions before anything is built on it:
 
