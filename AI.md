@@ -25,7 +25,7 @@ The original documents are authoritative, and every page links to them.
 | `summary.md` (French summaries) | An AI model, named in the file | No |
 | `*.en.md`, `*.nl.md` (English and Dutch) | An AI model, named in the file, translating the French | No. No native speaker has reviewed them. |
 | `data/where_to_find_mairie.json` | The AI assistant, from link labels on the Mairie's website. The English labels and descriptions are the assistant's. | No |
-| The wording of every AI notice, in French, English and Dutch | The AI assistant | No. The maintainer plans to have the glossary and labels reviewed by native speakers. |
+| The wording of every AI notice and of the site interface (navigation, headings, notices), in French, English and Dutch | The AI assistant | No. The maintainer plans to have the glossary and labels reviewed by native speakers. |
 
 Each Markdown file records this in its front matter (`produced_by`, `human_reviewed`,
 `ai_disclosure`), and each JSON file in its `labels`. A file without `produced_by: "AI model (…)"`
