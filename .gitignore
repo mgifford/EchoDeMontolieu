@@ -13,6 +13,9 @@ venv/
 # Must never be committed or published.
 private/
 
+# Translation trial outputs (review first, then commit a curated report)
+trials/
+
 # Secrets and local configuration
 .env
 .env.*
