@@ -1,0 +1,110 @@
+{
+  "document_id": "c3d02d2895d6",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf",
+  "source_sha256": "e53a6099b465abbcd28046c53704b356ef74d9073defbb67a330964cf2732a2f",
+  "source_bytes": 559549,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 19 Jun 2026 08:00:35 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:39:36+00:00",
+  "meeting_date": {
+    "value": "2026-04-30",
+    "source": "text layer, page 1: '30 AVRIL 2026'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 6,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n1\nCONSEIL MUNICIPAL DU 30 AVRIL 2026 \nL’an deux mille vingt-six et le 30 avril à 19 h 30, le Conseil Municipal dûment convoqué s’est \nréuni sous la Présidence de Monsieur SAFONT Jacques, Maire de Montolieu, à la salle \nd’honneur de la mairie de Montolieu \n \nEtaient présents :  \nAurélie BARBERO, Thierry BOST, Jeanne ETORÉ-LORTHOLARY, Marbouba ETIENNE, \nMyriam GUIRAUD, René LABESSEDE, Éric OLIVIER, Jean-Luc OLIVIER, Christophe PECH, \nJacques SAFONT, Céline SALA, Jérémie SANDILLON, Aude SOULIÉ. \n \n \nEtaient absents :  \nJean-Paul PUJADE procuration à Christophe PECH \nAgnès PAUTOU procuration à Thierry BOST \n \nLa séance est ouverte à 19 h 31 \n \nSecrétariat de séance  \nMme ETIENNE Marbouba propose d’assurer le secrétariat. \nLa proposition est retenue à l’unanimité. \n \nOrdre du jour \n- \nApprobation du procès-verbal du 13/04/2026 \n- \nExamen et vote du budget général et des budgets annexes avec fongibilité des \ncrédits \n- \nCréation d’emploi pour avancement de grade : service technique \n- \nDroit de préemption \nInformations \n \nAPPROBATION DU PV DU CONSEIL MUNICIPAL DU 13 AVRIL 2026 \n \nApprobation de la correction du PV du 13/04  \nLe procès-verbal a été communiqué par mail à l’ensemble des conseillers. \n \nVote pour du conseil à l’unanimité : Mme Jeanne ETORÉ-LORTHOLARY fait observer que \nl’information concernant les membres non-élus du CCAS ne devrait pas figurer dans le procès-\nverbal de la réunion précédente puisque le maire avait fait sortir le public et que la séance \navait été levée quand cette information a été donnée. \nEXAMEN ET VOTE DU BUDGET GENERAL ET DES BUDGETS ANNEXES AVEC \nFONGIBILITES DES CREDITS  \n \nMr René LABESSEDE présente le budget général et les budgets annexes avec la fongibilité \ndes crédits \n \n \n \n \n \n \n \n \n \n \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.3,
+      "text": " \n2\nPour le CCAS \n \nIl est prévu sur ce budget 5 493,64€ de dépenses (achat de fournitures, aides diverses et \nsubventions) qui vont être équilibrées avec un virement du budget principal de 3 671,63€ et le \nreport de l’excédent antérieur qui est de 1822,01€. \nJeanne Etoré-Lortholary ne vote pas ce budget parce qu’il ne lui semble pas que le rôle du \nCCAS soit de faire des dons à des associations caritatives quelles qu’elles soient.  \n \nVote pour du conseil à la majorité. \nUne abstention : Mme ETORE-LORTHOLARY Jeanne \nPour le groupe médical \n \nLa seule opération sur ce budget consiste à rembourser l’emprunt (capital en investissement \net intérêt en fonctionnement) (emprunt courant jusqu’en octobre 2030). Elle est équilibre par \nun virement du budget général. \n \nVote pour du conseil à l’unanimité \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.333,
+      "text": " \n3\nPour le lotissement \n \nLa seule opération envisagée sur ce budget est la vente du terrain au lotissement les jardins \nde Valsiguier (estimé à 17247,72€) \n \nVote pour du conseil à l’unanimité \n \nPour le BUGET PRINCIPAL \n \nEn fonctionnement le budget proposé s’appuie sur les dépenses et recettes réelles de 2025. \nDépenses \n- Le montant des charges à caractère général quasi identique aux réalisations de 2025. \n- Prévision à la hausse des charges de personnels \n- Une diminution des charges de gestion courante car il n’y a pas de créance éteinte cette \nannée à prévoir, \n- Une augmentation dû aux frais d’utilisation de la ligne de trésorerie dans les charges \nfinancières \n \nRecettes \n- \nDiminution des atténuations de charges suite au retour d’un agent en maladie \n- \nProduits de service quasi identique aux réalisations de 2025 \n- \nImpôts et taxe diminution du Fonds de péréquation restant des années ultérieures \n- \nImposition directe en augmentation conformément aux prévisions (suite au vote des \ntaux du dernier conseil municipal) \n- \nAu chapitre autres produits de gestion courantes diminution des revenus d’immeubles \ncar plusieurs logements sont inoccupés  \n \n \nEn investissement, il est préférable de présenter le budget par opérations avant de le voter \nau chapitre \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.511,
+      "text": " \n4\nLes opérations afférentes au budget 2026 correspondent aux engagements pris par l’ancienne \nmunicipalité. \nSeule l’opération aménagement du cœur de village est une nouvelle (estimé à 10 000,00€). \nCarcassonne agglo participe à hauteur de 10 000,00€ maximum. \n \n \nJeanne Etoré-Lortholary dit qu’elle ne votera pas ce budget, ne serait-ce que pour deux \nraisons : si les élus avaient accepté de réduire, ne serait-ce que de 20% leurs indemnités, cela \naurait permis de récupérer une somme suffisante (env. 8000 euros) pour financer un \naménagement ou un embellissement dont le village aurait bien besoin, d’autre part, figure dans \nce budget la vente de la maison de la rue des Remparts, et elle est totalement opposée à cette \nvente. \nMr Jean-Luc OLIVIER fait part au Conseil Municipal d’une remarque sur le budget 2026 qui \nintègre une recette concernant la vente de la maison de la rue des remparts pour 30 000 €. \nSelon lui, ce montant est très inférieur à sa valeur réelle, et propose de faire estimer ce bien \npar une agence immobilière, par exemple celle qui est établie à Montolieu même. \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n5\nLe débat se poursuit sur la validité de la délibération qui avait accepté la vente de cette maison \nau prix de 30 000 € sous la précédente mandature. En effet, le notaire de la Commune a \ndécouvert que cette maison était en fait en indivision avec une famille aujourd’hui disparue et \nsans héritiers. Elle ne pouvait donc pas être vendue en l’état, la mairie n’étant pas seule \npropriétaire du bien. La délibération portant la vente de cette maison n’est donc pas valable.  \nDepuis les démarches auprès du notaire ont permis à la Commune de devenir propriétaire à \n100 % de la maison, une nouvelle délibération pourra donc être prise, avec un prix corrigé et \nplus réaliste par rapport au marché immobilier actuel Montolivain. \nMonsieur le maire propose de voter malgré tout ce budget avec la valeur inscrite de 30 000 € \nmais s’engage à faire les démarches pour arriver à un prix de vente plus acceptable et plus \nconforme à la réalité. \n \nVote pour du conseil à la majorité. \nUne abstention : Mme ETORE-LORTHOLARY Jeanne \n \nPoint sur la fongibilité des crédits \nLa commune ayant adopté le référentiel M57, elle peut bénéficier de mesures \nd’assouplissement sur le plan budgétaire et en particulier du principe de fongibilité des crédits. \nA l’occasion du vote du budget, le conseil peut autoriser le maire à procéder à des mouvements \nde crédit de chapitre à chapitre pour l’exercice auquel il se rapporte. \nCes mouvements de crédits entre chapitre (dont sont exclus les dépenses de personnel et les \ndépenses pour ordre) ne peuvent excéder 7.5 % du budget primitif consolidé des décisions \nmodificatives. Ce pourcentage peut être différent pour chacune des deux sections \nfonctionnement ou investissement. \nCette souplesse, permet juste d’éviter de réunir le conseil pour une décision modificative du \nbudget quand il manque des fonds dans un chapitre, alors qu’on en dispose dans un autre \nCes virements doivent faire l’objet d’une décision expresse du maire, soumise à l’obligation de \ntransmission au représentant de l’État, chargé du contrôle de légalité. Ils sont également \ntransmis au comptable public, et le maire est tenu d’informer le conseil lors de sa plus proche \nséance. \n \nIl est proposé d’autoriser le Maire à procéder à des mouvements de crédit de chapitre à \nchapitre pour l’exercice auquel il se rapporte dans la limite de 7.5 % du budget primitif \nconsolidé des décisions modificatives, pour les deux sections. \nJeanne Etoré-Lortholary dit ne pas voir l’utilité de cette proposition, il n’y a jamais d’urgence \ntelle que l’on ne puisse réunion le conseil, de manière à ce que tout le monde soit informé et \nque les décisions soient prises collectivement. \n \nVote pour du conseil à la majorité. \nUne abstention : Mme ETORE-LORTHOLARY Jeanne \n \nAVANCEMENT DE GRADE : CREATION DES GRADES CORRESPONDANT DANS LE \nTABLEAU DES EFFECTIFS \n \nLe centre de gestion a transmis les noms des agents pouvant bénéficier d’un avancement de \ngrade, les tableaux d’avancement pris par arrêté du maire ont été en conséquence transmis \npour notification aux intéressés et envoyés au centre de Gestion pour publication. \nLa commune doit donc maintenant créer au sein du tableau des effectifs les grades \ncorrespondants, et supprimer les grades qui ne seraient plus utiles.  \nPour rappel le conseil a voté un taux de 100 % des promus/promouvables. \n \nGrade au 1/1/2026 \nNombre \nDurée \nhoraire \nNouveaux grades \nNombre \nDurée \nhoraire \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.133,
+      "text": " \n6\nFilière technique \nAdjoint technique \nprincipal de 1ere \nclasse \n \nAdjoint technique \nprincipal de 2eme \nclasse \n \nAdjoint technique \nterritorial \n \n1 \n \n \n \n2 \n \n \n3 \n \n \n35h \n \n \n \n35 h \n \n \n2 à 35 h \n1 à 29/35 \n \nAdjoint technique \nprincipal de 1ere \nclasse \n \nAdjoint technique \nprincipal de 2eme \nclasse \n \nAdjoint technique \nterritorial \n \n2 \n \n \n \n1 \n \n \n3 \n \n35 h \n \n \n \n     35 h \n \n \n2 à 35 h \n1 à 29/35 \n \nPour la filière technique \n• \nLa création d'un emploi d’Adjoint technique principal de 1ere classe à compter du 01 \nmai 2026 \n• \nLa suppression, à compter du 01 mai 2026 d’un emploi permanent à temps complet \nd’adjoint technique principal de 2eme classe  \n \nVote pour du conseil à l’unanimité du tableau tel que présenté \n \n \n \nDROIT DE PREEMPTION \n \nDésignation du bien vendu :  \nRéf. Cadastrale :  \nSection \nN° \nLieu-dit \nSuperficie totale \nAB  \n437 \n14 rue d’Alzonne \n00 ha 09 a 05 ca \n \nUsage :  \nHabitation \nPrix de vente :  190 000 euros \nVendeur(s) :  \nLANAU Jacques, Brigitte, Michèle et Marie \n \n \nLe conseil vote à l’unanimité contre l’exercice du droit de préemption \nL’ordre du jour étant épuisé la séance est levée à 20 H 20 \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "e53a6099b465abbcd28046c53704b356ef74d9073defbb67a330964cf2732a2f",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:39:36+00:00",
+      "last_modified": "Fri, 19 Jun 2026 08:00:35 GMT",
+      "superseded_at": null,
+      "record": "minutes/c3d02d2895d6.json",
+      "diff_from_previous": null
+    }
+  ]
+}

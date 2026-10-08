@@ -1,0 +1,119 @@
+{
+  "document_id": "0fff47b73223",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf",
+  "source_sha256": "162000d4a0a671116ea052923af76b1bf739e53a5489f31a9c7a0a1a62f81d99",
+  "source_bytes": 513204,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Mon, 21 Sep 2026 09:06:55 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:40:11+00:00",
+  "meeting_date": {
+    "value": "2026-07-22",
+    "source": "text layer, page 1: '22 JUILLET 2026'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 7,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n1\nCONSEIL MUNICIPAL DU 22 JUILLET 2026 \nL’an deux mille vingt-six et le 22 juillet à 19 h 00, le Conseil Municipal dûment convoqué s’est \nréuni sous la Présidence de Monsieur SAFONT Jacques, Maire de Montolieu, à la salle \nd’honneur de la mairie de Montolieu. \n \nEtaient présents :  \nAurélie BARBERO, Jeanne ETORÉ-LORTHOLARY, Marbouba ETIENNE, Myriam GUIRAUD, \nRené LABESSEDE, Éric OLIVIER, Jean-Luc OLIVIER, Agnès PAUTOU, Christophe PECH, \nJacques SAFONT, Céline SALA, Jérémie SANDILLON, Aude SOULIÉ. \n \n \nEtaient absents :  \nJean-Paul PUJADE procuration à Christophe PECH. \nThierry BOST procuration à Jérémie SANDILLON. \n \nLa séance est ouverte à 19h04 \n \nSecrétariat de séance  \nMme ETIENNE Marbouba propose d’assurer le secrétariat de séance. \nLe conseil accepte à l’unanimité \n \nOrdre du jour \n- Approbation du PV du 26/06/2026 \n- Modification d'un poste d'adjoint \n- Modification des indemnités de fonctions aux adjoints et conseillers délégués \n- Modification de la commission culture, patrimoine, tourisme \n- Décision modificative budgétaire \n- Subvention à régulariser MVDL \n- Droits de préemption \n \nAPPROBATION DU PV DU CONSEIL MUNICIPAL DU 26 JUIN 2026 \n \nApprobation du PV du 26/06. \nLe procès-verbal a été communiqué par mail à l’ensemble des conseillers. \n \nVote du conseil à l’unanimité. \n \nMODIFICATION D’UN POSTE D’ADJOINT \n \nSuite à la démission de Madame Agnès PAUTOU au poste de 4eme adjointe en charge de la \nculture, du patrimoine et du tourisme, nous devons décider de conserver ou non ce poste \nd’adjoint. \nM. le Maire propose de conserver ce poste. \n \nVote du conseil à l’unanimité \n \nM. le Maire propose M. OLIVIER Jean-Luc pour prendre le poste de 4eme d’adjoint à la culture, \nau patrimoine et au tourisme.  \n \nY-a-t-il d’autre candidature ? Non \n \n \n \n \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n2\nMme ETORE-LORTHOLARY Jeanne fait part au Conseil Municipal de quelques petits éléments \nsur ce poste d’Adjoint : \n« A propos du poste d'adjoint proposé à Jean-Luc OLIVIER \nRappeler quand même quelques petits éléments d'histoire : \nNous avons demandé ce poste après les élections. Vous avez préféré le confier à quelqu'un \ndont vous saviez pertinemment qu'il y avait peu de chances qu'elle l'assume. \nNous avons perdu ainsi six mois. \nVous faites appel aujourd'hui à celui qui figurait en deuxième position sur la liste que je \nconduisais au dernières élections. \nJ'y vois la preuve de deux choses : \n- \nQue vous   n’ayez, parmi vos élus, personne de compétent en matière de \ntourisme, culture ou patrimoine, dans un Village du Livre et dans un si \nbeau village, c'est vraiment dommage ; \n \n- \nQue vous me détestez, je le sais déjà, cela me fait de la peine, mais c'est aussi \ntrès dommage pour tout le monde, et je ne crois pas tellement le \nmériter. \nJe ne peux qu'être ravie que vous fassiez appel à Jean-Luc Olivier, il est vice-\nprésident de I' Association pour la Valorisation du Patrimoine que j'ai fondée et \nque je préside, président de I' Association Pierres sèches et Capitellés \nmontolivaines que j'ai contribuée à fonder et présidée pendant 12 ans, \nprésident de I' Association des Amis de Saint-André, fidèle membre de I' \nAssociation Montolieu Village du Livre et des Arts que j'ai présidée 20 ans. \nII sait s'exprimer, ce qui est indispensable pour un adjoint à la culture et qui \nnous a cruellement manqué jusqu'à présent. II a une claire vision des \nproblèmes financiers et sait les exposer avec la même clarté. \nEt sur les trois mandats que nous avons vécus ou subis ensemble, nous avons \nété d’accord sur 90% des questions. C'est dire que je l'estime et le respecte \nbeaucoup, et que je lui fais à priori confiance pour poursuivre l'action dans \nl'esprit qui est le nôtre. \nSous le mandat précèdent, l'adjoint à la c u l t u r e , au tourisme et au \npatrimoine était une sorte d'inexistence qui n'a strictement rien fait et \nqui a réuni la commission correspondante une fois en six ans. \nIl y a donc un besoin urgent d'une action énergique et volontariste, parce \nque nous n'irons pas plus loin dans le développement économique (qui passe \npar le tourisme) sans une mise en valeur du patrimoine et une politique \nculturelle clairement visible et coordonnée. Je le répète, je fais confiance à \nJean-Luc pour prendre la mesure de cet enjeu. » \n \n \nLe conseil municipal vote à la majorité l’élection de Mr OLIVIER Jean-luc au poste de 4ème Adjoint \nà la culture, au patrimoine et au tourisme. 1 abstention \n \n \n \n \n \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n3\nMODIFICATION DES INDEMNITES DE FONCTIONS AUX ADJOINTS ET CONSEILLERS \nDELEGUES \n \nSuite au remplacement du poste d’adjoint et par conséquent au changement de nom de \nbénéficiaire il faut prendre à nouveau une délibération. \nM. le Maire propose de ne pas modifier les taux précédemment votés. \n \nPour rappel  \n- Le Maire, taux de 39,48% de l'indice brut terminal de la fonction publique (taux minoré), \n \n- Les 4 adjoints au Maire, au taux de 9,87% de l'indice brut terminal de la fonction publique \n(taux minoré), \n \n- Les 2 conseillers municipaux délégués au CCAS au taux de 4,14% de l'indice brut \nterminal de la fonction publique (taux minoré) ; \n \n- Le conseiller municipal délégué au Travaux au taux de 4,14% de l'indice brut terminal \nde la fonction publique (taux minoré)  \nVote du conseil à la majorité, Mme ETORE-LORTHOLARY Jeanne s’abstient  \n \nMODIFICATION DE LA COMMISSION CULTURE PATRIMOINE TOURISME \n \nMadame Agnès PAUTOU souhaite démissionner du poste de vice-présidente de la \ncommission culture, patrimoine tourisme. \nPour rappel, la commission est composée des membres suivants :  \nVice-Présidente : PAUTOU Agnès \nMembres : SOULIÉ Aude, PUJADE Jean-Paul, BARBERO Aurélie, OLIVIER Jean-Luc, ÉTORÉ-\nLORTHOLARY Jeanne  \n \nM. le Maire propose M. OLIVIER Jean-Luc pour la remplacer. \n \nVote du conseil à la majorité (1 abstention) \n \nDECISION MODIFICATIVE BUDGETAIRE \n \nSuite à l’achat à l’euro symbolique d’une parcelle faisant office de chemin au lieu-dit \nBorderouge cadastré n°A0041, ainsi qu’à l’incorporation suite à la procédure du bien \nprésumé sans maître d’une partie du bien situé 19 rue des remparts cadastré n°AB 341, \nnous devons valoriser les biens concernés afin de les intégrer à notre inventaire. \nIl s’agit d’opération d’ordre financière : \n \n- \ndépense investissement chapitre 2111-041 : 49,00 € \n- \ndépense investissement chapitre 2132-041 : 5 000,00 € \n \n-      recette investissement chapitre 1328-041 : 5 049,00 € \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.244,
+      "text": " \n4\n \n \nVote du conseil à l’unanimité \n \nSUBVENTION A REGULARISER MVDL \n \nA la signature du contrat tripartite entre Carcassonne Agglo, MVDL et la mairie à \nl’occasion du salon de la gravure il a été convenu qu’une subvention de 300,00€ serait \nversée pour son organisation. La commune ne pouvait pas, dans un délai très court, \nassurer le versement. Celui-ci a donc été avancé par l’association MVDL. \n \nIl est demandé au conseil d’attribuer une subvention de 300,00€ à MVDL. \n(article comptable 6574) \n \nVote du conseil à l’unanimité \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.131,
+      "text": " \n5\nDROITS DE PREEMPTION \n \nDésignation du bien vendu :  \nRéf. Cadastrale :  \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n99 \n6 Rue de l’indépendance \n40 m² \n \nUsage : Habitation  \nPrix de vente :   83 000,00€ \n \nVendeur(s) :  \nMr et Mme IZQUIERDO  \n \n \n \n \nLe conseil se prononce à l’unanimité contre l’exercice du droit de préemption \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.184,
+      "text": " \n6\n \n \nDésignation du bien vendu :  \nRéf. Cadastrale :  \nSection \nN° \nLieu-dit \nSuperficie totale \nB \n346 \nCoumbo de la Molo \n1740m² \n \nUsage : Espace Boisé classé (Zone d’Espaces Naturels Sensibles) \nPrix de vente :  1000,00€ \n \nVendeur(s) :  \nMr et Mme IZQUIERDO  \n \n \n \nM. le Maire donne lecture des arguments présentés par M. Jean-Luc OLIVIER \nCette parcelle jouxte 2 parcelles qui appartiennent déjà à la Mairie et se trouve sur cette parcelle une \ncapitelle restaurée dernièrement par l'association Pierres Sèches et Capitelles Montolivaines, ainsi qu'un \nsentier qui a été ouvert à cette occasion et qui permet de faire une boucle d'environ 1.5 km en partant de \nla chapelle et retour à la chapelle.  \nC'est un petit sentier très joli qui pourrait ainsi être balisé officiellement et que l'association Pierres Sèches \net Capitelles Montolivaines pourrait bien sûr entretenir.  \nCe droit a récemment été utilisé à bon escient sur la parcelle B 400. On serait là dans la continuité d'une \npolitique de préservation d'espaces naturels sensibles au profit des Montolivains et des personnes qui \nrecherchent des sentiers de randonnée sur le secteur.  \n \nLe conseil se prononce à la majorité pour l’exercice du droit de préemption. Mme ETIENNE \nMahbouba vote contre. \n \n \n \n \n \n \n \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.193,
+      "text": " \n7\n \n \nDésignation du bien vendu :  \nRéf. Cadastrale :  \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n301 \n18 Rue du 8 mai 1945 \n86 m² \n \nUsage : Habitation \n \n \nPrix de vente :   100 000,00€ \n \nVendeur(s) :  \nMme BERNAT Denise et Mme BARTHES Nicole \n \n \nLe conseil se prononce à l’unanimité contre l’exercice du droit de préemption \n \n \nL’ordre du jour étant épuisé la séance est levée à 19h30 \n \n \nInfo \n \n- \nMutation  \n- \nAffichage sauvage \n \n \n \n \n \n \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "162000d4a0a671116ea052923af76b1bf739e53a5489f31a9c7a0a1a62f81d99",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:40:11+00:00",
+      "last_modified": "Mon, 21 Sep 2026 09:06:55 GMT",
+      "superseded_at": null,
+      "record": "minutes/0fff47b73223.json",
+      "diff_from_previous": null
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "document_id": "430999f10e6c",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM-27-11-2024-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf",
+  "source_sha256": "d9cdad5942ac36f758b93fca8311bd1cdd26c59c484bf5775af1c463915f76a8",
+  "source_bytes": 224704,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Thu, 30 Jan 2025 13:21:38 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:36:59+00:00",
+  "meeting_date": {
+    "value": "2024-11-27",
+    "source": "text layer, page 1: '27 NOVEMBRE 2024'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 6,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \nCONSEIL MUNICIPAL DU 27 NOVEMBRE 2024 à 20 h 00 \n \nL’an deux mille vingt-quatre et le vingt-sept novembre à 20 h 00, le conseil municipal dûment convoqué s’est \nréuni sous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de Montolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Antoine CASAS-HARILLO, Laure ESCARÉ, Jeanne ETORÉ-LORTHOLARY, \nJamel GHARBI, Bernard LAURET, Valérie MONRAISIN, Éric OLIVIER, Jean-Luc OLIVIER, Vincent PICQUE, \nJacques SAFONT, Céline SALA.  \n \n \nEtaient absents :  \nMagalie BOST- BERGÉ, procuration à Aurélie BARBERO \n \nLa séance est ouverte à 20h03 \n \nSecrétariat de séance \nLaure ESCARÉ propose d’assurer le secrétariat de séance. \n➢ Le conseil approuve la proposition par 13 voix pour et une abstention. \n \nOrdre du jour \n- \nApprobation du procès-Verbal du conseil du 23 octobre 2024  \n- \nConvention avec SYADEN pour extension de réseau (travaux musée) \n- \nBudget rectificatif \n- \nApprobation du PADD rectifiée \n- \nPlan de financement éclairage du stade \n- \nCommission Communale des Impôts Directs  \n- \nDroits de préemption                                                                                                                                                           \n- \nInformations \nMonsieur le maire propose de rajouter à l’ordre du jour une question diverse sur les tags, suite à une \ndemande de Mme Marie-Hélène ROBIN. \nElle sera étudiée après les droits de préemption. \n➢ Le conseil accepte à l’unanimité le rajout à l’ordre du jour \n  \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 23 OCTOBRE 2024 \n \nLe procès-verbal a été communiqué avec la convocation. \n➢ Le conseil approuve la proposition par 13 voix pour et une abstention. \n \nCONVENTION AVEC LE SYADEN \n \nLes travaux réalisés sur le réseau de distribution publique d’électricité peuvent engendrer des interventions \nsur d’autres réseaux tels que les réseaux d’éclairage public et/ou les infrastructures passives destinées à \naccueillir les réseaux de communications électroniques \n(IPCE). \nCes divers réseaux peuvent relever de plusieurs maîtres d’ouvrages : \no Le SYADEN pour le réseau de distribution d’électricité et les IPCE, \no La collectivité pour les travaux d’éclairage public. \nSi cela est le cas, le SYADEN peut être désigné maitre d’ouvrage unique pour l’ensemble des travaux. \nDans le cadre de la rénovation du musée Ceres Franco, une opération de renforcement sur le réseau de \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "2 \ndistribution d’électricité est nécessaire, opération touchant également l’éclairage public. \nA ce titre une convention doit être signée entre le SYADEN et la commune, convention comportant un volet \nfinancier, une partie des frais incombant au village pour ce qui concerne l’éclairage public. \nLa convention a été transmise en amont du conseil, lequel est appelé à voter pour autoriser le maire à signer \nla convention, et compléter le dossier de subvention (représentant 50 % du coût à charge de la commune). \nLe montant à charge de la commune sera inscrit au budget rectificatif. \n \n➢ Le conseil, à l’unanimité, autorise le maire à signer la convention et faire la demande de subvention \nafférente. \n \nBUDGET RECTIFICATIF \n \nConformément, à la présentation faite en commission des finances, le budget de fonctionnement est ajusté \nsur deux chapitres, celui des charges de personnel et frais assimilés, et celui des autres charges de gestion \ncourante. Le total reste le même, la différentielle étant prise sur le virement à la section d’investissement. \nPour le premier chapitre, celui des frais de personnel, il est nécessaire de couvrir les remplacements \nnécessités d’une part par la mise à disposition d’un personnel en tant qu’ASEM de janvier à début juillet, \nd’autre part par les absences maladies, et les contrats saisonniers. Par ailleurs l’évaluation des charges de \nsécurité sociale doit également être revue à la hausse. \nUne part des absences maladie est compensée en recette, mais le plus souvent avec un décalage. (à ce titre \nun peu plus de 36 000 euros sont enregistrés en recette) \nConcernant les charges de gestion courante, il s’agit de dégager les moyens nécessaires pour aider MVDL à \nterminer l’année via une subvention complémentaire de 3500 euros, et ajuster quelques comptes dont celui \ndu service incendie qui a augmenté d’une année à l’autre. \n \n \nCode\nLibellé\nBudget total Réalisé total BR2\nFonctionnement.\nTOTAL DES DEPENSES\n1125084,47\n895519,60\n1125084,47\n011.\n Charges à caractère général\n340365\n297646,85\n340365\n012.\n Charges de personnel et frais assimilés\n486500\n462498,34\n541500\n6218.\n Autre personnel extérieur\n3072,34\n3000\n633.\n Impôts, taxes et versements assimilés su\n13500\n6954,95\n13500\n6411.\nPersonnel titulaire 2\n255000\n228819,82\n257000\n6413.\nPersonnel non titulaire 1\n71000\n86058,19\n91000\n6450.\n Charges de sécurité sociale et de prévoya\n140000\n131045,05\n170000\n6470\nautres charges sociales\n7000\n6547,99\n7000\n014.\n Atténuations de produits\n2900\n0\n2900\n023.\n Virement à la section d’investissement\n106880,68\n0\n46400,68\n023(ordre).\n Virement à la section d’investissement\n106880,68\n042.\n Opérations d’ordre de transfert entre sect\n20000,00\n20000,00\n20000,00\n65.\n Autres charges de gestion courante\n132924,79\n93421,69\n138404,79\n65134\naides\n150,00\n200\n65311.\n Indemnités de fonction\n41000\n37189,57\n41000\n65313.\n Cotisations de retraite\n1800\n1577,73\n1800\n65315.\n Formation\n200\n6541\ncréances admises en non valeur\n360,04\n6553.\n Service d'incendie\n18520\n14588,97\n19500\n65568.\n Autres contributions\n9000\n2938,63\n9000\n6558.\n Autres contributions obligatoires\n100\n815,13\n900\n657361\nsubvention de fonctionnement  collectivité \n22504,79\n22504,79\n65748.\n Autres personnes de droit privé\n31000\n30575\n34500\n65811.\n Droits d'utilisation - Informatique en nuage\n9000\n5024,96\n9000\n65888.\n Autres\n1,66\n66.\n Charges financières\n31000\n21252,72\n31000\n67.\n Charges exceptionnelles\n514\n0\n514\n68\ndotation aux provisions semi budgétaires\n4000\n700\n4000\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "3 \nConcernant les dépenses d’investissement, il n’y a aucune augmentation mais une ventilation différente \ndes sommes, du fait des modifications de plan comptable avec la M57. \nAinsi les sommes versées au titre du city stade sont dispatchées sur deux comptes. Par ailleurs les frais liés \nà l’opération du SYADEN sur le réseau d’électrification sont inscrites, les sommes supplémentaires sont \ntransférées de la ligne 2135, à la ligne 21538. \n \n \n \nCôté Recette un recalcul du prêt d’équilibre est nécessaire du fait de la diminution du virement en \nprovenance de la section de fonctionnement. \n \nCode\nLibellé\nBUDGET \nTOTAL\nRéalisé \ntotal\nBR2\nInvestissement\nTOTAL DES DEPENSES\n1446925,11\n763055,67\n1446925,11\n001.\n Solde d'exécution de la section d'investissement reporté\n150631,11\n0\n150631,11\n041\nopérations  patrimoniales\n4283,32\n4283,32\n4283,32\n16.\n Emprunts et dettes assimilées\n79200\n67193,3\n79200\n20.\n Immobilisations incorporelles\n49848\n10938\n49848\n21.\n Immobilisations corporelles\n1167246\n680641,05\n1167246\n2111.\n Terrains nus\n2500\n2278,5\n2500\n2113.\n Terrains aménagés autres que voirie\n90000\n0\n212\nagencement et aménagement de terrain\n0\n22686\n28000\n2135.\n Installations générales, agencements, aménagements de\n544215\n68268,05\n529715\n2138.\n Autres constructions\n1380\n6084,00\n1380\n2151.\n Réseaux de voirie\n0\n2152.\n Installations de voirie\n456315\n462798,40\n456315\n21538.\n Autres réseaux\n9000\n22100\n2158.\n Autres installations, matériel et outillage techniques\n8600\n4228,92\n4400\n21611.\n Biens sous-jacents\n21200\n26760,00\n26800\n2183.\n Matériel de bureau et matériel informatique\n3760\n5982,06\n3760\n2184.\n Mobilier\n30276\n20489,28\n30276\n2188\nautres immobilisations corporelles\n0\n61065,84\n62000\n23.\n Immobilisations en cours\n0\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "4 \n    \n➢ Le conseil vote à l’unanimité le budget rectificatif N°3  \n \n➢ Suite à la demande exprimée par MVdL, le conseil vote à l’unanimité la subvention complémentaire \nexceptionnelle pour 2024. \n \n \nAPPROBATION PADD RECTIFIE \n \nLors de la dernière réunion nous avions évoqué le fait qu’un Permis d’Aménager avait été déposé en 2021 \n(pour 3 maisons) sur une des OAP- Orientation d'aménagement et de programmation- \n(la plus à l’ouest) et que deux permis de construire étaient en cours d’instruction sur ces mêmes parcelles. \nLes parcelles du PA (93 et 482) sont donc comptabilisées en consommation foncière 2022-2025 (et comptent \ndans l’extension urbaine 2024-2035) et les deux restantes (481 et 91) sont considérées comme une dent \ncreuse. Les chiffres du PADD ont donc été mis à jour ainsi que la cartographie. \nUn lien vers le PADD rectifié a été transmis aux conseillers qui sont appelés à approuver le nouveau \ndocument. \nLes Orientation d'Aménagement et de Programmation, transmises par SOLIHA, feront l’objet d’un point lors \nde la prochaine réunion de travail prévue avec le prestataire. \n \n➢ Le conseil approuve à l’unanimité le PADD rectifié. \n \n \n \n \nFINANCEMENT PASSAGE EN LED DE L’ECLAIRAGE DU STADE \n \nAfin de limiter les dépenses liées à l’utilisation du stade en fin de journée l’hiver (entrainements, matchs…), \nil est proposé de remplacer les projecteurs actuels, par des projecteurs LED. \nIl est possible de demander au Fonds d’Aide au Football Amateur, une participation qui peut atteindre 50 %. \nInvestissement. TOTAL DES RECETTES\n1446925,11\n689060,43\n1446925,11\n021.\n Virement de la section d’exploitation (recettes)\n106880,68\n46400,68\n021(ordre).\n Virement de la section d’exploitation\n106880,68\n46400,68\n024.\n Produits des cessions d’immobilisations (recettes)\n30000,00\n30000\n040.\n Opérations d’ordre de transfert entre section\n20000,00\n20000,00\n20000\n041.\n opérations patrimoniales\n4283,32\n0\n10.\n Dotations, fonds divers et réserves\n176580,11\n179760,12\n176580,11\n13.\n Subventions d’investissement\n799731,59\n202016,99\n808731,59\n1321.\n Etat et établissements nationaux\n431324,66\n39504,11\n431324,66\n1322.\n Régions\n169785\n18387,2\n169785\n1323.\n Départements\n159953,93\n37196,5\n159953,93\n13251.\n GFP de rattachement\n13890\n13890\n13361\n Dotation d'équipement des territoires ruraux\n0\n9078,8\n9000\n13461.\n Dotation d'équipement des territoires ruraux\n24778\n97850,38\n24778\n16.\n Emprunts et dettes assimilées\n313732,73\n283000\n365212,73\n1641.\n Emprunts en euros\n313732,73\n283000\n365212,73\n165.\n Dépôts et cautionnements reçus\n27.\n Autres immobilisations financières\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.284,
+      "text": "5 \n \n \nCoût Hors Taxe \nFinancement \nMontant sollicité \nPourcentage \nd’intervention \nRemplacement \ndes \nprojecteurs du stade \npar des projecteurs \nLED \n19 121,95 \nFAFA Fonds d’aide au \nfootball Amateur \n9 560,97 \n50% \nCommune \n9 560,98 \n50% \nTOTAL  \n19 121,95 \nTOTAL \n19 121,95 \n100% \n \n➢ Le conseil vote à l’unanimité pour le plan de financement, et autorise Monsieur le maire à demander \nla subvention. \n \nCONSTITUTION DE LA COMMISSION COMMUNALE DES IMPOTS DIRECTS \n \nLors d’un précédent conseil, une liste de noms a été établie. Elle n’est dans les faits pas nécessaire. En effet \naprès vérification de la règlementation en la matière, il s’avère que la DDFIP en cas d’oubli de la commune \ndresse elle-même une liste de contribuables. \nAinsi en juillet 2020, la commission communale des impôts directs a été normalement constituée. \n \nDROITS DE PRÉEMPTION \n \n \n➢ Le conseil vote à l’unanimité contre l’exercice du droit de préemption. \n \n \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "6 \nINFORMATIONS SUR LE NETTOYAGE DES TAGS \n \nLaure ESCARÉ donne lecture de la lettre de Marie-Hélène ROBIN interrogeant la mairie sur le fait que les tags \nne soient pas encore effacés, et sur ce que la commune compte faire à ce sujet. \nBernard LAURET rappelle le déroulé des évènements : constatation des faits le vendredi, dépôt de plainte de \nla mairie le dimanche suivant, avec la chance que l’auteur des faits ait été identifié. \nLa commune s’est constitué partie civile, et le responsable a été condamné. \nLaure ESCARÉ indique que le greffe n’a à ce jour rien envoyé, que le secrétariat a appelé en vain l’avocate de \nla partie adverse et que ni cette dernière, ni l’auteur des faits, contactés tous deux par mail n’ont donné à ce \njour signe de vie. \nL’entreprise retenue pour le nettoyage, contactée ce jour n’a pas de disponibilité avant Janvier. \nEn conséquence, il a été décidé que la régie, procèderait au nettoyage des murs publics au mieux, et que \nl’entreprise interviendrait pour finaliser le travail s’il restait des traces. \nJeanne ETORÉ-LORTHOLARY demande s’il n’existe pas d’autres entreprises à même de faire le travail. \nLaure ESCARÉ recherchera si c’est le cas, mais espère que les produits employés par la régie seront \nsuffisamment efficaces dans l’immédiat. \nIl est demandé si les autres murs appartenant à des particuliers pouvaient également être nettoyés, \nnotamment ceux de la pizzeria Mallast. \nBernard LAURET indique que les employés municipaux n’ont pas à toucher à des murs appartenant à des \nprivés, surtout si ces derniers ont déposé plainte. Il leur revient de prendre la décision, eux- même. \nLes produits anti-graffitis utilisés par l’équipe technique pourront toujours leur être recommandés. \nUne douzaine de mail reçus ce matin à la mairie, rapporte une réponse du ministère de l’intérieur du 30 août \n1990, qui sur la base de l’article 24 , alinéa 4 de la loi du 29 juillet 1881 sur la liberté de la presse, enjoint au \nmaire de faire enlever « d’office les graffitis à caractère raciste, antisémite ou provoquant directement au \nmeurtre, dont le contenu tombe sous le coup de la loi pénale », or il est rappelé que le jugement à relaxé \nl’auteur des faits du délit de « provocation publique à la haine et la violence en raison de l’origine, la race ou \nla religion ». En conséquence, l’argumentation exposée ne peut s’appliquer, quoi qu’on puisse penser du \ncaractère raciste ou autre des tags. \n    \nL’ordre du jour étant épuisé, la séance est levée à 20 h 41. \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "d9cdad5942ac36f758b93fca8311bd1cdd26c59c484bf5775af1c463915f76a8",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:36:59+00:00",
+      "last_modified": "Thu, 30 Jan 2025 13:21:38 GMT",
+      "superseded_at": null,
+      "record": "minutes/430999f10e6c.json",
+      "diff_from_previous": null
+    }
+  ]
+}

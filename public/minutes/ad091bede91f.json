@@ -1,0 +1,119 @@
+{
+  "document_id": "ad091bede91f",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM-14-AVRIL-2025-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf",
+  "source_sha256": "d50b6e0ed9f624ee50eb4d1df98ed727eac6b4fbe5c1b22f4bef1b3d45215775",
+  "source_bytes": 302544,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Wed, 28 May 2025 15:09:39 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:37:51+00:00",
+  "meeting_date": {
+    "value": "2025-04-14",
+    "source": "text layer, page 1: '14 AVRIL 2025'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 7,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \n \nCONSEIL MUNICIPAL DU 14 AVRIL 2025 A 20 h 00 \n \nL’an deux mille vingt-cinq et le quatorze avril à 20 h 00, le conseil municipal dûment convoqué s’est \nréuni sous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de \nMontolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Antoine CASAS-HARILLO, Laure ESCARÉ, Jeanne ETORÉ-\nLORTHOLARY, Jamel GHARBI, Bernard LAURET, Valérie MONRAISIN, Éric OLIVIER, Jean-Luc \nOLIVIER, Jacques SAFONT, Céline SALA. \n \n \nEtaient absents :  \nVincent PICQUE, procuration à Bernard LAURET \nMagalie BOST- BERGÉ procuration à Aurélie BARBERO \n \nLa séance est ouverte à 20 h 00 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat de la séance. \n \nLa proposition est retenue par 13 voix pour et une abstention. \n \nOrdre du jour \n- Approbation PV du 27 mars \n- convention d'hébergement pour l'installation d'équipement dans le cadre du déploiement du réseau \nbasse fréquence \n- attribution de compensation 2025 \n- examen et vote du budget général et des budgets annexes \n \n \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 27 MARS 2025 \n \nLe procès-verbal a été communiqué avec la convocation au présent conseil. \nJeanne ETORÉ-LORTHOLARY demande les corrections suivantes : \n- \nElle a voté contre le compte financier du CCAS et indiqué que quand on avait pour 3000 \neuros de budget, on se devait de faire 3000 euros d’action sociale \n- \nLors du vote des subventions, elle indique que les personnes qui ont voté contre pour \nl’association Adèle, n’ont pas voté contre l’attribution de la subvention, mais souhaitaient \naugmenter cette dernière. \n \nCes corrections étant notées, le conseil approuve à l’unanimité le procès-verbal du Conseil \nMunicipal du 27 mars 2025 \n \nCONVENTION D’HEBERGEMENT POUR L’INSTALLATION D’EQUIPEMENT DANS LE CADRE \nDU DEPLOIEMENT DU RESEAU BASSE FREQUENCE  \n \nMonsieur le Maire fait part au Conseil Municipal que dans le cadre du déploiement d’un réseau bas \ndébit sur le département de l’Aude, il y aurait lieu de signer une convention d’hébergement avec le \nSyndicat Audois D’Energies et du Numérique (SYADEN). Le relais concerné se situe au lieu-dit \n« Montpertus ».  \nCette convention a pour objet de définir les conditions \ndans lesquelles le SYADEN est autorisé à : \n- Occuper le domaine public de la commune, \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.02,
+      "text": "2 \n \n- Accueillir et faire exploiter la station par un opérateur d’infrastructures, \n- Accueillir sur le site les équipements techniques, ceci aux fins de limiter le nombre de stations de \ntransmission Internet et de préserver l’intégrité du paysage. \nLe projet de convention a été envoyé avec la convocation au présent conseil \n \nLe conseil vote à l’unanimité l’autorisation pour le maire de signer la convention d’hébergement \navec le SYADEN pour le terrain situé au lieu-dit « Montpertus ». \n \nATTRIBUTION DE COMPENSATION 2025 \n \nLa CLECT s’est réunie le 25 mars 2025 et a approuvé le rapport relatif à la modification des \nattributions de compensation dans le cadre de : \n- la revalorisation de la compensation du transfert de taux mis en œuvre suite à l’adoption du Pacte \nFiscal et Financier ; \n- la participation des communes aux investissements portés en 2024 par Carcassonne Agglo sur la \nGestion des Eaux Pluviales Urbaines \nConformément à l’article 1609 nonies C du CGI : « Le montant de l’attribution de compensation et \nles conditions de sa révision peuvent être fixés librement par délibérations concordantes du conseil \ncommunautaire, statuant à la majorité des deux tiers, et des conseils municipaux des communes \nmembres intéressées, en tenant compte du rapport de la commission locale d’évaluation des \ntransferts de charges.   \nLe rapport de la CLECT a été transmis en complément de la convocation au présent conseil. \nIl est proposé au conseil de valider l’attribution de compensation suivant les modalités ci-dessous : \n \n \nLe conseil vote à l’unanimité le montant de l’attribution de compensation \n \nBUDGET GENERAL ET BUDGETS ANNEXES \n \nLaure ESCARÉ présente les documents qui sont remis en séance \n  \nPour la section de fonctionnement \n \nPour ce qui est du fonctionnement, par rapport à la présentation a été intégré en recette, le \nmontant exact de l’attribution de compensation versée par Carcassonne Agglo. \nPar ailleurs une enveloppe de 4 000 € au titre de la contribution au CDG11 a été transférée du \nchapitre 011, charges à caractère général, au chapitre 012, frais de personnel \n \nPour rappel, les éléments communiqués lors de la présentation du 27 mars sont les suivants : \n- \nles dotations sont les montants exacts communiqués par l’État.  \n- \nContact pris avec le comptable du trésor, l’opération de rénovation énergétique du \nlogement au-dessus de l’école primaire est sorti du fonctionnement, pour passer en \ninvestissement (ce qui permet de récupérer la TVA sur les travaux) \n- \nCes deux éléments permettent de dégager un virement de la section de fonctionnement, \nvers celle d’investissement pour un montant de 55 347,10 €. \n- \nUne dotation aux amortissements est positionnée pour 1500 euros en 681, en contrepartie \non trouve la recette correspondante dans la section d’investissement. Comme expliqué le \n27 mars dernier cet amortissement concerne la subvention d’investissement de 7 500 € \nversée en 2024 pour les travaux au musée Cérès Franco, elle s’amortit sur 5 ans. Chaque \nsubvention d’investissement accordée (une en 2025 de 7000 € et autant en 2026) fera \nainsi l’objet d’un amortissement sur 5 ans. \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.085,
+      "text": "3 \n \n- \nComme en 2024 la commune devra prendre en charge des admissions en non-valeur \n(créances non recouvrées et non recouvrable) et un provisionnement pour les CET des \nemployés communaux. \n \n \n \n \n \nLe budget de fonctionnement s’équilibre à 1 098 026,50 euros. Les dépenses sont composées \npour 1 027 533,19 euros de dépenses dites réelles et 70 493,31 euros de dépenses pour ordre : \ntransfert entre section, provisions, virement à la section d’investissement, et reprise du déficit \nantérieur. Le détail par compte figure dans les documents remis en séance. \n \n \n \n \n \n \nLaure ESCARÉ précise que : \n- \nLe chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire \net des assurances pour les agents malades \n- \nLe chapitre 70 comprend notamment les recettes de la piscine \n- \nLe chapitre 75 correspond au montant des loyers reçus principalement au titre du parc \nsocial \n011 Charges à caractère général\n328 412,66 €\n013 Atténuations de charges\n30 000,00 €\n012 Charges de personnel et frais assimilés\n543 450,00 €\n70 Produits de service, du domaine et vente divers\n71 989,00 €\n014 Atténuations de produits\n0,00 €\n73 Impôts et taxes\n685 520,50 €\n65 Autres charges de gestion courante\n127 183,90 €\n74 Dotations et participations\n156 907,00 €\n66 Charges financières\n28 486,63 €\n75 Autres produits de gestion courante\n119 760,00 €\n67 Charges exceptionnelles\n0,00 €\n77 Produits exceptionnels\n33 850,00 €\n1 027 533,19 €\n1 098 026,50 €\n042 Opérations d'ordre de transfert entre sections\n1 500,00 €\n0,00 €\n68 Dotations aux provisions semi-budgétaires\n7 370,00 €\n0,00 €\n023 Virement à la section d'investissement\n55 347,10 €\n002 Déficit antérieur reporté fonctionnement\n6 276,21 €\n70 493,31 €\n6 588 159,00 €\n1 098 026,50 €\n1 098 026,50 €\nTotal opération d'ordre\nTotal opération d'ordre\nTotal des dépenses 2025\nTotal des recettes 2025\n002 Excédent antérieur reporté de fonctionnement\n042 Opérations d'ordre de transfert entre sections\nDépenses Réelles Prévues 2025\nRecettes Réelles Prévues 2025\nLe poste charges de personnels et frais assimilés représente \n49 % du budget devant les charges à caractère général avec \n30 %. Un rattrapage de prime due sur 4 ans entraine un \nsurcoût, en partie temporaire, et on note aussi l’impact de \nl’augmentation du taux de la CNRACL. \n \nCôté recettes, les impôts et taxes représentent 62 % du \nbudget, devant les dotations et participations, et les autres \nproduits de gestion courante (dont les loyers représentent la \nquasi-totalité)  \n \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "4 \n \nLe détail des recettes figure dans les documents remis \n \nLa section d’investissement \n \nConcernant les investissements, ils s’équilibrent à 951 289,94 euros. \nA été sortie la participation communale à l’extension d’un réseau électrique dans le cadre d’une \nopération d'urbanisme pour un particulier. Cette participation n’est plus demandée depuis \nseptembre 2023 (article 27 de la loi « énergie renouvelable ») \n \nLes opérations proposées sont les mêmes que lors de la présentation au conseil du 27 mars.  \n \n \n \n \nLe détail des opérations en dépense est précisé chapitre par chapitre. \n \nJean Luc OLIVIER remarque qu’il n’a pas été tenu compte de la demande d’achat d’un tracteur \navec épareuse dont il avait été question lors de la présentation, alors qu’on maintient l’opération \nd’éclairage du stade qui est moins utile. \nBernard LAURET répond qu’il n’est pas question de revoir le budget pour inscrire une opération \nnécessitant un prêt alors que la commune est déjà suffisamment endettée comme cela a déjà été \nexpliqué. \nLaure ESCARÉ rappelle que le stade est utilisé presque toute la semaine et les week-ends, que \nl’hiver il est donc éclairé, et que le changement d’éclairage (passage en Led) vise à faire des \néconomies d’énergie. Il est par ailleurs subventionné pour moitié en principe par le Fond d’Aide au \nFootball Amateur (FAFA) , et que supprimer l’opération entrainera forcément la suppression de la \nrecette correspondante, et déséquilibrera le budget. Le montant de cette opération ne permet pas \nde plus de dégager les sommes nécessaires à un achat. \nJean Luc OLIVIER estime que l’achat d’un tracteur avec épareuse est nécessaire et qu’on prive la \ncommune de moyens. \nLaure ESCARÉ précise qu’en l’absence de ce matériel, il est fait appel aux prestations de service \nde Carcassonne Agglo et d’un agriculteur. \nLa commune a investi entre 2022 et 2024 1,15 millions d’euros, et comme cela a déjà été précisé \nle 27 mars dernier, 78,6 % des travaux ont été couverts par des subventions et des ressources \npropres. Pour le reste la commune a procédé à des emprunts, notamment sur la dernière année, \npour le PAVE et l’opération touchant le city stade et le désamiantage du toit de la piscine. \nElle rappelle que la capacité de désendettement de la commune est passée de 3,14 années en \n2022 à 8.9 années en 2024. \nJeanne ETORÉ-LORTHOLARY indique qu’il n’a jamais été discuté des opérations financières, \nnotamment du PAVE.  \nLaure ESCARÉ répond que c’est inexact et rappelle que le coût du PAVE, son plan de \nfinancement, et l’appel au prêt ont fait l’objet de délibération en Conseil. \n15 618,00 €\n223 901,63 €\n82 025,75 €\n101 708,26 €\n21 754,00 €\n568 832,95 €\n21 Immobilisations corporelles\n602 226,37 €\n721 624,12 €\n894 442,84 €\n229 665,82 €\n0,00 €\n040 Opérations d'ordres de transfert entre section\n0,00 €\n040 Opérations d'ordres de transfert entre section\n1 500,00 €\n0,00 €\n024 Produits de cession d'immobilisations (recettes)\n0,00 €\n021 Virement de la section de fonctionnement\n55 347,10 €\n229 665,82 €\n56 847,10 €\n951 289,94 €\n951 289,94 €\nRecettes Réelles Prévues 2025\nTotal opération d'ordre\nTotal des dépenses 2025\nTotal des recettes 2025\n001 Excédent antérieur reporté d'investissement\nDépenses Réelles Prévues 2025\n041 Opérations patrimoniales\n001 Solde d'éxecution d'investissement reporté\nTotal opération d'ordre\n020 Immobilisations incorporelles\n10 Dotations, fonds divers et réserves\n16 Emprunts et dettes assimilées\n204 Subvention d'équipement versées\n16 Emprunts et dettes assimilées\n13 Subventions d'investissement\nDépenses d' Investissement\nRecettes d' Investissement\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "5 \n \n \n \n \nPour ce qui est des recettes d’investissement, on note un bon retour sur la TVA (dotations fonds \ndivers et réserve) pour 116 712 euros (notamment du fait des travaux du PAVE). Les subventions \nrestant à recevoir pour cette opération sont réintégrées dans le chapitre 13, et un prêt d’équilibre \nest positionné correspondant à la part de la commune dans les travaux de l’église. \n \nLe projet de budget s’établit donc à : \n- \n1 098 026,50 euros pour la section de fonctionnement (contre 1 159 916,55 en 2024) \n- \n   951 289,94 euros pour la section d’investissement (contre 1 450 869,11 en 2024) \n \n \n \nPropositions 2025\nBP 2025\nDÉJÀ REALISÉ AU \n25/02/2025\nCommentaires / observations\n15 618,00 €\nsoliha 11298€ + GUENERET 4320\n15 618,00 €\n82 025,75 €\n17 498,08 €\n82 025,75 €\n7 000,00 €\nSUBVENTION CERES FRANCO 2025\n14 754,00 €\n14 754,00 €\ncarca agglo gepu\n21 754,00 €\n468,00 €\nTERRAIN SAINT ROCH\n31 789,20 €\n3 600,00 €\namenagement paysager espace de loisir 28189,2 TTC + fin de \nmission city 3600 TTC\n423 747,84 €\n11 887,31 €\nserra TF 10151,67+ travaux eglise TF 346241,26+ TAILLANDIER 2983,68 \n+SERRA 1325,40 MISSION BASE+ appt ecole 47100\n0,00 €\n51 476,59 €\n36 248,59 €\npublication marche public piscine + RELIQUAT TOIT PISCINE 32855,59   + \nCLIM MAIRIE 2146,80€ +SOLDE CLIM MUSEE\n13 094,40 €\nEP TRAVAUX 13094,40 \n22 946,34 €\neclairage stade, \n6 000,00 €\n6 000,00 €\nCLIM MUSEE\n52 704,00 €\nnefle 44917+ CACHE CONTENEUR 7787\n602 226,37 €\n721 624,12 €\n0,00\n229 665,82 €\nDéficit d'investissement reporté : \ncontre-balancé par le compte de recettes d'investissement 1068\n229 665,82 €\n229 665,82\n951 289,94 €\n   \nInscription Budgétaire le \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "6 \n \nPoint sur la fongibilité des crédits \nLa commune ayant adopté le référentiel M57, elle peut bénéficier de mesures d’assouplissement \nsur le plan budgétaire et en particulier du principe de fongibilité des crédits. \nA l’occasion du vote du budget, le conseil peut autoriser le maire à procéder à des mouvements \nde crédit de chapitre à chapitre pour l’exercice auquel il se rapporte. \nCes mouvements de crédits entre chapitre (dont sont exclus les dépenses de personnel et les \ndépenses pour ordre) ne peuvent excéder 7.5 % du budget primitif consolidé des décisions \nmodificatives. Ce pourcentage peut être différent pour chacune des deux sections fonctionnement \nou investissement. \nJeanne ETORÉ-LORTHOLARY indique qu’elle est contre cette façon de fonctionner. \nLaure ESCARÉ indique que cette souplesse, permet juste d’éviter de réunir le conseil pour une \ndécision modificative du budget quand il manque des fonds dans un chapitre, alors qu’on en \ndispose dans un autre.  \nLaure ESCARÉ précise que ces virements doivent faire l’objet d’une décision expresse du maire, \nsoumise à l’obligation de transmission au représentant de l’État, chargé du contrôle de légalité. Ils \nsont également transmis au comptable public, et le maire est tenu d’informer le conseil lors de sa \nplus proche séance. \n \nLe conseil vote le budget général par 11 voix pour et 3 voix contre  \nLe conseil autorise le maire à procéder à des mouvements de crédit de chapitre à chapitre pour \nl’exercice auquel il se rapporte dans la limite de 7.5 % du budget primitif consolidé des décisions \nmodificatives, pour les deux sections par 12 voix pour et 2 contre  \n \nVote des budgets annexes \n \nPour le CCAS \n  \nLe montant du budget s’établit à 3 622.01 €, aucun abondement n’est prévu pour le budget initial, \nun point sera fait en cours d’année au vu des dépenses présentées, si nécessaire. \n \n \n \n \nJeanne ETORÉ-LORTHOLARY interroge pour savoir comment sont choisies les associations pour \nlesquelles des subventions sont accordées. \nLaure ESCARÉ précise que ce sont les associations qui en font la demande. Il est précisé que le \nCCAS fonctionne avec le secours catholique et la Croix rouge. \nEn effet une aide ponctuelle peut être donnée par la commune, mais quand il faut aider une \npersonne sur le long terme, ces associations prennent le relais. \n \nLe conseil vote le budget du CCAS par 12 voix pour, 1 contre et une abstention \n \nPour le groupe médical \n \nLe montant du budget s’établit à 14 889,58 € pour le fonctionnement incluant le rattrapage par la \n11 Charges à caractère général\n520,00 €\n200,00 €\n65134 Aides\n2 002,01 €\n65733Subvention FUL Dépt\n400,00 €\n65748 Subvention asso\n700,00 €\n3 102,01 €\n3 622,01 €\n200,00 €\n3 422,01 €\n3 422,01 €\n3 622,01 €\n3 622,01 €\nDépenses Réelles Prévues 2025\n74 Dotations et participations\n002 Excédent antérieur reporté de fonctionnement\nRecettes Réelles Prévues 2025\nTotal d'opération d'ordre 2025\nDépenses de Fonctionnement\nRecettes de Fonctionnement\nTotal des dépenses 2025\nTotal des recettes 2025\n65 Autres charges de gestion courante\n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "7 \n \ncommune du déficit 2024 du fait de l’absence de participation d’une des communes voisines. Les \nrecettes seront uniquement constituées de la dotation communale. \nLes dépenses d’investissement s’établissement à 20 596,26 € dont les échéances de prêt pour \n10 102,34 € \n  \n \n Le conseil vote à l’unanimité le budget du groupe médical \n \nPour le lotissement \n \nLe montant du budget s’établit à 507 736,14 en fonctionnement comme en investissement, en \nsupposant la vente du terrain restant. Il est présenté pour ordre, un point sera fait en fin d’année \npour dénouer les écritures et réintégrer le terrain non vendu dans les terrains communaux pour \n2026. \n \n \n \nLe conseil vote à l’unanimité le budget du lotissement \n \n \n \nL’ordre du jour étant épuisé, la séance est levée à 20 h 56 \n \n66 Charges financières\n2 379,94 €\n74 Dotations et participations\n14 889,58 €\n2 379,94 €\n14 889,58 €\n10 493,92 €\n0,00 €\n2 015,72 €\n12 509,64 €\n0,00 €\n14 889,58 €\n14 889,58 €\n10 493,92 €\n10 102,34 €\n10 493,92 €\n10 102,34 €\n10 102,34 €\n10 493,92 €\n10 102,34 €\n10 493,92 €\n20 596,26 €\n20 596,26 €\nRecettes d'opérations d'ordre 2025\nDépenses Réelles Prévues 2025\nDépenses d'opérations d'ordre 2025\nRecettes Réelles Prévues 2025\n16 Remboursement d'emprunt \nRecettes d'opérations d'ordre 2025\n021 Virement depuis la section fonctionnement\n001 Solde d'éxecution d'investissement reporté\n10 Dotations, fonds divers et réserves\nTotal des dépenses 2025\nTotal des recettes 2025\nDépenses d' Investissement\nRecettes d' Investissement\nDépenses de Fonctionnement\nRecettes de Fonctionnement\nTotal des dépenses 2025\nTotal des recettes 2025\nDépenses Réelles Prévues 2025\nRecettes Réelles Prévues 2025\n023 Virement vers la section Investissement\n002 Excédent antérieur reporté de fonctionnement 2024\n002 Déficit antérieur 2024\nDépenses d'opérations d'ordre 2025\n17 247,72 €\n17 247,72 €\n179 200,14 €\n161 952,42 €\n328 536,00 €\n328 536,00 €\n0,00 €\n0,00 €\n507 736,14 €\n490 488,42 €\n507 736,14 €\n507 736,14 €\n040 Opérations d'ordre de transfert entre sections\n328 536,00 €\n040 Opérations d'ordre de transfert entre sections\n328 536,00 €\n001 Solde d'exécution de la section d'investissement reporté\n179 200,14 €\n021 Virement de la section d'exploitation\n179 200,14 €\n507 736,14 €\n507 736,14 €\n507 736,14 €\n507 736,14 €\nDépenses d' Investissement\nRecettes d' Investissement\nDépenses de Fonctionnement\nRecettes de Fonctionnement\nDépenses d'opérations d'ordre 2025\nRecettes d'opérations d'ordre 2025\nTotal des dépenses 2025\nTotal des recettes 2025\n70 Produits de services\nTotal des dépenses 2025\nTotal des recettes 2025\nDépenses d'opérations d'ordre 2025\nRecettes Réelles Prévues 2025\n023 Virement vers la section Investissement\n002 Excédent antérieur reporté de fonctionnement\n042 Opérations d'ordres de transfert entre sections\n042 Opérations d'ordres de transfert entre sections\n043 Opérations d'ordres à l'intérieur de la section de fo\nRecettes Réelles Prévues 2025\n043 Opérations d'ordres à l'intérieur de la section de fonctionn\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "d50b6e0ed9f624ee50eb4d1df98ed727eac6b4fbe5c1b22f4bef1b3d45215775",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:37:51+00:00",
+      "last_modified": "Wed, 28 May 2025 15:09:39 GMT",
+      "superseded_at": null,
+      "record": "minutes/ad091bede91f.json",
+      "diff_from_previous": null
+    }
+  ]
+}

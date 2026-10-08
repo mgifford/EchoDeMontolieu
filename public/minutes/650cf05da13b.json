@@ -1,0 +1,101 @@
+{
+  "document_id": "650cf05da13b",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM-DU-01-avril-2026-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf",
+  "source_sha256": "6404b911b83c26cd652ca114fb70e9ded4e6186db0c0df287adf364b52a1893a",
+  "source_bytes": 183511,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Thu, 16 Apr 2026 12:38:08 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:39:11+00:00",
+  "meeting_date": {
+    "value": "2026-04-01",
+    "source": "text layer, page 1: '01 AVRIL 2026'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 5,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "CONSEIL MUNICIPAL DU 01 AVRIL 2026 \nL’an deux mille vingt-six et le 1er avril à 19 h 00, le Conseil Municipal dûment convoqué s’est \nréuni sous la Présidence de Monsieur SAFONT Jacques, Maire de Montolieu, à la salle \nd’honneur de la mairie de Montolieu \n \nEtaient présents :  \nAurélie BARBERO, Jeanne ETORÉ-LORTHOLARY, Marbouba ETIENNE, Myriam GUIRAUD, \nRené LABESSEDE, Éric OLIVIER, Jean-Luc OLIVIER, Agnès PAUTOU, Christophe PECH, \nJean-Paul PUJADE, Jacques SAFONT, Céline SALA, Jérémie SANDILLON. \n \n \nEtaient absents :  \nAude SOULIÉ procuration à Aurélie BARBERO \nThierry BOST procuration à Jérémie SANDILLON \n \nLa séance est ouverte à 19h04 \n \nSecrétariat de séance \nMr le Maire, Jacques SAFONT demande à Mme Jeanne ETORÉ-LORTHOLARY d’être la \nsecrétaire de séance pour ce conseil municipal. Il lui a proposé suite aux différentes remarques \nqu’elle a émise lors du dernier conseil municipal. Celle-ci a décliné car elle pouvait être \namenée à quitter la séance.  \n \nMme ETIENNE Marbouba propose d’assurer le secrétariat. \nLa proposition est retenue à l’unanimité. \n \nOrdre du jour \n- \nApprobation du procès-verbal du 28/03/2026 \n- \nFonctions déléguées aux adjoints et conseillers \n- \nIndemnités de fonction des élus  \n- \nDélégation du conseil municipal au maire \n- \nDésignations dans les commissions et les organismes \n- \nConstitution du CCAS \n \nAPPROBATION DU PV DU CONSEIL MUNICIPAL DU 28 MARS 2026 \n \nLe procès-verbal a été communiqué à l’ensemble des conseillers. \nMadame Jeanne ÉTORÉ-LORTHOLARY souligne qu’il a une faute d’orthographe à la \ndeuxième ligne du paragraphe Installation du Conseil Municipal. \nIl lui est répondu qu’elle sera rectifiée. \nM. le maire informe Mme Jeanne ÉTORÉ-LORTHOLARY qu’elle n’a pas restitué exactement \nses dires dans le texte qu’elle a proposé pour l’élaboration de ce procès-verbal. \nElle répond qu’il faut procéder aux modifications. \n \nLe procès-verbal est approuvé à l’unanimité. \n \nFONCTIONS DELEGUEES AUX ADJOINTS ET CONSEILLERS \n \nMonsieur le Maire donne lecture des fonctions déléguées aux adjoints et conseillers \nmunicipaux par arrêté en date du 01 avril 2026 \n \nM. LABESSEDE René, 1er adjoint :  \n ; \n- \nFinances  \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " ; \nMadame BARBERO Aurélie, 2ème adjointe : \n  ; \n  ;-  \nEcole, communication, vie associative \n \nMonsieur BOST Thierry, 3ème adjoint : \n  ; \n- \nTravaux, Urbanisme, Service technique, \n; \n Madame PAUTOU Agnès, 4ème adjointe : \n; \n- \nCulture, patrimoine, tourisme \n ; \nConseillère déléguée CCAS ordre de priorité n°1 : Madame SALA Céline  \nConseillère déléguée CCAS ordre de priorité n°2 : Madame GUIRAUD Myriam \n \n \n \nINDEMNITES DE FONCTION DES ELUS  \n \nMonsieur Le Maire propose à l’assemblée de fixer le montant des indemnités aux Adjoints et \naux conseillers délégués dans le cadre leurs délégations, sans dépassement de l’enveloppe \nmaximale prévue par la Loi, comme suit :  \nIl propose de minorer les taux d’indice de l’indemnité du maire et des adjoints, afin de partager \nle reste de l’enveloppe maximale (max 91,38%) aux 2 conseillers délégués \n \n- Le Maire, taux de 40,3% de l'indice brut terminal de la fonction publique (taux minoré), \n \n- Les 4 adjoints au Maire, au taux de 10,7% de l'indice brut terminal de la fonction \npublique (taux minoré), \n \n- Les 2 conseillers municipaux délégués au taux de 4,14% de l'indice brut terminal de \nla fonction publique (taux minoré) ; \n \nLa proposition est approuvée à la majorité avec 14 voix pour et 1 voix contre (Jeanne \nÉTORÉ-LORTHOLARY) \nMadame Jeanne ÉTORÉ-LORTHOLARY explique que le programme de la liste qu’elle \na conduite prévoyait une diminution des indemnités, et la réserve d’une part des \nindemnités restantes à l’attribution de mission à l’ensemble des conseillers qui \nl’auraient souhaité, elle ne souhaite donc pas que la totalité de l’enveloppe maximale \nsoit répartie comme présentée. \n \n \nDELEGATIONS DU CONSEIL MUNICIPAL AU MAIRE \n \nLe Maire peut, par délégation du conseil municipal, être chargé, en tout ou partie, et pour la \ndurée de son mandat :  \n- \nDe décider de la conclusion et de la révision du louage de choses pour une durée \nn'excédant pas douze ans ;  \n- \nDe passer les contrats d'assurance ainsi que d'accepter les indemnités de sinistre y \nafférentes ;  \n- \nDe prononcer la délivrance et la reprise des concessions dans les cimetières ;  \n- \nD'accepter les dons et legs qui ne sont grevés ni de conditions ni de charges ;  \n- \nDe fixer les reprises d'alignement en application d'un document d'urbanisme ;  \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "- \nD'autoriser, au nom de la commune, le renouvellement de l'adhésion aux associations \ndont elle est membre ;  \n- \nD’intenter au nom de la commune les actions en justice ou de défendre la commune \ndans les actions intentées contre elle. \n \nLes délégations proposées sont approuvées à la majorité avec 14 voix pour et 1 voix contre \n(Jeanne ÉTORÉ-LORTHOLARY) \n \n \nDESIGNATION DANS LES COMMISSIONS ET ORGANISMES \n \nMonsieur Le Maire propose aux conseillers la création des commissions communales \nsuivantes.  \n \nIl précise que le Maire est président de droit de toutes les commissions : \n \nMadame Jeanne ÉTORÉ-LORTHOLARY demande quel est le fonctionnement prévu pour les \ncommissions. \nIl lui est répondu que la fréquence des réunions sera définie lors de la première réunion de \nchaque commission. \nElle répond qu’il est difficile de s’engager dans plusieurs commissions si l’on ne connait son \nfonctionnement à l’avance. \n \nCommission Finances : \nVice-Président : \nLABESSEDE René \nMembres : ETIENNE Marbouba, PAUTOU Agnès, BARBERO Aurélie, OLIVIER Éric, \nSANDILLON Jérémie, OLIVIER Jean-Luc  \n \nApprouvée à l’unanimité \n \nCommission patrimoine, culture, tourisme \nVice-Présidente : PAUTOU Agnès \nMembres : SOULIÉ Aude, PUJADE Jean-Paul, BARBERO Aurélie, OLIVIER Jean-Luc, \nÉTORÉ-LORTHOLARY Jeanne  \n \nApprouvée à l’unanimité \n \nCommission vie associative et vie économique \nVice-Président : PUJADE Jean-Paul \nMembres : PAUTOU Agnès, ETIENNE Marbouba, BARBERO Aurélie, OLIVIER Jean-Luc, \nSALA Céline, GUIRAUD Myriam, ÉTORÉ-LORTHOLARY Jeanne, PECH Christophe, \n \nApprouvée à l’unanimité \n \nCommission communication : \nVice-Présidente : BARBERO Aurélie \nMembres : ETIENNE Marbouba, SALA Céline, PUJADE Jean-Paul, PAUTOU Agnès, SOULIÉ \nAude, GUIRAUD Myriam \n \nApprouvée à l’unanimité \n \nCommission travaux, urbanisme, sécurité \nVice-Président : BOST Thierry \nMembres : ETIENNE Marbouba, OLIVIER Éric, SANDILLON Jérémie, PECH Christophe, \nLABESSEDE René, OLIVIER Jean-Luc, ÉTORÉ-LORTHOLARY Jeanne, \n \nApprouvée à l’unanimité \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \nCommission d’Appel d’Offres : \nLes modalités d’élection et la composition de la commission d’appel d’Offre sont définies à \nl’article 22 du code des marchés publics. \nPour les communes de moins de 3500 habitants, elle se compose de trois membres titulaires \net de trois suppléants. \nLe maire est président de droit. \nIl est rappelé que les suppléants interviennent par ordre en cas d’absence du titulaire. \n \n1 président titulaire : SAFONT Jacques \n1 membre titulaire : PECH Christophe \n1 membre titulaire : BOST Thierry \n1 membre titulaire : LABESSEDE René \n1er membre suppléant : ETIENNE Marbouba \n2ème membre suppléant : OLIVIER Éric \n3ème membre suppléant : SANDILLON Jérémie \nApprouvé à la majorité par 14 voix pour et 1 abstention (ÉTORÉ-LORTHOLARY Jeanne) \nMadame ÉTORÉ-LORTHOLARY Jeanne fait remarquer qu’une commission aussi importante \naurait dû intégrer un membre de la liste minoritaire qui est compétent dans le domaine. \n \nCorrespondant Défense armées : \nIl est proposé : \nSANDILLON Jérémie \nApprouvée à l’unanimité \n \nMembre habilité à siéger au GIP CERES FRANCO : \n \nMonsieur le Maire représentera la commune au GIP. \nMme ÉTORÉ-LORTHOLARY Jeanne demande si on votait cette délégation, M. le Maire a \nrépondu qu’il n’y avait pas besoin de la voter, puisqu’il est représentant de fait. \n \nDésignation des délégués titulaires et suppléants aux différents syndicats : \n \nMonsieur le Maire informe le Conseil qu’il y a lieu de désigner des délégués titulaires et \nsuppléants qui représenteront la commune de Montolieu dans les assemblées délibérantes \ndes syndicats suivants : \n \n \nSyndicat Audois d’Energies (SYADEN) : \n \nLa commune doit procéder à la désignation d’un élu en qualité de délégué communal \ntitulaire représentera la commune de MONTOLIEU dans les secteurs territoriaux et/ou \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "instances syndicales du SYADEN, et d’autre part, à celle de son suppléant qui sera chargé \nde le remplacer en cas d’empêchement.  \n  \nIntéressés et sensibles aux aménagements au sein des collectivités, aux questions relatives \nà l’énergie, aux télécommunications et aux besoins des usagers, le rôle des référents sera de \nparticiper aux réunions de votre secteur concourant notamment à la présentation des \ndifférentes activités ou services mutualisés du SYADEN et à la définition des programmes de \ntravaux notamment sur les réseaux d’électricité et d’éclairage public, en partenariat avec le \ncomité syndical.  \n  \nDe plus, ils seront amenés à élire les délégués qui représenteront la Commune au sein des \ninstances délibérantes du SYADEN. \n \n1 délégué titulaire : BOST Thierry \n1 délégué suppléant : PUJADE Jean-Paul \n \nApprouvée à l’unanimité \n \nCorrespondant incendie et secours \n \nLe décret 2022-1091 du 22 juillet dernier, relatif aux modalités de création et d’exercice de la \nfonction de conseiller municipal correspondant incendie et secours, est venu compléter la loi \ndite « MATRAS » qui consolide la règlementation applicable en matière de sécurité civile. \n \nM. Le Maire sera le correspondant. \n \nCONSTITUTION DU CCAS \n \nL’existence du CCAS dont le budget est alimenté par le budget communal est une obligation. \nA compter de son renouvellement, le conseil municipal dispose d’un délai maximal de deux \nmois pour procéder au renouvellement du conseil d’administration du CCAS (article R.123-10 \ndu code de l’action sociale et des familles). \nIl se compose de 5 membres élus en son sein, 5 membres extérieurs désignés par le Maire. \n \nProposition d’une liste de 5 conseillers \n \nSALA Céline \nGUIRAUD Myriam  \nSOULIÉ Aude \nSANDILLON Jérémie \nPECH Christophe \n \nApprouvé à la majorité avec 14 voix pour et 1 abstention ((ÉTORÉ-LORTHOLARY Jeanne) \n \nLes personnes désignées pour compléter le conseil d’administration n’ont pas encore été \nchoisies, elles seront communiquées aux conseillers lors d’une prochaine séance. \n \nSuite aux remarques incessantes de Mme ÉTORÉ-LORTHOLARY Jeanne, Mr Pujade JP a réagi \nà son comportement.  \n \n \nL’ordre du jour étant épuisé la séance est levée à 19h27  \n \n \n \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "6404b911b83c26cd652ca114fb70e9ded4e6186db0c0df287adf364b52a1893a",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:39:11+00:00",
+      "last_modified": "Thu, 16 Apr 2026 12:38:08 GMT",
+      "superseded_at": null,
+      "record": "minutes/650cf05da13b.json",
+      "diff_from_previous": null
+    }
+  ]
+}

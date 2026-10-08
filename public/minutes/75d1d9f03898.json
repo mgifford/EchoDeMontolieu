@@ -1,0 +1,117 @@
+{
+  "document_id": "75d1d9f03898",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "crcm-14012025-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf",
+  "source_sha256": "845a96c3eccad00e991f433babef94b5fa4cc885de189f35dfe0f12999e86cef",
+  "source_bytes": 380624,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 25 Apr 2025 13:34:27 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:37:11+00:00",
+  "meeting_date": {
+    "value": "2025-01-14",
+    "source": "text layer, page 1: '14 JANVIER 2025'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 6,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \nCONSEIL MUNICIPAL DU 14 JANVIER 2025 à 20 h 00 \n \nL’an deux mille vingt-cinq et le quatorze janvier à 20 h 00, le conseil municipal dûment convoqué \ns’est réuni sous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de \nMontolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Magalie BOST- BERGÉ Antoine CASAS-HARILLO, Laure \nESCARÉ, \nJeanne \nETORÉ-LORTHOLARY, \nJamel \nGHARBI, \nBernard \nLAURET, \nValérie \nMONRAISIN, Éric OLIVIER, Jean-Luc OLIVIER, Vincent PICQUE, Jacques SAFONT, Céline \nSALA.  \n \n \nEtaient absents :  \nLaure ESCARÉ procuration à Bernard LAURET \nVincent PICQUE procuration à Eric OLIVIER  \nLa séance est ouverte à 20 h 05 \n \nSecrétariat de séance \n \nAurélie Barbero propose d’assurer le secrétariat de séance \nSa proposition est retenue à l’unanimité \n \n \nOrdre du jour \n- \nApprobation du procès-Verbal du conseil du 27 novembre 2024  \n- \nAcquisition d’un bien sans maître \n- \nAutorisation d’engager les dépenses 2025 en attente du vote du budget 2025 \n- \nRenouvellement de la convention de médecine du travail avec le DCG11 \n- \nRenouvellement de la ligne de trésorerie \n- \nDemande de versement d’une avance sur subvention pour MVDL \n- \nDroits de préemption                                                                                                                            \n- \nInformations \nBernard LAURET propose d’ajouter un point complémentaire à l’ordre du jour concernant des \narbitrages dans le cadre du PLU suite à la réunion du 9 janvier dernier. \nCe point sera abordé après le point sur l’avance de subvention pour MVDL \nLe conseil adopte à l’unanimité l’ajout de ce point à l’ordre du jour. \n \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 27 NOVEMBRE 2024 \n \nLe procès-verbal a été communiqué avec la convocation \nIl est adopté à l’unanimité. \n \nACQUISITION D’UN BIEN SANS MAITRE \n \nMonsieur le maire rappelle que sont considérés comme biens sans maître, les biens immobiliers \nfaisant partie d’une succession ouverte depuis plus de trente ans et pour laquelle aucun \nsuccessible ne s’est présenté. \n Par détermination de la loi, ils appartiennent aux communes ou, en cas de renonciation à l’État \n(articles 713 du code civil et L. 1123-2 du CG3P). \nIl expose que le propriétaire de l’immeuble situé lieu-dit Cazelles, section C n°44, contenance \n11928 m², M. BEZIAT Joseph est décédé en 1979 il y a plus de 30 ans. \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \nIl a par ailleurs obtenu des services cadastraux l’assurance que le dernier propriétaire est bien M. \nBEZIAT Joseph décédé le 23 juillet 1979. \nLa commune a effectué les recherches nécessaires : \n- Acte de décès \n- Publicité foncière \n- Etude notariale. \nLes services du Domaine ont par ailleurs confirmé que l’Etat n’est pas rentré en possession de ce \nbien. Cet immeuble peut donc revenir à la commune si cette dernière n’y renonce pas. \n \nLe maire propose donc au conseil l’incorporation du bien parcelle section C n°44, contenance \n11928 m² dans le domaine communal en application des dispositions de l’article 713 du code civil. \n \nLe conseil vote par 12 voix pour et 2 voix contre pour l’incorporation du bien parcelle section C \nn°44, contenance 11928 m² dans le domaine communal en application des dispositions de l’article \n713 du code civil. \n \nAUTORISATION D’ENGAGER LES DEPENSES 2025 EN ATTENTE DU VOTE DU BUDGET \n2025 \n \nMonsieur le maire rappelle que selon les dispositions de l’article L 1612-1 du code général des \ncollectivités territoriales, dans le cas où le budget d’une collectivité territoriale n’a pas été adopté \navant le 1er janvier de l’exercice auquel il s’applique, l’exécutif de la collectivité territoriale est en \ndroit, jusqu’à l’adoption de ce budget, de mettre en recouvrement les recettes et d’engager, de \nliquider et de mandater les dépenses de la section de fonctionnement dans la limite de celles \ninscrites au budget de l’année précédente. \nIl est en droit de mandater les dépenses afférentes au remboursement en capital des annuités de \nla dette venant à échéance avant le vote du budget. \nEn outre, jusqu’à l’adoption du budget ou jusqu’au 15 avril, en l’absence d’adoption du budget \navant cette date, l’exécutif de la collectivité territoriale peut, sur autorisation de l’organe délibérant, \nengager, liquider et mandater les dépenses d’investissement, dans la limite du quart des crédits \nouverts au budget de l’exercice précédent, non compris les crédits afférents au remboursement de \nla dette. \nMontant des dépenses d’investissement inscrites au budget primitif 2024 (hors chapitre 16 « \nRemboursement d’emprunts ») = 1 213 790,00 EUR (chapitre 20 – 42 600,00 EUR / Chapitre 21 – \n1 171 190,00 EUR) \nConformément aux textes applicables, il est proposé au conseil municipal de faire application de \ncet article à hauteur maximale de 318 447,00 EUR soit 25% de 1 213 790,00 EUR. \n \nLe conseil vote à l’unanimité pour  \n• Autoriser monsieur le Maire à mandater les dépenses d’investissement, dans la limite du \nquart des crédits ouverts au budget de l’exercice 2024, soit 318 447,00 EUR. \n• Il précise que les sommes mandatées seront inscrites au budget 2025. \n \n \n \nRENOUVELLEMENT DE LA CONVENTION DE MEDECINE DU TRAVAIL AVEC LE CDG11 \n \nLe Maire indique que la surveillance médicale des agents était assurée jusqu’à présent par le \nCDG11 en application d’une convention dont le terme est échu au 31 décembre 2024. \nIl rappelle la possibilité pour les Centres de gestion de la fonction publique territoriale de créer des \nservices de médecine professionnelle et préventive, conformément aux dispositions de l’article \nL. 452-47 du code général de la fonction publique. \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \nIl souligne l’opportunité pour la Collectivité de pouvoir bénéficier d’un service pluridisciplinaire et \nau meilleur coût en adhérant au service de Médecine de prévention et de santé au travail géré \ndirectement par le Centre de Gestion  \nLa nouvelle convention a été transmise avec la convocation du conseil municipal, elle comprend : \n➢ La surveillance médicale, \n➢ L’action en milieu de travail, \n➢ La prévention des risques professionnels, \nElle sera mise en annexe du Procès-Verbal du conseil Municipal \n \nLe conseil vote à l’unanimité pour  \n• Autoriser Monsieur, le Maire à signer la convention d’adhésion au service de Médecine de \nPrévention et de santé au travail géré par le Centre de gestion de la fonction publique \nterritoriale de l’Aude, pour 3 ans à compter du 1ER janvier 2025  \n• Il précise que les dépenses correspondantes seront inscrites au budget 2025 et aux \nbudgets suivants. \n \nRENOUVELLEMENT DE LA LIGNE DE TRESORERIE \n \nLa commune dispose d’une ligne de trésorerie suite à une décision du conseil municipal de février \n2023, renouvelée suite à délibération du conseil en janvier 2024 pour 300 000 €. \nCompte tenu du montant des travaux qui vont être engagés pour l’église et la réfection de la \npiscine, et du décalage de réception des subventions accordées une fois les travaux finis, il est \nnécessaire de la renouveler la ligne de trésorerie existante. Son montant doit également être \naugmenté, du fait du montant total potentiel des travaux et pour couvrir la TVA. \n \nBernard LAURET présente la proposition du crédit agricole \n \nPROPOSITION DU CREDIT AGRICOLE DU LANGUEDOC \n \nMontant plafond \n450 000 EUR \nTaux VARIABLE préfixé \nIndexé \nsur \n€URIBOR \n3 \nMOIS \nmoyenné du mois facturé, soit à \ntitre indicatif sur index du mois de \ndécembre 2024 à 2,81% à un taux \nde : 4,21% \nDurée \n1 an \nMarge sur index ci-dessus \n1,40% \nIntérêts payables à terme \néchu \nMensuellement \nRèglement \ndes \nintérêts \ndébiteurs par  \nMensuellement par procédure de \ndébit d’office \nFrais de dossier \n0,25% soit 1125,00 EUR \n \nIl rappelle que la Collectivité s’engage pendant toute la durée de la LIGNE de TRESORERIE, à \ninscrire en priorité chaque année en dépenses obligatoire à son budget les sommes nécessaires au \npaiement des intérêts, frais et accessoires. \n \nLe Conseil municipal vote à la majorité par 13 voix pour et 1 abstention le renouvellement de la \nligne de trésorerie  \n• L’autorisation à B. LAURET, pour signer le contrat  \n \n \n \n \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \nDEMANDE D’AVANCE DE SUBVENTION SUR 2025 POUR MVDL \n \nL’association MVDL a sollicité par courrier du 8 janvier 2025, une avance sur la subvention qui \nsera provisionnée sur le budget 2025. \nMonsieur le maire procède à la lecture du courrier. \nPour rappel, une avance de 5 000 euros a été accordée en début d’année 2024. \n \nLe conseil vote à l’unanimité le versement d’une avance de 5000 euros sur la subvention 2025 de \nMontolieu Village du Livre. \n \nPar ailleurs l’association des parents d’élèves de Montolieu a sollicité la mairie pour une aide \nexceptionnelle dans le cadre de l’organisation d’un trail pour récolter des fonds. \nLe conseil étant d’accord pour examiner la demande, cette dernière est mise au vote. \nUne aide exceptionnelle de 300 euros est attribuée pour cette opération à l’unanimité, elle sera \ninscrite au budget 2025. \n \n \nARBITRAGES DANS LE CADRE DES TRAVAUX DU PLU  \n \nBernard LAURET informe tout d’abord l’ensemble du conseil que les éléments du règlement vont \nêtre communiqué à l’ensemble des conseillers. Ce dernier définis par selon le zonage, ce qui est \nautorisé en termes de construction, (type de tuile, palettes de couleurs, alignement, hauteur \netc…) ; Il est impératif de procéder à leur lecture afin de balayer l’ensemble des questions qui \npourraient se poser, et des choix à arbitrer. Des réunions de travail spécifiques seront organisés \navant la fin de février pour finaliser le document. Les personnes absentes voudront bien soit \ndonner procuration, soit faire connaitre leur avis par mail au secrétariat. \nPar ailleurs, l’ensemble des demandes des particulier qui étaient parvenues à la mairie, ont été \nétudiées et arbitrées lors d’une réunion antérieure.   \nJeanne ETORÉ-LORTHOLARY a souhaité le 9 janvier dernier que soit porté devant le conseil le \nprincipe de l’abandon d’une réserve foncière, prévue sur une partie d’une parcelle appartenant à \nMme Jeannette DELMAS, au motif que lors du précédent PLU il était envisagé d’y aménager un \nbelvédère. Mme DELMAS demande à ce que la commune revienne sur cette réserve, demande \nsur laquelle la plupart des conseillers présents lors de la réunion était d’accord. \nBernard LAURET sollicite donc le conseil pour acter de l’abandon de la réserve foncière sur le \nterrain de Mme DELMAS. \n \nAprès échange, le conseil vote par 12 voix pour, 1 voix contre et 1 abstention) l’abandon de la \nréserve foncière prise sur le terrain de Mme DELMAS lors du précédent PLU. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=5",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.685,
+      "text": "Désignation du bien vendu :\nRéf. Fr\n\nA0130\n\nSuperficie totale\n= 00 ha 04 a 93 ca\n1 A | 814 | FRANE-SUD |  00ha04a55ca\n167 CHE DE FRANC 00 ha 05 a 03 ca\n\nUsage : Habitation\nPrix de vente : 350 000,00 euros\nVendeur(s) : GOUTY Nadine\nw\nvai | ' A0505 A0535\n| _\n\n| ao26 | A0547\n\nA0128\n\nA0127\n\nA0111\n\nLe conseil vote à l'unanimité contre l'exercice du droit de préemption\n",
+      "text_sparse": "DROITSDEPRÉEMPTIN ss 1\n\nDésignation du bien vendu\n\nRéf. Fr\n\n7 ETS\n\nLA | 514 | ____FRANC-SUD ___ | 00ha04a55ca _\n\nLA | 516 | 167CHEDEFRANC | 00ha05a03ca\n\nUsage\n\nHabitation\n\nPrix de vente\n\n350 000,00 euros\n\nGOUTY Nadine\n\nVendeur(s)\n\nA0070\n\nA0490\n\nA0505\n\nA0535\n\nVaid\n\nA0130\n\nA0129\n\nA0547\n\nA0128\n\nA0546\n\npre\n\n4\n\nS\n\n+ CG\n\n“A\n\nA0512\n\nA0509\n\n| =\n\nA0510\n\nJe\n\nA0127\n\nA0511\n\naoû\n\nA0515\n\n—_—\n\nne | 05:\n\n16\n\nA0120\n\nA0111\n\nLe conseil vote à l'unanimité contre l'exercice du droit de préemption\n",
+      "ocr": {
+        "mean_conf": 78.2,
+        "min_conf": 0,
+        "low_word_fraction": 0.2,
+        "words": 75
+      }
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.386,
+      "text": " \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nA \n124 \nFRANC-SUD \n00 ha 01 a 26 ca \nA \n540 \nFRANC-SUD \n00 ha 00 a 32 ca \n \nUsage : \n \nHabitation \n \n \nPrix de vente :  \n50 000,00 euros \nVendeur(s) :   \nMARCHI Alain – BERNIER Ghislaine \n \n \n \nLe conseil vote à l’unanimité contre l’exercice du droit de préemption \n \nL’ordre du jour étant épuisé, la séance est levée à 21 h 02 \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "845a96c3eccad00e991f433babef94b5fa4cc885de189f35dfe0f12999e86cef",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:37:11+00:00",
+      "last_modified": "Fri, 25 Apr 2025 13:34:27 GMT",
+      "superseded_at": null,
+      "record": "minutes/75d1d9f03898.json",
+      "diff_from_previous": null
+    }
+  ]
+}

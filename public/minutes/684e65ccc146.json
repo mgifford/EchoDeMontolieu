@@ -1,0 +1,128 @@
+{
+  "document_id": "684e65ccc146",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf",
+  "source_sha256": "18adfbfc9505326289b179c8ff6938be49065a434d04138199a1cf2ca1944cd1",
+  "source_bytes": 302394,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Wed, 01 Jul 2026 11:35:19 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:39:48+00:00",
+  "meeting_date": {
+    "value": "2026-06-05",
+    "source": "text layer, page 1: '5 JUIN 2026'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 8,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n1\nCONSEIL MUNICIPAL DU 5 JUIN 2026 \nL’an deux mille vingt-six et le 5 juin à 19 h 30, le Conseil Municipal dûment convoqué s’est réuni \nsous la Présidence de Monsieur SAFONT Jacques, Maire de Montolieu, à la salle d’honneur \nde la mairie de Montolieu \n \nEtaient présents :  \nAurélie BARBERO, Thierry BOST, Jeanne ETORÉ-LORTHOLARY, Marbouba ETIENNE, Myriam \nGUIRAUD, René LABESSEDE, Éric OLIVIER, Jean-Luc OLIVIER, Agnès PAUTOU, Christophe \nPECH, Jean-Paul PUJADE, Jacques SAFONT. \n \n \nEtaient absents :  \nCéline SALA procuration à Aurélie BARBERO \nAude SOULIÉ procuration à Agnès PAUTOU \nMarbouba ETIENNE procuration à Myriam GUIRAUD \nChristophe PECH procuration à Jean-Paul PUJADE \nJérémie SANDILLON procuration à Thierry BOST \n \nLa séance est ouverte à 19 h 30 \n \nSecrétariat de séance  \nAurélie BARBERO se propose pour assurer le secrétariat de la séance  \nVote du conseil à l’unanimité \n \nOrdre du jour \n- Approbation du PV du 30/04/2026 \n- Désignation des délégués et des suppléants pour les élections sénatoriales (Décret no 2026-\n301 du 21 avril 2026 portant convocation des collèges électoraux pour l’élection des sénateurs) \n- Création des postes saisonniers \n- Modification des indemnités de fonctions des élus \n- Composition de la Commission des Impôts Direct (CCID) \n- Demande de prêt \n- Vente d'un immeuble cadastré section C0551 \n- Droits de préemption \n- Information sur la composition de la commission de contrôle des listes électorales \n \nQuestions diverses \n \nAPPROBATION DU PV DU CONSEIL MUNICIPAL DU 30 AVRIL 2026 \n \nApprobation du PV du 30/04. \nLe procès-verbal a été communiqué par mail à l’ensemble des conseillers. \nVote du conseil à l’unanimité \n \nDESIGNATION DES DELEGUES ET DES SUPPLEANTS POUR LES ELECTIONS \nSENATORIALES  \n \nLes élections sénatoriales 2026 auront lieu le dimanche 27 septembre 2026. \nEn application des articles L.283 à L.293 et R.131 à R.148 du code électoral le conseil doit élire \nles délégués titulaires et les délégués suppléants. \n \nMISE EN PLACE DU BUREAU DE VOTE \n \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n2\nSecrétaire désignée : Mme ÉTORÉ LORTHOLARY Jeanne \n \n2 assesseurs et 2 scrutateurs \nEn application de l’article R.133 du code électoral le bureau électoral est présidé par le maire et \ndes deux conseillers les plus âgés et les 2 deux conseillers les plus jeunes présents :  \nMme ÉTORÉ LORTHOLARY Jeanne \nM. LABESSEDE René \nM. BOST Thierry \nM. SANDILLON Jérémie \n \nMODE DE SCRUTIN \nM. le maire invite le conseil municipal à procéder à l’élection des délégués et de leurs suppléants \nen vue de l’élection des sénateurs.  \nIl rappelle qu’en application des articles L. 288 et R. 133 du code électoral, les délégués et leurs \nsuppléants sont élus séparément, sans débat, au scrutin secret majoritaire à deux tours. S’il reste \ndes mandats à attribuer à l’issue du premier tour de scrutin qui a lieu à la majorité absolue, il est \nprocédé à un second tour pour le nombre de mandats restant à attribuer et l’élection a lieu à la \nmajorité relative. Au second tour, en cas d’égalité de suffrages, le plus âgé des candidats est \ndéclaré élu.  \nConformément à l’article L. 284 du code électoral, le cas échéant, l’article L. 290-1 ou L. 290-2, \nle conseil municipal doit élire : 3 délégués et 3 suppléants. Les candidats peuvent se présenter \npour être élus délégués ou suppléants, soit isolément, soit sur une liste incomplète, soit sur une \nliste comportant autant de noms qu’il y a de délégués ou de suppléants à élire. Les adjonctions \net les suppressions de noms sont autorisées (art. L. 288 du code électoral). La circonstance \nqu’une personne ne se soit pas portée candidate ou soit absente ne fait pas obstacle à son \nélection si elle obtient le nombre de suffrages requis. \n \nPROCEDE AU VOTE à bulletin secret  \n \n1 liste de 3 candidats a été présentée il s’agit de : \nJeanne ETORE LORTHOLARY \nJean-Luc OLIVIER \nJacques SAFONT \nPas d’autre candidature \n \nLes conseillers passent au vote \n \nDépouillement  \nLa liste proposée est élue à la majorité absolue : Proclamation des délégués titulaires \n \nM. Le Maire demande qui se porte candidat suppléant. \nRené LABESSEDE, Myriam GUIRAUD et Jean-Paul PUJADE se portent candidat \nLes conseillers passent au vote \n \nDépouillement \nLa liste présentée est élue à la majorité absolue : Proclamation des délégués suppléants \n \nCREATION DE POSTES SAISONNIERS \n \nMme Agnès Pautou présente et explique les choix proposés : \nLa délibération précisant le vote de création des postes saisonniers pour la commune n'a pas été \nretrouvée. Celle-ci est obligatoire pour légitimer et légaliser les embauches. \nPar ailleurs, depuis quelques années, les contrats, les temps de travail, les fiches de poste et \nl'organisation du travail des saisonniers sont parfois limités ou incohérents. \nAucun saisonnier n'avait le même temps de travail et les embauches ainsi que les postes étaient \ndéfinis en fonction des demandes spontanées. \nIl n'est pas possible de répondre à toutes les demandes, ni de choisir les saisonniers sans critères \nni règles. \nC'est pourquoi il est important de recadrer tout cela, de créer des postes avec une fiche de poste \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n3\net des critères d'embauche. \nLes recrutements doivent être réalisés en fonction des postes à pourvoir et non l'inverse. \nPour l’année prochaine, une offre d’emploi cadrée sera publiée en demandant des personnes \nmajeures pour la piscine et être titulaire du permis B pour le service technique. \n \nIl est proposé au conseil municipal de créer des emplois non permanents pour effectuer les \nmissions suite à l’accroissement saisonnier \nAccueil / caisse de la piscine : 2 postes à temps plein par mois  \nMaître-nageur : 2 postes à temps plein par mois \nService technique : 1 poste à temps plein par mois \n \nVote du conseil à l’unanimité \n \n \nMODIFICATION DES INDEMNITES DES ELUS \n \nMonsieur le Maire propose à l’assemblée de modifier le montant des indemnités qui ont été votés \nle 01/04/2026 aux Adjoints et aux conseillers délégués dans le cadre de leurs délégations, sans \ndépassement de l’enveloppe maximale prévue par la Loi, suite à l’arrêté 2026_35_A, pris le \n01/06/2026 qui délègue à M. SANDILLON Jérémie le domaine des Travaux comme suit :  \n \nIl propose de minorer les taux d’indice de l’indemnité du maire et de le verser au nouveau \nconseiller délégué au travaux \n \n- Le Maire, taux de 39,48% de l'indice brut terminal de la fonction publique (taux minoré), \n \n- Les 4 adjoints au Maire, au taux de 9,87% de l'indice brut terminal de la fonction publique \n(taux minoré), \n \n- Les 2 conseillers municipaux délégués au CCAS au taux de 4,14% de l'indice brut \nterminal de la fonction publique (taux minoré) ; \n \n- Le conseiller municipal délégué au Travaux au taux de 4,14% de l'indice brut terminal de \nla fonction publique (taux minoré) ; \n \nMme PAUTOU Agnès précise pour que tout le monde comprenne bien, que le maire et les adjoints \nréduisent leurs indemnités pour permettre de les redistribuer à Jérémie SANDILLON. \nM. le maire confirme et complète en disant que les conseillères déléguées du CCAS ne sont pas \nconcernées par cette modification. \n \nM. le Maire propose de passer au vote.  \nMme ETORE LORTHOLARY Jeanne intervient car elle pense que les indemnités devaient \nd’emblée être diminuées et réparties tout autrement de manière à ce que tous les conseillers qui \nle voulaient aient une mission identifiée. Le saupoudrage aléatoire entre le CCAS et la gestion \ndes travaux ne lui paraît pas souhaitable, Elle ne pense pas, en outre, qu’on doive exclure \nd’œuvrer bénévolement pour la vie publique (ce que la plupart des membres de l’actuel conseil \nn’ont jamais fait). De plus comme elle n’a pas voté les indemnités des élus cela n’aurait pas de \nsens de voter celle-ci. Donc elle s’abstient \n \nVote du conseil à la majorité 14 voix pour 1 abstention (Jeanne ETORE-LORTHOLARY) \n \nCOMPOSITION DE LA CCID \n \nLa direction départementale des finances publiques de l’Aude nous sollicite pour le \nrenouvellement de la commission communale des impôts directs. Cette commission est \ncomposée du maire, de 6 commissaires titulaires et de 6 commissaires suppléants. \nElle est élue pour la durée du mandat. \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n4\nElle tient une place centrale dans la fiscalité directe locale : entre autres, elle donne son avis \nannuellement sur les évaluations nouvelles et modificatives des locaux d’habitations recensées \npar l’administration fiscale. \nIl faut présenter une liste en nombre double soit 24 contribuables de la commune. \nM. le Maire propose une liste de personnes qui ont confirmé vouloir siéger à cette commission : \n-  \nM. AGASSE Baptiste \nMme WEINRICH Sigrid \nMme JACOB Sabine \nMme PUJADE Christel \nM. DECKDENBRONDEN Marc \nM. ETIENNE Jean \nM. METTERY Olivier \nMme ICHE Hélène \nM CHOTARD Guillaume \nM. MARTINEZ Romain  \nM. ALEGRY Claude  \nMr DESBARAT Aimé  \nM. PALY Charles  \nM LASSERRE Philippe  \nMme VENTURA Marie  \nMme SOULIE Christelle  \nMme ETIENNE Marbouba. \nM. OLIVIER Jean-Luc  \nM. OLIVIER Eric \nM. PUJADE Jean-Paul,  \nMme ETORE LORTHOLARY Jeanne, \nM. BOST Thierry,  \nMme GUIRAUD Myriam  \nM. SAFONT Jacques. \n \nLes 12 personnes qui sont tirées au sort par la commission en seront informées, ainsi que la \nmairie. \n \nVote du conseil à l’unanimité \n \nDEMANDE DE PRET \n \nMr le Maire donne la parole à René Labessède, adjoint aux finances, pour expliquer le \nchoix de l'emprunt à contracter. \nPour faire suite à l'élaboration du budget 2026, le déficit du budget d'investissement après \nincorporation de l'excédent de fonctionnement (26.000€) se trouve dans l'obligation de \ncontracter un emprunt de 225.000€, cause d'un cumul de ce déficit ces dernères années \npour lesquels aucune aide financière n'a été demandée. Notre demande auprès de trois \nétablissements financiers a été la suivante : un emprunt de 225.000€ en deux parties : \n125.000€ sur 15 ans à taux fixe et 100.000€ sur 15 ans à taux révisable (-1 point par \nrapport au taux fixe). Le taux révisable afin de pouvoir rembourser tout ou partie du capital \npar anticipation sans pénalité financière, avec la vente de biens immobiliers appartenant \nà la commune. Nous souhaitons aussi bénéficier d'une ligne de trésorerie d'un montant \nfaible pour assurer notre trésorerie. \nLa demande s'est portée sur trois établissements financiers. \n- Banque des territoires : elle n'intervient pas sur les financements de type ligne de \ntrésorerie ou crédits relais et la durée de ses interventions ne se situe qu'entre 25 et 80 \nans. Nous avons abandonné ce choix. \n- Caisse d'Epargne : nous avons eu une proposition de 200.000€ sur 15 ans au taux fixe \ntrimestriel de 4,34%, frais de dossier 0,20%. Pas de proposition de crédit à taux révisable \nni de ligne de trésorerie. \n- Crédit Agricole : proposition d'un emprunt de 125.000€ au taux fixe trimestriel de 4,40% \net un autre de 100.000€ à taux révisable (environ 1% de moins que le taux fixe), frais de \ndossier 0.15% et une ligne de trésorerie de 100.000€ (10% des recettes de \nfonctionnement). \nLes conditions financières entre la Caisse d'Epargne et le Crédit Agricole sont similaires, \nLe choix de la commission des finances s'est porté sur le Crédit Agricole qui nous accorde \nla demande dans sa totalité, la ligne de trésorerie et le prêt à taux révisable. De plus, ce \ndernier, va nous donner la possibilité de faire des économies financières avec la \npossibilité de remboursement anticipé. René Labessede ajoute que le Crédit Agricole est \nnotre partenaire financier depuis toujours, que cet établissement connait bien notre \nsituation et qu'il continue de nous accorder sa confiance. \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n5\nMme ETORE LORTHOLARY Jeanne demande à ce que les premières ventes immobilières \nne soient pas destinées à rembourser immédiatement le prêt à taux révisable mais \nservent à l'autofinancement de gros investissements. Mr Labessède René lui répond \nqu'effectivement le prêt ne sera pas remboursé avec les premières ventes. Elles seront \nconservées en trésorerie, autant que faire se peut, pour financer les petits \ninvestissements car, aujourd'hui nous n'avons aucune disponibilité. L'apport pour des \ntravaux plus importants se fera plus tard, si on arrive à cumuler plus d'autofinancement. \nL'ensemble des conseillers est d'accord pour utiliser la ligne de trésorerie avec \nprécaution. \nMr le Maire propose de passer au vote. \n \n \nVote du conseil à l’unanimité pour le crédit agricole \n \nVENTE D’UN IMMEUBLE CADASTREE C 551 \n \nM. le maire propose au conseil municipal de procéder à la vente l’immeuble cadastrée C0551 \nsitué au 1 rue des Oliviers.  \nSuperficie du terrain : 277 m², 48m² habitable. (1 pièce à vivre, 1 chambre, 1 salle d’eau, 1 \nannexe) \nJe vous donne lecture du cahier des charges prescrivant les conditions de vente et d’attribution : \nMise à prix : \n70 000,00 EUR. \nConditions d’attribution : Au plus offrant, sous réserve de conditions de financement. En cas \nd’offres identiques, la vente sera consentie à la première offre \nreçue. Les offres seront examinées par la Commission d’Appel \nd’Offres de la commune de Montolieu, spécialement convoquée à \nl’issue de la date limite de réception des offres. Un examen \ncomplémentaire des offres pourra s’avérer nécessaire. Les résultats \nseront consignés sur un procès-verbal. \nMonsieur le Maire est autorisé à signer l’acte de vente à intervenir \nen l’étude de Maître ROUANET et Maître MOUREAU, Notaires à \nCUXAC CABARDES (11390). \nDépôt de garantie : \n10% lors de la signature du compromis de vente entre le vendeur et \nl’acheteur. \nDépôt des offres d’achats : \nRemise en mains propres contre récépissé ou par lettre recommandé avec accusé de réception, \nsous pli cacheté, portant l’indication suivante sur l’enveloppe extérieure : \n \n« Ne pas ouvrir – offre d’achat vente 1 RUE DES OLIVIERS » \n \nLes réceptions des offres seront enregistrées sur un registre spécialement ouvert à cet effet. \nDate de mise en vente : \net Date limite de réception des offres : \n  \nConditionnées au retour des expertises DPE et assainissement \n \nRenseignements et visites : \n \nMairie de Montolieu \n \n \n \n \n \n \nRue de la Mairie \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n6\n \n \n \n \n \n \n11170 – MONTOLIEU \n \n \n \n \n \n \n04.68.24.84.03 \n \n \n \n \n \n \nMail : mairie@montolieu.fr \n \nNotaire chargé de la vente : \n \nEtude de Maître ROUANET et Maître MOUREAU \n \n \n \n \n \n \nNotaires \n \n \n \n \n \n \n2 bis rue Bellevue \n \n \n \n \n \n \n11390 – CUXAC CABARDES. \n \nPublicité de la vente : \n Affichage dans les panneaux d’informations \ncommunaux ; \n \n Voie électronique ; \nIl propose de passer au vote \nMme ETORE LORTHOLARY Jeanne intervient en expliquant que l’habitation étant en très \nmauvais état, sa rénovation poserait problème à la commune, et elle n’est pas hostile à cette \nvente à condition seulement que le produit soit destiné à un projet précis et ne se perde pas dans \nle fonctionnement général, qu’il soit par exemple réservé à constituer une part des 20% que la \nmunicipalité devra investir dans la prochaine tranche du presbytère ou de l’église (beffroi). \nElle pense aussi qu’on pourrait du coup par ailleurs renoncer à la vente des locaux que la \ncommune possède au cœur du village.  \n \nVote du conseil à l’unanimité \n \n \nDROIT DE PREEMPTION \n \nDésignation du bien vendu :  \nRéf. Cadastrale :  \nSection \nN° \nLieu-dit \nSuperficie totale \nAB  \n221 \n13 rue du Terrier \n00 ha 01 a 10 ca \nAB \n223 \n13 rue du Terrier \n00 ha 01 a 28 ca \n \nUsage :  \nHabitation \nPrix de vente :  80 000 euros \nVendeur(s) :  \nM. et Mme LAGASSE Serge et Solange \n \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.329,
+      "text": " \n7\n \n \n \nVote du conseil municipal contre l’exercice du droit de préemption à l’unanimité \n \n \n \n \nINFORMATIONS \n \n- \nCOMPOSITION DE LA COMMISSION DE CONTRÔLE DES LISTES ELECTORALES \n \nTitulaires :  \nGUIRAUD Myriam \nPECH Christophe \nPUJADE Jean-Paul \nETORE LORTHOLARY Jeanne \nOLIVIER Jean-Luc \n \nSuppléants : \nETIENNE Marbouba \nOLIVIER Eric \nSALA Céline \n \nQUESTIONS DIVERSES S’IL Y A  \n \nMme ETORE LORTHOLARY Jeanne demande où en sont les travaux à la Tannerie ? \nM ; le Maire explique que Mme Louise Romain a entrepris des travaux de mise en sécurité qui \nsont valables 6 mois. Donc l’accès est sécurisé, mais manque encore des travaux \n \n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=8",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n8\nsupplémentaires. L’entreprise de désamiantage a tout enlevé. \n \nMme ETORE LORTHOLARY Jeanne demande où en est la situation des locataires. M. le \nmaire répond qu’une réunion a eu lieu à ce sujet et que pour l’instant ils ne peuvent pas revenir \ndans leurs maisons. Ils sont logés ailleurs mais c’est Mme Louise ROMAIN qui paie leur loyer. \n \nMme ETORE LORTHOLARY Jeanne demande quand sera réhabilité le chemin de la \ntannerie ? M. Thierry BOST répond qu’actuellement les agents sont occupés par la piscine, \ndemande pour ceres franco, nettoyage, etc. que cela peut attendre. Mme ETORE \nLORTHOLARY demande à ce que le fossé soit nettoyé et la buse réparée car quelqu’un \npourrait se blesser. \n \nLe Pradel : Mme ETORE LORTHOLARY Jeanne rappelle qu’il avait été dit en réunion de \ntravail que des rondins de bois seraient posés au bord du pradel entre les platanes, pour \nempêcher les voitures de trop s’avancer contre le muret, ou de boucher le passage devant la \nmaison de Mallast. \nM. Thierry BOST répond que cela va se faire. \n \nLes lauriers devant l’église : Mme ETORE LORTHOLARY ne comprend pas comment les \nlauriers ont pu être taillés de cette façon. De plus elle demande où en est l’étude sur le fait de \nplanter des cyprès pour réduire l’impact visuel de la maison au-dessous du cimetière. \nIl faut en repaler \n \nMme ETORE LORTHOLARY fait remarquer l’absence de tout représentant du conseil \nmunicipal à l’accueil d’auteurs relativement importants. \n \nM. Eric OLIVIER demande si Mr VERQUIN a répondu à notre mail de demande de rendez-\nvous pour revoir le PLU. Oui, mais cela va nécessiter un coût supplémentaire. \nIl faut le rappeler \n \n \n \nL’ordre du jour étant épuisé la séance est levée à 20 h 55. \n \n \n \n \n \n \n \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "18adfbfc9505326289b179c8ff6938be49065a434d04138199a1cf2ca1944cd1",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:39:48+00:00",
+      "last_modified": "Wed, 01 Jul 2026 11:35:19 GMT",
+      "superseded_at": null,
+      "record": "minutes/684e65ccc146.json",
+      "diff_from_previous": null
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "document_id": "bd1590cd8bbe",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf",
+  "source_sha256": "c99dcbd77a786e8f926a611a3a7d08149393a15fcd820aba9762cedc5debcc94",
+  "source_bytes": 394598,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 27 Dec 2024 09:08:08 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:36:48+00:00",
+  "meeting_date": {
+    "value": "2024-10-23",
+    "source": "text layer, page 1: '23 OCTOBRE 2024'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 8,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \nCONSEIL MUNICIPAL DU 23 OCTOBRE 2024 à 20 h 00 \n \nL’an deux mille vingt-quatre et le vingt-trois octobre à 20 h 00, le conseil municipal dûment convoqué s’est \nréuni sous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de Montolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Magalie BOST- BERGÉ Antoine CASAS-HARILLO, Laure ESCARÉ, Jeanne \nETORÉ-LORTHOLARY, Bernard LAURET, Valérie MONRAISIN, Jean-Luc OLIVIER, Jacques SAFONT.  \n \n \nEtaient absents :  \nCéline SALA procuration à Aurélie BARBERO \nÉric OLIVIER, procuration à Magalie BOST- BERGÉ \nJamel GHARBI, procuration à Bernard LAURET \nVincent PICQUE \n \nLa séance est ouverte à 20h05 \n \nSecrétariat de séance \nLaure ESCARÉ propose d’assurer le secrétariat de la séance. \nLa proposition est retenue à l’unanimité par le conseil  \n \nOrdre du jour \n- \nApprobation du procès-Verbal du conseil du 18 septembre 2024  \n- \nFinancement des projets d’investissement 2025 \n- \nConvention entre la commune et l’association MVdL \n- \nZone d’accélération des énergies renouvelables ; \n- \nLancement marché phase 1 de l’église St André \n- \nDroits de préemption                                                                                                                                                           \n- \nInformations \nMonsieur le maire propose de rajouter à l’ordre du jour deux délibérations : \n- \nUne pour permettre à la commune de se constituer partie civile. \n- \nUne autre pour la constitution de la commission communale des impôts directs \nElles seront étudiées avant les droits de préemption. \n➢ Le conseil accepte à l’unanimité le rajout à l’ordre du jour \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 18 SEPTEMBRE 2024 \n \nLe procès-verbal a été communiqué avec la convocation \n➢ Le conseil Municipal l’approuve à l’unanimité. \n \nFINANCEMENT DES PROJETS D’INVESTISSEMENT 2025 \n \nRénovation de la piscine \n \nIl s’agit de remplacer les liners et de revoir le circuit de canalisation qui présente actuellement de nombreuses \nfuites que l’entreprise création piscine a colmaté pour permettre l’exploitation estivale sans trop de \ndéperdition d’eau. Mais la réparation est temporaire et nécessite une rénovation complète de l’équipement. \nParallèlement, les filtres qui datent de la construction commencent à se corroder et leur remplacement \ndevient nécessaire. \n \n \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "2 \n \nCoût Hors Taxe \nFinancement \nMontant sollicité \nPourcentage \nd’intervention \nRemplacement \nliner \net canalisation \n132 027,43 \nEtat \n73 268,42 \n30% \nRégion \n73 268,42 \n30% \nRemplacement \ndes \nfiltres \n112 200,64 \nDépartement \n48 845,61 \n20% \nCommune \n48 845,62 \n20% \nTOTAL  \n244 228,07 \nTOTAL \n244 228,07 \n100% \n \nCompte tenu du montant total de l’opération, un marché à procédure adaptée sera nécessaire. \n \nAménagement paysager de l’espace de loisirs \nPour rappel l’aménagement a été négocié avec l’ABF, il implique outre la plantation d’arbres, et arbustes, \nl’installation de mobiliers urbains (bancs, tables pique-nique…) le traçage de cheminements dont un autour \nd’une goutte pédagogique. \n \n \nCoût Hors Taxe \nFinancement \nMontant sollicité \nPourcentage \nd’intervention \nAménagement \npaysager \n(terrassement, muret, \nmobilier et végétaux \n68 980,00 \nEtat \n20 694,00 \n30% \nRégion \n20 694,00 \n30% \nDépartement \n13 796,00 \n20% \nCommune \n13 796,00 \n20% \nTOTAL  \n68 980,00 \nTOTAL \n68 980,00 \n100% \n \nRéfection du chauffage du musée du Livre \nLes modalités de chauffage actuelles ne permettent pas de chauffer correctement le musée, et entraînent \ndes coûts de fonctionnement qui deviennent insupportables. \nIl est proposé de mettre en place rapidement une climatisation réversible pour permettre un minimum de \nconfort pour les visiteurs, les salariés et les bénévoles de l’association MVdL (hiver comme été) tout en \ndiminuant la facture d’électricité. \nCette modification entraine un aménagement du bâti qui se situe dans le périmètre de protection de l’église \nclassée au monument historique, afin que l’intégration se fasse de la façon la plus harmonieuse au rapport \nde l’architecture de bâtiment. \nLes travaux d’aménagement du local technique seront assurés en régie. \n \n \nCoût Hors Taxe \nFinancement \nMontant sollicité \nPourcentage \nd’intervention \nInstallation électrique \n15 000,00 \n \nEtat  \n5 307,00 \n30% \nRégion \n5 307,00 \n30% \nIntégration \narchitecturale dans le \nbâti existant \n2 690,00 \nDépartement \n3 538,00 \n20% \nCommune \n3 538,00 \n \n20% \nTOTAL  \n17 690,00 \nTOTAL \n17 690,00 \n \n100% \n \n➢ Le conseil vote à l’unanimité \n➢ La validation des plans de financement \n➢ L’autorisation au maire pour solliciter les subventions nécessaires. \n \nPour rappel il sera fait appel au FPIC pour le financement du tracteur et de la voirie \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "3 \nLa mise en place des caméras de vidéo protection sera autofinancée. La demande sera faite pour la totalité \ndes caméras, mais la mise en place pourra se faire par tranche. \n \nPour information seront reportés en 2025, les travaux de voirie 2024, (département + FPIC), et un appel \nd’avance sera émis vers la DRAC et la région pour le début des travaux relatifs à l’église. \nLes investissements de l’école au titre de l’opération Nèfle seront couvert par une subvention d’Etat. \n \nCONVENTION ENTRE LA COMMUNE ET L’ASSOCIATION MVdL \nLa convention initiale passée entre la commune et MVdL en 2001, nécessite un toilettage sur un certain \nnombre de points, notamment pour valider juridiquement la mise à disposition désormais gratuite des locaux \ndu musée des arts et métiers du livre, et actualiser les engagements réciproques de chaque partie. \nLe projet de convention a été transmis en amont à Monsieur Jean Claude BARDOUT président actuel de MVdL \npour relecture. Une délégation de l’association a été reçue en mairie pour échanger sur certains points. La \nconvention finalisée a ensuite été diffusée aux conseillers municipaux avec la convocation au présent conseil. \nLa présentation devant le conseil est nécessaire du fait de l’engagement de la commune dans l’attribution \nd’une subvention annuelle.  \n \n➢ Le conseil autorise à l’unanimité Bernard LAURET maire, à signer pour le compte de la commune de \nMontolieu la convention avec l’association Montolieu village du Livre et des arts. \n \nZONE D’ACCELLERATION DES ENERGIES RENOUVELABLES \n \nLe conseil municipal du 13 juin a voté la mise en place d’une concertation publique sur la création d’une \nZAENR conformément aux dispositions de l'article L 141-5-3 du code de l'énergie introduit par ladite loi du \n10 mars 2023 ; \nLa concertation a été ouverte du 1er juillet 2024 au 30 août 2024. \nLes habitants de la commune en ont été avertis par le bulletin municipal, et l’envoi d’une information via des \nmoyens dématérialisés Mail Jet et Panneau Pocket. \nA l’issue de cette concertation, 3 personnes se sont manifestées, une favorablement, deux émettant des \nréserves en lien avec le projet de centrale photovoltaïque prévu sur le site : réduction des secteurs de chasse \ndu petit gibier, protection de la faune, du site, et de celui de la chapelle St Roch, inquiétude sur le devenir de \nchemins pédestre. \nUne réponse circonstanciée a été envoyé à chacun, et il convient de poursuivre la démarche, actant du \nclassement de la zone ci-dessous définie auprès de la préfecture \n \n \nSecteur communal concerné  \nFilière de production d’énergie  \nZone 1  \nC44, C45, C46, C47, C50, C51, \nC56, C57, C58, C59 et C677 au \nlieudit Cazelle \nSolaire photovoltaïque au sol \n \nLe conseil est appelé à voter : \n• Le classement de la zone 1 au lieu-dit Cazelle pour la seule production d’énergie d’électricité solaire \nphotovoltaïque au sol, tel que précisé ci-dessus, et selon le plan cadastral joint \n• La notification de cette proposition au référent préfectoral unique du département, et ampliation à \nCarcassonne Agglo en charge de l’établissement du schéma de Cohérence territoriale  \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.275,
+      "text": "4 \n  \n \n• Le conseil vote par 10 voix pour, 2 voix contre et une abstention le classement de la zone 1 au lieu-\ndit Cazelle pour la seule production d’énergie d’électricité solaire photovoltaïque au sol, tel que \nprécisé ci-dessus, et selon le plan cadastral joint \n• La notification de cette proposition au référent préfectoral unique du département, et ampliation à \nCarcassonne Agglo en charge de l’établissement du schéma de Cohérence territoriale  \n \nLANCEMENT MARCHÉ DE TRAVAUX POUR LA PHASE 1 POUR L’EGLISE ST ANDRÉ \n \nMonsieur le Maire rappelle à l’assemblée que, conformément à l’article 28 du nouveau code des \nMarchés Publics, une consultation a été lancée par la Commune dans le but de confier les travaux de \nrestauration de l’église St André pour sa phase 1, qui comprend une tranche ferme, et 3 tranches \noptionnelles. \n \nLa mise en concurrence des entreprises sera effectuée par voie de presse dans le journal La Dépêche du Midi, \npar affichage en Mairie du 31/10/2024 au 30/11/2024, ainsi que sur plateforme de dématérialisation des \nmarchés https://marchespublics.aude.fr \n \nLaure ESCARÉ rappelle que l’ensemble de la restauration est prévu en 4 phases pour un total estimé en 2018 \naux alentours de 4 millions. \nLa phase 1 en cours d’engagement se divise elle-même en 4 tranches, une ferme et trois tranches \noptionnelles. \nLa tranche ferme pour laquelle les travaux devraient débuter comprend une réfection extérieure du côté \nnord de l’église dont une révision de la pente de la toiture qui est actuellement insuffisante et la restauration \nintérieure de la chapelle St Roch. \n \n➢ Le conseil approuve à l’unanimité, le lancement de la consultation des entreprises pour les travaux \nde restauration de l’église St André, et donne mandat à Monsieur le Maire pour tout ce qui concerne \nla réalisation et le règlement des dépenses correspondantes. \n \nAUTORISATION DU CONSEIL AU MAIRE POUR QU’IL SE CONSTITUE PARTIE CIVILE POUR LA COMMUNE \n \nLe maire, selon l’article L. 2122-21 du code général des collectivités territoriales, représente la commune \ndans tous ses actes juridiques et notamment dans ses actions en justice. Toutefois, le mandat de maire \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "5 \nn’emporte pas ipso facto habilitation à agir en justice pour le compte de la commune. Le conseil municipal \nest, en effet, seul compétent pour décider des actions à intenter au nom de la commune et autoriser le maire \nà les mettre en œuvre. \n A ce titre l’article L2122-22 du code général des collectivités territoriales prévoit la délégation suivante : \n« 16° D'intenter au nom de la commune les actions en justice ou de défendre la commune dans les actions \nintentées contre elle, dans les cas définis par le conseil municipal, et de transiger avec les tiers dans la limite \nde 1 000 € pour les communes de moins de 50 000 habitants et de 5 000 € pour les communes de 50 000 \nhabitants et plus ;  \nDans le cadre d’une audience prévue le 13 novembre prochain, la commune doit se constituer partie civile \npour obtenir réparation du préjudice \nLe conseil est appelé à voter en conséquence délégation au Maire pour se constituer partie civile au nom de \nla commune.  \n \n➢ Le conseil donne délégation à l’unanimité à B. LAURET pour se constituer partie civile au nom de la \ncommune pour l’audience du 13 novembre 2024. \n \n \nCONSTITUTION DE LA COMMISSION COMMUNALE DES IMPÖTS DIRECTS \n \nLa commission communale des impôts directs est chargée de dresser, avec le représentant de \nl’administration fiscale, la liste des locaux de référence et des locaux types retenus pour déterminer la valeur \nlocative des biens imposables aux impôts directs locaux.  \nElle participe à l’évaluation des propriétés bâties et à l’élaboration des tarifs d’évaluation des propriétés non \nbâties. Enfin, elle formule des avis sur des réclamations portant sur la taxe d’habitation. \nElle intervient également en amont des procédures visant à acquérir les biens sans maîtres. \n \nElle aurait dû être renouvelée lors des dernières élections municipales, mais a priori la relance légalement \nprévue de la part du directeur départemental des finances n’a pas été réceptionnée. \n \nLa commission communale des impôts locaux est présidée par le Maire ou son représentant. Le Conseil \nmunicipal doit présenter une liste de 12 contribuables. Le Directeur des services fiscaux désignera à partir de \ncette liste les 6 titulaires et les 6 suppléants qui seront appelés à siéger. \nLes commissaires doivent être de nationalité française ou ressortissants d'un Etat membre de l'Union \neuropéenne, être âgés de 25 ans au moins, jouir de leurs droits civils, être inscrits aux rôles des impositions \ndirectes locales dans la Commune, être familiarisés avec les circonstances locales et posséder des \nconnaissances suffisantes pour l'exécution des travaux confiés à la commission. Depuis 2020, il n’est plus \nnécessaire qu’un des commissaires soit domicilié hors de la commune. \n \nAprès échange, une liste de noms est établie. Les personnes seront sollicitées, et après accord 12 noms seront \nproposés au Directeur des services fiscaux. \n \nDROITS DE PRÉEMPTION \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nE \n352 \nPONT JALABERT OUEST \n2176 \nE \n356 \nPONT JALABERT OUEST \n69 \nE \n360 \nPONT JALABERT OUEST \n51 \n \n \n \n \n \n \n \n \n \nUsage : \n \nTerrains à bâtir \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.292,
+      "text": "6 \nPrix de vente :  \n \n58 000,00 euros \nVendeur(s) :   \nConsorts LANAU \n \n \n \n \n  \n \n \n \n \n \n \n \n \nLors du dernier conseil, avait été soulevé les réflexions en cours sur le PLU concernant la parcelle, et la \nquestion avait été remontée auprès de notre prestataire SOLIHA. \nAprès consultation de ce dernier, il ressort que l’aspect constructible de ce dernier ne sera pas remis en \ncause. \nL’application de la loi Montagne pourrait à terme déclasser le fond de jardin, empêchant in fine une division \nparcellaire pour une autre construction. \n \n➢ Le conseil décide par 12 voix contre et une abstention de ne pas exercer le droit de préemption \n \n \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.1,
+      "text": "7 \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n232 \n11 Rue Nationale \n34m² \n \n \n \n \n \n \n \n \n \nUsage : \n \nBâtiment à usage de remise \nPrix de vente :  \n \n28 000,00 euros \nVendeur(s) :   \nMme BERNOU Paule \n \n \n \n \n➢ Le conseil vote à l’unanimité contre l’exercice du droit de préemption \n \nDésignation du bien vendu :  \n \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n546 \n5 rue Saint Denis \n80 m² \n \n \n \n \n \n \n \n \nUsage : \n \nBâtiment à usage d’habitation \nPrix de vente :  \n \n150 500,00 euros \nVendeur(s) :   \nMme BIDAULT Marthe, Mr BIDAULT Hoël \n \n \n \n➢ Le conseil vote à l’unanimité contre l’exercice du droit de préemption \n \n \n \n \n \n \n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=8",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.064,
+      "text": "8 \nDésignation du bien vendu  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n0057 \n22 rue de la mairie \n38 m² \n \n \n \n \n \n \nUsage : \n \nBâtiment à usage commercial \nPrix de vente :  \n \n70 000,00 euros \nVendeur(s) :   \nMr BLAYO Frédéric \n \n \n \n➢ Le conseil vote à l’unanimité contre l’exercice du droit de préemption \nL’ordre du jour étant épuisé, la séance est levée à 21 h 14 \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "c99dcbd77a786e8f926a611a3a7d08149393a15fcd820aba9762cedc5debcc94",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:36:48+00:00",
+      "last_modified": "Fri, 27 Dec 2024 09:08:08 GMT",
+      "superseded_at": null,
+      "record": "minutes/bd1590cd8bbe.json",
+      "diff_from_previous": null
+    }
+  ]
+}

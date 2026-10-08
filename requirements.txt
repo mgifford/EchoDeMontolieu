@@ -1,0 +1,8 @@
+# Versions are intentionally not pinned yet. Pin once the pipeline is settled.
+requests
+beautifulsoup4
+lxml
+pymupdf
+pytesseract
+pillow
+pytest

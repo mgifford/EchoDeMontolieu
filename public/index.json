@@ -1,0 +1,467 @@
+{
+  "count": 25,
+  "documents": [
+    {
+      "document_id": "0fff47b73223",
+      "filename": "PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf",
+      "meeting_date": {
+        "value": "2026-07-22",
+        "source": "text layer, page 1: '22 JUILLET 2026'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 7,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/0fff47b73223.json"
+    },
+    {
+      "document_id": "ec69e949afbb",
+      "filename": "CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf",
+      "meeting_date": {
+        "value": "2026-06-26",
+        "source": "text layer, page 1: '26 JUIN 2026'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 2,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/ec69e949afbb.json"
+    },
+    {
+      "document_id": "684e65ccc146",
+      "filename": "PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf",
+      "meeting_date": {
+        "value": "2026-06-05",
+        "source": "text layer, page 1: '5 JUIN 2026'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 8,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/684e65ccc146.json"
+    },
+    {
+      "document_id": "c3d02d2895d6",
+      "filename": "PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf",
+      "meeting_date": {
+        "value": "2026-04-30",
+        "source": "text layer, page 1: '30 AVRIL 2026'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 6,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/c3d02d2895d6.json"
+    },
+    {
+      "document_id": "babef036850a",
+      "filename": "CRCM-DU-13-avril-2026-SITE-INTERNET.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf",
+      "meeting_date": {
+        "value": "2026-04-13",
+        "source": "text layer, page 1: '13 AVRIL 2026'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 8,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/babef036850a.json"
+    },
+    {
+      "document_id": "650cf05da13b",
+      "filename": "CRCM-DU-01-avril-2026-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf",
+      "meeting_date": {
+        "value": "2026-04-01",
+        "source": "text layer, page 1: '01 AVRIL 2026'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 5,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/650cf05da13b.json"
+    },
+    {
+      "document_id": "d00d39c52187",
+      "filename": "CRCM-28-mars-2026-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf",
+      "meeting_date": {
+        "value": "2026-03-28",
+        "source": "text layer, page 1: '28 mars 2026'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 3,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/d00d39c52187.json"
+    },
+    {
+      "document_id": "6a549d058b41",
+      "filename": "CRCM-09-03-2026-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf",
+      "meeting_date": {
+        "value": "2026-03-09",
+        "source": "text layer, page 1: '9 MARS 2026'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 9,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/6a549d058b41.json"
+    },
+    {
+      "document_id": "69ff99ddbb5c",
+      "filename": "CRCM-8-01-2026-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf",
+      "meeting_date": {
+        "value": "2026-01-08",
+        "source": "text layer, page 1: '8 JANVIER 2026'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 3,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/69ff99ddbb5c.json"
+    },
+    {
+      "document_id": "5b79f5d2dbd5",
+      "filename": "CRCM-27-11-2025-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf",
+      "meeting_date": {
+        "value": "2025-11-27",
+        "source": "text layer, page 1: '27 NOVEMBRE 2025'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 10,
+      "ocr_pages": [
+        8,
+        9
+      ],
+      "needs_review_pages": [
+        8,
+        9
+      ],
+      "file": "minutes/5b79f5d2dbd5.json"
+    },
+    {
+      "document_id": "958b8bb11627",
+      "filename": "CRCM-27102025-site.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf",
+      "meeting_date": {
+        "value": "2025-10-27",
+        "source": "text layer, page 1: '27 OCTOBRE 2025'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 8,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/958b8bb11627.json"
+    },
+    {
+      "document_id": "f950f0c50c7a",
+      "filename": "CRCM-25092025-site.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
+      "meeting_date": {
+        "value": "2025-09-25",
+        "source": "text layer, page 1: '25 SEPTEMBRE 2025'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 9,
+      "ocr_pages": [
+        9
+      ],
+      "needs_review_pages": [
+        9
+      ],
+      "file": "minutes/f950f0c50c7a.json"
+    },
+    {
+      "document_id": "12c02e0b1d15",
+      "filename": "CRCM-24062025-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf",
+      "meeting_date": {
+        "value": "2025-06-24",
+        "source": "text layer, page 1: '24 JUIN 2025'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 8,
+      "ocr_pages": [
+        7,
+        8
+      ],
+      "needs_review_pages": [
+        7,
+        8
+      ],
+      "file": "minutes/12c02e0b1d15.json"
+    },
+    {
+      "document_id": "e65120caa50f",
+      "filename": "CRCM-27-05-2025-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf",
+      "meeting_date": {
+        "value": "2025-05-27",
+        "source": "text layer, page 1: '27 MAI  2025'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 10,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/e65120caa50f.json"
+    },
+    {
+      "document_id": "ad091bede91f",
+      "filename": "CRCM-14-AVRIL-2025-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf",
+      "meeting_date": {
+        "value": "2025-04-14",
+        "source": "text layer, page 1: '14 AVRIL 2025'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 7,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/ad091bede91f.json"
+    },
+    {
+      "document_id": "bd5dc38ec050",
+      "filename": "CRCM-27-03-2025-1-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf",
+      "meeting_date": {
+        "value": "2025-03-27",
+        "source": "text layer, page 1: '27 MARS  2025'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 12,
+      "ocr_pages": [
+        3
+      ],
+      "needs_review_pages": [
+        3
+      ],
+      "file": "minutes/bd5dc38ec050.json"
+    },
+    {
+      "document_id": "cb0ab543d101",
+      "filename": "CRCM-6-MARS-2025-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf",
+      "meeting_date": {
+        "value": "2025-03-06",
+        "source": "text layer, page 1: '6 MARS 2025'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 8,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/cb0ab543d101.json"
+    },
+    {
+      "document_id": "75d1d9f03898",
+      "filename": "crcm-14012025-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf",
+      "meeting_date": {
+        "value": "2025-01-14",
+        "source": "text layer, page 1: '14 JANVIER 2025'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 6,
+      "ocr_pages": [
+        5
+      ],
+      "needs_review_pages": [
+        5
+      ],
+      "file": "minutes/75d1d9f03898.json"
+    },
+    {
+      "document_id": "430999f10e6c",
+      "filename": "CRCM-27-11-2024-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf",
+      "meeting_date": {
+        "value": "2024-11-27",
+        "source": "text layer, page 1: '27 NOVEMBRE 2024'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 6,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/430999f10e6c.json"
+    },
+    {
+      "document_id": "bd1590cd8bbe",
+      "filename": "CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf",
+      "meeting_date": {
+        "value": "2024-10-23",
+        "source": "text layer, page 1: '23 OCTOBRE 2024'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 8,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/bd1590cd8bbe.json"
+    },
+    {
+      "document_id": "699f63723028",
+      "filename": "CM-18-SEPTEMBRE-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf",
+      "meeting_date": {
+        "value": "2024-09-18",
+        "source": "text layer, page 1: '18 SEPTEMBRE 2024'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 8,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/699f63723028.json"
+    },
+    {
+      "document_id": "607c8c991745",
+      "filename": "CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf",
+      "meeting_date": {
+        "value": "2024-06-13",
+        "source": "text layer, page 1: '13 JUIN 2024'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 8,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/607c8c991745.json"
+    },
+    {
+      "document_id": "f4280c76c03d",
+      "filename": "Projet-CM-15-avril-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf",
+      "meeting_date": {
+        "value": "2024-04-15",
+        "source": "text layer, page 1: '15 AVRIL 2024'",
+        "status": "tentative"
+      },
+      "draft_suspected": true,
+      "version": 1,
+      "versions": 1,
+      "pages": 4,
+      "ocr_pages": [
+        3
+      ],
+      "needs_review_pages": [],
+      "file": "minutes/f4280c76c03d.json"
+    },
+    {
+      "document_id": "088787638b92",
+      "filename": "CRCM-4-avril-2024-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf",
+      "meeting_date": {
+        "value": "2024-04-04",
+        "source": "text layer, page 1: '4 AVRIL 2024'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 20,
+      "ocr_pages": [
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "needs_review_pages": [
+        9,
+        19
+      ],
+      "file": "minutes/088787638b92.json"
+    },
+    {
+      "document_id": "14de957b7587",
+      "filename": "CM-31-JANVIER-2024-site-internet.pdf",
+      "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf",
+      "meeting_date": {
+        "value": "2024-01-31",
+        "source": "text layer, page 1: '31 JANVIER 2024'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 5,
+      "ocr_pages": [
+        4
+      ],
+      "needs_review_pages": [],
+      "file": "minutes/14de957b7587.json"
+    }
+  ]
+}

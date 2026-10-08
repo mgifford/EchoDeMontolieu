@@ -1,0 +1,128 @@
+{
+  "document_id": "958b8bb11627",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM-27102025-site.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf",
+  "source_sha256": "6eadddaefcc758e6b2fc40ee1a959f48fd1c07940c8d8a6f9868eeec13437b20",
+  "source_bytes": 494469,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 05 Dec 2025 14:59:41 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:38:44+00:00",
+  "meeting_date": {
+    "value": "2025-10-27",
+    "source": "text layer, page 1: '27 OCTOBRE 2025'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 8,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \n \nCONSEIL MUNICIPAL DU 27 OCTOBRE 2025  \n \nL’an deux mille vingt-cinq et le vingt-sept septembre à 20 h 01, le conseil municipal dûment \nconvoqué s’est réuni sous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la \nmairie de Montolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Antoine CASAS-HARILLO, Laure ESCARÉ, Jeanne ETORÉ-\nLORTHOLARY, Jamel GHARBI, Bernard LAURET, Valérie MONRAISIN, Éric OLIVIER, Jean-Luc \nOLIVIER, Jacques SAFONT. \n \n \nEtaient absents :  \nMagalie BOST- BERGÉ, procuration à Éric OLIVIER \nVincent PICQUE, procuration à Laure ESCARÉ \nCéline SALA, procuration à Aurélie BARBERO \n \nLa séance est ouverte à 20 h 01 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat de la séance. \nLa proposition est retenue à l’unanimité. \n \nOrdre du jour \n  \n- \nApprobation du Procès-Verbal du 25 septembre 2025 \n- \nReconduction assurance SMACL \n- \nDemande de subvention pour Cheminement piétonnier vers la coopérative musée Cérès \nFranco \n- \nAccord de principe et accord lancement des études pour la centrale Photovoltaïque \n- \nSchéma d'aménagement et de gestion des eaux (SAGE) Aude et côtiers audois \n- \nProjet Educatif de Territoire (PEDT) de Carcassonne Agglo \n- \nDroits de préemption  \n \nInformations \n \nMonsieur le Maire propose d’ajouter 3 points supplémentaires à l’ordre du jour :  \n• Une sollicitation pour une participation financière à une opération de communication \ns’étendant sur deux ans pour La coopérative musée Cérès Franco \n• L’installation d’une borne de recharge pour voiture électrique  \n• L’attribution du lot Plâtrerie pour les travaux de l’église St André \n \nCes points seront abordés après celui sur les droits de préemption \n \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 25 SEPTEMBRE 2025 \n \nLe procès-verbal a été communiqué avec la convocation au présent conseil. \nJeanne ETORÉ-LORTHOLARY reproche que le Procès-Verbal ne soit pas complet et présente plus \nles arguments des uns plutôt que ceux des autres. \nElle cite notamment le fait que pour le camping à la ferme, Jean-Luc OLIVIER a indiqué qu’il y avait \nun rachat d’exploitation et que les nouveaux exploitants n’avaient pas pu faire leur demande. \nLaure ESCARÉ rappelle que le PV est envoyé avant affichage à l’ensemble des conseillers et qu’il \nest loisible à tous d’intervenir pour faire part de leurs compléments si nécessaire. \nJeanne ETORÉ-LORTHOLARY rétorque que le PV devrait être lu en séance avant l’approbation et \nqu’elle a parfaitement le droit de faire des remarques jusqu’à son approbation. \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "2 \n \nBernard Lauret demande si elle veut qu’il en fasse maintenant la lecture. Elle répond que c’est \ninutile. \n \nLe conseil adopte par 13 voix pour et 1 abstention le Procès-Verbal du conseil du 25 septembre \n2025. \n \nRECONDUCTION CONTRAT D’ASSURANCE SMACL \n \nMonsieur le maire rappelle que l’agence AVEROUX avait été chargée de mener une recherche pour \nrenégocier le marché d’assurance de la mairie. \nSur le sujet de l’assurance pour les véhicules, cette dernière nous avait indiqué qu’elle ne pouvait \ntrouver moins chers, par ailleurs aucun contact n’avait été repris depuis concernant le reste des \ngaranties. \nLa SMACL a fait le point dernièrement pour vérifier les éléments dont elle disposait et a transmis \nles propositions suivantes (TTC) \n \n \nSi l’on prend le maximum de protection (non compris la garantie auto-collaborateur, la facture serait \nde 16 816,93 € en 2026 soit une augmentation de 11,1% \nSi l’on choisit la franchise intermédiaire pour le dommage aux biens et les véhicules à moteur, le \nmontant est de 15 418,93 € soit une croissance de 1,86% ; \nEnfin si la commune opte pour des franchises plus fortes, on tombe à 14 909,51€ soit une baisse \nde 1.01% \n \nLe conseil vote à l’unanimité pour la proposition comprenant la franchise intermédiaire pour un \nmontant de 15 418,93 euros. \n \nDEMANDE \nDE \nSUBVENTION \nPOUR \nLE \nCHEMINEMENT \nPIETONNIER \nVERS \nLA \nCOOPERATIVE MUSEE CERES FRANCO \n \n A la demande des partenaires du GIP, l’ATD11 a présenté le projet détaillé du cheminement partant \ndu parking St Roch. L’ensemble des documents a été transmis aux conseillers le 14 octobre. \nL’ensemble du projet, études comprises se monte à 484 000 € TTC, en tenant compte d’une remise \naux normes complètes du pont (gardes corps compris), laquelle représenterait 294 000 € TTC soit \nprès de 61 % de l’ensemble de la dépense. \nL’ensemble des travaux nécessite un phasage, le document transmis par l’ATD11 permettant \nPRODUIT\nNIVEAU DE FRANCHISE\n2025\n2026\n % 2025/2026\nResponsabilité\nsans franchise hors options\n1 648,71 €\n2 486,56 €\n51%\nProtection juridique\nsans franchise \n410,45 €\n475,98 €\n16%\nprotection fonctionnelle\nsans franchise \n107,45 €\n92,95 €\n-13,50%\nAvec franchise  300 € hors \nfranchise particulière\n10 593,19 €\n8%\nAvec franchise 750 € hors \nfranchise particulière\n9 677,27 €\n-1,30%\nAvec franchise  1500 € hors \nfranchise particulière\n9 373,66 €\n-4,40%\nAvec franchise  300 € hors \nfranchise particulière\n3 168,25 €\nAvec franchise 600 € hors \nfranchise particulière\n2 688,17 €\n-15%\nAvec franchise  900 € hors \nfranchise particulière\n2 480,36 €\n-21,70%\nAuto collaborateurs\nsans franchise hors options\n569,77 €\n15 137,10 €\n9 802,36 €\n3 168,13 €\nDommage aux biens\nVéhicule à moteur\nTOTAL 2025\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "3 \n \nd’isoler 4 tranches, la première comportant les études et la plateforme de rencontre conçue comme \nun parvis devant le musée afin de valoriser qualitativement son accès et d’apaiser la vitesse sur le \nRD8. \nLe cheminement via la rue des 4 chemins peut être aménagé à moindre frais en en faisant une voie \noù les piétons sont prioritaires, et dont l’on peut si le conseil le souhaite, réserver l’accès aux seuls \nriverains à terme. Le revêtement du chemin inclus dans l’étude de l’ATD11 peut être repris par la \nsuite. \nLa sortie du parking St Roch et le cheminement jusqu’au pont, ont fait l’objet d’un courrier à la \ndirection des routes du département, pour solliciter la possibilité de rester côté mur du couvent pour \néviter l’encorbellement nécessaire au cheminement côté droit de la route. \nMme LAMOUREUX a indiqué que ce point pourrait être étudié par le prestataire chargé de l’étude \nen son temps. \nContact a été pris avec la région, afin que les travaux d’aménagement des extérieurs du musée \npuissent si possible se coordonner avec ceux de la plateforme de rencontre au sortir de la rue des \n4 chemins. \nLe conseil est sollicité pour la demande de subvention qui doit être faite avant le 31 octobre pour la \npremière phase des travaux telle que proposée par le département c’est-à-dire les études \npréalables de l’ensemble du linéaire et les travaux sur la RD8 \n \nLe plan de financement serait le suivant : \n \n \n \nJeanne ETORÉ-LORTHOLARY prend la parole pour indiquer que le conseil s'est prononcé en \nfaveur de l'étude de cette solution parce que, citant le précédent PV, elle supposerait \"moins de \ntravaux, serait plus rapide et moins chère\". \n487 000 € et pas de parking supplémentaire, phasage sur 3 ans. Elle estime que ce n’est ni moins \nimpactant, ni plus rapide, ni moins cher. \nSe lancer dans cet aménagement sans chiffrer exactement les autres solutions lui paraît totalement \nirresponsable et ne correspond en rien à ce dont la commune a besoin. \nNous avons besoin d'un cheminement qui ramène le public de la collection Cérès Franco vers le \nvillage et non pas d'une sorte de crochet extérieur.  \nRien ne nous oblige, après ne nous en être pas occupés pendant 5 ans, à nous précipiter sur une \nsolution à 500.000 euros. \nUn traçage au sol et un fléchage efficace et correct suffisent pour diriger le public du parking St-\nRoch jusqu'au musée pour juin 2026 (ce qui n'empêche d'ailleurs pas de conserver le parking route \nde Villelongue et de l'indiquer aussi). \nD'un côté comme de l'autre il y a un pont qui induit des travaux coûteux, mais dont l'ATD, elle-même, \ndit qu'on peut s'en dispenser.  \nCôté parking St-Roch, le cheminement implique une réduction de la possibilité de circuler rue des \n4 Chemins, ce qui n'est pas une bonne chose pour les montolivains. \nPour les partenaires, c'est très clair, ils viennent voir, mais le choix définitif est celui de la commune \net de sa politique (c'est ce qui a été clairement exprimé lors de l'AG du GIP). Ils ne connaissent pas \nle village, ils ne connaissent pas l'ensemble de la problématique, ils ne peuvent pas choisir à notre \nplace. \nLa somme annoncée (même si elle n'est pas définitive) est colossale si l'on considère les chantiers \nen suspens, les autres besoins et les difficultés que connaissent certains acteurs. \nPar ailleurs, si le musée obtient, comme on peut l'espérer, le label Musée de France, les \ncontributions au GIP vont augmenter : il me paraît bien plus important de prévoir de pouvoir abonder \nce budget que de mettre une pareille somme d'argent public dans un cheminement qui ne sera de \ntoute façon pas la solution définitive et ne sera de toute façon pas fini d'aménager lors de l'ouverture \nnature des travaux\nfinancements\nétudes  tout secteur\n56 000 € État (Detr)\n46 400 €\ntravaux RD8\n60 000 € département\n40 600 €\ncommune\n29 000 €\nTotal des travaux\n116 000 €\n116 000 €\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "4 \n \nde l'établissement. \nLaure ESCARÉ souligne que l’évaluation faite sur le précédent cheminement, se situait dans une \nfourchette équivalente, mais ne comportait pas le coût des études. Elle note que le parking de \nVillelongue est plus excentré pour l’accès au village que celui de St Roch. \nLe choix du parking de St Roch n’empêche nullement l’aménagement à terme de celui de \nVillelongue, et l’apport d’une plateforme au sortir de la rue des 4 chemins permettra d’apaiser la \nvitesse sur la RD8 ; \nÉric OLIVIER estime que l’apport de 29 000 € reste raisonnable, et que le cheminement rentre dans \nles aménagements induit par le PAVE. \nJean-Luc OLIVIER indique pour sa part que les travaux du PAVE ne sont pas vraiment une réussite, \nà quoi il lui est répondu que la plupart des montolivains ne partagent pas cet avis. \nLaure ESCARÉ rappelle que le conseil a voté en majorité, lors de sa dernière séance pour le choix \ndu cheminement à partir du parking St Roch, et que si la commune veut le réaliser il faut au moins \ndémarrer par les études. \nAurélie BARBERO indique qu’elle regrette ce choix et souhaiterait qu’on puisse avoir une autre \névaluation. Elle demande si l’étude portera sur les deux cheminements. Il est répondu que l’étude \nportera uniquement sur le cheminement à partir du parking St Roch. \nIl est rappelé que le cheminement à partir de celui de Villelongue nécessite des aménagements \nimpactant pour respecter les règles P.M.R : déplacement de poteaux, démolition de murets, pour \nles reconstruire plus loin, enterrement de réseaux. \nAu sujet des ponts, Bernard LAURET indique qu’on ne peut pas comparer les deux, celui route \nd’Alzonne, ne peut pas être aménagé car trop étroit pour disposer d’un cheminement PMR. Ce n’est \npas le cas de celui route de Carcassonne. \nJeanne ETORÉ-LORTHOLARY rappelle pour le pont qu’on pouvait demander des dérogations. \nLaure ESCARÉ répond que les dérogations ne pouvaient être que temporaires et que la passerelle \naurait été nécessaire à terme pour sécuriser le passage, de fait de l’étroitesse du cheminement. \n  \nLa demande de subvention est rejetée par 7 voix et une abstention. \nACCORD DE PRINCIPE ET ACCORD POUR LANCEMENT DES ETUDES POUR LA CENTRALE \nPHOTOVOLTAÎQUE DE NOUVENERGIE ET LE PROJET AGRIVOLATÎQUE DE GUITARD \n \nMonsieur le Maire expose au Conseil Municipal le souhait de la société NOUVERGIES de \ndévelopper un projet agrivoltaïque sur le domaine de GUITARD, et un parc photovoltaïque sur des \nparcelles privées. \nLa société NOUVERGIES a présenté le projet à Monsieur le Maire ainsi qu’aux conseillers \nmunicipaux présents à la réunion du 18 septembre dernier, en présence de l’exploitant concernée \npar la parcelle en agrivoltaïque. \nÀ la suite de cette réunion, le projet de la centrale photovoltaïque au sol a été revu, afin de réduire \nson possible impact visuel. Le dossier amendé a été transmis à l’ensemble des conseillers, le 14 \noctobre dernier. \nA la demande de la commune, Monsieur Saez représentant de la société demanderesse a proposé \nune visite sur place pour permettre aux conseillers qui le souhaitaient de visualiser les parcelles \nconcernées et leur impact visuel \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.22,
+      "text": "5 \n \n \n Sur place, les personnes présentes ont pu constater : \n- \nQue les parcelles tant pour l’agri voltaïque que pour le photovoltaïque au sol n’étaient \naucunement visibles de la route qui passe en contrebas des deux parcelles situées elles, sur \nle plateau \n- \nQu’elles ne pouvaient être visibles ni du village, ni de la colline St Roch \n- \nQu’elles respectent la zone de protection d’au moins 1,5 km prévue dans le cadre du futur \nPLU \nMonsieur le maire rappelle par ailleurs, que le périmètre de l’étude n’emporte pas pour autant que \nles surfaces annoncées soient effectivement toute mobilisées par la réalisation future, compte tenu \nde la topographie des lieux. \n \nJeanne ETORÉ-LORTHOLARY ne comprend pas pourquoi l’on vote sur ce projet, elle avait cru \ncomprendre que l’avis de la commune n’était pas nécessaire. \nÉric OLIVIER confirme que l’avis de la commune n’a pas besoin d’être demandé pour l’agrivoltaïque \net que pour le photovoltaïque au sol in fine, c’est le préfet qui décide. \nJeanne ETORÉ-LORTHOLARY estime que de toute manière le parc Photovoltaïque se verra, il \nsuffit de prendre l’avion, quelque chose qui ne se voit pas, ça n’existe pas. \nIl lui est répondu que les gens ne se promènent pas en avion. \nLaure ESCARÉ lui réaffirme que l’ensemble du projet est absolument non visible lorsque l’on se \ndéplace sur la route d’Alzonne. \nJeanne ETORÉ-LORTHOLARY indique qu’on ne se promène pas sur les routes, mais sur des \nchemins. \nÉric OLIVIER lui rappelle qu’il s’agit de terrains privés en l’occurrence, et que lors des promenades \non ne s’invite pas chez les gens. \nJean-Luc OLIVIER craint que si le seul argument que la commune avance est celui de la non -\nvisibilité, les projets peuvent s’installer partout.  \nLaure ESCARÉ rappelle que lors de la réception du projet du document cadre, les quelques \nparcelles retenues ont dans leur grande majorité fait l’objet d’un avis défavorable du conseil, car \nelles auraient dégradé les paysages, il en est resté peu. D’ailleurs la parcelle visée par le \nphotovoltaïque au sol n’en faisait pas partie, du fait sans doute d’un filtre posé par la chambre \nd’agriculture. \nÉric OLIVIER complète en soulignant que le périmètre de protection que la commune souhaite \nmettre en place dans le cadre du PLU permet d’éviter l’installation de projets détériorant le paysage \nautour des versants du village. La société NOUVERGIES en a tenu compte en diminuant la surface \nde son projet d’étude.  \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.207,
+      "text": "6 \n \nIl rappelle que les installations rapportent ensuite à la commune. Jean Luc OLIVIER estime que l’on \nse laisse acheter. \nLaure ESCARÉ ne voit pas en quoi il est gênant pour la commune de percevoir une part de la taxe \nIFSER. \n \nPour ce qui concerne le projet agrivoltaïque le conseil autorise la société NOUVERGIES à réaliser \nles études de faisabilité nécessaire sur le territoire de la commune, et à déposer toutes les \ndemandes d’autorisation nécessaire à la réalisation du projet par 12 voix pour et 2 abstentions. \n \nLe conseil refuse de se prononcer sur le projet photovoltaïque au sol par 3 voix contre, et 6 \nabstentions. \n \nSCHEMA D’AMENAGEMENT ET DE GESTION DES EAUX (SAGE) AUDE ET COTIERS AUDOIS \n \nCe schéma a été annoncé lors du dernier conseil. \nUn schéma d’aménagement et de gestion des eau (SAGE) est un outil local de planification qui \norganise une gestion globale et équilibrée de l’eau. Il est animé par une commission locale de l’eau \n(CLE) qui rassemble des usagers de la ressource. L’objectif est ainsi d’assurer la gestion équilibrée \net durable de la ressource en eau, en conciliant satisfaction des différents usages et protection des \nmilieux aquatiques. Il repose sur une démarche volontaire de concertation avec les acteurs locaux. \n   \n \n \nLe 11 septembre dernier, Monsieur le préfet de l’Aude a transmis le projet préliminaire afin de recueillir \nun avis sur le projet de périmètre, conformément aux articles L 212-3 et R 212-26 et suivants du code \nde l’environnement. \nSans observation de la part des communes dans le délai de 4 mois à partir du 11 septembre, l’avis \nsera réputé favorable. \n \nLe conseil donne à l’unanimité un avis favorable au périmètre du SAGE \n \nPROJET EDUCATIF DE TERRITOIRE DE CARCASSONNE AGGLO \n \n  Carcassonne Agglo a souhaité initier une politique éducative pour les enfants âgés de 0 à 17 ans \ndu territoire par la signature d’une Projet Educatif de Territoire (PEDT). \n \nCe projet doit permettre de lutter contre inégalités éducatives sociales et territoriales, de répondre \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.296,
+      "text": "7 \n \naux besoins des usagers (enfants et familles), de fédérer les différents acteurs du territoire, de \ndonner un sens commun à l’action éducative, et de professionnalisation des agents. \nCes enjeux se traduisent par 10 ambitions qui doivent favoriser la construction personnelle de \nl’enfant, son épanouissement et le vivre ensemble. \nCe projet a été transmis avec la convocation au présent conseil, il sera expérimenté pour la période \n2025-2027 sur les territoires suivants : \n- \nCabardès \n- \nNord Carcassonnais \n- \nHaut minervois \n- \nCarcassonne \n- \nSur Carcassonnais \nCet engagement sera cosigné par l’Etat, la Caf, Carcassonne Agglo et les 83 communes du \nterritoire. \n \nLe conseil approuve à l’unanimité le PEDT tel que présenté, et autorise Monsieur le Maire à le signer \nainsi que toute pièce afférente. \n \n \nDROIT DE PREEMPTION  \n \n \n \nM. Gharbi Jamel ne prend pas part au vote \nLe conseil vote par 13 voix contre l’exercice du droit de préemption. \nPARTICIPATION FINANCIERE DE LA COMMUNE A UNE OPERATION DE COMMUNICATION \n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "8 \n \nPOUR LA COOPÉRATIVE MUSÉE CERES FRANCO \n \nUn mail de Mme Valérie Laffont du GAL Pays Carcassonnais est parvenu en mairie jeudi dernier. \nLors de l’assemblée générale du GIP, le 17 octobre dernier, le projet de campagne de \ncommunication du musée a été présentée. Son financement doit logiquement se répartir entre les \nmembres du GIP dont la commune de Montolieu et s’étaler sur deux exercices. \nMme LAFFONT sollicite la mairie pour se voir confirmer le montant de 606,18 € (soit 303,09 € par \nan) qui est demandé au titre de cette campagne. \nCette somme sera à ajouter à la subvention de fonctionnement du GIP (compte comptable 6281) \n \nCompte tenu de l’avancement de la consommation du budget le premier versement pourrait se faire \ndébut 2026, et le deuxième début 2027. \n \nLe conseil vote à l’unanimité la subvention de 606.18 euros sollicitée. \n \nINSTALLATION D’UNE BORNE DE RECHARGE POUR VEHICULE ELECTRIQUE  \n \nMme Leleux du SYADEN s’est déplacée en mairie le 22 octobre dernier pour proposer la mise en \nplace d’une borne de recharge pour véhicule électrique. \nTrois sites ont été successivement évalués : \n- \nLe parking du lotissement au-dessus de la pharmacie \n- \nLe parking St Roch \n- \nLe parking du Sol au niveau des ateliers municipaux \nAprès étude, le SYADEN privilégie le premier site, il semble le plus adapté, tant sur le plan temporel \nque technique et financier. \n \nLe conseil vote à l’unanimité l’installation d’une borne de recharge pour véhicule électrique sur le \nparking du lotissement au-dessus de la pharmacie. \n \nATTRIBUTION DU LOT 3 DES TRAVAUX DE L’EGLISE : LOT PLÂTRERIE  \n \nA la suite de la relance du lot 3 plâtrerie pour les travaux de l’église St André, une seule entreprise \na soumissionné, la même que lors du lancement du marché. Il s’agit d’EUROPLATRE \nNéanmoins la proposition financière est différente, et permet de rester dans l’évaluation globale du \ncabinet Serra. \nS’agissant d’une procédure adaptée, il n’est pas nécessaire de réunir la commission d’attribution \ndes marchés. \nMonsieur le maire donne lecture du rapport d’analyse de l’offre, reçu ce jour. \n \nLors de la relance du lot 3 l’entreprise a remis une offre d’un montant correspondant à +34.6% \npar rapport à l’estimation soit + 26 864,12€HT de plus que l’estimation. \nL’offre de l’entreprise EUROPLATRE apparait toujours comme étant élevée mais compte tenu : \n• de la difficulté à obtenir des réponses pour ce lot ; \n• que le coût global de l’opération reste en moins-value par rapport à l’estimation (de \n2,42% soit -29 625€HT) ; \n• que l’entreprise depuis le premier appel d’offre de 2024 a réalisé un geste de 40% sur \nson offre initiale sans changer sa méthodologie ; La maîtrise d’œuvre propose au maître \nd’ouvrage de considérer l’offre de l’entreprise comme acceptable et propose au maître \nd’ouvrage de retenir l’offre de l’entreprise EUROPLATRE pour le lot 3 Plâtrerie en \nretenant l’ensemble des tranches pour la somme de 104 525,12€ HT \n \nLe conseil retient à l’unanimité l’offre de l’entreprise EUROPLATRE pour le lot 3 Plâtrerie en \nretenant l’ensemble des tranches pour la somme de 104 525,12€ HT \nL’ordre du jour étant épuisé la séance est levée à 21 h 21 \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "6eadddaefcc758e6b2fc40ee1a959f48fd1c07940c8d8a6f9868eeec13437b20",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:38:44+00:00",
+      "last_modified": "Fri, 05 Dec 2025 14:59:41 GMT",
+      "superseded_at": null,
+      "record": "minutes/958b8bb11627.json",
+      "diff_from_previous": null
+    }
+  ]
+}

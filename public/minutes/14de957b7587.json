@@ -1,0 +1,108 @@
+{
+  "document_id": "14de957b7587",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CM-31-JANVIER-2024-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf",
+  "source_sha256": "690f688bd4347e649447e5bcf2ca05e99493d67e5bbd7d447b1458779d9aed60",
+  "source_bytes": 372022,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 27 Dec 2024 08:38:50 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:36:09+00:00",
+  "meeting_date": {
+    "value": "2024-01-31",
+    "source": "text layer, page 1: '31 JANVIER 2024'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 5,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \nCONSEIL MUNICIPAL DU 31 JANVIER 2024 à 20 h 00 \n \nL’an deux mille vingt-quatre et le trente et un janvier à 20 h 00, le conseil municipal dûment convoqué s’est \nréuni sous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de Montolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Magalie BOST- BERGÉ Antoine CASAS-HARILLO, Laure ESCARÉ, Jeanne \nETORÉ-LORTHOLARY, Bernard LAURET, Éric OLIVIER, Jean-Luc OLIVIER  \n \n \nEtaient absents :  \nJamel GHARBI, pouvoir à Bernard LAURET \nValérie MONRAISIN pouvoir à Laure ESCARÉ \nVincent PICQUE pouvoir à Jamel GHARBI (non pris en compte) \nJacques SAFONT pouvoir à Jean Luc OLIVIER \nCéline SALA pouvoir à Aurélie BARBERO \n \nLa séance est ouverte à 20 h 10 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat. \nLa proposition est retenue par 12 voix pour et une voix contre. \n \nOrdre du jour \n- \nApprobation du procès-verbal du conseil du 14 décembre 2023 ; \n- \nRenouvellement de la ligne de trésorerie ; \n- \nPrêt pour les travaux du PAVE \n- \nValidation du PADD \n- \nEngagement de la commune sur le coût complémentaire des travaux du musée Ceres Franco \n- \nSignature de la charte de l’arbre et du paysage du département de l’Aude \n- \nDroits de préemption  \n- \nDésignation d’un représentant au dialogue territorial Schéma de Cohérence Territoriale (SCOT) et \nProgramme Local de l’habitat (PLH) ;  \n \n \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 13 DECEMBRE 2024 \n \nLe procès-verbal a été communiqué avec la convocation au présent conseil.  \n➢ Le conseil approuve le Procès-Verbal par 7 voix pour, une abstention et 5 contres. \n \nRENOUVELLEMENT D’UNE LIGNE DE TRESORERIE \n \nLa commune dispose d’une ligne de trésorerie suite à une décision du conseil municipal de février 2023. \nCompte tenu du montant des travaux engagés pour le PAVE, et du décalage de réception des subventions \naccordées une fois les travaux finis, il est nécessaire de renouveler la ligne de trésorerie existante. Son \nmontant doit également être augmenté, pour couvrir la TVA et le montant de l’ensemble des subventions. \n \nLaure ESCARÉ présente la proposition du crédit agricole \n \n \n \n \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.221,
+      "text": "2 \nPROPOSITION DU CREDIT AGRICOLE DU LANGUEDOC \n \nMontant plafond \n300 000 EUR \nTaux VARIABLE préfixé \nIndexé sur €URIBOR 3 MOIS moyenné du \nmois facturé, soit à titre indicatif sur \nindex du mois de janvier 2024 à 3,93% à \nun taux de : 5,43% \nDurée \n1 an \nMarge sur index ci-dessus \n1,50% \nIntérêts payables à terme échu \nMensuellement \nRèglement \ndes \nintérêts \ndébiteurs par  \nMensuellement par procédure de débit \nd’office \nFrais de dossier \n0,25% soit 750,00 EUR \n \nLe Conseil municipal vote à l’unanimité \n- \n Le renouvellement de la ligne de trésorerie  \n- \nL’autorisation à B. LAURET, à signer le contrat  \n \nSOUSCRIPTION D’UN PRET POUR LES TRAVAUX DU PAVE \n \nLes travaux du PAVE sont engagés pour 466 920 euros (frais d’étude compris) dont 10605 ont déjà été \nversés. Il reste donc à couvrir 456 315 euros. \nDes subventions ont été attribuées pour 354 350 euros, dont 90 000 déjà versés. (60 000 au titre des \namendes, et 30 000 sur la DSIL 2020). Il resterait à percevoir après achèvement des travaux 264 350 euros. \nIl revient donc à la commune de couvrir sa part par un prêt. \nIl est proposé de souscrire un prêt de 210 000 euros. \nLa proposition suivante a été faite par le crédit Agricole \n \n \nLe Conseil municipal vote par douze voix pour et une voix contre. \n \nLa souscription du prêt auprès du crédit agricole sur la base d’une durée de 15 ans \n- \nL’autorisation à B. LAURET, à signer le contrat de prêt \n \n \n \n \n \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "3 \nVALIDATION DU PADD  \n \nLe projet finalisé de PADD a été transmis aux conseillers avec la convocation.  \nSon vote permettra de bloquer tout projet d’aménagement qui ne serait pas en harmonie avec les axes de \ndéveloppement retenus par la commune. \n➢ Le conseil vote par 11 voix pour et trois contres. \nLe PADD sous réserve que la colline St Roch soit intégrée dans la zone de protection page 15 et que les \nerreurs soient corrigées (éoliens, faute d’orthographe, compléments à apporter concernant les pôles \nd’attractivité). \n \nENGAGEMENT DE LA COMMUNE SUR LE FINANCEMENT COMPLEMENTAIRE DES TRAVAUX DU MUSEE \nCERES FRANCO \n \nLe financement initial des travaux du Musée Cérès Franco s'élevait à 2 600 000 euros, le financement total \nactualisé s'élève à 4 600 000 euros. La part de financement initialement prise en charge par la commune \nde Montolieu était de 15 000 euros (soit 0,57% du total). \nPour couvrir le montant actuel des travaux, en dépit d'un apport de 780 000 euros du FNADT (Etat), \nchacune des collectivités membres du GIP a été sollicitée pour apporter un financement complémentaire  \nLa commune de Montolieu est à son tour sollicitée pour apporter 11 000 euros complémentaires. \nCela porterait à 26 000 euros la contribution totale de la commune (le pourcentage restant 0,57 %). \nLe paiement de cette somme sera étalé sur 3 ans. (2024, 2025, 2026). \n➢ Le conseil municipal décide à l’unanimité d’accorder un financement complémentaire de 11 000 \neuros pour les travaux du musée Ceres Franco, et d’autoriser Bernard LAURET à signer la \nconvention. \n \nSIGNATURE DE LA CHARTE DE L’ARBRE ET DU PAYSAGE DU DEPARTEMENT DE L’AUDE \n \nPar courrier du 20 décembre 2023, Madame Hélène SANDRAGNÉ, présidente du Conseil Départemental de \nl’Aude, adressait aux communes la charte de l’arbre et du paysage, adopté par le conseil départemental le \n19 octobre 2023. \nMme SANDRAGNÉ nous invite à délibérer à notre tour sur la mise en œuvre des orientations et des \nprincipes méthodologiques de cette charte. \n \n➢ Le Conseil municipal donne l’autorisation à B. LAURET de signer la charte par 12 voix pour et une \nvoix contre  \n \nDROIT DE PREEMPTION  \n \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=4",
+      "method": "tesseract",
+      "status": "machine_read",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.477,
+      "text": "Usage : LOCAL D'HABITATION A USAGE DE DÉBARRAS\nPrix de vente : 11 000,00 EUR\nVendeur(s) : Co-propriétaires : LORTHOLARY Bernard, LORTHOLARY Jeanne, SUSKIND Patrick\n\n> Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption (Jeanne ETORÉ-\nLORTHOLARY ne vote pas)\n",
+      "text_sparse": "Réf. Cadastrale\n\nic\n\n\"T\n\n| Section\n\n| Super\n\nJ\n\n3 Place Maurice Bertrand\n\nLOCAL D'HABITATION A USAGE DE DÉBARRAS\n\nPrix de vente :\n\n11 000,00 EUR\n\nVendeur(s) :\n\nCo-propriétaires : LORTHOLARY Bernard, LORTHOLARY Jeanne, SUSKIND Patrick\n\nf\n\n_\n\n|\n\nne C\n\nra\n\nou\n\n°\n\n“an\n\nee}\n\npm\n\nAB0049\n\nVOS\n\n‘\n\nM |\n\nJ\n\n“\n\n‘\n\ntte\n\nLe\n\ntive\n\n«al\n\nde lai\n\nAB01\n\nbands\n\nSN\n\n> Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption (Jeanne ETORÉ-\n\nLORTHOLARY ne vote pas)\n",
+      "ocr": {
+        "mean_conf": 91.5,
+        "min_conf": 58,
+        "low_word_fraction": 0.023,
+        "words": 44
+      }
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.449,
+      "text": "5 \n \n \n➢ Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption \n \nDESIGNATION D’UN REPRESENTANT AU DIALOGUE TERRITORIAL DU SCOT-PLH \n \n Suite à l’approbation récente des deux documents de planifications que sont le SCOT et le PLH, \nCarcassonne Agglo souhaite installer des dialogues territoriaux calqués sur les bassins de vie afin de \nfavoriser les échanges entre les communes. \n \nLa commune doit donc désigner un représentant ainsi qu’un ou deux suppléants au sein du conseil \nmunicipal pour siéger au sein de ces dialogues territoriaux. \n \nJean Luc OLIVIER propose d’assurer cette représentation. \n \n➢ Le conseil municipal valide à l’unanimité la candidature de Jean Luc OLIVIER. \n \nL’ordre du jour étant épuisé, la séance est levée à 21 h 40. \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "690f688bd4347e649447e5bcf2ca05e99493d67e5bbd7d447b1458779d9aed60",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:36:09+00:00",
+      "last_modified": "Fri, 27 Dec 2024 08:38:50 GMT",
+      "superseded_at": null,
+      "record": "minutes/14de957b7587.json",
+      "diff_from_previous": null
+    }
+  ]
+}

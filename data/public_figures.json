@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "purpose": "People who may be named in published output because their name is already public. Maintainer-approved. An empty list means nobody is exempt from redaction.",
+    "rules": [
+      "Every entry needs a 'basis': why the name is already public, ideally a URL (for example the minutes naming a councillor, or the Mairie's page).",
+      "category is one of: elected_official, business_owner, other_public_figure.",
+      "business_owner entries need diffusion_checked=true. Sole traders can opt out of publication of their name in the SIRENE register; confirm they have not.",
+      "valid_from / valid_to (YYYY-MM-DD) limit when the exemption applies. Councillors change after elections; outside the window, or when a document's date is unknown, the person is redacted.",
+      "A listed person is still pseudonymised on any page where they appear as Vendeur / Acquereur / Proprietaire (private capacity)."
+    ],
+    "entry_format_example": {
+      "name": "Full Name",
+      "category": "elected_official",
+      "basis": "https://example.test/page-that-names-them",
+      "valid_from": "2020-05-23",
+      "valid_to": "2026-03-31"
+    }
+  },
+  "entries": []
+}

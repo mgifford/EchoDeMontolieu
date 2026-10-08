@@ -1,0 +1,144 @@
+{
+  "document_id": "f950f0c50c7a",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM-25092025-site.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
+  "source_sha256": "663ab0bfea7087783575a44555d283ec3731e90d06dd237381c08cc8a600480d",
+  "source_bytes": 916055,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Wed, 29 Oct 2025 13:23:37 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:38:31+00:00",
+  "meeting_date": {
+    "value": "2025-09-25",
+    "source": "text layer, page 1: '25 SEPTEMBRE 2025'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 9,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \n \nCONSEIL MUNICIPAL DU 25 SEPTEMBRE 2025  \n \nL’an deux mille vingt-cinq et le vingt-cinq septembre à 19 h 30, le conseil municipal dûment \nconvoqué s’est réuni sous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la \nmairie de Montolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Antoine CASAS-HARILLO, Laure ESCARÉ, Jeanne ETORÉ-\nLORTHOLARY, Jamel GHARBI, Bernard LAURET, Éric OLIVIER, Jean-Luc OLIVIER, Céline \nSALA. \n \n \nEtaient absents :  \nValérie MONRAISIN, procuration à Laure ESCARÉ \nMagalie BOST- BERGÉ, procuration à Aurélie BARBERO \nJacques SAFONT, procuration à Jean Luc OLIVIER \nVincent PICQUE \n \nLa séance est ouverte à 19 h 35 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat de la séance. \nLa proposition est retenue par 12 voix pour et une abstention  \n \nOrdre du jour \n  \n- \nApprobation du Procès-Verbal du 24 juin 2025 \n- \nVidéo protection en location \n- \nVote PADD 4ème version \n- \nValidation OAP mobilité \n- \nCamping à la ferme \n- \nModification des tranches de quotient familial pour la cantine scolaire \n- \nCheminement piétonnier vers la coopérative musée Cérès Franco \n- \nMobilisation du FPIC  \n- \nDon à Aude solidarité \n- \nAvis sur le PPRI \n- \nCyclotourisme : autorisation de passage et balisage \n- \nAffiliation volontaire avec réserve sur la promotion interne de la communauté \nd’agglomération du grand Narbonne au CDG11 \n- \nFinancement de la Complémentaire santé des agents \n- \nLancement du marché pour la modification du liner de la piscine et de la réparation des \nfiltres \n- \nAvis du conseil sur le lancement des études pour le projet d’une installation agri voltaïque \nsur Villeneuve. \n- \nDroits de préemption \n \nInformations \n- \nPoint sur assurance  \n- \nMise en service de la salle d’activité du Sol \n- \nSignature marché de l’église 26/09 \n- \nRelance du lot 3 plâtrerie en cours \n- \nNécessité de reprendre les travaux sur PCS versus incendie, canicule, attentat… \n- \nAvis sur le SAGE \n \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 24 JUIN 2025 \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "2 \n \n \nLe procès-verbal a été communiqué avec la convocation au présent conseil. \n \nLe conseil approuve à l’unanimité le Procès-Verbal du conseil du 24 juin 2025. \n \nMISE EN PLACE D’UNE VIDEO PROTECTION EN LOCATION \n \nMonsieur le Maire, rappelle que le conseil a voté le 18 septembre 2024 le principe de la mise en \nplace d’une vidéo protection. \nToutefois, le devis de cette opération en achat donc en investissement était de 37 840,80 €TTC \npour la totalité de l’installation.  \nLa société LEASE PROTECT reçue en juin dernier a fait une proposition en location, donc en \nfonctionnement comprenant 5/6 points de protection. Ils gèrent seul tout le dossier incluant les \nconsultations et la gestion des différentes phases d’autorisation y compris celles de l’architecte des \nbâtiments de France. \nLa proposition comprend bien entendu l’installation par la société des caméras, une maintenance \ntotale et illimitée, et à partir du 39ème mois, une évolution technologique du matériel sans surcoût.  \n5 points retenus + 1 optionnel pour la piscine  \n- \nRue de la mairie \n- \nPlace Paul Lacombe (dit « école dans le document) \n- \nPlace de l’église, \n- \nOffice du Tourisme \n- \nParking de Fraisse \n \nLes tarifs du document ont été remisés, sous réserve de décision prise avant le 30 septembre 2025 : \nle loyer mensuel du projet global passerait de 859€ HT à 749€ (598€ pour le projet sans la piscine). \n \nLe conseil vote par 9 voix pour et 4 contre, la proposition de location de la société LEASE PROTECT \nsur la base des 5 points, pour un montant de 598 € HT par mois. \n \nVOTE DE LA QUATRIEME VERSION DU PADD  \n \nMonsieur le Maire, énumère les modifications intervenues sur cette version qui ont été nécessaires \nafin de coller au plus près aux dernières statistiques INSEE et aux remarques de la DDTM. \nElles figurent en rouge dans le document qui a été transmis aux conseillers : \n- \nPage 4 préambule rajout de la loi Montagne dans les documents législatifs et règlementaires \n \nLe conseil vote par 12 voix pour et une voix contre la quatrième version du PADD telle qu’elle a été \ntransmise le 1er septembre. \n \nOAP MOBILITE \n \nDans le cadre de l’Orientation d’Aménagement et de Programmation (OAP) relative à la mobilité \n(demande de réalisation de cette OAP par la DDTM), l’avis du conseil est sollicité. \nLa proposition concerne la semi-piétonnisation du pont afin de mieux relier la voie verte au reste du \nvillage. \n \nLe conseil donne un avis favorable de principe sur cette OAP par 12 voix pour et une abstention  \n \nRappel du calendrier prévisionnel de la révision du PLU \n1er vote de validation du PLU deux mois après la validation du PADD, soit à partir du 25 novembre. \nCette validation ouvrira une période de consultation d’environ 6 mois et incluant l’avis des \ninstitutionnels, l’enquête publique (à partir d’avril), avec l’objectif d’une validation définitive en juin si \ntout se passe bien. \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.384,
+      "text": "3 \n \n \n \n \nCAMPING A LA FERME \n \nLe 30 juin 2025 un mail avec en pièces jointes les explications de Soliha sur le camping à la ferme \na été transmis aux conseillers.  \nIl a été proposé aux conseillers d'arbitrer entre deux propositions : \n- s'en tenir à l'ouverture de STECAL pour les seules propositions reçues jusqu'au 30 juin inclus à la \nmairie \n- ouvrir un STECAL pour la tiny-house, et ouvrir le principe du camping à la ferme plus largement \npour le reste. \n \n11 conseillers se sont prononcés pour la mise en place de STECAL pour les seules propositions \nreçues jusqu’au 30 juin inclus, 3 pour l’ouverture d’un seul STECAL et l’ouverture du camping à la \nferme plus largement sur le reste. \nMODIFICATION DES TRANCHES DE QUOTIENT FAMILIAL POUR LES TARIFS DE LA \nCANTINES COLAIRE \n \nLors du conseil du 6 mars 2025, le conseil avait décidé de revoir la tarification de la cantine scolaire \npour la rentrée 2025/2026. \nCette tarification est intégrée au règlement intérieur envoyé aux parents, accompagné de \nl'inscription par courrier début 5 août. \nIl est proposé de ne pas toucher à la tarification actuelle mais de faire bouger les tranches de quotient \nfamilial de façon suivante : \n \n 2024 / 2025                                     2025/2026                                           tarif \nQF inférieur ou égal à 750 €              QF inférieur ou égal à 800 €               1 € \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "4 \n \nQF entre 751 et 850 €                       QF entre 801 et 850 €                         2 € \nQF supérieur à 850 €                         QF supérieur à 850 €                          3 € \nLe but recherché est d'aider le maximum de familles sur la tranche tarifaire la plus basse \n(subventionnée par l'État). \n \nAprès consultation, le conseil a validé à l’unanimité la modification des tranches de quotient familial \npour la tarification de la cantine scolaire. \n \nCHEMINEMENT PIETONNIER VERS LA COOPÉRATIVE MUSÉE CERES FRANCO \n \nLes conseillers ont été destinataires de l’étude réalisée par l’ATD11. \nUne première réunion a eu lieu le 18 sur place à Cérès Franco en présence de la région et du \ndépartement et de Carcassonne Agglo. Y étaient présent, Bernard LAURET, Laure ESCARÉ. \nLes options du GIP y ont été débattues. \nAprès de nombreux échanges sur le document de l’ATD11, et un déplacement sur le parking route \nde Fraisse, les partenaires veulent privilégier un itinéraire à partir du dit parking et non celui de la \nroute de Villelongue : moins de travaux impactant, plus rapide et moins cher. \nUne nouvelle étude doit être transmise avant la fin du mois avec une évaluation par le département, \nafin de permettre à la commune de déposer les demandes de subvention avant fin octobre. \n \nJeanne ETORÉ-LORTHOLARY estime ce choix extrêmement regrettable. Elle rappelle que depuis \nle début des travaux à la Coopérative, Jean-Luc Olivier et elle-même ont attiré l’attention du conseil \nsur la nécessité de prévoir l’aménagement d’un parking pour le musée et d’un cheminement, non \nseulement de ce parking jusqu’au musée, mais de ce parking, jusqu’au musée et jusqu’au centre du \nvillage.  \nIl lui semble qu’un établissement sur lequel on vient d’investir 5 millions de travaux mérite un parking \net un cheminement dédiés et non pas une solution au rabais, qu’il mérite un lien et un cheminement \ndirect vers le centre du bourg plutôt qu’avec le city-stade. \nElle a sollicité à de nombreuse reprise le conseil sur l’achat des terrains de l’autre côté de la route, \net il en reste encore un. \nBernard LAURET répond que la commune n’achètera pas un terrain constructible pour en faire un \nparking, et que les terrains en question se situant en amont du pont de la route d’Alzonne, la \nsécurisation du passage sur ce dernier nécessitait en toute hypothèse des travaux importants. \nJeanne ETORÉ-LORTHOLARY rappelle que dans l’étude transmise par l’ATD11, il y avait possibilité \nd’un cheminement sur le côté droit de la départementale. \nLaure ESCARÉ souligne que ce cheminement générait des difficultés techniques importantes : \nenfouissement de lignes, déplacement de poteaux et de murets, à reconstruire plus loin dont le coût \nétait non négligeable. \nLes deux autres options nécessitaient des achats de terrain, sous la réserve d’un accord avec les \npropriétaires.  \nJeanne ETORÉ-LORTHOLARY estime qu’on aurait dû à minima les interroger. \nIl lui est rappelé que l’un de ces propriétaires que l’on avait sollicité pour un aménagement du lieu de \ncollecte des containers, n’avait pas donné suite à notre demande de bail emphytéotique.  \nÉric OLIVIER évalue l’opération proposée à l’origine à, au moins, 400 000 euros. Pour la seule \npasserelle, permettant de doubler le pont avec un accès PMR, au prix du m², cela revient à 80 000€. \nAurélie BARBERO et Céline SALA regrettent que l’on ne puisse aménager le parking de Villelongue. \nLaure ESCARÉ répond qu’un aménagement minimum du parking et un travail de signalisation pour \nralentir l’arrivée sur le pont, peut très bien se réfléchir par la suite, cela n’empêche pas de travailler \nsur le cheminement piétonnier retenu par les partenaires. \nLes carrefours doivent être aménagés avec des « plateformes de rencontre », utiles pour ralentir les \nvéhicules, notamment ceux qui descendent du village vers Alzonne. Le pont dit « des sœurs » sera \négalement sécurisé plus facilement. Il est beaucoup plus large que celui de la route d’Alzonne, et \npeut facilement être repris pour être aux normes PMR pour les piétons. \nLa présence de sanitaires sur le parking, d’un city stade, et après aménagement paysager par la \ncommune de point de pique-nique, sont des atouts soulignés par les partenaires présents à la réunion \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "5 \n \nsur le terrain. Les travaux étant moins lourds, on peut espérer raisonnablement qu’ils puissent être \nachevés lors de l’ouverture du musée. \nJeanne ETORÉ-LORTHOLARY estime que le cheminement tel qu’il est envisagé entre la route de \nFraisse et la route d’Alzonne est complètement excentré et coupe en quelque sorte le projet du reste \ndes acteurs du Village du Livre et des Arts. \nLaure ESCARÉ fait remarquer que le parking route de Villelongue est encore plus excentré de ce \npoint de vue. \nLe parking route de Fraisse est par ailleurs déjà utilisé par nombre de touristes qui rejoignent à pied \nle cœur du village.  \n \nLe conseil vote par 10 voix pour et trois voix contre, le projet de cheminement retenu par les \npartenaires. \n \nMOBILISATION DU FPIC POUR LES OPERATIONS D’INVESTISSEMENT \n \nLa commune dispose des fonds FPIC suivant : \n2022  8 700 € \n2023 16 063 € \n2024 19 651 € soit un total de 44 414 € \nPour information 2025 12 835 € (annoncé) \n \nIl est proposé de faire appel à ces fonds pour trois opérations d’investissement déjà réalisées \n- \nLa réfection du chauffage au musée 17 690 € HT € soit 14 152 € pour 80 %  \n \n \n- \nLa mise en place de l’éclairage du boulodrome 8035 €HT soit 6428 € pour 80 % \n- \nL’opération city stade et toit de la piscine 128 139,57 € HT déjà financée à hauteur de 60,94% \nsoit 22696 € (17,71 %) \n- \n \n \n \n \n \n \n \nopération \nd'investissement\ncoût de \nl'opération  € HT\nFINANCEMENT\nmontant\ntaux\nréfection du chauffage au \nmusée du livre \n17 690\nFPIC \n14 152\n80%\ncommune\n3 538\n20%\nTOTAL\n17 690\n17 690\n100%\nopération \nd'investissement\ncoût de \nl'opération  € HT\nFINANCEMENT\nmontant\ntaux\nFPIC\n6 428\n80%\ncommune\n1 607\n20%\nTOTAL\n8 035\n8 035\n100%\nmise en électricité du \nboulodrome\n8 035\nopération \nd'investissement\ncoût de \nl'opération  € HT\nFINANCEMENT\nmontant\ntaux\ndepartement\n37 828,00\n30%\nEtat\n30 262,66\n24%\nrégion\n10 000,00\n8%\nFPIC\n22 696,00\n18%\ncommune\n27 352,91\n21%\nTOTAL\n128 139,57\n128 139,57\n100%\ncréation d'un espace \nmulti sport et réfection \ntoiture piscine \nmunicipale\n128 139,57\n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.466,
+      "text": "6 \n \n \nResteraient 1138 € sur 2024 et 12 835 € pour 2025 qui pourraient être sollicités pour la réalisation \nd’une tranche de voirie à lancer avant la fin de l’année, à mettre en réflexion. \n \nLe conseil vote par 12 voix pour et une abstention la sollicitation du FPIC tel que présenté \n \nSOLLICITATION DE DON POUR AUDE SOLIDARITE DANS LE CADRE DES INCENDIES DANS \nLES CORBIERES \n \nPar courrier du 8 août 2025, Aude Solidarité a sollicité les communes pour apporter leur soutien aux \npersonnes touchées par les incendies dévastateurs de cet été dans les corbières. Des particuliers \nse sont manifestés à la suite de l’information transmise par panneau Pocket et mailjet. \nIl est proposé que la commune contribue via le budget du CCAS à cet élan de solidarité. \nCécile AGASSE donne lecture du courrier reçu. \n \nLe conseil vote à l’unanimité une aide de 500 euros à prendre sur le budget du CCAS \n \nAVIS SUR LE PROJET DE PPRI \n \nLe document a été transmis aux conseillers, et a été mis à disposition en mairie. \n \nDans le cadre de la révision du Plan de Prévention des Risques Inondation (PPRI) du bassin \nversant du Fresquel, la commune a été sollicitée par les services de la Préfecture pour rendre un \navis dans un délai de deux mois. \n \nPour rappel, une fois approuvé, le PPRI s’impose aux documents d’urbanisme et a des effets directs \nsur les droits à construire. Il délimite des zones à risque dans lesquelles les possibilités d’aménager, \nde construire ou de rénover sont restreintes, voire interdites, selon le niveau d’exposition au risque. \n \nLe conseil donne un avis favorable au projet de PPRI à l’unanimité. \n \nCYCLOTOURISME : AUTORISATION DE PASSAGE ET DE BALISAGE \n \nDans le cadre de sa stratégie touristique liée au développement du VTT, Gravel et cyclotourisme \nCarcassonne Agglo a engagé en partenariat avec l’association ATAC et la communauté de \ncommunes de la Montagne Noire une collaboration avec la fédération française de cyclisme, en vue \nde développer la pratique du VTT et de structurer les parcours sur son territoire. \nUn tracé de 18 Km a notamment été récemment défini ; \nLe \ncircuit \nN°5 \n« la \ngarrigue \nAragon/Fraisse-Cabardès /Montolieu/Moussoulens/Ventenac \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.217,
+      "text": "7 \n \nCabardès » qui passe par la commune de Montolieu selon le schéma joint \n \n \n \nLe conseil à l’unanimité : \n- \nApprouve l’inscription à l’espace FFC \n- \nAutorise le passage et le balisage du circuit N°5 sur les parcelles susvisées \n- \nAccepte le balisage, l’entretien et l’aménagement du sentier et lui conserver son caractère \nouvert au public \n- \nAutorise Monsieur le Maire à signer tout document relatif à ce dossier \n \nAFFILIATION VOLONTAIRE AVEC RESERVE SUR LA PROMOTION INTERNE DE LA \nCOMMUNAUTÉ D’ AGGLOMERATION DU GRAND NARBONNE AU CDG11 \n \nLa communauté d’agglomération du Grand Narbonne a sollicité le CDG11 pour renouveler son \naffiliation volontaire au centre de gestion avec réserve sur la promotion interne. \nCette demande de continuité d’affiliation avec réserve modifie les conditions initiales d’affiliation, en \nconséquence conformément à l’article 30 du décret 85-643 du 26 juin 1985 modifié relatif aux \ncentres de gestion, le CDG11 est chargé d’en informer ses adhérents. \nLa commune peut dans un délai de deux mois (à partir de l’information parvenue le 29 août dernier) \ns’opposer à la demande de la communauté d’agglomération du Grand Narbonne en prenant une \ndélibération en ce sens. \nA défaut de réponse dans les deux mois, ou en l’absence de délibération, la commune est réputée \naccepter la demande de poursuite de l’affiliation volontaire avec réserve. \n \nLe conseil donne un avis favorable à la poursuite de l’affiliation volontaire au centre de gestion avec \nréserve sur la promotion interne à l’unanimité pour la communauté d’agglomération du Grand \nNarbonne. \n \nFINANCEMENT DE LA COMPLEMENTAIRE SANTE DES AGENTS COMMUNAUX \n \nEn application du décret 2022-581 relatif aux garanties de protection sociale complémentaire et à \nla participation obligatoire des collectivités territoriales à leur financement, et de l’accord collectif \nnational portant réforme de la protection sociale complémentaire des agents publics territoriaux du \n11 juillet 2023, à partir du 1er janvier 2026, la commune employeur devra rembourser une part des \ncotisations à la complémentaire santé des agents. \nCette participation est acquise pour les titulaires comme pour les contractuels, avec un minimum de \n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=8",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.1,
+      "text": "8 \n \n15 € mensuels. \nIl est sollicité du conseil la fixation de la part remboursée aux agents. \n \nLe conseil vote à l’unanimité pour une participation de 15 € mensuel à la complémentaire santé des \nagents communaux \n \nRELANCE DU MARCHE POUR LA MODIFICATION DU LINER DE LA PISICINE ET LA \nREPARATION DES FILTRES \n \nLa précédente démarche a été interrompue du fait des délais de réponse concernant les \nsubventions. Ces dernières ont fini par être transmises. \nSur une évaluation de 244 228,07 €HT, elles se décomposent comme suit : \n- DETR  \n \n24% soit 58 614,74 € \n- département  \n16 % soit 39 076,00 € \nLa région a été relancée. \n \nIl est proposé au conseil d’inscrire l’opération sur le budget d’investissement, afin de pouvoir lancer \nle marché début 2026, pour une réalisation avant mai 2026, et organiser une réflexion sur la mise \nà disposition de l’équipement pour les écoles à mi-juin dans le cadre de classe bleue ou tout autre \ndispositif équivalent, comme sollicité par le conseil d’école de juin dernier. \n \nAprès échange, le conseil sursoit à statuer sur cette question dans l’attente d’un retour sur la \ndemande de subvention de la Région. \n \nAVIS POUR LANCEMENT DES ÉTUDES POUR UN PROJET D’AGRIVOLTAÏQUE SUR LE \nDOMAINE DE VILLENEUVE \n \nMonsieur le Maire expose au Conseil Municipal le souhait de la société Pierreval de développer un \nprojet agrivoltaïque sur le domaine de Villeneuve. \nLa société Pierreval a présenté le projet à Monsieur le Maire ainsi qu’aux conseillers municipaux \nprésents à la réunion du 5 septembre dernier, en présence des propriétaires des terrains.  \n \nÉric OLIVIER ne participe pas au vote \nAprès échange, le conseil vote par 10 voix pour et deux abstentions : \n- \nSon soutien au projet présenté \n- \nL’autorisation à la société de réaliser les études de faisabilité nécessaires sur le territoire de \nla commune, et de déposer toutes les demandes d’autorisation nécessaires à la réalisation \ndu projet. \n \nDROIT DE PREEMPTION  \n \n \n \n"
+    },
+    {
+      "page": 9,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=9",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.267,
+      "text": "Usage : Habitation\nPrix de vente : 250 000.00 euros\nVendeur(s) : Mme FRADIER Nicole, Mme FRADIER Michèle, Mme FRADIER Monique\n\n00145\n\naB0or6s\n\né S ABC\n®.\n\n_— SN L\n# = . \\ aB0st8 +\n\nLe conseil se prononce à l'unanimité contre l'exercice du droit de préemption.\n\n| ADO\n\n, ADO:\nÀ\nes\n‘ABo51\nAa0s37\nAOtaTé ;\n\nL'ordre du jour étant épuisé la séance est levée à 22 h 05\n",
+      "text_sparse": "Usage :\n\nHabitation\n\nPrix de vente\n\n250 000.00 euros\n\nVendeur(s) :\n\nMme FRADIER Nicole, Mme FRADIER Michèle, Mme FRADIER Monique\n\n00145\n\nAB0828\n\nLa\n\n(9\n\nvd\n\nLIL\n\n-\n\ng\n\ns90D 0238 G\n\nABC463\n\n#\n\nABO239\n\n|\n\nGoré\n\nLi\n\nABO2CE\n\naB0740\n\nABC455\n\nI |\n\naB0s}1\n\n _\n\n@-\n\nAB0243\n\na80053\n\n-\n\nMontolieu\n\nLu\n\naB0or6s\n\nABO8I2\n\nGus\n\nABOT44\n\nABO674\n\n‘\n\na\n\nü\n\n1%\n\nABOs +\n\nf}\n\né Ne\n\nAG0100\n\nABOSIà\n\nADO\n\nAB0197\n\n_\n\nA80637\n\n_\n\nAOd47E\n\naB0sts +\n\nA\n\naotss\n\nAO\n\nLe conseil se prononce à l'unanimité contre l'exercice du droit de préemption.\n\nL'ordre du jour étant épuisé la séance est levée à 22 h 05\n",
+      "ocr": {
+        "mean_conf": 69.4,
+        "min_conf": 0,
+        "low_word_fraction": 0.282,
+        "words": 71
+      }
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "663ab0bfea7087783575a44555d283ec3731e90d06dd237381c08cc8a600480d",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:38:31+00:00",
+      "last_modified": "Wed, 29 Oct 2025 13:23:37 GMT",
+      "superseded_at": null,
+      "record": "minutes/f950f0c50c7a.json",
+      "diff_from_previous": null
+    }
+  ]
+}
