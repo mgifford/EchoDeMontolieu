@@ -119,8 +119,11 @@ def test_forwarded_header_is_ignored_unless_proxy_is_trusted(tmp_path):
     assert hits(True) == (200, 200)    # trusted: last entry is the address the proxy saw
 
 
-def test_no_search_or_aggregate_endpoint_exists(client):
-    for path in ("/api/search?q=durant", "/api/people", "/api/minutes/search"):
+def test_only_the_derived_layer_is_searchable_and_there_is_no_people_or_full_text_endpoint(client):
+    # /api/search exists (derived, scrubbed layer; 503 here because no database was built) but nothing
+    # searches the faithful text or lists people.
+    assert client.get("/api/search?q=durant").status_code == 503
+    for path in ("/api/people", "/api/minutes/search", "/api/search/people", "/api/whois"):
         assert client.get(path).status_code == 404
 
 

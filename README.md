@@ -62,6 +62,11 @@ server, a vector search.
 - **Politeness.** The Mairie runs a small server. The fetcher respects `robots.txt`, waits at least
   10 seconds between requests, checks for changes with header-only requests, and stops on
   any error. See [`echo_montolieu/fetch.py`](echo_montolieu/fetch.py).
+- **Search covers the derived layer only.** `python -m echo_montolieu build-db` builds a SQLite
+  full-text index (FTS5, `data/echo.db`, not committed) from the scrubbed items and the AI-written
+  summaries. It never contains the faithful text, names other than officials on the attendance list,
+  or anything about property sales, and the 2003-2008 minutes are left out until their names are
+  checked. The API (`/api/search`) and any future MCP server read only this file.
 - Private working data (unredacted extractions, a name registry, archived PDFs) is never
   committed; it lives in a git-ignored `private/` folder.
 
@@ -72,6 +77,8 @@ pip install -r requirements.txt            # also needs Tesseract with French da
 python -m echo_montolieu sync --dry-run    # what would be fetched (two requests)
 python -m echo_montolieu sync              # fetch new minutes politely and extract them
 python -m echo_montolieu publish-record    # write the faithful record to public/
+python -m echo_montolieu build-db          # the searchable derived database
+python -m echo_montolieu search piscine    # try it
 python -m pytest                           # the tests
 uvicorn app:app --port 7860                # the read API and landing page
 ```

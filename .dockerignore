@@ -12,8 +12,7 @@ tessdata
 *.key
 *.pem
 tests
-echo_montolieu/*
-!echo_montolieu/__init__.py
-!echo_montolieu/disclosure.py
-__pycache__
+**/__pycache__
+archive
+trials
 .pytest_cache

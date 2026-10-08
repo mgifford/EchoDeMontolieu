@@ -233,6 +233,22 @@ def create_app(public_dir=None, data_dir=None, limiter=None, trust_proxy=None):
         return _landing(_read_json(public / "index.json", {}),
                         _read_json(data / "where_to_find_mairie.json", {}))
 
+    db_path = Path(os.environ.get("ECHO_DB", "data/echo.db"))
+
+    @app.get("/api/search")
+    def search(q: str = "", limit: int = 10, lang: str = None):
+        """Search the derived, scrubbed layer only (never the faithful text, never private data)."""
+        from echo_montolieu import db as database
+        if not db_path.exists():
+            raise HTTPException(503, "Search is not available")
+        if lang not in (None, "fr", "en", "nl"):
+            raise HTTPException(422, "lang must be fr, en or nl")
+        if len(q) > database.MAX_QUERY_CHARS:
+            raise HTTPException(422, "Query too long")
+        return {"query": q, "results": database.search_public(db_path, q, limit, lang),
+                "layer": "derived: names scrubbed, property sales not searchable", "ai_disclosure": disclosure.AI_PAGE_URL,
+                "disclaimer": disclosure.text("rules", "en")}
+
     @app.get("/api/minutes")
     def minutes_index():
         return _read_json(public / "index.json", {"count": 0, "documents": []})
