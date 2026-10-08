@@ -53,7 +53,6 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 **Exceptions or derogations mentioned**
 
-- “Charges exceptionnelles 514 0 514 68 dotation aux provisions semi budgétaires 4000 700 4000 Concernant les dépenses d’investissement, il n’y a aucune augmentation mais une ventilation différente des s”
 - “Immobilisations en cours 0 Le conseil vote à l’unanimité le budget rectificatif N°3 Suite à la demande exprimée par MVdL, le conseil vote à l’unanimité la subvention complémentaire exceptionnelle pour”
 
 ## Approbation padd rectifie

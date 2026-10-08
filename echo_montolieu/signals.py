@@ -176,9 +176,31 @@ _EXCEPTION = re.compile(
     r"\bd[ée]rog\w*|\bexception\w*|à titre (?:exceptionnel|dérogatoire)|par exception", re.I)
 
 
+# "Charges exceptionnelles", "produits exceptionnels" are accounting categories in a budget, not an
+# exception to a rule; table rows full of figures carry no wording worth quoting.
+_ACCOUNTING_EXCEPTIONAL = re.compile(
+    r"(?:charges?|produits?|résultats?|recettes?|dépenses?|opérations?)\s+exceptionnel", re.I)
+
+
 def find_exceptions(text):
     return [{"marker": m.group(0).lower(), "sentence": s}
-            for s in sentences(text) for m in _EXCEPTION.finditer(s)][:12]
+            for s in sentences(text) if not _mostly_numbers(s)
+            for m in _EXCEPTION.finditer(s)
+            if not _ACCOUNTING_EXCEPTIONAL.search(s[max(0, m.start() - 24): m.end()])][:12]
+
+
+# ---- wording that signals a rule, even when no article or law is cited ----------------------
+
+_RULE_WORDING = re.compile(
+    r"en application d(?:e|u|es|’|')|conformément (?:à|au|aux)|en vertu d|r[ée]glementation|r[ée]glementaire|"
+    r"législati|obligatoire|obligation|plafond|plafonn|contrôle de légalité|\bpréfet|préfecture|"
+    r"loi de finances|selon les règles|imposé|imposent|à titre dérogatoire|doit être (?:voté|approuvé|délibéré)", re.I)
+
+
+def find_rule_mentions(text):
+    """Sentences that point to a rule or an obligation in words. Candidates, not legal analysis."""
+    return [{"sentence": s} for s in sentences(text)
+            if not _mostly_numbers(s) and _RULE_WORDING.search(s)][:8]
 
 
 # ---- follow-up candidates ------------------------------------------------------------------

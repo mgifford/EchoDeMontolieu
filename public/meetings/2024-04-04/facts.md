@@ -36,10 +36,6 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 - 61 %: “Les recettes sont constituées pour 61 % des impôts et taxes.”
 
-**Exceptions or derogations mentioned**
-
-- “Charges exceptionnelles 0,00 0,00 0,00 0,00 0,00 0,00 TOTAUX”
-
 ## Depenses de fonctionnement
 
 [p.2](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=2) to [p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=3) · Vote: no vote found · Topics: finances
@@ -50,10 +46,6 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 - 197 765,66 €, 157 879,11 €, 39 886,65 €: “Produits exceptionnels 2 600,00 6 900,00 6 959,61 0,00 0,00 0,00 TOTAUX RECETTES DE FONCTIONNEMENT 1 049 853,58 1 126 826,58 1 153 963,59 BUDGET GENERAL FONCTIONNEMENT RECETTES BUDGET GENERAL FONCTIONNEMENT DEPENSES Excé”
 
-**Exceptions or derogations mentioned**
-
-- “Produits exceptionnels 2 600,00 6 900,00 6 959,61 0,00 0,00 0,00 TOTAUX RECETTES DE FONCTIONNEMENT 1 049 853,58 1 126 826,58 1 153 963,59 BUDGET GENERAL FONCTIONNEMENT RECETTES BUDGET GENERAL FONCTION”
-
 ## Budget CCAS fonctionnement depenses
 
 [p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=3) to [p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=4) · Vote: no vote found · Topics: finances
@@ -63,10 +55,6 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 **Amounts**
 
 - 522,01 €: “Excédent de fonctionnement 3 522.01 € Il n’y a pas d’investissement pour le CCAS Pour le groupe médical Section de fonctionnement Section d’investissement Code Libellé 2023 Réalisé total Dispo. 002.”
-
-**Exceptions or derogations mentioned**
-
-- “Charges exceptionnelles 0,00 0,00 0,00 TOTAUX DEPENSES DE FONCTIONNEMENT 12 875,66 3 148,71 9 726,95 Code Libellé 2023 Réalisé totalDispo. 002.”
 
 ## Investissement depenses
 
@@ -181,10 +169,6 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 - instruction M57
 
-**Exceptions or derogations mentioned**
-
-- “Charges exceptionnelles - 514,00 68 dotation aux amortissements,dépréciation et provisions - 4 000,00 TOTAL FONCTIONNEMENT 1 049 853,58 1 159 916,55 961 398,57”
-
 ## Fonctionnement depenses
 
 [p.12](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=12) to [p.13](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=13) · Vote: no vote found · Topics: finances
@@ -196,10 +180,6 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 - 4 056,43 €: “Pour ce qui concerne les charges de personnel, il est précisé suite à une demande émise par les conseillers, que le paiement de la prime inflation a représenté (charges comprises) 4056,43 €, comptabilisé sur les comptes ”
 - 2 500 €: “Le CIA comptabilisé en 2023 a atteint 2500 €.”
 - 2 280 €: “Concernant les dépenses d’investissement, on notera une modification sur le montant des immobilisations corporelles par rapport au projet envoyé pour un montant de 2 280 €.”
-
-**Exceptions or derogations mentioned**
-
-- “Produits exceptionnels 2 600,00 60 861,00 6 959,61 TOTAL FONCTIONNEMENT 1 049 853,58 1 159 916,55 1 153 963,59”
 
 ## Fonctionnement recettes
 

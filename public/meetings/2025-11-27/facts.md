@@ -70,10 +70,6 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 - 65 878,75 €, 55 347,10 €: “Un report de la section de fonctionnement est dégagé pour 65878,75 € contre 55 347,10€ dans le budget initial.”
 - 30 000 €, 13 948,45 €, 14 060 €, 71 989 €, 60 084,54 €, 69 283 €, 73 685 520,50 €, 625 935,80 €, 706 540 €, 74 156 907 €, 149 557,41 €, 158 020 €, 119 760 €, 109 926,36 €, 117 644,96 €, 38 850 €, 38 898,91 €, 38 900 €, 1 103 026,50 €, 998 351,47 €, 1 104 447,96 €, 0 €, 0 €, 0 €, 0 €, 0 €, 0 €, 334 388,87 €, 264 456,62 €, 317 734 €, 543 450 €, 460 983,04 €, 549 900 €, 127 183,90 €, 97 652,49 €, 132 790,58 €, 28 486,63 €, 21 138,08 €, 23 974,63 €, 300 €, 257,38 €, 300 €, 50 858 195,61 €, 1 104 447,96 €: “Côté investissement dépenses sont réintégrés et/ou dispatchés sur les lignes comptables adéquates : - Le complément pour l’aménagement paysager du city stade (dans le mobilier et les aménagement et agencements de terrain”
 
-**Exceptions or derogations mentioned**
-
-- “Côté investissement dépenses sont réintégrés et/ou dispatchés sur les lignes comptables adéquates : - Le complément pour l’aménagement paysager du city stade (dans le mobilier et les aménagement et ag”
-
 ## Total budget
 
 [p.4](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=4) to [p.5](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=5) · Vote: no vote found · Topics: finances

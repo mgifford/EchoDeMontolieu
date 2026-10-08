@@ -120,3 +120,22 @@ def test_a_single_sale_marker_is_enough_to_make_an_item_sensitive():
     assert is_property_transaction("DIVERS", "Désignation du bien vendu : une grange. Prix de vente : 90 000 EUR.")
     assert is_property_transaction("X", "Le conseil se prononce contre l’exercice du droit de préemption.")
     assert not is_property_transaction("TRAVAUX", "La commune achète un chemin pour un euro symbolique.")
+
+
+def test_accounting_exceptional_categories_are_not_exceptions_but_real_ones_are():
+    assert find_exceptions("Charges exceptionnelles 0,00 0,00 TOTAL FONCTIONNEMENT 1 049 853,58") == []
+    assert find_exceptions("Les produits exceptionnels de l’exercice sont inscrits au budget de la commune.") == []
+    assert [e["marker"] for e in find_exceptions("Une subvention exceptionnelle de 380 euros est accordée à la coopérative scolaire.")] == ["exceptionnelle"]
+    assert [e["marker"] for e in find_exceptions("Les subventions sont votées à l’unanimité, à l’exception de la demande de l’association.")] == ["exception"]
+
+
+def test_rule_wording_is_found_without_a_citation_and_figures_are_skipped():
+    from echo_montolieu.signals import find_rule_mentions
+    found = find_rule_mentions("Conformément à la réglementation, le conseil délibère. Le taux est plafonné par la loi de finances. "
+                               "Le conseil remercie le public. Montant plafond 300 000 EUR 450 000 EUR 12 500,00 8 900,00 7 700 640 321.")
+    assert len(found) == 2 and "Conformément" in found[0]["sentence"] and "plafonné" in found[1]["sentence"]
+    assert find_rule_mentions("Le conseil approuve le compte rendu.") == []
+
+
+def test_a_titre_exceptionnel_is_a_real_exception_not_an_accounting_category():
+    assert [e["marker"] for e in find_exceptions("À titre exceptionnel, la salle est prêtée à l’association.")] == ["à titre exceptionnel"]

@@ -64,11 +64,6 @@ Decisions about sales of private property (1 notice(s)). Details are in the minu
 
 > Code Libellé BP Budget total Réalisé total BR1 Fonctionnement. TOTAL DES DEPENSES 1103584,47 1123584,47 381380,6 1152229,47 011. Charges à caractère général 343365 343365 130948,69 362485 012. Charges de personnel et frais assimilés 486500 486500 206447,95 497600 014. Atténuations de produits 2900 2900 0 2900 023.…
 
-**Exceptions or derogations mentioned**
-
-- “Charges exceptionnelles 514 514 0 514 68 dotation aux provisions semi budgétaires 4000 4000 0 4000 Fonctionnement.”
-- “Produits exceptionnels 0 20000 20080 50080 773.”
-
 ## Total des depenses
 
 [p.6](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=6) · Vote: no vote found · Topics: finances, voirie et travaux

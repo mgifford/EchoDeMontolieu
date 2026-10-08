@@ -63,11 +63,6 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 - 49 %, 30 %: “Laure ESCARÉ précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment les recettes de la piscin”
 - 62 %: “Côté recettes, les impôts et taxes représentent 62 % du budget, devant les dotations et participations, et les autres produits de gestion courante (dont les loyers représentent la quasi-totalité) Le détail des recettes f”
 
-**Exceptions or derogations mentioned**
-
-- “Laure ESCARÉ précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment les r”
-- “Laure ESCARÉ précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment les r”
-
 **Places mentioned (unverified):** passage en Led
 
 ## Terrain saint roch
