@@ -44,7 +44,7 @@ _UNITS = ["zéro", "un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit
 _TENS = {"vingt": 20, "trente": 30}
 # Older minutes open with a formula: "L'an deux mil quatre et le deux Mars" or "... le 04 Décembre".
 _OLD_DATE_RE = re.compile(
-    r"L['’]an\s+deux\s+mil(?:les?)?\s+(?P<year>" + "|".join(sorted(map(re.escape, _UNITS), key=len, reverse=True)) +
+    r"L\s*['’]?\s*an\s+deux\s+mil(?:les?)?\s+(?P<year>" + "|".join(sorted(map(re.escape, _UNITS), key=len, reverse=True)) +
     r"|vingt(?:\s+et\s+un)?)\s+et\s+le\s+(?P<day>\d{1,2}|premier|[a-zéû]+(?:[\s-]+(?:et[\s-]+)?[a-zéû]+)?)(?:\s+du\s+mois)?\s+(?:d['’]\s*|de\s+)?"
     r"(?P<month>" + "|".join(MONTHS) + r")\b", re.IGNORECASE)
 _NUM_DATE_RE = re.compile(r"\bCONSEIL\s+MUNICIPAL\s+DU\s+(\d{1,2})/(\d{1,2})/(20\d{2})\b", re.IGNORECASE)

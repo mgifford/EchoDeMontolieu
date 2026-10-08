@@ -172,3 +172,17 @@ def test_landing_page_carries_the_ai_disclosure_near_the_top_and_in_the_footer(c
     assert "AI disclosure." in flat and "written with AI assistance" in flat and "No person has checked every page" in flat
     assert body.index('class="ai"') < body.index("<h2>Explore</h2>")           # before the content, not buried
     assert body.count("blob/main/AI.md") == 2                                   # in the notice and in the footer
+
+
+def test_landing_groups_minutes_by_year_with_counts_and_names_the_missing_years():
+    from app import _landing
+    docs = [{"document_id": f"{i:012x}", "filename": f"f{i}.pdf", "source_url": "https://www.montolieu.fr/x.pdf",
+             "meeting_date": {"value": d}, "versions": 1} for i, d in enumerate(["2026-07-22", "2026-06-05", "2024-01-31", "2008-05-09"])]
+    docs.append({"document_id": "f" * 12, "filename": "old.html", "source_url": "https://web.archive.org/web/1/http://x/old.html",
+                 "meeting_date": {"value": "2003-04-04"}, "versions": 1})
+    page = _landing({"documents": docs}, {"entries": []}, static=True)
+    assert "5 sets of minutes across 4 years (2003 to 2026)" in page
+    assert page.index("2026: 2 sets of minutes") < page.index("2024: 1 set of minutes") < page.index("2008: 1 set of minutes")
+    assert "No minutes found for: 2004 to 2007; 2009 to 2023; 2025." in page
+    assert "Internet Archive copy" in page and page.count("original PDF") == 4
+    assert "<h3" in page and page.index("<h2>Council minutes</h2>") < page.index("<h3")

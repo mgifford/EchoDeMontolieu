@@ -1,5 +1,5 @@
 {
-  "count": 55,
+  "count": 57,
   "produced_by": "software (extraction and OCR) written with AI assistance",
   "human_reviewed": false,
   "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
@@ -992,6 +992,40 @@
       "ocr_pages": [],
       "needs_review_pages": [],
       "file": "minutes/de1696484b96.json"
+    },
+    {
+      "document_id": "7b87f34f5a46",
+      "filename": "crcm200903.html",
+      "source_url": "https://web.archive.org/web/20031030083200/http://www.montolieu.fr:80/conseil/crcm200903.html",
+      "meeting_date": {
+        "value": "2003-09-20",
+        "source": "text layer, page 1: 'L ’an deux mille trois et le vingt du mois de Septembre'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 1,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/7b87f34f5a46.json"
+    },
+    {
+      "document_id": "457068d124cb",
+      "filename": "CRCM040403.html",
+      "source_url": "https://web.archive.org/web/20030504065526/http://www.montolieu.fr:80/CRCM040403.html",
+      "meeting_date": {
+        "value": "2003-04-04",
+        "source": "text layer, page 1: 'L’an deux mille trois et le quatre du mois d'avril'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 1,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/457068d124cb.json"
     }
   ]
 }

@@ -91,14 +91,16 @@ def _https(url):
 def _landing(index, pointers, static=False):
     """static=True gives relative links and a meta CSP, for hosting without a server (GitHub Pages)."""
     e = html.escape
-    docs = []
-    for d in index.get("documents", []):
+    by_year = {}
+    for d in sorted(index.get("documents", []), key=lambda d: ((d.get("meeting_date") or {}).get("value") or "", d.get("filename") or ""),
+                    reverse=True):
         when = (d.get("meeting_date") or {}).get("value")
         label = e(when) if when else "date not detected"
         name = e(d.get("filename") or d["document_id"])
         src = _https(d.get("source_url"))
         about = f'<span class="sr"> of {label}</span>'  # makes repeated links distinguishable
-        links = [f'<a href="{e(src)}" lang="fr">original PDF{about}</a>'] if src else []
+        archived = bool(src) and src.startswith("https://web.archive.org/")
+        links = [f'<a href="{e(src)}" lang="fr">{"Internet Archive copy" if archived else "original PDF"}{about}</a>'] if src else []
         doc_href = (f"minutes/{e(d['document_id'])}.json" if static
                     else f"/api/minutes/{e(d['document_id'])}")
         links.append(f'<a href="{doc_href}">extracted text (JSON){about}</a>')
@@ -112,7 +114,7 @@ def _landing(index, pointers, static=False):
         if d.get("ocr_pages"):
             flags += (f' OCR was used on {len(d["ocr_pages"])} page(s); '
                      f'{len(d.get("needs_review_pages", []))} need review.')
-        docs.append(f"<li><strong>{label}</strong> <span lang=\"fr\">{name}</span>"
+        by_year.setdefault(when[:4] if when else "undated", []).append(f"<li><strong>{label}</strong> <span lang=\"fr\">{name}</span>"
                     f"{' (draft suspected)' if d.get('draft_suspected') else ''}: "
                     f"{', '.join(links)}.{e(flags)}</li>")
     where = []
@@ -123,7 +125,32 @@ def _landing(index, pointers, static=False):
                          f'({e(p["label_en"])}), <span class="note">on '
                          f'{e(p.get("owner") or "the Mairie site")}; check there for current '
                          f"details.</span></li>")
-    docs_html = "".join(docs) or "<li>No minutes have been published yet.</li>"
+    years = sorted((y for y in by_year if y != "undated"), reverse=True)
+    total = sum(len(v) for v in by_year.values())
+    docs_html = ""
+    if total:
+        span = f"{years[-1]} to {years[0]}" if len(years) > 1 else (years[0] if years else "undated")
+        missing = [y for y in range(int(years[-1]), int(years[0])) if str(y) not in by_year] if years else []
+        gaps, start = [], None
+        for y in missing + [None]:                 # collapse runs of missing years into ranges
+            if start is None:
+                start = prev = y
+            elif y is not None and y == prev + 1:
+                prev = y
+            else:
+                gaps.append(f"{start}" if start == prev else f"{start} to {prev}")
+                start = prev = y
+        gap_note = (f'<p class="note">No minutes found for: {e("; ".join(g for g in gaps if g and g != "None"))}. '
+                    "We found none on the Mairie's site or in the Internet Archive; "
+                    "ask the Mairie if you need them.</p>") if missing else ""
+        docs_html = (f'<p>{total} set{"s" if total != 1 else ""} of minutes across {len(years)} year{"s" if len(years) != 1 else ""} '
+                     f'({e(span)}). Most recent first.</p>{gap_note}')
+        for y in years + (["undated"] if "undated" in by_year else []):
+            n = len(by_year[y])
+            heading = f'{"Date not detected" if y == "undated" else y}: {n} set{"s" if n != 1 else ""} of minutes'
+            docs_html += f'<h3 id="minutes-{y}">{heading}</h3><ul>{"".join(by_year[y])}</ul>'
+    else:
+        docs_html = "<p>No minutes have been published yet.</p>"
     map_href = "places/map.html" if static else PAGES_URL + "places/map.html"
     data_note = ('<a href="index.json">index.json</a> and '
                  '<a href="where_to_find_mairie.json">where_to_find_mairie.json</a>' if static else
@@ -162,7 +189,7 @@ shown with a link to the original. Check the original before relying on anything
 </ul>
 <p class="note">The last three open on GitHub, where Markdown is displayed as a page.</p>
 <h2>Council minutes</h2>
-<ul>{docs_html}</ul>
+{docs_html}
 <h2>Where to find things</h2>
 <ul>{"".join(where)}</ul>
 <p class="note">This page is in English only for now. The data is available as JSON: {data_note}.</p>
