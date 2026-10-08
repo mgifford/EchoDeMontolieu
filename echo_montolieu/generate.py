@@ -143,8 +143,8 @@ def generate(public_dir, summary_model, translator, langs, only=None, force=Fals
         for entry in entries:
             rec = json.loads((public / entry["file"]).read_text(encoding="utf-8"))
             folder = meeting_folder(rec, taken)
-            if only and folder not in only:
-                continue
+            if (only and folder not in only) or rec.get("origin"):
+                continue                          # archived minutes are not sent to a model yet (see render_all)
             target = public / "meetings" / folder
             target.mkdir(parents=True, exist_ok=True)
             meeting = parse_meeting(rec)
@@ -203,6 +203,8 @@ def estimate_generation(public_dir, langs, summary_price, translate_price):
     summary_in = minutes_chars = meetings = 0
     for entry in index["documents"]:
         rec = json.loads((public / entry["file"]).read_text(encoding="utf-8"))
+        if rec.get("origin"):
+            continue
         meeting = parse_meeting(rec)
         sensitive, seen = _sensitive_pages(meeting), []
         render_minutes(rec, lang="en", tr=lambda t, page=None: (seen.append(t) if page not in sensitive else None) or t,

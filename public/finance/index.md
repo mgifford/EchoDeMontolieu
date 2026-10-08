@@ -13,87 +13,15 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 ## How much the minutes say explicitly
 
-- Agenda items with euro amounts: **144** (of 353 items in 55 meetings).
-- Of those, items that **cite a law, article, decree or budget instruction**: **17**.
-- Items with **wording that points to a rule or limit** but no citation: **12**.
-- Items that **say nothing about a rule**: **115**.
-- Items with **exception wording**: **9** (plus 2 without amounts).
+- Agenda items with euro amounts: **97** (of 248 items in 25 meetings).
+- Of those, items that **cite a law, article, decree or budget instruction**: **7**.
+- Items with **wording that points to a rule or limit** but no citation: **10**.
+- Items that **say nothing about a rule**: **80**.
+- Items with **exception wording**: **5** (plus 1 without amounts).
 
 The minutes seldom state their legal basis, so most of the picture cannot be read from them. "None stated" below does not mean there is no basis.
 
 ## Decisions with money, by year
-
-### 2004
-
-| Date | Item | Amounts | Rates | Rule basis in the text | Exception wording | Vote | Page |
-|---|---|---|---|---|---|---|---|
-| 2004-03-02 | Agricole du midi. | 135 000 €, 48 624 €, 130 000 €, 135 000 € (+4 more) | 3,94 % | none stated |  | majority | [p.2](https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=2) |
-| 2004-03-02 | Questions diverses. | 45 000 € |  | none stated |  | - | [p.3](https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=3) |
-| 2004-03-02 | Questions orales. | 45 000 €, 6 000 € |  | none stated |  | unanimous | [p.4](https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=4) |
-| 2004-04-30 | 2 (chotard, lasserre c.) | 901 292 €, 1 338 040 €, 25 219 €, 40 € (+48 more) | 18,58 %, 27,86 %, 87,68 %, 14,33 % | cites: instruction M14; instruction M49 |  | majority | [p.2](https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf#page=2) |
-| 2004-05-14 | Questions diverses. | 300 € |  | none stated | yes | unanimous | [p.5](https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf#page=5) |
-| 2004-12-04 | 2° tranche travaux piscine municipale. | 70 523 € |  | none stated |  | unanimous | [p.1](https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf#page=1) |
-| 2004-12-04 | Mur de soutenement du chemin de l’ancienne tannerie. | 40 329 €, 1 792 € |  | none stated |  | - | [p.1](https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf#page=1) |
-| 2004-12-04 | Refection rues du 11 novembre 1918 et du 8 mai 1945. | 3 909 €, 7 406 € |  | none stated |  | - | [p.2](https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf#page=2) |
-| 2004-12-04 | Extension garage communal. | 56 € |  | rule wording only |  | unanimous | [p.2](https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf#page=2) |
-| 2004-12-04 | Terrain kondraty. | 1 100 € |  | none stated |  | unanimous | [p.2](https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf#page=2) |
-| 2004-12-04 | Amenagement local de m.v.d.l. | 2 020 €, 2 032 €, 1 751 € |  | none stated |  | unanimous | [p.3](https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf#page=3) |
-
-### 2005
-
-| Date | Item | Amounts | Rates | Rule basis in the text | Exception wording | Vote | Page |
-|---|---|---|---|---|---|---|---|
-| 2005-01-07 | Abstention : 2 (etore, chotard). | 1 000 € |  | none stated |  | majority | [p.2](https://web.archive.org/web/20051014125650/http://www.montolieu.fr/docs/CRCM050105.pdf#page=2) |
-| 2005-02-10 | Laporte à delperier | 1 500 €, 152 500 € | 3,38 % | none stated | yes | majority | [p.1](https://web.archive.org/web/20051014125712/http://www.montolieu.fr/docs/CRCM100205.pdf#page=1) |
-| 2005-05-22 | Olivier, delperier, drieux, pujade, ricard. | 500 827 €, 931 720 €, 430 893 €, 855 718 € (+39 more) |  | cites: instruction M14; instruction M49 |  | majority | [p.1](https://web.archive.org/web/20061123183136/http://www.montolieu.fr/docs/CRCM220405.pdf#page=1) |
-| 2005-05-22 | (4 contre : Lasserre c., lasserre d., pujade, ricard) | 415 €, 230 €, 1 270 €, 0 € (+19 more) | 18,58 %, 27,86 %, 87,68 %, 14,33 % | cites: instruction M14; instruction M49 | yes | majority | [p.3](https://web.archive.org/web/20061123183136/http://www.montolieu.fr/docs/CRCM220405.pdf#page=3) |
-
-### 2006
-
-| Date | Item | Amounts | Rates | Rule basis in the text | Exception wording | Vote | Page |
-|---|---|---|---|---|---|---|---|
-| 2006-01-14 | Soulié, solé. | 6 000 €, 300 €, 4 000 €, 3 000 € (+4 more) |  | none stated |  | majority | [p.1](https://web.archive.org/web/20061123183038/http://www.montolieu.fr/docs/CRCM140106.pdf#page=1) |
-| 2006-01-14 | Article na 6 – Implantation des constructions par rapport aux voies et | 16 €, 1 €, 46 800 €, 23 887 € (+1 more) |  | none stated |  | unanimous | [p.3](https://web.archive.org/web/20061123183038/http://www.montolieu.fr/docs/CRCM140106.pdf#page=3) |
-| 2006-01-14 | 4 (gouzvinski, pillosio, paré, laporte). pour : | 150 €, 150 € |  | none stated |  | - | [p.5](https://web.archive.org/web/20061123183038/http://www.montolieu.fr/docs/CRCM140106.pdf#page=5) |
-| 2006-04-22 | Etoré, drieux, delperier, chotard. | 512 055 €, 837 308 €, 325 253 €, 783 196 € (+12 more) |  | cites: instruction M14; instruction M49 |  | majority | [p.1](https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf#page=1) |
-| 2006-04-22 | 4 (gouzvinski, pillosio, paré, laporte). pour : | 150 €, 150 €, 16 €, 1 € (+6 more) | 1 %, 5 %, 2 %, 1,5 % | none stated |  | majority | [p.2](https://web.archive.org/web/20071012134440/http://www.montolieu.fr/docs/CRCM%2020060304.pdf#page=2) |
-| 2006-04-22 | Abstention : 1 (etoré) | 0 €, 10 €, 0 €, 25 € (+8 more) |  | rule wording only |  | unanimous | [p.3](https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf#page=3) |
-| 2006-05-05 | Contre : 1 (etoré) | 2 900 €, 2 500 €, 130 €, 120 € (+10 more) |  | cites: instruction M14 |  | majority | [p.2](https://web.archive.org/web/20071012134138/http://www.montolieu.fr/docs/CRCM%2020060505.pdf#page=2) |
-| 2006-05-05 | Contre : 1 (drieux) | 340 €, 320 €, 120 €, 77 € (+11 more) |  | none stated |  | majority | [p.3](https://web.archive.org/web/20071012134138/http://www.montolieu.fr/docs/CRCM%2020060505.pdf#page=3) |
-| 2006-08-19 | 2 choix d’un architecte (petite halle ) | 90 000 €, 58 € |  | none stated |  | majority | [p.1](https://web.archive.org/web/20071012134153/http://www.montolieu.fr/docs/CRCM%2020060819.pdf#page=1) |
-| 2006-08-19 | 7 deliberation modificative « remuneration des architectes » | 16 231 €, 17 000 € |  | none stated |  | majority | [p.2](https://web.archive.org/web/20071012134153/http://www.montolieu.fr/docs/CRCM%2020060819.pdf#page=2) |
-| 2006-08-19 | Questions diverses | 10 000 €, 12 000 € |  | none stated |  | - | [p.3](https://web.archive.org/web/20071012134153/http://www.montolieu.fr/docs/CRCM%2020060819.pdf#page=3) |
-| 2006-09-29 | Lasserre c., sole. | 27 400 €, 4 000 €, 150 000 €, 7 122 € |  | none stated |  | majority | [p.1](https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf#page=1) |
-| 2006-09-29 | Questions diverses | 4 000 € |  | none stated |  | - | [p.3](https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf#page=3) |
-| 2006-11-24 | Choix de l’entreprise pour travaux de voirie : | 34 433 €, 38 210 €, 49 526 € |  | none stated |  | majority | [p.1](https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf#page=1) |
-| 2006-11-24 | Loyer salon de coiffure : | 250 € |  | none stated |  | majority | [p.3](https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf#page=3) |
-| 2006-11-24 | Vente manufacture usine : | 763 000 € |  | none stated |  | - | [p.3](https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf#page=3) |
-| 2006-11-24 | Livre et des arts graphiques”: | 4 000 €, 11 000 €, 4 575 € |  | none stated |  | - | [p.4](https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf#page=4) |
-
-### 2007
-
-| Date | Item | Amounts | Rates | Rule basis in the text | Exception wording | Vote | Page |
-|---|---|---|---|---|---|---|---|
-| 2007-05-03 | Laporte, drieux, sole, pujade, pare, ricard, lasserre d., pillosio). a | 0 €, 10 €, 0 €, 25 € (+7 more) | 18,58 %, 27,86 %, 87,68 %, 14,33 % | cites: instruction M14; instruction M49 |  | majority | [p.2](https://web.archive.org/web/20081112035413/http://www.montolieu.fr/docs/CRCM%2020070503.pdf#page=2) |
-| 2007-05-03 | Contre : 5 (etore, pillosio, ricard, pare, lasserre d.) | 35 000 € |  | none stated |  | unanimous | [p.4](https://web.archive.org/web/20081112035413/http://www.montolieu.fr/docs/CRCM%2020070503.pdf#page=4) |
-| 2007-05-03 | Contre : 3 (pare, etore, ricard) | 2 900 €, 2 500 €, 130 €, 120 € (+10 more) |  | none stated |  | unanimous | [p.4](https://web.archive.org/web/20081112035413/http://www.montolieu.fr/docs/CRCM%2020070503.pdf#page=4) |
-| 2007-05-03 | Contre : 1 (drieux) | 340 €, 320 €, 402 €, 320 € (+6 more) |  | none stated |  | unanimous | [p.5](https://web.archive.org/web/20081112035413/http://www.montolieu.fr/docs/CRCM%2020070503.pdf#page=5) |
-| 2007-05-03 | Contre : 1 (ricard) | 415 €, 50 €, 20 €, 750 € (+6 more) |  | none stated |  | unanimous | [p.6](https://web.archive.org/web/20081112035413/http://www.montolieu.fr/docs/CRCM%2020070503.pdf#page=6) |
-| 2007-05-03 | Section de fonctionnement recettes | 935 189 €, 877 971 € |  | none stated |  | majority | [p.7](https://web.archive.org/web/20081112035413/http://www.montolieu.fr/docs/CRCM%2020070503.pdf#page=7) |
-| 2007-05-03 | Contre: 1 (etoré) | 877 971 €, 93 032 €, 93 032 €, 189 190 € |  | cites: instruction M14; instruction M49 |  | majority | [p.8](https://web.archive.org/web/20081112035413/http://www.montolieu.fr/docs/CRCM%2020070503.pdf#page=8) |
-| 2007-05-03 | Contre : 2 (etore, pillosio) | 189 190 € |  | cites: instruction M49 |  | unanimous | [p.9](https://web.archive.org/web/20081112035413/http://www.montolieu.fr/docs/CRCM%2020070503.pdf#page=9) |
-| 2007-05-03 | Section de fonctionnement dépenses | 9 286 €, 9 286 €, 18 115 € |  | none stated |  | majority | [p.10](https://web.archive.org/web/20081112035413/http://www.montolieu.fr/docs/CRCM%2020070503.pdf#page=10) |
-| 2007-05-03 | Contre : 2 (etore, pillosio) | 18 115 € |  | none stated |  | unanimous | [p.11](https://web.archive.org/web/20081112035413/http://www.montolieu.fr/docs/CRCM%2020070503.pdf#page=11) |
-
-### 2008
-
-| Date | Item | Amounts | Rates | Rule basis in the text | Exception wording | Vote | Page |
-|---|---|---|---|---|---|---|---|
-| 2008-04-04 | Local kine : | 200 000 €, 230 000 € |  | none stated |  | unanimous | [p.6](https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=6) |
-| 2008-04-04 | 5. indemnité de conseil au percepteur | 450 € |  | none stated |  | unanimous | [p.7](https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=7) |
-| 2008-04-04 | 6. questions diverses : | 400 €, 100 €, 3 300 € |  | cites: ? R600-2; instruction M14; instruction M49 |  | majority | [p.7](https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=7) |
-| 2008-04-25 | Pillosio, garachon, burtet, bouyssou. | 202 379 €, 574 €, 47 800 €, 86 005 € (+91 more) | 18,58 %, 27,86 %, 87,68 %, 14,33 % | cites: instruction M14; instruction M49 | yes | unanimous | [p.1](https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf#page=1) |
-| 2008-04-25 | Budgets annexes lotissement/groupe medical | 276 800 €, 36 716 €, 3 760 €, 317 276 € (+10 more) |  | none stated |  | unanimous | [p.6](https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf#page=6) |
 
 ### 2024
 
@@ -211,11 +139,8 @@ The minutes seldom state their legal basis, so most of the picture cannot be rea
 
 | Reference | Cited in | Items |
 |---|---|---|
-| instruction M14 | 22 | 2004-04-30 ([p.2](https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf#page=2)), 2005-05-22 ([p.1](https://web.archive.org/web/20061123183136/http://www.montolieu.fr/docs/CRCM220405.pdf#page=1)), 2005-05-22 ([p.3](https://web.archive.org/web/20061123183136/http:// |
-| instruction M49 | 19 | 2004-04-30 ([p.2](https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf#page=2)), 2005-05-22 ([p.1](https://web.archive.org/web/20061123183136/http://www.montolieu.fr/docs/CRCM220405.pdf#page=1)), 2005-05-22 ([p.3](https://web.archive.org/web/20061123183136/http:// |
 | CGCT L1612-1 | 2 | 2025-01-14 ([p.2](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=2)), 2025-11-27 ([p.6](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=6)) |
 | instruction M57 | 2 | 2024-04-04 ([p.12](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=12)), 2025-04-14 ([p.5](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=5)) |
-| ? R600-2 | 1 | 2008-04-04 ([p.7](https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=7)) |
 | CGCT L.1111-13 | 1 | 2026-03-28 ([p.2](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf#page=2)) |
 | CGCT L.2122-21 | 1 | 2024-10-23 ([p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=4)) |
 | CGCT L2122-22 | 1 | 2024-10-23 ([p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=4)) |
@@ -226,11 +151,6 @@ A reference shown as `?` has no code named near it in the text, so it is not gue
 
 ## Exceptions and exemptions mentioned
 
-- **2004-05-14, Questions diverses.** ([p.5](https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf#page=5)) [exceptionnelle]: “Le Conseil trouve l'initiative intéressante et décide d'octroyer au Comité des Fêtes une subvention exceptionnelle de 300 € pour aider au financement de cette subvention.” (amounts 300 €)
-- **2005-02-10, Laporte à delperier** ([p.1](https://web.archive.org/web/20051014125712/http://www.montolieu.fr/docs/CRCM100205.pdf#page=1)) [exception]: “A l'exception de [name withheld], Le Conseil approuve le dernier Procès-Verbal.” (amounts 1 500 €, 152 500 €)
-- **2005-05-22, (4 contre : Lasserre c., lasserre d., pujade, ricard)** ([p.3](https://web.archive.org/web/20061123183136/http://www.montolieu.fr/docs/CRCM220405.pdf#page=3)) [exceptionnelle]: “Le Conseil se prononce comme suit : Budget M14/2005 : POUR : 10 CONTRE : 4 (RICARD, [name withheld] avec procuration, PARÉ) Budget M49/2005 : POUR : 14 Budget C.C.A.S/2005 : POUR : 11 CONTRE : 3 ([name withheld] avec procuration, PARÉ) Subvention exceptionnell” (cites instruction M14; instruction M49; amounts 415 €, 230 €, 1 270 €, 0 € (+19 more))
-- **2006-11-24, Absents : Soulie.lasserrec. laporte.** ([p.1](https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf#page=1)) [exception]: “[name withheld] précise par ailleurs qu’il a voté pour toutes les demandes sans exception, et qu’il est contre la limitation des propositions.”
-- **2008-04-25, Pillosio, garachon, burtet, bouyssou.** ([p.1](https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf#page=1)) [exception]: “[name withheld] propose que le budget soit voté par chapitres, à l'exception de la liste des subventions aux associations qui doivent être votées une à une.” (cites instruction M14; instruction M49; amounts 202 379 €, 574 €, 47 800 €, 86 005 € (+91 more))
 - **2024-11-27, Total des depenses** ([p.2](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=2)) [exceptionnelle]: “Immobilisations en cours 0 Le conseil vote à l’unanimité le budget rectificatif N°3 Suite à la demande exprimée par MVdL, le conseil vote à l’unanimité la subvention complémentaire exceptionnelle pour 2024.” (cites instruction M57)
 - **2025-01-14, Demande d’avance de subvention sur 2025 pour MVDL** ([p.4](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=4)) [exceptionnelle]: “Par ailleurs l’association des parents d’élèves de Montolieu a sollicité la mairie pour une aide exceptionnelle dans le cadre de l’organisation d’un trail pour récolter des fonds.” (amounts 5 000 €, 5 000 €, 300 €)
 - **2025-03-06, Demande d’augmentation de la participation de la commune au gip -musée céres fra** ([p.5](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=5)) [exceptionnel]: “Eléments de contexte pour juger du montant du complément exceptionnel au titre de 2025 Pour rappel l’extension du réseau électrique (Cf.” (amounts 2 000 €, 13 094 €, 6 547 €, 7 000 € (+1 more))
@@ -242,25 +162,16 @@ A reference shown as `?` has no code named near it in the text, so it is not gue
 
 Issues that came up in several meetings with amounts each time. Open an issue for its full timeline.
 
-### [7 voix (delperier, drieux, laporte, lauret,](../topics/ccas-etore-pour-2004-04-30.md)
+### [Budget lotissement investissement recettes budget lotissement investissement depenses](../topics/ccas-indice-fonction-2024-04-04.md)
 
 | Date | Amounts |
 |---|---|
-| 2004-04-30 | 901 292 €, 1 338 040 €, 25 219 €, 40 € (+48 more) |
-| 2005-05-22 | 500 827 €, 931 720 €, 430 893 €, 855 718 € (+39 more) |
-| 2005-05-22 | 415 €, 230 €, 1 270 €, 0 € (+19 more) |
-| 2006-04-22 | 512 055 €, 837 308 €, 325 253 €, 783 196 € (+12 more) |
-| 2006-04-22 | 0 €, 10 €, 0 €, 25 € (+8 more) |
-| 2006-05-05 | 2 900 €, 2 500 €, 130 €, 120 € (+10 more) |
-| 2006-05-05 | 340 €, 320 €, 120 €, 77 € (+11 more) |
-| 2007-05-03 | 0 €, 10 €, 0 €, 25 € (+7 more) |
-| 2007-05-03 | 2 900 €, 2 500 €, 130 €, 120 € (+10 more) |
-| 2007-05-03 | 340 €, 320 €, 402 €, 320 € (+6 more) |
-| 2007-05-03 | 189 190 € |
-| 2007-05-03 | 18 115 € |
-| 2008-04-25 | 202 379 €, 574 €, 47 800 €, 86 005 € (+91 more) |
+| 2024-04-04 | 3 522 €, 1 €, 17 247 € |
 | 2025-03-06 | 200 €, 200 € |
 | 2025-03-27 | 422 € |
+| 2025-03-27 | 8 087 €, 10 102 €, 2 016 € |
+| 2025-04-14 | 52 704 €, 787 602 226 €, 721 624 €, 229 666 € (+59 more) |
+| 2025-09-25 | 500 € |
 
 ### [Convention entre la commune et l’association MVDL](../topics/mvdl-avance-association-2024-10-23.md)
 
@@ -271,11 +182,10 @@ Issues that came up in several meetings with amounts each time. Open an issue fo
 | 2026-03-09 | 400 €, 300 €, 300 € |
 | 2026-07-22 | 300 €, 300 € |
 
-### [Renouvellement d’une ligne de tresorerie](../topics/tresorerie-pave-ligne-2024-01-31.md)
+### [Renouvellement d’une ligne de tresorerie](../topics/tresorerie-ligne-pave-2024-01-31.md)
 
 | Date | Amounts |
 |---|---|
-| 2024-01-31 | 466 920 €, 456 315 €, 354 350 €, 264 350 € (+1 more) |
 | 2024-09-18 | 73 000 €, 151 313 €, 78 091 € |
 | 2025-01-14 | 300 000 € |
 | 2025-11-27 | 450 000 € |
@@ -288,46 +198,31 @@ Issues that came up in several meetings with amounts each time. Open an issue fo
 | 2025-01-14 | 450 000 €, 1 125 € |
 | 2025-11-27 | 450 000 €, 1 125 € |
 
-### [Renouvellement des tarifs piscine et diverses location](../topics/tarif-alsh-camping-2024-04-04.md)
+### [Renouvellement des tarifs piscine et diverses location](../topics/tarif-enfant-piscine-2024-04-04.md)
 
 | Date | Amounts |
 |---|---|
 | 2024-04-04 | 4 €, 2 €, 30 €, 10 € (+15 more) |
 | 2025-03-27 | 4 €, 1 €, 30 €, 9 € (+9 more) |
+| 2026-04-13 | 4 €, 1 €, 30 €, 9 € (+10 more) |
 | 2026-04-13 | 700 € |
 | 2026-04-13 | 2 €, 2 €, 1 000 €, 100 € (+4 more) |
 
-### [Contre : 1 (etoré)](../topics/autres-chapitre-impots-2006-05-05.md)
-
-| Date | Amounts |
-|---|---|
-| 2007-05-03 | 35 000 € |
-| 2007-05-03 | 935 189 €, 877 971 € |
-| 2007-05-03 | 877 971 €, 93 032 €, 93 032 €, 189 190 € |
-| 2007-05-03 | 9 286 €, 9 286 €, 18 115 € |
-
-### [Budget lotissement fonctionnement recettes budget lotissement fonctionnement depenses](../topics/cfu-ccas-lotissement-2024-04-04.md)
+### [Budget lotissement fonctionnement recettes budget lotissement fonctionnement depenses](../topics/cfu-lotissement-ccas-2024-04-04.md)
 
 | Date | Amounts |
 |---|---|
 | 2024-04-04 | 149 240 €, 486 €, 17 247 € |
 | 2025-03-27 | 161 952 €, 179 200 €, 17 248 € |
 
-### [Budget lotissement investissement recettes budget lotissement investissement depenses](../topics/deficit-medical-resultat-2024-04-04.md)
-
-| Date | Amounts |
-|---|---|
-| 2024-04-04 | 3 522 €, 1 €, 17 247 € |
-| 2025-03-27 | 8 087 €, 10 102 €, 2 016 € |
-
-### [Collectif budgetaire initial 2024](../topics/cet-provision-assimile-2024-04-04.md)
+### [Collectif budgetaire initial 2024](../topics/cet-dotation-provision-2024-04-04.md)
 
 | Date | Amounts |
 |---|---|
 | 2024-04-04 | 39 887 €, 5 200 €, 514 €, 4 000 € (+2 more) |
 | 2025-04-14 | 4 000 €, 55 347 €, 1 500 €, 7 500 € (+63 more) |
 
-### [Admissions en non-valeur](../topics/admission-valeur-correspondent-2024-09-18.md)
+### [Admissions en non-valeur](../topics/valeur-admission-somme-2024-09-18.md)
 
 | Date | Amounts |
 |---|---|
@@ -348,7 +243,7 @@ Issues that came up in several meetings with amounts each time. Open an issue fo
 | 2025-03-27 | 55 €, 25 €, 25 € |
 | 2026-04-13 | 25 €, 55 € |
 
-### [Cheminement pietonnier vers la coopérative musée ceres franco](../topics/cheminement-pmr-villelongue-2025-09-25.md)
+### [Cheminement pietonnier vers la coopérative musée ceres franco](../topics/cheminement-pmr-parking-2025-09-25.md)
 
 | Date | Amounts |
 |---|---|

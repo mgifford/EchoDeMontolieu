@@ -105,3 +105,44 @@ def test_record_names_the_official_copy_and_the_mirror_and_refuses_online_verify
     assert rec["origin"] == origin and "Internet Archive" in rec["verify"]["about"]
     with pytest.raises(ValueError, match="archived capture"):
         verify_online({**rec, "is_current": True}, fetcher=None)
+
+
+def _archived_and_current_public(tmp_path):
+    """A public folder with one current record and one archived record, built by the real writers."""
+    from echo_montolieu.record import publish_record
+    private, public = tmp_path / "private", tmp_path / "public"
+    (private / "extractions").mkdir(parents=True)
+    index = {}
+    for url, date, origin in (("https://www.montolieu.fr/a.pdf", "2024-04-04", None),
+                              ("https://web.archive.org/web/1/http://x/b.pdf", "2004-03-02", {"kind": "wayback", "mirror_path": "archive/originals/b.pdf", "mirror_url": "https://e/b.pdf", "date_hint_from_filename": "2004-03-02"})):
+        stem = "a" if origin is None else "b"
+        ex = {"source_url": url, "retrieved_at": "2026-10-08T00:00:00+00:00", "sha256": stem * 64, "size_bytes": 1, "page_count": 1,
+              "meeting_date": {"value": date, "source": "x", "status": "tentative"}, "extractor": {},
+              "pages": [{"page": 1, "page_url": url + "#page=1", "method": "text_layer", "status": "ok",
+                         "text": "Le conseil municipal se réunit. Monsieur DUPONT Jean a acheté le terrain."}]}
+        (private / "extractions" / f"{stem}.json").write_text(json.dumps(ex))
+        index[url] = {"filename": f"{stem}.pdf", "draft_suspected": False, "pdf_sha256": stem * 64, "retrieved_at": ex["retrieved_at"],
+                      "extraction": f"extractions/{stem}.json", **({"origin": origin} if origin else {})}
+    (private / "index.json").write_text(json.dumps(index))
+    publish_record(private, public)
+    return public
+
+
+def test_archived_minutes_get_faithful_text_only_and_stay_out_of_derived_pages(tmp_path):
+    from echo_montolieu import threads
+    from echo_montolieu.render import render_all
+    public = _archived_and_current_public(tmp_path)
+    _, meetings = render_all(public)
+    assert [m["date"] for m in meetings] == ["2024-04-04"]
+    old = public / "meetings" / "2004-03-02"
+    assert (old / "minutes.md").exists() and not (old / "facts.md").exists() and not (old / "todo.md").exists()
+    assert "Internet Archive" in (old / "minutes.md").read_text(encoding="utf-8")
+    assert "2004-03-02" in (public / "meetings" / "index.md").read_text(encoding="utf-8")
+    assert [m["meeting"]["date"] for m in threads.load_meetings(public)] == ["2024-04-04"]
+
+
+def test_archived_minutes_are_never_sent_to_a_model(tmp_path):
+    from echo_montolieu.generate import estimate_generation
+    public = _archived_and_current_public(tmp_path)
+    est = estimate_generation(public, ["en"], None, None)
+    assert est["meetings"] == 1

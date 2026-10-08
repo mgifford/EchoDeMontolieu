@@ -12,7 +12,7 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 > Machine-generated grouping. Items are linked because they share distinctive words, and the words are shown so you can judge. A grouping can be wrong, and a missing link does not mean there is none. Every entry links to the page of the original PDF.
 
 - **Status:** returned (2 meetings, 2025-03-06 to 2025-06-24)
-- **Linked by shared words:** rvrat, prestation, ssi, epi
+- **Linked by shared words:** rvrat, prestation, commande, ssi
 
 ## Timeline
 

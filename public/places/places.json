@@ -23,16 +23,6 @@
    ],
    "items": [
     {
-     "date": "2006-11-24",
-     "folder": "2006-11-24",
-     "title": "Choix de l’entreprise pour travaux de voirie :",
-     "page": 1,
-     "url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf",
-     "topics": [
-      "voirie et travaux"
-     ]
-    },
-    {
      "date": "2024-04-04",
      "folder": "2024-04-04",
      "title": "Transfert de propriete au profit de la commune des chemins privés destinés a entrer dans le domaine communal",
@@ -55,52 +45,11 @@
     }
    ],
    "themes": {
-    "voirie et travaux": 3,
+    "voirie et travaux": 2,
     "associations et vie locale": 1
    },
    "main_theme": "voirie et travaux",
    "shape": "square",
-   "meetings": 3
-  },
-  {
-   "label": "Place de l'Eglise",
-   "kind": "street",
-   "lat": 43.310476,
-   "lon": 2.214738,
-   "ban_label": "Place de l'Eglise 11170 Montolieu",
-   "ban_score": 0.945,
-   "mentioned_as": [
-    "place de l’église"
-   ],
-   "items": [
-    {
-     "date": "2008-04-04",
-     "folder": "2008-04-04",
-     "title": "6. questions diverses :",
-     "page": 7,
-     "url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf",
-     "topics": [
-      "finances",
-      "voirie et travaux",
-      "école et enfance"
-     ]
-    },
-    {
-     "date": "2025-09-25",
-     "folder": "2025-09-25",
-     "title": "Mise en place d’une video protection en location",
-     "page": 2,
-     "url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
-     "topics": []
-    }
-   ],
-   "themes": {
-    "finances": 1,
-    "voirie et travaux": 1,
-    "école et enfance": 1
-   },
-   "main_theme": "finances",
-   "shape": "circle",
    "meetings": 2
   },
   {
@@ -449,6 +398,31 @@
    "meetings": 1
   },
   {
+   "label": "Place de l'Eglise",
+   "kind": "street",
+   "lat": 43.310476,
+   "lon": 2.214738,
+   "ban_label": "Place de l'Eglise 11170 Montolieu",
+   "ban_score": 0.945,
+   "mentioned_as": [
+    "place de l’église"
+   ],
+   "items": [
+    {
+     "date": "2025-09-25",
+     "folder": "2025-09-25",
+     "title": "Mise en place d’une video protection en location",
+     "page": 2,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 1
+  },
+  {
    "label": "Route de Fraisse",
    "kind": "street",
    "lat": 43.309601,
@@ -480,6 +454,6 @@
    "meetings": 1
   }
  ],
- "candidates": 97,
+ "candidates": 54,
  "held_back_items": 1
 }

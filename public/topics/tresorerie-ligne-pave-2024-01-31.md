@@ -12,7 +12,7 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 > Machine-generated grouping. Items are linked because they share distinctive words, and the words are shown so you can judge. A grouping can be wrong, and a missing link does not mean there is none. Every entry links to the page of the original PDF.
 
 - **Status:** recurring (4 meetings, 2024-01-31 to 2025-11-27)
-- **Linked by shared words:** tresorerie, pave, ligne, agricole
+- **Linked by shared words:** tresorerie, ligne, pave, finis
 
 ## Timeline
 
@@ -21,12 +21,6 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 [p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=1) · vote: no vote found · [facts](../meetings/2024-01-31/facts.md)
 
 > La commune dispose d’une ligne de trésorerie suite à une décision du conseil municipal de février 2023. Compte tenu du montant des travaux engagés pour le PAVE, et du décalage de réception des subventions accordées une fois les travaux finis, il est nécessaire de renouveler la ligne de trésorerie existante. Son…
-
-### 2024-01-31: Souscription d’un pret pour les travaux du pave
-
-[p.2](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=2) · vote: majority · [facts](../meetings/2024-01-31/facts.md) · amounts: 466 920 €, 456 315 €, 354 350 €, 264 350 €, 210 000 €
-
-> Les travaux du PAVE sont engagés pour 466 920 euros (frais d’étude compris) dont 10605 ont déjà été versés. Il reste donc à couvrir 456 315 euros. Des subventions ont été attribuées pour 354 350 euros, dont 90 000 déjà versés. (60 000 au titre des amendes, et 30 000 sur la DSIL 2020). Il resterait à percevoir après…
 
 ### 2024-09-18: Demande de prêt
 
@@ -50,7 +44,6 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 | Date | Amounts mentioned |
 |---|---|
-| 2024-01-31 | 466 920 €, 456 315 €, 354 350 €, 264 350 €, 210 000 € |
 | 2024-09-18 | 73 000 €, 151 313 €, 78 091 € |
 | 2025-01-14 | 300 000 € |
 | 2025-11-27 | 450 000 € |

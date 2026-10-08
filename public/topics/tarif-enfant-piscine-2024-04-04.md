@@ -12,7 +12,7 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 > Machine-generated grouping. Items are linked because they share distinctive words, and the words are shown so you can judge. A grouping can be wrong, and a missing link does not mean there is none. Every entry links to the page of the original PDF.
 
 - **Status:** recurring (3 meetings, 2024-04-04 to 2026-04-13)
-- **Linked by shared words:** tarif, alsh, camping, mensuel
+- **Linked by shared words:** tarif, enfant, piscine, camping
 
 ## Timeline
 
@@ -25,6 +25,12 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 ### 2025-03-27: Renouvellement des tarifs piscine et diverses location
 
 [p.7](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=7) · vote: majority · [facts](../meetings/2025-03-27/facts.md) · amounts: 4 €, 1 €, 30 €, 9 €, 700 €, 2 €, 2 €, 1 000 €, 100 €, 1 000 €, 350 €, 55 €, 55 €
+
+### 2026-04-13: Tarifs piscine 2026 entrees
+
+[p.2](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=2) · vote: majority · [facts](../meetings/2026-04-13/facts.md) · amounts: 4 €, 1 €, 30 €, 9 €, 4 €, 2 €, 32 €, 18 €, 5 €, 3 €, 45 €, 27 €, 50 000 €, 2 €
+
+> Tarifs Piscine Municipale 2025 : Entrée piscine adultes : 3,50 € Entrée piscine enfants (-12 ans) : 1,00 € Abt adultes : 30 € les 10 bains Abt enfants : 9 € les 10 bains Gratuit pour les enfants de moins de 5 ans. Propositions pour la saison 2026 MONTOLIVAINS Entrée adultes 3.50€ Entrée enfants 2.00€ Abt adultes…
 
 ### 2026-04-13: Piscine - Forfait mensuel camping
 
@@ -40,5 +46,6 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 |---|---|
 | 2024-04-04 | 4 €, 2 €, 30 €, 10 €, 6 €, 4 €, 1 €, 30 €, 9 €, 700 €, 700 €, 1 €, 500 €, 100 €, 500 €, 350 €, 55 €, 55 €, 55 € |
 | 2025-03-27 | 4 €, 1 €, 30 €, 9 €, 700 €, 2 €, 2 €, 1 000 €, 100 €, 1 000 €, 350 €, 55 €, 55 € |
+| 2026-04-13 | 4 €, 1 €, 30 €, 9 €, 4 €, 2 €, 32 €, 18 €, 5 €, 3 €, 45 €, 27 €, 50 000 €, 2 € |
 | 2026-04-13 | 700 € |
 | 2026-04-13 | 2 €, 2 €, 1 000 €, 100 €, 1 000 €, 350 €, 55 €, 55 € |
