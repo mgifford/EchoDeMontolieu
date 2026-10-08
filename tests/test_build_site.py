@@ -56,3 +56,9 @@ def test_static_page_carries_a_meta_csp_and_rebuilding_cleans_old_files(tmp_path
 def test_empty_public_folder_still_builds(tmp_path):
     out = build(tmp_path / "_site", tmp_path / "nope", tmp_path / "nada")
     assert "No minutes have been published yet" in (out / "index.html").read_text()
+
+
+def test_static_page_also_carries_the_alerts_link(tmp_path):
+    public, data = make(tmp_path)
+    html = (build(tmp_path / "_site", public, data) / "index.html").read_text(encoding="utf-8")
+    assert "app.panneaupocket.com/ville/922810321-montolieu-11170" in html

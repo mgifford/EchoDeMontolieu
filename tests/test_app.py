@@ -141,3 +141,18 @@ def test_landing_page_says_when_a_document_was_revised_and_links_the_diff(client
     assert "Revised by the Mairie: 2 versions are kept." in body
     assert "OCR was used on 1 page" in body   # the revision note must not replace the OCR note
     assert f'href="/api/minutes/{DOC_ID}/diff/1/2"' in body
+
+
+def test_landing_page_links_the_live_alerts_service_in_a_labelled_region(client):
+    body = client.get("/").text
+    assert 'href="https://app.panneaupocket.com/ville/922810321-montolieu-11170"' in body
+    assert 'aria-labelledby="alerts-heading"' in body and 'id="alerts-heading"' in body
+    assert body.index("alerts-heading") < body.index("Council minutes")      # near the top
+    assert "not updated in real time" in " ".join(body.split())              # sets expectations
+
+
+def test_repeated_links_say_which_meeting_they_belong_to_for_screen_readers(client):
+    body = client.get("/").text
+    assert 'original PDF<span class="sr"> of 2024-09-18</span>' in body
+    assert 'extracted text (JSON)<span class="sr"> of 2024-09-18</span>' in body
+    assert ".sr{position:absolute" in body                     # the visually-hidden style is defined

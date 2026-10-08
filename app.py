@@ -21,6 +21,7 @@ from fastapi.responses import HTMLResponse, JSONResponse
 DOC_ID_RE = re.compile(r"[0-9a-f]{12}")
 VERSION_RE = re.compile(r"[1-9][0-9]{0,2}")
 REPO_URL = "https://github.com/mgifford/EchoDeMontolieu"
+PANNEAUPOCKET_URL = "https://app.panneaupocket.com/ville/922810321-montolieu-11170"
 
 STYLE = """
 :root{color-scheme:light}
@@ -32,6 +33,9 @@ a{color:#004B87}
 a:focus-visible{outline:3px solid #005A9C;outline-offset:2px}
 li{margin:.75rem 0}
 .note{font-size:.95rem}
+.sr{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.alerts{background:#EBF3FA;border-left:6px solid #004B87;padding:.5rem 1rem;margin:1rem 0}
+.alerts h2{margin:.25rem 0;font-size:1.1rem}
 """
 STYLE_HASH = "sha256-" + base64.b64encode(hashlib.sha256(STYLE.encode()).digest()).decode()
 CSP = (f"default-src 'none'; style-src '{STYLE_HASH}'; base-uri 'none'; form-action 'none'")
@@ -89,16 +93,17 @@ def _landing(index, pointers, static=False):
         label = e(when) if when else "date not detected"
         name = e(d.get("filename") or d["document_id"])
         src = _https(d.get("source_url"))
-        links = [f'<a href="{e(src)}" lang="fr">original PDF</a>'] if src else []
+        about = f'<span class="sr"> of {label}</span>'  # makes repeated links distinguishable
+        links = [f'<a href="{e(src)}" lang="fr">original PDF{about}</a>'] if src else []
         doc_href = (f"minutes/{e(d['document_id'])}.json" if static
                     else f"/api/minutes/{e(d['document_id'])}")
-        links.append(f'<a href="{doc_href}">extracted text (JSON)</a>')
+        links.append(f'<a href="{doc_href}">extracted text (JSON){about}</a>')
         flags = ""
         n = d.get("versions", 1)
         if n > 1:
             diff_href = (f"minutes/{e(d['document_id'])}/diff-v{n - 1}-v{n}.json" if static
                          else f"/api/minutes/{e(d['document_id'])}/diff/{n - 1}/{n}")
-            links.append(f'<a href="{diff_href}">what changed in version {n}</a>')
+            links.append(f'<a href="{diff_href}">what changed in version {n}{about}</a>')
             flags += f" Revised by the Mairie: {n} versions are kept."
         if d.get("ocr_pages"):
             flags += (f' OCR was used on {len(d["ocr_pages"])} page(s); '
@@ -132,6 +137,12 @@ def _landing(index, pointers, static=False):
 <body>
 <header><h1>L'Écho de Montolieu</h1></header>
 <main id="main">
+<section class="alerts" aria-labelledby="alerts-heading">
+<h2 id="alerts-heading">Urgent alerts</h2>
+<p>For urgent, real-time notices from the Mairie (water cuts, weather warnings, emergencies), use
+<a href="{PANNEAUPOCKET_URL}">PanneauPocket Montolieu</a>, an external service. This site is not
+updated in real time.</p>
+</section>
 <p>This project helps people find information about the village of Montolieu. It
 points to the pages of the Mairie and other local sites and does not replace them.
 Text from council minutes is machine-extracted, may contain errors, and is always
