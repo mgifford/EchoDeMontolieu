@@ -1,0 +1,17 @@
+# Keep private and bulky material out of the build context.
+.git
+.cache
+private
+venv
+.venv
+tessdata
+*.traineddata
+*.pdf
+.env
+.env.*
+*.key
+*.pem
+tests
+echo_montolieu
+__pycache__
+.pytest_cache

@@ -1,0 +1,4 @@
+# Runtime dependencies for the Space image only (the OCR pipeline runs elsewhere).
+# Not pinned yet; pin once the app is settled.
+fastapi
+uvicorn
