@@ -16,8 +16,4 @@ machine_generated: true
 
 These are sentences that *look like* a commitment, a postponement or a plan. They are candidates found by wording, not a checked action list. Verify each against the page.
 
-## Décision modificative budget ([p.6](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf#page=6))
-
-**Postponed or to be revisited**
-
-- [ ] “Budget général Lors de la présentation du budget de fonctionnement, le déficit reporté de 2024 pour 6 276,21 a été isolé sur un compte particulier.”
+No follow-up wording was found in this meeting.

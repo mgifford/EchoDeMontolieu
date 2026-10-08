@@ -22,17 +22,15 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 - [ ] “Mme ETORÉ-LORTHOLARY fait remarquer qu’il n’y a aucun inconvénient à revoir le PADD si nécessaire, ni à déplacer les « patates » indiquant la localisation des OAP.”
 
+_Later mentions: the issue comes back on 2026-03-09_
+
 ## Plan de financement des travaux de voiries et integration dans le budget ([p.3](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=3))
 
 **Postponed or to be revisited**
 
 - [ ] “Pour que ces travaux puissent être menés tout début 2026, il convient de les intégrer au budget actuel, afin que leur exécution puisse être reportée lors de la clôture des comptes 2025, sans attendre le vote du budget 2026 qui n’interviendra qu’après les élect”
 
-## Budget rectificatif ([p.4](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=4))
-
-**Postponed or to be revisited**
-
-- [ ] “Côté investissement dépenses sont réintégrés et/ou dispatchés sur les lignes comptables adéquates : - Le complément pour l’aménagement paysager du city stade (dans le mobilier et les aménagement et agencements de terrain) - Les travaux de voiries - L’opération”
+_Later mentions: no later mention found in the 9 meeting(s) that followed (heuristic: it may continue under another title)_
 
 ## Autorisation d’engager les depenses 2026 dans l’attente du vote du budget ([p.6](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=6))
 
@@ -42,3 +40,5 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 - [ ] “Il est en droit de mandater les dépenses afférentes au remboursement en capital des annuités de la dette venant à échéance avant le vote du budget.”
 - [ ] “En outre, jusqu’à l’adoption du budget ou jusqu’au 15 avril, en l’absence d’adoption du budget avant cette date, l’exécutif de la collectivité territoriale peut, sur autorisation de l’organe délibérant, engager, liquider et mandater les dépenses d’investisseme”
 - [ ] “Le conseil vote à l’unanimité pour Autoriser monsieur le Maire à mandater les dépenses d’investissement, dans la limite du quart des crédits ouverts au budget de l’exercice 2025, soit 154 461,00 EUR.”
+
+_Later mentions: no later mention found in the 9 meeting(s) that followed (heuristic: it may continue under another title)_

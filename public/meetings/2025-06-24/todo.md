@@ -26,11 +26,15 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 - [ ] “Après échange, il est convenu que SOLIHA sera sollicité pour approfondir la question : est-il possible d’inscrire dans le règlement une ouverture, avec accord de la commune pour les projets.”
 
+_Later mentions: the issue comes back on 2025-09-25, 2025-10-27, 2025-11-27, 2026-03-09_
+
 ## Relance de marche public lot 3 infructueux de l’eglise ([p.3](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=3))
 
 **Postponed or to be revisited**
 
 - [ ] “Dans la mesure où il n’y a aucun surcoût, Bernard LAURET propose de relancer la consultation pour le lot 3, à charge pour le prochain conseil municipal de programmer la tranche optionnelle 1 quand il le souhaitera.”
+
+_Later mentions: no later mention found in the 12 meeting(s) that followed (heuristic: it may continue under another title)_
 
 ## Decision sur chemin ruraux dans le cadre de la demarche de classement des voies communales ([p.4](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=4))
 
@@ -38,14 +42,20 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 - [ ] “Laure ESCARÉ indique que la servitude de passage proposée par [name withheld] sera inscrite sur l’acte dressé par le Notaire, il n’a donc aucun risque que le libre accès soit ultérieurement remis en cause.”
 
+_Later mentions: no later mention found in the 12 meeting(s) that followed (heuristic: it may continue under another title)_
+
 ## Engagement sur les marches mutualises de carcassonne agglo ([p.5](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=5))
 
 **Authorises someone to act**
 
 - [ ] “Le conseil à l’unanimité Approuve l’adhésion de la commune de MONTOLIEU. aux groupements de commande permanents pour : Les prestations d’assistance et de conseils juridiques Les prestations topographiques Les prestations de vérifications périodiques Approuve l”
 
+_Later mentions: no later mention found in the 12 meeting(s) that followed (heuristic: it may continue under another title)_
+
 ## Renouvellement du contrat d’assurance de la commune ([p.6](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=6))
 
 **Planned or expected action**
 
 - [ ] “Elle sera contactée à cet effet.”
+
+_Later mentions: no later mention found in the 12 meeting(s) that followed (heuristic: it may continue under another title)_

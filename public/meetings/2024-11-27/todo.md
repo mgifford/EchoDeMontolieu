@@ -27,11 +27,7 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 - [ ] “La convention a été transmise en amont du conseil, lequel est appelé à voter pour autoriser le maire à signer la convention, et compléter le dossier de subvention (représentant 50 % du coût à charge de la commune).”
 - [ ] “Le conseil, à l’unanimité, autorise le maire à signer la convention et faire la demande de subvention afférente.”
 
-## Total des depenses ([p.2](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=2))
-
-**Postponed or to be revisited**
-
-- [ ] “Solde d'exécution de la section d'investissement reporté 150631,11 0 150631,11 041 opérations patrimoniales 4283,32 4283,32 4283,32 16.”
+_Later mentions: the issue comes back on 2025-03-06, 2025-04-14, 2025-10-27, 2026-04-01_
 
 ## Approbation padd rectifie ([p.4](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=4))
 

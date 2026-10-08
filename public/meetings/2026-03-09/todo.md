@@ -28,8 +28,12 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 - [ ] “Il estime plus opportun de laisser le soin de ce vote au prochain conseil, qui agira comme il le souhaite.”
 
+_Later mentions: no later mention found in the 7 meeting(s) that followed (heuristic: it may continue under another title)_
+
 ## Demande d’avance sur subvention pour l’association trail st roch ([p.7](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=7))
 
 **Postponed or to be revisited**
 
 - [ ] “[name withheld], président de l’association Trail St Roch a sollicité une avance sur la subvention qui pourrait être attribuée par le prochain conseil dans le cadre de son budget 2026.”
+
+_Later mentions: the issue comes back on 2026-07-22_
