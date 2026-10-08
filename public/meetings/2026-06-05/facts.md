@@ -103,21 +103,13 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 [p.5](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=5) · Vote: no vote found · Topics: urbanisme
 
-> M. le maire propose au conseil municipal de procéder à la vente l’immeuble cadastrée C0551 situé au 1 rue des Oliviers. Superficie du terrain : 277 m², 48m² habitable. (1 pièce à vivre, 1 chambre, 1 salle d’eau, 1 annexe) Je vous donne lecture du cahier des charges prescrivant les conditions de vente et d’attribution…
-
-**Amounts**
-
-- 70 000 €: “Superficie du terrain : 277 m², 48m² habitable. (1 pièce à vivre, 1 chambre, 1 salle d’eau, 1 annexe) Je vous donne lecture du cahier des charges prescrivant les conditions de vente et d’attribution : Mise à prix : 70 00”
-
-**Places mentioned (unverified):** rue des Oliviers
+Decisions about sales of private property (0 notice(s)). Details are in the minutes; they are left out here on purpose.
 
 ## Cuxac cabardes (11390).
 
 [p.5](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=5) to [p.6](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=6) · Vote: no vote found
 
-> Dépôt de garantie : 10% lors de la signature du compromis de vente entre le vendeur et l’acheteur. Dépôt des offres d’achats : Remise en mains propres contre récépissé ou par lettre recommandé avec accusé de réception, sous pli cacheté, portant l’indication suivante sur l’enveloppe extérieure : « Ne pas ouvrir – offre…
-
-**Places mentioned (unverified):** rue DES OLIVIERS, rue de, rue Bellevue
+Decisions about sales of private property (0 notice(s)). Details are in the minutes; they are left out here on purpose.
 
 ## 11390 – Cuxac cabardes.
 

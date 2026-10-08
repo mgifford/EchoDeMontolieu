@@ -30,6 +30,12 @@ def test_site_contains_only_published_data(tmp_path):
     files = sorted(str(p.relative_to(out)) for p in out.rglob("*") if p.is_file())
     assert files == [".nojekyll", "index.html", "index.json", "minutes/abababababab.json",
                      "minutes/abababababab/diff-v1-v2.json", "where_to_find_mairie.json"]
+    (public / "places").mkdir()
+    for name in ("map.html", "places.json", "index.md"):
+        (public / "places" / name).write_text(name)
+    out = build(tmp_path / "_site2", public, data)
+    placed = sorted(str(p.relative_to(out)) for p in (out / "places").rglob("*"))
+    assert placed == ["places/map.html", "places/places.json"]                  # the Markdown list is read on GitHub
     assert "SECRET" not in "".join(p.read_text() for p in out.rglob("*") if p.is_file())
     assert not (out / "redacted").exists()          # pseudonymised data is not published here
 
@@ -62,3 +68,9 @@ def test_static_page_also_carries_the_alerts_link(tmp_path):
     public, data = make(tmp_path)
     html = (build(tmp_path / "_site", public, data) / "index.html").read_text(encoding="utf-8")
     assert "app.panneaupocket.com/ville/922810321-montolieu-11170" in html
+
+
+def test_static_landing_links_the_map_relatively(tmp_path):
+    public, data = make(tmp_path)
+    html = (build(tmp_path / "_site", public, data) / "index.html").read_text(encoding="utf-8")
+    assert 'href="places/map.html"' in html

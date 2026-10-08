@@ -1,0 +1,829 @@
+{
+ "Borderouge": {
+  "at": "2026-10-08T14:49:07+00:00",
+  "features": [
+   {
+    "coords": [
+     2.215318,
+     43.335715
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Borderouge 11170 Montolieu",
+     "name": "Borderouge",
+     "score": 0.937810909090909,
+     "type": "locality"
+    }
+   },
+   {
+    "coords": [
+     2.216254,
+     43.334026
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de Borderouge 11170 Montolieu",
+     "name": "Chemin de Borderouge",
+     "score": 0.6669263636363635,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "Cazelle": {
+  "at": "2026-10-08T14:48:06+00:00",
+  "features": []
+ },
+ "Cazelle Solaire": {
+  "at": "2026-10-08T14:48:05+00:00",
+  "features": []
+ },
+ "Montpertus": {
+  "at": "2026-10-08T14:48:14+00:00",
+  "features": [
+   {
+    "coords": [
+     2.204505,
+     43.303565
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Montpertus 11170 Montolieu",
+     "name": "Montpertus",
+     "score": 0.937810909090909,
+     "type": "locality"
+    }
+   }
+  ]
+ },
+ "avenue du mail": {
+  "at": "2026-10-08T14:48:49+00:00",
+  "features": [
+   {
+    "coords": [
+     2.21414,
+     43.308024
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Avenue du Mail 11170 Montolieu",
+     "name": "Avenue du Mail",
+     "score": 0.9466554545454544,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "chemin de": {
+  "at": "2026-10-08T14:48:47+00:00",
+  "features": [
+   {
+    "coords": [
+     2.215611,
+     43.302195
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de Monplaisir 11170 Montolieu",
+     "name": "Chemin de Monplaisir",
+     "score": 0.8557463636363636,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.210658,
+     43.31158
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin des Bretous 11170 Montolieu",
+     "name": "Chemin des Bretous",
+     "score": 0.8554099999999999,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.204645,
+     43.329399
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de Villeneuve 11170 Montolieu",
+     "name": "Chemin de Villeneuve",
+     "score": 0.8550463636363635,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "chemin de Barrens": {
+  "at": "2026-10-08T14:48:46+00:00",
+  "features": [
+   {
+    "coords": [
+     2.226179,
+     43.308832
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin des Barrens 11170 Montolieu",
+     "name": "Chemin des Barrens",
+     "score": 0.7147027272727272,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "chemin de Borderouge - Chemin du": {
+  "at": "2026-10-08T14:47:51+00:00",
+  "features": [
+   {
+    "coords": [
+     2.216254,
+     43.334026
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de Borderouge 11170 Montolieu",
+     "name": "Chemin de Borderouge",
+     "score": 0.5666128840125391,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "chemin de Cennes Monnesties": {
+  "at": "2026-10-08T14:48:23+00:00",
+  "features": [
+   {
+    "coords": [
+     2.226179,
+     43.308832
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin des Barrens 11170 Montolieu",
+     "name": "Chemin des Barrens",
+     "score": 0.3558510526315789,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.215611,
+     43.302195
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de Monplaisir 11170 Montolieu",
+     "name": "Chemin de Monplaisir",
+     "score": 0.3350852066115702,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.210658,
+     43.31158
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin des Bretous 11170 Montolieu",
+     "name": "Chemin des Bretous",
+     "score": 0.3309344755244755,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "chemin de Jalabert": {
+  "at": "2026-10-08T14:47:55+00:00",
+  "features": [
+   {
+    "coords": [
+     2.213886,
+     43.305872
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de Jalabert 11170 Montolieu",
+     "name": "Chemin de Jalabert",
+     "score": 0.9446472727272727,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "chemin de Villeneuve": {
+  "at": "2026-10-08T14:47:53+00:00",
+  "features": [
+   {
+    "coords": [
+     2.204645,
+     43.329399
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de Villeneuve 11170 Montolieu",
+     "name": "Chemin de Villeneuve",
+     "score": 0.9459554545454545,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.20787,
+     43.318563
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de l’Horte de Villeneuve 11170 Montolieu",
+     "name": "Chemin de l’Horte de Villeneuve",
+     "score": 0.5532027272727271,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.200912,
+     43.328935
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Villeneuve 11170 Montolieu",
+     "name": "Villeneuve",
+     "score": 0.4162798086124402,
+     "type": "locality"
+    }
+   }
+  ]
+ },
+ "chemin des Brétous": {
+  "at": "2026-10-08T14:47:52+00:00",
+  "features": [
+   {
+    "coords": [
+     2.210658,
+     43.31158
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin des Bretous 11170 Montolieu",
+     "name": "Chemin des Bretous",
+     "score": 0.9463190909090908,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "chemin inclus": {
+  "at": "2026-10-08T14:48:42+00:00",
+  "features": [
+   {
+    "coords": [
+     2.22383,
+     43.330119
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de Franc 11170 Montolieu",
+     "name": "Chemin de Franc",
+     "score": 0.33584995215311,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "chemin ne dessert": {
+  "at": "2026-10-08T14:48:28+00:00",
+  "features": []
+ },
+ "chemin rural de Bois de": {
+  "at": "2026-10-08T14:48:22+00:00",
+  "features": [
+   {
+    "coords": [
+     2.192833,
+     43.319513
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin du Bois de Nuc 11170 Montolieu",
+     "name": "Chemin du Bois de Nuc",
+     "score": 0.4882590909090909,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.216254,
+     43.334026
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de Borderouge 11170 Montolieu",
+     "name": "Chemin de Borderouge",
+     "score": 0.3691207210031348,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.221061,
+     43.31187
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de la Bouriette 11170 Montolieu",
+     "name": "Chemin de la Bouriette",
+     "score": 0.3522719061583578,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "chemin rural non entretenu présentant": {
+  "at": "2026-10-08T14:48:19+00:00",
+  "features": []
+ },
+ "chemin rural non utilisé": {
+  "at": "2026-10-08T14:48:25+00:00",
+  "features": []
+ },
+ "chemin échangé": {
+  "at": "2026-10-08T14:48:20+00:00",
+  "features": [
+   {
+    "coords": [
+     2.221685,
+     43.301014
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de l’Angelique 11170 Montolieu",
+     "name": "Chemin de l’Angelique",
+     "score": 0.3423745454545455,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.22383,
+     43.330119
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de Franc 11170 Montolieu",
+     "name": "Chemin de Franc",
+     "score": 0.3207781818181818,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.223357,
+     43.300169
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Chemin de Pech Redon 11170 Montolieu",
+     "name": "Chemin de Pech Redon",
+     "score": 0.30459818181818177,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "cours de laquelle": {
+  "at": "2026-10-08T14:48:16+00:00",
+  "features": [
+   {
+    "coords": [
+     2.213812,
+     43.309709
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Rue de la Tour 11170 Montolieu",
+     "name": "Rue de la Tour",
+     "score": 0.3501355844155844,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "cours de natation": {
+  "at": "2026-10-08T14:49:00+00:00",
+  "features": [
+   {
+    "coords": [
+     2.215704,
+     43.3086
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Rue Nationale 11170 Montolieu",
+     "name": "Rue Nationale",
+     "score": 0.31089909090909085,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "cours de production de biens": {
+  "at": "2026-10-08T14:47:48+00:00",
+  "features": []
+ },
+ "cours des années": {
+  "at": "2026-10-08T14:48:27+00:00",
+  "features": [
+   {
+    "coords": [
+     2.21525,
+     43.312067
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Rue des Colonnes 11170 Montolieu",
+     "name": "Rue des Colonnes",
+     "score": 0.32808338842975204,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "cours d’année": {
+  "at": "2026-10-08T14:47:49+00:00",
+  "features": []
+ },
+ "cours d’engagement se divise elle-même": {
+  "at": "2026-10-08T14:48:08+00:00",
+  "features": []
+ },
+ "cours d’instruction": {
+  "at": "2026-10-08T14:48:10+00:00",
+  "features": []
+ },
+ "passage de": {
+  "at": "2026-10-08T14:48:55+00:00",
+  "features": []
+ },
+ "passage devant": {
+  "at": "2026-10-08T14:49:06+00:00",
+  "features": []
+ },
+ "passage en Led": {
+  "at": "2026-10-08T14:48:15+00:00",
+  "features": []
+ },
+ "passage proposée": {
+  "at": "2026-10-08T14:48:30+00:00",
+  "features": []
+ },
+ "place centrale": {
+  "at": "2026-10-08T14:49:02+00:00",
+  "features": []
+ },
+ "place de STECAL": {
+  "at": "2026-10-08T14:48:34+00:00",
+  "features": [
+   {
+    "coords": [
+     2.214228,
+     43.310518
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Place de la Liberté 11170 Montolieu",
+     "name": "Place de la Liberté",
+     "score": 0.35202901185770746,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.214738,
+     43.310476
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Place de l'Eglise 11170 Montolieu",
+     "name": "Place de l'Eglise",
+     "score": 0.3335561157024793,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "place de l’éclairage du boulodrome": {
+  "at": "2026-10-08T14:48:39+00:00",
+  "features": []
+ },
+ "place de l’église": {
+  "at": "2026-10-08T14:48:33+00:00",
+  "features": [
+   {
+    "coords": [
+     2.214738,
+     43.310476
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Place de l'Eglise 11170 Montolieu",
+     "name": "Place de l'Eglise",
+     "score": 0.9451263636363635,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "place des caméras de vidéo protection": {
+  "at": "2026-10-08T14:48:01+00:00",
+  "features": []
+ },
+ "place du groupe de réflexion des": {
+  "at": "2026-10-08T14:48:50+00:00",
+  "features": []
+ },
+ "place du projet alimentaire territorial de": {
+  "at": "2026-10-08T14:48:12+00:00",
+  "features": []
+ },
+ "place définitive du PPRI": {
+  "at": "2026-10-08T14:48:45+00:00",
+  "features": []
+ },
+ "place d’un forfait minimum de": {
+  "at": "2026-10-08T14:47:56+00:00",
+  "features": []
+ },
+ "place d’une borne de recharge": {
+  "at": "2026-10-08T14:48:43+00:00",
+  "features": []
+ },
+ "place d’une concertation publique": {
+  "at": "2026-10-08T14:48:04+00:00",
+  "features": []
+ },
+ "place d’une signalétique": {
+  "at": "2026-10-08T14:48:52+00:00",
+  "features": []
+ },
+ "place d’une vidéo protection": {
+  "at": "2026-10-08T14:47:58+00:00",
+  "features": []
+ },
+ "place pourra se faire": {
+  "at": "2026-10-08T14:48:02+00:00",
+  "features": []
+ },
+ "place rapidement": {
+  "at": "2026-10-08T14:48:00+00:00",
+  "features": []
+ },
+ "route DE": {
+  "at": "2026-10-08T14:48:26+00:00",
+  "features": [
+   {
+    "coords": [
+     2.208264,
+     43.315622
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Route de Saissac 11170 Montolieu",
+     "name": "Route de Saissac",
+     "score": 0.8560599999999999,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.221459,
+     43.297673
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Route de Carcassonne 11170 Montolieu",
+     "name": "Route de Carcassonne",
+     "score": 0.8542172727272727,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.223845,
+     43.309601
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Route de Fraisse 11170 Montolieu",
+     "name": "Route de Fraisse",
+     "score": 0.8537381818181818,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "route de Carcassonne": {
+  "at": "2026-10-08T14:47:57+00:00",
+  "features": [
+   {
+    "coords": [
+     2.221459,
+     43.297673
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Route de Carcassonne 11170 Montolieu",
+     "name": "Route de Carcassonne",
+     "score": 0.9451263636363635,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "route de Fraisse": {
+  "at": "2026-10-08T14:48:35+00:00",
+  "features": [
+   {
+    "coords": [
+     2.223845,
+     43.309601
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Route de Fraisse 11170 Montolieu",
+     "name": "Route de Fraisse",
+     "score": 0.9446472727272727,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "route de Villelongue": {
+  "at": "2026-10-08T14:48:37+00:00",
+  "features": [
+   {
+    "coords": [
+     2.20121,
+     43.31106
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Route de Saint Martin le Vieil 11170 Montolieu",
+     "name": "Route de Saint Martin le Vieil",
+     "score": 0.30459818181818177,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "route départementale": {
+  "at": "2026-10-08T14:48:18+00:00",
+  "features": []
+ },
+ "route d’Alzonne": {
+  "at": "2026-10-08T14:48:38+00:00",
+  "features": [
+   {
+    "coords": [
+     2.212359,
+     43.301034
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Route d’Alzonne 11170 Montolieu",
+     "name": "Route d’Alzonne",
+     "score": 0.9409618181818181,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.215091,
+     43.306703
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Rue d’Alzonne 11170 Montolieu",
+     "name": "Rue d’Alzonne",
+     "score": 0.5473990909090909,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "rue de": {
+  "at": "2026-10-08T14:48:31+00:00",
+  "features": [
+   {
+    "coords": [
+     2.21492,
+     43.3107
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Rue de la Mairie 11170 Montolieu",
+     "name": "Rue de la Mairie",
+     "score": 0.8599118181818182,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.222185,
+     43.300187
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Rue des Oliviers 11170 Montolieu",
+     "name": "Rue des Oliviers",
+     "score": 0.8585609090909091,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.222378,
+     43.307547
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Rue de la Ferriere 11170 Montolieu",
+     "name": "Rue de la Ferriere",
+     "score": 0.8581963636363635,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "rue des": {
+  "at": "2026-10-08T14:48:41+00:00",
+  "features": [
+   {
+    "coords": [
+     2.222185,
+     43.300187
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Rue des Oliviers 11170 Montolieu",
+     "name": "Rue des Oliviers",
+     "score": 0.8585609090909091,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.213583,
+     43.310164
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Rue des Remparts 11170 Montolieu",
+     "name": "Rue des Remparts",
+     "score": 0.8573681818181819,
+     "type": "street"
+    }
+   },
+   {
+    "coords": [
+     2.215311,
+     43.31157
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Rue des Jardins 11170 Montolieu",
+     "name": "Rue des Jardins",
+     "score": 0.8546509090909091,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "rue des remparts": {
+  "at": "2026-10-08T14:48:58+00:00",
+  "features": [
+   {
+    "coords": [
+     2.213583,
+     43.310164
+    ],
+    "props": {
+     "citycode": "11253",
+     "label": "Rue des Remparts 11170 Montolieu",
+     "name": "Rue des Remparts",
+     "score": 0.9482772727272726,
+     "type": "street"
+    }
+   }
+  ]
+ },
+ "rue en traversant l’actuel espace": {
+  "at": "2026-10-08T14:48:57+00:00",
+  "features": []
+ }
+}

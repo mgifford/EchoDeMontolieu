@@ -21,6 +21,8 @@ from fastapi.responses import HTMLResponse, JSONResponse
 DOC_ID_RE = re.compile(r"[0-9a-f]{12}")
 VERSION_RE = re.compile(r"[1-9][0-9]{0,2}")
 REPO_URL = "https://github.com/mgifford/EchoDeMontolieu"
+PAGES_URL = "https://mgifford.github.io/EchoDeMontolieu/"
+GITHUB_TREE = REPO_URL + "/blob/main/public/"
 PANNEAUPOCKET_URL = "https://app.panneaupocket.com/ville/922810321-montolieu-11170"
 
 STYLE = """
@@ -120,6 +122,7 @@ def _landing(index, pointers, static=False):
                          f'{e(p.get("owner") or "the Mairie site")}; check there for current '
                          f"details.</span></li>")
     docs_html = "".join(docs) or "<li>No minutes have been published yet.</li>"
+    map_href = "places/map.html" if static else PAGES_URL + "places/map.html"
     data_note = ('<a href="index.json">index.json</a> and '
                  '<a href="where_to_find_mairie.json">where_to_find_mairie.json</a>' if static else
                  '<a href="/api/minutes">/api/minutes</a> and '
@@ -147,6 +150,14 @@ updated in real time.</p>
 points to the pages of the Mairie and other local sites and does not replace them.
 Text from council minutes is machine-extracted, may contain errors, and is always
 shown with a link to the original. Check the original before relying on anything.</p>
+<h2>Explore</h2>
+<ul>
+<li><a href="{map_href}">Map and list of places discussed</a></li>
+<li><a href="{GITHUB_TREE}topics/index.md">Issues over time</a>: what keeps coming back, and what may have been dropped</li>
+<li><a href="{GITHUB_TREE}finance/index.md">Finance, rules and exceptions</a>, as far as the minutes state them</li>
+<li><a href="{GITHUB_TREE}meetings/index.md">Each meeting</a>: the minutes in French, with summaries and follow-ups</li>
+</ul>
+<p class="note">The last three open on GitHub, where Markdown is displayed as a page.</p>
 <h2>Council minutes</h2>
 <ul>{docs_html}</ul>
 <h2>Where to find things</h2>
