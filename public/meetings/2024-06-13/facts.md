@@ -28,7 +28,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=1) · Vote: unanimous
 
-## Zone d’acceleration des energies renouvelables
+## [transaction immobilière : détails omis]
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=1) to [p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=3) · Vote: majority (not unanimous) (for: 12, against: 1, abstentions: 1)
 
@@ -128,13 +128,13 @@ Decisions about sales of private property (1 notice(s)). Details are in the minu
 - 1 %, 5 %: “L’Article 1635 quater L du CGI, prévoit que « L’organe délibérant de la collectivité vote le taux de taxe d'aménagement dans les limites prévues au I de l'article 1635 quater M : • Entre 1 % et 5 % selon les aménagements”
 - 5 %: “Les secteurs sont définis et présentés par référence aux documents cadastraux à la date de la délibération les instituant ; Pour mémoire, la taxe d’aménagement a rapporté à la commune 4012 euros en 2023 Après échanges, l”
 
-## Retour sur les consultations entre le conseil du 15 avril et celui du 13 juin
+## [transaction immobilière : détails omis]
 
 [p.8](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=8) · Vote: unanimous
 
 Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.
 
-## Sci foch-pontier
+## [transaction immobilière : détails omis]
 
 [p.8](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=8) · Vote: majority (not unanimous) (did not vote: 1)
 

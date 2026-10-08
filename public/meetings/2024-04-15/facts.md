@@ -46,7 +46,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 - 64 %: “La section de fonctionnement représente 1 099 916 euros dont 64 % sont financés par les impôts et taxes.”
 
-## Vente parcelle cadastree ab0341
+## [transaction immobilière : détails omis]
 
 [p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=4) · Vote: majority (not unanimous) (did not vote: 1; for: 12, against: 2) · Topics: urbanisme
 

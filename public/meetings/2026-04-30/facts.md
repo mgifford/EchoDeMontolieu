@@ -30,7 +30,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 > Approbation de la correction du PV du 13/04 Le procès-verbal a été communiqué par mail à l’ensemble des conseillers.
 
-## Examen et vote du budget general et des budgets annexes avec fongibilites des credits
+## [transaction immobilière : détails omis]
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf#page=1) to [p.5](https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf#page=5) · Vote: majority (not unanimous) (abstentions: 1; abstentions: 1; abstentions: 1) · Topics: finances, associations et vie locale
 

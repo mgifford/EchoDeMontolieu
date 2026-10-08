@@ -37,7 +37,7 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 | [Relance de marche public lot 3 infructueux de l’eglise](infructueux-relance-marche-2025-05-27.md) | 2 | 2025-05-27 | 2025-06-24 | infructueux, relance, marche |
 | [Vote de la troisieme version du padd](padd-ddtm-version-2025-06-24.md) | 2 | 2025-06-24 | 2025-09-25 | padd, ddtm, version |
 | [Cheminement pietonnier vers la coopérative musée ceres franco](cheminement-pmr-parking-2025-09-25.md) | 2 | 2025-09-25 | 2025-10-27 | cheminement, pmr, parking |
-| [Financement de la complementaire sante des agents communaux](sante-agent-complementaire-2025-09-25.md) | 2 | 2025-09-25 | 2025-11-27 | sante, agent, complementaire |
+| [Financement de la complementaire sante des agents communaux](sante-agent-communaux-2025-09-25.md) | 2 | 2025-09-25 | 2025-11-27 | sante, agent, communaux |
 | [Composition de la ccid](composition-ccid-commission-2026-06-05.md) | 2 | 2026-06-05 | 2026-06-26 | composition, ccid, commission |
 
 ## Possibly dropped
@@ -58,6 +58,6 @@ The last mention carries a postponement or a plan and the issue does not appear 
 These come back in most meetings by nature, so they are not treated as issues.
 
 - Approval of the previous minutes and routine items: 29 items in 25 meetings
-- Notices of private property sales (counts only): 33 items in 20 meetings
+- Notices of private property sales (counts only): 34 items in 20 meetings
 
-83 further items appeared in a single meeting only.
+82 further items appeared in a single meeting only.

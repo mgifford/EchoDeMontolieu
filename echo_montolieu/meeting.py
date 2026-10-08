@@ -227,6 +227,12 @@ def known_names(record):
     return sorted(set(present + absent + holders + labelled + others))
 
 
+SALE_TITLE_NEUTRAL = "[transaction immobilière : détails omis]"
+# A sale notice sometimes splits at the notary's address block, leaving a heading like "11390 – CUXAC CABARDES".
+_ADDRESS_TITLE = re.compile(r"\s*(?:\d{5}\b|.*\(\d{5}\)\.?\s*$)")
+_GENERIC_SALE_TITLE = re.compile(r"droits?\s+de\s+pr[ée]emption(?:\s+urbain)?\.?", re.I)
+
+
 def parse_meeting(record, officials_visible=True):
     """Structured model of one record (its current version).
 
@@ -258,14 +264,17 @@ def parse_meeting(record, officials_visible=True):
 
     title_block, header, raw_items = split_items(blocks)
     agenda = [b["text"] for b in header if b["kind"] == "bullet"]
-    items = []
+    items, after_sale = [], False
     for n, raw in enumerate(raw_items, start=1):
         body = _block_text(raw["blocks"])
         pages = [raw["page"]] + [b["page"] for b in raw["blocks"]]
         safe_raw = scrub_title(raw["title_raw"], names, surnames, official_names)
         title = display_title(safe_raw, agenda) if safe_raw == raw["title_raw"] else sentence_case(safe_raw)
-        sensitive = is_property_transaction(raw["title_raw"], body)
+        sensitive = is_property_transaction(raw["title_raw"], body) or (after_sale and bool(_ADDRESS_TITLE.match(raw["title_raw"])))
+        after_sale = sensitive
         votes = parse_votes(body)
+        if sensitive and not _GENERIC_SALE_TITLE.fullmatch(title.strip()):
+            title = SALE_TITLE_NEUTRAL     # a sale's title can carry the parcel or an address: keep only the generic one
         item = {
             "id": f"{record['document_id']}-{n:02d}",
             "title": scrub(title),

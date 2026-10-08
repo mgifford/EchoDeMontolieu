@@ -163,7 +163,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 Decisions about sales of private property (4 notice(s)). Details are in the minutes; they are left out here on purpose.
 
-## [name withheld]
+## [transaction immobilière : détails omis]
 
 [p.10](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=10) · Vote: unanimous
 

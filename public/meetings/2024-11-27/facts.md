@@ -78,7 +78,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 - 50 %, 50 %, 100 %: “Autres immobilisations financières Coût Hors Taxe Financement Montant sollicité Pourcentage d’intervention Remplacement des projecteurs du stade par des projecteurs LED 19 121,95 FAFA Fonds d’aide au football Amateur 9 5”
 
-## Constitution de la commission communale des impots directs
+## [transaction immobilière : détails omis]
 
 [p.5](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=5) · Vote: unanimous · Topics: vie institutionnelle
 

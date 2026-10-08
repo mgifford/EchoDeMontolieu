@@ -104,23 +104,23 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 - 4,34 %, 0,20 %: “Caisse d'Epargne : nous avons eu une proposition de 200.000€ sur 15 ans au taux fixe trimestriel de 4,34%, frais de dossier 0,20%.”
 - 4,40 %, 1 %, 15 %, 10 %: “Crédit Agricole : proposition d'un emprunt de 125.000€ au taux fixe trimestriel de 4,40% et un autre de 100.000€ à taux révisable (environ 1% de moins que le taux fixe), frais de dossier 0.15% et une ligne de trésorerie ”
 
-## Vente d’un immeuble cadastree c 551
+## [transaction immobilière : détails omis]
 
 [p.5](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=5) · Vote: no vote found · Topics: urbanisme
 
 Decisions about sales of private property (0 notice(s)). Details are in the minutes; they are left out here on purpose.
 
-## Cuxac cabardes (11390).
+## [transaction immobilière : détails omis]
 
 [p.5](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=5) to [p.6](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=6) · Vote: no vote found
 
 Decisions about sales of private property (0 notice(s)). Details are in the minutes; they are left out here on purpose.
 
-## 11390 – Cuxac cabardes.
+## [transaction immobilière : détails omis]
 
 [p.6](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=6) · Vote: unanimous
 
-> Publicité de la vente : Affichage dans les panneaux d’informations communaux ; Voie électronique ; Il propose de passer au vote Mme ETORE LORTHOLARY Jeanne intervient en expliquant que l’habitation étant en très mauvais état, sa rénovation poserait problème à la commune, et elle n’est pas hostile à cette vente à…
+Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.
 
 ## Droit de preemption
 

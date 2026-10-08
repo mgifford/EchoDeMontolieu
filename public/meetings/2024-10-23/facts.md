@@ -83,13 +83,13 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 - CGCT L.2122-21
 - CGCT L2122-22
 
-## Constitution de la commission communale des impöts directs
+## [transaction immobilière : détails omis]
 
 [p.5](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=5) · Vote: no vote found · Topics: vie institutionnelle
 
 Decisions about sales of private property (0 notice(s)). Details are in the minutes; they are left out here on purpose.
 
-## Pont jalabert ouest
+## [transaction immobilière : détails omis]
 
 [p.5](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=5) to [p.8](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=8) · Vote: majority (not unanimous) (against: 12, abstentions: 1) · Topics: urbanisme, droit de préemption
 
