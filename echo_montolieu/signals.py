@@ -230,10 +230,18 @@ def find_topics(title, body):
     return sorted(scored, key=lambda t: -t[1])
 
 
+_SALE_MARKERS = re.compile(
+    r"pr[ée]emption|\bDIA\b|intention d.ali[ée]ner|d[ée]signation du bien|bien vendu|prix de vente"
+    r"|\b(?:vendeur|acqu[ée]reur)s?\s*(?:\(s\))?\s*:", re.I)
+
+
 def is_property_transaction(title, body):
-    """Items about private property sales: their places and amounts stay out of aggregates."""
-    return bool(re.search(r"pr[ée]emption|\bDIA\b|intention d.ali[ée]ner", title, re.I)
-                or len(re.findall(r"pr[ée]emption", body, re.I)) >= 2)
+    """Items about private property sales: their places and amounts stay out of aggregates.
+
+    Deliberately broad: one marker anywhere is enough, because a single notice (a
+    place, a price, named sellers) is what identifies someone in a small village.
+    """
+    return bool(_SALE_MARKERS.search(title) or _SALE_MARKERS.search(body))
 
 
 # ---- place candidates -----------------------------------------------------------------------

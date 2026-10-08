@@ -14,7 +14,7 @@ machine_generated: true
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf).
+This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf).
 
 - Attendance: 7 present, 1 absent or represented.
 - Items: 9. Pages: 5.
@@ -75,13 +75,13 @@ This summary is extracted by rules, not written by a person: each line quotes th
 - 15 000 €: “La part de financement initialement prise en charge par la commune de Montolieu était de 15 000 euros (soit 0,57% du total).”
 - 780 000 €, 11 000 €: “Pour couvrir le montant actuel des travaux, en dépit d'un apport de 780 000 euros du FNADT (Etat), chacune des collectivités membres du GIP a été sollicitée pour apporter un financement complémentaire La commune de Monto”
 - 26 000 €: “Cela porterait à 26 000 euros la contribution totale de la commune (le pourcentage restant 0,57 %).”
-- 11 000 €: “Le conseil municipal décide à l’unanimité d’accorder un financement complémentaire de 11 000 euros pour les travaux du musée Ceres Franco, et d’autoriser [name withheld] à signer la convention.”
+- 11 000 €: “Le conseil municipal décide à l’unanimité d’accorder un financement complémentaire de 11 000 euros pour les travaux du musée Ceres Franco, et d’autoriser Bernard LAURET à signer la convention.”
 
 ## Signature de la charte de l’arbre et du paysage du departement de l’aude
 
 [p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=3) · Vote: majority (not unanimous) (for: 12, against: 1)
 
-> Par courrier du 20 décembre 2023, [name withheld], présidente du Conseil Départemental de l’Aude, adressait aux communes la charte de l’arbre et du paysage, adopté par le conseil départemental le 19 octobre 2023. [name withheld] nous invite à délibérer à notre tour sur la mise en œuvre des orientations et des…
+Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.
 
 ## Usage : Local d'habitation a usage de débarras
 

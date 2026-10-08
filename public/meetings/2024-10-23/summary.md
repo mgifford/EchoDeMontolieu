@@ -14,7 +14,7 @@ machine_generated: true
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf).
+This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf).
 
 - Attendance: 8 present, 1 absent or represented.
 - Items: 8. Pages: 8.
@@ -82,7 +82,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.5](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=5) · Vote: no vote found · Topics: vie institutionnelle
 
-> La commission communale des impôts directs est chargée de dresser, avec le représentant de l’administration fiscale, la liste des locaux de référence et des locaux types retenus pour déterminer la valeur locative des biens imposables aux impôts directs locaux. Elle participe à l’évaluation des propriétés bâties et à…
+Decisions about sales of private property (0 notice(s)). Details are in the minutes; they are left out here on purpose.
 
 ## Pont jalabert ouest
 

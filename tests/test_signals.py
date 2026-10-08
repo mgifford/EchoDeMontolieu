@@ -113,3 +113,10 @@ def test_place_candidates_find_streets_and_lieux_dits_and_trim_trailing_words():
 def test_sentences_do_not_split_after_abbreviations_or_initials():
     s = sentences("M. Martin ne prend pas part au vote. Mme Durand et J. Petit approuvent. Fin.")
     assert len(s) == 3 and s[0].startswith("M. Martin") and "J. Petit" in s[1]
+
+
+def test_a_single_sale_marker_is_enough_to_make_an_item_sensitive():
+    assert is_property_transaction("VENTE PARCELLE", "Vendeur(s) : DURAND Jean et DURAND Anne.")
+    assert is_property_transaction("DIVERS", "Désignation du bien vendu : une grange. Prix de vente : 90 000 EUR.")
+    assert is_property_transaction("X", "Le conseil se prononce contre l’exercice du droit de préemption.")
+    assert not is_property_transaction("TRAVAUX", "La commune achète un chemin pour un euro symbolique.")

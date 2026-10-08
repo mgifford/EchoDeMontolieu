@@ -20,4 +20,4 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 **Postponed or to be revisited**
 
-- [ ] “Proposition d’une liste de 5 conseillers [name withheld] [name withheld] [name withheld] [name withheld] [name withheld] Approuvé à la majorité avec 14 voix pour et 1 abstention (([name withheld]) Les personnes désignées pour compléter le conseil d’administrat”
+- [ ] “Proposition d’une liste de 5 conseillers SALA Céline GUIRAUD Myriam SOULIÉ Aude SANDILLON Jérémie PECH Christophe Approuvé à la majorité avec 14 voix pour et 1 abstention ((ÉTORÉ-LORTHOLARY Jeanne) Les personnes désignées pour compléter le conseil d’administra”

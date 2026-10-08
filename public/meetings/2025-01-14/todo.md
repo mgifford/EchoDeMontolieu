@@ -16,12 +16,6 @@ machine_generated: true
 
 These are sentences that *look like* a commitment, a postponement or a plan. They are candidates found by wording, not a checked action list. Verify each against the page.
 
-## [name withheld] ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=1))
-
-**Postponed or to be revisited**
-
-- [ ] “Etaient absents : [name withheld] procuration à [name withheld] [name withheld] procuration à [name withheld] La séance est ouverte à 20 h 05 Secrétariat de séance [name withheld] propose d’assurer le secrétariat de séance Sa proposition est retenue à l’unanim”
-
 ## Autorisation d’engager les depenses 2025 en attente du vote du budget ([p.2](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=2))
 
 **Authorises someone to act**
@@ -42,9 +36,3 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 **Postponed or to be revisited**
 
 - [ ] “Une aide exceptionnelle de 300 euros est attribuée pour cette opération à l’unanimité, elle sera inscrite au budget 2025.”
-
-## Arbitrages dans le cadre des travaux du PLU ([p.4](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=4))
-
-**Planned or expected action**
-
-- [ ] “Des réunions de travail spécifiques seront organisés avant la fin de février pour finaliser le document.”

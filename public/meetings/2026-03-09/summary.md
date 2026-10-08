@@ -14,7 +14,7 @@ machine_generated: true
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf).
+This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf).
 
 - Attendance: 13 present, 1 absent or represented.
 - Items: 5. Pages: 9.
@@ -42,18 +42,18 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.6](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=6) to [p.7](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=7) · Vote: no vote found · Topics: urbanisme
 
-> [name withheld] indique qu’au regard de l’agitation actuelle autour des seules extensions urbaines incluses dans le document, il a décidé qu’il n’y aurait pas de vote de clôture avant les prochaines élections. Il estime plus opportun de laisser le soin de ce vote au prochain conseil, qui agira comme il le souhaite. Il…
+> Bernard Lauret indique qu’au regard de l’agitation actuelle autour des seules extensions urbaines incluses dans le document, il a décidé qu’il n’y aurait pas de vote de clôture avant les prochaines élections. Il estime plus opportun de laisser le soin de ce vote au prochain conseil, qui agira comme il le souhaite. Il…
 
 ## Demande d’avance sur subvention pour l’association trail st roch
 
 [p.7](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=7) · Vote: unanimous · Topics: subventions, associations et vie locale
 
-> [name withheld], président de l’association Trail St Roch a sollicité une avance sur la subvention qui pourrait être attribuée par le prochain conseil dans le cadre de son budget 2026. [name withheld] interroge les conseillers sur l’accord de principe de versement d’une avance. Sur le montant à accorder, il est…
+> [name withheld], président de l’association Trail St Roch a sollicité une avance sur la subvention qui pourrait être attribuée par le prochain conseil dans le cadre de son budget 2026. Bernard LAURET interroge les conseillers sur l’accord de principe de versement d’une avance. Sur le montant à accorder, il est précisé…
 
 **Amounts**
 
 - 400 €: “Sur le montant à accorder, il est précisé que la demande de subvention elle-même est de 400 euros.”
-- 300 €: “[name withheld] indique que pour l’année précédente, la subvention avait été accordée à l’association des parents d’élève pour l’organisation du trail pour un montant de 300 €.”
+- 300 €: “Laure ESCARÉ indique que pour l’année précédente, la subvention avait été accordée à l’association des parents d’élève pour l’organisation du trail pour un montant de 300 €.”
 - 300 €: “Après échange, le conseil vote à l’unanimité l’octroi d’une avance sur subvention de 300 euros.”
 
 ## Droit de preemption

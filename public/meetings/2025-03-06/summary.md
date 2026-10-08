@@ -14,7 +14,7 @@ machine_generated: true
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf).
+This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf).
 
 - Attendance: 11 present, 1 absent or represented.
 - Items: 12. Pages: 8.
@@ -125,16 +125,10 @@ Decisions about sales of private property (2 notice(s)). Details are in the minu
 
 [p.6](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=6) to [p.7](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=7) · Vote: unanimous
 
-> Cadastrale : Section N° Lieu-dit Superficie totale B 0296
-
-**Amounts**
-
-- 0 €: “6580 m² Usage : Agricole Prix de vente : 2 000.00 euros Vendeur(s) : MELLET André Le conseil s’oppose à l’unanimité à l’exercice du droit de préemption Désignation du bien vendu : Réf.”
+Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.
 
 ## 433 che d’arzens
 
 [p.7](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=7) to [p.8](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=8) · Vote: unanimous
 
-**Amounts**
-
-- 0 €: “00ha00a80ca Usage : HABITATION Prix de vente : 100 000.00 euros Vendeur(s) : VEN DURMEN Valérie Le conseil s’oppose à l’unanimité à l’exercice du droit de préemption L’ordre du jour étant épuisé, la séance est levée à 21”
+Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.

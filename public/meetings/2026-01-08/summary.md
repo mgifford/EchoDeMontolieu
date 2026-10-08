@@ -14,7 +14,7 @@ machine_generated: true
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf).
+This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf).
 
 - Attendance: 9 present, 1 absent or represented.
 - Items: 5. Pages: 3.

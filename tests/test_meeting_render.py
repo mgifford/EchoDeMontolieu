@@ -27,7 +27,7 @@ DECISION MODIFICATIVE BUDGETAIRE
 Suite à l’achat d’une parcelle au lieu-dit Fontbelle, il convient d’ajuster le budget.
 Une dépense de 12 500,00 € est inscrite, conformément à l’article L2121-29 du code
 général des collectivités territoriales. Le dossier sera réétudié lors d’un prochain
-conseil. Mme DUBOIS Claire s’abstient.
+conseil. Mme DUBOIS Claire s’abstient. M. Pierre MOREL, habitant du hameau, demande une réponse.
 Vote du conseil à la majorité (1 abstention)
 """
 PAGE2 = """
@@ -97,7 +97,9 @@ def test_parse_meeting_finds_items_votes_amounts_refs_followups_and_places():
     assert [f["type"] for f in a["followups"]] == ["deferred"]
     assert [p["label"] for p in a["places"]] == ["Fontbelle"]
     assert "finances" in a["topics"]
-    assert "DUBOIS" not in json.dumps(a)                      # names scrubbed from derived data
+    blob = json.dumps(a, ensure_ascii=False)
+    assert "Mme DUBOIS Claire s’abstient" in blob              # an elected official is named
+    assert "MOREL" not in blob                                  # a private person is not
 
 
 def test_property_sale_items_keep_counts_only():
@@ -124,7 +126,8 @@ def test_summary_and_todo_cite_pages_and_carry_no_names():
     assert "12 500 €" in s and "CGCT L2121-29" in s and "Fontbelle" in s
     assert "Decisions about sales of private property (1 notice(s))" in s
     for text in (s, t):
-        assert "DUBOIS" not in text and "DURAND" not in text and "90 000" not in text and "Écoles" not in text
+        assert "MOREL" not in text and "DURAND" not in text and "90 000" not in text and "Écoles" not in text
+    assert "Mme DUBOIS Claire s’abstient" in s                  # officials may be named
     assert "https://example.test/a.pdf#page=1" in s
     assert "- [ ] “Le dossier sera réétudié" in t or "prochain" in t
 
@@ -207,3 +210,66 @@ Libellé
     items = parse_meeting(rec)["items"]
     assert [i["title"] for i in items] == ["Budget"]            # captions folded in, agenda wording used
     assert items[0]["pages"] == [1, 1] and items[0]["vote_result"] == "unanimous"
+
+
+# ---- elected officials are visible, everyone else is not ----------------------------------
+
+
+def test_keep_leaves_officials_visible_even_with_an_honorific_but_scrubs_others():
+    officials = ["Claire DUBOIS", "Marc LEFEBVRE"]
+    text = "Mme DUBOIS Claire propose. Monsieur Marc LEFEBVRE répond. M. Pierre MOREL intervient."
+    out = scrub_names(text, officials, keep=officials)
+    assert "DUBOIS" in out and "LEFEBVRE" in out and "MOREL" not in out
+    hidden = scrub_names(text, officials)                          # no keep: everything scrubbed
+    assert "DUBOIS" not in hidden and "LEFEBVRE" not in hidden
+
+
+def test_official_surname_heading_stays_but_an_unlisted_person_heading_does_not():
+    names = ["Claire DUBOIS"]
+    assert scrub_title("DUBOIS", names, set(), keep=names) == "DUBOIS"
+    assert scrub_title("DEMANDE DE MONSIEUR PIERRE MOREL", names, set(), keep=names) == "DEMANDE DE [name withheld]"
+
+
+def test_officials_visible_can_be_switched_off():
+    m = parse_meeting(record(), officials_visible=False)
+    assert "DUBOIS" not in json.dumps(m, ensure_ascii=False)
+
+
+def test_seller_names_are_scrubbed_everywhere_not_only_in_the_sale_item():
+    rec = record()
+    rec["pages"][1]["text"] = PAGE2 + "\nPlus loin, DURAND Jean est cité dans une autre phrase."
+    text = json.dumps(parse_meeting(rec), ensure_ascii=False)
+    assert "DURAND" not in text
+
+
+# ---- regressions found on the real minutes ---------------------------------------------------
+
+from echo_montolieu.meeting import honorific_names  # noqa: E402
+
+
+def test_a_role_after_an_honorific_is_not_a_name():
+    officials = ["Claire DUBOIS"]
+    for text in ("Monsieur Le Maire propose.", "M. Le Maire propose.", "Madame la Présidente répond.",
+                 "Monsieur le Trésorier précise."):
+        assert scrub_names(text, officials, keep=officials) == text
+
+
+def test_an_official_followed_by_a_title_is_still_recognised():
+    officials = ["Céline SALA"]
+    out = scrub_names("Madame SALA Céline Conseillère déléguée présente.", officials, keep=officials)
+    assert "SALA" in out
+    assert honorific_names("M. AGASSE Baptiste Mme JACOB Sabine arrivent.") == ["AGASSE Baptiste", "JACOB Sabine"]
+
+
+def test_a_person_named_with_an_honorific_is_scrubbed_in_later_mentions_without_one():
+    rec = record()
+    rec["pages"][0]["text"] += "\nM. Pierre MOREL demande la parole. Plus tard, MOREL Pierre précise le devis. Enfin MOREL conclut."
+    text = json.dumps(parse_meeting(rec), ensure_ascii=False)
+    assert "MOREL" not in text
+
+
+def test_a_namesake_of_an_official_is_scrubbed_but_the_official_is_not():
+    rec = record()
+    rec["pages"][0]["text"] += "\nMonsieur Jérôme DUBOIS (habitant) intervient. Mme DUBOIS Claire répond."
+    blob = json.dumps(parse_meeting(rec), ensure_ascii=False)
+    assert "Jérôme" not in blob and "Mme DUBOIS Claire" in blob

@@ -155,8 +155,8 @@ def render_summary(meeting):
                           "source_sha256": meeting["source_sha256"]}, "Summary"),
            f"# Summary of the council meeting of {d}", "", BANNER, "",
            "This summary is extracted by rules, not written by a person: each line quotes the "
-           f"sentence it comes from and links the page. Personal names are replaced by "
-           f"`{PLACEHOLDER}`. Read the [full minutes](minutes.md) or the [original PDF]({url}).", "",
+           f"sentence it comes from and links the page. Elected officials on the attendance list are "
+           f"named; other personal names are replaced by `{PLACEHOLDER}`. Read the [full minutes](minutes.md) or the [original PDF]({url}).", "",
            f"- Attendance: {meeting['attendance']['present']} present, {meeting['attendance']['absent']} absent or represented.",
            f"- Items: {len(meeting['items'])}. Pages: {meeting['page_count']}."]
     if meeting["pages_needing_review"]:

@@ -14,7 +14,7 @@ machine_generated: true
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf).
+This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf).
 
 - Attendance: 15 present, 0 absent or represented.
 - Items: 5. Pages: 3.
@@ -23,7 +23,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf#page=1) to [p.2](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf#page=2) · Vote: no vote found
 
-> Désignation de 2 assesseurs : [names withheld]. [name withheld] demande qui se porte candidat à l’élection du maire. Candidature : [name withheld] ETORE LORTHOLARY invite les conseillers à passer dans l’isoloir pour procéder au vote Résultat du vote du conseil : Nombre de votants : 15 Nombre de suffrages déclarés nuls…
+> Désignation de 2 assesseurs : M. OLIVIER Jean-Luc et M. SANDILLON Jérémie. Madame ETORE LORTHOLARY demande qui se porte candidat à l’élection du maire. Candidature : M. SAFONT Jacques Madame ETORE LORTHOLARY invite les conseillers à passer dans l’isoloir pour procéder au vote Résultat du vote du conseil : Nombre de…
 
 ## Fixation du nombre d’adjoints
 
@@ -35,7 +35,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.2](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf#page=2) · Vote: no vote found · Topics: personnel
 
-> M. le maire propose une liste d’adjoints composée comme suit : [name withheld] 2. [name withheld] 3. [name withheld] 4. [name withheld] M le Maire demande s’il y a une autre liste de candidats, [name withheld] se porte candidate. Il lui est répondu qu’elle doit présenter une liste d’adjoints. Elle répond qu’elle n’est…
+> M. le maire propose une liste d’adjoints composée comme suit : M. LABESSEDE René 2. Mme BARBERO Aurélie 3. M. BOST Thierry 4. Mme PAUTOU Agnès M le Maire demande s’il y a une autre liste de candidats, Mme Jeanne Etoré-Lortholary se porte candidate. Il lui est répondu qu’elle doit présenter une liste d’adjoints. Elle…
 
 ## Lecture de la charte de l’elu local
 

@@ -14,7 +14,7 @@ machine_generated: true
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf).
+This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf).
 
 - Attendance: 13 present, 2 absent or represented.
 - Items: 7. Pages: 7.
@@ -29,7 +29,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=1) to [p.2](https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=2) · Vote: majority (not unanimous) (abstentions: 1) · Topics: personnel, patrimoine, culture, tourisme, vie institutionnelle
 
-> Suite à la démission de [name withheld] au poste de 4eme adjointe en charge de la culture, du patrimoine et du tourisme, nous devons décider de conserver ou non ce poste d’adjoint. M. le Maire propose de conserver ce poste. Y-a-t-il d’autre candidature ? Non [name withheld] fait part au Conseil Municipal de quelques…
+> Suite à la démission de Madame Agnès PAUTOU au poste de 4eme adjointe en charge de la culture, du patrimoine et du tourisme, nous devons décider de conserver ou non ce poste d’adjoint. M. le Maire propose de conserver ce poste. Y-a-t-il d’autre candidature ? Non Mme ETORE-LORTHOLARY Jeanne fait part au Conseil…
 
 ## Modification des indemnités de fonctions aux adjoints et conseillers délégués
 
@@ -45,7 +45,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.3](https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=3) · Vote: majority (not unanimous) (abstentions: 1) · Topics: patrimoine, culture, tourisme, vie institutionnelle
 
-> [name withheld] souhaite démissionner du poste de vice-présidente de la commission culture, patrimoine tourisme. Pour rappel, la commission est composée des membres suivants : Vice-Présidente : [name withheld] Membres : [names withheld] M. le Maire propose [name withheld] pour la remplacer.
+> Madame Agnès PAUTOU souhaite démissionner du poste de vice-présidente de la commission culture, patrimoine tourisme. Pour rappel, la commission est composée des membres suivants : Vice-Présidente : PAUTOU Agnès Membres : SOULIÉ Aude, PUJADE Jean-Paul, BARBERO Aurélie, OLIVIER Jean-Luc, ÉTORÉ- LORTHOLARY Jeanne M. le…
 
 ## Décision modificative budgétaire
 

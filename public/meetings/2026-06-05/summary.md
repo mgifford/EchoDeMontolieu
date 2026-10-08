@@ -14,7 +14,7 @@ machine_generated: true
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf).
+This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf).
 
 - Attendance: 12 present, 1 absent or represented.
 - Items: 13. Pages: 8.
@@ -39,7 +39,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=1) to [p.2](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=2) · Vote: no vote found
 
-> Secrétaire désignée : [name withheld] 2 assesseurs et 2 scrutateurs En application de l’article R.133 du code électoral le bureau électoral est présidé par le maire et des deux conseillers les plus âgés et les 2 deux conseillers les plus jeunes présents : [name withheld] [name withheld] [name withheld] [name withheld]
+> Secrétaire désignée : Mme ÉTORÉ LORTHOLARY Jeanne 2 assesseurs et 2 scrutateurs En application de l’article R.133 du code électoral le bureau électoral est présidé par le maire et des deux conseillers les plus âgés et les 2 deux conseillers les plus jeunes présents : Mme ÉTORÉ LORTHOLARY Jeanne M. LABESSEDE René M.…
 
 **Legal references**
 
@@ -61,7 +61,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.2](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=2) to [p.3](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=3) · Vote: unanimous · Topics: personnel
 
-> [name withheld] présente et explique les choix proposés : La délibération précisant le vote de création des postes saisonniers pour la commune n'a pas été retrouvée. Celle-ci est obligatoire pour légitimer et légaliser les embauches. Par ailleurs, depuis quelques années, les contrats, les temps de travail, les fiches…
+> Mme Agnès Pautou présente et explique les choix proposés : La délibération précisant le vote de création des postes saisonniers pour la commune n'a pas été retrouvée. Celle-ci est obligatoire pour légitimer et légaliser les embauches. Par ailleurs, depuis quelques années, les contrats, les temps de travail, les fiches…
 
 ## Modification des indemnites des elus
 
@@ -85,7 +85,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.4](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=4) to [p.5](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=5) · Vote: unanimous · Topics: finances
 
-> Mr le Maire donne la parole à [name withheld], adjoint aux finances, pour expliquer le choix de l'emprunt à contracter. Pour faire suite à l'élaboration du budget 2026, le déficit du budget d'investissement après incorporation de l'excédent de fonctionnement (26.000€) se trouve dans l'obligation de contracter un…
+> Mr le Maire donne la parole à René Labessède, adjoint aux finances, pour expliquer le choix de l'emprunt à contracter. Pour faire suite à l'élaboration du budget 2026, le déficit du budget d'investissement après incorporation de l'excédent de fonctionnement (26.000€) se trouve dans l'obligation de contracter un…
 
 **Amounts**
 
@@ -123,7 +123,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.6](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=6) · Vote: unanimous
 
-> Publicité de la vente : Affichage dans les panneaux d’informations communaux ; Voie électronique ; Il propose de passer au vote [name withheld] intervient en expliquant que l’habitation étant en très mauvais état, sa rénovation poserait problème à la commune, et elle n’est pas hostile à cette vente à condition…
+> Publicité de la vente : Affichage dans les panneaux d’informations communaux ; Voie électronique ; Il propose de passer au vote Mme ETORE LORTHOLARY Jeanne intervient en expliquant que l’habitation étant en très mauvais état, sa rénovation poserait problème à la commune, et elle n’est pas hostile à cette vente à…
 
 ## Droit de preemption
 
@@ -135,6 +135,6 @@ Decisions about sales of private property (1 notice(s)). Details are in the minu
 
 [p.7](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=7) to [p.8](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=8) · Vote: no vote found · Topics: voirie et travaux
 
-> [name withheld] demande où en sont les travaux à la Tannerie ? M ; le Maire explique que [name withheld] a entrepris des travaux de mise en sécurité qui sont valables 6 mois. Donc l’accès est sécurisé, mais manque encore des travaux supplémentaires. L’entreprise de désamiantage a tout enlevé. [name withheld] demande…
+> Mme ETORE LORTHOLARY Jeanne demande où en sont les travaux à la Tannerie ? M ; le Maire explique que [name withheld] a entrepris des travaux de mise en sécurité qui sont valables 6 mois. Donc l’accès est sécurisé, mais manque encore des travaux supplémentaires. L’entreprise de désamiantage a tout enlevé. Mme ETORE…
 
 **Places mentioned (unverified):** chemin de, passage devant

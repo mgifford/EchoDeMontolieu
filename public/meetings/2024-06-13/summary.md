@@ -14,7 +14,7 @@ machine_generated: true
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf).
+This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf).
 
 - Attendance: 11 present, 1 absent or represented.
 - Items: 13. Pages: 8.
@@ -27,15 +27,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=1) to [p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=3) · Vote: majority (not unanimous) (for: 12, against: 1, abstentions: 1)
 
-> Monsieur le Maire indique au Conseil Municipal que l’article 15 de la loi n° 2023-175 du 10 mars 2023 relative à l'accélération de la production d'énergies renouvelables permet aux communes de proposer des Zones d'Accélération pour le développement de la production d’énergies renouvelables (ZAER). Ces ZAEnR doivent…
-
-**Legal references**
-
-- loi 2023-175
-- ? L141-5-3
-- loi 2023-175
-
-**Places mentioned (unverified):** Cazelle Solaire
+Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.
 
 ## Avancement de grade : Creation des grades correspondant dans le tableau des effectifs
 
@@ -93,7 +85,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.7](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=7) · Vote: majority (not unanimous) (for: 13, abstentions: 1) · Topics: voirie et travaux
 
-> [name withheld] rappelle que les travaux de la deuxième tranche du presbytère vont s’achever, avec la pose des gradins par la société COMECA. Compte tenu des difficultés rencontrées dans le suivi dédits travaux, il convient de décider si cette dernière tranche doit être confiée au cabinet d’architecte de Caroline…
+> Bernard LAURET rappelle que les travaux de la deuxième tranche du presbytère vont s’achever, avec la pose des gradins par la société COMECA. Compte tenu des difficultés rencontrées dans le suivi dédits travaux, il convient de décider si cette dernière tranche doit être confiée au cabinet d’architecte de Caroline…
 
 ## Tarif piscine groupe : Principe d’un forfait minimum pour les groupes
 
@@ -146,4 +138,4 @@ Decisions about sales of private property (1 notice(s)). Details are in the minu
 
 [p.8](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=8) · Vote: majority (not unanimous) (did not vote: 1)
 
-> [name withheld] ne prend pas part au vote.
+Decisions about sales of private property (2 notice(s)). Details are in the minutes; they are left out here on purpose.

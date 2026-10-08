@@ -20,8 +20,8 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 **Postponed or to be revisited**
 
-- [ ] “[name withheld] précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment les recettes de la piscine - Le chapitre 75 correspond au mont”
-- [ ] “[name withheld] répond que c’est inexact et rappelle que le coût du PAVE, son plan de financement, et l’appel au prêt ont fait l’objet de délibération en Conseil. 15 618,00 € 223 901,63 € 82 025,75 € 101 708,26 € 21 754,00 € 568 832,95 € 21 Immobilisations cor”
+- [ ] “Laure ESCARÉ précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment les recettes de la piscine - Le chapitre 75 correspond au montant”
+- [ ] “Laure ESCARÉ répond que c’est inexact et rappelle que le coût du PAVE, son plan de financement, et l’appel au prêt ont fait l’objet de délibération en Conseil. 15 618,00 € 223 901,63 € 82 025,75 € 101 708,26 € 21 754,00 € 568 832,95 € 21 Immobilisations corpor”
 
 ## Clim musee ([p.5](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=5))
 

@@ -14,7 +14,7 @@ machine_generated: true
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf).
+This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf).
 
 - Attendance: 11 present, 1 absent or represented.
 - Items: 11. Pages: 8.
@@ -23,7 +23,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=1) to [p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) · Vote: majority (not unanimous) (for: 13, abstentions: 1) · Topics: vie institutionnelle
 
-> Le procès-verbal a été communiqué avec la convocation au présent conseil. [name withheld] reproche que le Procès-Verbal ne soit pas complet et présente plus les arguments des uns plutôt que ceux des autres. Elle cite notamment le fait que pour le camping à la ferme, [name withheld] a indiqué qu’il y avait un rachat…
+> Le procès-verbal a été communiqué avec la convocation au présent conseil. Jeanne ETORÉ-LORTHOLARY reproche que le Procès-Verbal ne soit pas complet et présente plus les arguments des uns plutôt que ceux des autres. Elle cite notamment le fait que pour le camping à la ferme, Jean-Luc OLIVIER a indiqué qu’il y avait un…
 
 ## Reconduction contrat d’assurance smacl
 
@@ -57,12 +57,12 @@ This summary is extracted by rules, not written by a person: each line quotes th
 - 487 000 €: “Le conseil est sollicité pour la demande de subvention qui doit être faite avant le 31 octobre pour la première phase des travaux telle que proposée par le département c’est-à-dire les études préalables de l’ensemble du ”
 - 500 000 €: “Rien ne nous oblige, après ne nous en être pas occupés pendant 5 ans, à nous précipiter sur une solution à 500.000 euros.”
 - 56 000 €, 46 400 €, 60 000 €, 40 600 €, 29 000 €, 116 000 €, 116 000 €: “Par ailleurs, si le musée obtient, comme on peut l'espérer, le label Musée de France, les contributions au GIP vont augmenter : il me paraît bien plus important de prévoir de pouvoir abonder ce budget que de mettre une p”
-- 29 000 €: “Le choix du parking de St Roch n’empêche nullement l’aménagement à terme de celui de Villelongue, et l’apport d’une plateforme au sortir de la rue des 4 chemins permettra d’apaiser la vitesse sur la RD8 ; [name withheld]”
+- 29 000 €: “Le choix du parking de St Roch n’empêche nullement l’aménagement à terme de celui de Villelongue, et l’apport d’une plateforme au sortir de la rue des 4 chemins permettra d’apaiser la vitesse sur la RD8 ; Éric OLIVIER es”
 
 **Exceptions or derogations mentioned**
 
-- “[name withheld] rappelle pour le pont qu’on pouvait demander des dérogations.”
-- “[name withheld] répond que les dérogations ne pouvaient être que temporaires et que la passerelle aurait été nécessaire à terme pour sécuriser le passage, de fait de l’étroitesse du cheminement.”
+- “Jeanne ETORÉ-LORTHOLARY rappelle pour le pont qu’on pouvait demander des dérogations.”
+- “Laure ESCARÉ répond que les dérogations ne pouvaient être que temporaires et que la passerelle aurait été nécessaire à terme pour sécuriser le passage, de fait de l’étroitesse du cheminement.”
 
 **Places mentioned (unverified):** rue des, chemin inclus, route de Villelongue, route d’Alzonne, route de Carcassonne
 
