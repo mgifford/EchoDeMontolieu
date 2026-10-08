@@ -1,17 +1,59 @@
-"""Markdown for readers: the cleaned minutes, a per-meeting summary and a to-do list.
+"""Markdown for readers: the cleaned minutes, a facts digest and a to-do list.
 
 minutes.md is the faithful text, tidied for reading (hard-wrapped lines joined,
 page numbers moved into links, capitals headings in sentence case) and keeps every
-name. summary.md and todo.md are derived by rules: they quote the sentence a
-statement came from, link its page, and carry no personal names.
+name. facts.md and todo.md are derived by rules: they quote the sentence a
+statement came from, link its page, and carry no personal names. The narrative
+summary (summary.md) and the translations (*.en.md, *.nl.md) come from a model and
+are produced by generate.py.
+
+The minutes can be rendered in French (the original) or in English or Dutch, by
+passing a `tr` function that translates prose, headings and bullets. Tables and
+OCR pages are never translated. Labels written by the project (not translated by a
+model) exist in all three languages; the Dutch and English ones are unreviewed by a
+native speaker.
 """
 import re
 
 from .meeting import PLACEHOLDER, display_title
 from .text import clean_page_lines, paragraphs, sentence_case
 
-BANNER = ("> Machine-generated reading of the council minutes. It may contain errors; the "
-          "original PDF is the authoritative document.")
+LABELS = {
+    "fr": {
+        "banner": "> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.",
+        "translation_notice": "",
+        "original": "Original : [PDF]({url}) (SHA-256 `{sha}…`, récupéré le {date}). Version {v} sur {n}.",
+        "check_pages": "> **Vérifiez l’original pour la ou les pages {pages}.** Elles ont été lues par OCR avec une faible confiance ; chiffres et tableaux peuvent être faux.",
+        "ocr_page": "> **La page {n} est une image lue par OCR** (confiance {conf}). Considérez-la comme non vérifiée et consultez {link}.",
+        "alt_ocr": "Lecture OCR alternative (trouve plus de nombres, perd la mise en page)",
+        "contents": "Sommaire",
+        "untranslated": "non traduit : une vérification automatique a échoué",
+        "kind_minutes": "Procès-verbal", "meeting_of": "Conseil municipal du {date}",
+    },
+    "en": {
+        "banner": "> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.",
+        "translation_notice": "> **Machine translation** of the French original. The French text is authoritative. Tables, image pages read by OCR and notices about private property sales are kept in French.",
+        "original": "Original: [PDF]({url}) (SHA-256 `{sha}…`, retrieved {date}). Version {v} of {n}.",
+        "check_pages": "> **Check the original for page(s) {pages}.** They were read by OCR with low confidence; figures and tables may be wrong.",
+        "ocr_page": "> **Page {n} is an image read by OCR** (confidence {conf}). Treat it as unverified and check {link}.",
+        "alt_ocr": "Alternate OCR reading (finds more numbers, loses the layout)",
+        "contents": "Contents",
+        "untranslated": "not translated: an automatic check failed",
+        "kind_minutes": "Minutes", "meeting_of": "Municipal council of {date}",
+    },
+    "nl": {
+        "banner": "> Automatisch gegenereerde weergave van de notulen. Ze kan fouten bevatten; de originele pdf is leidend.",
+        "translation_notice": "> **Automatische vertaling** van de Franse originele tekst. De Franse tekst is leidend. Tabellen, door OCR gelezen beeldpagina’s en bekendmakingen over de verkoop van privébezit blijven in het Frans.",
+        "original": "Origineel: [pdf]({url}) (SHA-256 `{sha}…`, opgehaald op {date}). Versie {v} van {n}.",
+        "check_pages": "> **Controleer het origineel voor pagina {pages}.** Ze zijn met OCR gelezen met lage betrouwbaarheid; cijfers en tabellen kunnen onjuist zijn.",
+        "ocr_page": "> **Pagina {n} is een afbeelding gelezen met OCR** (betrouwbaarheid {conf}). Beschouw ze als niet gecontroleerd en raadpleeg {link}.",
+        "alt_ocr": "Alternatieve OCR-lezing (vindt meer getallen, verliest de opmaak)",
+        "contents": "Inhoud",
+        "untranslated": "niet vertaald: een automatische controle is mislukt",
+        "kind_minutes": "Notulen", "meeting_of": "Gemeenteraad van {date}",
+    },
+}
+BANNER = LABELS["en"]["banner"]
 VOTE_LABELS = {"unanimous": "unanimous", "majority": "majority (not unanimous)",
                "rejected": "rejected", None: "no vote found"}
 TYPE_LABELS = {"authorisation": "Authorises someone to act",
@@ -34,37 +76,39 @@ def page_link(source_url, page):
     return f"[p.{page}]({source_url}#page={page})"
 
 
-def _front_matter(rec, kind):
+def _front_matter(rec, kind, lang="fr", extra=None):
     date = (rec.get("meeting_date") or {}).get("value") or "unknown"
     status = (rec.get("meeting_date") or {}).get("status")
-    return "\n".join([
-        "---",
-        f'title: "{kind}: council meeting of {date}"',
-        f"date: {date}",
-        f"date_status: {status or 'unknown'}",
-        f"document_id: {rec['document_id']}",
-        f"version: {rec.get('version', 1)}",
-        f"source: {rec['source_url']}",
-        f"source_sha256: {rec['source_sha256']}",
-        "language: fr",
-        "machine_generated: true",
-        "---", ""])
+    lines = ["---",
+             f'title: "{kind}: {date}"',
+             f"date: {date}",
+             f"date_status: {status or 'unknown'}",
+             f"document_id: {rec['document_id']}",
+             f"version: {rec.get('version', 1)}",
+             f"source: {rec['source_url']}",
+             f"source_sha256: {rec['source_sha256']}",
+             f"language: {lang}",
+             "machine_generated: true"]
+    for key, value in (extra or {}).items():
+        lines.append(f"{key}: {value}")
+    return "\n".join(lines + ["---", ""])
 
 
-def _ocr_block(page, url):
+def _ocr_block(page, url, labels):
     conf = (page.get("ocr") or {}).get("mean_conf")
     n = page["page"]
-    out = [f"> **Page {n} is an image read by OCR** (confidence {conf}). "
-           f"Treat it as unverified and check {page_link(url, n)}.", "",
+    out = [labels["ocr_page"].format(n=n, conf=conf, link=page_link(url, n)), "",
            "```text", page["text"].strip(), "```", ""]
     if page.get("text_sparse"):
-        out += ["<details><summary>Alternate OCR reading (finds more numbers, loses table layout)"
-                "</summary>", "", "```text", page["text_sparse"].strip(), "```", "", "</details>", ""]
+        out += [f"<details><summary>{labels['alt_ocr']}</summary>", "", "```text",
+                page["text_sparse"].strip(), "```", "", "</details>", ""]
     return out
 
 
-def render_minutes(rec):
-    """Faithful, tidied Markdown of one record. Names are kept."""
+def render_minutes(rec, lang="fr", tr=None, extra=None):
+    """Tidied Markdown of one record. French keeps every name; `tr` translates the prose."""
+    tr = tr or (lambda text, page=None: text)
+    labels = LABELS[lang]
     url = rec["source_url"]
     doc_date = (rec.get("meeting_date") or {}).get("value", "date not detected")
 
@@ -85,22 +129,23 @@ def render_minutes(rec):
     agenda = [b["text"] for b in (all_blocks[headings[0] + 1: headings[1]] if len(headings) > 1 else [])
               if b["kind"] == "bullet"]
     doc_title = all_blocks[headings[0]] if headings else None
-    heading = sentence_case(doc_title["text"]) if doc_title else f"Conseil municipal du {doc_date}"
+    heading = tr(sentence_case(doc_title["text"]) if doc_title else f"Conseil municipal du {doc_date}",
+                 doc_title["page"] if doc_title else 1)
 
-    out = [_front_matter(rec, "Minutes"), f"# {heading}", "", BANNER, "",
-           f"Original: [PDF]({url}) (SHA-256 `{rec['source_sha256'][:16]}…`, retrieved "
-           f"{rec['retrieved_at'][:10]}). Version {rec.get('version', 1)} of "
-           f"{len(rec.get('versions', [])) or 1}.", ""]
+    out = [_front_matter(rec, labels["kind_minutes"], lang, extra), f"# {heading}", "", labels["banner"], ""]
+    if labels["translation_notice"]:
+        out += [labels["translation_notice"], ""]
+    out += [labels["original"].format(url=url, sha=rec["source_sha256"][:16], date=rec["retrieved_at"][:10],
+                                      v=rec.get("version", 1), n=len(rec.get("versions", [])) or 1), ""]
     review = [p["page"] for p in rec["pages"] if p.get("status") == "needs_review"]
     if review:
-        out += [f"> **Check the original for page(s) {', '.join(map(str, review))}.** They were "
-                "read by OCR with low confidence; figures and tables may be wrong.", ""]
+        out += [labels["check_pages"].format(pages=", ".join(map(str, review))), ""]
 
     body, toc, seen_pages, previous_kind = [], [], set(), None
     for kind, unit in units:
         if kind == "ocr":
             seen_pages.add(unit["page"])
-            body += _ocr_block(unit, url)
+            body += _ocr_block(unit, url, labels)
             previous_kind = "ocr"
             continue
         for b in unit:
@@ -114,19 +159,19 @@ def render_minutes(rec):
             if b["kind"] == "heading":
                 if b is doc_title:
                     continue  # the document title is the page heading above
-                title = display_title(b["text"], agenda)
+                title = tr(display_title(b["text"], agenda), b["page"])
                 body += [f"## {title}{page_mark}", ""]
                 toc.append((title, b["page"]))
             elif b["kind"] == "subheading":
-                body += [f"### {_esc(b['text'])}{page_mark}", ""]
+                body += [f"### {_esc(tr(b['text'], b['page']))}{page_mark}", ""]
             elif b["kind"] == "bullet":
-                body += [f"- {_esc(b['text'])}{page_mark}"]
+                body += [f"- {_esc(tr(b['text'], b['page']))}{page_mark}"]
             elif b["kind"] == "table":
                 body += ["", "```text", b["text"], "```", ""]
             else:
-                body += [f"{_esc(b['text'])}{page_mark}", ""]
+                body += [f"{_esc(tr(b['text'], b['page']))}{page_mark}", ""]
     if toc:
-        out += ["## Contents", ""] + [f"- [{t}](#{_anchor(t)}) ({page_link(url, p)})" for t, p in toc] + [""]
+        out += [f"## {labels['contents']}", ""] + [f"- [{t}](#{_anchor(t)}) ({page_link(url, p)})" for t, p in toc] + [""]
     out += body
     return "\n".join(out).rstrip() + "\n"
 
@@ -147,16 +192,16 @@ def _money(a):
     return f"{text} €" if a["kind"] == "eur" else f"{text} %"
 
 
-def render_summary(meeting):
-    """What was decided, item by item, with sources. Names withheld."""
+def render_facts(meeting):
+    """What the text says, item by item, with sources: votes, amounts, references. Rules, not a model."""
     url, d = meeting["source_url"], meeting["date"] or "date not detected"
     out = [_front_matter({**meeting, "meeting_date": {"value": meeting["date"], "status": meeting["date_status"]},
                           "version": meeting["version"], "source_url": url,
-                          "source_sha256": meeting["source_sha256"]}, "Summary"),
-           f"# Summary of the council meeting of {d}", "", BANNER, "",
-           "This summary is extracted by rules, not written by a person: each line quotes the "
-           f"sentence it comes from and links the page. Personal names are replaced by "
-           f"`{PLACEHOLDER}`. Read the [full minutes](minutes.md) or the [original PDF]({url}).", "",
+                          "source_sha256": meeting["source_sha256"]}, "Facts"),
+           f"# Facts found in the council meeting of {d}", "", BANNER, "",
+           "This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the "
+           f"sentence it comes from and links the page. Elected officials on the attendance list are "
+           f"named; other personal names are replaced by `{PLACEHOLDER}`. Read the [full minutes](minutes.md) or the [original PDF]({url}).", "",
            f"- Attendance: {meeting['attendance']['present']} present, {meeting['attendance']['absent']} absent or represented.",
            f"- Items: {len(meeting['items'])}. Pages: {meeting['page_count']}."]
     if meeting["pages_needing_review"]:
@@ -234,12 +279,13 @@ def render_index(rows):
     """Table of all meetings: what exists, and what to check."""
     out = ["# Council meetings", "", BANNER, "",
            "One folder per meeting. `minutes.md` is the full text tidied for reading (names kept, "
-           "as published). `summary.md` and `todo.md` are extracted by rules and carry no personal "
+           "as published). `facts.md` and `todo.md` are extracted by rules and carry no personal "
            "names. Every line links back to the page of the original PDF.", "",
            "| Date | Items | Votes | Pages to check | Read | Original |", "|---|---|---|---|---|---|"]
     for r in rows:
         review = ", ".join(map(str, r["review"])) or "none"
-        links = f"[minutes]({r['folder']}/minutes.md) · [summary]({r['folder']}/summary.md) · [follow-ups]({r['folder']}/todo.md)"
+        links = (f"[minutes]({r['folder']}/minutes.md) · [facts]({r['folder']}/facts.md) · "
+                 f"[follow-ups]({r['folder']}/todo.md)" + "".join(f" · [{label}]({r['folder']}/{name})" for label, name in r.get("extra", [])))
         out.append(f"| {r['date']}{' (draft?)' if r['draft'] else ''}{' v' + str(r['version']) if r['version'] > 1 else ''} "
                    f"| {r['items']} | {r['votes']} | {review} | {links} | [PDF]({r['url']}) |")
     return "\n".join(out) + "\n"
@@ -264,13 +310,16 @@ def render_all(public_dir, status_by_item=None):
         target = out_dir / folder
         target.mkdir(exist_ok=True)
         (target / "minutes.md").write_text(render_minutes(rec), encoding="utf-8")
-        (target / "summary.md").write_text(render_summary(meeting), encoding="utf-8")
+        (target / "facts.md").write_text(render_facts(meeting), encoding="utf-8")
         (target / "todo.md").write_text(render_todo(meeting, status_by_item), encoding="utf-8")
         meetings.append(meeting)
         counts = {}
         for it in meeting["items"]:
             counts[it["vote_result"]] = counts.get(it["vote_result"], 0) + 1
-        rows.append({"date": meeting["date"] or "undated", "folder": folder, "items": len(meeting["items"]),
+        extra = [(label, name) for label, name in (
+            ("résumé", "summary.md"), ("summary EN", "summary.en.md"), ("samenvatting NL", "summary.nl.md"),
+            ("minutes EN", "minutes.en.md"), ("notulen NL", "minutes.nl.md")) if (target / name).exists()]
+        rows.append({"date": meeting["date"] or "undated", "folder": folder, "extra": extra, "items": len(meeting["items"]),
                      "votes": ", ".join(f"{n} {VOTE_LABELS[k].split(' ')[0]}" for k, n in counts.items() if k) or "none found",
                      "review": meeting["pages_needing_review"], "draft": bool(rec.get("draft_suspected")),
                      "version": meeting["version"], "url": rec["source_url"]})

@@ -1,5 +1,5 @@
 ---
-title: "To do: council meeting of 2026-03-09"
+title: "To do: 2026-03-09"
 date: 2026-03-09
 date_status: tentative
 document_id: 6a549d058b41

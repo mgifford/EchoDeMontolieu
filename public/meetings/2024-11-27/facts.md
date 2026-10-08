@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2024-11-27"
+title: "Facts: 2024-11-27"
 date: 2024-11-27
 date_status: tentative
 document_id: 430999f10e6c
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2024-11-27
+# Facts found in the council meeting of 2024-11-27
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf).
 
 - Attendance: 13 present, 1 absent or represented.
 - Items: 8. Pages: 6.
@@ -84,4 +84,4 @@ Decisions about sales of private property (1 notice(s)). Details are in the minu
 
 [p.6](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=6) · Vote: no vote found
 
-> [name withheld] donne lecture de la lettre de Marie-Hélène ROBIN interrogeant la mairie sur le fait que les tags ne soient pas encore effacés, et sur ce que la commune compte faire à ce sujet. [name withheld] rappelle le déroulé des évènements : constatation des faits le vendredi, dépôt de plainte de la mairie le…
+> Laure ESCARÉ donne lecture de la lettre de [name withheld] interrogeant la mairie sur le fait que les tags ne soient pas encore effacés, et sur ce que la commune compte faire à ce sujet. Bernard LAURET rappelle le déroulé des évènements : constatation des faits le vendredi, dépôt de plainte de la mairie le dimanche…

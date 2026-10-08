@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2026-03-09"
+title: "Procès-verbal: 2026-03-09"
 date: 2026-03-09
 date_status: tentative
 document_id: 6a549d058b41
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 9 mars 2026
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf) (SHA-256 `872fca1f81ea094e…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf) (SHA-256 `872fca1f81ea094e…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 8 janvier 2026](#approbation-du-proces-verbal-du-conseil-du-8-janvier-2026) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=1))
 - [Approbation des comptes 2025 des budgets de la commune](#approbation-des-comptes-2025-des-budgets-de-la-commune) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=1))

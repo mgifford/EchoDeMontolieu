@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2024-04-04"
+title: "Facts: 2024-04-04"
 date: 2024-04-04
 date_status: tentative
 document_id: 088787638b92
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2024-04-04
+# Facts found in the council meeting of 2024-04-04
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf).
 
 - Attendance: 7 present, 1 absent or represented.
 - Items: 22. Pages: 20.
@@ -125,7 +125,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 - 4 318 €, 8 636 €: “Pour faire suite à la demande exprimée lors de la commission financière, il est indiqué que l’augmentation d’un demi-point de la part de la commune représentait un apport de 4318 €, et celle d’un point 8 636 €.”
 - 1 159 916 €: “Ces montants ramenés au montant du projet de budget de fonctionnement (1 159 916 €) ne sont pas significatifs et ne justifient pas que l’on revienne sur l’état des taxes, compte tenu du contexte socio- économique.”
-- 6 000 €: “[name withheld] fait remarquer que la commune a vendu pour 6 000 € une parcelle communale, sans que l’on estime que le montant de la recette n’était pas significatif.”
+- 6 000 €: “Jeanne ETORÉ-LORTHOLARY fait remarquer que la commune a vendu pour 6 000 € une parcelle communale, sans que l’on estime que le montant de la recette n’était pas significatif.”
 
 ## Taux d'imposition des taxes directes locales pouf
 
@@ -160,7 +160,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.11](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=11) to [p.12](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=12) · Vote: no vote found
 
-> 50 100 100 100 150 COLLEGE LA BERTRANDE (club moto) 100 cahier de la montagne noire 100 non affecté 104 TOTAL 24470 30695 31000 31050 30575 N’ont pas pris part aux votes les membres des bureaux des associations suivantes : Pour l’association valorisation du patrimoine montolivain [name withheld] Pour Aude aux Arts…
+> 50 100 100 100 150 COLLEGE LA BERTRANDE (club moto) 100 cahier de la montagne noire 100 non affecté 104 TOTAL 24470 30695 31000 31050 30575 N’ont pas pris part aux votes les membres des bureaux des associations suivantes : Pour l’association valorisation du patrimoine montolivain Jeanne ETORÉ-LORTHOLARY Pour Aude aux…
 
 ## Collectif budgetaire initial 2024
 
@@ -232,11 +232,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.16](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=16) to [p.17](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=17) · Vote: unanimous
 
-> Cadastrale :
-
-**Amounts**
-
-- 90 000 €: “Usage : Grange-remise avec terrain attenant Prix de vente : 90 000,00 EUR Vendeur(s) : ESCANDE Jean Marius, ESCANDE Elisabeth, ESCANDE Jean-Luc, ESCANDE André, ESCANDE Laurent Le conseil se prononce à l’unanimité contre ”
+Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.
 
 ## Pech rosie pech rosie pech rosie pech rosie
 

@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2026-04-13"
+title: "Procès-verbal: 2026-04-13"
 date: 2026-04-13
 date_status: tentative
 document_id: babef036850a
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 13 avril 2026
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf) (SHA-256 `a2cafba9610e7671…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf) (SHA-256 `a2cafba9610e7671…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du PV du conseil municipal du 1 avril 2026](#approbation-du-pv-du-conseil-municipal-du-1-avril-2026) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=1))
 - [Etat des taxes](#etat-des-taxes) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=1))

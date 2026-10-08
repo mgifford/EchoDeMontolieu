@@ -1,5 +1,5 @@
 ---
-title: "To do: council meeting of 2025-11-27"
+title: "To do: 2025-11-27"
 date: 2025-11-27
 date_status: tentative
 document_id: 5b79f5d2dbd5
@@ -20,7 +20,7 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 **Postponed or to be revisited**
 
-- [ ] “[name withheld] fait remarquer qu’il n’y a aucun inconvénient à revoir le PADD si nécessaire, ni à déplacer les « patates » indiquant la localisation des OAP.”
+- [ ] “Mme ETORÉ-LORTHOLARY fait remarquer qu’il n’y a aucun inconvénient à revoir le PADD si nécessaire, ni à déplacer les « patates » indiquant la localisation des OAP.”
 
 ## Plan de financement des travaux de voiries et integration dans le budget ([p.3](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=3))
 

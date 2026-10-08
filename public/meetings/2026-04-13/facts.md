@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2026-04-13"
+title: "Facts: 2026-04-13"
 date: 2026-04-13
 date_status: tentative
 document_id: babef036850a
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2026-04-13
+# Facts found in the council meeting of 2026-04-13
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf).
 
 - Attendance: 14 present, 1 absent or represented.
 - Items: 12. Pages: 8.
@@ -92,15 +92,15 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 - 400 €, 100 €, 500 €, 500 €, 500 €, 500 €, 28 575 €, 29 275 €, 34 157,50 €, 24 270 €, 30 770 €: “400,00 € 300,00 100,00 € Unanimité VALORISATION PATRIMOINE 500,00 € 500,00 € 500,00 € 500,00 € Unanimité 28 575,00 € 29 275,00 € 34 157,50 € 6 500,00 24 270,00 € 30 770,00 € Echanges concernant certaines associations : L”
 
-## [name withheld]
+## Etore-lortholary
 
 [p.6](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=6) to [p.7](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=7) · Vote: majority (not unanimous) (abstentions: 1) · Topics: subventions, associations et vie locale
 
-> [name withheld] a voté contre cette décision, elle estime que même s’il n’y a qu’un Montolivain à ce club de moto, c’est une initiative qu’on a soutenue au départ et qu’il serait bon de continuer. Même chose pour le collège de Bram. Précision concernant les subventions de l’OMSM et du Club des retraités M. le maire…
+> Mme Jeanne ETORE-LORTHOLARY a voté contre cette décision, elle estime que même s’il n’y a qu’un Montolivain à ce club de moto, c’est une initiative qu’on a soutenue au départ et qu’il serait bon de continuer. Même chose pour le collège de Bram. Précision concernant les subventions de l’OMSM et du Club des retraités M.…
 
 **Amounts**
 
-- 4 000 €: “L’OMSM [name withheld] dit avoir rencontré le président pendant la campagne et avait cru comprendre qu’il avait vraiment besoin d’une subvention de 4000 euros pour relancer son fonctionnement.”
+- 4 000 €: “L’OMSM Jeanne Etoré-Lortholary dit avoir rencontré le président pendant la campagne et avait cru comprendre qu’il avait vraiment besoin d’une subvention de 4000 euros pour relancer son fonctionnement.”
 
 **Places mentioned (unverified):** cours d’année
 
@@ -128,4 +128,4 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.8](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=8) · Vote: unanimous · Topics: intercommunalité, vie institutionnelle, voirie et travaux
 
-> [name withheld] propose aux conseillers la création des commissions communales suivantes. L’ordre du jour étant épuisé la séance est levée à 20h38. Le Président La Secrétaire
+> Monsieur Le Maire propose aux conseillers la création des commissions communales suivantes. L’ordre du jour étant épuisé la séance est levée à 20h38. Le Président La Secrétaire

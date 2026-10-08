@@ -1,5 +1,5 @@
 """Command line: python -m echo_montolieu
-{list,sync,extract,publish-record,verify,keygen,redact,status,approve,publish,unpublish,whois} ..."""
+{list,sync,extract,publish-record,render,translate-trial,generate,verify,keygen,redact,status,approve,publish,unpublish,whois} ..."""
 import argparse
 import json
 import sys
@@ -67,6 +67,29 @@ def main(argv=None):
     p_ren = sub.add_parser(
         "render", help="write readable Markdown: minutes, summary and follow-ups per meeting")
     p_ren.add_argument("--public", default="public")
+
+    p_tr = sub.add_parser(
+        "translate-trial", help="compare translation models on real minutes (use --dry-run first)")
+    p_tr.add_argument("--models", nargs="+", default=[
+        "google/gemma-3-27b-it", "Qwen/Qwen3-235B-A22B-Instruct-2507"])
+    p_tr.add_argument("--langs", nargs="+", default=["en", "nl"])
+    p_tr.add_argument("--per-category", type=int, default=4)
+    p_tr.add_argument("--max-usd", type=float, default=0.25)
+    p_tr.add_argument("--public", default="public")
+    p_tr.add_argument("--out", default="trials/translation")
+    p_tr.add_argument("--dry-run", action="store_true", help="show the sample and estimated cost, send nothing")
+
+    p_gen = sub.add_parser(
+        "generate", help="French summary of each meeting, then English and Dutch of summary and minutes")
+    p_gen.add_argument("--summary-model", required=True, help="model that writes the French summary")
+    p_gen.add_argument("--translation-model", required=True, help="model that translates")
+    p_gen.add_argument("--langs", nargs="+", default=["en", "nl"])
+    p_gen.add_argument("--only", nargs="+", default=None, help="meeting folders such as 2026-07-22")
+    p_gen.add_argument("--max-usd", type=float, default=1.0, help="hard spending cap")
+    p_gen.add_argument("--force", action="store_true", help="rewrite files even if their inputs are unchanged")
+    p_gen.add_argument("--public", default="public")
+    p_gen.add_argument("--cache", default=".cache/model_cache.json")
+    p_gen.add_argument("--dry-run", action="store_true", help="estimate cost, send nothing")
 
     p_st = sub.add_parser("status", help="state of each redacted document")
     p_st.add_argument("--private", default="private")
@@ -143,6 +166,58 @@ def main(argv=None):
     elif args.cmd == "render":
         report, _ = render_all(args.public)
         print(json.dumps({"meetings": report["meetings"]}, indent=2))
+    elif args.cmd == "translate-trial":
+        from . import trial
+        from .translate import ChatTranslator
+        index = json.loads((Path(args.public) / "index.json").read_text(encoding="utf-8"))
+        records = [json.loads((Path(args.public) / d["file"]).read_text(encoding="utf-8"))
+                   for d in index["documents"]]
+        sample = trial.pick_sample(records, args.per_category)
+        listing = None
+        prices, specs = {}, {}
+        for model in args.models:
+            price = trial.price_per_million(model, listing)
+            prices[model] = price
+            # Pin the cheapest live provider so the estimate matches what is billed.
+            specs[model] = f"{model}:{price[0]}" if price and ":" not in model else model
+        est = trial.estimate(sample, args.langs, prices)
+        print(json.dumps({"segments": len(sample), "categories": sorted({s["category"] for s in sample}),
+                          "estimate": est, "max_usd": args.max_usd}, indent=2))
+        if args.dry_run:
+            return
+        translators = {m: ChatTranslator(specs[m], cache_path=Path(args.out) / "cache.json") for m in args.models}
+        try:
+            _, spent = trial.run_trial(sample, args.models, args.langs, translators, prices, args.max_usd, args.out)
+        except trial.BudgetExceeded as exc:
+            print(f"stopped: {exc}", file=sys.stderr)
+            sys.exit(2)
+        print(json.dumps({"written": args.out, "spent_usd": round(spent, 5)}, indent=2))
+    elif args.cmd == "generate":
+        from . import trial
+        from .generate import Budget, estimate_generation, generate
+        from .translate import ChatModel, ChatTranslator
+
+        def resolve(model):
+            price = trial.price_per_million(model)
+            return (f"{model}:{price[0]}" if price and ":" not in model else model), price
+
+        summary_spec, summary_price = resolve(args.summary_model)
+        translate_spec, translate_price = resolve(args.translation_model)
+        est = estimate_generation(args.public, args.langs, summary_price, translate_price)
+        est["max_usd"] = args.max_usd
+        est["models"] = {"summary": summary_spec, "translation": translate_spec}
+        print(json.dumps(est, indent=2))
+        if args.dry_run:
+            return
+        budget = Budget(args.max_usd)
+        summarizer = ChatModel(summary_spec, cache_path=Path(args.cache), max_tokens=2500,
+                               on_usage=budget.hook(summary_price))
+        translator = ChatTranslator(translate_spec, cache_path=Path(args.cache),
+                                    on_usage=budget.hook(translate_price))
+        report = generate(args.public, summarizer, translator, args.langs, only=args.only, force=args.force)
+        report["spent_usd"] = round(budget.spent, 5)
+        print(json.dumps(report, indent=2, ensure_ascii=False))
+        sys.exit(2 if report["stopped"] else (1 if report["needs_review"] else 0))
     elif args.cmd == "status":
         print(json.dumps(pub.status(args.private, args.public), indent=2))
     elif args.cmd == "approve":

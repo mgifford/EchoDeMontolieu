@@ -8,7 +8,7 @@ place, a price and a date together identify a seller in a village this size.
 """
 import re
 
-from .privacy import _fold, _patterns
+from .privacy import _fold, _patterns, find_private_names
 from .signals import (find_amounts, find_exceptions, find_followups, find_legal_refs,
                       find_place_candidates, find_topics, is_property_transaction,
                       parse_votes, sentences)
@@ -20,14 +20,16 @@ ACRONYMS = {"pv": "PV", "plu": "PLU", "ccas": "CCAS", "alsh": "ALSH", "cfu": "CF
             "rgpd": "RGPD", "mvdl": "MVDL", "syaden": "SYADEN", "abf": "ABF"}
 MIN_PROSE_CHARS = 40
 
+# Words that end a name or mean a role, not a person: "Monsieur Le Maire", "Madame SALA Céline
+# Conseillère", "M. DUPONT Mme ...". Matched case-insensitively.
+_STOP = (r"(?:Monsieur|Madame|Mademoiselle|Mme|Mmes|Mlle|Mr|Mrs|MM|M|le|la|les|l|Maire|Maires|"
+         r"Adjoint|Adjointe|Adjoints|Président|Présidente|Conseil|Conseiller|Conseillère|Conseillers|"
+         r"Trésorier|Trésorière|Secrétaire|Directeur|Directrice|Vice|Délégué|Déléguée|Habitant|Habitante)")
+_NAME_WORD = rf"(?!(?i:{_STOP})\b)[A-ZÀ-Ý][\wÀ-ÿ’'\-]+"
+_NAME_TAIL = rf"(?:[ \t]+{_NAME_WORD}){{0,2}}"
+_HONORIFIC_NAME = re.compile(rf"\b(?:Monsieur|Madame|Mademoiselle|M\.|Mme|Mlle|Mr\.?)[ \t]+{_NAME_WORD}{_NAME_TAIL}")
 _HONORIFIC_NAME_ANYCASE = re.compile(
-    r"\b(?i:Monsieur|Madame|Mademoiselle|M\.|Mme|Mlle)\s+"
-    r"(?!(?i:le|la|les|Maire|Adjoint|Adjointe|Président|Présidente|Conseil|Trésorier)\b)"
-    r"[A-ZÀ-Ý][\wÀ-ÿ’'\-]+(?:\s+[A-ZÀ-Ý][\wÀ-ÿ’'\-]+){0,2}")
-_HONORIFIC_NAME = re.compile(
-    r"\b(?:Monsieur|Madame|Mademoiselle|M\.|Mme|Mlle)\s+"
-    r"(?!(?:le|la|les|Maire|Adjoint|Adjointe|Président|Présidente|Conseil|Trésorier)\b)"
-    r"[A-ZÀ-Ý][\wÀ-ÿ’'\-]+(?:\s+[A-ZÀ-Ý][\wÀ-ÿ’'\-]+){0,2}")
+    rf"\b(?i:Monsieur|Madame|Mademoiselle|M\.|Mme|Mlle|Mr\.?)[ \t]+{_NAME_WORD}{_NAME_TAIL}")
 _PRESENT = re.compile(r"[ée]taient?\s+pr[ée]sents?\s*:?\s*(.+?)(?=[ée]taient?\s+(?:absents?|excus)|la séance est ouverte|secr[ée]tariat|ordre du jour|$)", re.I | re.S)
 _ABSENT = re.compile(r"[ée]taient?\s+(?:absents?|excus[ée]s?)\s*:?\s*(.+?)(?=la séance est ouverte|secr[ée]tariat|ordre du jour|$)", re.I | re.S)
 _PROXY = re.compile(r"\s*(?:procuration|pouvoir)\s+à\s+", re.I)
@@ -65,17 +67,39 @@ def attendance_names(full_text):
     return present, absent, holders
 
 
-def scrub_names(text, names):
-    """Replace known names (any word order) and "M./Mme Surname" with a placeholder."""
+def _tokens_of(name):
+    return set(re.findall(r"[a-z]{2,}", _fold(name)))
+
+
+def honorific_names(text):
+    """Names written after an honorific ("M. Jean DUPONT"), from whitespace-normalised text."""
+    flat = " ".join(text.split())
+    return [re.sub(r"^\S+\s+", "", m.group(0)) for m in _HONORIFIC_NAME.finditer(flat)]
+
+
+def scrub_names(text, names, keep=(), caps_tokens=()):
+    """Replace known names (any word order) and "M./Mme Surname" with a placeholder.
+
+    Names in `keep` (elected officials from the attendance list) are never replaced,
+    including when written with an honorific.
+    """
     if not text:
         return text
     folded = _fold(text)
+    keep_sets = [_tokens_of(n) for n in keep]
     spans = []
     for name in names:
-        if len(name.split()) >= 2:
+        if len(name.split()) >= 2 and not any(_tokens_of(name) <= k for k in keep_sets):
             for pat in _patterns(name):
                 spans += [(m.start(), m.end()) for m in pat.finditer(folded)]
-    spans += [(m.start(), m.end()) for m in _HONORIFIC_NAME.finditer(text)]
+    for m in _HONORIFIC_NAME.finditer(text):
+        tokens = _tokens_of(re.sub(r"^\S+\s+", "", m.group(0)))
+        if not any(tokens <= k for k in keep_sets):
+            spans.append((m.start(), m.end()))
+    if caps_tokens:  # a surname written alone in capitals ("ROMAIN"), never an official's
+        spans += [(m.start(), m.end()) for m in re.finditer(r"\b[A-ZÀ-Ý][A-ZÀ-Ý\-]{2,}\b", text)
+                  if set(re.findall(r"[a-z]{3,}", _fold(m.group(0)))) and
+                  set(re.findall(r"[a-z]{3,}", _fold(m.group(0)))) <= set(caps_tokens)]
     spans.sort(key=lambda s: (s[0], -(s[1] - s[0])))
     kept, last = [], -1
     for start, end in spans:
@@ -120,10 +144,19 @@ def surname_tokens(names):
     return out
 
 
-def scrub_title(raw_title, names, surnames):
-    """Scrub a heading. Headings are often a person's name introducing their statement."""
-    text = scrub_names(raw_title, names)
-    text = _HONORIFIC_NAME_ANYCASE.sub(PLACEHOLDER, text)
+def scrub_title(raw_title, names, surnames, keep=()):
+    """Scrub a heading. Headings are often a person's name introducing their statement.
+
+    `surnames` are the tokens to hide; `keep` names (elected officials) stay visible.
+    """
+    text = scrub_names(raw_title, names, keep)
+    keep_sets = [_tokens_of(n) for n in keep]
+
+    def hide_honorific(m):
+        tokens = _tokens_of(re.sub(r"^\S+\s+", "", m.group(0)))
+        return m.group(0) if any(tokens <= k for k in keep_sets) else PLACEHOLDER
+
+    text = _HONORIFIC_NAME_ANYCASE.sub(hide_honorific, text)
     words = text.split()
     kept = []
     for w in words:
@@ -182,19 +215,46 @@ def _snippet(body, scrub, limit=320):
     return (text[:limit].rsplit(" ", 1)[0] + "…") if len(text) > limit else text
 
 
-def parse_meeting(record):
-    """Structured model of one record (its current version)."""
+def known_names(record):
+    """Every personal name we can recognise in a record: officials, sellers/buyers, honorific names.
+
+    Used to mask names before any text is sent to a model, so none leaves the machine.
+    """
+    full = "\n".join(p.get("text") or "" for p in record["pages"])
+    present, absent, holders = attendance_names(full)
+    labelled = [n["name"] for p in record["pages"] for n in find_private_names(p.get("text") or "")]
+    others = [n for n in honorific_names(full) if len(n.split()) >= 2]
+    return sorted(set(present + absent + holders + labelled + others))
+
+
+def parse_meeting(record, officials_visible=True):
+    """Structured model of one record (its current version).
+
+    officials_visible: councillors on the attendance list may be named in derived text
+    (a decision by the owner); anyone else is replaced. False hides every name.
+    """
     lines = [(l, p["page"]) for p in record["pages"] if p.get("text")
              for l in clean_page_lines(p["text"], p["page"])]
     blocks = paragraphs(lines)
     full = "\n".join(l for l, _ in lines)
     present, absent, holders = attendance_names(full)
-    names = present + absent + holders
+    # Sellers, buyers and owners named in a labelled field are scrubbed everywhere in
+    # derived text, even outside the item that holds the notice.
+    labelled = [n["name"] for p in record["pages"] for n in find_private_names(p.get("text") or "")]
+    officials = present + absent + holders
+    official_sets = [_tokens_of(n) for n in officials]
+    others = [n for n in honorific_names(full)
+              if not any(_tokens_of(n) <= k for k in official_sets)]
+    names = officials + labelled + [n for n in others if len(n.split()) >= 2]
+    official_tokens = set().union(*official_sets) if official_sets else set()
+    caps_tokens = {t for n in others + labelled for w in n.split() if w.upper() == w and len(w) >= 3
+                   for t in re.findall(r"[a-z]{3,}", _fold(w))} - official_tokens
+    official_names = officials if officials_visible else []
 
-    surnames = surname_tokens(names)
+    surnames = surname_tokens([] if officials_visible else names)
 
     def scrub(text):
-        return scrub_names(text, names)
+        return scrub_names(text, names, official_names, caps_tokens)
 
     title_block, header, raw_items = split_items(blocks)
     agenda = [b["text"] for b in header if b["kind"] == "bullet"]
@@ -202,7 +262,7 @@ def parse_meeting(record):
     for n, raw in enumerate(raw_items, start=1):
         body = _block_text(raw["blocks"])
         pages = [raw["page"]] + [b["page"] for b in raw["blocks"]]
-        safe_raw = scrub_title(raw["title_raw"], names, surnames)
+        safe_raw = scrub_title(raw["title_raw"], names, surnames, official_names)
         title = display_title(safe_raw, agenda) if safe_raw == raw["title_raw"] else sentence_case(safe_raw)
         sensitive = is_property_transaction(raw["title_raw"], body)
         votes = parse_votes(body)
@@ -221,7 +281,7 @@ def parse_meeting(record):
             # Counts only: no places, amounts or sentences from private sales.
             item["sale_notices"] = len(votes["votes"])
             item.update({"amounts": [], "legal_refs": [], "exceptions": [], "followups": [],
-                         "places": [], "snippet": ""})
+                         "places": [], "snippet": "", "text": ""})
         else:
             def keep(rows):
                 return [{**r, "sentence": scrub(r["sentence"])} for r in rows]
@@ -232,6 +292,7 @@ def parse_meeting(record):
                 "followups": keep(find_followups(body)),
                 "places": find_place_candidates(body),
                 "snippet": _snippet(body, scrub),
+                "text": scrub(body),  # scrubbed full text: the only text a model may be given
             })
         items.append(item)
 

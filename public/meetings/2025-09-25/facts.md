@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2025-09-25"
+title: "Facts: 2025-09-25"
 date: 2025-09-25
 date_status: tentative
 document_id: f950f0c50c7a
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2025-09-25
+# Facts found in the council meeting of 2025-09-25
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf).
 
 - Attendance: 15 present, 1 absent or represented.
 - Items: 16. Pages: 9.
@@ -74,11 +74,11 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.4](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=4) to [p.5](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=5) · Vote: majority (not unanimous) (for: 10, against: 3) · Topics: voirie et travaux, patrimoine, culture, tourisme
 
-> Les conseillers ont été destinataires de l’étude réalisée par l’ATD11. Une première réunion a eu lieu le 18 sur place à Cérès Franco en présence de la région et du département et de Carcassonne Agglo. Y étaient présent, [names withheld]. Les options du GIP y ont été débattues. Après de nombreux échanges sur le…
+> Les conseillers ont été destinataires de l’étude réalisée par l’ATD11. Une première réunion a eu lieu le 18 sur place à Cérès Franco en présence de la région et du département et de Carcassonne Agglo. Y étaient présent, Bernard LAURET, Laure ESCARÉ. Les options du GIP y ont été débattues. Après de nombreux échanges…
 
 **Amounts**
 
-- 400 000 €: “[name withheld] évalue l’opération proposée à l’origine à, au moins, 400 000 euros.”
+- 400 000 €: “Éric OLIVIER évalue l’opération proposée à l’origine à, au moins, 400 000 euros.”
 - 80 000 €: “Pour la seule passerelle, permettant de doubler le pont avec un accès PMR, au prix du m², cela revient à 80 000€.”
 
 **Places mentioned (unverified):** route de Fraisse, route de Villelongue, route d’Alzonne

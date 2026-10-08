@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2026-06-05"
+title: "Procès-verbal: 2026-06-05"
 date: 2026-06-05
 date_status: tentative
 document_id: 684e65ccc146
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 5 juin 2026
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf) (SHA-256 `18adfbfc95053262…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf) (SHA-256 `18adfbfc95053262…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du PV du 30/04/2026](#approbation-du-pv-du-30-04-2026) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=1))
 - [Désignation des délégués et des suppléants pour les élections sénatoriales (Décret no 2026-](#designation-des-delegues-et-des-suppleants-pour-les-elections-senatoriales-decret-no-2026) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=1))

@@ -2,7 +2,7 @@ import json
 
 from echo_montolieu.meeting import (PLACEHOLDER, attendance_names, display_title, parse_meeting,
                                     scrub_names, title_key)
-from echo_montolieu.render import render_all, render_minutes, render_summary, render_todo
+from echo_montolieu.render import render_all, render_minutes, render_facts, render_todo
 from echo_montolieu.text import clean_page_lines, is_heading, is_table_line, paragraphs
 
 # Invented minutes in the style of the real ones. All names are fictional.
@@ -27,7 +27,7 @@ DECISION MODIFICATIVE BUDGETAIRE
 Suite à l’achat d’une parcelle au lieu-dit Fontbelle, il convient d’ajuster le budget.
 Une dépense de 12 500,00 € est inscrite, conformément à l’article L2121-29 du code
 général des collectivités territoriales. Le dossier sera réétudié lors d’un prochain
-conseil. Mme DUBOIS Claire s’abstient.
+conseil. Mme DUBOIS Claire s’abstient. M. Pierre MOREL, habitant du hameau, demande une réponse.
 Vote du conseil à la majorité (1 abstention)
 """
 PAGE2 = """
@@ -97,7 +97,9 @@ def test_parse_meeting_finds_items_votes_amounts_refs_followups_and_places():
     assert [f["type"] for f in a["followups"]] == ["deferred"]
     assert [p["label"] for p in a["places"]] == ["Fontbelle"]
     assert "finances" in a["topics"]
-    assert "DUBOIS" not in json.dumps(a)                      # names scrubbed from derived data
+    blob = json.dumps(a, ensure_ascii=False)
+    assert "Mme DUBOIS Claire s’abstient" in blob              # an elected official is named
+    assert "MOREL" not in blob                                  # a private person is not
 
 
 def test_property_sale_items_keep_counts_only():
@@ -120,11 +122,12 @@ def test_minutes_markdown_is_faithful_linked_and_keeps_names():
 
 def test_summary_and_todo_cite_pages_and_carry_no_names():
     m = parse_meeting(record())
-    s, t = render_summary(m), render_todo(m)
+    s, t = render_facts(m), render_todo(m)
     assert "12 500 €" in s and "CGCT L2121-29" in s and "Fontbelle" in s
     assert "Decisions about sales of private property (1 notice(s))" in s
     for text in (s, t):
-        assert "DUBOIS" not in text and "DURAND" not in text and "90 000" not in text and "Écoles" not in text
+        assert "MOREL" not in text and "DURAND" not in text and "90 000" not in text and "Écoles" not in text
+    assert "Mme DUBOIS Claire s’abstient" in s                  # officials may be named
     assert "https://example.test/a.pdf#page=1" in s
     assert "- [ ] “Le dossier sera réétudié" in t or "prochain" in t
 
@@ -136,7 +139,7 @@ def test_ocr_pages_are_flagged_fenced_and_never_merged_together():
                              "text": f"1 234,00 page {n}", "text_sparse": "x", "ocr": {"mean_conf": 58.7}})
     rec["page_count"] = 4
     md = render_minutes(rec)
-    assert md.count("is an image read by OCR") == 2 and "Check the original for page(s) 3, 4" in md
+    assert md.count("est une image lue par OCR") == 2 and "pour la ou les pages 3, 4" in md
     assert "```text\n1 234,00 page 3\n```" in md and "```text\n1 234,00 page 4\n```" in md
 
 
@@ -150,10 +153,10 @@ def test_render_all_writes_one_folder_per_meeting_and_an_index(tmp_path):
          "file": "minutes/aaaaaaaaaaaa.json"}]}))
     report, meetings = render_all(public)
     assert report["folders"] == ["2025-03-05"] and meetings[0]["folder"] == "2025-03-05"
-    for name in ("minutes.md", "summary.md", "todo.md"):
+    for name in ("minutes.md", "facts.md", "todo.md"):
         assert (public / "meetings" / "2025-03-05" / name).exists()
     index = (public / "meetings" / "index.md").read_text(encoding="utf-8")
-    assert "2025-03-05" in index and "2025-03-05/summary.md" in index
+    assert "2025-03-05" in index and "2025-03-05/facts.md" in index
 
 
 def test_two_proxy_lines_on_one_run_are_two_absentees_not_one_merged_name():
@@ -207,3 +210,114 @@ Libellé
     items = parse_meeting(rec)["items"]
     assert [i["title"] for i in items] == ["Budget"]            # captions folded in, agenda wording used
     assert items[0]["pages"] == [1, 1] and items[0]["vote_result"] == "unanimous"
+
+
+# ---- elected officials are visible, everyone else is not ----------------------------------
+
+
+def test_keep_leaves_officials_visible_even_with_an_honorific_but_scrubs_others():
+    officials = ["Claire DUBOIS", "Marc LEFEBVRE"]
+    text = "Mme DUBOIS Claire propose. Monsieur Marc LEFEBVRE répond. M. Pierre MOREL intervient."
+    out = scrub_names(text, officials, keep=officials)
+    assert "DUBOIS" in out and "LEFEBVRE" in out and "MOREL" not in out
+    hidden = scrub_names(text, officials)                          # no keep: everything scrubbed
+    assert "DUBOIS" not in hidden and "LEFEBVRE" not in hidden
+
+
+def test_official_surname_heading_stays_but_an_unlisted_person_heading_does_not():
+    names = ["Claire DUBOIS"]
+    assert scrub_title("DUBOIS", names, set(), keep=names) == "DUBOIS"
+    assert scrub_title("DEMANDE DE MONSIEUR PIERRE MOREL", names, set(), keep=names) == "DEMANDE DE [name withheld]"
+
+
+def test_officials_visible_can_be_switched_off():
+    m = parse_meeting(record(), officials_visible=False)
+    assert "DUBOIS" not in json.dumps(m, ensure_ascii=False)
+
+
+def test_seller_names_are_scrubbed_everywhere_not_only_in_the_sale_item():
+    rec = record()
+    rec["pages"][1]["text"] = PAGE2 + "\nPlus loin, DURAND Jean est cité dans une autre phrase."
+    text = json.dumps(parse_meeting(rec), ensure_ascii=False)
+    assert "DURAND" not in text
+
+
+# ---- regressions found on the real minutes ---------------------------------------------------
+
+from echo_montolieu.meeting import honorific_names  # noqa: E402
+
+
+def test_a_role_after_an_honorific_is_not_a_name():
+    officials = ["Claire DUBOIS"]
+    for text in ("Monsieur Le Maire propose.", "M. Le Maire propose.", "Madame la Présidente répond.",
+                 "Monsieur le Trésorier précise."):
+        assert scrub_names(text, officials, keep=officials) == text
+
+
+def test_an_official_followed_by_a_title_is_still_recognised():
+    officials = ["Céline SALA"]
+    out = scrub_names("Madame SALA Céline Conseillère déléguée présente.", officials, keep=officials)
+    assert "SALA" in out
+    assert honorific_names("M. AGASSE Baptiste Mme JACOB Sabine arrivent.") == ["AGASSE Baptiste", "JACOB Sabine"]
+
+
+def test_a_person_named_with_an_honorific_is_scrubbed_in_later_mentions_without_one():
+    rec = record()
+    rec["pages"][0]["text"] += "\nM. Pierre MOREL demande la parole. Plus tard, MOREL Pierre précise le devis. Enfin MOREL conclut."
+    text = json.dumps(parse_meeting(rec), ensure_ascii=False)
+    assert "MOREL" not in text
+
+
+def test_a_namesake_of_an_official_is_scrubbed_but_the_official_is_not():
+    rec = record()
+    rec["pages"][0]["text"] += "\nMonsieur Jérôme DUBOIS (habitant) intervient. Mme DUBOIS Claire répond."
+    blob = json.dumps(parse_meeting(rec), ensure_ascii=False)
+    assert "Jérôme" not in blob and "Mme DUBOIS Claire" in blob
+
+
+
+# ---- language versions ---------------------------------------------------------------------
+
+
+def test_minutes_render_in_each_language_with_its_own_labels_and_notice():
+    fr, en, nl = (render_minutes(record(), lang=l) for l in ("fr", "en", "nl"))
+    assert "language: fr" in fr and "language: en" in en and "language: nl" in nl
+    assert "Sommaire" in fr and "Contents" in en and "Inhoud" in nl
+    assert "Machine translation" in en and "Automatische vertaling" in nl and "Machine translation" not in fr
+    assert fr.startswith("---\ntitle: \"Procès-verbal") and "Notulen" in nl.split("---")[1]
+
+
+def test_tr_translates_prose_headings_and_bullets_but_never_tables_or_ocr_text():
+    rec = record()
+    rec["pages"][0]["text"] += "\n\n1 049 853,58 1 126 826,58\n"
+    rec["pages"].append({"page": 3, "method": "tesseract", "status": "needs_review",
+                         "text": "Total dépenses 1 234,00", "text_sparse": "", "ocr": {"mean_conf": 58.7}})
+    seen = []
+
+    def tr(text, page=None):
+        seen.append(text)
+        return "«" + text + "»"
+
+    md = render_minutes(rec, lang="en", tr=tr)
+    assert "## «Décision modificative budgétaire»" in md and "- «Décision modificative budgétaire»" in md
+    assert "```text\n1 049 853,58 1 126 826,58\n```" in md                # table: untouched
+    assert "```text\nTotal dépenses 1 234,00\n```" in md                  # OCR page: untouched
+    assert not any("1 049 853" in t or "Total dépenses" in t for t in seen)  # never sent for translation
+    assert any(t.startswith("L’an deux mille vingt-cinq") for t in seen)
+
+
+def test_contents_and_anchors_follow_the_translated_headings():
+    md = render_minutes(record(), lang="en", tr=lambda t, page=None: "Budget amendment" if t == "Décision modificative budgétaire" else t)
+    assert "- [Budget amendment](#budget-amendment)" in md and "## Budget amendment" in md
+
+
+def test_items_carry_scrubbed_text_and_sale_items_carry_none():
+    a, b = parse_meeting(record())["items"]
+    assert "12 500,00 €" in a["text"] and "MOREL" not in a["text"] and "Mme DUBOIS Claire" in a["text"]
+    assert b["text"] == ""                                          # a model is never given a sale notice
+
+
+def test_known_names_lists_officials_sellers_and_honorific_names():
+    from echo_montolieu.meeting import known_names
+    names = known_names(record())
+    assert {"Claire DUBOIS", "Marc LEFEBVRE", "DURAND Jean", "Pierre MOREL"} <= set(names)

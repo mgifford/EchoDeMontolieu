@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2026-04-01"
+title: "Procès-verbal: 2026-04-01"
 date: 2026-04-01
 date_status: tentative
 document_id: 650cf05da13b
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 01 avril 2026
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf) (SHA-256 `6404b911b83c26cd…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf) (SHA-256 `6404b911b83c26cd…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du PV du conseil municipal du 28 mars 2026](#approbation-du-pv-du-conseil-municipal-du-28-mars-2026) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf#page=1))
 - [Fonctions deleguees aux adjoints et conseillers](#fonctions-deleguees-aux-adjoints-et-conseillers) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf#page=1))

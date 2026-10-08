@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2026-06-26"
+title: "Procès-verbal: 2026-06-26"
 date: 2026-06-26
 date_status: tentative
 document_id: ec69e949afbb
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 26 juin 2026
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2026/07/CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf) (SHA-256 `c8a15d63e53f2799…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2026/07/CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf) (SHA-256 `c8a15d63e53f2799…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du PV du 05/06/2026](#approbation-du-pv-du-05-06-2026) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/07/CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf#page=1))
 - [Redevance d'occupation du domaine public : appartement n°2 Maternelle](#redevance-d-occupation-du-domaine-public-appartement-n-2-maternelle) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/07/CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf#page=1))

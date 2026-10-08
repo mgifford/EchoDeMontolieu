@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2026-01-08"
+title: "Procès-verbal: 2026-01-08"
 date: 2026-01-08
 date_status: tentative
 document_id: 69ff99ddbb5c
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 8 janvier 2026
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf) (SHA-256 `06a5038f79b63f75…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf) (SHA-256 `06a5038f79b63f75…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 27 novembre 2025](#approbation-du-proces-verbal-du-conseil-du-27-novembre-2025) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf#page=1))
 - [Approbation du plan d’amenagement et de developpement durable (padd)](#approbation-du-plan-d-amenagement-et-de-developpement-durable-padd) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf#page=1))

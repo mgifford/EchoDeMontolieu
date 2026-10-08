@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2025-06-24"
+title: "Facts: 2025-06-24"
 date: 2025-06-24
 date_status: tentative
 document_id: 12c02e0b1d15
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2025-06-24
+# Facts found in the council meeting of 2025-06-24
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf).
 
 - Attendance: 10 present, 1 absent or represented.
 - Items: 11. Pages: 8.
@@ -24,13 +24,13 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=1) to [p.2](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=2) · Vote: unanimous
 
-> Le procès-verbal a été communiqué aux conseillers. [name withheld] demande que soit retiré la phrase suivante : « Se contenter de « tolérer » les infractions au PLU comme le suggère [name withheld] n’aurait que l’effet de les multiplier. ». Elle indique qu’elle n’a jamais suggéré de tolérer les infractions. [name…
+> Le procès-verbal a été communiqué aux conseillers. Jeanne ETORÉ-LORTHOLARY demande que soit retiré la phrase suivante : « Se contenter de « tolérer » les infractions au PLU comme le suggère Jeanne ETORÉ- LORTHOLARY n’aurait que l’effet de les multiplier. ». Elle indique qu’elle n’a jamais suggéré de tolérer les…
 
 ## Vote de la troisieme version du padd
 
 [p.2](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=2) · Vote: majority (not unanimous) (for: 13, abstentions: 1)
 
-> [name withheld] indique qu’une dernière version du PADD a été envoyée ce jour même, Soliha y a rajouté la trame verte prévue dans le prolongement du Sol. Elle énumère les modifications intervenues sur la troisième version • Page 4 : Ajout de la loi Montagne • Axe 1 modifié (A, B, C et D) : mise à jour des chiffres à…
+> Laure ESCARÉ indique qu’une dernière version du PADD a été envoyée ce jour même, Soliha y a rajouté la trame verte prévue dans le prolongement du Sol. Elle énumère les modifications intervenues sur la troisième version • Page 4 : Ajout de la loi Montagne • Axe 1 modifié (A, B, C et D) : mise à jour des chiffres à la…
 
 ## Arbitrage concernant le reglement du PLU
 
@@ -52,7 +52,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.4](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=4) · Vote: unanimous · Topics: voirie et travaux, associations et vie locale
 
-> Le conseil a sursis à statuer lors de sa dernière séance concernant un chemin à Villeneuve. Ce chemin ne dessert que des parcelles appartenant à la famille OLIVIER. [name withheld] s’engage à en laisser l’accès libre au public Un courrier reçu ce jour le précise clairement. [name withheld] s’interroge sur cet…
+> Le conseil a sursis à statuer lors de sa dernière séance concernant un chemin à Villeneuve. Ce chemin ne dessert que des parcelles appartenant à la famille OLIVIER. [name withheld] s’engage à en laisser l’accès libre au public Un courrier reçu ce jour le précise clairement. Jeanne ETORÉ-LORTHOLARY s’interroge sur cet…
 
 **Places mentioned (unverified):** chemin ne dessert, passage proposée, chemin de Villeneuve
 

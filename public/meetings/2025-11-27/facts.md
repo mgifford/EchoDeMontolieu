@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2025-11-27"
+title: "Facts: 2025-11-27"
 date: 2025-11-27
 date_status: tentative
 document_id: 5b79f5d2dbd5
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2025-11-27
+# Facts found in the council meeting of 2025-11-27
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf).
 
 - Attendance: 13 present, 1 absent or represented.
 - Items: 16. Pages: 10.
@@ -165,3 +165,5 @@ Decisions about sales of private property (4 notice(s)). Details are in the minu
 ## [name withheld]
 
 [p.10](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=10) · Vote: unanimous
+
+Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.

@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2024-09-18"
+title: "Facts: 2024-09-18"
 date: 2024-09-18
 date_status: tentative
 document_id: 699f63723028
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2024-09-18
+# Facts found in the council meeting of 2024-09-18
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf).
 
 - Attendance: 11 present, 1 absent or represented.
 - Items: 15. Pages: 8.
@@ -61,7 +61,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.4](https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=4) · Vote: unanimous
 
-> Monsieur le comptable du Trésor informe la commune du non-recouvrement de titres pour un total de 360,04 euros. Les sommes correspondent à des frais d’actes non remboursés, des soldes de restauration scolaires, ou des loyers pour des locataires décédés. [name withheld] en donne le détail. Le conseil est sollicité pour…
+> Monsieur le comptable du Trésor informe la commune du non-recouvrement de titres pour un total de 360,04 euros. Les sommes correspondent à des frais d’actes non remboursés, des soldes de restauration scolaires, ou des loyers pour des locataires décédés. Laure ESCARÉ en donne le détail. Le conseil est sollicité pour…
 
 **Amounts**
 
@@ -93,7 +93,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.5](https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=5) · Vote: majority (not unanimous) (for: 13, abstentions: 1) · Topics: finances
 
-> Solde Travaux façade 2024 27 495,00 Département 8 248,50 30,00 % FPIC 13 747,50 50,00 % Autofinancement 5 499,00 20,00 % TOTAL 27 495,00 100,00% TOTAL 27 495,00 100,00% Il est précisé que le FPIC 2022 est de 22 448,00 €. Il s’établit à 16 063,00 € pour 2023 et 19 651,00 € pour 2024. [name withheld] précise que la…
+> Solde Travaux façade 2024 27 495,00 Département 8 248,50 30,00 % FPIC 13 747,50 50,00 % Autofinancement 5 499,00 20,00 % TOTAL 27 495,00 100,00% TOTAL 27 495,00 100,00% Il est précisé que le FPIC 2022 est de 22 448,00 €. Il s’établit à 16 063,00 € pour 2023 et 19 651,00 € pour 2024. Laure ESCARÉ précise que la…
 
 **Amounts**
 
@@ -146,7 +146,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.7](https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=7) · Vote: majority (not unanimous) (for: 10, against: 4)
 
-> A la multiplication des actes d’incivilité et de dégradation depuis deux ans, la commune se doit de se donner les moyens de réagir, d’obtenir réparation, ou de permettre à des particuliers de le faire. [name withheld] rappelle qu’une plainte contre X à toutes les chances d’être classée sans suite si l’on ne peut…
+> A la multiplication des actes d’incivilité et de dégradation depuis deux ans, la commune se doit de se donner les moyens de réagir, d’obtenir réparation, ou de permettre à des particuliers de le faire. Laure ESCARÉ rappelle qu’une plainte contre X à toutes les chances d’être classée sans suite si l’on ne peut…
 
 **Places mentioned (unverified):** place d’une vidéo protection
 

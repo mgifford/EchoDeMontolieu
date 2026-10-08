@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2025-04-14"
+title: "Facts: 2025-04-14"
 date: 2025-04-14
 date_status: tentative
 document_id: ad091bede91f
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2025-04-14
+# Facts found in the council meeting of 2025-04-14
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf).
 
 - Attendance: 12 present, 1 absent or represented.
 - Items: 6. Pages: 7.
@@ -23,11 +23,11 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=1) · Vote: unanimous
 
-> Le procès-verbal a été communiqué avec la convocation au présent conseil. [name withheld] demande les corrections suivantes : - Elle a voté contre le compte financier du CCAS et indiqué que quand on avait pour 3000 euros de budget, on se devait de faire 3000 euros d’action sociale - Lors du vote des subventions, elle…
+> Le procès-verbal a été communiqué avec la convocation au présent conseil. Jeanne ETORÉ-LORTHOLARY demande les corrections suivantes : - Elle a voté contre le compte financier du CCAS et indiqué que quand on avait pour 3000 euros de budget, on se devait de faire 3000 euros d’action sociale - Lors du vote des…
 
 **Amounts**
 
-- 3 000 €, 3 000 €: “[name withheld] demande les corrections suivantes : - Elle a voté contre le compte financier du CCAS et indiqué que quand on avait pour 3000 euros de budget, on se devait de faire 3000 euros d’action sociale - Lors du vo”
+- 3 000 €, 3 000 €: “Jeanne ETORÉ-LORTHOLARY demande les corrections suivantes : - Elle a voté contre le compte financier du CCAS et indiqué que quand on avait pour 3000 euros de budget, on se devait de faire 3000 euros d’action sociale - Lo”
 
 ## Du deploiement du reseau basse frequence
 
@@ -47,7 +47,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.2](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=2) to [p.5](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=5) · Vote: no vote found · Topics: finances, subventions, voirie et travaux
 
-> [name withheld] présente les documents qui sont remis en séance Pour la section de fonctionnement Pour ce qui est du fonctionnement, par rapport à la présentation a été intégré en recette, le montant exact de l’attribution de compensation versée par Carcassonne Agglo. Par ailleurs une enveloppe de 4 000 € au titre de…
+> Laure ESCARÉ présente les documents qui sont remis en séance Pour la section de fonctionnement Pour ce qui est du fonctionnement, par rapport à la présentation a été intégré en recette, le montant exact de l’attribution de compensation versée par Carcassonne Agglo. Par ailleurs une enveloppe de 4 000 € au titre de la…
 
 **Amounts**
 
@@ -56,17 +56,17 @@ This summary is extracted by rules, not written by a person: each line quotes th
 - 7 000 €: “Chaque subvention d’investissement accordée (une en 2025 de 7000 € et autant en 2026) fera ainsi l’objet d’un amortissement sur 5 ans. - Comme en 2024 la commune devra prendre en charge des admissions en non-valeur (créa”
 - 1 098 026,50 €: “Le budget de fonctionnement s’équilibre à 1 098 026,50 euros.”
 - 1 027 533,19 €, 70 493,31 €: “Les dépenses sont composées pour 1 027 533,19 euros de dépenses dites réelles et 70 493,31 euros de dépenses pour ordre : transfert entre section, provisions, virement à la section d’investissement, et reprise du déficit”
-- 328 412,66 €, 30 000 €, 543 450 €, 71 989 €, 0 €, 685 520,50 €, 127 183,90 €, 156 907 €, 28 486,63 €, 119 760 €, 0 €, 33 850 €, 1 027 533,19 €, 1 098 026,50 €, 1 500 €, 0 €, 7 370 €, 0 €, 55 347,10 €, 6 276,21 €, 70 493,31 €, 6 588 159 €, 1 098 026,50 €, 1 098 026,50 €: “[name withheld] précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment les recettes de la pis”
+- 328 412,66 €, 30 000 €, 543 450 €, 71 989 €, 0 €, 685 520,50 €, 127 183,90 €, 156 907 €, 28 486,63 €, 119 760 €, 0 €, 33 850 €, 1 027 533,19 €, 1 098 026,50 €, 1 500 €, 0 €, 7 370 €, 0 €, 55 347,10 €, 6 276,21 €, 70 493,31 €, 6 588 159 €, 1 098 026,50 €, 1 098 026,50 €: “Laure ESCARÉ précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment les recettes de la piscin”
 
 **Rates**
 
-- 49 %, 30 %: “[name withheld] précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment les recettes de la pis”
+- 49 %, 30 %: “Laure ESCARÉ précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment les recettes de la piscin”
 - 62 %: “Côté recettes, les impôts et taxes représentent 62 % du budget, devant les dotations et participations, et les autres produits de gestion courante (dont les loyers représentent la quasi-totalité) Le détail des recettes f”
 
 **Exceptions or derogations mentioned**
 
-- “[name withheld] précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment le”
-- “[name withheld] précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment le”
+- “Laure ESCARÉ précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment les r”
+- “Laure ESCARÉ précise que : - Le chapitre 013-atténuation de charge concerne les remboursements de la caisse primaire et des assurances pour les agents malades - Le chapitre 70 comprend notamment les r”
 
 **Places mentioned (unverified):** passage en Led
 

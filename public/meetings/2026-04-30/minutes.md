@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2026-04-30"
+title: "Procès-verbal: 2026-04-30"
 date: 2026-04-30
 date_status: tentative
 document_id: c3d02d2895d6
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 30 avril 2026
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf) (SHA-256 `e53a6099b465abbc…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf) (SHA-256 `e53a6099b465abbc…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du PV du conseil municipal du 13 avril 2026](#approbation-du-pv-du-conseil-municipal-du-13-avril-2026) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf#page=1))
 - [Examen et vote du budget general et des budgets annexes avec fongibilites des credits](#examen-et-vote-du-budget-general-et-des-budgets-annexes-avec-fongibilites-des-credits) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf#page=1))

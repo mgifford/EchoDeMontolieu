@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2025-09-25"
+title: "Procès-verbal: 2025-09-25"
 date: 2025-09-25
 date_status: tentative
 document_id: f950f0c50c7a
@@ -12,13 +12,13 @@ machine_generated: true
 
 # Conseil municipal du 25 septembre 2025
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf) (SHA-256 `663ab0bfea708778…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf) (SHA-256 `663ab0bfea708778…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-> **Check the original for page(s) 9.** They were read by OCR with low confidence; figures and tables may be wrong.
+> **Vérifiez l’original pour la ou les pages 9.** Elles ont été lues par OCR avec une faible confiance ; chiffres et tableaux peuvent être faux.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 24 juin 2025](#approbation-du-proces-verbal-du-conseil-du-24-juin-2025) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=1))
 - [Mise en place d’une video protection en location](#mise-en-place-d-une-video-protection-en-location) ([p.2](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=2))
@@ -403,7 +403,7 @@ La société Pierreval a présenté le projet à Monsieur le Maire ainsi qu’au
 
 ## Droit de preemption
 
-> **Page 9 is an image read by OCR** (confidence 69.4). Treat it as unverified and check [p.9](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=9).
+> **La page 9 est une image lue par OCR** (confiance 69.4). Considérez-la comme non vérifiée et consultez [p.9](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=9).
 
 ```text
 Usage : Habitation
@@ -434,7 +434,7 @@ AOtaTé ;
 L'ordre du jour étant épuisé la séance est levée à 22 h 05
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 Usage :

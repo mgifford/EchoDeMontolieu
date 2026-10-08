@@ -1,5 +1,5 @@
 ---
-title: "To do: council meeting of 2024-10-23"
+title: "To do: 2024-10-23"
 date: 2024-10-23
 date_status: tentative
 document_id: bd1590cd8bbe
@@ -27,9 +27,3 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 **Authorises someone to act**
 
 - [ ] “Le conseil municipal est, en effet, seul compétent pour décider des actions à intenter au nom de la commune et autoriser le maire à les mettre en œuvre.”
-
-## Constitution de la commission communale des impöts directs ([p.5](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=5))
-
-**Planned or expected action**
-
-- [ ] “Les personnes seront sollicitées, et après accord 12 noms seront proposés au Directeur des services fiscaux.”

@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2024-04-04"
+title: "Procès-verbal: 2024-04-04"
 date: 2024-04-04
 date_status: tentative
 document_id: 088787638b92
@@ -12,13 +12,13 @@ machine_generated: true
 
 # Conseil municipal du 4 avril 2024 a 20 h 00
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf) (SHA-256 `2ceb1b82cfce08a4…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf) (SHA-256 `2ceb1b82cfce08a4…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-> **Check the original for page(s) 9, 19.** They were read by OCR with low confidence; figures and tables may be wrong.
+> **Vérifiez l’original pour la ou les pages 9, 19.** Elles ont été lues par OCR avec une faible confiance ; chiffres et tableaux peuvent être faux.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 31 janvier 2024](#approbation-du-proces-verbal-du-conseil-du-31-janvier-2024) ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=1))
 - [Comptes administratifs et affectation des resultats](#comptes-administratifs-et-affectation-des-resultats) ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=1))
@@ -1691,7 +1691,7 @@ Excédent de fonctionnement reporté (inscription R002) = A - E
 149 239,82
 ```
 
-> **Page 9 is an image read by OCR** (confidence 78.9). Treat it as unverified and check [p.9](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=9).
+> **La page 9 est une image lue par OCR** (confiance 78.9). Considérez-la comme non vérifiée et consultez [p.9](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=9).
 
 ```text
 es N° 1259 COM (1)
@@ -1753,7 +1753,7 @@ MIRECTEIR MER NES FINANCES
 (col. 7)
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 Ex
@@ -3081,7 +3081,7 @@ Dans le même ordre d’idée, les mêmes démarches seront faites pour la parce
 
 actuels propriétaires, à signer les actes de transfert au profit de la commune de l’ensemble des chemins et parcelles citées.
 
-> **Page 16 is an image read by OCR** (confidence 92.6). Treat it as unverified and check [p.16](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=16).
+> **La page 16 est une image lue par OCR** (confiance 92.6). Considérez-la comme non vérifiée et consultez [p.16](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=16).
 
 ```text
 VENTE UNIQUEMENT DU LOT A POUR UNE SURFACE DE 1861M?
@@ -3095,7 +3095,7 @@ ESCANDE André, ESCANDE Laurent
 > Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 u bien
@@ -3281,7 +3281,7 @@ Le
 
 </details>
 
-> **Page 17 is an image read by OCR** (confidence 93.0). Treat it as unverified and check [p.17](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=17).
+> **La page 17 est une image lue par OCR** (confiance 93.0). Considérez-la comme non vérifiée et consultez [p.17](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=17).
 
 ```text
 Désignation du bien vendu :
@@ -3303,7 +3303,7 @@ Vendeur(s) : PECH Marie-José
 17
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 Désignation
@@ -3443,7 +3443,7 @@ Li
 
 </details>
 
-> **Page 18 is an image read by OCR** (confidence 93.8). Treat it as unverified and check [p.18](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=18).
+> **La page 18 est une image lue par OCR** (confiance 93.8). Considérez-la comme non vérifiée et consultez [p.18](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=18).
 
 ```text
 Désignation du bien vendu :
@@ -3451,7 +3451,7 @@ Désignation du bien vendu :
 > Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 Désignation du bien ve
@@ -3469,7 +3469,7 @@ Le conseil se prononce à l’unanimité contre l’exercice du droit de préemp
 
 </details>
 
-> **Page 19 is an image read by OCR** (confidence 58.7). Treat it as unverified and check [p.19](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=19).
+> **La page 19 est une image lue par OCR** (confiance 58.7). Considérez-la comme non vérifiée et consultez [p.19](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=19).
 
 ```text
 Désignation du bien vendu :
@@ -3508,7 +3508,7 @@ N s Po (885
 > Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 Dési

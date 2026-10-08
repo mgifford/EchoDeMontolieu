@@ -1,5 +1,5 @@
 ---
-title: "To do: council meeting of 2025-06-24"
+title: "To do: 2025-06-24"
 date: 2025-06-24
 date_status: tentative
 document_id: 12c02e0b1d15
@@ -30,13 +30,13 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 **Postponed or to be revisited**
 
-- [ ] “Dans la mesure où il n’y a aucun surcoût, [name withheld] propose de relancer la consultation pour le lot 3, à charge pour le prochain conseil municipal de programmer la tranche optionnelle 1 quand il le souhaitera.”
+- [ ] “Dans la mesure où il n’y a aucun surcoût, Bernard LAURET propose de relancer la consultation pour le lot 3, à charge pour le prochain conseil municipal de programmer la tranche optionnelle 1 quand il le souhaitera.”
 
 ## Decision sur chemin ruraux dans le cadre de la demarche de classement des voies communales ([p.4](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=4))
 
 **Postponed or to be revisited**
 
-- [ ] “[name withheld] indique que la servitude de passage proposée par Jérôme OLIVIER sera inscrite sur l’acte dressé par le Notaire, il n’a donc aucun risque que le libre accès soit ultérieurement remis en cause.”
+- [ ] “Laure ESCARÉ indique que la servitude de passage proposée par [name withheld] sera inscrite sur l’acte dressé par le Notaire, il n’a donc aucun risque que le libre accès soit ultérieurement remis en cause.”
 
 ## Engagement sur les marches mutualises de carcassonne agglo ([p.5](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=5))
 

@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2026-03-28"
+title: "Procès-verbal: 2026-03-28"
 date: 2026-03-28
 date_status: tentative
 document_id: d00d39c52187
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Installation du conseil municipal
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf) (SHA-256 `8b18f61ea01d4662…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf) (SHA-256 `8b18f61ea01d4662…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Election du maire](#election-du-maire) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf#page=1))
 - [Fixation du nombre d’adjoints](#fixation-du-nombre-d-adjoints) ([p.2](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf#page=2))

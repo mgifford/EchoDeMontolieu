@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2025-01-14"
+title: "Facts: 2025-01-14"
 date: 2025-01-14
 date_status: tentative
 document_id: 75d1d9f03898
@@ -10,21 +10,21 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2025-01-14
+# Facts found in the council meeting of 2025-01-14
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf).
 
 - Attendance: 12 present, 1 absent or represented.
 - Items: 10. Pages: 6.
 - Pages read by low-confidence OCR: 5. Check the original.
 
-## [name withheld]
+## Etoré-lortholary,
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=1) · Vote: unanimous · Topics: finances, vie institutionnelle
 
-> [names withheld].
+Decisions about sales of private property (2 notice(s)). Details are in the minutes; they are left out here on purpose.
 
 ## Approbation du proces verbal du conseil du 27 novembre 2024
 
@@ -108,16 +108,10 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.4](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=4) to [p.6](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=6) · Vote: majority (not unanimous) (for: 12, against: 1, abstentions: 1) · Topics: urbanisme, voirie et travaux
 
-> [name withheld] informe tout d’abord l’ensemble du conseil que les éléments du règlement vont être communiqué à l’ensemble des conseillers. Ce dernier définis par selon le zonage, ce qui est autorisé en termes de construction, (type de tuile, palettes de couleurs, alignement, hauteur etc…) ; Il est impératif de…
-
-**Amounts**
-
-- 350 000 €: “Fr A0130 Superficie totale = 00 ha 04 a 93 ca 1 A | 814 | FRANE-SUD | 00ha04a55ca 167 CHE DE FRANC 00 ha 05 a 03 ca Usage : Habitation Prix de vente : 350 000,00 euros Vendeur(s) : GOUTY Nadine w vai | ' A0505 A0535 | _ ”
+Decisions about sales of private property (2 notice(s)). Details are in the minutes; they are left out here on purpose.
 
 ## Franc-sud
 
 [p.6](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=6) · Vote: unanimous
 
-**Amounts**
-
-- 50 000 €: “00 ha 00 a 32 ca Usage : Habitation Prix de vente : 50 000,00 euros Vendeur(s) : MARCHI Alain – BERNIER Ghislaine Le conseil vote à l’unanimité contre l’exercice du droit de préemption L’ordre du jour étant épuisé, la sé”
+Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.

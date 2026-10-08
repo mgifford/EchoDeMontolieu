@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2024-09-18"
+title: "Procès-verbal: 2024-09-18"
 date: 2024-09-18
 date_status: tentative
 document_id: 699f63723028
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 18 septembre 2024 à 20 h 00
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf) (SHA-256 `17854acbc46e1322…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf) (SHA-256 `17854acbc46e1322…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 13 juin 2024](#approbation-du-proces-verbal-du-conseil-du-13-juin-2024) ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=1))
 - [Rapport clect et attribution de compensation](#rapport-clect-et-attribution-de-compensation) ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=1))

@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2024-04-15"
+title: "Facts: 2024-04-15"
 date: 2024-04-15
 date_status: tentative
 document_id: f4280c76c03d
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2024-04-15
+# Facts found in the council meeting of 2024-04-15
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf).
 
 - Attendance: 10 present, 1 absent or represented.
 - Items: 4. Pages: 4.
@@ -23,13 +23,13 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=1) · Vote: no vote found · Topics: urbanisme
 
-> [name withheld] propose que deux points soient rajoutés à l’Ordre du Jour de ce conseil - La première sur la vente de la parcelle cadastrée AB0341 - La deuxième suite à la demande de [name withheld] ETORÉ-LORTHOLARY demande à quoi correspond la parcelle, [name withheld] lui précise qu’il s’agit de la maison dite…
+> Bernard Lauret propose que deux points soient rajoutés à l’Ordre du Jour de ce conseil - La première sur la vente de la parcelle cadastrée AB0341 - La deuxième suite à la demande de [name withheld] ETORÉ-LORTHOLARY demande à quoi correspond la parcelle, Laure ESCARÉ lui précise qu’il s’agit de la maison dite maison…
 
 ## Approbation du proces verbal du conseil du 4 avril 2024
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=1) to [p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=3) · Vote: majority (not unanimous) (for: 13, abstentions: 1; for: 11, against: 2, abstentions: 1) · Topics: finances
 
-> Le procès-verbal a été communiqué mardi 9 avril par mail à l’ensemble des conseillers. BUDGET 2024 [name withheld] rappelle les principaux équilibres du budget 2024, présenté le 4 avril dernier. La section de fonctionnement représente 1 099 916 euros dont 64 % sont financés par les impôts et taxes. Les charges de…
+> Le procès-verbal a été communiqué mardi 9 avril par mail à l’ensemble des conseillers. BUDGET 2024 Laure ESCARÉ rappelle les principaux équilibres du budget 2024, présenté le 4 avril dernier. La section de fonctionnement représente 1 099 916 euros dont 64 % sont financés par les impôts et taxes. Les charges de…
 
 **Amounts**
 
@@ -45,12 +45,12 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=4) · Vote: majority (not unanimous) (did not vote: 1; for: 12, against: 2) · Topics: urbanisme
 
-> [name withheld] fait part d’un nouvel arrangement entre les deux voisins de la parcelle, sans changement du prix de vente. [name withheld] ne prend pas part au vote.
+Decisions about sales of private property (2 notice(s)). Details are in the minutes; they are left out here on purpose.
 
 ## Demande de [name withheld]
 
 [p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=4) · Vote: unanimous · Topics: patrimoine, culture, tourisme
 
-> [name withheld] qui tient « la compagnie du voyageurs » au pôle culturel souhaite que la mairie réinstalle à l’angle de la rue du collège le panneau indicateur pour l’apostrophe tel qu’il avait été positionné pour la saison 2023. [name withheld] rappelle que ledit panneau avait été accepté pour la saison 2023, dans…
+> [name withheld] qui tient « la compagnie du voyageurs » au pôle culturel souhaite que la mairie réinstalle à l’angle de la rue du collège le panneau indicateur pour l’apostrophe tel qu’il avait été positionné pour la saison 2023. Bernard Lauret rappelle que ledit panneau avait été accepté pour la saison 2023, dans…
 
 **Places mentioned (unverified):** rue du collège, impasse de, rue des Pyrénées, place de plusieurs lames selon

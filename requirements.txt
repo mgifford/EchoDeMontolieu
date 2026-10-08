@@ -6,6 +6,8 @@ lxml
 pymupdf
 pytesseract
 pillow
+# Model calls (Hugging Face Inference Providers); reads the `hf auth login` token itself
+huggingface_hub
 # Tests and the static site builder import the app
 fastapi
 httpx

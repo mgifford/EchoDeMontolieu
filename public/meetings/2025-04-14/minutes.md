@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2025-04-14"
+title: "Procès-verbal: 2025-04-14"
 date: 2025-04-14
 date_status: tentative
 document_id: ad091bede91f
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 14 avril 2025 a 20 h 00
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf) (SHA-256 `d50b6e0ed9f624ee…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf) (SHA-256 `d50b6e0ed9f624ee…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 27 mars 2025](#approbation-du-proces-verbal-du-conseil-du-27-mars-2025) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=1))
 - [convention d'hébergement pour l'installation d'équipement dans le cadre du déploiement du réseau](#convention-d-hebergement-pour-l-installation-d-equipement-dans-le-cadre-du-deploiement-du-reseau) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=1))

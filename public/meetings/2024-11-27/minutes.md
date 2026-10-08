@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2024-11-27"
+title: "Procès-verbal: 2024-11-27"
 date: 2024-11-27
 date_status: tentative
 document_id: 430999f10e6c
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 27 novembre 2024 à 20 h 00
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf) (SHA-256 `d9cdad5942ac36f7…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf) (SHA-256 `d9cdad5942ac36f7…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 23 octobre 2024](#approbation-du-proces-verbal-du-conseil-du-23-octobre-2024) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=1))
 - [Convention avec le SYADEN](#convention-avec-le-syaden) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=1))

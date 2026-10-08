@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2025-05-27"
+title: "Facts: 2025-05-27"
 date: 2025-05-27
 date_status: tentative
 document_id: e65120caa50f
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2025-05-27
+# Facts found in the council meeting of 2025-05-27
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf).
 
 - Attendance: 8 present, 1 absent or represented.
 - Items: 11. Pages: 10.
@@ -55,7 +55,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 **Amounts**
 
-- 3 456 €: “Le conseil Municipal vote à l’unanimité pour autoriser [name withheld] à signer la convention et engager les frais d’étude pour 3 456 euros.”
+- 3 456 €: “Le conseil Municipal vote à l’unanimité pour autoriser Bernard LAURET à signer la convention et engager les frais d’étude pour 3 456 euros.”
 
 ## Décision modificative budget
 
@@ -84,14 +84,14 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 [p.8](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf#page=8) to [p.9](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf#page=9) · Vote: majority (not unanimous) (for: 8, against: 5, abstentions: 1) · Topics: associations et vie locale, subventions, patrimoine, culture, tourisme
 
-> L’association a réitéré sa demande de subvention, à la suite d’échanges entre elle, la commune et l’association MVDL auprès de laquelle la demanderesse avait été renvoyée. [name withheld] a dans un mail précisé la position de MVdL dont Monsieur le Maire donne lecture. [name withheld] précise qu’elle n’a rien contre…
+> L’association a réitéré sa demande de subvention, à la suite d’échanges entre elle, la commune et l’association MVDL auprès de laquelle la demanderesse avait été renvoyée. [name withheld] a dans un mail précisé la position de MVdL dont Monsieur le Maire donne lecture. Jeanne ETORÉ-LORTHOLARY précise qu’elle n’a rien…
 
 **Amounts**
 
 - 200 €: “Ce dernier a ainsi bénéficié d’une aide de 200 euros, à verser à MVdL en sus de sa propre subvention.”
-- 31 500 €: “[name withheld] rappelle que le compte dédié aux dépenses de subventions est budgétisé à hauteur de 31 500 euros.”
+- 31 500 €: “Laure ESCARÉ rappelle que le compte dédié aux dépenses de subventions est budgétisé à hauteur de 31 500 euros.”
 - 31 275 €: “Le conseil lors du vote des subventions aux associations a consommé 31 275 euros.”
-- 225 €, 100 €: “La commune dispose donc d’une marge de 225 euros, et elle peut parfaitement attribuer une aide de 100 euros, à l’association sans disperser ses efforts, comme le craint [name withheld], si l’on compare cette somme à cell”
+- 225 €, 100 €: “La commune dispose donc d’une marge de 225 euros, et elle peut parfaitement attribuer une aide de 100 euros, à l’association sans disperser ses efforts, comme le craint Jeanne ETORÉ- LORTHOLARY, si l’on compare cette som”
 - 100 €: “Après échanges, le Conseil vote par 8 voix pour, 5 contre et une abstention l’attribution d’une subvention de 100 € à l’association le rêve du Martinet au titre de l’année 2025.”
 
 **Places mentioned (unverified):** cours des années
