@@ -1,9 +1,9 @@
 name: Sync to Hugging Face Space
 
-# Pushes main to the Space, which then rebuilds from the Dockerfile.
+# Pushes a snapshot of main (without archive/) to the Space, which then rebuilds from the Dockerfile.
 # Needs a repository secret named HF_TOKEN: a Hugging Face access token with write
 # access to the Space. The token is never printed; GitHub masks secrets in logs.
-# This force-pushes, replacing the Space's own history with this repository's.
+# This force-pushes, replacing the Space's history with a single snapshot commit.
 on:
   push:
     branches: [main]
@@ -32,6 +32,14 @@ jobs:
             echo "The HF_TOKEN repository secret is not set." >&2
             exit 1
           fi
+          # Hugging Face rejects git pushes that contain binary files, in any commit of the history. The
+          # Space does not use archive/ (the 2003-2008 originals stay on GitHub), so push one snapshot
+          # commit of the tree without it. The Space's history is replaced each time, as before.
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git checkout --orphan space-snapshot
+          git rm -r -q --cached archive
+          git commit -q -m "Snapshot of ${GITHUB_SHA} for the Space (without archive/)"
           git push --force \
             "https://mgifford:${HF_TOKEN}@huggingface.co/spaces/mgifford/EchoDeMontolieu" \
             HEAD:main
