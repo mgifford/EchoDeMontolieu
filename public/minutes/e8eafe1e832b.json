@@ -1,0 +1,96 @@
+{
+  "document_id": "e8eafe1e832b",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM100205.pdf",
+  "source_url": "https://web.archive.org/web/20051014125712/http://www.montolieu.fr/docs/CRCM100205.pdf",
+  "source_sha256": "56086b2db8d4ca808c32a4738169cd4691d6d738c9d6c58c07a1971eca7f7d3b",
+  "source_bytes": 66078,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM100205.pdf",
+    "wayback_timestamp": "20051014125712",
+    "official_copy": "https://web.archive.org/web/20051014125712/http://www.montolieu.fr/docs/CRCM100205.pdf",
+    "mirror_path": "archive/originals/CRCM100205.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM100205.pdf",
+    "date_hint_from_filename": "2005-02-10"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:15:12+00:00",
+  "meeting_date": {
+    "value": "2005-02-10",
+    "source": "text layer, page 1: 'L'an deux mil cinq et le dix Février'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 3,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20051014125712/http://www.montolieu.fr/docs/CRCM100205.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L'an deux mil cinq et le dix Février à 20 h 30, le Conseil Municipal dûment convoqué,\ns'est réuni sous la présidence de Monsieur DELPERIER Max, Maire de Montolieu, dans la\nsalle du Conseil.\nEtaient présents : ETORE, LASSERRE D., DELPERIER, DRIEUX, LAURET, OLIVIER,\nPARE, RICARD.\nEtaient absents : \nCHOTARD procuration à DRIEUX.\nGOUZVINSKI procuration à OLIVIER\nPUJADE procuration à LAURET\nSOULIE à ETORE\nLAPORTE à DELPERIER\nLASSERRE C. procuration à LASSERRE D.\nSOLE\nSecrétaire de séance : OLIVIER.\nMonsieur le Maire demande au Conseil d'approuver le Procès-Verbal de la séance du\n25 Janvier 2005. Madame ETORE informe le Conseil qu'elle ne signera pas ce Procès-Verbal\ncomme les fois précédentes. Elle précise que les débats ne sont pas clairement retranscrits sur\nles décisions votées.\nA l'exception de Madame ETORE, Le Conseil approuve le dernier Procès-Verbal.\n Monsieur OLIVER se propose d'assurer le secrétariat de séance avec Fabien\nPUJADE.\nEmprunt construction local des Médecins.\nMonsieur le Maire informe le Conseil que les Médecins sont favorables à un contrat de\nlocation pour un bâtiment que la commune construirait. Monsieur DELPERIER donne lecture\nde la correspondance des médecins confirmant leur choix et précisant les conditions dans\nlesquelles ils souhaitent louer, à savoir :\n- \nQue l'immeuble soit conforme au plan établi par Mademoiselle SERRA, Architecte ;\n- \nque la construction soit terminée avant une date déterminée avec l'Architecte, et qu'ils\npuissent s'y installer le mois suivant ;\n- \nque le montant de 1 500 €uros mensuel soit respecté et que le montant de location par\nmédecin reste au maximum du tiers de la somme totale, même après le départ d'un\nconfrère, dans le cas où ils ne pourraient pas trouver un associé.\nMonsieur le Maire demande au Conseil de se prononcer sur ces dispositions.\nLe Conseil donne son accord pour louer un bâtiment aux médecins dans les conditions\nénumérées ci-dessus.\nMadame ETORE (avec procuration de Mademoiselle SOULIE) préfère s'abstenir,\nprécisant que ce dossier traîne depuis 2002 et que la commune a mis du temps à réagir.\nMonsieur DELPERIER rappelle que le précédent dossier était le projet des médecins, et que\nle permis de construire qu'ils avaient déposé au terrain AZEMA leur a été refusé en 2004.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20051014125712/http://www.montolieu.fr/docs/CRCM100205.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Désormais il y a lieu de voter le financement pour la construction de ce bâtiment.\nAprès analyses effectuées par Monsieur RICARD des différentes propositions faites\npar trois établissements bancaires, il ressort que la proposition faite par la Caisse d'Epargne\nest la plus avantageuse pour la commune.\nConditions de l'emprunt :\nMontant :\n152 500 €uros.\nDurée du remboursement par mensualités décroissantes : 120 mois.\nAmortissement linéaire\nTaux : 3,38 %\nSans aucun autre frais.\nMonsieur le Maire demande au Conseil de se prononcer sur la proposition de la Caisse\nd'Epargne.\nLe Conseil donne son accord pour contracter un emprunt auprès de la Caisse\nd'Epargne dans les conditions ci-dessus. Madame ETORE (avec procuration de Mademoiselle\nSOULIE) précise qu'elle s'abstient pour les mêmes raisons citées ci-avant.\nMonsieur PARE demande que les médecins s'engagent sur une durée minimale de\nlocation car cela représenterait un risque pour la commune dans le cas où un médecin\ncesserait son activité pour une raison quelconque, car sa part de loyer ne serait pas prise en\ncharge par ses confrères. Monsieur RICARD indique que dans toute entreprise (ou opération),\nil faut savoir prendre un minimum de risque pour que les projets aboutissent. Messieurs\nDELPERIER et RICARD rappellent que l'objectif de cette opération est de garder le groupe\nmédical sur la commune.\nMonsieur RICARD poursuit en précisant que les loyers que paieront les médecins\npendant dix ans serviront à financer l'emprunt qui sera contracté pour financer le projet. Après\nces dix années, ces loyers représenteront une recette nette pour la commune.\nAchat terrain CONRADTY.\nMonsieur le Maire demande au Conseil d'inscrire au budget 2005 l'opération d'achat\ndu terrain CONRADTY en dépense et en recettes, car celle-ci n'avait pas été programmée au\nbudget 2004.\nPOUR : 12\nABSTENTION : 2 (ETORE avec procuration).\nEchange de parcelles.\nMonsieur le Maire informe le Conseil que l'agence immobilière vendant l'immeuble\ncadastré section AB n°415 et 417 (rue Saint-Denis et rue des Arcades), souhaite échanger la\nparcelle AB n°423 (ravin donnant sur l'Alzeau) contre une partie de la parcelle communale\nAB n°416 (rue de Arcades), située entre la parcelle AB n°415 et 417.\nPour l'agence immobilière, cet échange permettrait de relier les parcelles AB n°415 et\n417.\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20051014125712/http://www.montolieu.fr/docs/CRCM100205.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Le Conseil, à l'unanimité, n'est pas favorable à un tel échange car la parcelle\ncommunale AB n°416 permet l'accès à des terrains privés donnant sur le ravin et il y a donc\nservitude de passage.\nL'ordre du jour étant épuisé, la séance est levée à 09 h 10.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "56086b2db8d4ca808c32a4738169cd4691d6d738c9d6c58c07a1971eca7f7d3b",
+      "source_bytes": 66078,
+      "retrieved_at": "2026-10-08T16:15:12+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/e8eafe1e832b.json",
+      "diff_from_previous": null
+    }
+  ]
+}

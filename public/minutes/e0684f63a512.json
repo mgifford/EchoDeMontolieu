@@ -1,0 +1,114 @@
+{
+  "document_id": "e0684f63a512",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20060929.pdf",
+  "source_url": "https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf",
+  "source_sha256": "7ce493c2395d88cc88479a1b929d2a666359ffcdbd3a6863d3d0981f638456e7",
+  "source_bytes": 81301,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020060929.pdf",
+    "wayback_timestamp": "20071012134334",
+    "official_copy": "https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf",
+    "mirror_path": "archive/originals/CRCM20060929.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20060929.pdf",
+    "date_hint_from_filename": "2006-09-29"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:17:48+00:00",
+  "meeting_date": {
+    "value": "2006-09-29",
+    "source": "text layer, page 1: 'L'an deux mil six et le 29 Septembre'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 5,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L'an deux mil six et le 29 Septembre à 20 h 30, le Conseil Municipal\ndûment convoqué, s'est réuni sous la Présidence de Monsieur DELPERIER Max,\nMaire de MONTOLIEU, dans la Salle du Conseil.\nEtaient présents : ETORE, LASSERRE D., PARE, SOULIE, RICARD,\nGOUZVINSKI, LAURET, OLIVIER, PUJADE, DELPERIER, DRIEUX.\nEtaient absents : LAPORTE procuration à LAURET, PILOSIO procuration à PARE,\nLASSERRE C., SOLE.\nMonsieur LAURET est désigné comme Secrétaire de séance.\nMadame ETORE observe que le compte rendu précédent est complet,\nmais que les fautes d'orthographe, coquilles, mots manquants, n'ont pas été corrigés -\nalors que les corrections sont effectuées lorsque d'autre que Madame PILOSIO se\nchargent du compte rendu -, qu'il n'est pas admissible que le texte ait été affiché tel\nquel, et qu'on ne sautait le signer en l'état.\nAprès l'intervention de Madame GOUZVINSKI concernant\nl'engagement éventuel de Monsieur DELPERIER dans une nouvelle association\nCentre de Sculpture - Monsieur DELPERIER précisant qu'il serait membre à titre\nprivé et non à titre de Maire - Madame ETORE fait observer qu'elle est extrêmement\nchoquée de voir le nom de Madame Louise ROMAIN figurer encore parmi les\nmembres du Conseil d'Administration de l'Association AVEC, alors que d'autres\nstructures n'y sont pas représentées, et qu'elle compte bien en faire part aux\nresponsables de cette association.\nAjout au procès-verbal de la séance du 19 Août 2006.\nVerrerie d'Art.\nMonsieur DELPERIER propose le terrain de la Croix de Galine.\nAchat d'un camion.\n6 devis ont été étudiés en commission modernisation et Monsieur\nOLIVIER, chargé de cette affaire, précise que le choix s'est surtout porté sur les points\nsuivants : Maniabilité, dimensions, charge utile, garantie et prix. La commission a\ndonc décidé de retenir le véhicule de marque MITSUBISHI CANTER au prix de\n27 400 € H.T.\nLe Conseil se prononce comme suit sur la proposition de la\ncommission modernisation :\nPour : 9\nAbstention : 1 (LASSERRE D.)\nContre : 3 (ETORE, PARE, PILOSIO)\nPour information, une offre a été faite à hauteur de 4 000 €uros pour\nl'achat de l'ancien camion.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Il y lieu de procéder à un emprunt pour l'achat de ce camion. Après\navoir étudié plusieurs propositions il semble que la CAISSE D'EPARGNE soit la\nmieux placée.\nMonsieur PARE pense qu'il faudrait puiser ces fonds sur l'emprunt de\n150 000 €uros contracté pour la construction du local des médecins. Monsieur\nDELPERIER répond qu'il n'y a pas lieu de prendre ces fonds sur ce projet,\nl'affectation des crédits ne pouvant être modifiée.\nLe Conseil municipal se prononce comme suit pour contracter\nl'emprunt :\nPour : 8\nAbstention : 1 (LASSERRE D.)\nContre : 4 (GOUZVINSKI, PARE, PILOSIO, ETORE)\nColombarium\n3 entreprises ont présenté des devis. Le Conseil décide de retenir la\nproposition de l'entreprise AUDABRAM pour un montant de 7 122,18 €uros TTC. Le\nConseil décide de demander un compléments d'information à l'entreprise (photos,\ndossier technique…). Par ailleurs, plusieurs conseillers demandent que l'installation\nsoit faite contre un mur du cimetière de la façon la plus discrète possible.\nTravaux de voirie.\nAjourné.\nAccès appartement école maternelle.\nMonsieur LAVAIL Jean-Paul, Architecte à CASTELNAUDARY,\nsoumet au Conseil un principe d'accès et de circulation au sein de l'école, dans le\ncouloir central, de façon à ce que chaque futur locataire ait son accès indépendant et\nn'interfère pas sur l'autre. En effet, il apparaît que l'escalier existant au Sud ne peut\nêtre utilisé en l'état même avec une restauration, sa structure ne pouvant garantir sa\nsolidité dans le temps. De plus, le principe d'accès proposé par Monsieur LAVAIL\ncorrespond au permis de construire avec avis favorable de la Commission de sécurité\net d'accessibilité, et au visa réputé conforme de l'Architecte des Bâtiments de France.\nMonsieur le Maire met au vote la proposition de Monsieur LAVAIL.\nPour : 11\nContre : 2 (ETORE, LASSERRE D.)\nEclairage Pont de Saissac - Parking route de Saint-Denis.\nMademoiselle SERRA, Architecte, propose au Conseil 3 solutions\nd'éclairage pour le Pont de Saissac : Indirect, crosses ou portiques.\nAprès discussions, le conseil demande de faire évaluer les propositions\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "éclairage indirect et crosses.\nPour le parking route de Saint-Denis, Monsieur DELPERIER, propose\nd'installer des candélabres identiques à ceux installés sur les places du Pradel.\nMadame ETORE demande que le choix se porte sur un éclairage bas. Monsieur\nDELPERIER lui fait observer qu'il faut alors changer le côté de stationnement.\nMadame ETORE pense que cela n'aurait pas d'inconvénient.\nLe projet sera chiffré en même temps que l'évaluation du Pont de\nSaissac.\nPlan Local d'Urbanisme.\nMonsieur DELPERIER fait un long rappel du travail effectué jusqu'à\nce jour et présente au Conseil les zones constructibles et les requêtes des particuliers\nétudiées en commission.\nMadame ETORE rapporte qu'au lendemain de la précédente réunion\nelle a découvert, au travers de conversations avec quelques Montolivains demandeurs\nde terrains constructibles, qu'on attribuait à certains membres du Conseil la\nresponsabilité du refus et que, dans ces conditions, il valait mieux se rallier à la\nposition de Monsieur RICARD et militer pour que toutes les demandes soient\nsatisfaites.\nPour sa part, considérant que le bureau d'études n'est ni averti des\nréunions ni consulté et que la démarche est absurde, elle s'abstiendra d'un bout à\nl'autre du débat.\nLe Conseil à l'unanimité est pour le maintien des parcelles\nconstructibles du P.O.S dans le P.L.U.\nAprès un long débat, le Conseil vote secteur par secteur, les zones\nsusceptible d'être agrandies à savoir : Hameau des Oliviers, Pech Rosié, Les Brétous\nSud, l'Horte de Villeneuve, Le Causse, Franc, Pont Jalabert-Est et une petite partie des\nBrétous Nord.\nPOUR : 11\nABSTENTION : 1 (ETORE)\nCONTRE : 1 (RICARD)\nMonsieur RICARD précise qu'il vote contre ces propositions, car il\nestime que toutes les demandes de terrains constructibles doivent être satisfaites.\nLes zone votées seront soumises au Bureau d'Etudes.\nMadame ETORE rappelle au Conseil qu'il a voté les grandes\norientations du Plan d'Aménagement et de Développement Durable et que cela est en\ncontradiction avec ce qu'il est en train de décider.\nMadame PUJADE déclare que si elle avait su ce que cela voulait dire\nelle ne les aurait pas votées.\nQUESTIONS DIVERSES\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Monsieur DELPERIER demande à ce qu'elles soient déposées plus tôt.\nMadame ETORE répond qu'elle a été trop occupée pour les déposer plus tôt et qu'il a\nla liberté de ne pas les traiter s'il le veut. Monsieur DELPERIER précise qu'il\nrépondra aux questions de Madame ETORE.\nPoint sur l'action en justice Piscine.\nMonsieur DELPERIER précise que l'action en justice n'est pour\nl'instant pas engagée et qu'un expert a été mandaté par l'assurance de la Commune.\nMadame ETORE fait observer que l'action en justice a été votée il y a\nplus de trois mois, et que jamais le Conseil n'a voté depuis le mandatement d'un\nexpert par l'assurance. Monsieur DELPERIER répond que l'Expert à été mandaté par\nl'assureur général de la Commune et non par la Mairie.\nMesures préservatoires piscine.\nLe bassin sera nettoyé et remis en eau.\nConvention tri partite M.V.D.L.\nLa convention prévoit que les 3 partenaires (Département,\nCommunauté de Communes et Commune de Montolieu) versent chacun 4000 €uros à\nMontolieu Village du Livre. Monsieur DELPERIER précise que pour la Commune\ncela n'est pas possible, et rappelle que la commune donne déjà une enveloppe\nconséquente à l'association. Cependant, Monsieur DELPERIER n'est pas opposé à\nune augmentation mais a demandé aux autres partenaires d'augmenter leurs\nparticipations afin de réduire celle de la Commune.\nJournées du Patrimoine.\nMonsieur DELPERIER donne la parole a Madame BALLAND,\nprésente dans l'assistance. Cette dernière regrette que les Journées du Patrimoine ne\nsoient pas mieux organisées dû certainement à un manque de bénévolat. Monsieur\nDELPERIER remercie Madame BALLAND pour sa grande implication à cette\nmanifestation.\nAffaire MALHERBE c/Commune de MONTOLIEU\nLe dossier est entre les mains du service juridique de l'Equipement de\nl'Aude qui défendra les intérêts de la Commune devant le Tribunal Administratif de\nMONTPELLIER.\nNettoyage Eglise Saint-André.\nL'entreprise de nettoyage ONET a été contacté par Madame\nBALLAND pour établir un devis de nettoyage de l'intérieur l'Eglise. D'après les\npremières informations le coût serait très élevé. Il faudra certainement se rapprocher\nde la D.R.A.C afin d'obtenir éventuellement des financements, l'Eglise Saint-André\nétant classée Monument Historique.\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L'ordre du jour étant épuisée, la séance est levée à 0 h 30.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "7ce493c2395d88cc88479a1b929d2a666359ffcdbd3a6863d3d0981f638456e7",
+      "source_bytes": 81301,
+      "retrieved_at": "2026-10-08T16:17:48+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/e0684f63a512.json",
+      "diff_from_previous": null
+    }
+  ]
+}

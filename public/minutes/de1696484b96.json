@@ -1,0 +1,132 @@
+{
+  "document_id": "de1696484b96",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM02032004.pdf",
+  "source_url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf",
+  "source_sha256": "e0f1aa36fe332aab5434bbfb6677241a7d126469deee3c4911d88bd76c9d202e",
+  "source_bytes": 194159,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM02032004.pdf",
+    "wayback_timestamp": "20041225055345",
+    "official_copy": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf",
+    "mirror_path": "archive/originals/CRCM02032004.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM02032004.pdf",
+    "date_hint_from_filename": "2004-03-02"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:13:36+00:00",
+  "meeting_date": {
+    "value": "2004-03-02",
+    "source": "text layer, page 1: 'L’an deux mil quatre et le deux Mars'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 7,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’an deux mil quatre et le deux Mars à 20 H 30, le Conseil Municipal dûment\nconvoqué, s’est réuni sous la Présidence de Monsieur DELPERIER Max, Maire de\nMontolieu, dans la salle du Conseil.\nEtaient Présents : ETORE, LASSERRE D., DELPERIER, DRIEUX,\nLASSERRE C., LAURET, OLIVIER, PARE, RICARD.\nEtaient Absents : \nCHOTARD procuration à DELPERIER.\nGOUZVINSKI procuration à OLIVIER.\nPUJADE procuration à LAURET.\nSOULIE procuration à ETORE.\nLAPORTE procuration à DRIEUX.\nAbsent :\nSOLE.\nSecrétariat de séance : LAURET Bernard.\nMonsieur le Maire déclare la séance ouverte et donne rectification du procès-verbal\npar rapport au compte-rendu affiché en Mairie.\nCette rectification correspond à la suppression d’inscriptions à l’encontre du premier\nadjoint que celui-ci a estimé diffamatoires et qui ont fait l’objet d’une lettre recommandée\navec accusé de réception adressée à Monsieur le Maire. Celui-ci reconnaît avoir bien pris\nconnaissance de cette lettre et répond que, conformément à la loi, il se donne deux mois de\nréflexion pour y répondre.\nPlusieurs conseillers précisent qu'ils ne signeront pas ce procès-verbal à cause des\ndifférences entre le compte-rendu affiché et ce procès-verbal.\nMonsieur le Maire demande à un Conseiller (ère) d'assurer le secrétariat de séance.\nMonsieur LAURET se propose avec Monsieur PUJADE Fabien, employé. Accord du\nConseil.\nLotissement.\nMonsieur DELPERIER donne lecture d'une correspondance de Messieurs ROUSSEL,\nCARBONELL et GAYRAL confirmant l'intérêt qu'ils portent pour l'aménagement en\nLotissement du terrain AZEMA. Monsieur le Maire invite à la table du Conseil Monsieur\nGAYRAL, présent dans l'assistance, à donner des explications sur ce projet.\nMonsieur GAYRAL fait un rapide historique des entretiens avec Monsieur le Maire et\nprécise que le projet n'est qu'à sa phase initiale. Monsieur GAYRAL propose de rencontrer le\nC.A.U.E afin de définir avec précision les possibilités d'aménagement de la parcelle et\ndéterminer le coût des réalisations (V.R.D., espaces verts…). Le projet consisterait en la vente\npar la Mairie à la S.A.R.L. (pas encore créée) représentée par les associés de Monsieur\nGAYRAL, du terrain AZEMA. D'après Monsieur GAYRAL, la vente des parcelles aux\npersonnes de doits privés n'excèderait pas 30 000 € (200 000 Frs) l'unité.\nUn cahier des charges doit être élaboré avec le C.A.U.E. Monsieur le Maire rappelle\nque la Commune adhère déjà au C.A.U.E. par le biais de la Communauté de Communes.\nMonsieur LASSERRE précise que le C.A.U.E est un donneur d'idée pour l'aménagement mais\nne se substitue pas à la D.D.E. Il faudrait élaborer un règlement du Lotissement.\nEmprunt travaux piscine.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Monsieur le Maire donne la parole à Monsieur RICARD qui fait un exposé sur les\noffres de financement des différentes banques, pour l'emprunt de la piscine. Monsieur\nRICARD rappelle que les travaux doivent être réalisés en 2 tranches. La demande de\nsubvention avait été effectuée sur une base de 261 040 € H.T. correspondant à l’une des trois\ntranches du projet Cap Ingélec, alors que la totalité des travaux prévus par Aquatec, s'élève\ndésormais à 335 040 € H.T. Monsieur RICARD propose au Conseil de ramener ces 335 040 €\nH.T à 262 600 € H.T. en les répartissant sur 2004 et 2005 tout en gardant la possibilité de\nfaire fonctionner la piscine en 2004\nMonsieur PARE précise que cette modification a été décidée en commission budget.\nMonsieur le Maire met au vote :\nPOUR : 13\nABSTENTION : 1 (ETORE sans procuration).\nMonsieur RICARD propose de contracter les emprunts suivants auprès du CREDIT\nAGRICOLE du MIDI.\n135 000 € au taux de 3,94% sur 10 ans pour les travaux.\n48 624 € sur 2 ans pour la compensation de la T.V.A. au dernier taux Euribor connu et préfixé\nun an avec majoration de 0,17 pour commission banque. Valeur février 2004 : 2,263\nLigne de trésorerie de 130000 € sur un an, utilisable pendant quelques mois après épuisement\ndu premier emprunt de 135000 € jusqu'au versement des subventions, au dernier taux T4M\nconnu. avec majoration de 0,17 pour commission banque. Valeur 2,2034 au 4 mars.\nAccord du Conseil à l'unanimité.\nConvention de mise à disposition de la Maison CRAMAN avec transfert d'emprunt à la\nCommunauté de Communes.\nMonsieur le Maire propose au Conseil de mettre à la disposition de la Communauté de\nCommunes (qui aura à sa charge la 2ème tranche de travaux) la Maison CRAMAN et demande\nde transférer l'emprunt de 45 000 € contracté par la Mairie de Montolieu auprès du CREDIT\nAGRICOLE du MIDI, pour la 1ère tranche de travaux. Monsieur le Maire précise que la\nMaison CRAMAN restera propriété de la Commune et que la mise à disposition ne\nconcernera que l'utilisation du bâtiment par la Communauté et des charges de fonctionnement\nqui lui incomberont.\nAccord à l'unanimité.\nCette décision correspond à la volonté de la communauté de communes qui ne souhaite pas\nprendre à sa charge :\n1. au niveau de l’investissement :\n     - l’achat de la maison Craman\n     - les factures payées en trop à l’architecte et contre lequel un recours est engagé par la\nmairie qui demande leur remboursement.\n     - les factures hors architecte qui n’avaient pas été prévues par la mairie.\nCet ensemble de frais représente environ 30000 €.\n2. au niveau du fonctionnement la taxe foncière.\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Travaux porche église Saint-André.\nMonsieur le Maire propose au Conseil de faire réaliser les travaux de réfection du porche de\nl'église. L'entreprise CHEVRIN-GELY a adressé un devis d'un montant de 21 132 € H.T.\nMonsieur le Maire précise que ces travaux ne seront peut-être pas subventionnés par la\nD.R.A.C, mais rappelle que le Conseil Général de l'Aude a attribué en 2003 une subvention\nd'un montant de 55 000 € pour les travaux de l'église et que cette subvention n'était pas\nprévue.\nArbres Hameau des Oliviers.\nMonsieur le Maire expose au Conseil les conclusions des différents experts sur le devenir des\narbres du Hameau des Oliviers. Madame ETORE donne lecture de plusieurs passages de\ncourrier électroniques privés avec Monsieur MELON, Architecte de Bâtiments de France.\nMonsieur le Maire propose au Conseil de couper un arbre sur deux et d'appliquer les\nrecommandations de l'association \"Arbres et Routes\" avec un sens unique. Madame ETORE\npropose de laisser les arbres actuels de planter des arbres entre les pins et de racler les racines.\nMadame ETORE et Monsieur RICARD disent que ces arbres font partie du patrimoine\nMontolivain. Monsieur LASSERRE précise qu'il faudra de toute façon abattre ces pins un\njour ou l'autre.\nMonsieur le Maire demande à chaque élu d'exprimer son avis. Plusieurs solutions sont\nproposées par des Conseillers :\nLa première, par Monsieur PARE, réduction de la chaussée, section des racines incriminées,\nstationnement côté arbres, rejetée par 7 voix contre (DELPERIER, DRIEUX, OLIVIER,\nLAURET avec procurations), 6 pour (ETORE, LASSERRE D, LASSERRE C., PARE,\nRICARD avec procuration) et 1 abstention (procuration CHOTARD).\nLa seconde, par Monsieur LASSERRE, racler les racines et goudronner tel que devant chez\nMadame AZEMA, rejetée par 7 voix contre (DELPERIER, DRIEUX, OLIVIER, LAURET\navec procurations), 6 pour (ETORE, LASSERRE D, LASSERRE C., PARE, RICARD avec\nprocuration) et 1 abstention (procuration CHOTARD).\nLa troisième, par Monsieur DELPERIER, arrachage de 4 pins et replantation immédiate,\nadoptée par 7 voix pour (DELPERIER, DRIEUX, OLIVIER, LAURET avec procurations), 6\ncontre (ETORE, LASSERRE D, LASSERRE C., PARE, RICARD avec procuration) et 1\nabstention (procuration CHOTARD).\nQUESTIONS DIVERSES.\nCourrier de Monsieur PETIT Philippe – Garagiste.\nMonsieur le Maire donne lecture d'un courrier de Monsieur PETIT faisant état de bénéficier\nd'un atelier-relais. Monsieur PETIT précise que le local serait un entrepôt professionnel et non\nun garage avec enseigne. Renseignements pris auprès de la Chambre de Métiers, ce genre de\nconstruction pourrait rentrer dans le cadre des atelier-relais avec 20% au maximum de\nsubvention pour environ 45 000 € (300 000 Frs) de travaux. Rendez-vous sera pris avec\nMonsieur PETIT pour lui proposer plusieurs solutions.\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Courrier de Mademoiselle MEILLIER et Monsieur CANTARITI\nMasseur Kinésithérapeutes.\nDemande d'atelier-relais Masseur Kinésithérapeutes sur la Commune. Monsieur LASSERRE\nrappelle que Monsieur CHAMBAUD, Masseur Kinésithérapeute à CUXAC-CABARDES est\nprêt à louer le local actuellement occupé par  le groupe médical, dès que ce dernier aura fait\nconstruire au terrain AZEMA. Demande de confirmation auprès de Monsieur CHAMBAUD.\nAtelier-relais esthéticienne.\nMademoiselle ANSELMO Magali a présenté une étude de faisabilité. Rendez-vous sera pris\navec la Chambre de Métiers pour analyse de l'étude de faisabilité.\nAtelier-relais boulangerie\nMonsieur le Maire informe le Conseil que Monsieur RICARD Norbert ne souhaite plus\nréaliser l'atelier-relais.\nGroupe médical.\nLe Permis de Construire est en cours d'instruction auprès de la D.D.E. Le terrain a été piqueté.\nLe document d'arpentage est en Mairie. Rendez-vous sera pris chez Maître FORTIN-LEZY\npour signature de l'acte de vente.\nQUESTIONS ORALES.\nInscription à l'inventaire supplémentaire des Monuments Historiques (ETORE).\nMadame ETORE regrette que Monsieur le Maire ait appuyé auprès de la D.R.A.C la demande\nde Monsieur GUILLET pour l'inscription à l'inventaire supplémentaire des Monuments\nHistoriques de sa propriété, sise Impasse de la Manufacture. Elle explique qu'elle ne soutient\npas cet appui car elle pense qu'il y a tromperie - par modification de cadastre - sur l'origine\ndes bâtiments et que la propriété de Monsieur GUILLET ne fait pas partie de l'ancienne\nManufacture Royale.\nEntretien de la voûte route de Saint-Denis (ETORE).\nDeux devis sont actuellement en Mairie. Il manque le devis de l'Entreprise CHEVRIN-GELY.\nRéfection des logements de l'école (ETORE).\nMadame ETORE souhaite que la Commune entame les travaux de réfection des appartements\nau-dessus de l'école maternelle - sans modification de l'aspect extérieur. Monsieur le Maire\nrappelle qu'actuellement y sont logés les ouvriers qui travaillent à la piscine et que les dossiers\nde demande de subventions sont actuellement en cours d'instructions.\nTuyaux Avenue Saint-Martin (ETORE).\nRendez-vous est pris la semaine prochaine avec la D.D.E. pour avis.\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Début des travaux EDF en Avril route de Saissac et de Saint-Denis (ETORE).\nMadame ETORE souhaite que les travaux soient repoussés car elle craint de nombreux\nproblèmes de circulation, la forte fréquentation du village arrivant à cette période.\nArrivée d'eau porte de Saint-Denis (ETORE).\nMonsieur le Maire précise que cela sera fait lors des travaux EDF route de Saint-Denis\n(ouverture de tranchée).\nGoudronnage SCREG (ETORE).\nMadame ETORE regrette que la SCREG ait goudronné devant chez Madame PAQUETON\ncar les véhicules stationnent jusque dans sa propriété alors qu'il y a le parking à quelques\nmètres.\nInstallation corbeille parking Saint-Denis (ETORE).\nElle est en fabrication.\nPoubelles.\nL'été approche et les poubelles risquent de poser à nouveau problème. Monsieur le Maire\npropose de cacher les poubelles avec du matériel adéquat et précise que la Commune a été\ncontactée par une société spécialisée.\nPiscine (RICARD).\nMonsieur RICARD regrette que le devis de CAP INGELEC n'ait comporté que deux chiffres\nce qui lui fait penser que cette société a essayé de profiter de la Commune, malgré un dossier\ntechnique très bien élaboré. Monsieur le Maire rappelle que les fournitures proposées par\nCAP INGELEC n'étaient pas de mêmes qualités que celles qui sont proposées par\nAQUATECH-LME et de ce fait cela a fait baisser les coûts. Monsieur le Maire remercie\nMonsieur RICARD pour son étude et espère que la Commune ne le regrettera pas. Pour\nMonsieur RICARD, la Commune n'a pas les moyens de se payer une piscine luxueuse et les\nobjectifs d’hygiène, de sécurité, et d’économies d’exploitation prévus par Cap Ingélec seront\natteints par Aquatec.\nExonération de 2 ans de la Taxe Professionnelle pour les nouvelles entreprises\n(RICARD).\nL'exonération de 2 ans est encore appliquée pour les nouvelles entreprises. Ces dernières\ndoivent faire les démarches auprès du Centre des Impôts de Carcassonne pour bénéficier de\ncette exonération.\nEtude P.A.D.D (RICARD).\nMadame ESPIASSE du bureau d'études ECEP n'a jamais été en relation avec les anciens\nhabitants de Montolieu pour l'élaboration du PADD. Monsieur le Maire indique qu'il lui avait\n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "été donné des noms de personnes chez lesquelles elle pouvait se rendre. Pour Madame\nETORE, Madame ESPIASSE a été mal orientée.\nLoyer de l'atelier-relais coiffure (RICARD).\nIl pourra être fixé prochainement puisque la Commune vient de recevoir la dernière facture.\nTaxe de séjour (RICARD).\nElle est reconduite pour 2004.\nEau Saint-Michel (RICARD).\n La Société AQUATECH-LME sera sollicitée pour devis.\nChemin de l'Escargotière (RICARD).\nLe travail à dû être interrompu à cause des intempéries. Le chemin sera terminé le plus\nrapidement possible.\nContrôle des installations électriques (RICARD).\nMonsieur le Maire a demandé à Monsieur SEMGHOUNI d'arrêter les travaux au Hameau des\nOliviers, et de faire contrôler par un organisme agréé le travail déjà effectué.\nPoint sur l'appropriation par une personne de droit privé de terrains communaux\n(RICARD).\nLa parcelle permettant l'accès à la passerelle enjambant l'Alzeau va être cédée à la Commune\npar Monsieur GALTIER.\nRétroprojecteur (RICARD).\nMonsieur RICARD souhaite que la Commune se dote d'un rétroprojecteur. Accord à\nl'unanimité.\nJardin d'enfants (RICARD).\nLe C.A.U.E viendra la semaine prochaine pour donner son avis sur le jardin d'enfants.\nDistributeur d'argent (PARE & RICARD).\nMonsieur PARE indique qu'il est en train de faire une étude après des commerçants pour la\nmise en place d'un distributeur d'argent. Le coût est d'environ 45 000 € (300 000 Frs). Affaire\nà suivre.\nSituation Haut-parleur (RICARD).\nUne étude est en cours.\n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Piscine Communautaire.\nLa demande de prise en charge de la piscine municipale par la Communauté de Communes a\nété expédiée.\nRéhabilitation du Presbytère et Foyer Jean GUEHENNO (RICARD).\nLes travaux de réhabilitation du Presbytère sont différés. Il peut être envisagé la mise en\nsécurité du plancher du 1er étage. Les W.C pour handicapés au Foyer Jean GUEHENNO\ncoûteraient environ 6 000 € (environ 40 000 Frs).\nDéviation poids lourds traversée de Montolieu.\nL'arrêté est pris. La personne responsable du dossier a été mutée et le dossier est désormais\npris en charge par Monsieur LIMONGY (subdivisionnaire-adjoint DDE).\nInstallations miroirs (RICARD).\nInstallation des miroirs au Hameau des Oliviers et à Valsiger à l'étude.\nDébroussaillage des chemins communaux (RICARD).\nDeux de semaines de débroussaillage sont prévues pour le mois de Juin.\nInformations sur l'Office de Tourisme Intercommunal (RICARD).\nCinq Montolivains font partie du nouvel Office de Tourisme Intercommunal. Montolieu est\ndonc bien représenté au sein de cette structure. Monsieur RICARD précise que seule la\nJournée des Métiers d'Art sera subventionnée par la Communauté de Communes. Les autres\nmanifestations (Marché des Potiers, Marché de Noël) seraient prises en charge par la\nCommune.\nL'ordre du jour étant épuisé, la séance est levée à 00 H 20.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "e0f1aa36fe332aab5434bbfb6677241a7d126469deee3c4911d88bd76c9d202e",
+      "source_bytes": 194159,
+      "retrieved_at": "2026-10-08T16:13:36+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/de1696484b96.json",
+      "diff_from_previous": null
+    }
+  ]
+}

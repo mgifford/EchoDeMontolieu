@@ -1,0 +1,114 @@
+{
+  "document_id": "f2b54a749068",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20060505.pdf",
+  "source_url": "https://web.archive.org/web/20071012134138/http://www.montolieu.fr/docs/CRCM%2020060505.pdf",
+  "source_sha256": "af1a833ad546a69ada5eb1896031eb9f4f6176dccfc6d8b7c36f11f696922328",
+  "source_bytes": 63068,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020060505.pdf",
+    "wayback_timestamp": "20071012134138",
+    "official_copy": "https://web.archive.org/web/20071012134138/http://www.montolieu.fr/docs/CRCM%2020060505.pdf",
+    "mirror_path": "archive/originals/CRCM20060505.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20060505.pdf",
+    "date_hint_from_filename": "2006-05-05"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:17:00+00:00",
+  "meeting_date": {
+    "value": "2006-05-05",
+    "source": "text layer, page 1: 'L’an deux mil six et le cinq du mois de Mai'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 5,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20071012134138/http://www.montolieu.fr/docs/CRCM%2020060505.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’an deux mil six et le cinq du mois de Mai à 20 h 30, le Conseil Municipal,\nrégulièrement convoqué s’est réuni au nombre prescrit par la Loi, dans le lieu habituel de ses\nséances, sous la présidence de Monsieur DELPERIER Max, Maire.\nPrésents : ETORÉ, PARÉ, RICARD, PILLOSIO, LAURET, OLIVIER,\nDELPERIER, DRIEUX.\nAbsent(s) :\nPUJADE (procuration à DRIEUX)\nLAPORTE (procuration à LAURET)\nGOUZVINSKI (procuration à DELPERIER)\nSOLÉ.\nSOULIÉ.\nLASSERRE Claude.\nLASSERRE Danièle.\nSecrétariat de séance :OLIVIER.\nMonsieur le Maire déclare la séance ouverte. Monsieur RICARD apporte quelques\nmodifications au compte-rendu qui sont immédiatement manuscrites sur le registre des\ndélibérations par Monsieur DELPERIER\nVote des budgets M14/2006,  M49/2006, CCAS/2006.\nLe Budget M14/2006 est présenté et proposé sous la forme d'un vote formel chapitre\npar chapitre, dont :\nDétail des votes :\nSECTION DE FONCTIONNEMENT DÉPENSES\nChapitre 60 : ACHATS ET VARIATIONS DE STOCKS\nApprouvé à l'unanimité.\nChapitre 61 : SERVICES EXTÉRIEURS\nPOUR : 10\nCONTRE : 1 (ETORÉ)\nChapitre 62 : AUTRES SERVICES EXTÉRIEURS\nApprouvé à l'unanimité.\nChapitre 63 : IMPOTS ET TAXES\nApprouvé à l'unanimité.\nChapitre 64 : CHARGES DE PERSONNEL\nApprouvé à l'unanimité.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20071012134138/http://www.montolieu.fr/docs/CRCM%2020060505.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Chapitre 65 : AUTRES CHARGES DE GESTION COURANTE\nPOUR : 9\nCONTRE : 2 (ETORÉ, RICARD)\nLe Budget M49/2006 est présenté dans son ensemble et proposé au vote. Le Conseil\nMunicipal donne son accord à l'unanimité.\nLe budget CCAS/2006 est également présenté dans son ensemble et proposé au vote.\nLe résultat du vote est le suivant :\nPOUR : 10\nCONTRE : 1 (ETORÉ)\nAprès le vote de ces deux budgets, l'on reprend la présentation du budget M14/2006.\nChapitre 66 : CHARGES FINANCIERES\nApprouvé à l'unanimité.\nChapitre 022 : DEPENSES IMPRÉVUES\nApprouvé à l'unanimité.\nChapitre 023 : VIREMENT A LA SECTION D'INVESTISSEMENT\nApprouvé à l'unanimité\nDétail du vote de l'article 6574 – Subventions aux associations.\nFootball Club Cabardès\n2900 €\nApprouvé à l'unanimité\nAss. Cult et Sport. Ecole Publique\n2500 €\nApprouvé à l'unanimité\nAssociation des Maires de l'Aude\n130 €\nApprouvé à l'unanimité\nAnciens d'Algérie\n120 €\nApprouvé à l'unanimité\nAnciens Combattants\n120 €\nApprouvé à l'unanimité\nAmis de la Colline Saint-Roch\n800 €\nApprouvé à l'unanimité\nAssociation des Mairies Informatisées\n100 €\nApprouvé à l'unanimité\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20071012134138/http://www.montolieu.fr/docs/CRCM%2020060505.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Comité d'Animation\n950 €\nApprouvé à l'unanimité\nMonsieur LAURET n'a pas pris par au vote étant Président de cette Association.\nClub du 3ème âge\n320 €\nApprouvé à l'unanimité\nA.C.C.A. de Montolieu\n530 €\nApprouvé à l'unanimité\nComité des Parents d'Elèves\n560 €\nApprouvé à l'unanimité\nComité des Fêtes\n5600 €\nPOUR :10\nABSTENTION : 1 (GOUZVINSKI)\nMaison des Jeunes\n400 €\nApprouvé à l'unanimité\nAss. Montolieu Village du Livre\n \n8000 €\nPOUR : 9\nCONTRE : 1 (DRIEUX)\nMadame ETORÉ n'a pas pris part au vote étant Présidente de cette Association.\nLa Truire de la Dure\n340 €\nApprouvé à l'unanimité\nPétanque Club Montolivain\n320 €\nApprouvé à l'unanimité\nAss. Centre Culturel de la Mémoire\n120 €\nApprouvé à l'unanimité\nVilles et Métiers d'Art\n77 €\nApprouvé à l'unanimité\nF.S.E. de BRAM\n22,50 €\nApprouvé à l'unanimité\nMonsieur DELPERIER n'a pas pris part au vote.\nPierres Sèches Montolivaines\n270 €\nApprouvé à l'unanimité\nGpt de défenses ctre les organismes nuis.\n20 €\nApprouvé à l'unanimité\nEmergence pour le Pays Carcassonnais\n20 €\nApprouvé à l'unanimité\nMutuelle Nationale Territoriale\n415 €\nApprouvé à l'unanimité\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20071012134138/http://www.montolieu.fr/docs/CRCM%2020060505.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Cabardès Tennis Club\n50 €\nApprouvé à l'unanimité\nComité Départemental du Tourisme\n20 €\nApprouvé à l'unanimité\nSubvention Excep. Théâtre CEL\n750 €\nApprouvé à l'unanimité\nSubvention Excep. Truite de la Dure\n750 €\nPOUR : 10 \nABSTENTION : 1 (PILLOSIO)\nPompiers d'Alzonne\n300 €\nApprouvé à l'unanimité\nSubvention non affectée\n1200 €\nApprouvé à l'unanimité\nSECTION DE FONCTIONNEMENT RECETTES\nChapitre 70 : PRODUITS DES SERVICES\nApprouvé à l'unanimité\nChapitre 73 : IMPOTS ET TAXES\nApprouvé à l'unanimité\nChapitre 74 : DOTATIONS\nApprouvé à l'unanimité\nChapitre 75 : AUTRES PRODUITS DE GESTION COURANTE\nApprouvé à l'unanimité\nChapitre 77 : PRODUITS EXCEPTIONNELS\nApprouvé à l'unanimité\nChapitre 013 : ATTENUATION DE CHARGES\nApprouvé à l'unanimité\nChapitre 002 : EXCEDENT REPORTE\nApprouvé à l'unanimité\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20071012134138/http://www.montolieu.fr/docs/CRCM%2020060505.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "SECTION D'INVESTISSEMENT DEPENSES\nChapitre 001 : DEFICIT D'INVESTISSEMENT REPORTE\nApprouvé à l'unanimité\nChapitre 020 : DEPENSES IMPREVUES\nApprouvé à l'unanimité\nChapitre 16 : REMBOURSEMENT D'EMPRUNTS\nApprouvé à l'unanimité\nChapitre 21 : IMMOBILISATIONS CORPORELLES\nPOUR : 10\nABSTENTION : 1 (ETORÉ)\nChapitre 23 : IMMOBILISATIONS INCORPORELLES\nPOUR : 10 \nABSTENTION : 1 (ETORÉ)\nSECTION D'INVESTISSEMENT RECETTES\nChapitre 021 : VIREMENT DE LA SECTION DE FONCTIONNEMENT\nApprouvé à l'unanimité\nChapitre 10 : DOTATIONS\nApprouvé à l'unanimité\nChapitre 13 : SUBVENTIONS D'INVESTISSEMENT\nApprouvé à l'unanimité\nChapitre 16 : EMPRUNTS\nPOUR : 10 \nABSTENTION : 1 (ETORÉ)\nAprès les votes réalisés chapitre par chapitre, le budget M14/2006 est adopté.\nL'ordre du jour étant épuisé la séance est levée à 0 h 00.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "af1a833ad546a69ada5eb1896031eb9f4f6176dccfc6d8b7c36f11f696922328",
+      "source_bytes": 63068,
+      "retrieved_at": "2026-10-08T16:17:00+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/f2b54a749068.json",
+      "diff_from_previous": null
+    }
+  ]
+}

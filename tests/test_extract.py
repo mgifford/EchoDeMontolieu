@@ -79,3 +79,31 @@ def test_extract_pdf_uses_text_layer_and_ocrs_image_pages(tmp_path):
     assert second["page_url"] == "https://example.test/t.pdf#page=2"
     assert out["meeting_date"]["value"] == "2024-09-18"
     assert len(out["sha256"]) == 64
+
+
+def test_find_meeting_date_reads_the_old_opening_formula():
+    d = find_meeting_date("L’an deux mil quatre et le deux Mars à 20 H 30, le Conseil Municipal")
+    assert d["value"] == "2004-03-02" and d["status"] == "tentative" and "deux Mars" in d["source"]
+    assert find_meeting_date("L’an deux mil quatre et le 04 Décembre à 10 H 00")["value"] == "2004-12-04"
+    assert find_meeting_date("L'an deux mil sept et le trente et un Juillet")["value"] == "2007-07-31"
+    assert find_meeting_date("L'an deux mil huit et le premier Avril")["value"] == "2008-04-01"
+    assert find_meeting_date("L'an deux mil quatre et le trente-deux Mars") is None
+
+
+def test_the_modern_date_form_still_wins_over_the_old_one():
+    assert find_meeting_date("DU 18 SEPTEMBRE 2024")["value"] == "2024-09-18"
+
+
+def test_find_meeting_date_reads_the_later_opening_variants():
+    assert find_meeting_date("L’an deux mil six et le cinq du mois de Mai à 20 h 30")["value"] == "2006-05-05"
+    assert find_meeting_date("L’an deux mil six et le dix neuf du mois d'Août à 20 h")["value"] == "2006-08-19"
+    assert find_meeting_date("L'an deux mille sept et le 31 du mois de juillet à 20h30")["value"] == "2007-07-31"
+    assert find_meeting_date("L’an deux mil huit et le vingt-cinq du mois d’Avril")["value"] == "2008-04-25"
+    assert find_meeting_date("L'an deux mil six et le vingt deux Avril à 10 h")["value"] == "2006-04-22"
+    assert find_meeting_date("CONSEIL MUNICIPAL DU 18/07/2008 A 18H")["value"] == "2008-07-18"
+    assert find_meeting_date("DU 31/02/2008") is None
+
+
+def test_the_opening_formula_beats_an_earlier_date_in_the_text():
+    text = "04 Avril 2008 approuvé. L’an deux mil huit et le neuf du mois de mai à 20 h 45"
+    assert find_meeting_date(text)["value"] == "2008-05-09"

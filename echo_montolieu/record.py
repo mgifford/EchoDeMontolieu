@@ -45,13 +45,21 @@ def build_record(extraction, index_entry=None, include_text=True, doc_id=None,
         "source_sha256": extraction["sha256"],
         "source_bytes": extraction.get("size_bytes"),
         "source_http": index_entry.get("http"),
-        "verify": {
+        "origin": index_entry.get("origin"),
+        "verify": ({
+            "algorithm": "SHA-256",
+            "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet "
+                     "Archive capture (the official copy); origin.mirror_url is our copy of the same "
+                     "file. source_sha256 is the hash of the file as downloaded from that capture.",
+            "local_file": "shasum -a 256 FILE.pdf",
+            "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256",
+        } if index_entry.get("origin") else {
             "algorithm": "SHA-256",
             "about": "source_sha256 is the hash of the PDF exactly as downloaded from "
                      "source_url on retrieved_at. The PDF itself is not copied here.",
             "local_file": "shasum -a 256 FILE.pdf",
             "against_site": "python -m echo_montolieu verify DOCUMENT_ID",
-        },
+        }),
         "retrieved_at": extraction["retrieved_at"],
         "meeting_date": extraction.get("meeting_date"),
         "draft_suspected": index_entry.get("draft_suspected"),

@@ -1,0 +1,105 @@
+{
+  "document_id": "ee4b84cd7566",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20061124.pdf",
+  "source_url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf",
+  "source_sha256": "8d7f55192599773362826752d163f98b6f92b8f62ba5da23d1968094ddc43a73",
+  "source_bytes": 67908,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020061124.pdf",
+    "wayback_timestamp": "20071012134316",
+    "official_copy": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf",
+    "mirror_path": "archive/originals/CRCM20061124.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20061124.pdf",
+    "date_hint_from_filename": "2006-11-24"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:18:00+00:00",
+  "meeting_date": {
+    "value": "2006-11-24",
+    "source": "text layer, page 1: 'L’An deux mil six et le 24 Novembre'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 4,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’An deux mil six et le 24 Novembre à 20 H 30, le Conseil Municipal\ndûment convoqué, s’est réuni sous la Présidence de Monsieur DEMPERIER Max, Maire de\nMontolieu, dans la salle du Conseil.\nPRESENTS : PILLOSIO.ETORÉ. LASSERRE D. DELPERIER. DRIEUX. LAURET.\nOLIVIER.PARÉ.RICARD.\nABSENTS EXCUSES : PUJADE (procuration à DRIEUX) GOUZVINSKI (procuration à\nLAURET) SOLE (procuration à OLIVIER)\nABSENTS : SOULIE.LASSERREC. LAPORTE.\nSECRETAIRE DE SEANCE : DRIEUX Michel.\nAprès désignation du secrétaire, Monsieur le Maire ouvre la séance et\ndemande au Conseil l’approbation du dernier compte-rendu en date du 29 Septembre 2006.\nMadame ETORE précise que le vote sur le P.L.U. n’a pas été adopté à\nl’unanimité, mais à la majorité, eu égard à son abstention sur tous les points, ainsi que celle\nde Madame LASSERRE. Monsieur RICARD précise par ailleurs qu’il a voté pour toutes les\ndemandes sans exception, et qu’il est contre la limitation des propositions. Il donne un avis\nfavorable qu’il a déjà donné par écrit, à l’inconstructibilité  des ravins et contours proches du\nvieux village et le pourtour de la Chapelle Saint-Roch.\nMonsieur le Maire prend acte de ces remarques et demande au secrétaire de\nséance de retranscrire clairement les décision du dernier Conseil pour éviter toute ambiguïté\nsur les zones rendues constructibles dans le  P.L.U. à savoir :\nHameau des Oliviers : 11 pour. Abtentions : ETORE.LASSERRE.\nPech Rosié : 11 pour. Abstentions : ETORE  LASSERRE.\nHorte de Villeneuve : 11 pour. Abstentions : ETORE .LASSERRE.\nFranc : 11 pour. Abstentions : ETORE LASSERRE.\nPont Jalabert-Est : 11 pour. Abstentions : ETORE.LASSERRE.\nBrétous-Sud et une partie des Brétous Nord : 11 pour.Abstentions :\nETORE.LASSERRE.\nLe Causse : 11 pour. Abstentions : ETORE . LASSERRE.\nLes zones citées ci-dessus sont rendues constructibles par le Conseil à la\nmajorité.\nCes précisions étant arrêtées, le compte-rendu du 29 Septembre est adopté à la\nmajorité.\nOn passe ensuite à l’ordre du jour :\nCHOIX DE L’ENTREPRISE POUR TRAVAUX DE VOIRIE :\nLes travaux de voirie concernent successivement le chemin de Saint-Roch sur\n200 m de long, Lotissement “La Ferrière”, chemin de l’Angélique, Place du Café, chemin de\nVilleneuve, chemin de Peyremale, chemin de l’Escargotière.\nLa commission d’appel d’offres, réunie le 19 Octobre 2006, a choisi\nl’entreprise CAZAL moins disante pour un montant de 34.432,84 Euros. Les autres\nentreprises étaient SACER : 38.210,41 Euros /CHEYLA : 49.526,36 Euros.\nMadame PILLOSIO fait remarquer que le chemin qui longe sa propriété est\nendommagé.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Madame ETORE regrette d’être mise devant le fait accompli, et que le Conseil\naurait dû être consulté, Monsieur PARE intervient dans ce sens en précisant qu’il y a lieu de\nprendre en compte l’esthétique et de discuter avant de prendre une décision au delà du\nmontant de l’appel d’offres.\nMonsieur le Maire met au vote le choix de la commission d’appel d’offres. Le\nConseil vote à la majorité, sauf Madame ETORE qui est contre, et Madame PILLOSIO et\nMonsieur PARE qui s’abstiennent.\nMISSION DE L’AVOCAT POUR LA PISCINE MUNICIPALE :\nMonsieur le Maire informe le Conseil qu’il y a lieu de donner mission à un\navocat pour faire aboutir le contentieux concernant les travaux de réfection de la piscine\nmunicipale. Il propose de prendre Maître CIRERA pour défendre ce dossier.\nMonsieur le Maire rappelle au Conseil qu’il appuie sa proposition sur les\nconseils de l’architecte Mademoiselle SERRA, qui considère qu’une entreprise ne peut\nentreprendre de travaux dans l’état actuel du chantier, et conseille le choix d’un avocat.\nL’avis de la Préfecture par l’intermédiaire de Monsieur le Secrétaire Général va dans le sens\ndes propositions de Monsieur le Maire. Monsieur RICARD répète que l’avocat qu’il avait\ncontacté à Toulouse était compétent pour régler cette affaire et non Maître CIRERA, non\nspécialiste en la matière. Il demande qu’à l’avenir la Commune prenne une assurance dégâts\nouvrages. Madame ETORE dénonce l’inefficacité de ces décisions qui n’aboutiront\ncertainement pas à l’ouverture de la piscine en 2007.\nMonsieur le Maire soumet au vote le choix de Maître CIRERA pour le dossier\nde la piscine municipale, résultat du vote :\nAbstention : PILLOSIO.\nContre : .ETORE.PARE.LASSERRE;\nPour : 8.\nIl y a donc lieu de donner mandat à Maître CIRERA, avocat, pour déposer un\nrecours en relevé de forclusion auprès du Tribunal Administratif et intenter une action en\njustice contre AQUATEC L.M.E. EGB.\nMISSION DE L’AVOCAT AUPRES DU TRIBUNAL ADMINISTRATIF\nAFFAIRE MALHERBE :\nMonsieur le Maire informe le Conseil que suite à l’action intentée en justice\npar Madame MALHERBE contre la Commune de Montolieu, il y a lieu de l’autoriser à ester\nen justice pour défendre les intérêts communaux, le dossier étant préparé par les services de\nla D.D.E.\nLe Conseil passe au vote, résultat du vote :\nAbstention : PILLOSIO.\nContre : ETORE.RICARD. PARE.LASSERRE.\nPOUR : 7\nMonsieur le Maire est donc autorisé à ester en justice dans l’affaire citée ci-\ndessus.\nP.L.U.\nMonsieur le Maire informe le Conseil qu’il y lieu d’examiner quelques\ndemandes oubliées de particuliers concernant l’inscription de leurs terrains comme\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "constructibles dans le P.L.U. \nLes demandes sont les suivantes :\nParcelle N°552 à Arzens : Accord à la majorité sauf Madame ETORE qui\ns’abstient.\nParcelles au lieu dit Boulzons jusqu’à la propriété de Monsieur ORTEGA :\nAccord à la majorité sauf Madame ETORE qui s’abstient.\nParcelle Cammazou-Bas, propriété GAY : Accord à la majorité sauf Madame\nETORE qui s’abstient.\nParcelle PENA Henri en haut de la côte route de Saint-Denis, derrière\nl’immeuble TRINQUES : Accord à la majorité sauf Madame ETORE qui s’abstient.\nParcelle RIVIERE N° 187 et 189 : Accord à la majorité sauf Madame ETORE\nqui s’abstient.\nA la suite d’ une remarque de Madame ETORE sur intervention du Secrétaire\nde Mairie, ce dernier quitte la séance à 22 H 10.\nLes débats continuent : il est décidé que le terrain de Monsieur PECH Frédéric\nacheté à la Commune ne pourra pas être constructible.\nMonsieur RICARD fait part de la demande de Monsieur PECH Jean pour\nrendre son terrain constructible au lieu dit “Pigeonnier”, sis au dessus du Lotissement “La\nFerrière”. Le Conseil se prononce par vote : Abstentions : ETORE.RICARD.SOLE. Contre :\nLASSERRE D. PARE.DELPERIER.OLIVIER.LAURET. Pour : DRIEUX.\nMonsieur le Maire demande au Conseil de décider qu’à compter de ce jour,\naucune autre demande ne sera examinée par le Conseil Municipal. Les intéressés auront la\npossibilité de réitérer leur demande lors de la phase de l’enquête publique. Vote : 11 pour,\nMadame ETORE s’abstient.\nLOYER SALON DE COIFFURE :\nMonsieur le Maire rappelle au Conseil qu’au terme du contrat de location, la\nlocataire du salon “Marie Coiffure” sera propriétaire de l’immeuble.\nDes subventions ayant été encaissées après le calcul du loyer, il y a lieu de\nrembourser le trop versé à l’exploitant des lieux, Monsieur LAURET confirme cette solution,\nla Mairie n’ayant pas pour vocation de faire des bénéfices. Le nouveau montant du loyer sera\nde 250 Euros par mois à compter du 1er Décembre 2006, la locataire ne paiera pas les\nderniers mois de location à concurrence du trop perçu par la Mairie. Mesdames ETORE et\nLASSERRE s’abstiennent sur cette décision.\nQUESTIONS DIVERSES :\nCOLUMBARIUM :\nPrésentation des photos de projet d’un columbarium de l’entreprise\nAUDABRAM, emplacement à gauche du cimetière le long du mur en entrant. Monsieur\nAUDABRAM se déplacera avant les travaux pour arrêter la zone d’implantation.\nVENTE MANUFACTURE USINE :\nEstimation des Domaines pour une surface de 12.619 M2, valeur vénale :\n763.000 Euros.\nLe Conseil débat librement sur cette affaire : problème de l’achat, état de la\ntoiture, recherche de subventions, l’ampleur de l’investissement ne permet pas à la Commune\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "d’envisager l’achat, nous contacterons la Communauté de Communes après préparation d’ un\nprojet,  la Mairie pouvant être pilote mais non entièrement partie prenante.\nCONVENTION AVEC L’ASSOCIATION “MONTOLIEU VILLAGE DU\nLIVRE ET DES ARTS GRAPHIQUES”:\nUne convention a été signée avec le Centre Joë Bousquet par la Communauté\nde Communes, le Conseil Général et Montolieu Village du Livre. Le Conseil Général et la\nCommunauté de Communes verseront chacun 4000 Euros. Monsieur le Maire précise qu’il\nn’a pas proposé au Conseil Municipal de s’associer à cette convention, une première\nconvention - à revoir - liant la Commune à Montolieu Village du Livre. Il précise que la\nCommune verse déjà 11 000 Euros à Montolieu Village du Livre et que cette association lui\nreverse de son côté, 4575 Euros de location pour le local qu’elle occupe.\nIl conviendra de revoir les termes de la convention liant la Commune à\nMontolieu Village du Livre.\nATTRIBUTION LOGEMENTS :\nLe Conseil demande de veiller aux signataires des contrats. Personne seule,\ncouple. Il y aura lieu de revoir dans les critères d’attribution, les revenus des candidats,\ns’agissant de logements sociaux.\nL’ORDRE DU JOUR ÉTANT ÉPUISÉ LA SÉANCE EST LEVÉE À 23 H 30\n+++++++++++++++++++++++++\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "8d7f55192599773362826752d163f98b6f92b8f62ba5da23d1968094ddc43a73",
+      "source_bytes": 67908,
+      "retrieved_at": "2026-10-08T16:18:00+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/ee4b84cd7566.json",
+      "diff_from_previous": null
+    }
+  ]
+}

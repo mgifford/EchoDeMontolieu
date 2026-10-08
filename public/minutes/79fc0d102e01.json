@@ -1,0 +1,121 @@
+{
+  "document_id": "79fc0d102e01",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20070731.pdf",
+  "source_url": "https://web.archive.org/web/20081112040257/http://www.montolieu.fr/docs/CRCM%2020070731.pdf",
+  "source_sha256": "3bd2ebd9e24d417f167a714c4845f56b61e7f8c77b71738a0d0ad992392cfad1",
+  "source_bytes": 78969,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020070731.pdf",
+    "wayback_timestamp": "20081112040257",
+    "official_copy": "https://web.archive.org/web/20081112040257/http://www.montolieu.fr/docs/CRCM%2020070731.pdf",
+    "mirror_path": "archive/originals/CRCM20070731.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20070731.pdf",
+    "date_hint_from_filename": "2007-07-31"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:18:36+00:00",
+  "meeting_date": {
+    "value": "2007-07-31",
+    "source": "text layer, page 1: 'L'an deux mille sept et le 31 du mois de juillet'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 5,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20081112040257/http://www.montolieu.fr/docs/CRCM%2020070731.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L'an deux mille sept et le 31 du mois de juillet à 20h30, le Conseil Municipal dûment\nconvoqué s'est réuni sous la Présidence de Monsieur Delpérier, Maire de Montolieu,\ndans la salle d'honneur de la Mairie.\nÉtaient présents : Mmes Etoré, Gousvinski, Lasserre, Pillosio\nMessieurs Delpérier, Drieux, Lauret, Olivier, Paré\nAbsents excusés : Mme Pujade : procuration à M. Lauret\n                  M. Ricard : procuration à Mme Etoré\nAbsents : Mme Soulié, Messieurs Laporte, Lasserre, Solé.\nLe secrétariat de séance sera assuré par Mme Etoré.\nM. le Maire demande s'il y a des observations sur le compte rendu de la réunion\nprécédente.\nPlusieurs conseillers protestent contre l'imprécision, voire l'inexactitude de ce compte\nrendu et demandent à ce que les rectifications figurent dans la version affichée du compte\nrendu suivant.\nMme Etoré a contesté le 6 juillet le fait que M. le Maire ait annulé la séance sous\nprétexte qu'il n'aurait pas eu le quorum alors que Mme Lasserre arrivait, que Mme Etoré\nle lui avait dit, que cela venait de lui être confirmé par téléphone, que le retard de Mme\nLasserre n'excédait pas 10 minutes, et que ce retard pouvait aisément se comprendre au\nregard de sa situation familiale.\n(S'ensuit une digression sur les aménagements pour handicapés, Mme Lasserre faisant\nobserver que le foyer municipal n'est pas aménagé pour les handicapés . Mme\nGousvinski approuve et pense que l'on pourrait saisir l'intercommunalité de ce\nproblème. Elle compare avec les aménagements existant dans un pays comme\nl'Allemagne et fait l'éloge de la discipline qui y règne, par exemple en matière de tri des\nordures ménagères. Mme Etoré fait observer qu'il faut tenir compte des différences de\ntraditions et de mentalités.)\nEn ce qui concerne la rénovation des appartements de l'école maternelle. Mme Lasserre\net Mme Etoré demandent qu'il soit précisé qu'aucun des membres de la commission\nd'appel d'offres n'a été officiellement convoqué. Mme Etoré demande quelle était alors la\nnature de la réunion qui s'est tenue entre le Maire et ses adjoints, sans convocation.\nPar ailleurs, contrairement à ce qui est écrit dans le compte rendu de ladite séance, Mme\nEtoré n'a pas \"estimé qu'il fallait faire les travaux parce que le mandat arrivait à son\nterme\", mais reproché à l'équipe dirigeante de se précipiter pour faire des travaux, le\nmandant arrivant à son terme et rien n'ayant été fait jusque là.\nEn ce qui concerne l'achat de matériel informatique, Mme Etoré n'a pas pu dire ne pas\nfaire confiance à M. Durain (qui est chargé de la création du site de Village du Livre).\nEn ce qui concerne l'achat d'un photocopieur, M. Paré avait déclaré que la location\npermettait d'avoir constamment un matériel renouvelé et donc à la pointe du progrès,\nc'est la raison pour laquelle il était favorable à la solution de la location.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20081112040257/http://www.montolieu.fr/docs/CRCM%2020070731.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "M. le Maire s'engage à apporter les rectifications demandées et propose de passer à\nl'ordre du jour.\nConvention avec la Chambre des Métiers pour l'atelier-relais boucherie\nM. le Maire expose la nécessité de monter un dossier pour obtenir des subventions de\nl'Europe, de la Région et du département.\nLa Chambre des Métiers offre un appui pour le montage de ce dossier, moyennant une\ncontribution de 1000 €. M. le Maire propose au conseil de voter la convention\ncorrespondante.\nM. Paré rappelle qu'il avait demandé si la proximité du transformateur ne posait pas de\np r o b l è m e \n( e n \np a r t i c u l i e r \nd e \nv e n t i l a t i o n ) .\nM. le Maire déclare que l'architecte s'est renseignée et a dit qu'il n'y avait pas d'objection\nd'EDF.\nM. Paré demande si cela est certifié par écrit.\nM. le Maire répond par la négative et s'engage à demander la confirmation écrite; mais\nsollicite du Conseil l'autorisation de signer la convention sous réserve de cette\nconfirmation écrite.\nM. \nParé \nrappelle \nque \nce \ndébat \na \ndéjà \neu \nlieu.\nMme Etoré donne lecture des notes communiquées par M. Ricard qui rappelle que la\nMairie devra rester propriétaire du bâtiment, et que le loyer devra couvrir la dépense,\nque par ailleurs les conseillers et présidents d'associations subventionnées devraient\ns'engager à faire travailler prioritairement les commerçants et artisans du village.\nMme Gousvinski se demande si l'intercommunalité ne peut pas se charger du montage\ndu dossier. Elle observe que ces prestations des administrations ou chambres consulaires\nétaient autrefois gratuites.\nMme Etoré persiste à penser que ce projet n'est pas un bon projet.\nVote sur l'autorisation au Maire de signer la convention avec la Chambre des Métiers\nsous réserve de la confirmation par EDF de l'absence d'obstacle:\nContre : 1 (Etoré)\nAbstention 4 : Paré, Pillosio, Lasserre, Gousvinski\nPour 6.\nModifications des statuts de la Communauté de Communes\nM. le Maire informe le Conseil que ces modifications portent sur la création d'un relais\nd'assistance maternelle à Moussoulens et sur la conclusion d'une convention avec\nMontolieu Village du Livre pour sa collaboration avec le Centre Joë Bousquet.\nMme Gousvinski a observé qu'au dernier Conseil communautaire, sur 9 communes,\nreprésentées par 18 élus (et 18 suppléants), seuls 10 élus étaient présents. M. Delpérier\nrépond que c'est un cas exceptionnel et que d'une façon générale les élus délégués\nassistent effectivement au Conseil communautaire.\nMme Gousvinski déplore aussi la \"mise devant le fait accompli\", regrette que les\ncomptes rendus des réunions du Conseil communautaire ne soient pas transmis aux\nc\no\nn\ns\ne\ni\nl\nl\ne\nr\ns\n \nm\nu\nn\ni\nc\ni\np\na\nu\nx\n.\nM. Paré s'exprime dans le même sens, observe aussi que \"l'on aimerait être mis au\ncourant avant\".\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20081112040257/http://www.montolieu.fr/docs/CRCM%2020070731.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Mme Gousvinski évoque le projet d'EPAD à Moussoulens dont le dossier serait selon\nelle déjà très avancé (établissement pour personnes atteintes de la maladie d'Alsheimer),\nelle dit qu'on aimerait connaître le détail, nombre de lits, fonctionnement (rapport avec le\npersonnel du SIVOM, etc).\nMme Etoré demande si l'on sait quel serait la position par rapport à la Maison de\nretraite du couvent de Montolieu.\nUn long débat s'engage sur l'implantation du relais d'assistance maternelle, M. Delpérier\nestimant \"logique\" pour des raisons géographiques qu'il soit à Moussoulens.\nMme Etoré donne lecture des notes communiquées par M. Ricard  qui ne comprend pas\nces fréquentes modifications de statuts et ne se dit prêt à les voter que si elles sont\nnécessaires à l'obtention des subventions de la Caisse d'allocations familiales ; il s'y\nrefuse si l'argent est destiné à d'autres projets tels que le centre culturel et social\nd'AVEC, la couverture des terrains de tennis de Ventenac ou le jardin médiéval de St\nMartin le Vieil.\nMme Gousvinski fait observer que dans le remplacement du contrat enfance-jeunesse\npar le contrat \"temps libre\", le ramassage des adolescents fréquentant le centre aéré a été\nsupprimé pour Montolieu. M. le Maire dit l'avoir appris a posteriori.\nLes modifications de statuts de l'intercommunalité sont finalement approuvées à\nl'unanimité.\nAvenant à la Mission de Maître d'œuvre. Appartements de l'école maternelle\nM. le Maire expose que la première évaluation des travaux sur ces appartements était de\n120.000 €. L'avant-projet définitif porte sur un montant de 152.571,70 €.\nLes honoraires de M. Lavail, architecte d'intérieur doivent donc être augmentés de\n18.000 €.\n(M. Lavail a fait observer à M. le Maire qu'il ne prélèverait pas d'honoraires sur la\nréfection de façade)\nMme Etoré donne lecture des notes de M. Ricard qui ne votera pas ce surcoût dans la\nmesure où l'architecte pouvait le prévoir.\nContre : 2 (Mme Etoré, M. Ricard)\nPour : 9\nAffaire Elysée-Factor/Mairie de Montolieu. Procédure d'appel et assistance par le\ncabinet d'avocats\nLa Société d'affacturage qui a attaqué la commune et perdu en première instance et a fait\nappel en date du 13 juillet, l'affaire sera jugée par le tribunal de Marseille.\nPour défendre la commune dans la poursuite de cette affaire, le cabinet d'avocats de Me.\nCirera demande 2.990 €.\nMme Etoré se refuse à quelque vote que ce soit sur l'affaire de la piscine dont M. le\nMaire n'informe pas clairement le Conseil.\nElle donne lecture des notes de M. Ricard qui pense qu'il faut voter cette somme, les\nhonoraires demandés par l'avocat étant de 3000 € alors que la contestation porte sur\n30.000 €.\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20081112040257/http://www.montolieu.fr/docs/CRCM%2020070731.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Mme Etoré se refuse à voter quoi que ce soit concernant la piscine étant donné le\nmanque d'information claire.\nElle demande à cette occasion quand a eu lieu la dernière visite de l'expert prévue pour\nfin juillet. M. le Maire dit qu'elle n'a pas eu lieu et que le rapport aurait dû selon lui être\nremis le 27 juillet.\nAbstentions 2 : Mmes Etoré, Lasserre\nPour : 9\nDemande de subvention \"fonds unique pour le logement\"\nQuestion retirée de l'ordre du jour, M. le Maire voulant recueillir de plus amples\ninformations.\nParticipation au raccordement à l'égoût\nIl s'agit de la réactivation d'une participation existante qui était de 3.OOO francs. Le\ndispositif existe, il n'est pas appliqué. La proposition est de demander cette\nparticipation aux personnes qui se raccordent à l'égoût et d'en fixer le montant (la somme\nd e \n7 5 0 \n€ \ne s t \névoquée).\nM. le Maire donne lecture à cet effet d'un texte proposé par Mme Clarenc, fonctionnaire\nde la DDE.\nCe texte donne lieu à différentes interprétations.\nSont évoquées à cette occasion les interventions de la SADE dont il semble que l'équipe\ndirigeante ne soit pas toujours informée.\nMme Gousvinski rappelle que la pompe de relevage qui se trouve au-dessous de son\ndomicile est une installation problématique à bien des égards, dont l'aspect esthétique\nn'est pas le moindre.\nA propos des raccordements : que se passe-t-il pour les maisons anciennes, ou les\nchangements de destination de bâtiments ancien ?\nM. Sylvain Paré pense qu'en dispensant de cette taxe - pour une durée déterminée - les\npropriétaires non encore raccordés à l'égout (dont plusieurs conseillers rappellent que la\nliste a été établie), on exercerait une action pédagogique et on accélèrerait le\nraccordement.\nMme Etoré doute de cet effet, le problème du coût de l'installation restant entier.\nLe débat se poursuit assez longuement, et les différentes interprétations conduisent à\nsurseoir à toute décision.\nMme Etoré déplore que le Maire ne prévoie pas de questions diverses à l'ordre du jour,\nalors que les problèmes importants sont multiples et que l'on passe un temps démesuré\nsur des problèmes secondaires.\nL'ordre du jour étant épuisé, la séance est levée à 23 h.\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20081112040257/http://www.montolieu.fr/docs/CRCM%2020070731.pdf#page=5",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.0,
+      "text": "",
+      "text_sparse": "",
+      "ocr": {
+        "mean_conf": null,
+        "min_conf": null,
+        "low_word_fraction": null,
+        "words": 0
+      }
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "3bd2ebd9e24d417f167a714c4845f56b61e7f8c77b71738a0d0ad992392cfad1",
+      "source_bytes": 78969,
+      "retrieved_at": "2026-10-08T16:18:36+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/79fc0d102e01.json",
+      "diff_from_previous": null
+    }
+  ]
+}

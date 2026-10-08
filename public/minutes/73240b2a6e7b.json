@@ -1,0 +1,87 @@
+{
+  "document_id": "73240b2a6e7b",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20060617.pdf",
+  "source_url": "https://web.archive.org/web/20071012134213/http://www.montolieu.fr/docs/CRCM%2020060617.pdf",
+  "source_sha256": "6b7a827e3758c2049c32040372ed17cdcd9b6ad929bd76cd44aa1569effb999c",
+  "source_bytes": 57768,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020060617.pdf",
+    "wayback_timestamp": "20071012134213",
+    "official_copy": "https://web.archive.org/web/20071012134213/http://www.montolieu.fr/docs/CRCM%2020060617.pdf",
+    "mirror_path": "archive/originals/CRCM20060617.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20060617.pdf",
+    "date_hint_from_filename": "2006-06-17"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:17:24+00:00",
+  "meeting_date": {
+    "value": "2006-06-17",
+    "source": "text layer, page 1: 'L’an deux mil six et le 17 Juin'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 2,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20071012134213/http://www.montolieu.fr/docs/CRCM%2020060617.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’an deux mil six et le 17 Juin à 10 h 30, le Conseil Municipal dûment convoqué, s’est\nréuni sous la Présidence de Monsieur DELPERIER Max, Maire de Montolieu, dans la salle du\nConseil.\nEtaient présents : ETORE, PARE, PILLOSIO, GOUZVINSKI, OLIVIER, LAURET,\nDELPERIER, DRIEUX.\nEtaient absents : PUJADE procuration à LAURET, LASSERRE D. procuration à\nPILLOSIO, LASSERRE C. procuration à PARE, RICARD procuration à ETORE, SOULIE,\nSOLE.\nMonsieur DRIEUX est désigné comme Secrétaire de séance.\nMonsieur le Maire demande au Conseil l’approbation du Procès-Verbal de la séance\ndu 30 Mai 2006, dont copie leur a été communiquée avant la séance.\nMadame ETORE déclare qu’elle ne signera pas ce Procès-Verbal, dans la mesure où\ncomme à l’accoutumée il ne reflète pas véritablement les différentes interventions des\nConseillers.\nMonsieur le Maire déclare que ce genre d’objection systématique persiste il faudra en\narriver à enregistrer les séances. Madame ETORE pose la question de la légalité de cette\npratique. Monsieur OLIVIER précise que cette situation devient pénible et n’est pas favorable\nà cette solution.\nMadame ETORE se prononce de refaire le Procès-Verbal et de le soumettre à\nl’approbation du Conseil. Monsieur LAURET, Secrétaire de la dernière séance, s’oppose\nvigoureusement à cette proposition considérant que Madame ETORE a, comme chaque\nConseiller, tout loisir d’effectuer par écrit les rectificatifs qu’elle juge indispensable à ajouter,\nmais en aucun cas elle ne peut se substituer à postériori au Secrétaire de séance.\nLe reste du Conseil approuve le Procès-Verbal du 30 Mai 2006.\nInstallation d’un commerçant boucher.\nMonsieur le Maire informe le Conseil de la demande de Madame et Monsieur\nGALLART Patrick, commerçants en boucherie, domiciliés à COURSAN (Aude), de\ns’installer sur la Commune de Montolieu en aménageant les petites halles.\nMonsieur PARE fait remarquer que cela fait cinq années qu’il propose l’aménagement\nde cet espace. Madame PILLOSIO demande sur quoi va porter le vote ? Le Maire répond\nqu’il y a lieu de voter sur l’accord de principe de l’installation d’une boucherie à cet endroit.\nLa Commune effectuerait les travaux, après études et démarches administratives par\nun appel d’offres auprès d’architectes, emprunt, le matériel financé par les pétitionnaires, ces\nderniers seraient redevables d’un loyer, la Commune restant propriétaire des lieux.\nL’accord de principe est voté à la majorité des membres présents.\nAffaire piscine : Choix d’un avocat.\nMonsieur le Maire rappelle au Conseil qu’il y a lieu de prendre une décision quant au\nchoix d’un avocat qui s’impose pour que l’affaire de la piscine soit résolue rapidement.\nMonsieur le Maire informe que le maçon n’est pas couvert par son assurance pour ces\nproblèmes, par contre la Société AQUATEC a une responsabilité civile mais pas de\ndécennale.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20071012134213/http://www.montolieu.fr/docs/CRCM%2020060617.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Monsieur le Maire propose au Conseil de prendre connaissance du rapport de Maître\nORY, Huissier de Justice, qui laisse apparaître très clairement un grand nombre de malfaçons.\nMesdames ETORE et PILLOSIO déclarent que le problème n’est pas là, mais dans l’urgence\nà ouvrir la piscine le plus tôt possible, Monsieur PARE complète ces remarques en demandant\nde répertorier les travaux à effectuer. Madame GOUZVINSKI déclare soutenir Monsieur le\nMaire dans sa démarche de prendre un avocat, dans le cadre de son devoir et del’application\ndu droit, ainsi que de se retourner contre le maçon.\nMadame ETORE lui demande d’arrêter de dire n’importe quoi ce à quoi lui répond le\nMaire de respecter la liberté de penser différemment.\nMadame ETORE demande que les travaux soient fait immédiatement aux fins de\nsauver l’ensemble des équipements qui vont aller en se détériorant, rendant responsable le\nMaire de ne pas s’occuper sérieusement de ce problème. Monsieur le Maire répond que les\ntravaux ne peuvent être fait qu’après la visite d’un expert.\nMadame GOUZVINSKI rappelle que les entreprises sont tenues de rendre des\ncomptes au travers des procédures de conciliation, judiciaires et administratives.\nMonsieur PARE demande si une procédure judiciaire est nécessaire ?\nMonsieur le Maire demande au Conseil de passer au vote pour le principe de prendre\nun avocat.\nIl en résulte :\n6 CONTRE : PARE, ETORE, PILLOSIO, LASSERRE D., LASSERRE C., RICARD.\n6 POUR : LAURET, PUJADE, DELPERIER,GOUZVINSKI, OLIVIER, DRIEUX.\nLa voix du Maire étant prépondérante, le principe du choix d’un avocat est adopté. Le\nchoix adopté à 6 voix se portera entre Maîtres MAYNADIER, CIRERA et THALAMAN.\nMadame ETORE dit que c’est une honte de confier cette affaire à n’importe qui.\nMonsieur PARE pose le problème des délais pour un référé et dénonce des bases de réflexion\ntrop floues. Il met en garde le Maire de sa responsabilité quant au contrôle des jeunes qui vont\nà la rivière, et de leur activités estivales dans le village.\nMadame GOUZVINSKI déclare qu’il n’y a pas lieu de mettre la pression et de verser\ndans le catastrophisme, les jeunes ont d’autres possibilités de loisirs : Tennis, lecture et\nprendre les garanties maximales. Madame ETORE reconnaît en la position de Madame\nGOUZVINSKI, les effets de la  « morale protestante ». (phrase retranscrite sur le registre à la\ndemande de Madame GOUZVINSKI, Madame ETORE déclarant qu’il n’y a rien de grave à\nfaire cette remarque).\nMonsieur LAURET, étant resté sur sa réserve tient à préciser que c’est lui qui avait\npris la responsabilité de proposer l’entreprise CAP INGELEC, conscient du coût plus élevé de\nleurs prestations, mais aussi de leur compétence, mais à vouloir prendre moins cher on voit le\nrésultat.\nL’ordre du jour étant épuisé, la séance est levée à 12 h 00.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "6b7a827e3758c2049c32040372ed17cdcd9b6ad929bd76cd44aa1569effb999c",
+      "source_bytes": 57768,
+      "retrieved_at": "2026-10-08T16:17:24+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/73240b2a6e7b.json",
+      "diff_from_previous": null
+    }
+  ]
+}

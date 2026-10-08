@@ -87,7 +87,9 @@ def load_meetings(public_dir):
     entries = sorted(index["documents"], key=lambda d: ((d["meeting_date"] or {}).get("value") or "", d["filename"] or ""))
     for entry in entries:
         rec = json.loads((public / entry["file"]).read_text(encoding="utf-8"))
-        folder = meeting_folder(rec, taken)
+        folder = meeting_folder(rec, taken)       # computed for every record so folder names match render_all
+        if rec.get("origin"):
+            continue                              # archived minutes have no digest yet (see render_all)
         meeting = parse_meeting(rec)
         tokens = {t for n in known_names(rec) for t in re.findall(r"[a-z]{3,}", _fold(n))}
         out.append({"meeting": meeting, "folder": folder, "name_tokens": tokens})

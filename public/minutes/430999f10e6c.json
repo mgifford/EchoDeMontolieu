@@ -11,6 +11,7 @@
     "etag": null,
     "last_modified": "Thu, 30 Jan 2025 13:21:38 GMT"
   },
+  "origin": null,
   "verify": {
     "algorithm": "SHA-256",
     "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",

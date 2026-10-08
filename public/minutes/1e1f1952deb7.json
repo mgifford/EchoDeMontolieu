@@ -1,0 +1,121 @@
+{
+  "document_id": "1e1f1952deb7",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM141005.pdf",
+  "source_url": "https://web.archive.org/web/20061123183052/http://www.montolieu.fr/docs/CRCM141005.pdf",
+  "source_sha256": "6cd85d16dc458bcb9cb56b1ef35b3d06b2bda3c65a5c5937a3aadc2cfcdde1aa",
+  "source_bytes": 83286,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM141005.pdf",
+    "wayback_timestamp": "20061123183052",
+    "official_copy": "https://web.archive.org/web/20061123183052/http://www.montolieu.fr/docs/CRCM141005.pdf",
+    "mirror_path": "archive/originals/CRCM141005.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM141005.pdf",
+    "date_hint_from_filename": "2005-10-14"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:15:48+00:00",
+  "meeting_date": {
+    "value": "2005-10-14",
+    "source": "text layer, page 1: 'L'an deux mil cinq et le quatorze Octobre'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 5,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20061123183052/http://www.montolieu.fr/docs/CRCM141005.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L'an deux mil cinq et le quatorze  Octobre à 20 h 30, le Conseil Municipal dûment\nconvoqué s'est réuni sous la Présidence de Monsieur DELPERIER Max, Maire de Montolieu,\ndans la salle du Conseil.\nEtaient présents : PUJADE, LAURET, CHOTARD, OLIVIER, SOULIÉ, PARÉ,\nLASSERRE D., ETORÉ, DRIEUX, DELPERIER.\nEtaient Absents :\nLASSERRE C., procuration à LASSERRE D.\nRICARD, procuration à ETORÉ.\nGOUZVINSKI procuration à LAURET.\nLAPORTE, procuration à DELPERIER.\nSOLÉ.\nSecrétariat de séance : DRIEUX Michel.\nLe compte-rendu du Conseil Municipal du 25 Juin 2005 est adopté à l'unanimité.\nDRIEUX Michel est désigné comme Secrétaire de Séance.\nDélibération budgétaires modificatives.\nPrise en non-valeur d'une dette de 32 €uros.\nMonsieur le Maire informe le Conseil qu'un dossier d'admission en non-valeur a été\nprésenté par Madame HILAIRE Brigitte, Comptable du Trésor à ALZONNE, pour une\ncréance irrécouvrable d'une somme de 32 €uros portant sur un loyer.\nLe Conseil a l'unanimité décide de passer cette somme en créance irrécouvrable et de\nce fait, décide de prélever ces fonds sur le chapitre des dépenses imprévues afin d'alimenter\nl'article 654  - Pertes sur créances irrécouvrables.\nSubvention exceptionnelle aux Anciens d'Algérie.\nLe Conseil à l'unanimité décide de prélever la somme de 400 €uros sur la subvention\nnon affectée de l'article 6574 – subvention aux associations.\nSubvention pour  la Journée des Métiers d'Art.\nMonsieur le Maire informe le Conseil que l'Archipel des Métiers d'Art ne\nsubventionne plus la Journée des Métiers d'Art. De ce fait, l'Office Intercommunal de\nTourisme fait appel à la Commune pour financer ce manque. Madame ETORÉ précise que\nl'Archipel des Métiers d'Art n'est plus subventionné par la Région Languedoc-Roussillon et\ndonc, ne peut honorer toutes les subventions sollicitées. Monsieur PARÉ regrette que l'Office\nde Tourisme n'ait pas mieux préparé son budget pour cette manifestation. Plusieurs conseillers\npartagent le même avis.\nLe Conseil Municipal décide d'attribuer à l'Office Intercommunal de Tourisme pour\nl'organisation de la Journée des Métiers d'Arts, une subvention exceptionnelle plafonnée à\n2 400 €uros.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20061123183052/http://www.montolieu.fr/docs/CRCM141005.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Le Conseil Municipal souhaite qu'à l'avenir, ce dossier pour l'organisation de cette\nmanifestation soit mieux préparé. Le Conseil demande que ce problème soit également\ndébattu avec la Communauté de Communes.\nChoix d'entreprise travaux de voirie et enduits de façades.\nLe Conseil Municipal entérine la décision de la commission d'ouverture des plis pour\nles travaux de réfection de voirie à savoir : Entreprise CAZAL pour  16 584,93 €uros T.T.C.\nL'Entreprise RAVALEMENT 2000 de Carcassonne a proposé un devis pour l'enduit\nde l'extension du garage communal. Leur proposition s'élève à 1 974,79 €uros T.T.C.\nLe Conseil a l'unanimité décide de faire effectuer les travaux par cette entreprise.\nFinancement pour des travaux destiné à un handicapé.\nMonsieur DELPERIER fait un historique des travaux réalisés à l'appartement de\nMonsieur PETITPAIN au Hameau des Oliviers.\nPour le financement de ces travaux, Monsieur le Maire propose de créer un nouveau\nprogramme intitulé \"Logement pour handicapé\", et propose d'alimenter ce programme en\nprélevant la somme 6 000 €uros sur le programme \"Construction d'un garage\".\nPOUR :\n13\nCONTRE : \n1 (ETORÉ)\nMadame ETORÉ fait remarquer que le vote demandé au Conseil intervient après la\nréalisation des travaux et que cette pratique n'est pas admissible. Que la décision\nd'aménagement de l'habitation de Monsieur PETITPAIN a été prise sans consultation, ni\ninformation de la commission logement, ni du Conseil. Que les travaux ont occupé les\nemployés communaux pendant plus d'un mois au détriment de l'entretien du village – qui est\nextrêmement sale – et des autres tâches qui leur incombent normalement. Que d'autre\nlocataires de la commune vivent pendant ce temps-là dans des conditions d'insalubrité, et que\ncette situation dure depuis longtemps. Que la somme qu'indique Monsieur le Maire quant au\ncoût des travaux ne couvre que les matériaux et ne tient aucun compte du temps de travail des\nemployés qui a aussi un coût.\nMonsieur DELPERIER précise que le CCAS a souhaité vivement que la commune\nréalise au plus tôt ces aménagements du fait que Monsieur PETITPAIN allait intégrer ce\npavillon début Octobre. Monsieur DELPERIER s'étonne que Madame ETORÉ n'ait pas\ndemandé combien avait coûté le déplacement de 2 employés communaux dans l'Hérault pour\nle compte de l'Association Montolieu Village du Livre.\nMonsieur le Maire propose de fixer le montant du loyer à 300 €uros. Le Conseil\ndonne son accord à l'unanimité.\nEchange de parcelles GALTIER/Commune de MONTOLIEU.\nLes conclusions concernant cet échange ont été approuvées par le Conseil Municipal\nle 18 Mars 2005.\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20061123183052/http://www.montolieu.fr/docs/CRCM141005.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Le document d'arpentage a été adressé à la Mairie et il convient donc désormais\nd'indiquer précisément les parcelles concernées.\nMonsieur GALTIER cède à la Commune les parcelles :\nSection A n°560 d'une contenance de 477 m2 ;\nSection A n°563 d'une contenance de 420 m2.\nLa Commune cède à Monsieur GALTIER la parcelle :\nSection A n°562 d'une contenance de 358 m2.\nLe Conseil donne son accord à l'unanimité.\nModification du P.O.S.\nMademoiselle SERRA a présenté un projet d'aménagement du terrain CONRADTY,\nmais le P.O.S actuel ne permet pas de réaliser ces aménagements.\nDe ce fait, Monsieur DELPERIER expose au Conseil que le P.O.S tel qu'il a été\napprouvé le 23 Mars 2000, nécessite quelques remaniements afin de donner un caractère plus\nurbain aux zones constructibles proches du vieux village : mixité, densification, distances par\nrapport aux voies etc…\nLe Conseil donne son accord à l'unanimité.\nLe dossier de modification du P.O.S sera élaboré par la D.D.E, cette prestation étant\ngratuite.\nPour l'aménagement du terrain CONRADTY, des travaux des relevés topographiques\ndoivent être réalisés.\nLa Société AXIOME, représentée par Monsieur BONNEL Thomas - Géomètre-Expert\n- a fait une offre à 813,28 € T.T.C pour la réalisation de ces travaux. Le Conseil donne son\naccord à l'unanimité.\nP.L.U  \nLes orientations proposées par Madame ESPIASSE du Cabinet ECEP sont approuvées\npar le Conseil Municipal, à savoir :\n- \nPriorité à la valorisation du bâti ancien ;\n- \nlimitation de la zone constructible au-dessous de la Colline Saint-Roch à\nl'alignement de la parcelle cadastrée Section C n°536 ;\n- \nprojet de zone constructible densifiée au Brétous Sud ;\n- \nréserve des terrains voisins de la piscine ;\n- \nzone constructible (avec coefficient d'occupation du sol important) jouxtant le\nHameau des Oliviers ;\n- \nzone constructible chemin de l'Horte de Villeneuve ;\n- \nautorisation de changement d'affectation ;\n- \nétudier éventuellement les échanges particulier/commune ;\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20061123183052/http://www.montolieu.fr/docs/CRCM141005.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Le détail de ces projets et les demandes particulières seront étudiées en fonction de ces\norientations avec l'aide du Cabinet ECEP.\nZ.P.P.A.U.P.\nMonsieur DELPERIER donne lecture d'une correspondance de Monsieur le Président\nde la Région Midi-Pyrénées à Monsieur le Premier Ministre.\nEn effet, les particuliers propriétaires de bien se trouvant dans des communes ou une\nZ.P.P.A.U.P. a été instaurée pouvaient prétendre, par le biais de la Loi MALRAUX, à un\ncrédit d'impôt pour la restauration de ces immeubles.\nLe Gouvernement envisage de plafonner à 8 000 €uros ce crédit d'impôt.\nDe ce fait Monsieur le Président de la Région Midi-Pyrénées demande aux\nparlementaires d'abroger cette nouvelle disposition.\nLe Conseil souhaite qu'un courrier identique soit adressé au 1er Ministre par la Mairie\nde Montolieu.\nPermis de Construire au Fanjabet.\nMonsieur le Maire informe le Conseil que les nouveaux acquéreurs du terrain du\nFanjabet ont déposé un permis de construire.\nMadame ESPIASSE du Cabinet ECEP souhaitait qu'aucune construction ne soit\nédifiée sur cette parcelle. Monsieur DELPERIER rappelle que le P.O.S est opposable au tiers\net qu'il ne peut émettre d'avis défavorable. Le Conseil est d'accord avec cette position.\nSuppression de la cabine téléphonique.\nMonsieur DELPERIER informe le Conseil que France Télécom souhaite supprimer la\ncabine téléphonique située sur le parking de la Piscine.\nLe Conseil à l'unanimité est contre cette proposition et en informera France Télécom.\nContrat d'assurance du Personnel.\nLe Centre de Gestion se propose de se charger de l'appel d'offre pour le contrat\nd'assurance des risques statutaires, ce dernier arrivant à échéance le 31 Décembre 2006.\nLe Conseil donne son accord à l'unanimité.\nTravaux dans le centre du village.\nLes intéressés ont régularisé leur situation en déposant une Déclaration de Travaux.\nL'ordre du jour étant épuisé, la séance est levé à 22 h 10.\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20061123183052/http://www.montolieu.fr/docs/CRCM141005.pdf#page=5",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.0,
+      "text": "",
+      "text_sparse": "",
+      "ocr": {
+        "mean_conf": null,
+        "min_conf": null,
+        "low_word_fraction": null,
+        "words": 0
+      }
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "6cd85d16dc458bcb9cb56b1ef35b3d06b2bda3c65a5c5937a3aadc2cfcdde1aa",
+      "source_bytes": 83286,
+      "retrieved_at": "2026-10-08T16:15:48+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/1e1f1952deb7.json",
+      "diff_from_previous": null
+    }
+  ]
+}

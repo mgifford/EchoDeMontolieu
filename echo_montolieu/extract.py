@@ -39,6 +39,36 @@ _DATE_RE = re.compile(
     re.IGNORECASE)
 
 
+_UNITS = ["zéro", "un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix", "onze",
+          "douze", "treize", "quatorze", "quinze", "seize", "dix-sept", "dix-huit", "dix-neuf"]
+_TENS = {"vingt": 20, "trente": 30}
+# Older minutes open with a formula: "L'an deux mil quatre et le deux Mars" or "... le 04 Décembre".
+_OLD_DATE_RE = re.compile(
+    r"L['’]an\s+deux\s+mil(?:les?)?\s+(?P<year>" + "|".join(sorted(map(re.escape, _UNITS), key=len, reverse=True)) +
+    r"|vingt(?:\s+et\s+un)?)\s+et\s+le\s+(?P<day>\d{1,2}|premier|[a-zéû]+(?:[\s-]+(?:et[\s-]+)?[a-zéû]+)?)(?:\s+du\s+mois)?\s+(?:d['’]\s*|de\s+)?"
+    r"(?P<month>" + "|".join(MONTHS) + r")\b", re.IGNORECASE)
+_NUM_DATE_RE = re.compile(r"\bCONSEIL\s+MUNICIPAL\s+DU\s+(\d{1,2})/(\d{1,2})/(20\d{2})\b", re.IGNORECASE)
+
+
+def _word_number(s):
+    s = re.sub(r"[\s-]+", " ", s.strip().lower()).replace(" et ", " ")
+    s = re.sub(r"\bdix (sept|huit|neuf)\b", r"dix-\1", s)
+    if s == "premier":
+        return 1
+    if s.isdigit():
+        return int(s)
+    parts = s.split()
+    total = 0
+    for p in parts:
+        if p in _TENS:
+            total += _TENS[p]
+        elif p in _UNITS:
+            total += _UNITS.index(p)
+        else:
+            return None
+    return total or None
+
+
 def page_needs_ocr(text, image_fraction):
     chars = len(text.strip())
     return chars < MIN_TEXT_CHARS or (
@@ -47,8 +77,21 @@ def page_needs_ocr(text, image_fraction):
 
 def find_meeting_date(page_text, page_number=1):
     """First French long-form date on the page, labelled tentative."""
+    o = _OLD_DATE_RE.search(page_text)   # the opening formula names the meeting; a date in the body may not
+    if o:
+        year, day = _word_number(o.group("year")), _word_number(o.group("day"))
+        if year is not None and day and 1 <= day <= 31:
+            return {
+                "value": f"{2000 + year:04d}-{MONTHS[o.group('month').lower()]:02d}-{day:02d}",
+                "source": f"text layer, page {page_number}: '{' '.join(o.group(0).split())}'",
+                "status": "tentative",
+            }
     m = _DATE_RE.search(page_text)
     if not m:
+        n = _NUM_DATE_RE.search(page_text)
+        if n and 1 <= int(n.group(1)) <= 31 and 1 <= int(n.group(2)) <= 12:
+            return {"value": f"{int(n.group(3)):04d}-{int(n.group(2)):02d}-{int(n.group(1)):02d}",
+                    "source": f"text layer, page {page_number}: '{n.group(0)}'", "status": "tentative"}
         return None
     day, month, year = int(m.group(1)), MONTHS[m.group(2).lower()], int(m.group(3))
     return {

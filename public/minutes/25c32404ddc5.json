@@ -1,0 +1,114 @@
+{
+  "document_id": "25c32404ddc5",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20060422.pdf",
+  "source_url": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf",
+  "source_sha256": "f5f7b88072a83da5d9b109b619daa1b9ff2e6c8b13791811e60b53639ace3416",
+  "source_bytes": 78303,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020060422.pdf",
+    "wayback_timestamp": "20071012134429",
+    "official_copy": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf",
+    "mirror_path": "archive/originals/CRCM20060422.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20060422.pdf",
+    "date_hint_from_filename": "2006-04-22"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:16:48+00:00",
+  "meeting_date": {
+    "value": "2006-04-22",
+    "source": "text layer, page 1: 'L'an deux mil six et le vingt deux Avril'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 5,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L'an deux mil six et le vingt deux Avril à 10 h 00, le Conseil Municipal dûment\nconvoqué s'est réuni sous la Présidence de Monsieur DELPERIER Max, Maire de Montolieu,\ndans la salle du Conseil.\nEtaient présents :\nPUJADE, LAURET, OLIVIER, RICARD, LASSERRE D., PARÉ,\nETORÉ, DRIEUX, DELPERIER, CHOTARD.\nEtaient Absents :\nLASSERRE C. (procuration à LASSERRE D.)\nLAPORTE (procuration à LAURET)\nGOUZVINSKI (procuration à OLIVIER)\nSOULIÉ\nSOLÉ.\nSecrétariat de séance : DRIEUX.\nMadame ETORÉ estime que le compte-rendu de la séance du 04 Mars 2006 ne\ncorrespond pas à la réalité des débats et de ce fait, elle ne signera pas le compte-rendu.\nMonsieur RICARD apporte quelques modifications au compte-rendu qui sont\nimmédiatement manuscrites sur le registre des délibérations par Monsieur DELPERIER.\nCompte Administratif M14/2005\nSection de fonctionnement :\nDépenses :\n512 055,19 €\nRecettes :\n837 308,32 €\nExcédent :\n325 253,13 €\nSection d'investissement :\nDépenses :\n783 196,39 €\nRecettes :\n752 442,81 €\nDéficit :\n  30 753,58 €\nExcédent global de clôture : 294 499,55 €\nLes chiffres à reporter au budget M14/2006 sont les suivants :\nDéficit d'investissement :\n  30 753,58 €\nExcédent de fonctionnement :\n325 253,13 €\nCompte Administratif M49/2005\nLe compte administratif M49/2005 présente un excédent de clôture de 605,52 €.\nLes chiffres à reporter au budget M49/2006 sont les suivants :\nDéficit d'investissement :\n350,75 €\nAffectation en recettes d'investissement :\n350,75 €\nExcédent de fonctionnement :\n605,52 €\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Compte Administratif 2005 Centre Communal d'Action Sociale\nAffiche un déficit de 6 720,46 €.\nLes chiffres à reporter au budget C.C.A.S/2006 sont les suivants :\nExcédent de fonctionnement :\n3 189,66 €\nDéficit d'Investissement :\n9 910,12 €\nAprès la présentation des différents comptes administratifs, Monsieur le Maire\npropose au Conseil que Monsieur LAURET préside la séance des votes des comptes\nadministratifs. Le Conseil donne son accord à l'unanimité.\nMonsieur le Maire se retire de la salle et Monsieur LAURET demande au Conseil\nd'approuver les différents comptes administratifs :\nLes résultats des votes sont :\nCompte Administratif M14/2005 :\nPOUR : \n10 (PUJADE, LAURET, OLIVIER, LASSERRE D., PARÉ, DRIEUX,\nCHOTARD, LASSERRE C., LAPORTE, GOUZVINSKI)\nCONTRE :\n2 (RICARD, ETORÉ).\nCompte Administratif M49/2005 :\nPOUR : \n10 (PUJADE, LAURET, OLIVIER, LASSERRE D., PARÉ, DRIEUX,\nCHOTARD, LASSERRE C., LAPORTE, GOUZVINSKI)\nCONTRE :\n2 (RICARD, ETORÉ).\nCompte Administratif C.C.A.S/2005 :\nPOUR : \n10 (PUJADE, LAURET, OLIVIER, LASSERRE D., PARÉ, DRIEUX,\nCHOTARD, LASSERRE C., LAPORTE, GOUZVINSKI)\nCONTRE :\n2 (RICARD, ETORÉ).\nComptes de Gestions 2005 M14, M49, C.C.A.S\nMonsieur le Maire propose au Conseil d'approuver les comptes de gestions dressés par\nMadame HILAIRE Brigitte, Comptable du Trésor à ALZONNE.\nLes comptes des gestions sont approuvés à l'unanimité.\nTaux des taxes communales 2006.\nMonsieur DELPERIER propose au Conseil de reconduire les taux des contributions\ndirectes  du budget M14/2005 au budget M14/2006 :\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Taxe d'habitation : 18,58 %\nTaxe foncière sur les propriétés bâties : 27,86 %\nTaxe foncière sur les propriétés non bâties : 87,68 %\nTaxe professionnelle : 14,33 %\nPOUR : 13\nABSTENTION : 1 (ETORÉ)\nMonsieur PARÉ demande à Messieurs DELPERIER et RICARD, délégués à la\nCommunauté de Communes, d'être plus vigilants sur les votes de cette structure et notamment\nsur les taux d'impositions. Il poursuit en indiquant que le contribuable est de plus en plus\nponctionné et qu'il ne faudrait pas que MONTOLIEU se prive d'un grand projet quel qu'il soit,\nqui nécessiterait une augmentation des impôts locaux, à cause d'une augmentation quasi\npermanente des impôts des Départements, Régions, Communauté de Communes etc…\nIl termine en indiquant qu'il est bien évidemment d'accord avec la proposition de\nMonsieur DELPERIER pour une non augmentation des impôts locaux.\nTarifs communaux 2006.\nLocation chaise :\n0,15 €\nCaution chaise :\n10 €\nLocation table :\n0,15 €\nCaution table :\n25 €\nLocation Foyer aux associations :\nGratuit\nCaution Foyer aux associations :\n300 €\nLocation Foyer aux Montolivains :\n100 €\nCaution Foyer aux Montolivains :\n300 €\nLocation Foyer aux personnes extérieures à la commune : 300 €\nCaution Foyer aux personnes extérieures à la commune : 500 €\nLocation cuisine Foyer : 30 €\nCaution cuisine :\nComprise avec la caution Foyer.\nForfait auto-laveuse obligatoire : 30 €\nLe Conseil donne son accord à l'unanimité.\nConvention avec le \"Groupement Sports et Territoires en Cabardès\".\nMonsieur DELPERIER donne lecture de la convention. L'objet de cette convention est\nla mise à disposition par l'Association Groupement Sports et Territoires en Cabardès d'un\nMaître Nageur Sauveteur pour la saison estivale moyennant une subvention d'un montant de\n5 860 €. Le salaire du Maître Nageur Sauveteur sera à la charge de l'Association.\nMonsieur le Maire demande au Conseil de prendre un accord de principe.\nPOUR : 12\nABSTENTION : 1 (ETORÉ)\nMonsieur DELPERIER fait part de son inquiétude quant à l'ouverture de la piscine\npour cette saison. Des courriers recommandés ont été envoyés aux entreprises car il y a de\nnombreuses malfaçons. Un dossier a été envoyé à l'assurance afin qu'un expert soit dépêché\npour constater l'état actuel de la piscine.\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Enquête publique modification du P.O.S.\nLe Commissaire-Enquêteur a rendu son rapport et émet un avis favorable. Aucune\nobservation n'a été portée sur le registre d'enquête publique.\nMonsieur DELPERIER demande au Conseil d'entériner les conclusions du\nCommissaire-Enquêteur.\nPOUR : 12\nCONTRE : 1 (RICARD)\nProjet lotissement Côte d'Escudié.\nPlusieurs modifications ont été apportées au projet de Mademoiselle SERRA,\nArchitecte :\n- \nModification des voies piétonnes ;\n- \nAccès des véhicules jusqu'aux abords immédiats des maisons ;\n- \n3 bassins de 20 m3 pour récupération des eaux pluviales ;\n- \nLe mur en pierre de la rue du Général Izard sera maintenu.\nMonsieur le Maire demande au Conseil de déposer le permis de lotir :\nPOUR : 12\nCONTRE : 1 (RICARD)\nIl est également signalé que la majorité des voitures descendent de la Route d'Alzonne\nà une vitesse excessive. Ce tronçon pourrait être limité à 30 km/h.\nDénomination Parking Route de Saint-Denis.\nMonsieur DELPERIER propose de nommer le parking Route de Saint-Denis \"Espace\nMichel BRAIBANT\".\nAprès discussions, Monsieur LAURET propose de donner au parking le nom :\n\"Espace Victorine BONNAFOUS\".\nMonsieur DELPERIER demande au Conseil de se prononcer sur la proposition de\nMonsieur LAURET.\nPOUR : 8\nABSTENTION : 3 (LASSERRE C., LASSERRE D., PARÉ)\nCONTRE : 2 (ETORÉ, RICARD)\nIl est rappelé que deux plaques commémoratives aux noms de Michel BRAIBANT et\nLaurens VAN BAARDEWIJK seront posées sur la façade du Musée.\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Convention de mise à disposition de délégation de signature à la DDE.\nL'objet de cette convention est la délégation de signature à la DDE pour l'instruction\ndes actes d'urbanisme pour le compte de la Commune. Cette procédure permettre de\nraccourcir les délais d'instruction. Il est précisé qu'une copie des lettres et actes de procédure\nsignés par délégation sera transmise à la Mairie.\nMonsieur DELPERIER demande au Conseil de se prononcer sur ces dispositions.\nPOUR : 12\nCONTRE : 1 (ETORÉ)\nDroit de préemption Immeuble NEYRET – Rue Saint André.\nLe Conseil décide de ne pas faire usage du droit de préemption.\nTravaux sur terrain AZEMA.\nMonsieur DELPERIER informe le Conseil que les fouilles seront réalisées avant le\nmois de Juillet.\nProposition livre sur MONTOLIEU.\nMadame Laetitia BERNARD propose de faire un ouvrage sur la commune au prix de\n1 250 € H.T. ainsi qu'un DVD au prix de 625 € H.T.\nIl est rappelé que Monsieur DAUBIAN Daniel avait fait une proposition pour un\nouvrage sur l'histoire de MONTOLIEU.\n Le Conseil ne se prononce pas sur la proposition de Madame BERNARD et prendra\ncontact avec Monsieur DAUBIAN.\nChoix menuisier travaux porte accès Musée.\nLe Conseil accepte le devis de la miroiterie LABEUR pour un montant de 535,81 €\nTTC.\nL'ordre du jour étant épuisé, la séance est levée à 12 h 15.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "f5f7b88072a83da5d9b109b619daa1b9ff2e6c8b13791811e60b53639ace3416",
+      "source_bytes": 78303,
+      "retrieved_at": "2026-10-08T16:16:48+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/25c32404ddc5.json",
+      "diff_from_previous": null
+    }
+  ]
+}

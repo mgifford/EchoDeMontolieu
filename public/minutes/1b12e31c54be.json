@@ -1,0 +1,132 @@
+{
+  "document_id": "1b12e31c54be",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM30042004.pdf",
+  "source_url": "https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf",
+  "source_sha256": "f072173b98e21781c79729702e5d46d8bd688b5e405cf198d7a978392e85031e",
+  "source_bytes": 174828,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM30042004.pdf",
+    "wayback_timestamp": "20041219055321",
+    "official_copy": "https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf",
+    "mirror_path": "archive/originals/CRCM30042004.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM30042004.pdf",
+    "date_hint_from_filename": "2004-04-30"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:20:29+00:00",
+  "meeting_date": {
+    "value": "2004-04-30",
+    "source": "text layer, page 1: 'L’an deux mil quatre et le trente Avril'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 7,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’an deux mil quatre et le trente Avril à 21 H 00, le Conseil Municipal dûment\nconvoqué, s’est réuni sous la Présidence de Monsieur DELPERIER Max, Maire de\nMontolieu, dans la salle du Conseil.\nEtaient Présents : CHOTARD, ETORE, LASSERRE D., DELPERIER,\nDRIEUX, LAPORTE, LASSERRE C., LAURET, OLIVIER, PARE, RICARD.\nEtaient Absents : \nGOUZVINSKI procuration à LAURET.\nPUJADE procuration à DRIEUX.\nSOULIE procuration à ETORE.\nSOLE procuration à LASSERRE C.\nSecrétariat de séance : DRIEUX.\nLe compte-rendu de la séance du Conseil Municipal du 02 Mars 2004 est approuvé à\nl'unanimité.\nMonsieur le Maire demande à un Conseiller (ère) d'assurer le secrétariat de séance.\nMonsieur DRIEUX se propose avec Monsieur PUJADE Fabien, employé. Accord du Conseil.\nComptes de Gestions 2003 M14, M49, C.C.A.S.\nMonsieur le Maire propose au Conseil d'approuver les comptes de gestions dressés par\nMadame HILAIRE Brigitte, Comptable du Trésor à ALZONNE.\nLes comptes des gestions sont adoptés à l'unanimité.\nComptes Administratifs 2003 M14, M49, C.C.A.S.\nCompte Administratif M14 2003\nSection de Fonctionnement :\nDépenses :\n492 370,51 €uros\nRecettes :\n848 584,17 €uros\nExcédent de Fonctionnement : 356 213,66\nMonsieur RICARD demande sur quels documents est établi le chapitre 60 \"Achats et\nvariations de stocks\". Monsieur LASSERRE répond que cela correspond à des dépenses sur\nfactures et qu'il n'est pas question de stocks. Monsieur RICARD souhaite que soit fait un\ninventaire des biens communaux.\nSection d'Investissement :\nDépenses :\n852 273,12 €uros\nRecettes :\n573 975,78 €uros\nDéficit d'Investissement : 278 297,34 €uros\nMonsieur RICARD regrette que 53% des dépenses d'investissements n'aient pas été\nréalisés et que les restes à réaliser sur les travaux sont plus élevés que ceux figurants sur le\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "budget présenté. Monsieur DELPERIER répond que les restes à réaliser correspondent à des\nsommes prévues nécessaires aux règlements des factures pouvant intervenir entre le 1er\njanvier et le vote du budget. Monsieur LASSERRE intervient en précisant que les restes à\nréaliser présentés ne sont pas trop élevés ce qui correspond à une progression normale d'un\nbudget communal.\nExcédent global de clôture : 77 916,32 €uros\nLes chiffres à reporter au Budget M14 2004 sont les suivants :\nDéficit d'Investissement :\n278 297,34 €uros\nExcédent de Fonctionnement :\n288 001,32 €uros\nAffection en recettes d'Investissement :\n68 212,34 €uros\nCompte Administratif M49 2003\nPrésente un déficit de clôture de 15 369,81 €uros\nLes chiffres à reporter au Budget M49 2004 sont les suivants :\nDéficit d'Investissement :\n30 110,14 €uros\nExcédent de Fonctionnement :\n13 900,19 €uros\nAffection en recettes d'Investissement :\n840 ,17 €uros\nCompte Administratif Centre Communal d'Action Sociale.\nAffiche un résultat de clôture positif de  8 206,11 €uros. Ce solde sera reporté\nintégralement au Budget 2004.\nAprès la présentation des différents comptes administratifs, Monsieur le Maire\npropose Monsieur LAPORTE comme Président de la séance des votes des comptes\nadministratifs. Monsieur RICARD se déclare candidat.\nLe Résultat du vote est :\nMonsieur LAPORTE : \n7 voix (DELPERIER, DRIEUX, LAPORTE, LAURET,\nOLIVIER avec procurations)\nMonsieur RICARD :\n6 voix (ETORE, LASSERRE D., PARE, RICARD,\nSOLE avec procutations).\nAbstention :\n2 (CHOTARD, LASSERRE C.)\nMonsieur LAPORTE est élu pour présider la séance des votes des Comptes\nAdministratifs.\nMonsieur le Maire se retire de la salle et Monsieur LAPORTE demande au Conseil\nd'approuver les différents Comptes Administratifs.\nMesdames ETORE et LASSERRE et Messieurs PARE et RICARD demandent de\nprocéder au vote à bulletin secret.\nAprès dépouillement les résultats des votes sont :\nCompte Administratif M14 2003 :\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "POUR : \n7\nCONTRE :\n7\nCompte Administratif M49 2003 :\nPOUR :\n7\nCONTRE :\n7\nCompte Administratif C.C.A.S. 2003 :\nPOUR :\n7\nCONTRE :\n7\nBudgets M14, M49, C.C.A.S 2003\nBudget M14 2004\nLes divers chapitres du budget en sections de Fonctionnement et d'Investissement sont\nprésentés un à un.\nLa section de fonctionnement est équilibrée en dépenses et en recettes pour un montant\nde 901 292,00 €. La section d'Investissement est équilibrée en dépenses et en recettes pour un\nmontant de 1 338 040,00 €.\nSubvention aux Associations.\nMonsieur le Maire présente au Conseil les subventions aux diverses associations pour\nun montant total de 25 219,00 €.\nChambre de Métiers de l'Aude\n     40,00 € (15 POUR)\nFootball Club Cabardès\n2 745,00 € (15 POUR)\nAss. Cult. et Sport. Ecole Publique\n2 340,00 € (15 POUR)\n \nAssociation des Maires de l'Aude\n   129,00 € (15 POUR)\nAnciens d'Algérie\n   115,00 € (15 POUR)\nAnciens Combattants\n   115,00 € (15 POUR)\nAmis de la Colline Saint-Roch\n   763,00 € (15 POUR)\nAssociation des Mairies Informatisées\n   100,00 € (15 POUR)\nComité d'Animation\n   915,00 €\n(14 POUR)\n(1 Abstention : LAURET)\nClub du 3ème Age\n   305,00 €\n(14 POUR)\n(1 Abstention : LASSERRE D.)\nA.C.C.A de Montolieu\n   504,00 € (15 POUR)\nComité des Parents d'Eleves\n   534,00 € (15 POUR)\nComité des Fêtes\n5 336,00 € (15 POUR)\nMaison des Jeunes\n   382,00 € (15 POUR)\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Ass. Montolieu Village du Livre\n7 600,00 €\n(12 POUR)\n(1 Abstention : PARE)\n(2 CONTRE : DRIEUX & procu.)\nLa Truite de la Dure\n   321,00 € (15 POUR)\nPétanque Club Montolivain\n   305,00 € (15 POUR)\nS.P.A\n   402,00 € (15 POUR)\nEcole de Musique\n   305,00 € (15 POUR)\nAss. Centre Culturel de la Mémoire\n   120,00 € (15 POUR)\nVilles et Métiers d'Art\n     77,00 € (15 POUR)\nNouvelles Associations subventionnées :\nPierres Sèches Montolivaines\n   250,00 € (15 POUR)\nGpt de défenses ctre les organ. nuisibles\n     16,00 € (15 POUR)\nSubvention non affectée\n1 500,00 € (15 POUR)\nTarifs publics communaux 2004.\nMonsieur le Maire demande au Conseil d'examiner les tarifs 2004 des services\ncommunaux.\nIl propose les tarifs suivants :\n Location chaise :\n  1 €\n Caution chaise :\n10 €\n Location table :\n  3 €\n Caution table :\n25 €\n Location tréteau :\n  1 €\n Caution tréteau :\n  5 €\n Location Foyer aux Associations :\nGratuit\n Location Foyer aux Montolivains : 100 €\n Location Foyer aux étrangers :\n300 €\n Location cuisine Foyer :\n  30 €\n Forfait laveuse obligatoire :\n  30 €\n Caution Foyer :\n200 €\nMonsieur le Maire soumet au vote ces tarifs :\nPOUR : \n10\nCONTRE :\n5 (ETORE avec procuration, LASSERRE D., LAPORTE, procuration\nSOLE)\nPiscine Municipale :\n Adultes : \n   \n  2 €\n Enfants :\n  1 €\n Abonnement Adultes :\n15 €\n Abonnement Enfants :\n  8 €\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Le Conseil à l'unanimité approuve ces tarifs.\nTaxes communales 2004.\nMonsieur le Maire propose de reconduire les taux de contributions directes du budget\nM14 2003 au budget 2004 :\n Taxe d'habitation : 18,58 %\n Taxe foncière sur les propriétés bâties : 27,86 %\n Taxe foncière sur les propriétés non bâties : 87,68 %\n Taxe professionnelle : 14,33 %\nLe Conseil donne son accord à l'unanimité.\nFrais divers de publicité.\nPlusieurs conseillers demandent que soit inscrite au budget la somme de 2 287 € afin\nde financer la page Montolieu éditée dans le guide touristique de la Dépêche du Midi.\nMonsieur le Maire propose de mettre au vote cette proposition ;\nPOUR : 10\nCONTRE : 5 (DRIEUX, LAURET, OLIVIER avec procurations).\nTaxe de séjour.\nElle est reconduite pour l'année 2004 aux cotisations suivantes :\n0,30 € pour les adultes.\n0,15 € pour les enfants.\nGratuité pour les enfants de moins de 4 ans et les handicapés.\nBudget Centre Communal d'Action Sociale 2003.\nCe budget est équilibré en dépenses et en recettes de Fonctionnement pour un montant\nde 10 906,00 €. La participation à la cantine est ventilée dans ce budget pour un montant de\n2 700,00 €.\nDétail participation cantine :\nPart Mairie par repas :\n1,35 €\nPart Famille par repas :\n3,19 €\nPrix d'un repas :\n4,54 €\nBudget M49 2004.\nLa section de Fonctionnement est équilibrée en dépenses et en recettes pour un\nmontant de 42 725,00 €. La section d'investissement est équilibrée en dépenses et en recettes\npour un montant de 75 549,00 €.\n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Après cette présentation des différents budgets, Monsieur le Maire demande au\nConseil d'approuver ceux-ci.\nLe Conseil se prononce comme suit :\nBudget M14 2004 :\nPOUR : 8 (CHOTARD, DELPERIER, DRIEUX, LAPORTE, LAURET, OLIVIER\navec procurations).\nCONTRE : 7 (ETORE, LASSERRE D., LASSERRE C., PARE, RICARD avec\nprocurations).\nBudget Centre Communal d'Action Sociale :\nLe Conseil vote à l'unanimité le budget C.C.A.S présenté.\nBudget M49 2004 :\nPOUR : 8 (CHOTARD, DELPERIER, DRIEUX, LAPORTE, LAURET,\nOLIVIER avec procurations).\nCONTRE : 7 (ETORE, LASSERRE D., LASSERRE C., PARE, RICARD avec\nprocurations).\nProjet éoliènnes sur la commune FRAISSE-CABARDES.\nPlusieurs Conseillers souhaitent que la Commune prenne position sur le projet\nd'implantation d'une ferme éolienne sur le territoire de la commune de FRAISSE-\nCABARDES. Ce projet prévoit l'implantation de 6 éoliennes au plateau de Malportel en\nlimite de Commune de MONTOLIEU et FRAISSE-CABARDES. Monsieur le Maire propose\nde rédiger un courrier qui sera adressé à Monsieur le Préfet de l'Aude et d'aller inscrire sur le\nregistre d'enquête publique le même texte.\nMonsieur le Maire demande au Conseil de se prononcer sur ce projet :\nPOUR le projet de FRAISSE-CABARDES :\n3 (DRIEUX, OLIVIER, LAURET)\nCONTRE le projet de FRAISSE-CABARDES : \n12\nLe Conseil émet donc un avis défavorable sur le projet d'implantation d'une ferme\néolienne sur la commune de FRAISSE-CABARDES.\nContenu du courrier adressé à Monsieur le Préfet :\n\"Monsieur Le Préfet,\nLe projet d’implantation d’éoliennes sur la commune voisine de\nFraisse-Cabardés, qui fait actuellement l’objet d’une enquête publique, cause aux\nMontolivains un grand embarras.\nLe Conseil Municipal dans sa réunion du 30 avril dernier, a\nabordé ce sujet et a manifesté à une large majorité son opposition au projet en question (3\npour - 12 contre).\n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "En effet, à plusieurs reprises, nous avons été contactés par des\nsociétés désireuses d’installer ce type d’appareils sur notre commune et, chaque fois, nous\nn’avons pas donné suite.\nSi le Conseil s’est abstenu de manifester sa désapprobation pour\ndes projets identiques sur Saint-Denis, Saissac, Saint-Martin-Le-Vieil, c’est que les zones\nconcernées étaient suffisamment éloignées du village de Montolieu. Déjà pourtant un certain\nnombre de conseillers auraient souhaité que nous nous prononcions explicitement contre ces\nimplantations.\nIl en va tout autrement pour Fraisse-Cabardés où les éoliennes\nseraient installées à la limite de notre commune et bien en vue de ses habitants et visiteurs.\nLe Conseil Municipal de Montolieu rappelle :\n- Que notre commune a entamé une démarche de création de ZPPAUP ;\n- que le P.A.D.D. réalisé par la Communauté de Communes du Cabardés au Canal du\nMidi a mis en évidence une zone contiguë à celle du projet éolien, présentant une grande\nrichesse floristique qui est donc menacée ;\n- qu’une révision de P.O.S communal va débuter dès cette année pour aboutir à un\nP.L.U qui définira un plan d’aménagement et de développement durable ;\n- que la commune et de nombreux acteurs (associations, privés, Communauté de\nCommunes etc...) consacrent des efforts considérables au développement du tourisme. Notre\nvillage est devenu le siège de l’Office Intercommunal de Tourisme dont les travaux\nd’aménagement sont subventionnés par l’Etat, l’Europe, la Région et le Département.\nAinsi , dans sa démarche - qu’il veut cohérente - de préservation\ndu territoire communal et de développement  économique et touristique, le Conseil Municipal\ns’oppose au projet éolien de Fraisse-Cabardés, et vous demande, Monsieur Le Préfet,\nd’émettre un avis défavorable .\nVous remerciant de la suite que vous voudrez bien donner a\nnotre requête nous vous prions de croire, Monsieur Le Préfet, à nos sentiments respectueux et\ndévoués.\n(signé DELPERIER Max, Mairie de MONTOLIEU)\"\nL'ordre du jour étant épuisé, la séance est levée à 1 h 00.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "f072173b98e21781c79729702e5d46d8bd688b5e405cf198d7a978392e85031e",
+      "source_bytes": 174828,
+      "retrieved_at": "2026-10-08T16:20:29+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/1b12e31c54be.json",
+      "diff_from_previous": null
+    }
+  ]
+}

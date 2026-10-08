@@ -1,0 +1,96 @@
+{
+  "document_id": "9e958bbb39e4",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20060819.pdf",
+  "source_url": "https://web.archive.org/web/20071012134153/http://www.montolieu.fr/docs/CRCM%2020060819.pdf",
+  "source_sha256": "abe0ce3604aec725682a5b27f9bd5580883bdb3eba9ee8b1ef2fed057a68f6e0",
+  "source_bytes": 85224,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020060819.pdf",
+    "wayback_timestamp": "20071012134153",
+    "official_copy": "https://web.archive.org/web/20071012134153/http://www.montolieu.fr/docs/CRCM%2020060819.pdf",
+    "mirror_path": "archive/originals/CRCM20060819.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20060819.pdf",
+    "date_hint_from_filename": "2006-08-19"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:17:36+00:00",
+  "meeting_date": {
+    "value": "2006-08-19",
+    "source": "text layer, page 1: 'L’an deux mil six et le dix neuf du mois d'Août'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 3,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20071012134153/http://www.montolieu.fr/docs/CRCM%2020060819.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’an deux mil six et le dix neuf du mois d'Août à 20 h 30, le Conseil Municipal,\nrégulièrement convoqué s’est réuni au nombre prescrit par la Loi, dans le lieu habituel de ses\nséances, sous la présidence de Monsieur DELPERIER Max, Maire.\nPrésents : \nETORE, PILLOSIO, DELPERIER, LAURET, DRIEUX, OLIVIER, \nPARE, RICARD.\nAbsents excusés : \nGOUZVINSKI procuration à DELPERIER ;\nPUJADE procuration à LAURET ;\nLASSERRE D. procuration  à PARE ;\nLASSERRE C. procuration à RICARD.\nAbsents :\nSOULIE, SOLE, LAPORTE.\nSecrétariat de séance : PILLOSIO.\nI MODIFICATIONS A APPORTER AU COMPTE-RENDU DU CONSEIL PRECEDENT\nAprès le vote concernant l’engagement d’une action en justice(6 voix contre 6) la séance s’est\nterminée par le choix entre Mes Maynadier ‘ Cicéra et Thalaman.Mr le maire a fait part de sa\npréférence pour Mme Maynadier (pour des raisons de commodité , celle-çi étant à Montolieu\n)Mme Etoré s ‘est élevée contre cette proposition .Mr Drieux a fait observer que ceux qui\nn’avaient pas voté l’action en justice n’avaient pas à se’ prononcer sur le choix d’un\navocat.Mme Pillosio et Mr Paré ne se sont donc pas prononcés .Mme Etoré a voté contre le\nchoix de Mme Maynadier , estimant qu’il valait mieux choisir un avocat spécialisé dans le\ndroit administratif .\nLa mention de la » morale protestante » portait sur la notion de « faute » ?elle ne portait pas\nsur les jeunes ni sur le catastrophisme .Mme Etoré demande ce qu’on espère d’une action en\njustice ; pas grand chose en terme financier , répond Mr le Maire . Mme Gouzvinski intervient\nen disant que même si c’est le cas une faute a été commise par l’entreprise et cette faute doit\nêtre établie .A quoi Mme Etoré réponds qu’on voit là    sans doute les effets d’une » morale\nprotestante »   (Mme Gouzvinski        demande  à ce que cette remarque soit retranscrite ,\nmme Etoré répond que cette remarque n’a rien d’insultant.\nOrdre du jour du conseil du 19 aout\nMme DANIAUX présente son activité  , précise que celleçi est en plein développement a des\nclients prestigieux et de nombreuses commandes en cours .Elle fait part de son souhait de\nrester à Montolieu mais souligne la vétusté des locaux qui font courir de graves dangers  aaux\nartisans .Mr le Maire précise qu’il était à la réunion avec Mr Ourliac de la chambre des\nmétiers et que celui-çi lui a confirmé par mail son vif intérêt pour le projet .Mme Etoré\nsignale qu’apparemment M. Guillet serait prêt à vendre son bien   et donnerait priorité à une\ncollectivité locale .La mise en place d’un atelier-relais à cet emplacement serait un projet plus\nintéressant qu’une construction neuve hors du centre du village .Mr le Maire souligne la\nnécessité de faire une évaluation des lieux en vue d’un éventuel achat .Mr Paré  se déclare peu\nfavorable à la création d’un local neuf ,l’usine étant pour lui un lieu idéal à ce type de projet\n.Mme Etoré demande que le maire exige le défrichement des lieux , .Mr le Maire réponds\nqu’il faudra se renseigner pour avoir la confirmation que le lieu est bien en vente ,.      Il\npropose de mettre Mr Guillet en demeure de mettre les lieux hors d’eau.\n2 CHOIX D’UN ARCHITECTE (PETITE HALLE )\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20071012134153/http://www.montolieu.fr/docs/CRCM%2020060819.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Trois architectes ont été contactés mais seule  Melle Serra a répondu  Mme Etoré précise que\nMr Courtade n’a pas répondu car on ne lui a laissé qu’ délai de deux mois .Mr le Maire lit la\nréponse de Melle Serra Le montant des travaux est évalué à 90.000 Euros Le forfait de\nrémunérations des esquisses s’élève à 2494 ?58Euros .Mr Le Maire informe le conseil que\nd’après Mr Ourliac un atelier d’accueil pour un boucher est possible et que l’on peut obtenir\ndes aides importantes .D’autrepart le dossier est recevable dans la mesure ou il n’y a pas\nd’autre boucher dans la commune .Mme Etoré regrette qu’un seul projet soit étudié et que\nl’on a pas vraiment le choix .A quoi Mr le maire répond que multiplier les projets a un\ncoût.La décision est mise au vote . Tout le monde est pour sauf deux abstentions Mr Ricard et\nMme Etoré  et procurations .Mr Paré suggère que l’esquisse ne soit pas payée si le projet est\naccepté .Mr le Maire réponds que ceci est implicite . Un courrier sera donc envoyé à melle\nSerra .\n3.ACHAT D’UN CAMION\n  Mr le Maire rappelle que le camion actuel est en très mauvais état et qu’il est nécessaire de\nle remplacer .Une commission se réunira le mercredi 23 aout .\n4.CONVENTION RET  TRANSPORT\nUne ligne THT traverse la commune .RET transports demande l’autorisation de déboiser sous\nl’emplacement de la ligne\nVote à l’unanimité pour la signature d’une convention\n5.ENVELOPPES\n+Proposition de l’impression de 3000 enveloppes en quadrichromie pour une somme de 162 ,-\nEuros ttc . 2 voix contre Mme Pujade et Mr Drieux\n6. Mr Ricard  interrompt    le conseil et enjoint le Maire de bien vouloir traiter les questions\ndiverses et menace de quitter la séance si  cela n’est pas fait . Mr le Maire s’engage\nformellement à le faire dès la fin de l’ordre du jour .Le conseil reprend\n7 DELIBERATION MODIFICATIVE « REMUNERATION DES ARCHITECTES »\nPour régler les honoraires des architectes qui s’élèvent à 16231Euros Mr le Maire propose\nd’utiliser 17000 Euros  du point 2313.018  pour la construction du local des médecins .Mr\nRicard s’étonne que ces honoraires n’aient pas été prévus .Tout le mopnde est pour ,sauf deux\nabstentions Mr Ricard et Mme Etoré qui s’abstiennent .\n8 NOM DU FUTUR LOTISSEMENT\nMelle Serra propose « les Jardins de Valsiguié «  Tout le monde est pour\n9 RENOUVELLEMENT DU CONTRAT COLLECTIF D’ASSURANCE\nTout le monde est pour\n10 EDIFICATION D’UN COLOMBARIUM\nTous les spécialistes de Carcassonne ont été contactés .Une proposotion est faite de l’édifier\nau milieu du nouveau cimetière. .un travail de réflèxion devra être mené pour permettre un\nélaboration du projet\n11 APPROBATION DES STATUTS DE LA COMMUNAUTE DE COMMUNES\nMme Etoré déclare que l’on a le sentiment que les statuts sont modifiés en fonction de besoins\nponctuels ,que l’information des conseillers municipaux est insuffisante et que l’on ne peut se\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20071012134153/http://www.montolieu.fr/docs/CRCM%2020060819.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "prononcer valablement .Mr Le Maire met au vote les modifications ; 5abstentions Paré Etore\nRicard et duex procurations Mr et Mme Lasserre\n12 SIVOM\nLa commune de Peyrens souhaite se retirer du SIVOM ;Tout le monde est pour sauf Mme\nEtoré qui s’abstient\n13 COURRIER AVEC\nMr le Maire lit un courrier de l’association    AVEC    à propos de la journée de\ndéveloppement local au mois d’octobre .on propose de délocaliser les les animations pour la\njournée .L’association « Montolieu Village du Livre » accueille une exposition photo sur la\nville de Montefalco .On pourrait ouvrir l’église et proposer une visite gratuite du village .\nPROJET DE VENTE\nLe conseil déclare ne pas souhaiter exercer un droit de préemption sur lr garage situé rue de\nLa Tour\nQUESTIONS DIVERSES\nTravaux de Mme Cotton\nMr le Maire déclare que Mme Cotton a obtenu un permis pour les travaux qu’elle effectue à\nson domicile .Il précise qu’il va lui demander de remettre en place un banc en pierre déplacé\npour l’occasion\nIntention de Mr Delperier d’entrer au conseil d’administration du centre de sculpture\nMr Delpérier répond que le projet est encore à l’étude et que lui –même en ferait partie\nuniquement à titre privé .Mme Etoré demande que cecei soit précisé par courrier à Mme\nLaurent qui a établi le rapport sur l’état des lieux de la culture sur la communauté de\ncommunes et de le faire rectifier par tous les partenaires .\nPar ailleurs Mme Etoré dénonce le mystère qui entoure ce projet ,trouve scandaleux que l’on\nfinance encore un poste pour Mme Romain et redoute que que l’on aboutisse brutalement sur\nun projet  abouti sans aucune concertation des acteurs de la culture à Montolieu   . Mr Paré et\nMme Pillosio disent partager les mêmes réticences par rapport à ce projet.\nAffichages textes Mr Agbani\nCe texte prend à partie Mme Etoré,Mr Paré et l’OIT . Il est affiché dans un lieu municipal .Mr\nle Maire dit ne pas avoir été au courant ;Mme Etoré dit avoir peine à le croire .Elle déclare\nque le maire donne un soutien implicite à ces pratiques et encourage les débordements et\npratiques illégales en ne faisant rien.\nPiscine\nMr Delpérier ayant déclaré qu’il manquait encore des pièces au dossier , Mme Etoré  constate\nqu’à son avis , à ce jour rien n’est fait ,alors qu’on nous annonçait une action rapide le 17 juin\n.Mr le Maire réponds qu’il a rencontré Maitre Ciréra qui lui a dit avoir fait cequ’il convenait\nde faire .Il demande des documents complémentaires et affirme qu’à son avis le maçon a bien\nune assurance qui couvre les travaux effectués.Une estimation a été faite des sommes à\nbudgeter pour le suivi de la procédure .10.000 Euros pour Maitre Ciréra et 12000 Euros pour\nl’expert Mme Etoré déclare qu’il lui semble exclu de voter une telle somme .Il lui parait en\noutre impossible –contrairement à ce qui a été dit- que la piscine ne se dégrade pas en étant\nlaissée à l’abandon et sans filtrage tout l’été\nA 12h 25 Mr Olivier déclare quitter la séance et le quorum n’étant plus réuni .le conseil ne\npeut plus délibérer valablement .La séance est donc levée\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "abe0ce3604aec725682a5b27f9bd5580883bdb3eba9ee8b1ef2fed057a68f6e0",
+      "source_bytes": 85224,
+      "retrieved_at": "2026-10-08T16:17:36+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/9e958bbb39e4.json",
+      "diff_from_previous": null
+    }
+  ]
+}

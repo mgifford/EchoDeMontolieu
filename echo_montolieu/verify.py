@@ -45,6 +45,9 @@ def verify_online(record, fetcher):
     if record.get("is_current") is False:
         raise ValueError("the site only holds the current version; compare an older "
                          "version against a local file instead")
+    if (record.get("origin") or {}).get("kind") == "wayback":
+        raise ValueError("this file comes from an archived capture, which does not change; compare a "
+                         "local copy with verify_local (the mirror is " + record["origin"]["mirror_path"] + ")")
     url = record["source_url"]
     if (fetcher.cached_sha256(url) == record["source_sha256"]
             and fetcher.changed_on_server(url) is False):

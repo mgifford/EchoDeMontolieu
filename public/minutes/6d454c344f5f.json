@@ -1,0 +1,96 @@
+{
+  "document_id": "6d454c344f5f",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM170804.pdf",
+  "source_url": "https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf",
+  "source_sha256": "382b5d7715dc24613e60291b2a7a56bea88bb4ef97a6188a9da7e5959e68b30e",
+  "source_bytes": 90143,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM170804.pdf",
+    "wayback_timestamp": "20041219055337",
+    "official_copy": "https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf",
+    "mirror_path": "archive/originals/CRCM170804.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM170804.pdf",
+    "date_hint_from_filename": "2004-08-17"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:16:14+00:00",
+  "meeting_date": {
+    "value": "2004-08-17",
+    "source": "text layer, page 1: 'L’an deux mil quatre et le 17 août'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 3,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’an deux mil quatre et le 17 août à 20 H 30, le Conseil Municipal dûment\nconvoqué, s’est réuni sous la Présidence de Monsieur DELPERIER Max, Maire de\nMontolieu, dans la salle du Conseil.\nEtaient présents : DRIEUX. OLIVIER. GOUZVINSKI. DELPERIER.\nLASSERRE C. LASSERRE D. LAURET. RICARD. PARE. LAPORTE. ETORE.\nCHOTARD.\nEtaient absents : SOULIE. Procuration à ETORE. SOLE procuration à\nLASSERRE D. PUJADE procuration à LAURET.\nLe compte-rendu du 14 mai 2004 est adopté à l’unanimité.\nMonsieur DRIEUX Michel est désigné comme secrétaire de séance, et on passe\nà l’ordre du jour.\nChoix architecte Lotissement.\nMonsieur le Maire, dans le cadre du projet de lotissement sur le terrain\nAZEMA, précise au Conseil qu’il y a lieu de choisir l’architecte, considérant l’urgence de la\ndemande des médecins et de la pharmacienne, ainsi que le grand nombre de candidats à la\nconstruction. Il propose de passer une convention avec le Cabinet de Mademoiselle SERRA\nCaroline, 54, Rue des Rames à Carcassonne.\nLe Conseil donne son accord à l’unanimité, Madame ETORE précisant que\ncette affaire dure depuis un an.\nQuant au choix d’un opérateur pour la création du lotissement, 4 voix sont pour\n(CHOTARD, ETORE, GOUZVINSKI, RICARD), le reste des conseillers contre.\nConvention architecte Monsieur LAVAIL.\nMonsieur le Maire informe le Conseil qu’il y a lieu de passer une convention\navec Monsieur LAVAIL, architecte, pour les travaux sur les appartements de l’école, au\nFoyer et au Presbytère (cage d’escalier). Monsieur le Maire informe le Conseil qu’il n’y a pas\nde subvention de l’Etat. La rémunération de l’architecte s’élève à 12 %.\nMesdames ETORE, CHOTARD et SOULIE s’abstiennent, les reste du Conseil\ndonne son accord et autorise le Maire à signer la convention avec Monsieur LAVAIL.\nInternet et Haut débit.\nMonsieur le Maire donne la parole à Monsieur PARE, chargé de se renseigner\nsur l’ADSL et le Haut débit. Plusieurs solutions sont présentées. Il en ressort du débat que le\nConseil décide de négocier auprès des différents opérateurs.\nEchange de parcelle et désignation d’un commissaire enquêteur.\nMonsieur le Maire informe le Conseil qu’il y a lieu de régulariser la situation\ndu chemin de l’Horte de Villeneuve. En effet la Commune entretient un chemin privé à la\nplace du chemin communal qui mène à l’Izoul. Le Conseil donne son accord pour que ce\nchemin soit cédé à la Commune et donc entretenu par elle, l’ancien chemin sera réouvert pour\naccéder à l’Izoul. Le Conseil donne son acoord à l’unanimité.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Il en est de même pour l’affaire GALTIER qu’il y a lieu de réaliser.\nPour ce faire un commissaire enquêteur doit être désigné, Monsieur le\nMaire propose Monsieur LAURET Bernard et l’on passe au vote : Abstentions :\nETOREL.LASSERRE C. LASSERRE D. SOLE.RICARD. SOULIE. le reste du Conseil\ndonne son accord.\nLoyer Atelier-relais de coiffure.\nMonsieur le Maire demande au Conseil de fixer le montant du loyer de\nl’atelier-relais de coiffure. Monsieur RICARD, chargé de ce dossier, est arrivé à un montant\nde 250 Euros par mois. Le Conseil donne son accord à l’unanimité, en précisant que la taxe\nfoncière sera supportée par le locataire.\nLettre de Madame LACAMP Myriam.\nMonsieur le Maire donne lecture d’une lettre de Madame LACAMP Myriam\nqui propose l’installation d’un point chaud qui ferait fonction de boulangerie. Monsieur le\nMaire répond qu’il est nécessaire d’attendre les résultats de la rencontre entre Monsieur\nRICARD, le notaire et la Mairie pour se prononcer sur cette demande.\nPlusieurs conseillers parlent à nouveau d’un atelier-relais, Monsieur RICARD\ndemande de réfléchir sur l’achat éventuel du bâtiment du Crédit Agricole.\nEn tout état de cause le Conseil est unanime sur l’urgence qu’il y a à résoudre\nce problème.\nInstallation kinésithérapeutes.\nMonsieur le Maire donne lecture d’une lettre de Monsieur et Madame\nPUJADAS Christian, kinésithérapeutes à Toulouse, désirant s’installer sur la Commune.\nMonsieur le Maire informe le Conseil qu’il recevra ces personnes et leur proposera dans un\npremier temps de prendre contact avec le Docteur REY Jean pour une éventuelle location de\nl’actuel groupe médical.\nGarderie scolaire.\nLe problème de la garderie des enfants en dehors du temps scolaire est évoqué\nà nouveau. Madame GOUZVINSKI demande pourquoi ne pas utiliser les infrastructures\ncommunales déjà existantes avec éventuellement l’instauration d’un système de ramassage\ncommunal. Monsieur le Maire répond qu’une réunion sera organisée dès la rentrée avec tous\nles parents d’élèves.\nMadame GOUZVINSKI quitte la séance à 23 H 30.\nQuestions orales Monsieur RICARD Edouard.\nMonsieur RICARD demande de faire le point sur les investissements prévus en\n2004. Monsieur le Maire répond que les programmes  sont pour la plupart engagés tout en\ntenant compte de la difficulté à trouver certaines entreprises (exemple pour l’atelier de\nmécanique),  que certaines subventions également n’ont pas été accordées\nPoint sur un distributeur de billets de banque : Monsieur le Maire répond que le\nCrédit Agricole ne trouve pas cette solution rentable, il y a donc lieu de regénocier.\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Point sur les travaux au Presbytère : Monsieur le Maire répond qu’il faut tout\nd’abord envisager des travaux de mise à nu des murs du hall d’entrée.\nPoint sur les objets de l’église répertoriés et à restaurer : Monsieur le Maire\nrépond qu’il a bien reçu la liste des objets, mais qu’il donne une priorité au traitement de la\nchaire à l’Eglise Saint-André, qui présente un danger.\nQuestions diverses :\nPlace du Pradel : Mademoiselle SERRA, architecte, sera contactée pour cette\naffaire.\nVente du tracteur DEUTZ à la demande de Monsieur DRIEUX Michel pour la\nsomme de 300 euros : accord du Conseil à l’unanimité.\nMesdames ETORE et CHOTARD contestent les miroirs qui ont été placés à\ndiverses intersections. Monsieur le maire répond que ces miroirs ont été demandés depuis\nlongtemps par les habitants empruntant ces carrefours dangereux.\nMadame ETORE est chargée de contacter les habitants du quartier du Syndicat\nd’initiative pour l’attribution éventuelle de containers à ordures individuels, aux fins de\nrésoudre le problème du stockage des gros containers.\nMadame ETORE déplore l’affichage sauvage dans la Commune et demande\nque des mesures soient prises contre cette prolifération.\nPour ce qui concerne les hauts-parleurs, Monsieur le Maire informe le Conseil\nqu’une étude est en cours par une entreprise de Bram.\nL’ordre du jour étant épuisé, la séance est levée à 00 H 15.\nAjout (sujet oublié au Procès-Verbal incomplet).\nSurtaxe eau (oubli).\nMonsieur le Maire fait part au Conseil d'un entretien qu'il a eu avec Monsieur\nCAMBIES de la SADE, et du courrier que celui-ci lui a adressé.\nIl est demandé au Conseil Municipal d'entériner la demande de faire payer aux\nabonnés la somme correspondant à la différence entre le volume d'eau servie à la commune et\nle total des consommations de tous les abonnés (cette différence est imputable aux pertes\nd'eau, aux captages sauvages etc.) par une surtaxe.\nMonsieur LASSERRE fait remarquer que la SADE a la responsabilité de l'entretien du\nréseau et estime anormal que les abonnés soient taxés.\nAprès discussion, le Conseil décide d'ajourner sa décision et souhaite de plus amples\ninformations pour s'exprimer.\nChoix architecte lotissement (ajout).\nLe Conseil manifeste son souhait de rencontrer rapidement Mademoiselle SERRA afin\nde discuter de ce choix.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "382b5d7715dc24613e60291b2a7a56bea88bb4ef97a6188a9da7e5959e68b30e",
+      "source_bytes": 90143,
+      "retrieved_at": "2026-10-08T16:16:14+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/6d454c344f5f.json",
+      "diff_from_previous": null
+    }
+  ]
+}

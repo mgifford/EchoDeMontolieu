@@ -1,0 +1,132 @@
+{
+  "document_id": "f4aec19c939f",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM140504.pdf",
+  "source_url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf",
+  "source_sha256": "7ec4bce2cd688db68e9e9d4407db8b8239629074bd51c66b3c2e2cf4abdd5838",
+  "source_bytes": 146948,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM140504.pdf",
+    "wayback_timestamp": "20041225055309",
+    "official_copy": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf",
+    "mirror_path": "archive/originals/CRCM140504.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM140504.pdf",
+    "date_hint_from_filename": "2004-05-14"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:15:37+00:00",
+  "meeting_date": {
+    "value": "2004-05-14",
+    "source": "text layer, page 1: 'L’an deux mil quatre et le quatorze Mai'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 7,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’an deux mil quatre et le quatorze Mai à 20 H 30, le Conseil Municipal dûment\nconvoqué, s’est réuni sous la Présidence de Monsieur DELPERIER Max, Maire de\nMontolieu, dans la salle du Conseil.\nEtaient Présents : CHOTARD, ETORE, LASSERRE D., DELPERIER,\nDRIEUX, LAPORTE, LAURET, PARE, PUJADE, RICARD.\nEtaient Absents : \nGOUZVINSKI procuration à DRIEUX.\nSOULIE procuration à ETORE.\nLASSERRE Claude.\nOLIVIER procuration à LAURET.\nSOLE.\nSecrétariat de séance : LAURET.\nMonsieur le Maire ouvre la séance en donnant lecture de la correspondance adressée à\nMonsieur le Préfet informant ce dernier de l'avis défavorable émis par le Conseil Municipal\ndans sa séance du 30 Avril 2004, sur le projet d'implantation d'éoliennes sur le territoire de la\nCommune de Fraïsse-Cabardès.\nMonsieur le Maire donne lecture du procès-verbal de la séance du 30 Avril 2004.\nMonsieur RICARD fait remarquer que les comptes administratifs n'ont pas été\napprouvés ni rejetés, mais arrêtés.\n Monsieur LAPORTE intervient en disant que certains Conseillers font de\nl'obstruction.\nAu reproche de Monsieur LAPORTE adressé aux Conseillers qui ne votent ni le\ncompte administratif ni le budget, Madame ETORE répond que ce vote n'est pas un vote\nd'obstruction, mais qu'il est destiné à marquer un désaccord – qui a été expliqué à plusieurs\nreprises – sur certains points précis du budget, sur l'orientation générale de la politique\ncommunale, sur les retards d'investissements et l'ajournement permanent de la plupart des\nprojets, sur un certain type de dépenses, sur la gestion des travaux et l'entretien des biens\ncommunaux ; que ce vote de désapprobation n'empêche pas les Conseillers en question de\nparticiper aux études et de collaborer aux projets lorsqu'il sont mis en œuvre.\nAprès ces rectifications, le procès-verbal est  approuvé à l'unanimité.\nMonsieur DELPERIER demande à un Conseiller d'assurer le Secrétariat de séance\navec Fabien PUJADE. Monsieur LAURET se propose pour assurer cette fonction. Le Conseil\ndonne son accord à l'unanimité.\nConvention pour le Plan Local d'Urbanisme (P.L.U).\nMonsieur le Maire informe le Conseil, que suite à la consultation effectuée par la\nCommunauté de Communes des différents bureaux d'études pour la mise en place d'un P.L.U,\nc'est le cabinet E.C.E.P qui a été retenu. La participation pour la commune de MONTOLIEU\ns'élève à 18 107,78 € H.T. Cette participation a été calculée comme suit :\nPart fixe par commune :\n \n  8 754,00 €\nPart variable (proportionnelle au nombre d'habitants) :\n  9 353,78 €\nTotal :\n18 107,78 €\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Le Cabinet E.C.E.P propose d'ajouter à cette somme 1 600 € pour la mise en place de\n3 panneaux d'information au public et de 2 réunions supplémentaires.\nMonsieur le Maire propose au Conseil de passer convention avec le Cabinet E.C.E.P\npour la mise en place d'un P.L.U pour un montant de 18 107,78 € H.T et se réserve la\npossibilité de demander des réunion et/ou des tableaux complémentaires.\nLe Conseil donne son accord à l'unanimité sur l'offre de base soit 18 107,78 € H.T.\nLe bureau d'études E.C.E.P. avait déjà élaboré le P.A.D.D. Madame ETORE souhaite\nque le P.L.U de la commune ne soit pas réalisé dans ces mêmes conditions (pas ou peu de\nrencontre auprès des particuliers etc…). De même qu'elle souhaite que le bureau d'études\nE.C.E.P travaille en parallèle avec le cabinet URBANE élaborant actuellement la\nZ.P.P.A.U.P. Monsieur le Maire intervient en précisant que cette démarche est évidente et\nqu'il a déjà demandé aux deux cabinets de se rapprocher.\nPar ailleurs, le Conseil est informé que l'étude pour la mise en place du P.L.U durera\nau minimum 15 mois.\nMonsieur DELPERIER informe le Conseil qu'une convention Etat-Commune doit être\npassée pour la mission de conseil et d'assistance de la D.D.E pour la mise en place d'un P.L.U.\nIl est précisé que cette mission est gratuite et que seules les dépenses matérielles\n(numérisation des plans, reprographie, frais de port etc…) seront à la charge de la Commune.\nMonsieur RICARD aurait souhaité que cette convention soit passée par la\nCommunauté de Communes. Monsieur DELPERIER précise que toutes les communes ne\nréalisent pas de P.L.U (carte communale…) et qu'il y a lieu pour chaque commune de passer\nconvention avec la D.D.E.\nLe Conseil donne son accord à l'unanimité.\nConvention pour le pylône réémetteur (téléphone mobile).\nMonsieur le Maire informe le Conseil que T.D.F souhaite louer la station-relais de\nMonpertus pour une durée de 12 ans, pour un montant annuel de 228,67 €. S'ajouterait à cette\nlocation celles des opérateurs de téléphonie mobile, soit 609,80 € par opérateur à l'exception\ndes services de radiocommunications à caractère de Service Public (Gendarmerie, Police,\nService de lutte contre l'incendie, SAMU etc…) ou des services locaux d'un intérêt général.\nLes coûts de fonctionnement resteront à la charge de la Commune. Il propose au Conseil de\ndonner son accord : Autorisation d'utiliser le mât existant ou possibilité de le changer pour les\ninstallations souhaitées sur l'emplacement actuel.\nPour : 12\nAbstention : 1 (ETORE)\nAménagement aire de jeux, place publique.\nMonsieur DELPERIER présente la proposition du C.A.U.E pour l'aménagement de\nl'aire de jeux et de la Place du Foirail et donne connaissance au conseil des remarques de\nMonsieur MELON, Architecte des Bâtiments de France, sur ce projet. Madame ETORE pense\nque le Conseil ne peut pas se prononcer sur ce projet et propose que Monsieur LAIGNELOT,\narchitecte au C.A.U.E, présente son étude à l'ensemble du Conseil. Monsieur RICARD\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "souhaiterait que la Place du Foirail soit refaite à l'identique de ce qu'elle était autrefois\n(travail…)\nLe Conseil décide d'inviter Monsieur LAIGNELOT à une réunion afin qu'il expose\nson projet aux Conseillers.\nSubvention Contrat Educatif Local (C.E.L).\nMonsieur le Maire propose au Conseil de renouveler une demande de subvention la\nplus élevée possible auprès de la Direction Départementale de la Jeunesse et des Sports, afin\nd'aider au financement des diverses activités du Contrat Educatif Local.\nLe Conseil donne son accord à l'unanimité.\nGarderie Ecole Maternelle.\nUne enquête réalisée par des parents d'élèves fait apparaître qu'un certain nombre\nd'entre eux souhaite que la garderie fonctionne le mercredi et pendant les vacances scolaires.\nMonsieur LAPORTE propose également la solution du C.L.A.E financé en partie par\nla C.A.F de l'Aude ce qui permettrait éventuellement de créer un emploi.\nUne simulation sera réalisée afin de voir les solutions possibles.\nLoyer Atelier-Relais coiffure.\nAprès calculs effectués par Monsieur RICARD, le Conseil propose de louer à Madame\nSTANFIELD Marie, le salon à 300 € par mois sur une période de 15 ans. Après cette période\nMadame STANSFIELD deviendra propriétaire de l'immeuble.\nMonsieur le Maire doit rencontrer Maître FORTIN-LEZY pour la rédaction de la\nconvention à passer avec Madame STANSFIELD. Le projet de convention sera soumis au\nConseil Municipal.\nChoix de l'entreprise pour l'étanchéité de voûte rue Saint-Denis.\nDeux entreprises ont fait des propositions pour l'étanchéité de voûte rue Saint-Denis.\nL'entreprise Languedoc Etanchéité S.A a fait une proposition à 1 900 €. La Société\nd'Etanchéité du Midi a fait une proposition à 1 650 €.\nLe Conseil à l'unanimité décide de retenir La Société d'Etanchéité du Midi.\nAménagement des rues du 11 Novembre et du 08 Mai.\nMonsieur DELPERIER a contacté les services de la D.D.E pour avis sur le projet\nd'aménagement des rues du 11 Novembre et du 08 Mai. Le coût s'élèverait à environ 230 000\n€uros (1 500 000 FF). A réaménager ces rues, il faudra certainement changer la grosse\ncanalisation du tout-à-l'égout.\nLe Conseil donne son accord pour la poursuite de l'étude engagée.\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Ventre tracteur DEUTZ\nLe Conseil Municipal décide la vente du tracteur DEUTZ. Sa mise à prix est fixée à\n450 €uros T.T.C.\nAdhésion Pays Carcassonnais.\nMonsieur le Maire expose au Conseil qu'il y a lieu de se prononcer sur l'adhésion à la\ncharte \"Pays Carcassonnais\" et au périmètre définitif.\nLe Conseil donne son accord à l'unanimité.\nAdhésion de Communes au Syndicat Sud-Oriental des Eaux de la Montagne Noire.\nMonsieur le Maire informe le Conseil que les Communes de Pomas, Rouffiac-d'Aude\net Raissac-sur-Lampy ont demandé leur adhésion au Syndicat Sud Oriental des Eaux de la\nMontagne Noire. Cette décision a été acceptée à l'unanimité au cours de la dernière assemblée\ngénérale et peut se faire sans inconvénient pour les autres communes du Syndicat.\nMonsieur le Maire propose en conséquence d'intégrer ces communes auSyndicat Sud-\nOriental des Eaux de la Montagne Noire.\nLe Conseil donne son accord à l'unanimité.\nAtelier-Relais Boulangerie.\nMonsieur le Maire informe le Conseil que la S.A.R.L Al-Croustet de MONTOLIEU, a\nrenoncé au projet de création d'une unité de production de boulangerie-pâtisserie.\nMonsieur DELPERIER donne lecture d'une correspondance de Monsieur DIAZ\nFlorian faisant état du souhait de la Société LANGUEDOC-CHIMIE, installée à Narbonne, de\ncréer une unité de production afin de développer les biotechniques, sous forme d'atelier-relais.\nLe Conseil demandera à Monsieur DIAZ Florian de venir exposer son projet au\nConseil Municipal.\nAugmentation des Loyers.\nLe Conseil décide l'augmentation des loyers communaux dès le mois de Juin, en se\nbasant sur l'indice du coût de la construction publié par l'I.N.S.E.E.\nDroit de préemption.\nLa Commune a été destinataire d'un avis de vente soumis à droit de préemption. Il\ns'agit de l'immeuble de Monsieur NEYVOZ situé rue des Remparts.\nLe Conseil à l'unanimité décide de ne pas user du droit de préemption communal.\nEau cimetière.\nLa fuite sur la canalisation alimentant le robinet au cimetière a été signalée à la SADE.\nLa SADE ne s'est pas encore déplacée.\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "QUESTIONS DIVERSES.\nAncienne Manufacture Royale\nLa demande de classement de l'ancienne Manufacture Royale à l'Inventaire\nSupplémentaire des Monuments Historiques a été faite par ses propriétaires après de la\nD.R.A.C. La Commission Régionale du Patrimoine et des Sites doit statuer à ce sujet.\nMurs en parpaings sur les ravins.\nMadame ETORE souhaite que tous les murs construits sur les ravins soient érigés en\npierres de pays et non en parpaings. Monsieur DELPERIER précise que les murs en parpaings\npeuvent êtres habillés en pierre ou enduit.\nFonctionnement des cloches.\nDepuis que les cloches ont été remises en service, l'Angélus ne sonne pas. Monsieur\nDRIEUX pense qu'il s'agit d'un problème électrique. Monsieur DHYSER sera contacté afin de\nréparer la panne.\nInstallation eau chaude au Musée.\nLe devis est arrivé en Mairie. La commande d'installation sera faite.\nFête de la Musique.\nLe Comité des Fêtes propose de faire la Fête de la Musique le 19 Juin avec repas et\nbal. Le Conseil trouve l'initiative intéressante et décide d'octroyer au Comité des Fêtes une\nsubvention exceptionnelle de 300 € pour aider au financement de cette subvention.\nLocation des chaises pour les Associations.\nLe Conseil à l'unanimité décide la gratuité du prêt des chaises aux Association\nMontolivaines.\nPoubelles\nDes sur sacs seront achetés afin de les placer dans les conteneurs du village ce qui\npermettra de garder l'intérieur des conteneurs propres et limitera les odeurs nauséabondes.\nFontaines à tourniquet.\nElles seront remises en place dès que la canalisation installée récemment rue Saint-\nDenis, sera en fonction.\nEtude sur l'installation du Haut-Débit.\n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "De nombreux Montolivains connectés à internet regrettent que l'internet Haut-Débit ne\nsoit pas encore en place dans la commune.\nMessieurs PARE et RICARD sont chargés d'étudier les solutions possibles permettant\nl'accès au Haut-Débit à MONTOLIEU.\nLotissement – Terrain AZEMA.\nLe projet suit son cours. Groupe médical, pharmacie, étude du C.A.U.E.\nChemin de la Frigoule – Hameau des Oliviers.\nLors de la réfection du goudron du chemin de la Frigoule, les employés communaux\nont extrait des racines sous la chaussée, provoquant des déformations du chemin. Sera réalisée\nau Hameau des Oliviers la même opération, afin de s'assurer s'il ne s'agit pas de simples\nradicelles.\nCirculation sens unique.\nLes panneaux pour mettre en place la circulation en sens unique au Hameau des\nOliviers seront commandés auprès de la Signalisation Audoise.\nProblèmes évacuation d'eau Monsieur SARTORE.\nLes travaux n'ont pas pu êtres engagés tant que le budget n'avait pas été voté. Ils seront\ndémarrés prochainement après avoir consulté la D.D.E.\nAtelier-Relais Kinésithérapeutes.\nMonsieur le Maire rappelle au Conseil que les professions libérales n'entrent pas dans\nle cadre des ateliers-relais.\nSubvention appartement des écoles.\nLes subventions n'ont pas encore été notifiées.\nInstallations électriques.\nC'est le bureau de contrôle APAVE qui est chargé du contrôle des installations\nélectriques. Comme chaque année, des travaux de remises aux normes d'installations\nélectriques seront nécessaires.\nAchat rétroprojecteur.\nIl sera commander sur le catalogue de la CAMIF.\nDistributeur automatique de billets.\nL'étude réalisée par le Crédit Agricole sera transmise à la Mairie fin Mai.\nHaut-Parleurs.\n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L'étude est terminée. Attente du chiffrage en Mairie. L'entreprise GOUZY de BRAM\nsera également consultée.\nMiroirs paraboliques.\nIls n'ont pas encore été installés. Installation prochaine.\nInfiltrations d'eau rue de la Mairie - Pourtanelle.\nPlusieurs immeubles sont victimes d'infiltrations d'eau, notamment les immeubles\nriverains de la pourtanelle. Il y a peut-être une fuite d'eau sur le réseau. A vérifier auprès des\nservices de la SADE.\nL'ordre du jour étant épuisé, la séance est levée à 00 h 00.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "7ec4bce2cd688db68e9e9d4407db8b8239629074bd51c66b3c2e2cf4abdd5838",
+      "source_bytes": 146948,
+      "retrieved_at": "2026-10-08T16:15:37+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/f4aec19c939f.json",
+      "diff_from_previous": null
+    }
+  ]
+}
