@@ -1,8 +1,12 @@
 # Versions are intentionally not pinned yet. Pin once the pipeline is settled.
+# Pipeline
 requests
 beautifulsoup4
 lxml
 pymupdf
 pytesseract
 pillow
+# Tests and the static site builder import the app
+fastapi
+httpx
 pytest
