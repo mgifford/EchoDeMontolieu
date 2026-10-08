@@ -1,0 +1,62 @@
+# Handoff note
+
+> **AI disclosure.** Written by an AI assistant (Claude, from Anthropic) at the maintainer's direction, to let a new session continue. Not independently reviewed. See [AI.md](AI.md).
+
+## Task context
+
+- **Project:** L'Écho de Montolieu, a trilingual (fr/en/nl) civic signpost and record of the council minutes of Montolieu (Aude, France).
+- **Owner:** Mike Gifford. Date of this note: 2026-10-08.
+- **Live:** site https://mgifford.github.io/EchoDeMontolieu/ (GitHub Pages), API and landing on the Hugging Face Space `mgifford/EchoDeMontolieu`.
+- **Conventions:** see `AI.md` (who produced what), `ACCESSIBILITY.md` (target WCAG 2.2 AA, 44 px targets), `README.md`. No em dashes or emojis in prose. Ask before removing functionality.
+
+## State at the end of this session
+
+- Merged to `main`: the pipeline, faithful record with versions and diffs, readable minutes, issues over time, finance, places and map, AI disclosure on everything, 2003-2008 minutes from the Internet Archive (originals in `archive/originals/`), the trilingual site (`echo_montolieu/site.py`), the Hugging Face sync fix (snapshot without `archive/`).
+- **Open pull requests** (merge on the GitHub phone app if you like; each is independent unless noted):
+  - #14 stop sale titles leaking parcels and addresses into derived pages (**merge first**; a privacy fix).
+  - #15 public searchable database (FTS5) and `/api/search` (stacked on #14).
+  - #16 accessibility audit workflow (independent; first run passed).
+- **Summaries and translations** (HF Inference Providers): French summaries by `Qwen/Qwen3-235B-A22B-Instruct-2507:scaleway`, English/Dutch by `google/gemma-3-27b-it`. Chosen from a trial that cost under a cent (Gemma passed 38/40 automatic checks, Qwen 37/40; no human rating). Files are written to `public/meetings/*/` as `summary*.md`, `minutes.en.md`, `minutes.nl.md`. If they are not in a merged PR, they were still being generated locally. After #14 merges, **re-run `generate`**: sale-item titles changed, so affected summaries regenerate and the rest come from cache.
+
+## What lives only on the maintainer's laptop (a cloud session will not have it)
+
+`private/` (unredacted extractions, name registry; git-ignored on purpose), `.cache/` (downloaded PDFs, model cache), Tesseract language data, the Hugging Face login (`hf auth login`; needs the "Make calls to Inference Providers" permission, and $100 credit was added 2026-10-08), `trials/` (translation trial sheets).
+
+## Decisions already made (do not re-ask)
+
+- Faithful record publishes names (public record). Derived summaries may name elected officials on the attendance list; other private names are replaced; property sales are counts only.
+- Search and the future MCP server read the **derived** layer only (Option A). Never the faithful text.
+- The maintainer wants the faithful detail available **privately** (faithful-text search, and a map overlaying sale parcels from the IGN APICarto cadastre API) without making it more public or searchable. Output goes only to `private/`.
+- PDFs of recovered minutes stay on GitHub in `archive/originals/`; the Internet Archive capture is the official `source_url`. Binary files must never go to the Space.
+- Be polite to small servers: at least 10 s between requests, robots.txt, hard stop on 429/5xx or network errors.
+
+## Next steps, in order
+
+1. Merge #14, then #15 and #16. Re-run `generate` (resumes from cache), check the output, open a PR with the summaries and translations.
+2. **Private tier:** `build-db --private` (faithful text with names, sales with parcel references) under `private/`; a local-only sale-parcel map using `https://apicarto.ign.fr/api/cadastre/parcelle` (INSEE code 11253), cached and rate limited. Parcels appear in two forms: inline ("cadastrée C0551") and in the pre-emption tables ("Superficie totale AB 99 ...").
+3. **MCP server** (`mcp.server.fastmcp`), mounted in the existing FastAPI app on port 7860 over streamable HTTP (one process), reading only `data/echo.db`, with the existing rate limiter and the same guardrails as `/api/search`.
+4. **Heritage zoning tool:** only from the national planning portal (Géoportail de l'urbanisme), cited and dated, "not legal advice". Check what it holds for Montolieu first.
+5. Retry the 2003 meetings the Internet Archive could not serve (22 March, 27 February 2003; `python -m echo_montolieu wayback`). The Archive was offline when tried. Nothing was found for 2009-2023; ask the Mairie (a French email draft was offered).
+6. Digests for the 2003-2008 minutes (surname-only names; the rules were built for today's layout). Until then they are faithful text only.
+7. Later: a places-of-interest map (shops, restaurants, heritage including Cathar and Jewish heritage, Musée Cérès Franco) from OpenStreetMap and cited sources, in all three languages.
+8. A native-speaker review of the French and Dutch interface wording and the glossary (maintainer's action).
+
+## Known issues and risks
+
+- GitHub's own rendering of the minutes' contents lists has broken anchors (headings carry a page mark); the website fixes this, GitHub's view does not.
+- Translations were not rated by a human. The checks catch changed numbers and wrong language only. Everything model-written says so and is marked unreviewed.
+- Old versions of `facts.md` in git history contain a parcel reference from a sale title (fixed going forward in #14).
+- Model outputs depend on the provider chosen by Hugging Face; one provider returned 500 errors and another was used.
+- Automated accessibility checks cover part of WCAG only; screen readers and zoom are untested.
+
+## Evidence at the end of this session
+
+- 303 tests passing locally; Docker image builds and serves `/api/search`; axe-core 0 violations on the home page in three languages, meetings index, a minutes page, issues, finance, places and the map at 1280 and 320 px; a link crawler finds no broken links or anchors in 422 pages.
+
+## AI assistance and provenance
+
+- AI-assisted: yes (Claude Sonnet 5.5 through Claude Code). External code copied: no. Sources consulted: the Mairie's site, the Internet Archive (CDX API and captures), the national address database (BAN), Hugging Face and IGN API documentation, Tesseract tessdata_best.
+
+## Suggested start of the next session
+
+Read this file, `AI.md` and `README.md`; run `git log --oneline -15` and `gh pr list`; then do step 1 above. Suggested tier: the same model for the private tier and MCP (privacy-sensitive); a smaller model is enough for the workflow and documentation edits.
