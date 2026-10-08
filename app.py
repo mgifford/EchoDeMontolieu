@@ -80,7 +80,8 @@ def _https(url):
     return url if isinstance(url, str) and url.startswith("https://") else None
 
 
-def _landing(index, pointers):
+def _landing(index, pointers, static=False):
+    """static=True gives relative links and a meta CSP, for hosting without a server (GitHub Pages)."""
     e = html.escape
     docs = []
     for d in index.get("documents", []):
@@ -89,12 +90,15 @@ def _landing(index, pointers):
         name = e(d.get("filename") or d["document_id"])
         src = _https(d.get("source_url"))
         links = [f'<a href="{e(src)}" lang="fr">original PDF</a>'] if src else []
-        links.append(f'<a href="/api/minutes/{e(d["document_id"])}">extracted text (JSON)</a>')
+        doc_href = (f"minutes/{e(d['document_id'])}.json" if static
+                    else f"/api/minutes/{e(d['document_id'])}")
+        links.append(f'<a href="{doc_href}">extracted text (JSON)</a>')
         flags = ""
         n = d.get("versions", 1)
         if n > 1:
-            links.append(f'<a href="/api/minutes/{e(d["document_id"])}/diff/{n - 1}/{n}">'
-                         f"what changed in version {n}</a>")
+            diff_href = (f"minutes/{e(d['document_id'])}/diff-v{n - 1}-v{n}.json" if static
+                         else f"/api/minutes/{e(d['document_id'])}/diff/{n - 1}/{n}")
+            links.append(f'<a href="{diff_href}">what changed in version {n}</a>')
             flags += f" Revised by the Mairie: {n} versions are kept."
         if d.get("ocr_pages"):
             flags += (f' OCR was used on {len(d["ocr_pages"])} page(s); '
@@ -111,12 +115,17 @@ def _landing(index, pointers):
                          f'{e(p.get("owner") or "the Mairie site")}; check there for current '
                          f"details.</span></li>")
     docs_html = "".join(docs) or "<li>No minutes have been published yet.</li>"
+    data_note = ('<a href="index.json">index.json</a> and '
+                 '<a href="where_to_find_mairie.json">where_to_find_mairie.json</a>' if static else
+                 '<a href="/api/minutes">/api/minutes</a> and '
+                 '<a href="/api/where-to-find">/api/where-to-find</a>')
+    meta_csp = (f'<meta http-equiv="Content-Security-Policy" content="{CSP}">\n' if static else "")
     return f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>L'Écho de Montolieu</title>
+{meta_csp}<title>L'Écho de Montolieu</title>
 <meta name="description" content="Signposts and machine-extracted text of Montolieu council minutes, with links to the originals.">
 <style>{STYLE}</style>
 </head>
@@ -131,9 +140,7 @@ shown with a link to the original. Check the original before relying on anything
 <ul>{docs_html}</ul>
 <h2>Where to find things</h2>
 <ul>{"".join(where)}</ul>
-<p class="note">This page is in English only for now. The data is available as JSON at
-<a href="/api/minutes">/api/minutes</a> and
-<a href="/api/where-to-find">/api/where-to-find</a>.</p>
+<p class="note">This page is in English only for now. The data is available as JSON: {data_note}.</p>
 </main>
 <footer><p class="note">Open source (AGPL-3.0):
 <a href="{REPO_URL}">{REPO_URL}</a></p></footer>
