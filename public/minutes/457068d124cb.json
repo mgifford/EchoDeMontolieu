@@ -1,0 +1,76 @@
+{
+  "document_id": "457068d124cb",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM040403.html",
+  "source_url": "https://web.archive.org/web/20030504065526/http://www.montolieu.fr:80/CRCM040403.html",
+  "source_sha256": "f91e35e7e9749e6a78645d7c38ee001ab35b4ded9b160b485efe36f4157e881f",
+  "source_bytes": 13943,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr:80/CRCM040403.html",
+    "wayback_timestamp": "20030504065526",
+    "official_copy": "https://web.archive.org/web/20030504065526/http://www.montolieu.fr:80/CRCM040403.html",
+    "mirror_path": "archive/originals/CRCM040403.html",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM040403.html",
+    "date_hint_from_filename": "2003-04-04"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T20:56:07+00:00",
+  "meeting_date": {
+    "value": "2003-04-04",
+    "source": "text layer, page 1: 'L’an deux mille trois et le quatre du mois d'avril'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 1,
+  "extractor": {
+    "method": "html_text",
+    "note": "text taken from the document itself; no OCR"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20030504065526/http://www.montolieu.fr:80/CRCM040403.html",
+      "method": "html_text",
+      "status": "machine_extracted",
+      "note": "Layout is reduced to paragraphs; check the original for tables.",
+      "text": "Compte-rendu\ndu Conseil Municipal du 04 Avril 2003\n\nL’an deux mille trois et le quatre du mois d'avril à 20 h 30,\nle Conseil municipal, dûment convoqué, s’est réuni\nsous la Présidence de Monsieur Max DELPERIER, Maire, dans la salle\ndu Conseil.\n\nÉtaient présents : Mesdames CHOTARD, ETORÉ,\nGOUZVINSKI, PUJADE.\n\nMessieurs DELPERIER, DRIEUX, LASSERRE, LAURET, OLIVIER, PARÉ,\nRICARD\n\nÉtaient absents excusés :\n\nMadame LASSERRE Danièle, procuration à Monsieur PARÉ\nSylvain.\n\nMademoiselle SOULIÉ Christelle, procuration à Madame\nETORÉ Jeanne.\n\nMonsieur LAPORTE Joël, procuration à Monsieur LAURET Bernard.\n\nMonsieur SOLÉ Patrice, procuration à Monsieur LASSERRE\nClaude.\n\nMonsieur le Maire déclare la séance ouverte, Monsieur\nRICARD donne lecture du compte rendu de la séance du Conseil municipal\ndu 22 Mars 2003.\n\nMadame ETORE demande à ce que soit apporté à ce\ncompte rendu la précision suivante : les sommes votées pour\nles travaux prévus à la piscine avant l'été\n2003 correspondent aux montants des devis présentés par Monsieur\nDhyser pour l'électricité, et par la maison SIRET (par l'intermédiaire\nde Monsieur Lagasse) pour l'hydraulique.\n\nLe compte rendu est ensuite adopté à l’unanimité.\n\nMonsieur le Maire demande que l’on passe à l’ordre du jour et\npose la question du secrétariat de séance.\n\nMadame ETORÉ propose d’assurer ce secrétariat avec Monsieur\nPUJADE, Agent Administratif. Le Conseil accepte à l'unanimité.\n\nComptes Administratifs M14, M49, C.C.A.S, Lotissement.\n\nCompte Administratif M14 2002.\n\nMonsieur PUJADE - que l'ensemble du Conseil remercie du travail\nfourni pour l'établissement du Compte administratif et du budget\n- procède à la présentation du Compte Administratif\nM14.\n\nLes chiffres de ce Compte Administratif se présentent\ncomme suit :\n\nSection de Fonctionnement :\n\nDépenses : 497 098,58 €uros\n\nRecettes : 925 508,12 €uros\n\nExcédent de Fonctionnement : 428 409,54 €uros\n\nSection d'Investissement :\n\nDépenses : 455 984,88 €uros\n\nRecettes\n\n: 87 951,77 €uros\n\nDéficit d'Investissement : 368 033,11\n\nExcédent global de clôture : 60 376,43 €uros.\n\nLes chiffres à reporter au Budget M14 2003 sont les suivants\n:\n\nDéficit d'investissement : 368 033,11 €uros\n\nExcédent de Fonctionnement : 204 644,11 €uros\n\nAffectation en recette d'investissement : 223 765,43 €uros\n\nMonsieur LASSERRE fait observer que l'achat comptant du terrain AZÉMA\net le refus de contracter un emprunt global font supporter aux contribuables\nactuels une charge qui pourrait être étalée dans le\ntemps, et que cette gestion financière bloque les possibilités\nd'action de la municipalité.\n\nMadame ETORE rappelle que ce désaccord sur la gestion des finances\nmunicipales ne s'exprime pas pour la première fois, que le type\nde gestion choisi ne laisse aucune marge au lancement de nouveaux projets,\nque les projets pour lesquels viennent d'être lancés des emprunts\nsont des projets anciens, et que d'autres projets - comme la réfection\ndes logements communaux au-dessus de l'école - ont été\najournés par manque de préparation. Attendre que les caisses\nsoient quasiment vides pour emprunter ne lui paraît pas une bonne\nsolution.\n\nMonsieur le Maire dit ne pas vouloir emprunter quand il n'est pas contraint\nde le faire.\n\nMonsieur PARE fait observer également que ce type de gestion\ninterdit toute orientation à long terme, ce dont la commune aurait\nbesoin.\n\nAprès ce débat, Monsieur le Maire propose Madame CHOTARD,\ncomme présidente de la séance du vote du Compte Administratif.\nMonsieur RICARD se déclare également candidat.\n\nMadame ETORÉ, Messieurs LASSERRE, RICARD et PARÉ (plus\ndu tiers des membres présents) demandent de procéder à\nl'élection du Président de Séance du Compte Administratif\nà bulletin secret, comme le prévoit le Code Général\ndes Collectivités Territoriales.\n\nLe résultat du vote est :\n\nMadame CHOTARD : 8 voix.\n\nMonsieur RICARD : 7 voix.\n\nMadame CHOTARD est élue pour présider la séance\nde vote du Compte Administratif.\n\nMonsieur le Maire se retire de la salle et Madame CHOTARD demande au\nConseil d'approuver le Compte Administratif M14.\n\nMonsieur RICARD demande le vote à bulletin secret. Madame ETORÉ\net Messieurs LASSERRE et PARÉ demandent également ce procédé\nde vote.\n\nAprès dépouillement, le résultat du vote est :\n\nPOUR : 7\n\nCONTRE : 7\n\nLa voix du Président n'étant pas prépondérante\ndans le cas d'un vote à bulletin secret, le Compte Administratif\nM14 n'est ni approuvé, ni rejeté.\n\nCompte Administratif M49 2002.\n\nCe dernier présente un déficit de clôture\nde 28 555,89 €uros.\n\nLes chiffres à reporter au Budget M49 2003 sont les suivants\n:\n\nDéficit d'investissement : 72 076,60 €uros\n\nExcédent de Fonctionnement :\n5 115,11 €uros\n\nAffectation en recette d'investissement : 38 405,60 €uros\n\nComme pour le vote du Compte Administratif M14, un vote à bulletin\nsecret est demandé par les mêmes Conseillers Municipaux, et\nle résultat est le même : le Compte Administratif M49\nn'est ni approuvé, ni rejeté.\n\nCompte Administratif Centre communal d'action sociale affiche un résultat\nde clôture positif de 12 934,54 €uros. Ce solde sera reporté\nintégralement pour le budget 2003.\n\nUn certain nombre de conseillers regrettent que les fonds du CCAS n'aient\npas été employés.\n\nMadame GOUZVINSKI fait remarquer que le CCAS a seulement été\nréactivé fin 2002. Il ne s'est réuni qu'une seule\nfois jusqu'à ce jour, a prévu de se réunir une fois\npar trimestre, et doit se réunir prochainement pour envisager des\nactions, par exemple le portage de repas aux personnes qui en bénéficient\nhabituellement, lorsque des associations organisent des repas collectifs.\n\nMonsieur LASSERRE rappelle qu'il avait indiqué dès le\ndébut du mandat qu'un CCAS existait dans toutes les communes, qu'il\navait fonctionné à MONTOLIEU par le passé et devait\nêtre remis en service.\n\nMadame CHOTARD demande au Conseil d'approuver ce Compte Administratif.\n\nLe résultat du vote est :\n\nPOUR : 7\n\n(CHOTARD, GOUZVINSKI, PUJADE, DRIEUX, OLIVIER, LAURET avec procuration).\n\nCONTRE : 7\n\n(ETORÉ, LASSERRE, PARÉ, RICARD avec procurations).\n\nLa voix de Madame CHOTARD, Présidente de séance,\nétant prépondérante, le Compte Administratif CCAS\nest approuvé.\n\nCompte Administratif Lotissement :\n\nLes opérations passées en 2002 étaient d'ordre\npurement comptable et servaient à clôturer le projet \"Lotissement\nLa Ferrière 2\". De ce fait, le Compte Administratif affiche un résultat\nde clôture à zéro. L'opération Lotissement est\ndésormais terminée.\n\nMadame CHOTARD demande au Conseil d'approuver le Compte Administratif\nLotissement.\n\nCe dernier est adopté à l'unanimité.\n\nMonsieur le Maire pense que les différents budgets 2003\nne peuvent être votés, le Compte administratif n'ayant pas\nété approuvé ; il décide d'ajourner le vote\ndes différents budgets 2003, afin de prendre renseignements auprès\ndes services de la Préfecture de l'Aude, sur le fait que les Comptes\nAdministratifs M14 et M49, n'ont pas été approuvés,\nni rejetés.\n\nComptes de Gestion M14, M49, C.C.A.S, Lotissement.\n\nMonsieur le Maire propose au Conseil d'approuver les comptes de\ngestions dressés par Madame HILAIRE, Receveur Municipal à\nALZONNE.\n\nCes derniers sont adoptés à l'unanimité.\n\nPar ailleurs, Monsieur le Maire propose au Conseil d'octroyer\nl'indemnité de conseil, conformément à l'arrêté\nministériel du 16/12/1983, à Monsieur QUINTANE Alain, Receveur\nMunicipal pour l'exercice 2002 (5 mois 1/2) d'un montant de 170,60 €uros,\nainsi que pour Madame Brigitte HILAIRE, pour l'exercice 2003.\n\nLe Conseil approuve à l'unanimité.\n\nLe Conseil passe ensuite à l'examen des questions orales :\n\nAvenant aux contrats de travaux (M. DELPERIER)\n\nTravaux supplémentaires Maison CRAMAN et Eglise Saint-André.\n\nMonsieur le Maire informe le Conseil que des travaux supplémentaires\n(chape destinée à compenser la différence de niveau\nde plancher au 1er étage) à la Maison CRAMAN doivent êtres\neffectués par l'Entreprise GUMUS Frères pour un montant de\n1 317,99 €uros TTC.\n\nDes travaux supplémentaires doivent être entrepris\npar la Société CAMBLONG, dans le cadre de la réfection\ndu clocher de l'Église pour un montant de 1 499,74 €uros TTC.\n(La bordure supérieure étant trop endommagée, la pente\nde la charpente devant supporter la toiture de lauzes a dû être\naugmentée - hauteur de la tour réduite de 30 cm -)\n\nLe Conseil donne son accord à l'unanimité.\n\nTravaux piscine (Mme ETORÉ)\n\nLa demande faite à Monsieur LAGASSE d'établir un nouveau\ndevis en son propre nom, se substituant à celui de la firme SIRET\nne semble pas avoir de sens, puisque cela augmenterait le coût et\nque le Conseil a voté le montant des dépenses correspondant\nexactement aux devis préalablement examinés en réunion\nde travail.\n\nMonsieur le Maire fait remarquer que la demande de devis n'a\nété faite qu'auprès de Monsieur LAGASSE et souligne\nque le Conseil a toujours souhaité confier prioritairement les travaux\naux artisans locaux. Il rappelle qu'une mise en concurrence est toujours\nsouhaitable. Cependant, compte tenu des délais, le Conseil s'en\ntient au devis proposé par les Ets SIRET.\n\nPermis de construire dans un rayon supérieur à celui\ndes 500m autour de l'église.\n\nMonsieur le Maire donne lecture du message de Monsieur MELON, architecte\ndes bâtiments de France, rappelant que son avis dans cette zone est\nconsultatif, la responsabilité de l'attribution de permis étant\ncelle du maire, qu'un effort d'intégration des constructions dans\nle paysage est néanmoins souhaitable quelle que soit l'activité\ndu demandeur.\n\nL'ensemble des conseillers souhaitent qu'un jeune agriculteur (en l'occurrence\nMonsieur SOLÉ) obtienne le permis de construire dont il a besoin\n; un certain nombre d'entre eux (dont Mmes CHOTARD, ETORÉ, M. PARÉ)\nreconnaissent que la demande de Monsieur MELON et la recherche d'intégration\ndans le paysage sont des éléments positifs et correspondent\nbien à la demande du Conseil devant des projets antérieurs\nqui constituaient une gêne certaine.\n\nLa séance est levée à 23 heures.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "f91e35e7e9749e6a78645d7c38ee001ab35b4ded9b160b485efe36f4157e881f",
+      "source_bytes": 13943,
+      "retrieved_at": "2026-10-08T20:56:07+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/457068d124cb.json",
+      "diff_from_previous": null
+    }
+  ]
+}

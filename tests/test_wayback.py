@@ -146,3 +146,29 @@ def test_archived_minutes_are_never_sent_to_a_model(tmp_path):
     public = _archived_and_current_public(tmp_path)
     est = estimate_generation(public, ["en"], None, None)
     assert est["meetings"] == 1
+
+
+def test_html_and_rtf_minutes_are_chosen_when_there_is_no_pdf_and_one_meeting_counts_once():
+    rows = [cap("CRCM%2020_09_03.rtf", "text/rtf", folder="docs"), cap("crcm200903.html", "text/html", folder="conseil"),
+            cap("CRCM040403.html", "text/html", folder=""), cap("conseil.html", "text/html", folder="conseil"),
+            cap("CRCM%2009_10_03.doc", "application/msword")]
+    items = wayback.choose_minutes(rows)
+    names = [i["name"] for i in items]
+    assert "crcm200903.html" in names and "CRCM_20_09_03.rtf" not in names and "CRCM20_09_03.rtf" not in names
+    assert "CRCM040403.html" in names and "conseil.html" not in names
+    assert [i["date_hint"] for i in items if i["name"] == "crcm200903.html"] == ["2003-09-20"]
+
+
+def test_html_minutes_are_extracted_with_their_curly_apostrophes_and_date(tmp_path):
+    from echo_montolieu.textdoc import extract_html, extract_rtf, rtf_to_text
+    page = tmp_path / "p.html"
+    page.write_bytes("<html><head><title>x</title></head><body><p>Compte-rendu du Conseil Municipal du 04 Avril 2003</p>"
+                     "<p>L\x92an deux mille trois et le quatre du mois d'avril \xe0 20 h 30</p></body></html>".encode("latin-1"))
+    r = extract_html(page, "https://web.archive.org/web/1/http://x/p.html", "2026-10-08T00:00:00+00:00")
+    assert r["meeting_date"]["value"] == "2003-04-04" and "L’an deux mille trois" in r["pages"][0]["text"]
+    assert r["pages"][0]["method"] == "html_text" and r["page_count"] == 1 and len(r["sha256"]) == 64
+    rtf = br"{\rtf1\ansi{\fonttbl{\f0 Arial;}}\f0 L\'92an deux mille trois et le vingt du mois de Septembre\par Etaient pr\'e9sents : A, B.\par}"
+    assert rtf_to_text(rtf).splitlines()[0].startswith("L’an deux mille trois") and "présents" in rtf_to_text(rtf)
+    assert "fonttbl" not in rtf_to_text(rtf) and "Arial" not in rtf_to_text(rtf)
+    p2 = tmp_path / "p.rtf"; p2.write_bytes(rtf)
+    assert extract_rtf(p2, "https://e/x", "t")["meeting_date"]["value"] == "2003-09-20"

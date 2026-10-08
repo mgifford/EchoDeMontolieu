@@ -19,12 +19,15 @@ import requests
 from .extract import extract_pdf
 from .fetch import USER_AGENT, StopFetching
 from .sync import _first_version, _load
+from .textdoc import extract_html, extract_rtf
 
 CDX_URL = "https://web.archive.org/cdx/search/cdx"
 DOMAIN = "montolieu.fr"
 MIRROR_BASE = "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/"
 # Minutes of the old site were named CRCM<date>.pdf (compte rendu du conseil municipal).
-_MINUTES = re.compile(r"/docs/CRCM[^/]*\.(pdf|doc)$", re.I)
+_MINUTES = re.compile(r"/(?:docs/|conseil/)?CRCM[^/]*\.(pdf|doc|rtf|html?)$", re.I)
+# When one meeting exists in several formats keep the first: the formats differ only in packaging.
+_PREFERENCE = ("application/pdf", "text/html", "text/rtf", "application/msword")
 
 
 def fetch_captures(session=None):
@@ -32,7 +35,7 @@ def fetch_captures(session=None):
     s = session or requests.Session()
     resp = s.get(CDX_URL, headers={"User-Agent": USER_AGENT, "Connection": "close"}, timeout=90, params=[
         ("url", DOMAIN), ("matchType", "domain"), ("filter", "statuscode:200"),
-        ("filter", "mimetype:application/(pdf|msword)"), ("collapse", "urlkey"),
+        ("filter", "mimetype:(application/(pdf|msword)|text/(html|rtf))"), ("collapse", "urlkey"),
         ("fl", "timestamp,original,mimetype,length"), ("output", "json")])
     if resp.status_code == 429 or resp.status_code >= 500:
         raise StopFetching(f"{resp.status_code} from the Wayback CDX API")
@@ -61,16 +64,17 @@ def date_hint(filename):
 
 
 def choose_minutes(captures):
-    """One entry per meeting: the minutes files, PDF preferred over Word, earliest capture."""
+    """One entry per meeting: the minutes files, best format first (PDF, HTML, RTF, Word), earliest capture."""
+    def rank(c):
+        return _PREFERENCE.index(c["mimetype"]) if c["mimetype"] in _PREFERENCE else len(_PREFERENCE)
+
     best = {}
     for c in captures:
         if not _MINUTES.search(c["original"]):
             continue
-        name = unquote(c["original"].rsplit("/", 1)[-1])
-        key = re.sub(r"\.(pdf|doc)$", "", name, flags=re.I).replace(" ", "").lower()
-        is_pdf = c["mimetype"] == "application/pdf"
-        old = best.get(key)
-        if old is None or (is_pdf and old["mimetype"] != "application/pdf"):
+        stem = re.sub(r"\.\w+$", "", unquote(c["original"].rsplit("/", 1)[-1]))
+        key = re.sub(r"\D", "", stem) or stem.lower()   # CRCM%2020_09_03.rtf and crcm200903.html are one meeting
+        if key not in best or rank(c) < rank(best[key]):
             best[key] = c
     out = []
     for key, c in sorted(best.items()):
@@ -81,8 +85,8 @@ def choose_minutes(captures):
     return out
 
 
-def sync_wayback(fetcher, private_dir, archive_dir, items, tessdata_dir=None, limit=None, extract=extract_pdf):
-    """Download, mirror and extract the PDF items not yet in the private index."""
+def sync_wayback(fetcher, private_dir, archive_dir, items, tessdata_dir=None, limit=None, extract=None):
+    """Download, mirror and extract the items (PDF, HTML, RTF) not yet in the private index."""
     private, originals = Path(private_dir), Path(archive_dir) / "originals"
     originals.mkdir(parents=True, exist_ok=True)
     (private / "extractions").mkdir(parents=True, exist_ok=True)
@@ -91,7 +95,7 @@ def sync_wayback(fetcher, private_dir, archive_dir, items, tessdata_dir=None, li
     report = {"new": [], "skipped": [], "failed": [], "word_only": [], "stopped": None}
     todo = []
     for it in items:
-        if it["mimetype"] != "application/pdf":
+        if it["mimetype"] not in ("application/pdf", "text/html", "text/rtf"):
             report["word_only"].append(it["wayback_url"])
         elif it["wayback_url"] in index and "error" not in index[it["wayback_url"]]:
             report["skipped"].append(it["wayback_url"])
@@ -101,12 +105,17 @@ def sync_wayback(fetcher, private_dir, archive_dir, items, tessdata_dir=None, li
         key = it["wayback_url"]
         try:
             fetched = fetcher.get(it["raw_url"], revalidate=False)
-            head = fetched.path.read_bytes()[:5]
-            if head != b"%PDF-":
-                raise ValueError(f"not a PDF (starts {head!r})")
+            head = fetched.path.read_bytes()[:64]
+            magic = {"application/pdf": b"%PDF-", "text/rtf": b"{\\rtf"}.get(it["mimetype"])
+            if magic and not head.startswith(magic):
+                raise ValueError(f"not a {it['mimetype']} file (starts {head[:8]!r})")
+            if it["mimetype"] == "text/html" and b"<" not in head and b"Wayback" in fetched.path.read_bytes()[:2000]:
+                raise ValueError("an Internet Archive error page, not the document")
             mirror = originals / it["name"]
             shutil.copyfile(fetched.path, mirror)
-            result = extract(fetched.path, key, fetched.retrieved_at, tessdata_dir=tessdata_dir)
+            doc_extract = extract or {"application/pdf": extract_pdf, "text/html": extract_html,
+                                      "text/rtf": extract_rtf}[it["mimetype"]]
+            result = doc_extract(fetched.path, key, fetched.retrieved_at, tessdata_dir=tessdata_dir)
             out = private / "extractions" / (Path(it["name"]).stem + ".json")
             out.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
             entry = _first_version({"filename": it["name"], "draft_suspected": False}, result, fetched,
