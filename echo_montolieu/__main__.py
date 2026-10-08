@@ -14,6 +14,7 @@ from . import verify
 from .minutes import INDEX_URL, parse_minutes_index
 from .privacy import PublicFigures, Pseudonymiser, redact_extraction
 from .record import publish_record
+from .render import render_all
 from .sync import sync
 
 
@@ -62,6 +63,10 @@ def main(argv=None):
                        help="check an older version (use with --file)")
     p_ver.add_argument("--public", default="public")
     p_ver.add_argument("--cache", default=".cache")
+
+    p_ren = sub.add_parser(
+        "render", help="write readable Markdown: minutes, summary and follow-ups per meeting")
+    p_ren.add_argument("--public", default="public")
 
     p_st = sub.add_parser("status", help="state of each redacted document")
     p_st.add_argument("--private", default="private")
@@ -135,6 +140,9 @@ def main(argv=None):
             result = verify.verify_online(record, PoliteFetcher(args.cache))
         print(json.dumps(result, indent=2))
         sys.exit(0 if result["match"] else 1)
+    elif args.cmd == "render":
+        report, _ = render_all(args.public)
+        print(json.dumps({"meetings": report["meetings"]}, indent=2))
     elif args.cmd == "status":
         print(json.dumps(pub.status(args.private, args.public), indent=2))
     elif args.cmd == "approve":
