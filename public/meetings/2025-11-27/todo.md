@@ -28,11 +28,11 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 - [ ] “Pour que ces travaux puissent être menés tout début 2026, il convient de les intégrer au budget actuel, afin que leur exécution puisse être reportée lors de la clôture des comptes 2025, sans attendre le vote du budget 2026 qui n’interviendra qu’après les élect”
 
-## Déjà realisé au ([p.4](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=4))
+## Budget rectificatif ([p.4](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=4))
 
 **Postponed or to be revisited**
 
-- [ ] “14/10/2025 BR 2025 TOTAL O13 30 000,00 € 13 948,45 € 14 060,00 € TOTAL 70 71 989,00 € 60 084,54 € 69 283,00 € TOTAL 73 685 520,50 € 625 935,80 € 706 540,00 € TOTAL 74 156 907,00 € 149 557,41 € 158 020,00 € TOTAL 75 Autres produits de gestion courante 119 760,0”
+- [ ] “Côté investissement dépenses sont réintégrés et/ou dispatchés sur les lignes comptables adéquates : - Le complément pour l’aménagement paysager du city stade (dans le mobilier et les aménagement et agencements de terrain) - Les travaux de voiries - L’opération”
 
 ## Autorisation d’engager les depenses 2026 dans l’attente du vote du budget ([p.6](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=6))
 

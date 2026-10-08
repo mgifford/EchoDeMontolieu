@@ -27,7 +27,7 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 - [ ] “La convention a été transmise en amont du conseil, lequel est appelé à voter pour autoriser le maire à signer la convention, et compléter le dossier de subvention (représentant 50 % du coût à charge de la commune).”
 - [ ] “Le conseil, à l’unanimité, autorise le maire à signer la convention et faire la demande de subvention afférente.”
 
-## Total des depenses ([p.3](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=3))
+## Total des depenses ([p.2](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=2))
 
 **Postponed or to be revisited**
 

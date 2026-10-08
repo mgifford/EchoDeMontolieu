@@ -21,23 +21,8 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 **Postponed or to be revisited**
 
 - [ ] “Résultat d'exploitation reporté 34 301,58 34 301,58 34 301,58 013.”
-
-## Budget initial budget total ([p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=3))
-
-**Postponed or to be revisited**
-
 - [ ] “Solde d'exécution de la section d'investissement reporté 259 350,21 259 350,21 259 350,21 020.”
-
-## Budget initial budget total ([p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=3))
-
-**Postponed or to be revisited**
-
 - [ ] “Solde d'exécution de la section d'investissement reporté 0,00 0,00 0,00 021.”
-
-## Budget general investissement recettes ([p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=3))
-
-**Postponed or to be revisited**
-
 - [ ] “Résultat d'exploitation reporté 245,94 245,94 0,00 002.”
 - [ ] “Résultat d'exploitation reporté 245,94 245,94 65.”
 
@@ -47,18 +32,8 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 - [ ] “Résultat d'exploitation reporté 0,00 0,00 0,00 002.”
 - [ ] “Résultat d'exploitation reporté 0,00 74.”
-
-## Depenses de fonctionnement ([p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=4))
-
-**Postponed or to be revisited**
-
 - [ ] “Résultat d'exploitation reporté 1,66 1,66 0,00 002.”
 - [ ] “Résultat d'exploitation reporté 1,66 1,66 0,00 74.”
-
-## Fonctionnement recettes budget groupe medical fonctionnement depenses budget groupe medical ([p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=4))
-
-**Postponed or to be revisited**
-
 - [ ] “Solde d'exécution de la section d'investissement reporté 9 362,26 9 362,26 0,00 001.”
 - [ ] “Solde d'exécution de la section d'investissement reporté 9 362,26 9 362,26 0,00 16.”
 
@@ -81,11 +56,6 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 - [ ] “Solde d'exécution de la section d'investissement reporté 141 854,80 141 854,80 0,00 001.”
 - [ ] “Solde d'exécution de la section d'investissement reporté 141 854,80 141 854,80 0,00 040.”
-
-## Depenses d'investissement ([p.6](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=6))
-
-**Postponed or to be revisited**
-
 - [ ] “Solde d'exécution de la section d'investissement reporté 0,00 0,00 0,00 001.”
 - [ ] “Solde d'exécution de la section d'investissement reporté 0,00 021.”
 

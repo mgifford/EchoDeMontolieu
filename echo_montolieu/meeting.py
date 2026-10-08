@@ -20,6 +20,10 @@ ACRONYMS = {"pv": "PV", "plu": "PLU", "ccas": "CCAS", "alsh": "ALSH", "cfu": "CF
             "rgpd": "RGPD", "mvdl": "MVDL", "syaden": "SYADEN", "abf": "ABF"}
 MIN_PROSE_CHARS = 40
 
+_HONORIFIC_NAME_ANYCASE = re.compile(
+    r"\b(?i:Monsieur|Madame|Mademoiselle|M\.|Mme|Mlle)\s+"
+    r"(?!(?i:le|la|les|Maire|Adjoint|Adjointe|Président|Présidente|Conseil|Trésorier)\b)"
+    r"[A-ZÀ-Ý][\wÀ-ÿ’'\-]+(?:\s+[A-ZÀ-Ý][\wÀ-ÿ’'\-]+){0,2}")
 _HONORIFIC_NAME = re.compile(
     r"\b(?:Monsieur|Madame|Mademoiselle|M\.|Mme|Mlle)\s+"
     r"(?!(?:le|la|les|Maire|Adjoint|Adjointe|Président|Présidente|Conseil|Trésorier)\b)"
@@ -106,6 +110,33 @@ def title_key(title):
     return " ".join(w for w in words if w not in {"du", "de", "des", "la", "le", "les", "au", "aux", "et", "un", "une", "en", "d", "l"})
 
 
+def surname_tokens(names):
+    """Folded surname-like tokens (ALL-CAPS words) of the attendance names, hyphens split."""
+    out = set()
+    for name in names:
+        for word in name.split():
+            if len(word) >= 3 and word.upper() == word:
+                out.update(t for t in re.findall(r"[a-z]{3,}", _fold(word)))
+    return out
+
+
+def scrub_title(raw_title, names, surnames):
+    """Scrub a heading. Headings are often a person's name introducing their statement."""
+    text = scrub_names(raw_title, names)
+    text = _HONORIFIC_NAME_ANYCASE.sub(PLACEHOLDER, text)
+    words = text.split()
+    kept = []
+    for w in words:
+        tokens = re.findall(r"[a-z]{3,}", _fold(w))
+        kept.append(PLACEHOLDER if tokens and all(t in surnames for t in tokens) else w)
+    text = " ".join(kept)
+    return re.sub(rf"(?:{re.escape(PLACEHOLDER)}\s*)+", PLACEHOLDER + " ", text).strip()
+
+
+def _sentence_blocks(blocks):
+    return [b for b in blocks if b["kind"] == "paragraph" and len(b["text"].split()) >= 8]
+
+
 def _prose_length(blocks):
     return sum(len(re.findall(r"[a-zà-ÿ]", b["text"])) for b in blocks
                if b["kind"] in ("paragraph", "bullet"))
@@ -126,7 +157,7 @@ def split_items(blocks):
         heading = blocks[start]
         # A heading whose body has almost no prose is a table caption or sub-heading:
         # fold it into the previous item.
-        if items and _prose_length(body) < MIN_PROSE_CHARS:
+        if items and (_prose_length(body) < MIN_PROSE_CHARS or not _sentence_blocks(body)):
             items[-1]["blocks"].append({"kind": "subheading", "text": heading["text"],
                                         "page": heading["page"]})
             items[-1]["blocks"].extend(body)
@@ -160,6 +191,8 @@ def parse_meeting(record):
     present, absent, holders = attendance_names(full)
     names = present + absent + holders
 
+    surnames = surname_tokens(names)
+
     def scrub(text):
         return scrub_names(text, names)
 
@@ -169,7 +202,8 @@ def parse_meeting(record):
     for n, raw in enumerate(raw_items, start=1):
         body = _block_text(raw["blocks"])
         pages = [raw["page"]] + [b["page"] for b in raw["blocks"]]
-        title = display_title(raw["title_raw"], agenda)
+        safe_raw = scrub_title(raw["title_raw"], names, surnames)
+        title = display_title(safe_raw, agenda) if safe_raw == raw["title_raw"] else sentence_case(safe_raw)
         sensitive = is_property_transaction(raw["title_raw"], body)
         votes = parse_votes(body)
         item = {
@@ -177,7 +211,7 @@ def parse_meeting(record):
             "title": scrub(title),
             "title_key": title_key(scrub(title)),
             "pages": [min(pages), max(pages)],
-            "topics": [t for t, hits in find_topics(raw["title_raw"], body) if hits >= 3][:3],
+            "topics": [t for t, hits in find_topics(safe_raw, body) if hits >= 3][:3],
             "vote_result": votes["result"],
             "votes": [{k: (scrub(v) if k == "sentence" else v) for k, v in vote.items()}
                       for vote in votes["votes"]],

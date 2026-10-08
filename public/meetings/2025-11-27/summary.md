@@ -17,7 +17,7 @@ machine_generated: true
 This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf).
 
 - Attendance: 13 present, 1 absent or represented.
-- Items: 19. Pages: 10.
+- Items: 16. Pages: 10.
 - Pages read by low-confidence OCR: 8, 9. Check the original.
 
 ## Approbation du proces verbal du conseil du 27 octobre 2025
@@ -68,30 +68,11 @@ This summary is extracted by rules, not written by a person: each line quotes th
 **Amounts**
 
 - 65 878,75 €, 55 347,10 €: “Un report de la section de fonctionnement est dégagé pour 65878,75 € contre 55 347,10€ dans le budget initial.”
-
-## Déjà realisé au
-
-[p.4](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=4) · Vote: no vote found · Topics: finances
-
-> 14/10/2025 BR 2025 TOTAL O13 30 000,00 € 13 948,45 € 14 060,00 € TOTAL 70 71 989,00 € 60 084,54 € 69 283,00 € TOTAL 73 685 520,50 € 625 935,80 € 706 540,00 € TOTAL 74 156 907,00 € 149 557,41 € 158 020,00 € TOTAL 75 Autres produits de gestion courante 119 760,00 € 109 926,36 € 117 644,96 € TOTAL 77 38 850,00 € 38…
-
-**Amounts**
-
-- 30 000 €, 13 948,45 €, 14 060 €, 71 989 €, 60 084,54 €, 69 283 €, 73 685 520,50 €, 625 935,80 €, 706 540 €, 74 156 907 €, 149 557,41 €, 158 020 €, 119 760 €, 109 926,36 €, 117 644,96 €, 38 850 €, 38 898,91 €, 38 900 €, 1 103 026,50 €, 998 351,47 €, 1 104 447,96 €, 0 €, 0 €, 0 €, 0 €, 0 €, 0 €: “14/10/2025 BR 2025 TOTAL O13 30 000,00 € 13 948,45 € 14 060,00 € TOTAL 70 71 989,00 € 60 084,54 € 69 283,00 € TOTAL 73 685 520,50 € 625 935,80 € 706 540,00 € TOTAL 74 156 907,00 € 149 557,41 € 158 020,00 € TOTAL 75 Autre”
-
-## Déjà realisé au
-
-[p.4](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=4) · Vote: no vote found
-
-> 24/11/2025 BR 2025 TOTAL O11 Charges à caractère général 334 388,87 € 264 456,62 € 317 734,00 € TOTAL O12 Charges de personnel 543 450,00 € 460 983,04 € 549 900,00 € TOTAL 65 Autres charges de gestion courante 127 183,90 € 97 652,49 € 132 790,58 € TOTAL 66 Charges financières 28 486,63 € 21 138,08 € 23 974,63 € TOTAL…
-
-**Amounts**
-
-- 334 388,87 €, 264 456,62 €, 317 734 €, 543 450 €, 460 983,04 €, 549 900 €, 127 183,90 €, 97 652,49 €, 132 790,58 €, 28 486,63 €, 21 138,08 €, 23 974,63 €, 300 €, 257,38 €, 300 €, 50 858 195,61 €, 1 104 447,96 €: “24/11/2025 BR 2025 TOTAL O11 Charges à caractère général 334 388,87 € 264 456,62 € 317 734,00 € TOTAL O12 Charges de personnel 543 450,00 € 460 983,04 € 549 900,00 € TOTAL 65 Autres charges de gestion courante 127 183,90”
+- 30 000 €, 13 948,45 €, 14 060 €, 71 989 €, 60 084,54 €, 69 283 €, 73 685 520,50 €, 625 935,80 €, 706 540 €, 74 156 907 €, 149 557,41 €, 158 020 €, 119 760 €, 109 926,36 €, 117 644,96 €, 38 850 €, 38 898,91 €, 38 900 €, 1 103 026,50 €, 998 351,47 €, 1 104 447,96 €, 0 €, 0 €, 0 €, 0 €, 0 €, 0 €, 334 388,87 €, 264 456,62 €, 317 734 €, 543 450 €, 460 983,04 €, 549 900 €, 127 183,90 €, 97 652,49 €, 132 790,58 €, 28 486,63 €, 21 138,08 €, 23 974,63 €, 300 €, 257,38 €, 300 €, 50 858 195,61 €, 1 104 447,96 €: “Côté investissement dépenses sont réintégrés et/ou dispatchés sur les lignes comptables adéquates : - Le complément pour l’aménagement paysager du city stade (dans le mobilier et les aménagement et agencements de terrain”
 
 **Exceptions or derogations mentioned**
 
-- “24/11/2025 BR 2025 TOTAL O11 Charges à caractère général 334 388,87 € 264 456,62 € 317 734,00 € TOTAL O12 Charges de personnel 543 450,00 € 460 983,04 € 549 900,00 € TOTAL 65 Autres charges de gestion”
+- “Côté investissement dépenses sont réintégrés et/ou dispatchés sur les lignes comptables adéquates : - Le complément pour l’aménagement paysager du city stade (dans le mobilier et les aménagement et ag”
 
 ## Total budget
 
@@ -103,16 +84,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 - 9 000 €, 6 225 €, 10 000 €: “pour ce qui concerne la réalisation des fresques qui ont été inaugurées avant l’été) Côté recette sont intégrées les subventions pour l’aménagement paysager du city stade (région pour 9000,00€), celle de la voirie (dépar”
 - 123 672,47 €: “Le tout est équilibré budgétairement par un prêt de 123 672,47 euros.”
-
-## Déjà realisé au
-
-[p.5](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=5) · Vote: no vote found
-
-> 24/11/2025 BR2025 avec voirie chapitre 001 229665,82 229665,82 TOTAL 20 Immobilisation incorpore 15 618,00 6 938,00 15 618,00 TOTAL 16 Remboursement d'empr 82 025,75 79 241,57 85 497,00 TOTAL 204 Subventions d'équipeme 21 754,00 21 754,00 21 754,00 TOTAL 21 Immobilisations corpore 602 226,37 121 051,58 646 839,18…
-
-**Amounts**
-
-- 951 289,94 €, 237 471,47 €, 999 374 €: “24/11/2025 BR2025 avec voirie chapitre 001 229665,82 229665,82 TOTAL 20 Immobilisation incorpore 15 618,00 6 938,00 15 618,00 TOTAL 16 Remboursement d'empr 82 025,75 79 241,57 85 497,00 TOTAL 204 Subventions d'équipeme 2”
+- 951 289,94 €, 237 471,47 €, 999 374 €: “Propositions 2025 BP 2025 DÉJÀ REALISÉ AU 24/11/2025 BR2025 avec voirie chapitre 001 229665,82 229665,82 TOTAL 20 Immobilisation incorpore 15 618,00 6 938,00 15 618,00 TOTAL 16 Remboursement d'empr 82 025,75 79 241,57 85”
 
 ## Déjà realisé au
 
@@ -190,6 +162,6 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 Decisions about sales of private property (4 notice(s)). Details are in the minutes; they are left out here on purpose.
 
-## Mme boyer-illiano
+## [name withheld]
 
 [p.10](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=10) · Vote: unanimous

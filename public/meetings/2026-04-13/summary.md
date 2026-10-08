@@ -17,7 +17,7 @@ machine_generated: true
 This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf).
 
 - Attendance: 14 present, 1 absent or represented.
-- Items: 14. Pages: 8.
+- Items: 12. Pages: 8.
 
 ## Approbation du PV du conseil municipal du 1 avril 2026
 
@@ -56,27 +56,13 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 ## Piscine – Tarif groupe enfants
 
-[p.3](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=3) · Vote: unanimous
-
-**Amounts**
-
-- 1,50 €, 1,50 €: “Pour le tarif groupe (ALSH, centres de vacances ou colonies), Tarifs Piscine Municipale 2025 : Entrée piscine enfants 1,50 € Accompagnant : 1,50 € Proposition de reconduction Vote du conseil à l’unanimité.”
-
-## Tarif location foyer 2026
-
 [p.3](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=3) to [p.4](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=4) · Vote: unanimous
 
 **Amounts**
 
-- 1 000 €, 100 €, 1 000 €, 350 €: “Proposition de reconduction : Tarif location foyer Caution Tarifs locations Habitant de la commune 1000,00 € 100,00€ (week-end et férié) Personnes extérieures à la commune 1000,00€ 350,00€ (week-end et férié) Vote du con”
-
-## Tarif location materiel 2026
-
-[p.4](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=4) · Vote: unanimous
-
-**Amounts**
-
-- 55 €, 55 €: “Proposition de reconduction : Location matériel Conditions Tarifs location Mini pelle avec chauffeur Min .1 h/ Max 4 h 55,00 €/H Location camion sans chauffeur Livraison 17h- enlèvement matin 55,00 € Vote du conseil à l’”
+- 1,50 €, 1,50 €: “Pour le tarif groupe (ALSH, centres de vacances ou colonies), Tarifs Piscine Municipale 2025 : Entrée piscine enfants 1,50 € Accompagnant : 1,50 € Proposition de reconduction Vote du conseil à l’unanimité.”
+- 1 000 €, 100 €, 1 000 €, 350 €: “TARIF LOCATION FOYER 2026 Proposition de reconduction : Tarif location foyer Caution Tarifs locations Habitant de la commune 1000,00 € 100,00€ (week-end et férié) Personnes extérieures à la commune 1000,00€ 350,00€ (week”
+- 55 €, 55 €: “TARIF LOCATION MATERIEL 2026 Proposition de reconduction : Location matériel Conditions Tarifs location Mini pelle avec chauffeur Min .1 h/ Max 4 h 55,00 €/H Location camion sans chauffeur Livraison 17h- enlèvement matin”
 
 ## Tarif prestations de service 2026
 
@@ -106,7 +92,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 - 400 €, 100 €, 500 €, 500 €, 500 €, 500 €, 28 575 €, 29 275 €, 34 157,50 €, 24 270 €, 30 770 €: “400,00 € 300,00 100,00 € Unanimité VALORISATION PATRIMOINE 500,00 € 500,00 € 500,00 € 500,00 € Unanimité 28 575,00 € 29 275,00 € 34 157,50 € 6 500,00 24 270,00 € 30 770,00 € Echanges concernant certaines associations : L”
 
-## Etore-lortholary
+## [name withheld]
 
 [p.6](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=6) to [p.7](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=7) · Vote: majority (not unanimous) (abstentions: 1) · Topics: subventions, associations et vie locale
 

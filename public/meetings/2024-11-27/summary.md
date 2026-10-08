@@ -17,7 +17,7 @@ machine_generated: true
 This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf).
 
 - Attendance: 13 present, 1 absent or represented.
-- Items: 10. Pages: 6.
+- Items: 8. Pages: 6.
 
 ## Approbation du proces verbal du conseil du 23 octobre 2024
 
@@ -43,7 +43,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 ## Total des depenses
 
-[p.2](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=2) to [p.3](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=3) · Vote: no vote found · Topics: finances
+[p.2](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=2) to [p.4](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=4) · Vote: unanimous · Topics: finances, voirie et travaux
 
 > 1125084,47 895519,60 1125084,47 011. Charges à caractère général 340365 297646,85 340365 012. Charges de personnel et frais assimilés 486500 462498,34 541500 6218. Autre personnel extérieur 3072,34 3000 633. Impôts, taxes et versements assimilés su 13500 6954,95 13500 6411. Personnel titulaire 2 255000 228819,82…
 
@@ -54,15 +54,6 @@ This summary is extracted by rules, not written by a person: each line quotes th
 **Exceptions or derogations mentioned**
 
 - “Charges exceptionnelles 514 0 514 68 dotation aux provisions semi budgétaires 4000 700 4000 Concernant les dépenses d’investissement, il n’y a aucune augmentation mais une ventilation différente des s”
-
-## Total des depenses
-
-[p.3](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=3) to [p.4](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=4) · Vote: unanimous · Topics: finances, voirie et travaux
-
-> 1446925,11 763055,67 1446925,11 001. Solde d'exécution de la section d'investissement reporté 150631,11 0 150631,11 041 opérations patrimoniales 4283,32 4283,32 4283,32 16. Emprunts et dettes assimilées 79200 67193,3 79200 20. Immobilisations incorporelles 49848 10938 49848 21. Immobilisations corporelles 1167246…
-
-**Exceptions or derogations mentioned**
-
 - “Immobilisations en cours 0 Le conseil vote à l’unanimité le budget rectificatif N°3 Suite à la demande exprimée par MVdL, le conseil vote à l’unanimité la subvention complémentaire exceptionnelle pour”
 
 ## Approbation padd rectifie
@@ -85,13 +76,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 ## Constitution de la commission communale des impots directs
 
-[p.5](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=5) · Vote: no vote found · Topics: vie institutionnelle
-
-> Lors d’un précédent conseil, une liste de noms a été établie. Elle n’est dans les faits pas nécessaire. En effet après vérification de la règlementation en la matière, il s’avère que la DDFIP en cas d’oubli de la commune dresse elle-même une liste de contribuables. Ainsi en juillet 2020, la commission communale des…
-
-## Droits de préemption
-
-[p.5](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=5) · Vote: unanimous · Topics: droit de préemption
+[p.5](https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf#page=5) · Vote: unanimous · Topics: vie institutionnelle
 
 Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.
 

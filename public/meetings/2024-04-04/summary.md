@@ -17,7 +17,7 @@ machine_generated: true
 This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf).
 
 - Attendance: 7 present, 1 absent or represented.
-- Items: 30. Pages: 20.
+- Items: 22. Pages: 20.
 - Pages read by low-confidence OCR: 9, 19. Check the original.
 
 ## Approbation du proces verbal du conseil du 31 janvier 2024
@@ -54,24 +54,6 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 - “Produits exceptionnels 2 600,00 6 900,00 6 959,61 0,00 0,00 0,00 TOTAUX RECETTES DE FONCTIONNEMENT 1 049 853,58 1 126 826,58 1 153 963,59 BUDGET GENERAL FONCTIONNEMENT RECETTES BUDGET GENERAL FONCTION”
 
-## Budget initial budget total
-
-[p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=3) · Vote: no vote found · Topics: finances
-
-> 31/12/2023 001. Solde d'exécution de la section d'investissement reporté 259 350,21 259 350,21 259 350,21 020. Dépenses imprévues 0,00 0,00 0,00 040. Opérations d’ordre de transfert entre section 0,00 0,00 0,00 10. Dotations, fonds divers et réserves 0,00 0,00 0,00 16. Emprunts et dettes assimilées 70 715,00 70 715,00…
-
-## Budget initial budget total
-
-[p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=3) · Vote: no vote found · Topics: finances
-
-> 31/12/2023 001. Solde d'exécution de la section d'investissement reporté 0,00 0,00 0,00 021. Virement de la section d’exploitation (recettes) 111 478,42 111 820,42 0,00 024. Produits des cessions d’immobilisations (recettes) 46 000,00 0,00 0,00 040. Opérations d’ordre de transfert entre section 0,00 0,00 0,00 041.…
-
-## Budget general investissement recettes
-
-[p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=3) · Vote: no vote found · Topics: finances
-
-> Code Libellé 2023 Réalisé total Dispo. 002. Résultat d'exploitation reporté 245,94 245,94 0,00 002. Résultat d'exploitation reporté 245,94 245,94 65. Autres charges de gestion courante 2 754,06 732,05 2 022,01 6562. Aides 2 754,06 732,05 2 022,01 TOTAUX DEPENSES DE FONCTIONNEMENT 3 000,00 977,99 2 022,01
-
 ## Budget CCAS fonctionnement depenses
 
 [p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=3) to [p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=4) · Vote: no vote found · Topics: finances
@@ -82,27 +64,9 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 - 522,01 €: “Excédent de fonctionnement 3 522.01 € Il n’y a pas d’investissement pour le CCAS Pour le groupe médical Section de fonctionnement Section d’investissement Code Libellé 2023 Réalisé total Dispo. 002.”
 
-## Budget CCAS fonctionnement recettes
-
-[p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=4) · Vote: no vote found · Topics: finances
-
-> Code Libellé 2023 Réalisé totalDispo. 023. Virement à la section d’investissement 9 725,66 0,00 9 725,66 023(ordre). Virement à la section d’investissement 9 725,66 9 725,66 66. Charges financières 3 150,00 3 148,71 1,29 66111. Intérêts réglés à l’échéance 3 150,00 3 148,71 1,29 67. Charges exceptionnelles 0,00 0,00…
-
 **Exceptions or derogations mentioned**
 
-- “Charges exceptionnelles 0,00 0,00 0,00 TOTAUX”
-
-## Depenses de fonctionnement
-
-[p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=4) · Vote: no vote found · Topics: finances
-
-> 12 875,66 3 148,71 9 726,95 Code Libellé 2023 Réalisé totalDispo. 002. Résultat d'exploitation reporté 1,66 1,66 0,00 002. Résultat d'exploitation reporté 1,66 1,66 0,00 74. Dotations et participations 12 874,00 12 873,50 0,50 74718. Autres (participation communes MOUSSOULENS PEZENS 3 241,00 3 240,50 0,50 74748.…
-
-## Fonctionnement recettes budget groupe medical fonctionnement depenses budget groupe medical
-
-[p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=4) · Vote: no vote found · Topics: finances
-
-> Code Libellé 2023 Réalisé totalDispo. 001. Solde d'exécution de la section d'investissement reporté 9 362,26 9 362,26 0,00 001. Solde d'exécution de la section d'investissement reporté 9 362,26 9 362,26 0,00 16. Emprunts et dettes assimilées 9 725,66 9 725,25 0,41 1641. Emprunts en euros 9 725,66 9 725,25 0,41 165.…
+- “Charges exceptionnelles 0,00 0,00 0,00 TOTAUX DEPENSES DE FONCTIONNEMENT 12 875,66 3 148,71 9 726,95 Code Libellé 2023 Réalisé totalDispo. 002.”
 
 ## Investissement depenses
 
@@ -113,12 +77,6 @@ This summary is extracted by rules, not written by a person: each line quotes th
 **Amounts**
 
 - 9 726,45 €, 9 725,25 €, 1,20 €: “L’excédent de fonctionnement est de 9 726,45 € Le déficit d’investissement est de 9 725,25 € Résultat net 1,20 € Pour le lotissement Section de fonctionnement Code Libellé 2023 Réalisé totalDispo. 001.”
-
-## Budget groupe medical investissement recettes
-
-[p.5](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=5) · Vote: no vote found · Topics: finances
-
-> Code Libellé 2023 Réalisé total Dispo. 023. Virement à la section d’investissement 171 456,49 0,00 171 456,49 023(ordre). Virement à la section d’investissement 171 456,49 171 456,49 042. Opérations d'ordre de transfert entre sections 328 536,00 0,00 328 536,00 71355(ordre)Variation de stocks de terrains aménagés 328…
 
 ## Depenses de fonctionnement
 
@@ -147,12 +105,6 @@ This summary is extracted by rules, not written by a person: each line quotes th
 **Amounts**
 
 - 39 886,55 €: “Pour la commune Rappel : résultat net de 39 886,55 € Le conseil statue sur le seul résultat de fonctionnement qui doit en priorité couvrir le besoin de financement de la section d’investissement.”
-
-## Depenses d'investissement
-
-[p.6](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=6) · Vote: no vote found · Topics: finances
-
-> 499 992,49 166 486,41 333 506,08 Code Libellé 2023 Réalisé total Dispo. 001. Solde d'exécution de la section d'investissement reporté 0,00 0,00 0,00 001. Solde d'exécution de la section d'investissement reporté 0,00 021. Virement de la section d’exploitation (recettes) 171 456,49 0,00 171 456,49 021(ordre). Virement…
 
 ## Budget lotissement investissement recettes budget lotissement investissement depenses
 

@@ -16,7 +16,7 @@ machine_generated: true
 
 These are sentences that *look like* a commitment, a postponement or a plan. They are candidates found by wording, not a checked action list. Verify each against the page.
 
-## Etoré-lortholary, ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=1))
+## [name withheld] ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=1))
 
 **Postponed or to be revisited**
 

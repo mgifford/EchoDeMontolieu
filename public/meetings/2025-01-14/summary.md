@@ -20,7 +20,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 - Items: 10. Pages: 6.
 - Pages read by low-confidence OCR: 5. Check the original.
 
-## Etoré-lortholary,
+## [name withheld]
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=1) · Vote: unanimous · Topics: finances, vie institutionnelle
 

@@ -47,7 +47,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 > [name withheld] fait part d’un nouvel arrangement entre les deux voisins de la parcelle, sans changement du prix de vente. [name withheld] ne prend pas part au vote.
 
-## Demande de monsieur didier almont
+## Demande de [name withheld]
 
 [p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=4) · Vote: unanimous · Topics: patrimoine, culture, tourisme
 

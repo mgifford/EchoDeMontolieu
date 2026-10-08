@@ -22,7 +22,7 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 - [ ] “Le déficit reporté de 2023 à 2024 est de 157 879 € soit 11 % des dépenses (contre 259 350 € et 27 % en 2023) "4 MF 9” TL 1213790 € Infrastructures 1 362€ / habitant _ ——— CNE 962 789 € Admin générale 1 081€ / habitant A(K((O Len veuf to” > 7 414€ Autres dépens”
 
-## Demande de monsieur didier almont ([p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=4))
+## Demande de [name withheld] ([p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=4))
 
 **Postponed or to be revisited**
 

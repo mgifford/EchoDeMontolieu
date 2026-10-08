@@ -17,7 +17,7 @@ machine_generated: true
 This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf).
 
 - Attendance: 11 present, 1 absent or represented.
-- Items: 15. Pages: 8.
+- Items: 13. Pages: 8.
 
 ## Approbation du proces verbal du conseil du 15 avril 2024
 
@@ -119,14 +119,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 **Amounts**
 
 - 50 €, 50 €: “Il est proposé au conseil de fixer le prix de cette occupation à 50 € par mois sur 9 mois (octobre à juin) Le conseil vote à l’unanimité le prix de la location à 50 € par mois, sur 9 mois.”
-
-## Appel de la participation pour le groupe medical des communes de moussoulens et pezens
-
-[p.7](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=7) · Vote: unanimous
-
-**Amounts**
-
-- 256,08 €, 1 984,42 €, 240,50 €: “POUR 2024 Participation des communes 2024 : Moussoulens 1052 hab.x1.194= 1 256.08 € Pezens 1662 habx1.194= 1 984,42 € TOTAL 3 240.50 € Le conseil vote à l’unanimité la participation proposée.”
+- 256,08 €, 1 984,42 €, 240,50 €: “APPEL DE LA PARTICIPATION POUR LE GROUPE MEDICAL DES COMMUNES DE MOUSSOULENS ET PEZENS POUR 2024 Participation des communes 2024 : Moussoulens 1052 hab.x1.194= 1 256.08 € Pezens 1662 habx1.194= 1 984,42 € TOTAL 3 240.50 ”
 
 ## Taux de la taxe d’amenagement
 
@@ -145,22 +138,9 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 ## Retour sur les consultations entre le conseil du 15 avril et celui du 13 juin
 
-[p.8](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=8) · Vote: no vote found
-
-> Monopoly du grand Carcassonne : sur 14 conseillers consultés,13 avis exprimés 12 positifs. La proposition a été retenue et l’information remontée à l’Agglo. Il est précisé qu’une vue du village fera partie des illustrations centrales du plateau de jeu, en conséquence le logo Montolieu village du livre et des arts sera…
-
-## Vignoble de saint denis
-
 [p.8](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=8) · Vote: unanimous
 
-> Cadastrale : Section N° Lieu-dit Superficie totale AB 289 Rue des arts 79m² Usage : Remise Prix de vente : 60 000,00 EUR Vendeur(s) :
-
-**Amounts**
-
-- 5 000 €: “18 m² Usage : Agricole Prix de vente : 5 000,00 EUR Vendeur(s) : JOULIA Régis Le conseil vote à l’unanimité contre l’exercice du droit de préemption Désignation du bien vendu : Réf.”
-- 60 000 €: “Cadastrale : Section N° Lieu-dit Superficie totale AB 289 Rue des arts 79m² Usage : Remise Prix de vente : 60 000,00 EUR Vendeur(s) :”
-
-**Places mentioned (unverified):** rue des arts 79m² Usage
+Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.
 
 ## Sci foch-pontier
 

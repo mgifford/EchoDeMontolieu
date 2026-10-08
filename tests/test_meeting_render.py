@@ -162,3 +162,48 @@ def test_two_proxy_lines_on_one_run_are_two_absentees_not_one_merged_name():
     present, absent, holders = attendance_names(text)
     assert absent == ["Cyril PETIT", "Dora ROUX"] and holders == ["Ann DURAND", "Bob MARTIN"]
     assert present == ["Ann DURAND", "Bob MARTIN"]
+
+
+# ---- headings that are names, and table captions --------------------------------------
+
+from echo_montolieu.meeting import scrub_title, surname_tokens  # noqa: E402
+
+NAMES = ["Claire DUBOIS", "Marc LEFEBVRE", "Anne ETORÉ-LORTHOLARY"]
+
+
+def test_a_heading_that_is_only_a_surname_is_scrubbed():
+    sn = surname_tokens(NAMES)
+    assert {"dubois", "lefebvre", "etore", "lortholary"} <= sn
+    assert scrub_title("ETORE-LORTHOLARY", NAMES, sn) == "[name withheld]"
+    assert scrub_title("DEMANDE DE MONSIEUR DIDIER ALMONT", NAMES, sn) == "DEMANDE DE [name withheld]"
+    assert scrub_title("REPONSE DE DUBOIS", NAMES, sn) == "REPONSE DE [name withheld]"
+    assert scrub_title("TRAVAUX DU MUSEE", NAMES, sn) == "TRAVAUX DU MUSEE"
+    assert scrub_title("DEMANDE DE MONSIEUR LE MAIRE", NAMES, sn) == "DEMANDE DE MONSIEUR LE MAIRE"
+
+
+def test_table_captions_without_a_sentence_fold_into_the_previous_item():
+    page = """
+1
+CONSEIL MUNICIPAL DU 4 AVRIL 2024
+Ordre du jour
+- Budget
+
+BUDGET GENERAL
+
+Le conseil examine le budget général de la commune pour l’exercice en cours et le vote.
+Vote du conseil à l’unanimité
+
+DEPENSES DE FONCTIONNEMENT
+
+Section de fonctionnement
+
+FONCTIONNEMENT RECETTES
+
+Libellé
+"""
+    rec = {"document_id": "bbbbbbbbbbbb", "source_url": "https://example.test/b.pdf", "source_sha256": "cd" * 32,
+           "retrieved_at": "2026-10-08T00:00:00+00:00", "page_count": 1, "meeting_date": {"value": "2024-04-04", "status": "tentative"},
+           "version": 1, "versions": [{}], "pages": [{"page": 1, "method": "text_layer", "status": "machine_extracted", "text": page}]}
+    items = parse_meeting(rec)["items"]
+    assert [i["title"] for i in items] == ["Budget"]            # captions folded in, agenda wording used
+    assert items[0]["pages"] == [1, 1] and items[0]["vote_result"] == "unanimous"

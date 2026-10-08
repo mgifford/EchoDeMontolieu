@@ -39,7 +39,7 @@ This summary is extracted by rules, not written by a person: each line quotes th
 
 - 91,38 %, 40,30 %, 10,70 %, 4,14 %: “[name withheld] propose à l’assemblée de fixer le montant des indemnités aux Adjoints et aux conseillers délégués dans le cadre leurs délégations, sans dépassement de l’enveloppe maximale prévue par la Loi, comme suit : ”
 
-## Étoré-lortholary)
+## [name withheld]
 
 [p.2](https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf#page=2) · Vote: no vote found
 
