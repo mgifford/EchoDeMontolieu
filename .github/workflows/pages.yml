@@ -28,7 +28,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install the one dependency the page builder imports
-        run: pip install fastapi
+        run: pip install markdown-it-py
       - name: Build the static site
         run: python build_site.py _site
       - uses: actions/configure-pages@v5

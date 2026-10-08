@@ -8,7 +8,9 @@ pytesseract
 pillow
 # Model calls (Hugging Face Inference Providers); reads the `hf auth login` token itself
 huggingface_hub
-# Tests and the static site builder import the app
+# Static site builder (Markdown to HTML)
+markdown-it-py
+# Tests import the app
 fastapi
 httpx
 pytest

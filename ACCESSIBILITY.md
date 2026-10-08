@@ -164,3 +164,15 @@ Content Security Policy with no violations.
 3. The manual checklist items relevant to the change are done, or listed as not done.
 4. New content is labelled as machine-generated or uncertain where it is.
 5. Anything not verified is written down in this file's gaps.
+
+## Trilingual static site (GitHub Pages)
+
+Built by `echo_montolieu/site.py`: `/fr/`, `/en/`, `/nl/` trees with a skip link, a main navigation, a language switcher
+(plain links, so it works without scripts; the choice is remembered in the browser), `lang` on the page and on any block shown in
+another language, and a visible notice when a page is not yet translated. Tables sit in a focusable, uniquely named scroll region
+with column headers. Checked on 2026-10-08 with axe-core 4.13.0 (`tools/a11y_check.cjs`) at 1280 and 320 px on the home page in
+all three languages, the meetings index, a minutes page, the issues, finance and places pages: 0 violations, no horizontal
+overflow, every link reachable by Tab. Language negotiation was checked in Chromium with Dutch, French, German and English
+browser settings and with a saved override. Not covered: screen readers, zoom beyond 320 px width, and the quality of the French
+and Dutch interface wording (not reviewed by a native speaker). The map page (`places/map.html`) is English only.
+
