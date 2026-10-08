@@ -15,6 +15,7 @@ native speaker.
 """
 import re
 
+from . import disclosure
 from .meeting import PLACEHOLDER, display_title
 from .text import clean_page_lines, paragraphs, sentence_case
 
@@ -76,7 +77,7 @@ def page_link(source_url, page):
     return f"[p.{page}]({source_url}#page={page})"
 
 
-def _front_matter(rec, kind, lang="fr", extra=None):
+def _front_matter(rec, kind, lang="fr", extra=None, ai_kind="rules", ai_model=None):
     date = (rec.get("meeting_date") or {}).get("value") or "unknown"
     status = (rec.get("meeting_date") or {}).get("status")
     lines = ["---",
@@ -89,6 +90,7 @@ def _front_matter(rec, kind, lang="fr", extra=None):
              f"source_sha256: {rec['source_sha256']}",
              f"language: {lang}",
              "machine_generated: true"]
+    lines += [f"{k}: {v}" for k, v in disclosure.front_matter(ai_kind, ai_model).items()]
     for key, value in (extra or {}).items():
         lines.append(f"{key}: {value}")
     return "\n".join(lines + ["---", ""])
@@ -105,8 +107,14 @@ def _ocr_block(page, url, labels):
     return out
 
 
-def render_minutes(rec, lang="fr", tr=None, extra=None):
-    """Tidied Markdown of one record. French keeps every name; `tr` translates the prose."""
+def render_minutes(rec, lang="fr", tr=None, extra=None, ai_model=None):
+    """Tidied Markdown of one record. French keeps every name; `tr` translates the prose.
+
+    `ai_model` names the AI model that translated the text; it is required for English and Dutch.
+    """
+    if lang != "fr" and not ai_model:
+        raise ValueError("a translated version must name the AI model that produced it")
+    ai_kind = "extraction" if lang == "fr" else "translation"
     tr = tr or (lambda text, page=None: text)
     labels = LABELS[lang]
     url = rec["source_url"]
@@ -132,7 +140,8 @@ def render_minutes(rec, lang="fr", tr=None, extra=None):
     heading = tr(sentence_case(doc_title["text"]) if doc_title else f"Conseil municipal du {doc_date}",
                  doc_title["page"] if doc_title else 1)
 
-    out = [_front_matter(rec, labels["kind_minutes"], lang, extra), f"# {heading}", "", labels["banner"], ""]
+    out = [_front_matter(rec, labels["kind_minutes"], lang, extra, ai_kind, ai_model), f"# {heading}", "",
+           disclosure.markdown(ai_kind, lang, ai_model), "", labels["banner"], ""]
     if labels["translation_notice"]:
         out += [labels["translation_notice"], ""]
     out += [labels["original"].format(url=url, sha=rec["source_sha256"][:16], date=rec["retrieved_at"][:10],
@@ -197,8 +206,8 @@ def render_facts(meeting):
     url, d = meeting["source_url"], meeting["date"] or "date not detected"
     out = [_front_matter({**meeting, "meeting_date": {"value": meeting["date"], "status": meeting["date_status"]},
                           "version": meeting["version"], "source_url": url,
-                          "source_sha256": meeting["source_sha256"]}, "Facts"),
-           f"# Facts found in the council meeting of {d}", "", BANNER, "",
+                          "source_sha256": meeting["source_sha256"]}, "Facts", "en"),
+           f"# Facts found in the council meeting of {d}", "", disclosure.markdown("rules"), "", BANNER, "",
            "This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the "
            f"sentence it comes from and links the page. Elected officials on the attendance list are "
            f"named; other personal names are replaced by `{PLACEHOLDER}`. Read the [full minutes](minutes.md) or the [original PDF]({url}).", "",
@@ -245,8 +254,8 @@ def render_todo(meeting, status_by_item=None):
     url, d = meeting["source_url"], meeting["date"] or "date not detected"
     out = [_front_matter({**meeting, "meeting_date": {"value": meeting["date"], "status": meeting["date_status"]},
                           "version": meeting["version"], "source_url": url,
-                          "source_sha256": meeting["source_sha256"]}, "To do"),
-           f"# Follow-ups from the council meeting of {d}", "", BANNER, "",
+                          "source_sha256": meeting["source_sha256"]}, "To do", "en"),
+           f"# Follow-ups from the council meeting of {d}", "", disclosure.markdown("rules"), "", BANNER, "",
            "These are sentences that *look like* a commitment, a postponement or a plan. They are "
            "candidates found by wording, not a checked action list. Verify each against the page.", ""]
     found = False
@@ -277,7 +286,7 @@ def meeting_folder(rec, taken):
 
 def render_index(rows):
     """Table of all meetings: what exists, and what to check."""
-    out = ["# Council meetings", "", BANNER, "",
+    out = ["# Council meetings", "", disclosure.markdown("rules"), "", BANNER, "",
            "One folder per meeting. `minutes.md` is the full text tidied for reading (names kept, "
            "as published). `facts.md` and `todo.md` are extracted by rules and carry no personal "
            "names. Every line links back to the page of the original PDF.", "",
@@ -324,5 +333,5 @@ def render_all(public_dir, status_by_item=None):
                      "review": meeting["pages_needing_review"], "draft": bool(rec.get("draft_suspected")),
                      "version": meeting["version"], "url": rec["source_url"]})
     rows.sort(key=lambda r: r["date"], reverse=True)
-    (out_dir / "index.md").write_text(render_index(rows), encoding="utf-8")
+    (out_dir / "index.md").write_text(disclosure.with_front_matter(render_index(rows), "Council meetings"), encoding="utf-8")
     return {"meetings": len(meetings), "folders": sorted(taken)}, meetings

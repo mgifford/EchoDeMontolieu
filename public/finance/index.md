@@ -1,5 +1,14 @@
+---
+title: "Finance, rules and exceptions"
+machine_generated: true
+produced_by: "software (programmed rules) written with AI assistance"
+human_reviewed: false
+ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
+---
 # Finance, rules and exceptions
 
+> **AI disclosure.** This page was generated automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model wrote its text: it is extracted from the minutes by programmed rules. No person has checked it, and it can be wrong. The original documents are authoritative. [About AI in this project](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
+>
 > Machine-generated from the minutes' own wording. Co-mentions in one agenda item, not a legal analysis: an item that cites nothing may still have a legal basis, and a citation next to an amount does not prove the amount follows from it. Every row links to the original page.
 
 ## How much the minutes say explicitly

@@ -6,11 +6,16 @@ document_id: 430999f10e6c
 version: 1
 source: https://www.montolieu.fr/wp-content/uploads/2025/01/CRCM-27-11-2024-site-internet.pdf
 source_sha256: d9cdad5942ac36f758b93fca8311bd1cdd26c59c484bf5775af1c463915f76a8
-language: fr
+language: en
 machine_generated: true
+produced_by: "software (programmed rules) written with AI assistance"
+human_reviewed: false
+ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 ---
 
 # Facts found in the council meeting of 2024-11-27
+
+> **AI disclosure.** This page was generated automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model wrote its text: it is extracted from the minutes by programmed rules. No person has checked it, and it can be wrong. The original documents are authoritative. [About AI in this project](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 

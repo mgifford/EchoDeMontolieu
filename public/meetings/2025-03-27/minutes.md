@@ -8,9 +8,14 @@ source: https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-si
 source_sha256: c51eda05592f5e738b189c72a67d207cf62a6c0c1cdf0427df44e69628636641
 language: fr
 machine_generated: true
+produced_by: "software (extraction and OCR) written with AI assistance"
+human_reviewed: false
+ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 ---
 
 # Conseil municipal du 27 mars 2025 a 20 h 00
+
+> **Information sur l’IA.** Cette lecture du procès-verbal a été produite automatiquement par un logiciel écrit avec l’aide d’une IA (Claude, an AI assistant from Anthropic). Aucun modèle d’IA n’a réécrit le texte : ce sont les termes de la mairie, extraits du PDF ; les pages lues par OCR sont signalées et peuvent être mal lues. Personne ne l’a vérifié. Le PDF original fait foi. [L’IA dans ce projet](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
 
 > Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 

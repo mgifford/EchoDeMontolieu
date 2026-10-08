@@ -10,7 +10,9 @@
       "what_you_find_en": "Inferred from the link label only. The target page was NOT read, so this is tentative.",
       "language_of_target": "Language of the linked page, not verified beyond the site's French navigation.",
       "verify_at_source": "true means the content changes over time (dates, times, rules); always confirm on the linked page."
-    }
+    },
+    "ai_disclosure": "Written by an AI assistant (Claude, from Anthropic) from link labels on the Mairie's website. The English labels and descriptions are the assistant's, not reviewed by a person or a native speaker. See https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "human_reviewed": false
   },
   "entries": [
     {

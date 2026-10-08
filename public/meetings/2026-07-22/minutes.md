@@ -8,9 +8,14 @@ source: https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL
 source_sha256: 162000d4a0a671116ea052923af76b1bf739e53a5489f31a9c7a0a1a62f81d99
 language: fr
 machine_generated: true
+produced_by: "software (extraction and OCR) written with AI assistance"
+human_reviewed: false
+ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 ---
 
 # Conseil municipal du 22 juillet 2026
+
+> **Information sur l’IA.** Cette lecture du procès-verbal a été produite automatiquement par un logiciel écrit avec l’aide d’une IA (Claude, an AI assistant from Anthropic). Aucun modèle d’IA n’a réécrit le texte : ce sont les termes de la mairie, extraits du PDF ; les pages lues par OCR sont signalées et peuvent être mal lues. Personne ne l’a vérifié. Le PDF original fait foi. [L’IA dans ce projet](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
 
 > Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 

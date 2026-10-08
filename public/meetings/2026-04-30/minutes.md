@@ -8,9 +8,14 @@ source: https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICI
 source_sha256: e53a6099b465abbcd28046c53704b356ef74d9073defbb67a330964cf2732a2f
 language: fr
 machine_generated: true
+produced_by: "software (extraction and OCR) written with AI assistance"
+human_reviewed: false
+ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 ---
 
 # Conseil municipal du 30 avril 2026
+
+> **Information sur l’IA.** Cette lecture du procès-verbal a été produite automatiquement par un logiciel écrit avec l’aide d’une IA (Claude, an AI assistant from Anthropic). Aucun modèle d’IA n’a réécrit le texte : ce sont les termes de la mairie, extraits du PDF ; les pages lues par OCR sont signalées et peuvent être mal lues. Personne ne l’a vérifié. Le PDF original fait foi. [L’IA dans ce projet](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
 
 > Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 

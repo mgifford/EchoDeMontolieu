@@ -8,9 +8,14 @@ source: https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-s
 source_sha256: d50b6e0ed9f624ee50eb4d1df98ed727eac6b4fbe5c1b22f4bef1b3d45215775
 language: fr
 machine_generated: true
+produced_by: "software (extraction and OCR) written with AI assistance"
+human_reviewed: false
+ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 ---
 
 # Conseil municipal du 14 avril 2025 a 20 h 00
+
+> **Information sur l’IA.** Cette lecture du procès-verbal a été produite automatiquement par un logiciel écrit avec l’aide d’une IA (Claude, an AI assistant from Anthropic). Aucun modèle d’IA n’a réécrit le texte : ce sont les termes de la mairie, extraits du PDF ; les pages lues par OCR sont signalées et peuvent être mal lues. Personne ne l’a vérifié. Le PDF original fait foi. [L’IA dans ce projet](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
 
 > Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 

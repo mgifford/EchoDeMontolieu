@@ -6,11 +6,16 @@ document_id: cb0ab543d101
 version: 1
 source: https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf
 source_sha256: 82f03b3ad2c9022f65caa05a6e7c1dda3406ab1105777508f861074714b159bb
-language: fr
+language: en
 machine_generated: true
+produced_by: "software (programmed rules) written with AI assistance"
+human_reviewed: false
+ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 ---
 
 # Follow-ups from the council meeting of 2025-03-06
+
+> **AI disclosure.** This page was generated automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model wrote its text: it is extracted from the minutes by programmed rules. No person has checked it, and it can be wrong. The original documents are authoritative. [About AI in this project](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 

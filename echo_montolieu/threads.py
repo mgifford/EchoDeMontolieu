@@ -16,6 +16,7 @@ import math
 import re
 from pathlib import Path
 
+from . import disclosure
 from .meeting import known_names, parse_meeting
 from .privacy import _fold
 from .render import meeting_folder, page_link
@@ -196,7 +197,7 @@ def todo_status(result):
 
 # ---- Markdown -------------------------------------------------------------------------------
 
-NOTE = ("> Machine-generated grouping. Items are linked because they share distinctive words, and the words are "
+NOTE = (disclosure.markdown("rules") + "\n>\n> Machine-generated grouping. Items are linked because they share distinctive words, and the words are "
         "shown so you can judge. A grouping can be wrong, and a missing link does not mean there is none. "
         "Every entry links to the page of the original PDF.")
 
@@ -292,10 +293,10 @@ def write_topics(public_dir, result, meetings):
     keep = {"index.md", "themes.md"}
     for t in result["threads"]:
         if t["status"] != "one-off":
-            (topics / f"{slug(t)}.md").write_text(render_thread(t), encoding="utf-8")
+            (topics / f"{slug(t)}.md").write_text(disclosure.with_front_matter(render_thread(t), t["title"].replace('"', "'")), encoding="utf-8")
             keep.add(f"{slug(t)}.md")
-    (topics / "index.md").write_text(render_index(result, meetings), encoding="utf-8")
-    (topics / "themes.md").write_text(render_themes(meetings), encoding="utf-8")
+    (topics / "index.md").write_text(disclosure.with_front_matter(render_index(result, meetings), "Issues over time"), encoding="utf-8")
+    (topics / "themes.md").write_text(disclosure.with_front_matter(render_themes(meetings), "Themes over time"), encoding="utf-8")
     for old in topics.glob("*.md"):
         if old.name not in keep:
             old.unlink()          # the folder is generated: drop pages for groupings that no longer exist

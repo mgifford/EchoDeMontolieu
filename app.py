@@ -15,6 +15,7 @@ import time
 from collections import deque
 from pathlib import Path
 
+from echo_montolieu import disclosure
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 
@@ -35,6 +36,7 @@ a{color:#004B87}
 a:focus-visible{outline:3px solid #005A9C;outline-offset:2px}
 li{margin:.75rem 0}
 .note{font-size:.95rem}
+.ai{border-left:6px solid #6b6b6b;background:#F1EFEA;padding:.25rem 1rem;margin:1rem 0}
 .sr{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
 .alerts{background:#EBF3FA;border-left:6px solid #004B87;padding:.5rem 1rem;margin:1rem 0}
 .alerts h2{margin:.25rem 0;font-size:1.1rem}
@@ -146,6 +148,7 @@ def _landing(index, pointers, static=False):
 <a href="{PANNEAUPOCKET_URL}">PanneauPocket Montolieu</a>, an external service. This site is not
 updated in real time.</p>
 </section>
+{disclosure.html("site")}
 <p>This project helps people find information about the village of Montolieu. It
 points to the pages of the Mairie and other local sites and does not replace them.
 Text from council minutes is machine-extracted, may contain errors, and is always
@@ -165,7 +168,7 @@ shown with a link to the original. Check the original before relying on anything
 <p class="note">This page is in English only for now. The data is available as JSON: {data_note}.</p>
 </main>
 <footer><p class="note">Open source (AGPL-3.0):
-<a href="{REPO_URL}">{REPO_URL}</a></p></footer>
+<a href="{REPO_URL}">{REPO_URL}</a>. <a href="{disclosure.AI_PAGE_URL}">About AI in this project</a>.</p></footer>
 </body>
 </html>"""
 

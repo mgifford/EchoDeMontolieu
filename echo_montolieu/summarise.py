@@ -14,6 +14,7 @@ import hashlib
 import re
 from datetime import datetime, timezone
 
+from . import disclosure
 from .translate import _NUM, _STOP, _stop_ratio, number_cores
 
 SUMMARY_PROMPT_VERSION = "1"
@@ -97,6 +98,7 @@ def summary_front_matter(meeting, model, checks, source_hash, generated_at):
         f"generated_at: {generated_at}",
         f"status: {'ok' if not failed else 'needs_review'}",
         f"checks_failed: [{', '.join(failed)}]",
+        *[f"{k}: {v}" for k, v in disclosure.front_matter("summary", model).items()],
         "---", ""])
 
 
@@ -105,9 +107,8 @@ def render_summary_file(meeting, summary, model, checks, source_hash, generated_
     url = meeting["source_url"]
     head = [summary_front_matter(meeting, model, checks, source_hash, generated_at),
             f"# Résumé du conseil municipal du {meeting['date']}", "",
-            "> Résumé écrit automatiquement par un modèle d’IA à partir du texte du procès-verbal. Il peut "
-            "contenir des erreurs ou des oublis. Le [procès-verbal](minutes.md) et le "
-            f"[PDF original]({url}) font foi.", ""]
+            disclosure.markdown("summary", "fr", model), "",
+            f"> Lire le [procès-verbal](minutes.md) ou le [PDF original]({url}).", ""]
     if failed:
         head += [f"> **À relire** : une vérification automatique a échoué ({', '.join(failed)}).", ""]
     return "\n".join(head) + summary.strip() + "\n"

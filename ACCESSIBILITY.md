@@ -1,5 +1,7 @@
 # Accessibility
 
+> **AI disclosure.** This document was written by an AI assistant (Claude, from Anthropic) at the maintainer's direction and merged by the maintainer; it has not been independently reviewed. The test results it reports were produced by the tools named in it. See [AI.md](AI.md).
+
 Rules for anyone, human or coding agent, who changes this project. The audience is
 a village: people of every age and ability, in French, English and Dutch, on phones,
 old computers and assistive technology. Accessibility is a requirement here, not a

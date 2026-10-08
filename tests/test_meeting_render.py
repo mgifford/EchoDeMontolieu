@@ -280,7 +280,7 @@ def test_a_namesake_of_an_official_is_scrubbed_but_the_official_is_not():
 
 
 def test_minutes_render_in_each_language_with_its_own_labels_and_notice():
-    fr, en, nl = (render_minutes(record(), lang=l) for l in ("fr", "en", "nl"))
+    fr, en, nl = (render_minutes(record(), lang=l, ai_model="test-model") for l in ("fr", "en", "nl"))
     assert "language: fr" in fr and "language: en" in en and "language: nl" in nl
     assert "Sommaire" in fr and "Contents" in en and "Inhoud" in nl
     assert "Machine translation" in en and "Automatische vertaling" in nl and "Machine translation" not in fr
@@ -298,7 +298,7 @@ def test_tr_translates_prose_headings_and_bullets_but_never_tables_or_ocr_text()
         seen.append(text)
         return "«" + text + "»"
 
-    md = render_minutes(rec, lang="en", tr=tr)
+    md = render_minutes(rec, lang="en", tr=tr, ai_model="test-model")
     assert "## «Décision modificative budgétaire»" in md and "- «Décision modificative budgétaire»" in md
     assert "```text\n1 049 853,58 1 126 826,58\n```" in md                # table: untouched
     assert "```text\nTotal dépenses 1 234,00\n```" in md                  # OCR page: untouched
@@ -307,7 +307,7 @@ def test_tr_translates_prose_headings_and_bullets_but_never_tables_or_ocr_text()
 
 
 def test_contents_and_anchors_follow_the_translated_headings():
-    md = render_minutes(record(), lang="en", tr=lambda t, page=None: "Budget amendment" if t == "Décision modificative budgétaire" else t)
+    md = render_minutes(record(), lang="en", tr=lambda t, page=None: "Budget amendment" if t == "Décision modificative budgétaire" else t, ai_model="test-model")
     assert "- [Budget amendment](#budget-amendment)" in md and "## Budget amendment" in md
 
 
@@ -321,3 +321,12 @@ def test_known_names_lists_officials_sellers_and_honorific_names():
     from echo_montolieu.meeting import known_names
     names = known_names(record())
     assert {"Claire DUBOIS", "Marc LEFEBVRE", "DURAND Jean", "Pierre MOREL"} <= set(names)
+
+
+def test_a_translated_render_must_name_its_model():
+    import pytest
+    with pytest.raises(ValueError, match="name the AI model"):
+        render_minutes(record(), lang="en")
+    with pytest.raises(ValueError):
+        render_minutes(record(), lang="nl")
+    assert render_minutes(record())                                      # French needs none: it is the original wording

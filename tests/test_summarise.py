@@ -67,7 +67,8 @@ def test_summarise_writes_provenance_labels_and_marks_status():
     assert status == "ok" and all(checks.values())
     for line in ("language: fr", "machine_generated: true", "summary_model: m", "status: ok", "prompt_version: 1"):
         assert line in md
-    assert "écrit automatiquement par un modèle d’IA" in md and "[procès-verbal](minutes.md)" in md
+    assert "Ce résumé a été écrit par un modèle d’IA (m)" in md and "[procès-verbal](minutes.md)" in md
+    assert "produced_by: \"AI model (m)\"" in md and "human_reviewed: false" in md and "AI.md" in md
     assert md.count("## ") == 3 + 0 and all(h in md for h in SECTIONS)
 
 

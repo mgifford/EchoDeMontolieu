@@ -18,18 +18,11 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+from . import disclosure
 from .meeting import known_names, parse_meeting
 from .render import LABELS, meeting_folder, render_all, render_minutes
 from .summarise import SUMMARY_PROMPT_VERSION, summarise, summary_input
 from .translate import PROMPT_VERSION, BudgetExceeded
-
-SUMMARY_NOTICE = {
-    "en": "> **Machine translation** of a French summary that was itself written by an AI model. It may contain "
-          "errors or omissions. The French minutes and the original PDF are authoritative.",
-    "nl": "> **Automatische vertaling** van een Franse samenvatting die zelf door een AI-model is geschreven. Ze kan "
-          "fouten of weglatingen bevatten. De Franse notulen en de originele pdf zijn leidend.",
-}
-
 
 class Budget:
     """Running spend across models; `hook(price)` makes the on_usage callback for one model."""
@@ -85,7 +78,7 @@ def translate_minutes(rec, meeting, lang, translator, names):
             seen.append(text)
         return text
 
-    render_minutes(rec, lang=lang, tr=collect)                       # pass 1: find the prose
+    render_minutes(rec, lang=lang, tr=collect, ai_model=translator.model)   # pass 1: find the prose
     done = translate_segments(seen, lang, translator, names)
     note = LABELS[lang]["untranslated"]
 
@@ -100,7 +93,7 @@ def translate_minutes(rec, meeting, lang, translator, names):
              "translation_prompt_version": PROMPT_VERSION, "segments_translated": len(done) - failed,
              "segments_kept_in_french": failed,
              "source_sha256_of_minutes": rec["source_sha256"]}
-    return render_minutes(rec, lang=lang, tr=tr, extra=extra), failed, len(done)
+    return render_minutes(rec, lang=lang, tr=tr, extra=extra, ai_model=translator.model), failed, len(done)
 
 
 def translate_summary(summary_md, lang, translator, names, model_name):
@@ -127,12 +120,15 @@ def translate_summary(summary_md, lang, translator, names, model_name):
             shown, ok = done[text]
             out.append(prefix + (shown if ok else f"{text} _[{note}]_"))
     body_out = "\n".join(out)
-    body_out = re.sub(r"^(# .*)$", lambda m: m.group(1) + "\n\n" + SUMMARY_NOTICE[lang], body_out, count=1, flags=re.M)
+    notice = disclosure.markdown("summary_translation", lang, model_name)
+    body_out = re.sub(r"^(# .*)$", lambda m: m.group(1) + "\n\n" + notice, body_out, count=1, flags=re.M)
     failed = sum(1 for _, ok in done.values() if not ok)
-    front = [l for l in head.split("\n") if l and not re.match(r"(language|summary_model|status|checks_failed|kind|title):", l)]
+    front = [l for l in head.split("\n") if l and not re.match(
+        r"(language|summary_model|status|checks_failed|kind|title|produced_by|human_reviewed|ai_disclosure):", l)]
     front += [f"language: {lang}", "kind: summary", "translated_from: fr", "machine_translated: true",
               f"translation_model: {model_name}", f"summary_source_sha256: {_sha(summary_md)}",
-              f"segments_kept_in_french: {failed}", "labels_reviewed: false"]
+              f"segments_kept_in_french: {failed}", "labels_reviewed: false",
+              *[f"{k}: {v}" for k, v in disclosure.front_matter("summary_translation", model_name).items()]]
     return "---\n" + "\n".join(front) + "\n---\n" + body_out.rstrip() + "\n", failed, len(done)
 
 
@@ -209,7 +205,8 @@ def estimate_generation(public_dir, langs, summary_price, translate_price):
         rec = json.loads((public / entry["file"]).read_text(encoding="utf-8"))
         meeting = parse_meeting(rec)
         sensitive, seen = _sensitive_pages(meeting), []
-        render_minutes(rec, lang="en", tr=lambda t, page=None: (seen.append(t) if page not in sensitive else None) or t)
+        render_minutes(rec, lang="en", tr=lambda t, page=None: (seen.append(t) if page not in sensitive else None) or t,
+                       ai_model="(estimate only)")
         summary_in += len(summary_input(meeting))
         minutes_chars += sum(len(t) for t in dict.fromkeys(seen))
         meetings += 1

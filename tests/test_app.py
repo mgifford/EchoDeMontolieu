@@ -164,3 +164,11 @@ def test_landing_page_has_an_explore_section_with_the_map_and_the_markdown_pages
     assert 'href="https://mgifford.github.io/EchoDeMontolieu/places/map.html"' in body       # the Space points to Pages
     for page in ("topics/index.md", "finance/index.md", "meetings/index.md"):
         assert f'href="https://github.com/mgifford/EchoDeMontolieu/blob/main/public/{page}"' in body
+
+
+def test_landing_page_carries_the_ai_disclosure_near_the_top_and_in_the_footer(client):
+    body = client.get("/").text
+    flat = " ".join(body.split())
+    assert "AI disclosure." in flat and "written with AI assistance" in flat and "No person has checked every page" in flat
+    assert body.index('class="ai"') < body.index("<h2>Explore</h2>")           # before the content, not buried
+    assert body.count("blob/main/AI.md") == 2                                   # in the notice and in the footer

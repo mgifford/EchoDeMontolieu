@@ -1,4 +1,13 @@
+---
+title: "Places discussed"
+machine_generated: true
+produced_by: "software (programmed rules) written with AI assistance"
+human_reviewed: false
+ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
+---
 # Places discussed
+
+> **AI disclosure.** This page was generated automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model wrote its text: it is extracted from the minutes by programmed rules. No person has checked it, and it can be wrong. The original documents are authoritative. [About AI in this project](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
 
 > Machine-generated. Street and place names were picked out of the minutes by pattern and kept only if the national address database (BAN) confirms a street or locality of that name in Montolieu. A pin shows where a street or place is, not the exact spot a decision concerned.
 

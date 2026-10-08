@@ -15,6 +15,7 @@ Versions: when the Mairie replaces a PDF, every version stays in the record.
 import json
 from pathlib import Path
 
+from . import disclosure
 from .diff import diff_versions
 from .versions import document_id, ensure_versions
 
@@ -63,6 +64,7 @@ def build_record(extraction, index_entry=None, include_text=True, doc_id=None,
             "verify_at_source": True,
             "text_included": include_text,
             "text_sparse_note": SPARSE_NOTE,
+            **disclosure.labels("extraction"),
         },
         "pages": pages,
     }
@@ -157,5 +159,6 @@ def publish_record(private_dir, public_dir, include_text=True):
     report["documents"].sort(
         key=lambda d: (d["meeting_date"] or {}).get("value") or "", reverse=True)
     _write(public / "index.json",
-           {"count": len(report["documents"]), "documents": report["documents"]})
+           {"count": len(report["documents"]), **disclosure.labels("extraction"),
+            "documents": report["documents"]})
     return report

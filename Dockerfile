@@ -13,6 +13,8 @@ RUN pip install --no-cache-dir -r requirements-space.txt
 
 # Only published data goes into the image. private/ and .cache/ never do.
 COPY --chown=user app.py .
+# The AI disclosure wording is shared with the pipeline: ship that one module, not the pipeline.
+COPY --chown=user echo_montolieu/__init__.py echo_montolieu/disclosure.py ./echo_montolieu/
 COPY --chown=user public ./public
 COPY --chown=user data/where_to_find_mairie.json ./data/where_to_find_mairie.json
 

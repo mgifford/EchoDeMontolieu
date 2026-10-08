@@ -69,11 +69,11 @@ def test_translated_summary_keeps_structure_citations_and_says_what_it_is(tmp_pa
     folder, _, _ = run(tmp_path)
     en = (folder / "summary.en.md").read_text(encoding="utf-8")
     assert "language: en" in en and "translated_from: fr" in en and "translation_model: tr-model" in en
-    assert "Machine translation" in en and "written by an AI model" in en
+    assert "AI translation (tr-model)" in en and "itself written by an AI model" in en and "AI disclosure" in en
     assert "## [en] Résumé" in en and "[p.1]" in en and "[p.2]" in en          # structure and page cites survive
     assert "À relire" not in en and "écrit automatiquement" not in en          # the French notice is replaced
     nl = (folder / "summary.nl.md").read_text(encoding="utf-8")
-    assert "Automatische vertaling" in nl and "language: nl" in nl
+    assert "AI-vertaling (tr-model)" in nl and "language: nl" in nl
 
 
 def test_translated_minutes_translate_prose_but_leave_the_french_original_untouched(tmp_path):
