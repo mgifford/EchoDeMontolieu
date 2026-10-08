@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2025-06-24"
+title: "Procès-verbal: 2025-06-24"
 date: 2025-06-24
 date_status: tentative
 document_id: 12c02e0b1d15
@@ -12,13 +12,13 @@ machine_generated: true
 
 # Conseil municipal du 24 juin 2025
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf) (SHA-256 `dbeb59677c407382…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf) (SHA-256 `dbeb59677c407382…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-> **Check the original for page(s) 7, 8.** They were read by OCR with low confidence; figures and tables may be wrong.
+> **Vérifiez l’original pour la ou les pages 7, 8.** Elles ont été lues par OCR avec une faible confiance ; chiffres et tableaux peuvent être faux.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 27 mai 2025](#approbation-du-proces-verbal-du-conseil-du-27-mai-2025) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=1))
 - [Vote de la troisieme version du padd](#vote-de-la-troisieme-version-du-padd) ([p.2](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=2))
@@ -242,7 +242,7 @@ AGASSE Cécile, BOST BERGE Magali, ETORE LORTHOLARY Jeanne, MONRAISIN Valérie P
 
 CASAS Antoine, GHARBI Jamel, OLIVIER Eric, SAFONT Jacques, BOST Thierry, OLIVIER Jean- Luc Après échange, il est convenu de réunir la CCID le 1er juillet juste avant la réunion de travail sur les PLU.
 
-> **Page 7 is an image read by OCR** (confidence 80.9). Treat it as unverified and check [p.7](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=7).
+> **La page 7 est une image lue par OCR** (confiance 80.9). Considérez-la comme non vérifiée et consultez [p.7](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=7).
 
 ```text
 Désignation du bien vendu :
@@ -261,7 +261,7 @@ AB0423
 Le conseil vote à l'unanimité contre l'exercice du droit de préemption
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 Désignation du bien vendu :
@@ -309,7 +309,7 @@ Le conseil vote à l'unanimité contre l'exercice du droit de préemption
 
 </details>
 
-> **Page 8 is an image read by OCR** (confidence 80.2). Treat it as unverified and check [p.8](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=8).
+> **La page 8 est une image lue par OCR** (confiance 80.2). Considérez-la comme non vérifiée et consultez [p.8](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=8).
 
 ```text
 Désignation du bien vendu :
@@ -324,7 +324,7 @@ Le conseil vote à l’unanimité contre l’exercice du droit de préemption
 L'ordre du jour étant épuisé la séance est levée à 21 h 30, et le public est invité à sortir
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 Désignation du bien vendu :

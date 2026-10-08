@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2025-03-27"
+title: "Procès-verbal: 2025-03-27"
 date: 2025-03-27
 date_status: tentative
 document_id: bd5dc38ec050
@@ -12,13 +12,13 @@ machine_generated: true
 
 # Conseil municipal du 27 mars 2025 a 20 h 00
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf) (SHA-256 `c51eda05592f5e73…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf) (SHA-256 `c51eda05592f5e73…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-> **Check the original for page(s) 3.** They were read by OCR with low confidence; figures and tables may be wrong.
+> **Vérifiez l’original pour la ou les pages 3.** Elles ont été lues par OCR avec une faible confiance ; chiffres et tableaux peuvent être faux.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 6 mars 2025](#approbation-du-proces-verbal-du-conseil-du-6-mars-2025) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=1))
 - [Compte financier unique du budget général et des budgets annexes affectation des résultats](#compte-financier-unique-du-budget-general-et-des-budgets-annexes-affectation-des-resultats) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=1))
@@ -108,7 +108,7 @@ L’excédent de fonctionnement est de 60 635,16 €, auquel il faut ajouter l�
 fonctionnement reporté soit 43 554,47 €, pour un total de 104 189,63 €
 ```
 
-> **Page 3 is an image read by OCR** (confidence 84.9). Treat it as unverified and check [p.3](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=3).
+> **La page 3 est une image lue par OCR** (confiance 84.9). Considérez-la comme non vérifiée et consultez [p.3](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=3).
 
 ```text
 Les recettes d'investissement
@@ -264,7 +264,7 @@ Total des dépenses d'investissement cumulées 1451 208.43 € ——
 4283.32 €
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 Les recettes d'investissement

@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2025-05-27"
+title: "Procès-verbal: 2025-05-27"
 date: 2025-05-27
 date_status: tentative
 document_id: e65120caa50f
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 27 mai 2025
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf) (SHA-256 `58101929be4dc54d…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf) (SHA-256 `58101929be4dc54d…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du Procès-Verbal du Conseil du 14 avril 2025](#approbation-du-proces-verbal-du-conseil-du-14-avril-2025) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf#page=1))
 - [Avis sur le document cadre de l'Aude régulant l'installation de centrales solaires au sol](#avis-sur-le-document-cadre-de-l-aude-regulant-l-installation-de-centrales-solaires-au-sol) ([p.2](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf#page=2))

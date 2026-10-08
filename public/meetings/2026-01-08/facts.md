@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2026-01-08"
+title: "Facts: 2026-01-08"
 date: 2026-01-08
 date_status: tentative
 document_id: 69ff99ddbb5c
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2026-01-08
+# Facts found in the council meeting of 2026-01-08
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf).
 
 - Attendance: 9 present, 1 absent or represented.
 - Items: 5. Pages: 3.

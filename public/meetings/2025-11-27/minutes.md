@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2025-11-27"
+title: "Procès-verbal: 2025-11-27"
 date: 2025-11-27
 date_status: tentative
 document_id: 5b79f5d2dbd5
@@ -12,13 +12,13 @@ machine_generated: true
 
 # Conseil municipal du 27 novembre 2025
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf) (SHA-256 `edb5340aed0b1e1f…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf) (SHA-256 `edb5340aed0b1e1f…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-> **Check the original for page(s) 8, 9.** They were read by OCR with low confidence; figures and tables may be wrong.
+> **Vérifiez l’original pour la ou les pages 8, 9.** Elles ont été lues par OCR avec une faible confiance ; chiffres et tableaux peuvent être faux.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 27 octobre 2025](#approbation-du-proces-verbal-du-conseil-du-27-octobre-2025) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=1))
 - [Plan local d’urbanisme avant phase de consultation](#plan-local-d-urbanisme-avant-phase-de-consultation) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=1))
@@ -783,7 +783,7 @@ Le conseil vote par douze voix pour, une voix contre et une abstention la mise e
 
 ## Droits de preemption
 
-> **Page 8 is an image read by OCR** (confidence 71.8). Treat it as unverified and check [p.8](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=8).
+> **La page 8 est une image lue par OCR** (confiance 71.8). Considérez-la comme non vérifiée et consultez [p.8](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=8).
 
 ```text
 Usage : Une parcelle de terre
@@ -818,7 +818,7 @@ Rue
 Le conseil vote à l'unanimité contre l'exercice du droit de préemption
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 Usage :
@@ -908,7 +908,7 @@ Le conseil vote à l'unanimité contre l'exercice du droit de préemption
 
 </details>
 
-> **Page 9 is an image read by OCR** (confidence 83.5). Treat it as unverified and check [p.9](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=9).
+> **La page 9 est une image lue par OCR** (confiance 83.5). Considérez-la comme non vérifiée et consultez [p.9](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=9).
 
 ```text
 Désignation du bien vendu :
@@ -955,7 +955,7 @@ Le conseil vote à l'unanimité contre l'exercice du droit de préemption
 9
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 Désignation du bien vendu :

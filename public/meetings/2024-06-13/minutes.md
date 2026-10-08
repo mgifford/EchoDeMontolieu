@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2024-06-13"
+title: "Procès-verbal: 2024-06-13"
 date: 2024-06-13
 date_status: tentative
 document_id: 607c8c991745
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 13 juin 2024 à 19 h 30
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf) (SHA-256 `e9b618ea2c20d7f9…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf) (SHA-256 `e9b618ea2c20d7f9…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 15 avril 2024](#approbation-du-proces-verbal-du-conseil-du-15-avril-2024) ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=1))
 - [Zone d’acceleration des energies renouvelables](#zone-d-acceleration-des-energies-renouvelables) ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=1))

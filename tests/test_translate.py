@@ -138,3 +138,79 @@ def test_trial_writes_report_and_a_blind_sheet_with_a_separate_key(tmp_path):
 def test_trial_stops_at_the_spending_cap(tmp_path):
     with pytest.raises(trial.BudgetExceeded):
         run(tmp_path, max_usd=0.00001)
+
+
+# ---- batching ---------------------------------------------------------------------------------
+
+from echo_montolieu.translate import build_batch, chunk_texts, parse_batch  # noqa: E402
+
+
+def batch_client(transform=lambda seg, lang: f"[{lang}] {seg}", break_markers=False):
+    """A client that understands batches: it translates each marked segment with `transform`."""
+    def reply(text, lang):
+        if text.startswith("[[1]]"):
+            parts = parse_batch(text, text.count("[[") )
+            out = "\n".join(f"[[{i}]]\n{transform(seg, lang)}" for i, seg in enumerate(parts, start=1))
+            return out.replace("[[2]]", "<<2>>") if break_markers else out
+        return transform(text, lang)
+    return FakeClient(reply)
+
+
+def test_batch_markers_round_trip_and_reject_broken_replies():
+    texts = ["Un.", "Deux\nlignes.", "Trois."]
+    assert parse_batch(build_batch(texts), 3) == texts
+    assert parse_batch("[[1]]\na\n[[3]]\nc", 3) is None             # a missing marker
+    assert parse_batch("[[2]]\na\n[[1]]\nb", 2) is None             # wrong order
+    assert parse_batch("intro\n[[1]]\na", 1) is None                # text before the first marker
+    assert chunk_texts(["a" * 10] * 5, limit=25, max_items=12) == [[0, 1], [2, 3], [4]]
+    assert chunk_texts(["a"] * 30, limit=10_000, max_items=12) == [list(range(12)), list(range(12, 24)), list(range(24, 30))]
+
+
+def test_many_segments_go_in_one_call_with_names_masked_and_restored():
+    client = batch_client()
+    t = ChatTranslator("m", client=client)
+    texts = ["Mme DUBOIS Claire propose le budget de la commune.", "Le conseil vote à l’unanimité pour 1 200 €.",
+             "Marc LEFEBVRE s’abstient lors du vote de ce soir."]
+    out = t.translate_many(texts, "en", names=["Claire DUBOIS", "Marc LEFEBVRE"])
+    assert len(client.calls) == 1                                    # three segments, one request
+    assert all(ok for _, ok, _ in out)
+    assert "DUBOIS" not in client.calls[0][1] and "LEFEBVRE" not in client.calls[0][1]
+    assert "DUBOIS" in out[0][0] and "LEFEBVRE" in out[2][0]         # restored for the reader
+
+
+def test_broken_markers_fall_back_to_one_call_per_segment():
+    client = batch_client(break_markers=True)
+    t = ChatTranslator("m", client=client)
+    out = t.translate_many(["Premier paragraphe du texte.", "Deuxième paragraphe du texte."], "en")
+    assert [o[0] for o in out] == ["[en] Premier paragraphe du texte.", "[en] Deuxième paragraphe du texte."]
+    assert len(client.calls) == 3                                    # the batch, then two singles
+
+
+def test_a_segment_whose_number_changed_is_retried_alone_then_reported_failed():
+    def corrupt(seg, lang):
+        return seg.replace("1 200", "1 300") if "1 200" in seg else f"[{lang}] {seg}"
+    client = batch_client(transform=corrupt)
+    t = ChatTranslator("m", client=client)
+    out = t.translate_many(["Une dépense de 1 200 € est votée par le conseil.", "Le maire ouvre la séance du soir."], "en")
+    assert out[1][1] is True
+    text, ok, failed = out[0]
+    assert ok is False and failed == ["numbers_preserved"]
+    assert len(client.calls) == 2                                    # batch, then the single retry
+
+
+def test_translate_many_is_idempotent_through_the_cache(tmp_path):
+    client = batch_client()
+    t = ChatTranslator("m", client=client, cache_path=tmp_path / "c.json")
+    texts = ["Premier point de l’ordre du jour.", "Second point de l’ordre du jour."]
+    first = t.translate_many(texts, "nl")
+    again = ChatTranslator("m", client=batch_client(), cache_path=tmp_path / "c.json").translate_many(texts, "nl")
+    assert first == again and len(client.calls) == 1
+
+
+def test_usage_callback_fires_only_for_paid_calls_so_a_cap_can_be_enforced():
+    seen = []
+    client = batch_client()
+    t = ChatTranslator("m", client=client, on_usage=seen.append)
+    t.translate("Bonjour le conseil.", "en")
+    t.translate("Bonjour le conseil.", "en")
+    assert len(seen) == 1 and t.usage["calls"] == 1 and t.usage["cached"] == 1

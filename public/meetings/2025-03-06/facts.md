@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2025-03-06"
+title: "Facts: 2025-03-06"
 date: 2025-03-06
 date_status: tentative
 document_id: cb0ab543d101
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2025-03-06
+# Facts found in the council meeting of 2025-03-06
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf).
 
 - Attendance: 11 present, 1 absent or represented.
 - Items: 12. Pages: 8.

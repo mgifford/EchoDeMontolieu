@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2025-01-14"
+title: "Procès-verbal: 2025-01-14"
 date: 2025-01-14
 date_status: tentative
 document_id: 75d1d9f03898
@@ -12,13 +12,13 @@ machine_generated: true
 
 # Conseil municipal du 14 janvier 2025 à 20 h 00
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf) (SHA-256 `845a96c3eccad00e…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf) (SHA-256 `845a96c3eccad00e…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-> **Check the original for page(s) 5.** They were read by OCR with low confidence; figures and tables may be wrong.
+> **Vérifiez l’original pour la ou les pages 5.** Elles ont été lues par OCR avec une faible confiance ; chiffres et tableaux peuvent être faux.
 
-## Contents
+## Sommaire
 
 - [Etoré-lortholary,](#etore-lortholary) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=1))
 - [Approbation du proces verbal du conseil du 27 novembre 2024](#approbation-du-proces-verbal-du-conseil-du-27-novembre-2024) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=1))
@@ -206,7 +206,7 @@ Jeanne ETORÉ-LORTHOLARY a souhaité le 9 janvier dernier que soit porté devant
 
 Après échange, le conseil vote par 12 voix pour, 1 voix contre et 1 abstention) l’abandon de la réserve foncière prise sur le terrain de Mme DELMAS lors du précédent PLU.
 
-> **Page 5 is an image read by OCR** (confidence 78.2). Treat it as unverified and check [p.5](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=5).
+> **La page 5 est une image lue par OCR** (confiance 78.2). Considérez-la comme non vérifiée et consultez [p.5](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=5).
 
 ```text
 Désignation du bien vendu :
@@ -237,7 +237,7 @@ A0111
 Le conseil vote à l'unanimité contre l'exercice du droit de préemption
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 DROITSDEPRÉEMPTIN ss 1

@@ -99,18 +99,49 @@ def glossary_for(text, lang):
     return {fr: to for fr, to in GLOSSARY[lang].items() if fr in low}
 
 
-def build_messages(text, lang):
+def build_messages(text, lang, batch=False):
     hits = glossary_for(text, lang)
     rules = [
         f"Translate the French text into {LANGUAGES[lang]}. It comes from official minutes of a French town council.",
         "Translate faithfully. Do not summarise, explain, correct, add or omit anything.",
         f"Keep every number, date, euro amount, percentage and legal reference exactly as written (for example 'article L2121-21 du CGCT').",
-        f"Keep every token that looks like {MASK_OPEN}N1{MASK_CLOSE} exactly as it is.",
+        f"Keep every token that looks like {MASK_OPEN}N1{MASK_CLOSE} exactly as it is, and keep markers like [p.3] unchanged.",
         "Keep markdown and punctuation structure. Output only the translation, with no preface.",
     ]
+    if batch:
+        rules.append("The input is several numbered segments. Each starts with a marker like [[1]] on its own line. "
+                     "Return every segment, each starting with the same marker on its own line, in the same order.")
     if hits:
         rules.append("Use these terms: " + "; ".join(f"'{fr}' = '{to}'" for fr, to in hits.items()) + ".")
     return [{"role": "system", "content": " ".join(rules)}, {"role": "user", "content": text}]
+
+
+def build_batch(texts):
+    return "\n".join(f"[[{i}]]\n{t}" for i, t in enumerate(texts, start=1))
+
+
+def parse_batch(output, n):
+    """Segments from a batch reply, or None if the markers are not exactly 1..n in order."""
+    parts = re.split(r"(?m)^\[\[(\d+)\]\][ \t]*\n?", output.strip())
+    # parts: ['', '1', text1, '2', text2, ...]
+    ids, texts = parts[1::2], parts[2::2]
+    if [int(i) for i in ids] != list(range(1, n + 1)) or parts[0].strip():
+        return None
+    return [t.strip() for t in texts]
+
+
+def chunk_texts(texts, limit=2500, max_items=12):
+    """Indices grouped so each chunk stays under `limit` characters and `max_items` segments."""
+    chunks, current, size = [], [], 0
+    for i, t in enumerate(texts):
+        if current and (size + len(t) > limit or len(current) >= max_items):
+            chunks.append(current)
+            current, size = [], 0
+        current.append(i)
+        size += len(t)
+    if current:
+        chunks.append(current)
+    return chunks
 
 
 # ---- checks ---------------------------------------------------------------------------------
@@ -161,6 +192,10 @@ def check_translation(source, output, lang, mapping=None):
 # ---- translators ------------------------------------------------------------------------------
 
 
+class BudgetExceeded(Exception):
+    pass
+
+
 @dataclass
 class Result:
     text: str
@@ -171,20 +206,26 @@ class Result:
 
 
 @dataclass
-class ChatTranslator:
-    """Translates through an OpenAI-style chat client (Hugging Face Inference Providers)."""
+class ChatModel:
+    """A chat model reached through an OpenAI-style client (Hugging Face Inference Providers).
+
+    Replies are cached by task, input, model and prompt version. `on_usage` is called
+    after every paid (uncached) call, so a caller can enforce a spending cap.
+    """
     model: str
     client: object = None
     cache_path: Path = None
     max_tokens: int = 1500
+    on_usage: object = None
     _cache: dict = field(default_factory=dict, repr=False)
+    usage: dict = field(default_factory=lambda: {"calls": 0, "cached": 0, "prompt_tokens": 0, "completion_tokens": 0})
 
     def __post_init__(self):
         if self.cache_path and Path(self.cache_path).exists():
             self._cache = json.loads(Path(self.cache_path).read_text(encoding="utf-8"))
 
-    def _key(self, text, lang):
-        raw = json.dumps([text, self.model, lang, PROMPT_VERSION], ensure_ascii=False)
+    def _key(self, task, parts):
+        raw = json.dumps([task, *parts, self.model, PROMPT_VERSION], ensure_ascii=False)
         return hashlib.sha256(raw.encode("utf-8")).hexdigest()
 
     def _client(self):
@@ -193,21 +234,71 @@ class ChatTranslator:
             self.client = InferenceClient()
         return self.client
 
-    def translate(self, text, lang):
-        key = self._key(text, lang)
+    def complete(self, task, messages, key_parts, temperature=0):
+        key = self._key(task, key_parts)
         if key in self._cache:
             hit = self._cache[key]
+            self.usage["cached"] += 1
             return Result(hit["text"], hit["prompt_tokens"], hit["completion_tokens"], hit["seconds"], cached=True)
         started = time.monotonic()
         resp = self._client().chat.completions.create(
-            model=self.model, messages=build_messages(text, lang), temperature=0, max_tokens=self.max_tokens)
+            model=self.model, messages=messages, temperature=temperature, max_tokens=self.max_tokens)
         seconds = time.monotonic() - started
         usage = getattr(resp, "usage", None)
         result = Result(resp.choices[0].message.content.strip(),
                         getattr(usage, "prompt_tokens", 0) or 0, getattr(usage, "completion_tokens", 0) or 0, seconds)
+        self.usage["calls"] += 1
+        self.usage["prompt_tokens"] += result.prompt_tokens
+        self.usage["completion_tokens"] += result.completion_tokens
         self._cache[key] = {"text": result.text, "prompt_tokens": result.prompt_tokens,
                             "completion_tokens": result.completion_tokens, "seconds": seconds}
         if self.cache_path:
             Path(self.cache_path).parent.mkdir(parents=True, exist_ok=True)
             Path(self.cache_path).write_text(json.dumps(self._cache, ensure_ascii=False), encoding="utf-8")
+        if self.on_usage:
+            self.on_usage(result)
         return result
+
+
+# A failed check on any of these means the translation must not be used as is.
+CRITICAL_CHECKS = ("numbers_preserved", "placeholders_preserved", "legal_refs_preserved",
+                   "no_preamble", "not_empty", "length_plausible")
+
+
+@dataclass
+class ChatTranslator(ChatModel):
+    def translate(self, text, lang):
+        return self.complete("translate", build_messages(text, lang), [text, lang])
+
+    def translate_many(self, texts, lang, names=()):
+        """Translate segments in batches. Returns [(text, ok, failed_checks)] aligned with `texts`.
+
+        Names are masked before sending and restored after. A segment whose critical
+        checks fail is retried alone once; if it still fails, ok is False and the caller
+        must keep the original text.
+        """
+        masked = [mask_names(t, names) for t in texts]
+        out = [None] * len(texts)
+
+        def finish(i, translated):
+            mapping = masked[i][1]
+            checks = check_translation(masked[i][0], translated, lang, mapping)
+            failed = [k for k in CRITICAL_CHECKS if k in checks and not checks[k]]
+            return unmask(translated, mapping), not failed, failed
+
+        for chunk in chunk_texts([m[0] for m in masked]):
+            if len(chunk) == 1:
+                results = [self.translate(masked[chunk[0]][0], lang).text]
+            else:
+                batch = build_batch([masked[i][0] for i in chunk])
+                reply = self.complete("translate-batch", build_messages(batch, lang, batch=True),
+                                      [batch, lang]).text
+                results = parse_batch(reply, len(chunk))
+                if results is None:  # markers broken: do the segments one at a time
+                    results = [self.translate(masked[i][0], lang).text for i in chunk]
+            for i, translated in zip(chunk, results):
+                text, ok, failed = finish(i, translated)
+                if not ok and len(chunk) > 1:  # retry alone before giving up
+                    text, ok, failed = finish(i, self.translate(masked[i][0], lang).text)
+                out[i] = (text, ok, failed)
+        return out

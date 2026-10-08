@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2025-03-06"
+title: "Procès-verbal: 2025-03-06"
 date: 2025-03-06
 date_status: tentative
 document_id: cb0ab543d101
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 6 mars 2025 à 20 h 00
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf) (SHA-256 `82f03b3ad2c9022f…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf) (SHA-256 `82f03b3ad2c9022f…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 14 janvier 2025](#approbation-du-proces-verbal-du-conseil-du-14-janvier-2025) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=1))
 - [Marché de renovation de l’église st andré- Choix des entreprises](#marche-de-renovation-de-l-eglise-st-andre-choix-des-entreprises) ([p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=1))

@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2024-10-23"
+title: "Procès-verbal: 2024-10-23"
 date: 2024-10-23
 date_status: tentative
 document_id: bd1590cd8bbe
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 23 octobre 2024 à 20 h 00
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf) (SHA-256 `c99dcbd77a786e8f…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf) (SHA-256 `c99dcbd77a786e8f…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 18 septembre 2024](#approbation-du-proces-verbal-du-conseil-du-18-septembre-2024) ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=1))
 - [Financement des projets d’investissement 2025](#financement-des-projets-d-investissement-2025) ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=1))

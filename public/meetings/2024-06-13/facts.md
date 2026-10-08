@@ -1,5 +1,5 @@
 ---
-title: "Summary: council meeting of 2024-06-13"
+title: "Facts: 2024-06-13"
 date: 2024-06-13
 date_status: tentative
 document_id: 607c8c991745
@@ -10,11 +10,11 @@ language: fr
 machine_generated: true
 ---
 
-# Summary of the council meeting of 2024-06-13
+# Facts found in the council meeting of 2024-06-13
 
 > Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
 
-This summary is extracted by rules, not written by a person: each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf).
+This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf).
 
 - Attendance: 11 present, 1 absent or represented.
 - Items: 13. Pages: 8.

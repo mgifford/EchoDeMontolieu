@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2024-04-15"
+title: "Procès-verbal: 2024-04-15"
 date: 2024-04-15
 date_status: tentative
 document_id: f4280c76c03d
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 15 avril 2024 à 19 h 30
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf) (SHA-256 `4edb5363261accfd…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf) (SHA-256 `4edb5363261accfd…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Vote pour inscirption a l’ordre du jour de deux points complementaires](#vote-pour-inscirption-a-l-ordre-du-jour-de-deux-points-complementaires) ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=1))
 - [Approbation du proces verbal du conseil du 4 avril 2024](#approbation-du-proces-verbal-du-conseil-du-4-avril-2024) ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=1))
@@ -70,7 +70,7 @@ La commune finance pour 84 % des dépenses d’équipement, 5 % de remboursement
 2023)
 ```
 
-> **Page 3 is an image read by OCR** (confidence 87.5). Treat it as unverified and check [p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=3).
+> **La page 3 est une image lue par OCR** (confiance 87.5). Considérez-la comme non vérifiée et consultez [p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=3).
 
 ```text
 "4 MF 9”
@@ -187,7 +187,7 @@ Encours de la dette / RRF
 contre.
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 LM

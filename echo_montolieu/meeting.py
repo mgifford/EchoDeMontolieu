@@ -215,6 +215,18 @@ def _snippet(body, scrub, limit=320):
     return (text[:limit].rsplit(" ", 1)[0] + "…") if len(text) > limit else text
 
 
+def known_names(record):
+    """Every personal name we can recognise in a record: officials, sellers/buyers, honorific names.
+
+    Used to mask names before any text is sent to a model, so none leaves the machine.
+    """
+    full = "\n".join(p.get("text") or "" for p in record["pages"])
+    present, absent, holders = attendance_names(full)
+    labelled = [n["name"] for p in record["pages"] for n in find_private_names(p.get("text") or "")]
+    others = [n for n in honorific_names(full) if len(n.split()) >= 2]
+    return sorted(set(present + absent + holders + labelled + others))
+
+
 def parse_meeting(record, officials_visible=True):
     """Structured model of one record (its current version).
 
@@ -269,7 +281,7 @@ def parse_meeting(record, officials_visible=True):
             # Counts only: no places, amounts or sentences from private sales.
             item["sale_notices"] = len(votes["votes"])
             item.update({"amounts": [], "legal_refs": [], "exceptions": [], "followups": [],
-                         "places": [], "snippet": ""})
+                         "places": [], "snippet": "", "text": ""})
         else:
             def keep(rows):
                 return [{**r, "sentence": scrub(r["sentence"])} for r in rows]
@@ -280,6 +292,7 @@ def parse_meeting(record, officials_visible=True):
                 "followups": keep(find_followups(body)),
                 "places": find_place_candidates(body),
                 "snippet": _snippet(body, scrub),
+                "text": scrub(body),  # scrubbed full text: the only text a model may be given
             })
         items.append(item)
 

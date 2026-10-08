@@ -14,7 +14,8 @@ from pathlib import Path
 
 from .meeting import attendance_names
 from .text import clean_page_lines, paragraphs
-from .translate import LANGUAGES, ChatTranslator, check_translation, mask_names, unmask
+from .translate import (LANGUAGES, BudgetExceeded, ChatTranslator, check_translation,  # noqa: F401
+                        mask_names, unmask)
 from .signals import is_property_transaction
 
 ROUTER_MODELS = "https://router.huggingface.co/v1/models"
@@ -84,10 +85,6 @@ def estimate(sample, langs, prices):
         usd = None if price is None else (tokens_in * price[1] + tokens_out * price[2]) / 1_000_000
         out[model] = {"calls": calls, "tokens_in": tokens_in, "tokens_out": tokens_out, "usd": usd}
     return out
-
-
-class BudgetExceeded(Exception):
-    pass
 
 
 def run_trial(sample, models, langs, translators, prices, max_usd, out_dir, seed=7):

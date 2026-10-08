@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2024-01-31"
+title: "Procès-verbal: 2024-01-31"
 date: 2024-01-31
 date_status: tentative
 document_id: 14de957b7587
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 31 janvier 2024 à 20 h 00
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf) (SHA-256 `690f688bd4347e64…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf) (SHA-256 `690f688bd4347e64…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du proces verbal du conseil du 13 decembre 2024](#approbation-du-proces-verbal-du-conseil-du-13-decembre-2024) ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=1))
 - [Renouvellement d’une ligne de tresorerie](#renouvellement-d-une-ligne-de-tresorerie) ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=1))
@@ -153,7 +153,7 @@ voix contre
 
 ## Droit de preemption
 
-> **Page 4 is an image read by OCR** (confidence 91.5). Treat it as unverified and check [p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=4).
+> **La page 4 est une image lue par OCR** (confiance 91.5). Considérez-la comme non vérifiée et consultez [p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=4).
 
 ```text
 Usage : LOCAL D'HABITATION A USAGE DE DÉBARRAS
@@ -164,7 +164,7 @@ Vendeur(s) : Co-propriétaires : LORTHOLARY Bernard, LORTHOLARY Jeanne, SUSKIND 
 LORTHOLARY ne vote pas)
 ```
 
-<details><summary>Alternate OCR reading (finds more numbers, loses table layout)</summary>
+<details><summary>Lecture OCR alternative (trouve plus de nombres, perd la mise en page)</summary>
 
 ```text
 Réf. Cadastrale

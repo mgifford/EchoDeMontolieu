@@ -1,5 +1,5 @@
 ---
-title: "Minutes: council meeting of 2026-07-22"
+title: "Procès-verbal: 2026-07-22"
 date: 2026-07-22
 date_status: tentative
 document_id: 0fff47b73223
@@ -12,11 +12,11 @@ machine_generated: true
 
 # Conseil municipal du 22 juillet 2026
 
-> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.
+> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.
 
-Original: [PDF](https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf) (SHA-256 `162000d4a0a67111…`, retrieved 2026-10-08). Version 1 of 1.
+Original : [PDF](https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf) (SHA-256 `162000d4a0a67111…`, récupéré le 2026-10-08). Version 1 sur 1.
 
-## Contents
+## Sommaire
 
 - [Approbation du PV du 26/06/2026](#approbation-du-pv-du-26-06-2026) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=1))
 - [Modification d'un poste d'adjoint](#modification-d-un-poste-d-adjoint) ([p.1](https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=1))
