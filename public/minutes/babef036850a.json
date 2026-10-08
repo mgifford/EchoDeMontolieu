@@ -1,5 +1,8 @@
 {
-  "document_id": "a2cafba9610e",
+  "document_id": "babef036850a",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-DU-13-avril-2026-SITE-INTERNET.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf",
   "source_sha256": "a2cafba9610e7671e61faee24398b4607e9d7d3ee17021261e01249f4790f5a5",
@@ -107,6 +110,19 @@
       "note": null,
       "image_area_fraction": 0.0,
       "text": "REPRESENTANT POUR LES SYNDICATS \n \nMonsieur Le Maire propose aux conseillers la création des commissions communales suivantes.  \n \nDésignation des délégués titulaires et suppléants aux différents syndicats : \n \nMonsieur le Maire informe le Conseil qu’il y a lieu de désigner des délégués titulaires et suppléants \nqui représenteront la commune de Montolieu dans les assemblées délibérantes des syndicats \nsuivants : \n \nSyndicat Intercommunal d’Aménagement Hydraulique du Bassin Versant du Fresquel : \n \nLe syndicat intercommunal du Fresquel a pour objet, sur l’ensemble du bassin versant du Fresquel \ny compris ses affluents et sous-affluents, la réalisation d’études, de travaux d’aménagements \nhydrauliques et d’entretien, en vue de lutter prioritairement contre les inondations. \n \n1 délégué titulaire : \n \nPECH Christophe \n1 délégué suppléant :  \nPUJADE Jean-Paul \n \nVOTE du conseil à l’unanimité. \n \nRESEAU 11  \n \nSyndicat gérant l’alimentation en eau potable de la commune de Montolieu. \n \n1 délégué titulaire :   \nPECH Christophe \n1 délégué suppléant :  \nLABESSEDE René \n \nVOTE du conseil à l’unanimité. \n \nL’ordre du jour étant épuisé la séance est levée à 20h38. \n \nLe Président \n \n \n \n \n \n \nLa Secrétaire \n \n \n \n \n \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "a2cafba9610e7671e61faee24398b4607e9d7d3ee17021261e01249f4790f5a5",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:39:23+00:00",
+      "last_modified": "Mon, 04 May 2026 10:01:28 GMT",
+      "superseded_at": null,
+      "record": "minutes/babef036850a.json",
+      "diff_from_previous": null
     }
   ]
 }

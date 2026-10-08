@@ -149,3 +149,106 @@ def test_http_validators_are_exposed_on_every_path(tmp_path):
     again = f.get("https://a.test/p")
     assert again.status == "not_modified" and again.etag == '"v1"'
     assert f.get("https://a.test/p", revalidate=False).last_modified == "Mon"
+
+
+def test_replaced_pdf_is_archived_and_reported_as_changed(tmp_path):
+    arch = tmp_path / "archive"
+    clock, session = Clock(), FakeSession({
+        ROBOTS: Resp(404),
+        "https://a.test/a.pdf": [Resp(200, b"%PDF one", {"Last-Modified": "Mon"}),
+                                 Resp(200, b"%PDF two", {"Last-Modified": "Tue"}),
+                                 Resp(200, b"%PDF two", {"Last-Modified": "Tue"})]})
+    f = PoliteFetcher(tmp_path / "c", session=session, sleep=clock.sleep, clock=clock.now,
+                      archive_dir=arch)
+    first = f.get("https://a.test/a.pdf")
+    assert first.status == "fetched" and first.previous_sha256 is None
+    second = f.get("https://a.test/a.pdf")
+    assert second.status == "changed" and second.previous_sha256 == first.sha256
+    assert second.archived_to.read_bytes() == b"%PDF one"     # old bytes preserved
+    assert second.path.read_bytes() == b"%PDF two"            # current copy is the new one
+    assert second.archived_to.name == first.sha256 + ".pdf"
+    third = f.get("https://a.test/a.pdf")                      # server ignored If-Modified-Since
+    assert third.status == "unchanged" and third.archived_to is None
+
+
+def test_html_pages_are_never_archived(tmp_path):
+    clock, session = Clock(), FakeSession({ROBOTS: Resp(404),
+                                           "https://a.test/i": [Resp(200, b"<p>1"), Resp(200, b"<p>2")]})
+    f = PoliteFetcher(tmp_path / "c", session=session, sleep=clock.sleep, clock=clock.now,
+                      archive_dir=tmp_path / "arch")
+    f.get("https://a.test/i")
+    assert f.get("https://a.test/i").archived_to is None
+    assert not (tmp_path / "arch").exists()
+
+
+class HeadSession(FakeSession):
+    """FakeSession that also answers HEAD from a separate table."""
+
+    def __init__(self, routes, heads):
+        super().__init__(routes)
+        self.heads, self.head_calls = heads, []
+
+    def head(self, url, headers=None, timeout=None, allow_redirects=None):
+        self.head_calls.append((url, allow_redirects))
+        return self.heads[url]
+
+
+def cached_fetcher(tmp_path, head_resp, body=b"%PDF-1234567890"):
+    clock = Clock()
+    s = HeadSession({ROBOTS: Resp(404), "https://a.test/a.pdf": Resp(200, body, {"Last-Modified": "Mon"})},
+                    {"https://a.test/a.pdf": head_resp})
+    f = PoliteFetcher(tmp_path, session=s, sleep=clock.sleep, clock=clock.now)
+    f.get("https://a.test/a.pdf")
+    return f, s
+
+
+def test_head_check_reports_unchanged_when_date_and_size_match(tmp_path):
+    f, s = cached_fetcher(tmp_path, Resp(200, headers={"Last-Modified": "Mon", "Content-Length": "15"}))
+    assert f.changed_on_server("https://a.test/a.pdf") is False
+    assert s.head_calls == [("https://a.test/a.pdf", True)]       # follows redirects
+    assert len([c for c in s.calls if c[0].endswith(".pdf")]) == 1  # only the initial download
+
+
+def test_head_check_reports_changed_on_a_different_date_or_size(tmp_path):
+    f, _ = cached_fetcher(tmp_path, Resp(200, headers={"Last-Modified": "Tue", "Content-Length": "15"}))
+    assert f.changed_on_server("https://a.test/a.pdf") is True
+    f2, _ = cached_fetcher(tmp_path / "b", Resp(200, headers={"Last-Modified": "Mon", "Content-Length": "99"}))
+    assert f2.changed_on_server("https://a.test/a.pdf") is True
+
+
+def test_head_check_returns_none_when_it_cannot_tell(tmp_path):
+    f, _ = cached_fetcher(tmp_path, Resp(200, headers={}))
+    assert f.changed_on_server("https://a.test/a.pdf") is None            # no usable headers
+    f2, _ = cached_fetcher(tmp_path / "b", Resp(404))
+    assert f2.changed_on_server("https://a.test/a.pdf") is None            # HEAD not supported
+    clock = Clock()
+    fresh = PoliteFetcher(tmp_path / "c", session=HeadSession({ROBOTS: Resp(404)}, {}),
+                          sleep=clock.sleep, clock=clock.now)
+    assert fresh.changed_on_server("https://a.test/never-fetched.pdf") is None  # nothing cached
+
+
+def test_head_check_stops_on_rate_limit_and_honours_robots(tmp_path):
+    f, _ = cached_fetcher(tmp_path, Resp(429, headers={"Retry-After": "60"}))
+    with pytest.raises(StopFetching, match="60"):
+        f.changed_on_server("https://a.test/a.pdf")
+    clock = Clock()
+    s = HeadSession({ROBOTS: Resp(200, b"User-agent: *\nDisallow: /a.pdf\n"),
+                     "https://a.test/a.pdf": Resp(200, b"%PDF", {"Last-Modified": "Mon"})}, {})
+    g = PoliteFetcher(tmp_path / "d", session=s, sleep=clock.sleep, clock=clock.now)
+    g._index["https://a.test/a.pdf"] = {"path": str(tmp_path / "x.pdf"), "last_modified": "Mon",
+                                         "sha256": "s", "retrieved_at": "t"}
+    (tmp_path / "x.pdf").write_bytes(b"%PDF")
+    with pytest.raises(PermissionError):
+        g.changed_on_server("https://a.test/a.pdf")
+    assert s.head_calls == []
+
+
+def test_head_check_waits_the_polite_delay(tmp_path):
+    clock = Clock()
+    s = HeadSession({ROBOTS: Resp(404), "https://a.test/a.pdf": Resp(200, b"%PDF", {"Last-Modified": "Mon"})},
+                    {"https://a.test/a.pdf": Resp(200, headers={"Last-Modified": "Mon", "Content-Length": "4"})})
+    f = PoliteFetcher(tmp_path, min_delay=10, session=s, sleep=clock.sleep, clock=clock.now)
+    f.get("https://a.test/a.pdf")
+    clock.slept.clear()
+    f.changed_on_server("https://a.test/a.pdf")
+    assert sum(clock.slept) >= 10 - 1e-6      # HEAD requests are spaced like any other

@@ -1,5 +1,8 @@
 {
-  "document_id": "4edb5363261a",
+  "document_id": "f4280c76c03d",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "Projet-CM-15-avril-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf",
   "source_sha256": "4edb5363261accfdebc80bf28adcf1d2de907625a82eb57785fca892df4ddf55",
@@ -78,6 +81,19 @@
       "note": null,
       "image_area_fraction": 0.0,
       "text": "4 \nVENTE PARCELLE CADASTREE AB0341 \n \nBernard LAURET fait part d’un nouvel arrangement entre les deux voisins de la parcelle, sans changement \ndu prix de vente. \nCécile AGASSE ne prend pas part au vote. \n➢ Le conseil vote par 12 voix pour et deux contre la vente de la parcelle selon le nouveau \nprotocole. \n \nDEMANDE DE MONSIEUR DIDIER ALMONT  \nMonsieur ALMONT qui tient « la compagnie du voyageurs » au pôle culturel souhaite que la mairie \nréinstalle à l’angle de la rue du collège le panneau indicateur pour l’apostrophe tel qu’il avait été positionné \npour la saison 2023. \nBernard Lauret rappelle que ledit panneau avait été accepté pour la saison 2023, dans l’attente des travaux \nqui devaient être menés pour permettre l’utilisation de l’entrée principale du pôle via l’impasse de la \nmanufacture. \nOutre le fait que ledit panneau avait été maintenu au-delà de la saison estivale (il devait être enlevé lors \ndes travaux du PAVE, à l’origine prévus à l’automne 2023), il s’avère que la remise en état de l’entrée \nprincipale n’a pas été faite. \nIl propose que les panneaux indicateurs antérieurs à cette opération soient remis en place. \nAntoine CASAS HARILLO intervient et précise qu’il n’y a pas que l’apostrophe à indiquer mais que le pôle \nculturel compte un certain nombre d’artistes, de galeries et lieux d’exposition. \nJeanne ETORÉ-LORTHOLARY rappelle que les coûts de réparation du porche sont exorbitants, qu'une \nsouscription a été ouverte à cet effet, que le problème serait peut-être à réétudier avec les intéressés. \nElle suggère que l’on mette plus de lames, afin de pouvoir indiquer l’ensemble des propositions offertes à la \nvisite. \nLaure ESCARÉ précise que l’ancienne lame indiquant l’apostrophe a été conservée par les gérants de \nl’apostrophe. Le panneau posé l’année dernière est à l’atelier, il sera à restituer. Il est proposé que ce \ndernier soit positionné par les gérants à côté de la porte de la deuxième entrée en haut de la rue des \nPyrénées. \n Après échange, le conseil vote à l’unanimité, la mise en place de plusieurs lames selon le modèle standard \nde la commune, permettant d’indiquer non seulement l’apostrophe mais aussi les exposants payant un \nloyer régulier au pôle culturel, et les lieux d’expositions (salle Ramel par exemple). Il est rappelé que pour \nles nouveaux installés la première lame est gratuite. \n \nINFORMATION \n \nMonsieur le maire informe le conseil que dans le cadre de la loi portant sur la nouvelle organisation de la \nRépublique (dite loi NOTRe), le Département s’est vu confier des compétences en matière de solidarités et \nde cohésion territoriale sur le territoire départemental. \nLa loi relative à la différenciation, la décentralisation, la déconcentration et la simplification de l’action \npublique locale (dite loi 3DS) dispose que le Département doit désormais élaborer un schéma \ndépartemental de la solidarité territoriale. \nCe schéma définit pour une durée de six ans un programme d’actions destiné à permettre, dans les \ndomaines de compétences du Département, un développement équilibré du territoire départemental afin \nde faciliter l’accès aux services et équipements de proximité. \nCe nouveau schéma sera présenté à l’assemblée départementale le 20 juin prochain. Comme prévu par la \nloi, il est soumis en amont pour avis au Conseil régional, aux organes délibérants des communes et des \nétablissements publics de coopération intercommunale à fiscalité propre situés sur le territoire \ndépartemental. \nDans ce cadre, la commune dispose de 2 mois pour transmettre son avis sur le projet de schéma. \nCe dernier sera transmis aux conseillers dans la semaine et porté à l’ordre du jour d’un prochain conseil.  \nLa date limite pour rendre l’avis est le 5 juin 2024. \nL’ordre du jour étant épuisé, la séance est levée à 20 h 09 \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "4edb5363261accfdebc80bf28adcf1d2de907625a82eb57785fca892df4ddf55",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T10:12:00+00:00",
+      "last_modified": "Fri, 27 Dec 2024 09:07:39 GMT",
+      "superseded_at": null,
+      "record": "minutes/f4280c76c03d.json",
+      "diff_from_previous": null
     }
   ]
 }

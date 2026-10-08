@@ -1,5 +1,8 @@
 {
-  "document_id": "c99dcbd77a78",
+  "document_id": "bd1590cd8bbe",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf",
   "source_sha256": "c99dcbd77a786e8f926a611a3a7d08149393a15fcd820aba9762cedc5debcc94",
@@ -107,6 +110,19 @@
       "note": null,
       "image_area_fraction": 0.064,
       "text": "8 \nDésignation du bien vendu  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n0057 \n22 rue de la mairie \n38 m² \n \n \n \n \n \n \nUsage : \n \nBâtiment à usage commercial \nPrix de vente :  \n \n70 000,00 euros \nVendeur(s) :   \nMr BLAYO Frédéric \n \n \n \n➢ Le conseil vote à l’unanimité contre l’exercice du droit de préemption \nL’ordre du jour étant épuisé, la séance est levée à 21 h 14 \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "c99dcbd77a786e8f926a611a3a7d08149393a15fcd820aba9762cedc5debcc94",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:36:48+00:00",
+      "last_modified": "Fri, 27 Dec 2024 09:08:08 GMT",
+      "superseded_at": null,
+      "record": "minutes/bd1590cd8bbe.json",
+      "diff_from_previous": null
     }
   ]
 }

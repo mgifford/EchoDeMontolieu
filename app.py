@@ -19,6 +19,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 
 DOC_ID_RE = re.compile(r"[0-9a-f]{12}")
+VERSION_RE = re.compile(r"[1-9][0-9]{0,2}")
 REPO_URL = "https://github.com/mgifford/EchoDeMontolieu"
 
 STYLE = """
@@ -90,8 +91,13 @@ def _landing(index, pointers):
         links = [f'<a href="{e(src)}" lang="fr">original PDF</a>'] if src else []
         links.append(f'<a href="/api/minutes/{e(d["document_id"])}">extracted text (JSON)</a>')
         flags = ""
+        n = d.get("versions", 1)
+        if n > 1:
+            links.append(f'<a href="/api/minutes/{e(d["document_id"])}/diff/{n - 1}/{n}">'
+                         f"what changed in version {n}</a>")
+            flags += f" Revised by the Mairie: {n} versions are kept."
         if d.get("ocr_pages"):
-            flags = (f' OCR was used on {len(d["ocr_pages"])} page(s); '
+            flags += (f' OCR was used on {len(d["ocr_pages"])} page(s); '
                      f'{len(d.get("needs_review_pages", []))} need review.')
         docs.append(f"<li><strong>{label}</strong> <span lang=\"fr\">{name}</span>"
                     f"{' (draft suspected)' if d.get('draft_suspected') else ''}: "
@@ -180,6 +186,29 @@ def create_app(public_dir=None, data_dir=None, limiter=None, trust_proxy=None):
         if doc is None:
             raise HTTPException(404, "Not found")
         return doc
+
+    @app.get("/api/minutes/{document_id}/versions/{version}")
+    def minutes_version(document_id: str, version: str):
+        if not (DOC_ID_RE.fullmatch(document_id) and VERSION_RE.fullmatch(version)):
+            raise HTTPException(404, "Not found")
+        doc = _read_json(public / "minutes" / document_id / f"v{version}.json", None)
+        if doc is None:  # the current version lives in the main file
+            current = _read_json(public / "minutes" / f"{document_id}.json", None)
+            doc = current if current and str(current.get("version")) == version else None
+        if doc is None:
+            raise HTTPException(404, "Not found")
+        return doc
+
+    @app.get("/api/minutes/{document_id}/diff/{from_version}/{to_version}")
+    def minutes_diff(document_id: str, from_version: str, to_version: str):
+        if not (DOC_ID_RE.fullmatch(document_id) and VERSION_RE.fullmatch(from_version)
+                and VERSION_RE.fullmatch(to_version)):
+            raise HTTPException(404, "Not found")
+        diff = _read_json(public / "minutes" / document_id
+                          / f"diff-v{from_version}-v{to_version}.json", None)
+        if diff is None:
+            raise HTTPException(404, "Not found")
+        return diff
 
     @app.get("/api/where-to-find")
     def where_to_find():

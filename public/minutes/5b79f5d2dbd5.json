@@ -1,5 +1,8 @@
 {
-  "document_id": "edb5340aed0b",
+  "document_id": "5b79f5d2dbd5",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-27-11-2025-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf",
   "source_sha256": "edb5340aed0b1e1f8daddb0df21e8c1219dc4741f453f1232272444e4c101df5",
@@ -139,6 +142,19 @@
       "note": null,
       "image_area_fraction": 0.181,
       "text": "10 \n \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n318 \n5 Rue Saint Jean \n00 ha 00 a 23 ca \n \nUsage : \n \nBâtiment \n \nPrix de vente :  \n15 000.00 euros \nVendeur(s) :   \nMme BOYER-ILLIANO \n \n \n \nLe conseil vote à l’unanimité contre l’exercice du droit de préemption \n \nL’ordre du jour étant épuisé la séance est levée à 21h08 \n  \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "edb5340aed0b1e1f8daddb0df21e8c1219dc4741f453f1232272444e4c101df5",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:38:59+00:00",
+      "last_modified": "Fri, 09 Jan 2026 14:31:06 GMT",
+      "superseded_at": null,
+      "record": "minutes/5b79f5d2dbd5.json",
+      "diff_from_previous": null
     }
   ]
 }

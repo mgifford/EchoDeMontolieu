@@ -1,5 +1,8 @@
 {
-  "document_id": "17854acbc46e",
+  "document_id": "699f63723028",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CM-18-SEPTEMBRE-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf",
   "source_sha256": "17854acbc46e1322c3f0a9520405405cfe326c7ed21a3d1406dfe4cfe5054115",
@@ -107,6 +110,19 @@
       "note": null,
       "image_area_fraction": 0.24,
       "text": "8 \n \nDROITS DE PRÉEMPTION \n \n \n \nCompte tenu des éléments fournis, sans correspondance avec la demande, et d’un point à éclaircir dans le \ncadre des travaux du PLU pour ces parcelles, le conseil décide à l’unanimité de sursoir à statuer sur ce droit \nde préemption.  \n \n \nMISE EN PLACE D’UNE AIDE SPECIFIQUE POUR PARTICIPATION AUX CONCOURS ET EVENEMENTS \nPARTICULIERS \n \nL’attention du Conseil a été attiré sur le cas d’une jeune professionnelle sélectionnée pour participer à la \ncoupe de France de sa spécialité. Compte tenu des frais engagés du fait de cette participation, \n(déplacement et hébergement), elle a créé une cagnotte en ligne. \nDes conseillers souhaitent que la mairie marque son soutien à cette démarche, en octroyant une aide. \n \n➢ Après en avoir délibéré, le conseil vote à l’unanimité l’attribution d’une aide spécifique de 150 euros \nqui sera imputé sur l’article 65134 du budget de la commune. \n \nL’ordre du jour étant épuisé, la séance est levée à 21 h 19. \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "17854acbc46e1322c3f0a9520405405cfe326c7ed21a3d1406dfe4cfe5054115",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T10:12:00+00:00",
+      "last_modified": "Fri, 15 Nov 2024 17:41:36 GMT",
+      "superseded_at": null,
+      "record": "minutes/699f63723028.json",
+      "diff_from_previous": null
     }
   ]
 }

@@ -1,5 +1,8 @@
 {
-  "document_id": "690f688bd434",
+  "document_id": "14de957b7587",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CM-31-JANVIER-2024-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf",
   "source_sha256": "690f688bd4347e649447e5bcf2ca05e99493d67e5bbd7d447b1458779d9aed60",
@@ -87,6 +90,19 @@
       "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
       "image_area_fraction": 0.449,
       "text": "5 \n \n \n➢ Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption \n \nDESIGNATION D’UN REPRESENTANT AU DIALOGUE TERRITORIAL DU SCOT-PLH \n \n Suite à l’approbation récente des deux documents de planifications que sont le SCOT et le PLH, \nCarcassonne Agglo souhaite installer des dialogues territoriaux calqués sur les bassins de vie afin de \nfavoriser les échanges entre les communes. \n \nLa commune doit donc désigner un représentant ainsi qu’un ou deux suppléants au sein du conseil \nmunicipal pour siéger au sein de ces dialogues territoriaux. \n \nJean Luc OLIVIER propose d’assurer cette représentation. \n \n➢ Le conseil municipal valide à l’unanimité la candidature de Jean Luc OLIVIER. \n \nL’ordre du jour étant épuisé, la séance est levée à 21 h 40. \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "690f688bd4347e649447e5bcf2ca05e99493d67e5bbd7d447b1458779d9aed60",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:36:09+00:00",
+      "last_modified": "Fri, 27 Dec 2024 08:38:50 GMT",
+      "superseded_at": null,
+      "record": "minutes/14de957b7587.json",
+      "diff_from_previous": null
     }
   ]
 }

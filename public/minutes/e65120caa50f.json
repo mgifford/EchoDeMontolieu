@@ -1,5 +1,8 @@
 {
-  "document_id": "58101929be4d",
+  "document_id": "e65120caa50f",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-27-05-2025-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf",
   "source_sha256": "58101929be4dc54de11afdd1fd0ec78b184c0fee2a922f6c977b947b0f56af65",
@@ -125,6 +128,19 @@
       "note": null,
       "image_area_fraction": 0.0,
       "text": "10 \n \nMARCHÉ DE LA PISCINE \n \n \nPour rappel, la commune a engagé un marché pour la réfection des liners et des filtres de la piscine. \nA ce jour, sur l’ensemble des subventions demandées, un seul retour a été réceptionné au \nsecrétariat, ce qui ne permet pas d’avoir une bonne visibilité sur le financement de l’ensemble des \nopérations. Par ailleurs il est difficile d’engager les travaux à l’automne, car débuteront ceux de \nl’église qui vont monopoliser la ligne de trésorerie, ce qui ne permettra pas de disposer de fonds \npour financer d’autres opérations d’investissements. \nIl est donc proposé au conseil d’annuler le marché de travaux sur la piscine, sans ouvrir les plis, \npour permettre de le relancer sur le prochain exercice en toute transparence au regard des \nengagements des entreprises, et avec une pleine connaissance des subventions accordées. \n \nLe conseil décide à l’unanimité l’annulation du marché de travaux concernant la piscine. \n \n \nL’ordre du jour étant épuisé, la séance est levée à 21 h 44 \n \n \nInformations  \n \n \n- \nCourrier du centre d’art de la manufacture sur les lames signalétiques \n- \nDemande de Monsieur Fortier pour l’organisation d’une après-midi récréative sur les souvenirs \nen lien avec la cave coopérative \n- \nPlantation devant le café  \n \n \n \n \n \n \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "58101929be4dc54de11afdd1fd0ec78b184c0fee2a922f6c977b947b0f56af65",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:38:05+00:00",
+      "last_modified": "Thu, 03 Jul 2025 12:35:34 GMT",
+      "superseded_at": null,
+      "record": "minutes/e65120caa50f.json",
+      "diff_from_previous": null
     }
   ]
 }

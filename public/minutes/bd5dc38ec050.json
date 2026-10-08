@@ -1,5 +1,8 @@
 {
-  "document_id": "c51eda05592f",
+  "document_id": "bd5dc38ec050",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-27-03-2025-1-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf",
   "source_sha256": "c51eda05592f5e738b189c72a67d207cf62a6c0c1cdf0427df44e69628636641",
@@ -150,6 +153,19 @@
       "note": null,
       "image_area_fraction": 0.133,
       "text": "12 \n \n \nLe conseil s’oppose à l’exercice du droit de préemption à l’unanimité \n \n \nMOTION \n \nMonsieur le Maire indique que la loi de finances pour 2025 a introduit, dans ses articles 20 et 129, \nla réforme du financement des aides à l’électrification rurale qui prévalait avec la gestion du \ncompte d’affectation spéciale (CAS) Facé. \nL’enveloppe du CAS Facé est alimentée par un prélèvement annuel, auprès des gestionnaires de \nréseaux de distribution, sur les recettes du tarif d’utilisation des réseaux publics d’électricité \n(TURPE). \nCe système de financement, dont l’origine remonte à 1936, permettait le financement de l’entretien \net de la modernisation des réseaux au moyen d’une ressource d’emploi provenant de l’utilisation \ndes réseaux, et assurait une péréquation entre les zones urbaines et rurales. Dans le département \nde l’Aude, le Syndicat Audois d’Energies et du Numérique (SYADEN) est l’autorité organisatrice \nde la distribution publique d’électricité en charge notamment de réaliser les investissements sur le \nréseau d’électricité au sein des zones d’électrification rurale au sens du classement du FACE. \nCe changement suscite des craintes de plusieurs ordres, mais le SYADEN s’émeut surtout de ne \npouvoir disposer à terme d’autant de moyen que ceux dont il a disposé jusqu’à présent, d’où la \nmotion qui a été transmise aux conseillers avec la convocation à la séance présente. \n  \nLe conseil vote à l’unanimité pour \n- \nadopter la motion portée conjointement par le SYADEN et l’Entente des syndicats d’énergie \nen région Territoire d’Energie d’Occitanie (TEO), \n- \nautoriser le Maire à porter cette motion auprès des instances de l’Etat et en particulier \nsolliciter le Préfet du département de l’Aude sur ce dossier. \n \nL’ordre du jour étant épuisé, la séance est levée à 22 h 45 \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "c51eda05592f5e738b189c72a67d207cf62a6c0c1cdf0427df44e69628636641",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:37:40+00:00",
+      "last_modified": "Fri, 25 Apr 2025 13:34:53 GMT",
+      "superseded_at": null,
+      "record": "minutes/bd5dc38ec050.json",
+      "diff_from_previous": null
     }
   ]
 }

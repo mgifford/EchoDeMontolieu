@@ -1,5 +1,8 @@
 {
-  "document_id": "18adfbfc9505",
+  "document_id": "684e65ccc146",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf",
   "source_sha256": "18adfbfc9505326289b179c8ff6938be49065a434d04138199a1cf2ca1944cd1",
@@ -107,6 +110,19 @@
       "note": null,
       "image_area_fraction": 0.0,
       "text": " \n8\nsupplémentaires. L’entreprise de désamiantage a tout enlevé. \n \nMme ETORE LORTHOLARY Jeanne demande où en est la situation des locataires. M. le \nmaire répond qu’une réunion a eu lieu à ce sujet et que pour l’instant ils ne peuvent pas revenir \ndans leurs maisons. Ils sont logés ailleurs mais c’est Mme Louise ROMAIN qui paie leur loyer. \n \nMme ETORE LORTHOLARY Jeanne demande quand sera réhabilité le chemin de la \ntannerie ? M. Thierry BOST répond qu’actuellement les agents sont occupés par la piscine, \ndemande pour ceres franco, nettoyage, etc. que cela peut attendre. Mme ETORE \nLORTHOLARY demande à ce que le fossé soit nettoyé et la buse réparée car quelqu’un \npourrait se blesser. \n \nLe Pradel : Mme ETORE LORTHOLARY Jeanne rappelle qu’il avait été dit en réunion de \ntravail que des rondins de bois seraient posés au bord du pradel entre les platanes, pour \nempêcher les voitures de trop s’avancer contre le muret, ou de boucher le passage devant la \nmaison de Mallast. \nM. Thierry BOST répond que cela va se faire. \n \nLes lauriers devant l’église : Mme ETORE LORTHOLARY ne comprend pas comment les \nlauriers ont pu être taillés de cette façon. De plus elle demande où en est l’étude sur le fait de \nplanter des cyprès pour réduire l’impact visuel de la maison au-dessous du cimetière. \nIl faut en repaler \n \nMme ETORE LORTHOLARY fait remarquer l’absence de tout représentant du conseil \nmunicipal à l’accueil d’auteurs relativement importants. \n \nM. Eric OLIVIER demande si Mr VERQUIN a répondu à notre mail de demande de rendez-\nvous pour revoir le PLU. Oui, mais cela va nécessiter un coût supplémentaire. \nIl faut le rappeler \n \n \n \nL’ordre du jour étant épuisé la séance est levée à 20 h 55. \n \n \n \n \n \n \n \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "18adfbfc9505326289b179c8ff6938be49065a434d04138199a1cf2ca1944cd1",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:39:48+00:00",
+      "last_modified": "Wed, 01 Jul 2026 11:35:19 GMT",
+      "superseded_at": null,
+      "record": "minutes/684e65ccc146.json",
+      "diff_from_previous": null
     }
   ]
 }

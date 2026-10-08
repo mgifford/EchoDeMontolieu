@@ -1,5 +1,8 @@
 {
-  "document_id": "6404b911b83c",
+  "document_id": "650cf05da13b",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-DU-01-avril-2026-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-DU-01-avril-2026-site-internet.pdf",
   "source_sha256": "6404b911b83c26cd652ca114fb70e9ded4e6186db0c0df287adf364b52a1893a",
@@ -80,6 +83,19 @@
       "note": null,
       "image_area_fraction": 0.0,
       "text": "instances syndicales du SYADEN, et d’autre part, à celle de son suppléant qui sera chargé \nde le remplacer en cas d’empêchement.  \n  \nIntéressés et sensibles aux aménagements au sein des collectivités, aux questions relatives \nà l’énergie, aux télécommunications et aux besoins des usagers, le rôle des référents sera de \nparticiper aux réunions de votre secteur concourant notamment à la présentation des \ndifférentes activités ou services mutualisés du SYADEN et à la définition des programmes de \ntravaux notamment sur les réseaux d’électricité et d’éclairage public, en partenariat avec le \ncomité syndical.  \n  \nDe plus, ils seront amenés à élire les délégués qui représenteront la Commune au sein des \ninstances délibérantes du SYADEN. \n \n1 délégué titulaire : BOST Thierry \n1 délégué suppléant : PUJADE Jean-Paul \n \nApprouvée à l’unanimité \n \nCorrespondant incendie et secours \n \nLe décret 2022-1091 du 22 juillet dernier, relatif aux modalités de création et d’exercice de la \nfonction de conseiller municipal correspondant incendie et secours, est venu compléter la loi \ndite « MATRAS » qui consolide la règlementation applicable en matière de sécurité civile. \n \nM. Le Maire sera le correspondant. \n \nCONSTITUTION DU CCAS \n \nL’existence du CCAS dont le budget est alimenté par le budget communal est une obligation. \nA compter de son renouvellement, le conseil municipal dispose d’un délai maximal de deux \nmois pour procéder au renouvellement du conseil d’administration du CCAS (article R.123-10 \ndu code de l’action sociale et des familles). \nIl se compose de 5 membres élus en son sein, 5 membres extérieurs désignés par le Maire. \n \nProposition d’une liste de 5 conseillers \n \nSALA Céline \nGUIRAUD Myriam  \nSOULIÉ Aude \nSANDILLON Jérémie \nPECH Christophe \n \nApprouvé à la majorité avec 14 voix pour et 1 abstention ((ÉTORÉ-LORTHOLARY Jeanne) \n \nLes personnes désignées pour compléter le conseil d’administration n’ont pas encore été \nchoisies, elles seront communiquées aux conseillers lors d’une prochaine séance. \n \nSuite aux remarques incessantes de Mme ÉTORÉ-LORTHOLARY Jeanne, Mr Pujade JP a réagi \nà son comportement.  \n \n \nL’ordre du jour étant épuisé la séance est levée à 19h27  \n \n \n \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "6404b911b83c26cd652ca114fb70e9ded4e6186db0c0df287adf364b52a1893a",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:39:11+00:00",
+      "last_modified": "Thu, 16 Apr 2026 12:38:08 GMT",
+      "superseded_at": null,
+      "record": "minutes/650cf05da13b.json",
+      "diff_from_previous": null
     }
   ]
 }

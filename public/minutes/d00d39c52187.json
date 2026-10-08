@@ -1,5 +1,8 @@
 {
-  "document_id": "8b18f61ea01d",
+  "document_id": "d00d39c52187",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-28-mars-2026-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf",
   "source_sha256": "8b18f61ea01d46629e7c009484bdb89a7c178e3751863548a8966bfb75ec772e",
@@ -62,6 +65,19 @@
       "note": null,
       "image_area_fraction": 0.0,
       "text": "délibérant dont il est membre, l’élu local s’engage à les faire connaître avant le débat et le \nvote. \n4 L’élu local s’engage à ne pas utiliser à d’autres fins les ressources et les moyens mis à sa \ndisposition pour l’exercice de son mandat ou de ses fonctions. \n5 Dans l’exercice de ses fonctions, l’élu local s’abstient de prendre des mesures lui accordant \nun avantage personnel ou professionnel. \n6 L’élu local participe avec assiduité aux réunions de l’organe délibérant et des instances dans \nlesquelles il a été désigné. \n7 Issu du suffrage universel, l’élu local est et reste responsable de ses actes pour la durée de \nson mandat devant l’ensemble des citoyens de la collectivité territoriale, à qui il rend compte \ndes actes et des décisions pris dans le cadre de ses fonctions.  \n8 L’élu local déclare, dans un registre tenu par la collectivité territoriale, les dons, avantages \net invitations d’une valeur qu’il estime supérieure à 150 euros dont il a bénéficié en raison de \nson mandat. Ne sont pas soumis à cette obligation déclarative les cadeaux d’usage et les \ndéplacements effectués à l’invitation des autorités publiques françaises ou dans le cadre d’un \nautre mandat électif.  \n9 Les élus locaux peuvent bénéficier du versement d’une indemnité pour l’exercice effectif de \nleurs fonctions électives et de la prise en charge des frais exposés dans ce cadre, dans les \nconditions prévues par la loi.  \n10 Les élus locaux sont affiliés, pour l’exercice de leur mandat, au régime général de la sécurité \nsociale dans les conditions définies à l’article L 382-31 du code de la sécurité sociale et à des \nrégimes spéciaux définis par le code général des collectivités territoriales.  \n11 Les élus locaux bénéficient, à l’occasion de leurs fonctions, d’une protection organisée par \nla collectivité territoriale, conformément aux règles fixées par le code pénal, les lois spéciales \net le code général des collectivités territoriales.  \n12 Le droit à la formation est reconnu aux élus locaux. Il s’exerce dans les conditions fixées \npar le code général des collectivités territoriales.  \n13 Toute personne titulaire d’un mandat local bénéficie, dans des conditions prévues par la loi, \nde garanties accordées dans l’exercice du mandat et à son issue et permettant notamment de \nconcilier celui-ci avec une activité professionnelle ou la poursuite d’études supérieures.  \n14 Tout élu local peut consulter un référent déontologue chargé de lui apporter tout conseil \nutile au respect des principes mentionnés à l’article L. 1111-13 du code général des collectivités \nterritoriales. Un décret en Conseil d'Etat détermine les modalités et les critères de désignation \ndes référents déontologues. \n \nM. le Maire remet un exemplaire à chaque conseiller pour signature. \n \nAPPROBATION DU PV DU CONSEIL MUNICIPAL DU 09 MARS 2026 \n \nLe procès-verbal a été communiqué avec la convocation au présent conseil. \n \nApprouvé à la majorité avec 13 voix pour et 2 abstentions (Jean-Luc OLIVIER et Agnès \nPAUTOU). \n \n \nL’ordre du jour étant épuisé la séance est levée à 11 h 40. \n \n \n \nLe Président \n \n \n \n \n \n \nLa Secrétaire \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "8b18f61ea01d46629e7c009484bdb89a7c178e3751863548a8966bfb75ec772e",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T10:12:00+00:00",
+      "last_modified": "Thu, 16 Apr 2026 12:38:25 GMT",
+      "superseded_at": null,
+      "record": "minutes/d00d39c52187.json",
+      "diff_from_previous": null
     }
   ]
 }

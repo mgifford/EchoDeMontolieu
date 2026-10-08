@@ -1,5 +1,8 @@
 {
-  "document_id": "663ab0bfea70",
+  "document_id": "f950f0c50c7a",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-25092025-site.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
   "source_sha256": "663ab0bfea7087783575a44555d283ec3731e90d06dd237381c08cc8a600480d",
@@ -123,6 +126,19 @@
         "low_word_fraction": 0.282,
         "words": 71
       }
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "663ab0bfea7087783575a44555d283ec3731e90d06dd237381c08cc8a600480d",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:38:31+00:00",
+      "last_modified": "Wed, 29 Oct 2025 13:23:37 GMT",
+      "superseded_at": null,
+      "record": "minutes/f950f0c50c7a.json",
+      "diff_from_previous": null
     }
   ]
 }

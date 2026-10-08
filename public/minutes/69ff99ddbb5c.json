@@ -1,5 +1,8 @@
 {
-  "document_id": "06a5038f79b6",
+  "document_id": "69ff99ddbb5c",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-8-01-2026-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf",
   "source_sha256": "06a5038f79b63f757ef6bf8bbeb5050cae77599c1cd5645a992a8b222738df77",
@@ -62,6 +65,19 @@
       "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
       "image_area_fraction": 0.333,
       "text": "3 \n \nsubvention en dehors du cadre juridique d’une association. \nPour 2026, la demande sera portée par l’association la Manuf qui participe elle-même à \nl’évènement. \nMonsieur le Maire donne lecture de la lettre de demande déposée en mairie par le collectif \nLa demande de subvention est de 500 euros, mais il est juste sollicité une avance équivalente à ce \nqui a été accordée l’année précédente, charge pour le nouveau conseil élu en mars prochain de \nstatuer sur le montant total de la subvention. \n \nLe conseil accorde à l’unanimité une avance de 200 euros pour l’organisation des journées \nmondiales de l’art. Cette avance sera versée à l’association la Manuf. \n \nDROITS DE PREEMPTION  \n \n \n \n \n \n \nLe conseil vote à l’unanimité contre l’exercice du droit de préemption. \n \nL’ordre du jour étant épuisé la séance est levée à 19h 55 \n \n \n \n \n \n \n \n \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "06a5038f79b63f757ef6bf8bbeb5050cae77599c1cd5645a992a8b222738df77",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:35:58+00:00",
+      "last_modified": "Fri, 13 Mar 2026 09:51:22 GMT",
+      "superseded_at": null,
+      "record": "minutes/69ff99ddbb5c.json",
+      "diff_from_previous": null
     }
   ]
 }

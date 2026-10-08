@@ -1,5 +1,8 @@
 {
-  "document_id": "c8a15d63e53f",
+  "document_id": "ec69e949afbb",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf",
   "source_sha256": "c8a15d63e53f279968b0d90651686f46af6641737e41d531cb41492bfafbb859",
@@ -53,6 +56,19 @@
       "note": null,
       "image_area_fraction": 0.0,
       "text": " \n \nMODIFICATION DE LA REGIE PISCINE MUNICIPALE \n \nDepuis le 10 juin 2026 des seuils nationaux sont mis en place avec un contrôle automatique du \nmontant et du nombre d’opérations mensuelles autorisés lors de la saisie sur le portail DIGIFIP \nLimite : 1 dépôt de pièces et 1 dépôts de billets autorisés par mois. \n \nLe montant maximum de l’encaisse que le régisseur est actuellement autorisé à conserver est \nfixé à 8 000,00€. Il est proposé au conseil municipal d’augmenter ce montant d’encaisse à 11 \n000,00€. \n \n \nVote du conseil à l'unanimité. \n \n \nINFORMATION \n \n- \nCOMPOSITION DE LA CCID \n \nLors du précédent conseil, il a été choisi 24 contribuables pour la composition de la \ncommission des Impôts Directs \nM. le Maire explique que celle-ci comportait une erreur puisque lui-même est, de droit, \nmembre de la commission en tant que Maire. \nIl a demandé à une autre personne, M. Jamel GHARBI a donc intégré la liste des 24. \n \n \nL’ordre du jour étant épuisé la séance est levée à 19H40 minutes. \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "c8a15d63e53f279968b0d90651686f46af6641737e41d531cb41492bfafbb859",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:39:59+00:00",
+      "last_modified": "Thu, 23 Jul 2026 11:39:04 GMT",
+      "superseded_at": null,
+      "record": "minutes/ec69e949afbb.json",
+      "diff_from_previous": null
     }
   ]
 }

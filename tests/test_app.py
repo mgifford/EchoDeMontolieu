@@ -12,7 +12,7 @@ RECORD = {"document_id": DOC_ID, "source_url": "https://example.test/a.pdf",
 INDEX = {"count": 1, "documents": [{
     "document_id": DOC_ID, "filename": "A <b>x</b>.pdf", "source_url": "https://example.test/a.pdf",
     "meeting_date": {"value": "2024-09-18"}, "draft_suspected": True,
-    "ocr_pages": [2], "needs_review_pages": [2]}]}
+    "ocr_pages": [2], "needs_review_pages": [2], "version": 2, "versions": 2}]}
 POINTERS = {"entries": [
     {"label_fr": "Agenda", "label_en": "Events calendar", "url": "https://www.montolieu.fr/agenda/"},
     {"label_fr": "Piège", "label_en": "x", "url": "javascript:alert(1)"}]}
@@ -24,7 +24,13 @@ def client(tmp_path):
     (public / "minutes").mkdir(parents=True)
     data.mkdir()
     (public / "index.json").write_text(json.dumps(INDEX), encoding="utf-8")
-    (public / "minutes" / f"{DOC_ID}.json").write_text(json.dumps(RECORD), encoding="utf-8")
+    (public / "minutes" / f"{DOC_ID}.json").write_text(
+        json.dumps({**RECORD, "version": 2}), encoding="utf-8")
+    (public / "minutes" / DOC_ID).mkdir()
+    (public / "minutes" / DOC_ID / "v1.json").write_text(
+        json.dumps({**RECORD, "version": 1}), encoding="utf-8")
+    (public / "minutes" / DOC_ID / "diff-v1-v2.json").write_text(
+        json.dumps({"from_version": 1, "to_version": 2}), encoding="utf-8")
     (data / "where_to_find_mairie.json").write_text(json.dumps(POINTERS), encoding="utf-8")
     # A private folder next to public must never be reachable.
     (tmp_path / "private").mkdir()
@@ -116,3 +122,22 @@ def test_forwarded_header_is_ignored_unless_proxy_is_trusted(tmp_path):
 def test_no_search_or_aggregate_endpoint_exists(client):
     for path in ("/api/search?q=durant", "/api/people", "/api/minutes/search"):
         assert client.get(path).status_code == 404
+
+
+def test_old_versions_current_version_and_diffs_are_served(client):
+    assert client.get(f"/api/minutes/{DOC_ID}/versions/1").json()["version"] == 1
+    assert client.get(f"/api/minutes/{DOC_ID}/versions/2").json()["version"] == 2  # current
+    assert client.get(f"/api/minutes/{DOC_ID}/diff/1/2").json()["to_version"] == 2
+    for bad in ("/versions/3", "/versions/0", "/versions/01", "/versions/1.json",
+                "/versions/../../private/people", "/diff/1/3", "/diff/2/1", "/diff/x/2",
+                "/diff/1/2/3"):
+        r = client.get(f"/api/minutes/{DOC_ID}{bad}")
+        assert r.status_code == 404 and "SECRET" not in r.text
+    assert client.get("/api/minutes/zzzzzzzzzzzz/versions/1").status_code == 404
+
+
+def test_landing_page_says_when_a_document_was_revised_and_links_the_diff(client):
+    body = client.get("/").text
+    assert "Revised by the Mairie: 2 versions are kept." in body
+    assert "OCR was used on 1 page" in body   # the revision note must not replace the OCR note
+    assert f'href="/api/minutes/{DOC_ID}/diff/1/2"' in body

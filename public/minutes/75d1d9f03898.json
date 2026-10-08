@@ -1,5 +1,8 @@
 {
-  "document_id": "845a96c3ecca",
+  "document_id": "75d1d9f03898",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "crcm-14012025-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf",
   "source_sha256": "845a96c3eccad00e991f433babef94b5fa4cc885de189f35dfe0f12999e86cef",
@@ -96,6 +99,19 @@
       "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
       "image_area_fraction": 0.386,
       "text": " \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nA \n124 \nFRANC-SUD \n00 ha 01 a 26 ca \nA \n540 \nFRANC-SUD \n00 ha 00 a 32 ca \n \nUsage : \n \nHabitation \n \n \nPrix de vente :  \n50 000,00 euros \nVendeur(s) :   \nMARCHI Alain – BERNIER Ghislaine \n \n \n \nLe conseil vote à l’unanimité contre l’exercice du droit de préemption \n \nL’ordre du jour étant épuisé, la séance est levée à 21 h 02 \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "845a96c3eccad00e991f433babef94b5fa4cc885de189f35dfe0f12999e86cef",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:37:11+00:00",
+      "last_modified": "Fri, 25 Apr 2025 13:34:27 GMT",
+      "superseded_at": null,
+      "record": "minutes/75d1d9f03898.json",
+      "diff_from_previous": null
     }
   ]
 }

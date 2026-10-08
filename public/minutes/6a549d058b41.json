@@ -1,5 +1,8 @@
 {
-  "document_id": "872fca1f81ea",
+  "document_id": "6a549d058b41",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-09-03-2026-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf",
   "source_sha256": "872fca1f81ea094e79a38187c0dee025e00823a4439be530fa9c4cadfc40fd77",
@@ -116,6 +119,19 @@
       "note": null,
       "image_area_fraction": 0.187,
       "text": "9 \n \n \nUsage : \n \nBâtiment Habitation et local commercial \n \nPrix de vente :  \n210 000.00 euros \nVendeur(s) :   \nMme BURTET épouse LABESSEDE Fabienne \n \n \n \nLe conseil s’oppose à l’unanimité à l’exercice du droit de préemption. \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n295 \n28 rue du 8 mai 1945 \n73 m² \n \nUsage : \n \nBâtiment Habitation \n \nPrix de vente :  \n115 000.00 euros \nVendeur(s) :   \nMaître Xavier ROUANET \n \n \n \nLe conseil s’oppose à l’unanimité à l’exercice du droit de préemption. \n \nL’ordre du jour étant épuisé la séance est levée à 20 h 19 \n  \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "872fca1f81ea094e79a38187c0dee025e00823a4439be530fa9c4cadfc40fd77",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T10:12:00+00:00",
+      "last_modified": "Thu, 16 Apr 2026 12:39:00 GMT",
+      "superseded_at": null,
+      "record": "minutes/6a549d058b41.json",
+      "diff_from_previous": null
     }
   ]
 }

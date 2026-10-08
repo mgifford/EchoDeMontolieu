@@ -31,11 +31,16 @@ class StopFetching(Exception):
 class Fetched:
     url: str
     path: Path
-    status: str  # "fetched", "not_modified" or "cached"
+    # "fetched" (first download), "changed" (re-downloaded and different), "unchanged"
+    # (re-downloaded but identical: the server ignored the conditional request),
+    # "not_modified" (304) or "cached" (no request made)
+    status: str
     retrieved_at: str  # when the content was last actually downloaded
     sha256: str
     etag: str = None  # HTTP validators as last seen from the server
     last_modified: str = None
+    previous_sha256: str = None  # set when an earlier copy existed
+    archived_to: Path = None  # where the replaced PDF was kept, if it was
 
 
 def _now():
@@ -44,9 +49,11 @@ def _now():
 
 class PoliteFetcher:
     def __init__(self, cache_dir, min_delay=DEFAULT_MIN_DELAY, session=None,
-                 sleep=time.sleep, clock=time.monotonic):
+                 sleep=time.sleep, clock=time.monotonic, archive_dir=None):
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
+        # Replaced PDFs are copied here (named by their SHA-256) before being overwritten.
+        self.archive_dir = Path(archive_dir) if archive_dir else None
         self.min_delay = min_delay
         self.session = session or requests.Session()
         self.session.headers["User-Agent"] = USER_AGENT
@@ -67,9 +74,12 @@ class PoliteFetcher:
             if remaining > 0:
                 self._sleep(remaining)
 
-    def _request(self, url, headers=None, delay=None):
+    def _request(self, url, headers=None, delay=None, method="get"):
         self._wait(self.min_delay if delay is None else delay)
         try:
+            if method == "head":  # requests does not follow redirects for HEAD by default
+                return self.session.head(url, headers=headers or {}, timeout=30,
+                                         allow_redirects=True)
             return self.session.get(url, headers=headers or {}, timeout=30)
         except requests.RequestException as exc:
             raise StopFetching(f"network error for {url}: {exc!r}") from exc
@@ -89,6 +99,38 @@ class PoliteFetcher:
 
     def _save_index(self):
         self._index_path.write_text(json.dumps(self._index, indent=2))
+
+    def cached_sha256(self, url):
+        """SHA-256 of the cached copy, or None if there is no cached file."""
+        entry = self._index.get(url)
+        return entry["sha256"] if entry and Path(entry["path"]).exists() else None
+
+    def changed_on_server(self, url):
+        """Header-only check (HEAD): True if Last-Modified or Content-Length differs from
+        the cached copy, False if both match, None if it cannot tell. Used because the
+        Mairie's server ignores If-Modified-Since and would resend the whole PDF."""
+        entry = self._index.get(url)
+        if not entry or not Path(entry["path"]).exists():
+            return None
+        rp = self._robots_for(url)
+        if not rp.can_fetch(USER_AGENT, url):
+            raise PermissionError(f"robots.txt disallows {url}")
+        delay = max(self.min_delay, float(rp.crawl_delay(USER_AGENT) or 0))
+        resp = self._request(url, delay=delay, method="head")
+        if resp.status_code == 429 or resp.status_code >= 500:
+            raise StopFetching(
+                f"{resp.status_code} from {url} "
+                f"(Retry-After: {resp.headers.get('Retry-After')})")
+        if resp.status_code != 200:
+            return None
+        modified, length = resp.headers.get("Last-Modified"), resp.headers.get("Content-Length")
+        if not modified and not length:
+            return None
+        if modified and not entry.get("last_modified"):
+            return None  # nothing stored to compare with
+        same_modified = modified is None or modified == entry.get("last_modified")
+        same_length = length is None or int(length) == Path(entry["path"]).stat().st_size
+        return not (same_modified and same_length)
 
     def get(self, url, revalidate=True):
         rp = self._robots_for(url)
@@ -123,6 +165,13 @@ class PoliteFetcher:
         digest = hashlib.sha256(resp.content).hexdigest()
         suffix = Path(urlparse(url).path).suffix or ".html"
         path = self.cache_dir / f"{hashlib.sha256(url.encode()).hexdigest()[:16]}{suffix}"
+        previous = entry["sha256"] if cached else None
+        archived = None
+        if previous and previous != digest and self.archive_dir and suffix.lower() == ".pdf":
+            self.archive_dir.mkdir(parents=True, exist_ok=True)
+            archived = self.archive_dir / f"{previous}{suffix}"
+            if not archived.exists():
+                archived.write_bytes(path.read_bytes())
         path.write_bytes(resp.content)
         self._index[url] = {
             "path": str(path),
@@ -132,5 +181,8 @@ class PoliteFetcher:
             "sha256": digest,
         }
         self._save_index()
-        return Fetched(url, path, "fetched", self._index[url]["retrieved_at"], digest,
-                       self._index[url]["etag"], self._index[url]["last_modified"])
+        status = ("fetched" if previous is None
+                  else "unchanged" if previous == digest else "changed")
+        return Fetched(url, path, status, self._index[url]["retrieved_at"], digest,
+                       self._index[url]["etag"], self._index[url]["last_modified"],
+                       previous, archived)

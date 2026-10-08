@@ -1,5 +1,8 @@
 {
-  "document_id": "d50b6e0ed9f6",
+  "document_id": "ad091bede91f",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-14-AVRIL-2025-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf",
   "source_sha256": "d50b6e0ed9f624ee50eb4d1df98ed727eac6b4fbe5c1b22f4bef1b3d45215775",
@@ -98,6 +101,19 @@
       "note": null,
       "image_area_fraction": 0.0,
       "text": "7 \n \ncommune du déficit 2024 du fait de l’absence de participation d’une des communes voisines. Les \nrecettes seront uniquement constituées de la dotation communale. \nLes dépenses d’investissement s’établissement à 20 596,26 € dont les échéances de prêt pour \n10 102,34 € \n  \n \n Le conseil vote à l’unanimité le budget du groupe médical \n \nPour le lotissement \n \nLe montant du budget s’établit à 507 736,14 en fonctionnement comme en investissement, en \nsupposant la vente du terrain restant. Il est présenté pour ordre, un point sera fait en fin d’année \npour dénouer les écritures et réintégrer le terrain non vendu dans les terrains communaux pour \n2026. \n \n \n \nLe conseil vote à l’unanimité le budget du lotissement \n \n \n \nL’ordre du jour étant épuisé, la séance est levée à 20 h 56 \n \n66 Charges financières\n2 379,94 €\n74 Dotations et participations\n14 889,58 €\n2 379,94 €\n14 889,58 €\n10 493,92 €\n0,00 €\n2 015,72 €\n12 509,64 €\n0,00 €\n14 889,58 €\n14 889,58 €\n10 493,92 €\n10 102,34 €\n10 493,92 €\n10 102,34 €\n10 102,34 €\n10 493,92 €\n10 102,34 €\n10 493,92 €\n20 596,26 €\n20 596,26 €\nRecettes d'opérations d'ordre 2025\nDépenses Réelles Prévues 2025\nDépenses d'opérations d'ordre 2025\nRecettes Réelles Prévues 2025\n16 Remboursement d'emprunt \nRecettes d'opérations d'ordre 2025\n021 Virement depuis la section fonctionnement\n001 Solde d'éxecution d'investissement reporté\n10 Dotations, fonds divers et réserves\nTotal des dépenses 2025\nTotal des recettes 2025\nDépenses d' Investissement\nRecettes d' Investissement\nDépenses de Fonctionnement\nRecettes de Fonctionnement\nTotal des dépenses 2025\nTotal des recettes 2025\nDépenses Réelles Prévues 2025\nRecettes Réelles Prévues 2025\n023 Virement vers la section Investissement\n002 Excédent antérieur reporté de fonctionnement 2024\n002 Déficit antérieur 2024\nDépenses d'opérations d'ordre 2025\n17 247,72 €\n17 247,72 €\n179 200,14 €\n161 952,42 €\n328 536,00 €\n328 536,00 €\n0,00 €\n0,00 €\n507 736,14 €\n490 488,42 €\n507 736,14 €\n507 736,14 €\n040 Opérations d'ordre de transfert entre sections\n328 536,00 €\n040 Opérations d'ordre de transfert entre sections\n328 536,00 €\n001 Solde d'exécution de la section d'investissement reporté\n179 200,14 €\n021 Virement de la section d'exploitation\n179 200,14 €\n507 736,14 €\n507 736,14 €\n507 736,14 €\n507 736,14 €\nDépenses d' Investissement\nRecettes d' Investissement\nDépenses de Fonctionnement\nRecettes de Fonctionnement\nDépenses d'opérations d'ordre 2025\nRecettes d'opérations d'ordre 2025\nTotal des dépenses 2025\nTotal des recettes 2025\n70 Produits de services\nTotal des dépenses 2025\nTotal des recettes 2025\nDépenses d'opérations d'ordre 2025\nRecettes Réelles Prévues 2025\n023 Virement vers la section Investissement\n002 Excédent antérieur reporté de fonctionnement\n042 Opérations d'ordres de transfert entre sections\n042 Opérations d'ordres de transfert entre sections\n043 Opérations d'ordres à l'intérieur de la section de fo\nRecettes Réelles Prévues 2025\n043 Opérations d'ordres à l'intérieur de la section de fonctionn\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "d50b6e0ed9f624ee50eb4d1df98ed727eac6b4fbe5c1b22f4bef1b3d45215775",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:37:51+00:00",
+      "last_modified": "Wed, 28 May 2025 15:09:39 GMT",
+      "superseded_at": null,
+      "record": "minutes/ad091bede91f.json",
+      "diff_from_previous": null
     }
   ]
 }

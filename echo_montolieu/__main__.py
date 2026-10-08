@@ -32,6 +32,8 @@ def main(argv=None):
     p_sync.add_argument("--limit", type=int, default=None, help="max new PDFs this run")
     p_sync.add_argument("--delay", type=float, default=10.0, help="seconds between requests")
     p_sync.add_argument("--dry-run", action="store_true", help="list new PDFs, download none")
+    p_sync.add_argument("--no-check-changes", action="store_true",
+                        help="do not re-check known PDFs for new versions (saves one request each)")
 
     p_key = sub.add_parser("keygen", help="create private/pseudonym.key (never printed)")
     p_key.add_argument("--private", default="private")
@@ -56,6 +58,8 @@ def main(argv=None):
         "verify", help="check a record's PDF hash, against a local file or the site")
     p_ver.add_argument("document_id")
     p_ver.add_argument("--file", default=None, help="local PDF to compare (offline)")
+    p_ver.add_argument("--version", type=int, default=None,
+                       help="check an older version (use with --file)")
     p_ver.add_argument("--public", default="public")
     p_ver.add_argument("--cache", default=".cache")
 
@@ -124,7 +128,7 @@ def main(argv=None):
                           "skipped_failed": report["skipped_failed"]}, indent=2))
         sys.exit(1 if report["skipped_failed"] else 0)
     elif args.cmd == "verify":
-        record = verify.load_record(args.public, args.document_id)
+        record = verify.load_record(args.public, args.document_id, args.version)
         if args.file:
             result = verify.verify_local(record, args.file)
         else:
@@ -157,8 +161,10 @@ def main(argv=None):
         print(json.dumps(Pseudonymiser.from_environment(args.private).whois(args.identifier),
                          ensure_ascii=False, indent=2))
     elif args.cmd == "sync":
-        report = sync(PoliteFetcher(args.cache, min_delay=args.delay), args.private,
-                      tessdata_dir=args.tessdata, limit=args.limit, dry_run=args.dry_run)
+        fetcher = PoliteFetcher(args.cache, min_delay=args.delay,
+                                archive_dir=Path(args.private) / "archive")
+        report = sync(fetcher, args.private, tessdata_dir=args.tessdata, limit=args.limit,
+                      dry_run=args.dry_run, check_changes=not args.no_check_changes)
         json.dump(report, sys.stdout, ensure_ascii=False, indent=2)
         print()
         sys.exit(report["exit_code"])

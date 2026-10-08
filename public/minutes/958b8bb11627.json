@@ -1,5 +1,8 @@
 {
-  "document_id": "6eadddaefcc7",
+  "document_id": "958b8bb11627",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-27102025-site.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf",
   "source_sha256": "6eadddaefcc758e6b2fc40ee1a959f48fd1c07940c8d8a6f9868eeec13437b20",
@@ -107,6 +110,19 @@
       "note": null,
       "image_area_fraction": 0.0,
       "text": "8 \n \nPOUR LA COOPÉRATIVE MUSÉE CERES FRANCO \n \nUn mail de Mme Valérie Laffont du GAL Pays Carcassonnais est parvenu en mairie jeudi dernier. \nLors de l’assemblée générale du GIP, le 17 octobre dernier, le projet de campagne de \ncommunication du musée a été présentée. Son financement doit logiquement se répartir entre les \nmembres du GIP dont la commune de Montolieu et s’étaler sur deux exercices. \nMme LAFFONT sollicite la mairie pour se voir confirmer le montant de 606,18 € (soit 303,09 € par \nan) qui est demandé au titre de cette campagne. \nCette somme sera à ajouter à la subvention de fonctionnement du GIP (compte comptable 6281) \n \nCompte tenu de l’avancement de la consommation du budget le premier versement pourrait se faire \ndébut 2026, et le deuxième début 2027. \n \nLe conseil vote à l’unanimité la subvention de 606.18 euros sollicitée. \n \nINSTALLATION D’UNE BORNE DE RECHARGE POUR VEHICULE ELECTRIQUE  \n \nMme Leleux du SYADEN s’est déplacée en mairie le 22 octobre dernier pour proposer la mise en \nplace d’une borne de recharge pour véhicule électrique. \nTrois sites ont été successivement évalués : \n- \nLe parking du lotissement au-dessus de la pharmacie \n- \nLe parking St Roch \n- \nLe parking du Sol au niveau des ateliers municipaux \nAprès étude, le SYADEN privilégie le premier site, il semble le plus adapté, tant sur le plan temporel \nque technique et financier. \n \nLe conseil vote à l’unanimité l’installation d’une borne de recharge pour véhicule électrique sur le \nparking du lotissement au-dessus de la pharmacie. \n \nATTRIBUTION DU LOT 3 DES TRAVAUX DE L’EGLISE : LOT PLÂTRERIE  \n \nA la suite de la relance du lot 3 plâtrerie pour les travaux de l’église St André, une seule entreprise \na soumissionné, la même que lors du lancement du marché. Il s’agit d’EUROPLATRE \nNéanmoins la proposition financière est différente, et permet de rester dans l’évaluation globale du \ncabinet Serra. \nS’agissant d’une procédure adaptée, il n’est pas nécessaire de réunir la commission d’attribution \ndes marchés. \nMonsieur le maire donne lecture du rapport d’analyse de l’offre, reçu ce jour. \n \nLors de la relance du lot 3 l’entreprise a remis une offre d’un montant correspondant à +34.6% \npar rapport à l’estimation soit + 26 864,12€HT de plus que l’estimation. \nL’offre de l’entreprise EUROPLATRE apparait toujours comme étant élevée mais compte tenu : \n• de la difficulté à obtenir des réponses pour ce lot ; \n• que le coût global de l’opération reste en moins-value par rapport à l’estimation (de \n2,42% soit -29 625€HT) ; \n• que l’entreprise depuis le premier appel d’offre de 2024 a réalisé un geste de 40% sur \nson offre initiale sans changer sa méthodologie ; La maîtrise d’œuvre propose au maître \nd’ouvrage de considérer l’offre de l’entreprise comme acceptable et propose au maître \nd’ouvrage de retenir l’offre de l’entreprise EUROPLATRE pour le lot 3 Plâtrerie en \nretenant l’ensemble des tranches pour la somme de 104 525,12€ HT \n \nLe conseil retient à l’unanimité l’offre de l’entreprise EUROPLATRE pour le lot 3 Plâtrerie en \nretenant l’ensemble des tranches pour la somme de 104 525,12€ HT \nL’ordre du jour étant épuisé la séance est levée à 21 h 21 \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "6eadddaefcc758e6b2fc40ee1a959f48fd1c07940c8d8a6f9868eeec13437b20",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:38:44+00:00",
+      "last_modified": "Fri, 05 Dec 2025 14:59:41 GMT",
+      "superseded_at": null,
+      "record": "minutes/958b8bb11627.json",
+      "diff_from_previous": null
     }
   ]
 }

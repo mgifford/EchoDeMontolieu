@@ -1,5 +1,8 @@
 {
-  "document_id": "e9b618ea2c20",
+  "document_id": "607c8c991745",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf",
   "source_sha256": "e9b618ea2c20d7f907b8e906185fd94e0b1c71869d131e8f4424da9392cbf8d0",
@@ -107,6 +110,19 @@
       "note": null,
       "image_area_fraction": 0.0,
       "text": "8 \n➢ Après échanges, le conseil vote à l’unanimité le maintien du taux de la taxe d’aménagement \nà  1.5 %. \nRETOUR SUR LES CONSULTATIONS ENTRE LE CONSEIL DU 15 AVRIL ET CELUI DU 13 JUIN \n \nMonopoly du grand Carcassonne : sur 14 conseillers consultés,13 avis exprimés 12 positifs. La proposition a \nété retenue et l’information remontée à l’Agglo. \nIl est précisé qu’une vue du village fera partie des illustrations centrales du plateau de jeu, en conséquence \nle logo Montolieu village du livre et des arts sera retenu pour illustrer la case du village. \nSchéma départemental des solidarités : sur 14 conseillers consultés, 9 avis remontés tous positifs. \n \nDROITS DE PRÉEMPTION  \n  \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nA \n345 \nVIGNOBLE DE SAINT DENIS \n4825 m² \nA \n366 \nVIGNOBLE DE SAINT DENIS \n4041 m² \nA \n367 \nVIGNOBLE DE SAINT DENIS \n18 m² \n \n \n \n \n \n \n \n \n \nUsage : \n \nAgricole \nPrix de vente :  \n \n5 000,00 EUR \nVendeur(s) :   \nJOULIA Régis  \n \n➢ Le conseil vote à l’unanimité contre l’exercice du droit de préemption \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB  \n289 \n \nRue des arts \n \n79m² \n \n \n \n \n \n \n \n \n \nUsage : \n \nRemise \nPrix de vente :  \n \n60 000,00 EUR \nVendeur(s) :   \nSCI FOCH-PONTIER \n \nMme BOST BERGÉ ne prend pas part au vote. \n➢ Le conseil vote à l’unanimité contre l’exercice du droit de préemption \n \nL’ordre du jour étant épuisé, la séance est levée à 20 h 39 \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "e9b618ea2c20d7f907b8e906185fd94e0b1c71869d131e8f4424da9392cbf8d0",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:36:35+00:00",
+      "last_modified": "Fri, 27 Dec 2024 09:07:59 GMT",
+      "superseded_at": null,
+      "record": "minutes/607c8c991745.json",
+      "diff_from_previous": null
     }
   ]
 }

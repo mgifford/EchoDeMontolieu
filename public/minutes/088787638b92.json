@@ -1,5 +1,8 @@
 {
-  "document_id": "2ceb1b82cfce",
+  "document_id": "088787638b92",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-4-avril-2024-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf",
   "source_sha256": "2ceb1b82cfce08a493e7fc2abe201d033076fcf74fbb1a87f6728ae420a42c8f",
@@ -250,6 +253,19 @@
       "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
       "image_area_fraction": 0.541,
       "text": "20 \n \n➢ Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption \n \nL’ordre du jour étant épuisé, la séance est levée à 22 h10. \n \n \nINFORMATIONS \n \nSite internet, le candidat retenu est BIZNET   \nTravaux de nuit pour la réfection de la chaussée \nChoix des potelets  \nDemande association de défense du patrimoine montolivain pour la prise en charge par la mairie de 1200 \neuros (devis en mairie de Monsieur Jacolot). La mairie prendra directement en charge cette dépense. Elle \ndevrait économiser sur l’installation des grands panneaux, puisqu’ il y en aura moins que prévu. En effet le \ndépartement refuse l’emplacement prévu pour celui d’Alzonne.  \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "2ceb1b82cfce08a493e7fc2abe201d033076fcf74fbb1a87f6728ae420a42c8f",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T10:12:00+00:00",
+      "last_modified": "Fri, 07 Feb 2025 12:24:06 GMT",
+      "superseded_at": null,
+      "record": "minutes/088787638b92.json",
+      "diff_from_previous": null
     }
   ]
 }

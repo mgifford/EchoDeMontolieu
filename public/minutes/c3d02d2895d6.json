@@ -1,5 +1,8 @@
 {
-  "document_id": "e53a6099b465",
+  "document_id": "c3d02d2895d6",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/06/PV-du-CONSEIL-MUNICIPAL-DU-30-avril-2026.pdf",
   "source_sha256": "e53a6099b465abbcd28046c53704b356ef74d9073defbb67a330964cf2732a2f",
@@ -89,6 +92,19 @@
       "note": null,
       "image_area_fraction": 0.133,
       "text": " \n6\nFilière technique \nAdjoint technique \nprincipal de 1ere \nclasse \n \nAdjoint technique \nprincipal de 2eme \nclasse \n \nAdjoint technique \nterritorial \n \n1 \n \n \n \n2 \n \n \n3 \n \n \n35h \n \n \n \n35 h \n \n \n2 à 35 h \n1 à 29/35 \n \nAdjoint technique \nprincipal de 1ere \nclasse \n \nAdjoint technique \nprincipal de 2eme \nclasse \n \nAdjoint technique \nterritorial \n \n2 \n \n \n \n1 \n \n \n3 \n \n35 h \n \n \n \n     35 h \n \n \n2 à 35 h \n1 à 29/35 \n \nPour la filière technique \n• \nLa création d'un emploi d’Adjoint technique principal de 1ere classe à compter du 01 \nmai 2026 \n• \nLa suppression, à compter du 01 mai 2026 d’un emploi permanent à temps complet \nd’adjoint technique principal de 2eme classe  \n \nVote pour du conseil à l’unanimité du tableau tel que présenté \n \n \n \nDROIT DE PREEMPTION \n \nDésignation du bien vendu :  \nRéf. Cadastrale :  \nSection \nN° \nLieu-dit \nSuperficie totale \nAB  \n437 \n14 rue d’Alzonne \n00 ha 09 a 05 ca \n \nUsage :  \nHabitation \nPrix de vente :  190 000 euros \nVendeur(s) :  \nLANAU Jacques, Brigitte, Michèle et Marie \n \n \nLe conseil vote à l’unanimité contre l’exercice du droit de préemption \nL’ordre du jour étant épuisé la séance est levée à 20 H 20 \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "e53a6099b465abbcd28046c53704b356ef74d9073defbb67a330964cf2732a2f",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:39:36+00:00",
+      "last_modified": "Fri, 19 Jun 2026 08:00:35 GMT",
+      "superseded_at": null,
+      "record": "minutes/c3d02d2895d6.json",
+      "diff_from_previous": null
     }
   ]
 }

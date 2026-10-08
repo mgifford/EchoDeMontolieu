@@ -16,11 +16,19 @@ def sha256_file(path):
     return h.hexdigest()
 
 
-def load_record(public_dir, document_id):
-    path = Path(public_dir) / "minutes" / f"{document_id}.json"
+def load_record(public_dir, document_id, version=None):
+    """The current record, or a specific (possibly superseded) version of it."""
+    base = Path(public_dir) / "minutes"
+    path = base / f"{document_id}.json"
     if not path.exists():
         raise FileNotFoundError(f"no published record {document_id}")
-    return json.loads(path.read_text(encoding="utf-8"))
+    record = json.loads(path.read_text(encoding="utf-8"))
+    if version is None or version == record.get("version", 1):
+        return record
+    old = base / document_id / f"v{version}.json"
+    if not old.exists():
+        raise FileNotFoundError(f"no version {version} of {document_id}")
+    return json.loads(old.read_text(encoding="utf-8"))
 
 
 def verify_local(record, pdf_path):
@@ -34,7 +42,17 @@ def verify_local(record, pdf_path):
 def verify_online(record, fetcher):
     """Polite check of the file on the site now (conditional request, so an unchanged
     file costs a 304). A mismatch means the Mairie replaced the PDF after we read it."""
-    fetched = fetcher.get(record["source_url"])
+    if record.get("is_current") is False:
+        raise ValueError("the site only holds the current version; compare an older "
+                         "version against a local file instead")
+    url = record["source_url"]
+    if (fetcher.cached_sha256(url) == record["source_sha256"]
+            and fetcher.changed_on_server(url) is False):
+        return {"document_id": record["document_id"], "check": "site now",
+                "http_status": "headers_unchanged", "match": True,
+                "expected_sha256": record["source_sha256"],
+                "actual_sha256": record["source_sha256"]}
+    fetched = fetcher.get(url)
     return {"document_id": record["document_id"], "check": "site now",
             "http_status": fetched.status,
             "match": fetched.sha256 == record["source_sha256"],

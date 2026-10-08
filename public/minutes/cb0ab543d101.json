@@ -1,5 +1,8 @@
 {
-  "document_id": "82f03b3ad2c9",
+  "document_id": "cb0ab543d101",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
   "filename": "CRCM-6-MARS-2025-site-internet.pdf",
   "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf",
   "source_sha256": "82f03b3ad2c9022f65caa05a6e7c1dda3406ab1105777508f861074714b159bb",
@@ -107,6 +110,19 @@
       "note": null,
       "image_area_fraction": 0.0,
       "text": "8 \n \n \n- \nProjet hybride agri voltaïque  \n \n- \nTags. \n \n \n \n \n \n \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "82f03b3ad2c9022f65caa05a6e7c1dda3406ab1105777508f861074714b159bb",
+      "source_bytes": null,
+      "retrieved_at": "2026-10-08T12:37:24+00:00",
+      "last_modified": "Fri, 25 Apr 2025 13:34:41 GMT",
+      "superseded_at": null,
+      "record": "minutes/cb0ab543d101.json",
+      "diff_from_previous": null
     }
   ]
 }
