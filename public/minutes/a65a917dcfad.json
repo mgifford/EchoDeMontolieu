@@ -1,0 +1,150 @@
+{
+  "document_id": "a65a917dcfad",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20070216.pdf",
+  "source_url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf",
+  "source_sha256": "604f2f5c61a5dfc5add80a12698c74a4f0c39f56cf376621556b546259b7e158",
+  "source_bytes": 105291,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020070216.pdf",
+    "wayback_timestamp": "20081112035620",
+    "official_copy": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf",
+    "mirror_path": "archive/originals/CRCM20070216.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20070216.pdf",
+    "date_hint_from_filename": "2007-02-16"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:18:13+00:00",
+  "meeting_date": {
+    "value": "2007-02-16",
+    "source": "text layer, page 1: 'L’An deux mil sept et le 16 Février'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 9,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’An deux mil sept et le 16 Février à 20 H 30, le Conseil Municipal dûment\nconvoqué, s’est réuni sous la Présidence de Monsieur DEMPERIER Max, Maire de\nMontolieu, dans la salle du Conseil.\nÉtaient présents: Mmes Jeanne Etoré, Danièle Lasserre, Annick Pillosio, Christel Soulié\nMM. Max Delpérier, Michel Drieux, Bernard Lauret, Eric Olivier, Sylvain Paré,\nEdouard Ricard\nAbsents excusés: Françoise Gousvinski : procuration à Bernard Lauret\n                 Christel Pujade: procuration à Michel Drieux\n                 Claude Lasserre: procuration à Danièle Lasserre\nAbsents non excusés: Joël Laporte, Patrice Solé\nMonsieur Fabien Pujade assistait le Conseil dans ses travaux.\nMonsieur le Maire demande qui veut assurer le secrétariat de séance: Mme Etoré\npropose de s'en charger.\nRectifications à apporter au compte rendu de la précédente réunion du conseil\n(24 novembre 2006)\nMadame Etoré rappelle qu'aucune zone ne peut être \"rendue constructible\" par le\nConseil. Le Conseil ne peut que proposer ces zones à la constructibilité, le P.L.U doit\nensuite être repris par le cabinet d'étude, approuvé par les personnes publiques et\nsoumis à enquête publique.\nMonsieur le Maire rappelle que le Conseil Municipal est élu par la population et que\nson rôle est de défendre les intérêts de celle-ci.\nElle rappelle en outre que dès la séance du 29 septembre 2006, tous les débats sur la\nconstructibilité des terrains avaient été menés en présence des demandeurs et avec leur\nintervention, qu'ils n'ont pas porté sur des numéros de parcelle ou des lieux-dits, mais\nbien sur des noms de propriétaires privés qui assistaient à la séance et défendaient eux-\nmêmes leur cause.\nDans la reprise du débat sur le P.L.U le 29 septembre, le conseil n'a pas décidé de rendre\nnon constructible le terrain acheté par M. Frédéric Pech à la commune (car cela avait été\ndécidé lors de la vente), mais au contraire de rendre constructible le terrain voisin\nappartenant aussi à M. Frédéric Pech - et dans la foulée toute une série de terrains du\nmême secteur.\nMonsieur le Maire rappelle que Monsieur PECH s’était engagé à ne jamais demander la\nconstructibilité de la parcelle qu’il achetait à la commune.\nMadame Etoré demande en outre la suppression de la mention du départ de M.\nGouzvinski sur une remarque de sa part, M. Gouzvinski étant parti sans donner aucune\nexplication, ce que confirment M. Paré, Mme Lasserre, Mme Pillosio et M. le Maire qui\nreconnaît que cette observation doit être supprimée.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Mme Etoré demande également que soit réintégré au compte rendu, à propos de la\npiscine, le débat sur le passage de l'expert mandaté par l'assurance qui aurait évalué\noralement les travaux à 20.000 euros.\nElle avait dit alors qu'il valait mieux faire 20.000 euros de travaux et avoir une piscine qui\nfonctionnait que se lancer dans une action en justice qui coûtait d'emblée (pour frais\nd'avocat et référé) la somme de 22.000 euros.\nElle avait aussi demandé l'indication d'un délai pour l'action en justice, délai que M. le\nM a i r e \né t a i t \ni n c a p a b l e \nd'indiquer.\nM. Ricard avait rappelé encore à cette occasion que l'avocat qu'il avait conseillé était\nformellement hostile à une procédure en référé et préconisait une procédure amiable.\nMonsieur le Maire rappelle que toutes les personnes qu’il a contactées (Avocat, Expert,\nAssureur, Architecte) recommandaient de passer par la voie du Tribunal Administratif.\nOrdre du jour du 16 février 2007\nATESAT (Assistance technique fournie par l'Etat pour des raisons de solidarité\net d'Aménagement du territoire): Convention avec la DDE\nM. le Maire indique qu'il s'agit de la reconduction d'une convention d'assistance déjà\nsignée pour l'année 2006.\nMme Pillosio et M. Paré demandent en quoi consiste exactement cette assistance.\nM. le Maire et M. Drieux répondent qu'il s'agit essentiellement de mesures et de\nsupervision pour les travaux de voirie.\nM. le Maire donne l'exemple de l'aménagement récent de la place des Tilleuls, où la DDE\na fait les mesures. \nLes travaux de la place des Tilleuls sont à nouveau évoqués. M. le Maire disant que la\ncommune n'avait pas le moyen de faire mieux, M. Paré réplique que des économies aurait\npu être faites en réutilisant les anciens pavés plutôt que de les jeter et de les remplacer\npar d'autres. A la réponse qu'ils n'ont pas été jetés, M. Paré maintient le contraire.\nM. Delpérier donne également l'exemple de la consultation de la DDE à propos de la\nRoute St Denis, où toutefois la demande de trottoirs ne pourra être satisfaite.\nMme Etoré et M. Paré font observer que si l’on veut des trottoirs alors il faut un sens\nunique alternatif.\nMme Pillosio rappelle que le problème dure depuis des décennies.\nM.le Maire observe d'ailleurs que la dernière consultation de la DDE sur la route St\nDenis remonte aujourd'hui à six mois.\nMadame Etoré estime que les prestations de la DDE sur le village ne sont pas si réussies\nqu'il faille forcément s'empresser de signer une convention.\nM.le Maire précise qu'il faut obligatoirement reconduire la mission de base si l'on veut\ndonner les missions complémentaires.\nMme Etoré répète qu'on peut aussi refuser aussi bien la mission de base que les missions\ncomplémentaires.\nM. Paré observe que tout dépend de l'usage que l'on fait de l'assistance proposée.\nMonsieur le Maire rappelle que la DDE prépare les dossiers (métrages, chiffrage) et\nassure la vérification de la conformité des travaux réalisés.\nVote:\nMission de base   666 euros HT : 2 abstentions (Etoré, Pillosio)\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1ère mission complémentaire (assistance aux travaux de voirie): 33,30 euros HT : 2\nabstentions\n2ème mission complémentaire (assistance à l'évaluation des travaux de voirie): 33,30\neuros HT : 2 abstentions\n3ème misssion complémentaire (assistance au classement de la voirie):\n4ème mission complémentaire (étude et direction de travaux n'excédant pas 90.000 euros\nHT): 233 euros HT : 7 voix contre (Pillosio, Delpérier, Drieux et procuration, Lauret et\nprocuration, Olivier)\nAbstentions: Etoré, Soulié; Lasserre et procuration\nPour : Paré\nM. Paré fait observer que cette assistance pourrait être utilisée de façon constructive.\nDélégation de signature\nCe point s'ajoute à l'ordre du jour.\nLa municipalité avait pris un arrêté de délégations de signatures à la DDE pour accélérer\nl'instruction des dossiers de demande de permis, cet arrêté doit être renouvelé à la suite\nde changements de personnels.\nMme Etoré exprime une certaine méfiance à l'idée de ce besoin d'accélération des dossiers\n(au vu de certaines expériences passées en matière de permis de construire).\n12 voix pour, une abstention: Etoré\nCession de l'atelier-relais de reliure\nM. le Maire résume les faits, l'atelier-relais avait été conçu à son origine avec le paiement\nd'un loyer pendant 15 ans au terme desquels M. Rogez deviendrait propriétaire du\nbâtiment moyennant le paiement d'une somme de 5000 francs. Cette décision du Conseil\nn'a jamais été consignée dans le compte rendu de délibération.\nAprès différentes recherches auprès de la préfecture, évaluation de l'immeuble (valeur\nvénale : 71.000 €uros) et renseignements pris auprès du notaire, la solution retenue a été\ncelle d'une déclaration sur l'honneur de M. Delpérier, confirmée par celle de deux\nmembres du Conseil municipal de l'époque (Messieurs Paly et Chabaud) confirmant que\nla décision de cession aux conditions énoncées ci-dessus avait bien été prise.\nM. Delpérier donne lecture de l'acte de cession - pour la somme de 762 euros - établi par\nMaître Fortin-Lézy.\nLe conseil donne son accord à l'unanimité.\n(Mention est faite au passage du principe juridique selon lequel un compte rendu erroné\npeut-être considéré comme un abus de pouvoir).\nProjet d'atelier-relais boucherie\nM. le Maire rappelle que le dossier a été monté avec la Chambre des Métiers, dont\nl'étude de faisabilité est positive. Les subventions pourraient atteindre 50% du coût de\nl'opération. Les services vétérinaires ont donné leur accord.\nLa municipalité aménagerait le local extérieur, les installations intérieures étant à la charge\ndes preneurs: M. et Mme Patrick Gallart, de Coursan.\nMme Lasserre, M. Ricard et M. Paré insistent sur le fait que la Municipalité doit rester\npropriétaire du local.\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "M. Ricard rappelle que le principe de l’atelier relais consiste à obtenir par la Mairie, aux\nfrais du contribuable, des subventions qu’un demandeur privé ne pourrait pas avoir. Le\nbut de cette opération est d’attirer des artisans en milieu rural. Ces subventions qui dans\nce cas sont estimées à 50% de la dépense H.T. permettront à l’occupant de payer un\ndemi loyer pendant la durée du remboursement de l’emprunt réalisé par la Mairie. il\nn’est donc pas souhaitable de faire un nouveau cadeau en cédant le bâtiment à un prix\ndérisoire. Il ne faut pas oublier que cet emprunt réduit la capacité de financement de la\nMairie pour d’autres travaux d’investissement.\nMme Etoré et Mme Pillosio expriment quelques doutes quant aux chances de réussite du\nprojet avec l'existence de la boucherie de Saissac, et un nouveau projet d'installation\névoqué sur la commune d'Alzonne. La localisation de la future boucherie ne leur paraît\np a s \nv r a i m e n t \nf a v o r a b l e .\nM. Paré demande si l'autorisation d'un tel commerce à côté du transformateur a été\ndonnée par écrit par EDF.\nM. Delpérier rappelle qu'il s'agit maintenant de donner l'autorisation de déposer le\npermis de construire et propose de donner un avis favorable sous réserve de l'accord\nd'EDF.\nMme Etoré fait observer que le croquis fourni par l'architecte Melle Serra ne permet pas\nde se rendre compte de ce à quoi ressemblera l'aménagement, qu'il n'y a eu aucune\nconcertation, ni réunion de la commission urbanisme, sur ce travail.\nM. Olivier regrette que certains conseillers fassent passer l'esthétique avant le principe\nd'installation d'une boucherie.\nMme Etoré répond que l'esthétique n'a jamais empêché le commerce, au contraire.\nVote sur la demande de permis de construire:\n2 abstentions: Etoré, Pillosio\nLotissement \"les jardins de Valsiguier\"\nAprès l'exploration archéologique du terrain Conradty, il semble que des constructions\nsoient possibles sur sa partie basse, à condition d'envisager des constructions \"sur\npilotis\" ou \"fondations spéciales\".\nLe cabinet Virelizier fait une proposition d'étude pour la somme de 2.800 euros HT.\n1 abstention: Etoré\nLe principe de l'interdiction de piscine sur le secteur de ce terrain doit être arrêté.\nAccord du Conseil à l'unanimité.\nAvenant au contrat P.L.U\nA la suite des nouvelles propositions de constructibilité arrêtées par le Conseil, M. le\nMaire donne lecture du courrier reçu du cabinet d'études E.C.E.P en charge de\nl'élaboration du P.L.U\nCe courrier indique que les changements d'orientations par rapport à ce qui avait été voté\nen 2005 \"portent préjudice à l'identité et aux valeurs patrimoniales de la commune\", que\n\"les surfaces proposées ont été fortement augmentées, que ces orientations nécessitent\nd'être amendées, le projet communal actuel risquant de ne pas être reçu favorablement\npar les services de l'État.\"\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "La révision du projet représente un \ncoût de \n6.554,08 euros TTC.\nM. le Maire demande l'acceptation de ce devis.\nMme Etoré fait observer que l'on va payer la somme de 6500 euros pour satisfaire\nquelques intérêts particuliers et sans aucune autre justification, alors que l'étude existante\nest parfaitement cohérente.\n5 voix contre : Etoré, Lasserre (et procuration), Pillosio, Paré\nLe reste des conseillers approuvent.\nDon de deux parcelles\nMaître Fortin-Lézy réglant la succession de Melle Neyret fait part du désir de la famille\nde faire don de la parcelle du Bois de Fargues Section A n°334 à la Commune.\nLe Conseil donne son accord à l'unanimité.\nM. Gaston Robert, suite à un entretien du 29 novembre 2006 en Mairie confirme son\nintention de céder gratuitement à la commune les parcelles qu'il possède à St Roch:\nSection B n°372 et n°373.\nLe Conseil donne son accord à l'unanimité.\nM. Paré, approuvé par plusieurs autres conseillers, fait observer qu'il serait bon que ces\nparcelles soient nettoyées, en particulier que les oliviers qui n'ont pas brûlé autour de St\nRoch soient dégagés.\nClassement de la voirie communale\nM. Delpérier rappelle que jusqu'à ce jour les chemins de la commune ne sont pas classés.\nLa propriété d'un chemin classé devient inaliénable et la dotation de la commune pour\nl'entretien des chemins dépend pour une part de la longueur des chemins classés et donc\nentretenus.\nJusqu'à présent seules sont classées les voies situées dans le périmètre du village (accès à\nla rivière, etc.) et l’entrée du Hameau de Franc.\nMme Etoré fait observer que cela signifie aussi que la propriété des chemins qui ne\nseraient pas classés serait aliénable, que la commune pourrait donc en perdre la\npropriété, et que cela lui paraît extrêmement dangereux.\nM. Delpérier présente à l'aide de transparents projetés sur un écran le travail\npréliminaire qui a été effectué avec un représentant de la DDE, qui a d'ailleurs changé de\nposte entre-temps.\nP. Paré demande que soit d'abord dressé un inventaire des chemins, suivi d'une\nhiérarchisation en fonction de l'intérêt, de l'utilité, et ce, avant tout classement.\nMme Pillosio, M. Paré, Mme Lasserre observent qu'on ne peut pas statuer aussi\nrapidement, qu'il n'est pas normal que les conseillers n'aient pas été associés à la\nréflexion.\n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "M. le Maire attire l'attention sur le tracé de certains chemins qui ne correspondent pas\nau tracé officiel du chemin communal (Isoule, Villeneuve), ce qui pourrait donner lieu à\ndes échanges.\nMme Étoré et avec elles plusieurs conseillers estiment qu'on ne peut pas se prononcer\nsans une étude plus approfondie. M. Paré fait remarquer que le classement du chemin de\ntraverse de Montolieu à Fraïsse-Cabardes n’est pas prévu dans cette étude.\nM. le Maire précise qu'il n'est pas question de voter sur ces questions immédiatement et\nque ce problème fera l'objet d'autres séances de travail plus approfondi.\nMme Etoré insiste sur le problème de la situation actuelle des chemins. Leur propriété\nest-elle ou non aliénable. M. Delpérier affirmait qu'elle ne l'était pas, il en semble\naujourd'hui moins sûr. Peut-on vérifier?\nMonsieur le Maire prendra contact avec la DDE pour obtenir la réponse à cette\nquestion.\nTravaux de voirie\nLa question est ajournée.\nTravaux d'adduction AEP et Assainissement\nUne borne à incendie doit être mise ne place à proximité de la Maison de Retraite, suite\nau passage de la Commission de Sécurité.\nLe projet initial était d'alimenter cette borne à partir du réservoir du Petit Paradis.\nLe terrain Azéma n'étant pas constructible en l'état actuel des choses, ce projet doit être\nabandonné.\nM. Delpérier propose de se raccorder par le village en renforçant le réseau d'adduction\nd'eau pour le lotissement du terrain Conradty en passant par la Côte d'Escudié ou par la\nrue du Général Izard.\nMme Etoré et Mme Lasserre font observer que le passage par la rue du Général Izard\ndétruirait inutilement cette petite artère qui mérite d'être préservée.\nLe Conseil se prononce pour une demande de chiffrage à la SADE.\nLa Commune doit envisager dans le secteur de Jalabert le raccordement au tout à l'égoût,\nce qui suppose la mise en place d'une pompe de relevage, pour un coût de 193.000 €.\nMme Pillosio, M. Paré, Mme Lasserre, M. Ricard déclarent qu'on ne saurait se\nprononcer sur une pareille somme sans avoir étudié plus sérieusement le problème.\nMme Etoré fait observer qu'il y a certainement des solutions moins coûteuses et\npraticables et que si la pompe de relevage doit être installée de façon aussi grossière\nqu'au centre du village, sur le ravin de l'Alzeau, il vaut mieux l'éviter.\n5 conseillers s'abstiennent : Etoré, Lasserre (avec  procuration), Pillosio, Paré\nSculpture Hallereau-Ségala\nMme Hallereau-Ségala propose à la commune d'acheter la sculpture installée depuis\nplusieurs années dans la cour de la Mairie, pour un montant de 9.000 euros.\nAbstention: Etoré\n11 voix contre\n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Questions diverses\nM. Riedel, chercheur en trufficulture, se propose d'aménager, pour l'installation d'un\ncentre de recherche sur la truffe, un barrage collinaire de 10.000 m3 d'eau. M. Delpérier\nrapporte que M. Escande, Conseiller général, est favorable au projet. M. Riedel a besoin\npour cela d'une autorisation de la Municipalité et demande à pouvoir ancrer la digue rive\ngauche sur le chemin communal du Trabet à 4m de profondeur pour remettre ensuite le\nterrain en l'état.\nMme Pillosio fait observer que ce genre de projet est incontrôlable, que l'économie de\nl'eau est un des problèmes majeurs du notre époque, qu'on ne peut pas se prononcer\nsans connaître les incidences.\n1 voix contre: Pillosio\n1 abstention: Etoré\nDemande de M. Jean-Pierre Durand\nM. Durand a adressé à la Mairie une demande d’exploitation de terrains communaux\nmitoyens de ses propres parcelles situées sur le plateau de Cazelles (surface totale d'env.\n5ha).\nM. Delpérier estime que ces parcelles sont des parcelles de garrigue plantées de pins qui\nont une qualité paysagère précieuse et que leur mise en culture n'est pas une excellente\nidée.\nPlusieurs conseillers se demandent quelle est la finalité exacte de la demande.\nM. Durand évoque la fonction coupe-feu. La surface paraît toutefois ne pas\nc o r r e s p o n d r e \nà \nc e t t e \nidée.\nM. Eric Olivier affirme qu'on peut récolter de l'herbe sur le terrain de Cazelles au\nprintemps.\nLe Conseil demande globalement à avoir plus de précisions sur l'éventuelle utilisation des\nparcelles en question et certains conseillers demandent à avoir le temps d'aller voir sur\nplace.\nM. Ricard fait remarquer qu’avant l’achat du terrain Azéma, M. Durand assurait son\nentretien.\nAVEC\nAprès la création du Centre socio-culturel d'Alzonne, les responsables de l'Association\nAgir et Vivre entre Écluses et Capitelles, qui gère ce centre, demandent à rencontrer le\nConseil \nmunicipal \npour \nprésenter \nleur \nstructure \net \nses \nobjectifs.\nUne date sera fixée prochainement.\nPiscine\nPlusieurs conseillers ont demandé qu'un point soit fait sur la piscine.\nM. Delpérier donne lecture d'un fax de Maître Cirera en date du 16 février 2007.\nL'avocat fait état de sa défense de la Commune de Montolieu dans une demande de\nprovision présentée par une société d'affacturage.\nL'avocat dit joindre à son fax la requête adressée au Tribunal administratif pour obtenir\nune expertise judiciaire.\nIl dit joindre aussi copie de la requête d'indemnisation.\n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf#page=8",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Mme Etoré relève que le fax de l'avocat fait état aussi d'une demande de chiffrage des\ntravaux qu'il a réclamée depuis plusieurs semaines, et qui devrait avoir été faite ou doit\nl'être d'urgence.\nMme Pillosio et Mme Etoré insistent pour qu'un chiffrage des travaux soit demandé à un\nexpert, par exemple celui qu'avait envoyé la compagnie d'assurance et qui a donné une\nestimation orale.\nM. Delpérier fait observer que l'expertise coûtera de l'argent. Il évoque la possibilité de\nfaire appel à Melle Serra, architecte. Mme Etoré répète que Melle Serra est architecte du\npatrimoine et non spécialiste de piscine, que le chiffrage dont on a besoin ne doit pas\nêtre grossi pour les besoins de l'action en justice, mais exact, que l'expert qui est déjà\nvenu est le mieux à même de s'en charger.\nM. Ricard dit encore une fois que la piscine aurait pu fonctionner en 2006. M. Le Maire\nlui propose d’aller voir ensemble les dégâts.\nQuant à la pétition remise à M. le Maire, celui-ci se dit lui-même prêt à la signer.\n(L'avocat en demande d'ailleurs copie pour servir sa cause)\nMme Lasserre fait observer que la piscine n'a pu que se dégrader sous la chaleur de l'été\na l o r s \nq u ' e l l e \né t a i t \nvide.\nM. Lauret conteste et affirme qu'elle n'a jamais été vide. Mme Etoré déclare qu'elle n'a en\ntout cas été nettoyée qu'après l'été  et qu'elle n'a pu que se dégrader, ce dont l'expertise\njudiciaire risque de devoir tenir compte.\nM. Ricard précise qu’aucune intervention n’a été réalisée depuis avril 2006 pour éviter\nque de l’eau s’infiltre sous les dalles des bords des plages et que sous l’effet du gel il y a\neu dégradation de celles-ci.\nPolitique de la Communauté de Communes\nQuestions de M. Edouard Ricard\nM. Ricard estime que les représentants de la Commune au sein du Conseil\ncommunautaire sont dans une position difficile, approuvant seuls une politique\ncommunautaire qui lui paraît poursuivre aujourd'hui des projets trop coûteux et dont les\ncoûts initialement prévus ont largement augmenté.\nIl tient donc à solliciter l'avis des Conseillers municipaux sur ces problèmes.\n- Prise en charge de la piscine par la Communauté de Communes\nMme Etoré fait observer que si la communautarisation de la piscine était peut-être\nenvisageable au moment de la fondation de la Communauté de Communes, on peut\ndifficilement espérer qu'elle prenne en charge la piscine dans l'état où elle se trouve\naujourd'hui.\n- Courts de tennis couverts à Ventenac Cabardès\nM. Ricard fait observer que le coût du projet et le poids de charge financière nécessaires\nà ce projet ont augmentés par rapport aux prévisions initiales et que la question se pose\nà nouveau de savoir si on l'approuve.\n- Création d'un jardin médiéval à St Martin le Vieil\nM. Ricard attire l'attention du Conseil sur le fait que la commune de St Martin ne\nsouhaitait pas à l'origine un projet aussi important et que celui qui est prévu aujourd'hui,\nest à un coût qui lui paraît largement excessif.\nDe nombreux conseillers partagent ces réserves.\n- Évolution de l'Association AVEC:\n"
+    },
+    {
+      "page": 9,
+      "page_url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf#page=9",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "  pérennisation de la plupart des emplois des associations d'Alzonne\n  extension des pouvoirs d'AVEC au domaine social et culturel\nMme Etoré fait observer qu'il s'agit là d'un montage pour la pérennisation des postes et\nqu'il serait peut-être souhaitable et habile de tenter de s'y intégrer. Quant à la politique\nculturelle, elle reste à définir.\nM. Delpérier rappelle qu'une séance de présentation de la nouvelle structure d'Alzonne\nest prévue.\n- Dotation cantonale\nM. Ricard prévoyait de rédiger une lettre à l'adresse du Conseiller général, M. Michel\nEscande, au sujet de la dotation cantonale.\nM. Delpérier et M. Ricard rencontreront à ce sujet notre Conseiller Général le lundi 19\nfévrier.\nPour conclure, Monsieur le Maire informe le Conseil qu’il a donné 2 heures de travail en\nplus par semaine à Madame ASENSIO, afin d’assurer la vaisselle du matériel utilisé\npour la livraison des repas, assurée par le C.C.A.S le Samedi.\nL'ordre du jour étant épuisé, la séance est levée à 0h30.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "604f2f5c61a5dfc5add80a12698c74a4f0c39f56cf376621556b546259b7e158",
+      "source_bytes": 105291,
+      "retrieved_at": "2026-10-08T16:18:13+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/a65a917dcfad.json",
+      "diff_from_previous": null
+    }
+  ]
+}

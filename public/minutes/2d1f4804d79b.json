@@ -1,0 +1,114 @@
+{
+  "document_id": "2d1f4804d79b",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM140106.pdf",
+  "source_url": "https://web.archive.org/web/20061123183038/http://www.montolieu.fr/docs/CRCM140106.pdf",
+  "source_sha256": "b341e1482892ae1bc4d64a46e103dda9373a020fe5771ac05bb33dce21b283c7",
+  "source_bytes": 72145,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM140106.pdf",
+    "wayback_timestamp": "20061123183038",
+    "official_copy": "https://web.archive.org/web/20061123183038/http://www.montolieu.fr/docs/CRCM140106.pdf",
+    "mirror_path": "archive/originals/CRCM140106.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM140106.pdf",
+    "date_hint_from_filename": "2006-01-14"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:15:24+00:00",
+  "meeting_date": {
+    "value": "2006-01-14",
+    "source": "text layer, page 1: 'L'an deux mil six et le quatorze Janvier'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 5,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20061123183038/http://www.montolieu.fr/docs/CRCM140106.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L'an deux mil six et le quatorze  Janvier à 09 h 30, le Conseil Municipal dûment\nconvoqué s'est réuni sous la Présidence de Monsieur DELPERIER Max, Maire de Montolieu,\ndans la salle du Conseil.\nEtaient présents :\nLAURET, GOUZVINSKI, ETORÉ, RICARD, PARÉ, LASSERRE D.,\nLASSERRE C., LAPORTE, PILLOSIO, OLIVIER, DRIEUX, DELPERIER, PUJADE.\nEtaient Absents :\nSOULIÉ, SOLÉ.\nSecrétariat de séance : DRIEUX Michel.\nMadame ETORÉ souhaite faire un ajout au procès-verbal du Conseil Municipal du 14\nOctobre 2005 dont voici le contenu :\nExtrait du P.V du 14 Octobre 2005 :\n\"Financement pour des travaux destiné à un handicapé.\nMonsieur DELPERIER fait un historique des travaux réalisés à l'appartement de\nMonsieur PETITPAIN au Hameau des Oliviers.\nPour le financement de ces travaux, Monsieur le Maire propose de créer un nouveau\nprogramme intitulé \"Logement pour handicapé\", et propose d'alimenter ce programme en\nprélevant la somme 6 000 €uros sur le programme \"Construction d'un garage\".\nPOUR :\n13\nCONTRE : \n1 (ETORÉ)\nMadame ETORÉ fait remarquer que le vote demandé au Conseil intervient après la\nréalisation des travaux et que cette pratique n'est pas admissible. Que la décision\nd'aménagement de l'habitation de Monsieur PETITPAIN a été prise sans consultation, ni\ninformation de la commission logement, ni du Conseil. Que les travaux ont occupé les\nemployés communaux pendant plus d'un mois au détriment de l'entretien du village – qui est\nextrêmement sale – et des autres tâches qui leur incombent normalement. Que d'autre\nlocataires de la commune vivent pendant ce temps-là dans des conditions d'insalubrité, et que\ncette situation dure depuis longtemps. Que la somme qu'indique Monsieur le Maire quant au\ncoût des travaux ne couvre que les matériaux et ne tient aucun compte du temps de travail des\nemployés qui a aussi un coût.\nMonsieur DELPERIER précise que le CCAS a souhaité vivement que la commune\nréalise au plus tôt ces aménagements du fait que Monsieur PETITPAIN allait intégrer ce\npavillon début Octobre. Monsieur DELPERIER s'étonne que Madame ETORÉ n'ait pas\ndemandé combien avait coûté le déplacement de 2 employés communaux dans l'Hérault pour\nle compte de l'Association Montolieu Village du Livre.\n(Modification apportée)\nMadame ETORÉ répond qu'il n'y a pas de commune mesure entre 2 journées et\nplusieurs semaines de travaux, et que l'assistance aux différentes associations du village fait\npartie des attributions normales du personnel communal dans toutes les communes.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20061123183038/http://www.montolieu.fr/docs/CRCM140106.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Monsieur le Maire propose de fixer le montant du loyer à 300 €uros. Le Conseil\ndonne son accord à l'unanimité.\"\nAprès ces modifications le compte-rendu du Conseil Municipal du 14 Octobre 2005\nest adopté à l'unanimité.\nDRIEUX Michel est désigné comme Secrétaire de Séance.\nDélibération budgétaires modificatives.\nMonsieur le Maire informe le Conseil que suite à des dépassements sur certains\narticles, il y a lieu de procéder aux modifications budgétaires suivantes.\n60612 Energie Electricité\n - 4 000 €uros\n60632 Petits équipements\n - 3 000 €uros\n022 Dépenses imprévues\n - 1 100 €uros\n6413 Personnels non titulaires\n+ 6 000 €uros\n6451 Cotisations à l'URSSAF\n+ 1 000 €uros\n6611 Intérêts des emprunts\n+ 1 100 €uros\nLe Conseil donne son accord à l'unanimité.\nModification du P.O.S.\nMonsieur DELPERIER rappelle au Conseil que le règlement du Plan d'Occupation en\nvigueur ne permet pas de construire aux terrains AZEMA et CONRADTY.\nLes  services de la D.D.E ont proposé un règlement modifié provisoire dont Monsieur\nDELPERIER donne lecture :\nZONE UC :\nArticle UC 6 – IMPLANTATION DES CONSTRUCTIONS PAR RAPPORT AUX VOIES\nET EMPRISES PUBLIQUES.\nLa distance est ramenée de 4 mètres à 3 mètres. Les autres dispositions restent en\nvigueur.\nLe Conseil donne son accord à l'unanimité.\nArticle UC 10 – HAUTEUR MAXIMUM DES CONSTRUCTIONS.\nLa hauteur maximale des constructions est ramenée à 6,70 mètres du sol existant\njusqu'à l'égout de toiture contre 8 mètres du sol existant jusqu'au sommet du bâtiment.\nLe Conseil donne son accord à l'unanimité.\nArticle UC 11 – ASPECT EXTÉRIEUR.\nLes toitures-terrasses sont supprimées. Les autres dispositions restent en vigueur.\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20061123183038/http://www.montolieu.fr/docs/CRCM140106.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "CONTRE la suppression des toitures-terrasses : 3 (RICARD, DRIEUX, LAURET).\nPOUR la suppression des toitures-terrasses : 10\nArticle UC 12 – STATIONNEMENT.\nDans le cas d'opération d'aménagement (lotissement-groupe d'habitations) :\nTrois places de stationnement pour deux lots doivent être aménagées dont une au\nmoins sur le domaine public contre une place de stationnement par logement et par lot et une\nplace de stationnement public pour deux lots. Les autres dispositions restent en vigueur.\nLe Conseil donne son accord à l'unanimité.\nZONE N.A :\nArticle NA 6 – IMPLANTATION DES CONSTRUCTIONS PAR RAPPORT AUX VOIES\nET EMPRISES PUBLIQUES.\nLa distance est ramenée de 4 mètres à 3 mètres. Les autres dispositions restent en\nvigueur.\nLe Conseil donne son accord à l'unanimité.\nArticle NA 11 – ASPECT EXTÉRIEUR.\nLa prescription sur la hauteur des clôtures ne s'applique plus à l'intérieur des\nlotissements ou groupes d'habitations aux murs de soutènement et clôtures réalisés par\nl'opérateur. Dans ce dernier cas, la hauteur sera définie au programme des travaux.\nLe Conseil donne son accord à l'unanimité.\nArticle NA 12 – STATIONNEMENT\nDans le cas d'opération d'aménagement (lotissement-groupe d'habitations) :\nTrois places de stationnement pour deux lots doivent être aménagées dont une au\nmoins sur le domaine public contre une place de stationnement par logement et par lot et une\nplace de stationnement public pour deux lots. Les autres dispositions restent en vigueur.\nIl est également supprimé l'emplacement réservé ER1 destiné à recevoir\nl'aménagement d'un parking puisque désormais propriété communale. Les places de parking\nprévues initialement sur cet emplacement réservé seront intégrées aux projets de lotissements\nqui compteront un nombre de places supérieurs aux besoins propres de celui-ci.\nLe Conseil donne son accord à l'unanimité pour ces nouvelles dispositions. Ces\nmodifications seront soumises à enquête publique.\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20061123183038/http://www.montolieu.fr/docs/CRCM140106.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Monsieur RICARD précise que les constructions nouvelles avec des hauteurs\nexcessives risquent de cacher la vue à certains riverains. Monsieur LAURET est du même\navis.\nMadame ETORÉ rappelle à Monsieur RICARD que des études sont en cours,\nZ.P.P.A.U.P. notamment, et qu'il n'y a pas lieu de revenir en arrière. Monsieur RICARD\nrépond que le Conseil est souverain et qu'il n'est pas obligé d'approuver les études réalisées.\nModification  des statuts de la Communauté de Communes.\nMonsieur DELPERIER informe le Conseil que le Contrat Educatif Local est\ndésormais géré par l'intercommunalité.\nMonsieur DELPERIER donne lecture de la délibération du Conseil Communautaire du\n21 Décembre 2005 relative à la modification des statuts de la Communauté de Communes,\nafin d'intégrer aux compétences le Contrat Educatif Local.\nLe Conseil donne son accord à l'unanimité.\nMonsieur DELPERIER rappelle que les tarifs du CLSH à Alzonne sont élevés\n(environ 16€/jour). Il précise qu'avec Michel ESCANDE, Maire de MOUSSOULENS, ils ont\nopté pour garder le CLSH à MOUSSOULENS pour 1€/jour.\nSelon Madame GOUZVINSKI, il y a une amélioration au niveau des services et\nanimations enfants/adolescents, sur l'intercommunalité.\nMonsieur RICARD regrette qu'un certain nombre de questions soient débattues à la\nCommunauté de Communes sans que la Commune en soit avertie.\nTravaux 2006.\nMonsieur DELPERIER informe le Conseil que dans le cadre du l'aménagement du\nterrain AZEMA en lotissement et la mise en place d'une borne incendie afin de sécuriser le\nsecteur, il y a lieu d'augmenter le diamètre (section 140) de la canalisation d'eau du réservoir\ndu Petit Paradis. Le chiffrage des travaux a été effectué par la SADE et s'élève à 46 800 €\nH.T.\nLe Conseil donne son accord à l'unanimité et décide de demander une subvention à\nl'Etat et au Conseil Général pour financer ces travaux.\nChoix des entreprises travaux Hameau des Oliviers.\nMonsieur DELPERIER donne lecture des résultats de l'ouverture des plis en date du\n19 Décembre 2005 concernant les appels d'offres pour les travaux des menuiseries.\nEntreprises retenues :\nMenuiserie :\nMiroiterie LABEUR pour un montant de 23 887,00 € H.T.\nFaçades :\nRAVALEMENT 2000 pour un montant de 21 500,97 € H.T.\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20061123183038/http://www.montolieu.fr/docs/CRCM140106.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Le Conseil approuve le choix de ces entreprises.\nNatura 2000.\nCette charte à pour objet de protéger les bords de l'Alzeau car trois espèces de\npoissons sont en voie de disparition.\nMonsieur OLIVIER précise que ces dispositions ne sont pas précises et qu'un vote ne\npeut être très objectif.\nLe Conseil de prononce comme suit :\nCONTRE : \n7 (OLIVIER, LASSERRE Claude, RICARD, DELPERIER, LAURET,\nPUJADE, DRIEUX).\nABST : \n4 (GOUZVINSKI, PILLOSIO, PARÉ, LAPORTE).\nPOUR : \n2 (LASSERRE Danièle, ETORÉ).\nMatériel de cuisson foyer.\nMonsieur DELPERIER informe le Conseil que le Collège de CAP BRETON a offert\nun piano de cuisson et une friteuse pour équiper le Foyer Jean GUEHENNO.\nLe Conseil décide d'attribuer la somme de 150 €uros au Foyer Social Educatif de cet\nétablissement la somme de 150 €uros en remerciement.\nBuvette terrain de foot.\nMonsieur le Maire informe le Conseil que l'auteur du vol de la buvette du Stade a été\ncondamné par la Justice.\nLa buvette sera reconstruire en matériaux de construction durs et repose de l'ancienne\ntoiture.\nL'ordre du jour étant épuisé, la séance est levée à 11 h 15.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "b341e1482892ae1bc4d64a46e103dda9373a020fe5771ac05bb33dce21b283c7",
+      "source_bytes": 72145,
+      "retrieved_at": "2026-10-08T16:15:24+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/2d1f4804d79b.json",
+      "diff_from_previous": null
+    }
+  ]
+}

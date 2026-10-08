@@ -1,0 +1,96 @@
+{
+  "document_id": "072dbe5175d1",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM250605.pdf",
+  "source_url": "https://web.archive.org/web/20061123182917/http://www.montolieu.fr/docs/CRCM250605.pdf",
+  "source_sha256": "a734f95cd412020498e3ae5ba058d801bb80d54236316854ccb3f2de9e16895b",
+  "source_bytes": 49038,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM250605.pdf",
+    "wayback_timestamp": "20061123182917",
+    "official_copy": "https://web.archive.org/web/20061123182917/http://www.montolieu.fr/docs/CRCM250605.pdf",
+    "mirror_path": "archive/originals/CRCM250605.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM250605.pdf",
+    "date_hint_from_filename": "2005-06-25"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:20:13+00:00",
+  "meeting_date": {
+    "value": "2005-06-25",
+    "source": "text layer, page 1: 'L'an deux mil cinq et le vingt cinq Juin'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 3,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20061123182917/http://www.montolieu.fr/docs/CRCM250605.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L'an deux mil cinq et le vingt cinq Juin à 10 h 00, le Conseil Municipal dûment, s'est\nréuni sous la Présidence de Monsieur DELPERIER Max, Maire de MONTOLIEU, dans la\nsalle du Conseil.\nEtaient présents : LAURET, OLIVIER, DELPERIER, DRIEUX, ETORÉ, SOULIÉ,\nRICARD, PARÉ, PILLOSIO.\nEtaient absents : GOUZVINSKI procuration à DRIEUX, PUJADE procuration à\nLAURET, LAPORTE procuration DELPERIER, LASSERRE D. procuration à ETORÉ,\nLASSERRE C. procuration à PARÉ.\nMonsieur DRIEUX Michel est désigné comme secrétaire de séance.\nLe compte-rendu du Conseil Municipal du 22 Avril 2005 est adopté à l'unanimité\naprès rectification sur demande Madame ETORÉ, concernant les termes \"étrangers\" pour la\nlocation du Foyer, à remplacer par les termes \"personnes étrangères à la Commune\" – ensuite\npréciser que le Conseil décide de la validité de l'abonnement et du ticket d'entrée pour la\njournée à la piscine municipale.\nOn passe ensuite à l'ordre du jour.\nZ.P.P.A.U.P.\nMonsieur le Maire informe le Conseil des réunions de travail de la mise en forme par\nl'Agence URBANE des enjeux définis dans le cadre de la mise en place de la Z.P.P.A.U.P. sur\nlesquels le Conseil doit de prononcer.\nLes enjeux sont les suivants :\nLes enjeux de paysage :\n1 – Grand paysage : le village dans son site.\n2 – Saint-Roch, son site, le dialogue avec la ville.\n3 – La Dure ses usines, ses moulins.\n4 – Ville, ville basse, la valeur des jardins et des espaces non bâtis.\n5 – Les ouvrages qui structurent la ville dans son site.\nLes enjeux urbains :\n6 – Les édifices qui qualifient la ville et la structurent.\n7 – La forme urbaine résultat d'une histoire et d'un site contraint.\nLes enjeux architecturaux :\n8 – L'art de bâtir et l'architecture.\nMonsieur le Maire propose au Conseil de valider ces propositions :\nLAURET, PUJADE : Contre.\nOLIVIER, DRIEUX : Abstention.\nLe reste du Conseil (10 Pour) donne son accord pour les enjeux définis ci-dessus.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20061123182917/http://www.montolieu.fr/docs/CRCM250605.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Commission de contrôle et suivi des travaux d'urbanisme.\nMonsieur le Maire informe le Conseil de la possibilité de créer une commission\ncomprenant des élus et des tiers, pour le contrôle et le suivi concernant les dossiers de\ndemande en amont de travaux d'urbanisme, déposés par des particuliers pour des travaux\nextérieurs, et sur tout le territoire de la Commune. Cette commission donnerait au Maire son\navis, des indications, des recommandations et non des prescriptions. Monsieur le Maire\nprécise que les services de la D.D.E. et de l'A.B.F. restent prioritairement consultés.\nMonsieur le Maire demande qui se porte candidat pour la constitution de cette\ncommission. Mesdames LASSERRE, ETORÉ, PILLOSIO, Messieurs DELPERIER,\nDRIEUX, OLIVIER se portent candidats. Le Conseil donne son accord pour la constitution de\ncette commission portée à 6 membres.\nUne réunion sera prévue pour entériner la validité des propositions de cette\ncommission.\nMonsieur OLIVIER Eric fait cependant par de ses craintes concernant une\nréglementation trop stricte qui risque de découler de la mise en application du règlement de la\nZ.P.P.A.U.P. et du fonctionnement de la Commission de contrôle, qui pourrait empêcher les\npétitionnaires d'effectuer des travaux par exemple d'ouverture pour éclairer l'intérieur de leur\nhabitation, provoquer la difficulté d'obtenir un permis de construire au nom du respect des\ncônes de vision énoncés dans les enjeux patrimoniaux.\nMonsieur RICARD Tient à exprimer son opposition à ce que les cônes de vision\nempêchent les pétitionnaires ou de construire ou d'aménager.\nMonsieur PARÉ Sylvain précise qu'il n'y a pas lieu d'exclure un dialogue de proximité\navec Monsieur l'Architecte des Bâtiments de France, pour tout travaux concernant\nl'amélioration de l'habitat (ouvertures, terrasses etc.).\nParticipation des particuliers aux travaux de voirie et réseaux.\nMonsieur le Maire informe le Conseil qu'il y a lieu de définir pour chaque demande de\npermis de construire le taux de participation du pétitionnaire, pouvant aller de 0 à 100 %, pour\nle financement de tous les travaux de voirie et réseaux.\nLe Conseil donne son accord à l'unanimité.\nDevis entretien de la voirie.\nMonsieur le Maire présente au Conseil un devis d'un montant de 17000 €uros\nconcernant la réfection de voirie de divers chemins communaux (Le Poulou, Hameau de\nFranc, les ateliers communaux, la Porcherie, les Brétous, Avenue du Mail, Arzens, Avenue\nSaint-Martin).\nLe Conseil donne son accord sauf Madame ETORÉ qui s'abstient.\nAdhésion commune de Preixan au Syndicat des Eaux.\nMonsieur le Maire informe le Conseil de la demande de la Commune de Preixan pour\nadhérer au Syndicat des Eaux.\nLe Conseil donne son accord à l'unanimité.\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20061123182917/http://www.montolieu.fr/docs/CRCM250605.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Questions diverses.\nMonsieur le Maire informe le Conseil d'une éventuelle installation d'une boucherie,\naffaire à suivre.\nMonsieur PARÉ demande que dans le cadre de l'utilisation du Foyer pour les cours\nd'aïkido qu'il donne gratuitement, il y ait plus de filtrage au niveau de la réservation du Foyer,\nobligeant parfois son association à ranger inutilement les tapis. Il demande également ma\npossibilité de faire de la publicité au niveau de l'intercommunalité.\nMadame ETORÉ demande au Maire d'étudier la possibilité de stocker du matériel\nd'imprimerie donné à l'Association \"Montolieu, Village du Livre\" pour le Musée. Elle\ndemande à nouveau l'intérêt artistique des manifestations autour de la cabine téléphonique,\nqui par ailleurs ne marche pas ?\nMonsieur RICARD informe le Conseil que le 1er bulletin de la Communauté de\nCommunes va être édité. Il informe de la décision de jumelage de la Communauté de\nCommunes avec la Commune Italienne de Montefalco. Il précise également que le projet de\ncourt de tennis couvert à Ventenac-Cabardès a été voté.\nL'information est donnée sur la fermeture du Syndicat d'Initiative de Saissac.\nL'ordre du jour étant épuisé la séance est levée à 12 h 30.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "a734f95cd412020498e3ae5ba058d801bb80d54236316854ccb3f2de9e16895b",
+      "source_bytes": 49038,
+      "retrieved_at": "2026-10-08T16:20:13+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/072dbe5175d1.json",
+      "diff_from_previous": null
+    }
+  ]
+}

@@ -28,4 +28,4 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 - [ ] “A l’occasion du vote du budget, le conseil peut autoriser le maire à procéder à des mouvements de crédit de chapitre à chapitre pour l’exercice auquel il se rapporte.”
 - [ ] “Le conseil vote le budget général par 11 voix pour et 3 voix contre Le conseil autorise le maire à procéder à des mouvements de crédit de chapitre à chapitre pour l’exercice auquel il se rapporte dans la limite de 7.5 % du budget primitif consolidé des décisio”
 
-_Later mentions: the issue comes back on 2025-09-25, 2026-04-01, 2026-06-05, 2026-07-22_
+_Later mentions: no later mention found in the 14 meeting(s) that followed (heuristic: it may continue under another title)_

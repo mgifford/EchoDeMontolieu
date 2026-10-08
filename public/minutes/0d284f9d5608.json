@@ -1,0 +1,114 @@
+{
+  "document_id": "0d284f9d5608",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM161004.pdf",
+  "source_url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf",
+  "source_sha256": "a7f0b1bc5d211d004e4c02c685ed69d4b2b514cbee3c1461eea34554bd1543fb",
+  "source_bytes": 145169,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM161004.pdf",
+    "wayback_timestamp": "20041225055244",
+    "official_copy": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf",
+    "mirror_path": "archive/originals/CRCM161004.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM161004.pdf",
+    "date_hint_from_filename": "2004-10-16"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:16:01+00:00",
+  "meeting_date": {
+    "value": "2004-10-16",
+    "source": "text layer, page 1: 'L’an deux mil quatre et le seize Octobre'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 5,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’an deux mil quatre et le seize Octobre à 10 H 00, le Conseil Municipal dûment\nconvoqué, s’est réuni sous la Présidence de Monsieur DELPERIER Max, Maire de\nMontolieu, dans la salle du Conseil.\nEtaient Présents : ETORE, LASSERRE D., PUJADE, DELPERIER,\nDRIEUX, LASSERRE C., LAURET, OLIVIER, PARE, RICARD.\nEtaient Absents : \nCHOTARD\nGOUZVINSKI procuration à DELPERIER\nSOULIE procuration à ETORE\nLAPORTE procuration à DRIEUX\nSOLE\nMonsieur LAURET se propose d'assurer le secrétariat de séance avec Fabien\nPUJADE.\nAchat terrain de Monsieur CONRADTY Claudio.\nMonsieur le Maire informe le Conseil que Monsieur CONRADTY Claudio souhaite\nvendre à la commune la parcelle cadastrée section AB n°204 d'une contenance de 5 575 m2.\nLes services fiscaux ont évalué ce terrain à 72 500 € soit 13 €/m2 (évaluation officieuse).\nMonsieur le Maire propose au Conseil d'acheter une majeure partie de cette parcelle –\nMonsieur CONRADTY souhaitant en conserver pour la maison dont il est propriétaire Côte\nd'Escudié – car la commune ne possède pas de réserve foncière au centre du village. Les\nMédecins et la Pharmacienne seront informés de l'achat de cette parcelle.\nLe Conseil donne son accord à l'unanimité pour l'achat de ce terrain à 13€/m2 après\nque le bornage définitif aura été effectué par un Géomètre Expert.\nAchat terrain  à Mademoiselle BOUYSSOU (support relais télévision et téléphone).\nTDF souhaite agrandir le relais télévision et téléphonie de Monpertus. La parcelle\nactuelle étant trop exiguë, TDF souhaite installer un nouveau pylône sur une parcelle proche.\nMonsieur CAUSSE Gérard propose d'échanger un morceau de parcelle attenante à celle du\nrelais à condition que la Commune lui rétrocède les chemins communaux traversant sa\npropriété sur le plateau de Monpertus.\nLe Conseil est CONTRE la proposition de Monsieur CAUSSE à l'unanimité.\nMademoiselle BOUYSSOU propose de vendre un morceau de la parcelle cadastrée\nsection E n°100 pour une contenance de 150 m2 à 300 €. La construction d'un nouveau relais\net le déplacement de l'actuel seront à la charge de TDF.\nLe Conseil donne son accord à l'unanimité pour l'achat d'une parcelle de 150 m2 à\nMademoiselle BOUYSSOU.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Demande d'achat de terrain communal.\nMonsieur PECH Frédéric souhaite acquérir la parcelle section F n°96 - propriété\ncommunale - d'une contenance de 3 910 m2 située dans une zone non-constructible. Monsieur\nLASSERRE rappelle que les précédents Conseils Municipaux ont été hostiles à la vente de\nparcelle communale. Après discussion, le Conseil Municipal, à l'unanimité, décide de vendre\nà Monsieur PECH Frédéric ladite parcelle pour la somme de 2 000 €. Une enquête publique\nest nécessaire pour conclure cette vente.\nOccupation d'espaces communaux.\nLa SARL Barthès-Agasse a déposé une Déclaration de Travaux afin de réhabiliter le\nmur de clôture de sa terrasse, Place Maurice Bertrand. Il s'avère que cette terrasse a été édifiée\nil y a très longtemps, sur le domaine communal. De ce fait, Monsieur le Maire informe le\nConseil qu'il a émis un avis défavorable à la requête de la SARL Barthès-Agasse.\nIl est rappelé que d'autres structures ont été édifiées sur le domaine communal, sur la\nmême place, ou pour des devantures de commerces. Dernièrement, le Conseil avait donné son\naccord au restaurateur du \"Marque-Page\" pour installer une terrasse amovible devant son\ncommerce, sur le domaine communal.\nMonsieur le Maire demande au Conseil de se prononcer sur la demande de la SARL\nBarthès-Agasse.\nMonsieur DELPERIER ne souhaite pas participer au vote.\nLe Conseil décide d'autoriser la SARL Barthès-Agasse à restaurer la terrasse existante.\nDans tous les cas, il est rappelé que la commune reste propriétaire de ces espaces.\nSurtaxe eau.\nLe Conseil après avoir pris connaissance du courrier traitant de ce sujet, que lui a\nenvoyé le Président du Syndicat Sud-Oriental des Eaux de la Montagne Noire, décide de ne\npas donner suite à la demande de la C.G.E SADE.\nLe Conseil demande au fermier (SADE) de procéder à un entretien plus poussé du\nréseau communal de façon à limiter les pertes d'eau.\nTravaux de voirie.\nMonsieur le Maire informe le Conseil que des travaux de voirie vont devoir être\nréalisés notamment dans la partie basse de la rue de la Mairie, suite aux inondations des\nhabitations lors des dernières fortes pluies. Selon une estimation de la DDE, le montant de ces\ntravaux s'élèveraient à environ 15 000 €.\nAutres travaux, le mur de soutènement du Chemin de la Fonderie menace de\ns'effondrer. Le chiffrage des travaux est estimé entre 20 000 et 25 000 €.\nIl est prévu également, la réfection du bitume de l'Avenue du Mail.\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Enquête publique sur le projet éolien de Saint-Denis.\nL'enquête publique préalable au dépôt d'un permis de construire pour l'implantation de\n5 éoliennes sur la commune de Saint-Denis débutera le 18 Octobre et s'achèvera le 22\nNovembre 2004.\nMonsieur le Maire demande au Conseil d'émettre un avis sur ce projet.\nPOUR le projet de Saint-Denis : 3 (DRIEUX, LAURET, OLIVIER).\nCONTRE le projet de Saint-Denis : 10.\nComme pour le projet de la Commune de Fraïsse-Cabardès, le Conseil municipal, dans\nsa majorité, émet un avis défavorable sur le projet d'implantation de 5 éoliennes sur la\nCommune de Saint-Denis. Un courrier sera rédigé et adressé à Monsieur le Préfet de l'Aude.\nContenu de la lettre transmise à Monsieur le Préfet de l'Aude :\n\"Monsieur le Préfet,\nAlors qu'ils pensaient le projet abandonné, les Montolivains ont\nappris que les démarches pour la création d'une ferme éolienne sur Saint-Denis, étaient\nrelancées.\nAussi, le Conseil Municipal, dans sa séance du 16 Octobre\ndernier, a manifesté par 10 voix contre et 3 pour, son opposition à ce projet.\nEn effet, outre l'aspect financier de l'opération qui lui paraît\ncontestable, le Conseil Municipal rappelle :\n- \nQue Montolieu est dans une démarche de création d'une\nZ.P.P.A.U.P financée par l'Etat ;\n- \nque la commune et de nombreux acteurs (associations,\nprivés, Communauté de Communes etc.) consacrent des\nefforts considérables au développement du tourisme. Notre\nvillage est devenu le siège de l'Office Intercommunal de\nTourisme dont les travaux d'aménagement ont été financés\npar l'Etat, l'Europe, la Région et le Département.\nAinsi dans sa démarche - qu'il veut cohérente – de préservation du patrimoine\ncommunal et de développement économique et touristique, le Conseil Municipal de Montolieu\ns'oppose au projet éolien de Saint-Denis, et vous demande, Monsieur le Préfet, d'émettre un\navis défavorable.\nVous remerciant de la suite que vous voudrez bien donner à\nnotre requête, nous vous prions de croire, Monsieur le Préfet, à nos sentiments dévoués et\nrespectueux.\nSigné Max DELPERIER, Maire de MONTOLIEU\"\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Achats cages de foot et photocopieur pour l'école.\nLe Conseil décide d'acheter une paire de cages de foot rabattables pour la somme de\n1 377,19 € TTC.\nMonsieur ICHER, Directeur d'Ecole, a fait passer plusieurs propositions pour l'achat\nd'un nouveau photocopieur. Le Conseil retient la proposition de la Société SOFEB pour un\nmontant de 2 350 € TTC.\nLes sommes permettant de financer ces achats seront prélevées sur le chapitre\nDépenses Imprévues de la Section d'Investissement du Budget M14.\nPoint sur la Z.P.P.A.U.P, Plan Local d'Urbanisme, projet de lotissement, autres\naménagements.\nZ.P.P.A.U.P\nMadame ROI de l'agence URBANE organisera une réunion de travail le Mardi 19\nOctobre à 10 h 00, où seront conviés les membres de la commission Z.P.P.A.U.P. A l'ordre du\njour de cette réunion :\n- \nDepuis les abords du village, analyser le paysage produit, faire le lien avec les étapes\nde développement de la ville au cours de l'histoire pour désigner ce qui fait patrimoine\net qui est emblématique pour Montolieu.\n- \nFaire le point sur le travail en cours.\n- \nOrganiser la suite du travail et les prochains rendez-vous.\nPlan Local d'Urbanisme.\nLe travail du cabinet ECEP suit son cours.\nProjet de Lotissement.\nSelon Monsieur MELON, A.B.F, et Mademoiselle SERRA en charge de l'étude pour\nl'aménagement du futur lotissement au terrain AZEMA, les constructions libres pourraient\nêtre autorisées à condition d'élaborer un cahier des charges rigoureux.\nAménagement de la Place du Foirail.\nMademoiselle SERRA collaborera avec le C.A.U.E à l'aménagement de la Place du\nFoirail.\nEclairage parking route de Saint-Denis.\nLes candélabres vont être installés par les employés communaux.\nTravaux logements sociaux.\nLes mises en conformité électrique des logements sociaux vont être bientôt terminé.\n \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Logements sociaux école maternelle.\nMonsieur le Maire a rencontré Monsieur MELON au sujet de l'aménagement des\nappartements au-dessus de l'école maternelle. Ce dernier suggère de créer un accès commun\npar une cage d'escalier intérieure. Monsieur LAVAIL, Architecte, préparera un projet en ce\nsens et Monsieur l'A.B.F donnera son avis quand Monsieur LAVAIL lui aura présenté ses\nnouvelles esquises.\nMaison GAULTIER.\nDu travail de rénovation intérieure a été fait par les employés communaux. La peinture\nva être refaite rapidement (intérieur et extérieur). La façade est dans un état délabré. Une\nréfection sera peut-être envisagée.\nPiscine Municipale.\nMonsieur le Maire à contacté Monsieur GUILBERT de la Société AQUATECH pour\nlui signifiés que des travaux de finitions sont à terminer.\nCompte tenu de l'heure avancée, la séance est levée à 12 h 45. Les questions diverses\nnon traitées, le seront lors d'un prochain Conseil Municipal.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "a7f0b1bc5d211d004e4c02c685ed69d4b2b514cbee3c1461eea34554bd1543fb",
+      "source_bytes": 145169,
+      "retrieved_at": "2026-10-08T16:16:01+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/0d284f9d5608.json",
+      "diff_from_previous": null
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "document_id": "542e3aac5fcd",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20060304.pdf",
+  "source_url": "https://web.archive.org/web/20071012134440/http://www.montolieu.fr/docs/CRCM%2020060304.pdf",
+  "source_sha256": "4eeb904a81fa0d952b5d22b6746e0a34852da3adbdae0c04e0af4b797a9031ab",
+  "source_bytes": 111013,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020060304.pdf",
+    "wayback_timestamp": "20071012134440",
+    "official_copy": "https://web.archive.org/web/20071012134440/http://www.montolieu.fr/docs/CRCM%2020060304.pdf",
+    "mirror_path": "archive/originals/CRCM20060304.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20060304.pdf",
+    "date_hint_from_filename": "2006-03-04"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:16:37+00:00",
+  "meeting_date": {
+    "value": "2006-04-22",
+    "source": "text layer, page 1: 'L'an deux mil six et le vingt deux Avril'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 6,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20071012134440/http://www.montolieu.fr/docs/CRCM%2020060304.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L'an deux mil six et le vingt deux Avril à 10 h 00, le Conseil Municipal dûment\nconvoqué s'est réuni sous la Présidence de Monsieur DELPERIER Max, Maire de Montolieu,\ndans la salle du Conseil.\nEtaient présents :\nPUJADE, LAURET, OLIVIER, RICARD, LASSERRE D., PARÉ,\nETORÉ, DRIEUX, DELPERIER, CHOTARD.\nEtaient Absents :\nLASSERRE C. (procuration à LASSERRE D.)\nLAPORTE (procuration à LAURET)\nGOUZVINSKI (procuration à OLIVIER)\nSOULIÉ\nSOLÉ.\nSecrétariat de séance : DRIEUX.\nMadame ETORÉ souhaite apporter les modifications suivantes au procès-verbal du\nConseil Municipal du 14 Janvier 2006 :\nExtrait du P.V du 14 Janvier 2006 :\nModification du P.O.S.\nArticle UC 11 – ASPECT EXTÉRIEUR.\nLes toitures-terrasses sont supprimées. Les autres dispositions restent en vigueur.\nCONTRE la suppression des toitures-terrasses : 3 (RICARD, DRIEUX, LAURET).\nPOUR la suppression des toitures-terrasses : 10\nModification apportée :\n\"Il ne s'agit pas de suppression des toitures-terrasses, mais de leur interdiction. Les\ntoitures-terrasses sont interdites.\nCONTRE leur interdiction : 3 (Ricard, Drieux, Lauret)\nPOUR leur interdiction : 10\"\n……../\nMonsieur RICARD précise que les constructions nouvelles avec des hauteurs\nexcessives risquent de cacher la vue à certains riverains. Monsieur LAURET est du même\navis.\nAdditif au P.V :\n\"Madame ETORÉ rappelle à Monsieur RICARD que ce plan a fait l'objet d'une\nréunion organisée tout spécialement il y a déjà près d'un an au Service départemental de\nL'Architecture à laquelle participaient Monsieur le Maire, plusieurs conseillers, l'ABF et\ndeux chargés d'études.\"\n……../\nNatura 2000.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20071012134440/http://www.montolieu.fr/docs/CRCM%2020060304.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Cette charte à pour objet de protéger les bords de l'Alzeau car trois espèces de\npoissons sont en voie de disparition.\nMonsieur OLIVIER précise que ces dispositions ne sont pas précises et qu'un vote ne\npeut être très objectif.\nAdditif au P.V.\n\"Mme ETORÉ fait observer que le projet Natura 2000 ne lui semble pas à négliger,\nqu'il s'inscrit dans le cadre de préoccupations d'actualité en ce qui concerne la faune, la flore\net l'environnement, qu'il peut en outre donner accès à des fonds européens, qu'il n'y a donc\npas lieu, selon elle de s'y opposer.\"\nLe Conseil de prononce comme suit :\nCONTRE : \n7 (OLIVIER, LASSERRE Claude, RICARD, DELPERIER, LAURET,\nPUJADE, DRIEUX).\nABST : \n4 (GOUZVINSKI, PILLOSIO, PARÉ, LAPORTE).\nPOUR : \n2 (LASSERRE Danièle, ETORÉ).\n……../\nMatériel de cuisson foyer.\nMonsieur DELPERIER informe le Conseil que le Collège de CAP BRETON a offert\nun piano de cuisson et une friteuse pour équiper le Foyer Jean GUEHENNO.\nAdditif au P.V :\n\"Mme ETORÉ demande si cet appareil sera bien à la disposition de tous. A quoi\nMonsieur le Maire répond affirmativement.\"\nLe Conseil décide d'attribuer la somme de 150 €uros au Foyer Social Educatif de cet\nétablissement la somme de 150 €uros en remerciement.\n……../\nMonsieur RICARD souhaite apporter les modifications suivantes :\nExtrait du P.V du 14 Janvier 2006 :\nModification du P.O.S :\nAdditif apporté :\n\"A propos du futur lotissement au terrain AZEMA, Monsieur RICARD rappelle au\nConseil qu'il pourrait y avoir des vestiges archéologiques sur cette parcelle et qu'il faut être\ntrès prudent. Il poursuit en indiquant qu'il serait regrettable de commencer les travaux et\nensuite de les arrêter suite à la découverte de vestiges.  Il souhaite que des fouilles soient\nréalisées. Monsieur DELPERIER prendra contact avec le service de l'archéologie de la\nDRAC afin qu'un diagnostic de la parcelle concernée soit réalisé.\"\n……../\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20071012134440/http://www.montolieu.fr/docs/CRCM%2020060304.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Modification  des statuts de la Communauté de Communes.\nMonsieur DELPERIER informe le Conseil que le Contrat Educatif Local est\ndésormais géré par l'intercommunalité.\nMonsieur DELPERIER donne lecture de la délibération du Conseil Communautaire du\n21 Décembre 2005 relative à la modification des statuts de la Communauté de Communes,\nafin d'intégrer aux compétences le Contrat Educatif Local.\nLe Conseil donne son accord à l'unanimité.\nMonsieur DELPERIER rappelle que les tarifs du CLSH à Alzonne sont élevés\n(environ 16€/jour). Il précise qu'avec Michel ESCANDE, Maire de MOUSSOULENS, ils ont\nopté pour garder le CLSH à MOUSSOULENS pour 1€/jour.\nSelon Madame GOUZVINSKI, il y a une amélioration au niveau des services et\nanimations enfants/adolescents, sur l'intercommunalité.\nModification apportée :\n\"Messieurs RICARD et DELPERIER regrettent qu'un certain nombre de questions\nsoient débattues à la Communauté de Communes sans que la Commune en soit avertie.\"\n……../\nAprès ces modifications le procès-verbal du Conseil Municipal est adopté à\nl'unanimité et l'on peut passer à l'ordre du jour.\nInstauration de la Taxe Locale D'Equipement et participation pour le raccordement à\nl'égout.\nMonsieur DELPERIER donne lecture du texte de Loi sur la Taxe Locale d'Equipement\net son champ d'application.\nC'est la délivrance du permis de construire ou de la déclaration de travaux qui entraîne\nle paiement de cette taxe. Elle est calculée sur la valeur de l'ensemble immobilier (terrain et\nbâtiment) à construire.\nL'assiette de la taxe est déterminée en multipliant la surface hors œuvre nette par une\nvaleur forfaitaire dont le montant varie selon la catégorie de la construction (habitation, local\nagricole, maison individuelle ou collective…).\nA ce chiffre est appliqué un taux normalement de 1%, mais le Conseil Municipal peut\nle fixer jusqu'à 5% par délibération.\nLes taxes sont perçues par les services de l'Etat et reversées dans leur intégralité à la\nCommune.\nCes crédits peuvent permettent de réaliser les travaux de raccordement aux réseaux\naux divers pétitionnaires.\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20071012134440/http://www.montolieu.fr/docs/CRCM%2020060304.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Il est rappelé qu'il existe déjà deux taxes lors de la délivrance du permis de construire.\nLa taxe pour les espaces verts sensibles et la taxe au CAUE 11. Une taxe forfaitaire de 450\n€uros est également applicable pour un nouveau raccordement au réseau d'assainissement\ncollectif.\nAprès avoir énuméré ce qui pouvait être pratiqué comme taux de taxation pour les\ncommunes voisines, à savoir 2% en moyenne, Monsieur DELPERIER propose au Conseil de\nfixer le taux de cette taxe à 1,50% et de l'instaurer à compter du 01 Avril 2006.\nLe Conseil se prononce comme suit :\nPOUR : \n12\nABSTENTION :\n1 (PARÉ)\nCONTRE :\n1 (ETORÉ)\nLa taxe pour le raccordement au réseau d'assainissement est maintenue pour un\nmontant forfaitaire de 450 €uros, pour un nouveau raccordement.\nExtension du cimetière.\nLa partie Nord du cimetière arrive à saturation (côté caveaux).\nLe Conseil décide de rajouter une travée de caveaux sur la partie gauche du nouveau\ncimetière (le long du mur d'enceinte) en attendant une extension plus importante. Monsieur\nRICARD propose d'étendre le Cimetière sur le parking situé au Nord. Cette solution semble\nêtre la mieux adaptée.\nPar ailleurs Madame ETORÉ regrette que le portail du Cimetière ne soit pas mieux\nentretenu.\nIl est également décidé de prendre contact avec plusieurs entreprise pour l'édification\nd'un columbarium de 10 à 15 places.\nCession d'un chemin à la commune (Malportel).\n Monsieur et Madame PROBST Harald souhaitent faire cession à la commune du\nchemin privé menant à leur propriété par le Sud. Cette demande est motivée par le fait que le\ncamion de collecte des ordures ménagères emprunte ce chemin ainsi que les services de la\nPoste.\nEtant donné que cela serait une charge supplémentaire pour la Commune (entretien,\nfrais de goudronnage etc.), le Conseil Municipal décide à l'unanimité, de ne pas donner une\nsuite favorable à la requête de Monsieur et Madame PROBST.\nAfin que le camion de collecte des ordures ménagères n'empruntent plus ce chemin, le\nconteneur pourrait être déplacé à l'entrée de ce chemin, sur le domaine communal.\nAchat d'un point à temps.\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20071012134440/http://www.montolieu.fr/docs/CRCM%2020060304.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " Monsieur le Maire informe le Conseil que 6 communes sont intéressées pour l'achat\nd'un point à temps.\nLe devis s'élève à 19 016,04 €uros T.T.C soit 3 169,34 €uros par commune.\nMonsieur DELPERIER demande au Conseil de prendre un accord de principe sur cet\nachat.\nPOUR : \n12\nABSTENTION :\n1 (PARÉ)\nCONTRE :\n1 (ETORÉ)\nLocation d'un local communal.\n Monsieur DELPERIER propose de louer à Monsieur SIX Claude, Plombier, une\npartie du nouveau garage situé au Sol, pour le stockage de son matériel.\nAprès discussions, le Conseil Municipal décide de fixer le loyer mensuel à 120,00\n€uros.\nDépliant touristique.\nLa Société MINELSEB sise à CARCASSONNE, propose ses services pour\nl'élaboration d'un dépliant touristique.\nMadame ETORÉ précise qu'il reste un stock important de dépliants au Musée et à\nl'Office de Tourisme et ajoute qu'il n'y a pas urgence pour une nouvelle édition.\nLe Conseil décide de prendre un accord de principe pour l'élaboration de ce dépliant.\nLa décision définitive interviendra lors d'un prochain Conseil Municipal.\nP.L.U / Z.P.P.A.U.P.\nMonsieur DELPERIER donne lecture d'une correspondance de Monsieur PARÉ sur la\nZ.P.P.A.U.P. . Après consultation du  projet de l'aménagement du terrain CONRADTY,\nplusieurs remarques sont formulées :\n- \nProblèmes des escaliers qui certes, préservent le calme car pas de circulation, mais\nrisque de difficultés pour aménagements et déménagements.\n- \nL'évacuation des eaux pluviales ne semble pas être bien prise en compte. Des\nbassins collecteurs pourraient remédier à ce problème.\nLe projet est estimé à 230 250 €uros H.T.\nMonsieur DELPERIER demande au Conseil de se prononcer sur ce projet :\nPOUR : \n11\nCONTRE : \n1 (RICARD)\nMonsieur RICARD précise qu'il est contre ce projet tel qu'il est présenté.\n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://web.archive.org/web/20071012134440/http://www.montolieu.fr/docs/CRCM%2020060304.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Monsieur LAURET précise également qu'il y  a des choses à repenser, mais si l'on fait\nmodifier le projet, il risque d'y avoir une perte de temps et il y a déjà du retard.\nMonsieur DELPERIER propose au Conseil de passer convention avec Mademoiselle\nSERRA Caroline, Architecte D.P.L.G, à CARCASSONNE pour l'élaboration de ce\nlotissement. Le montant des honoraires s'élève à 10% du montant H.T. des travaux.\nPOUR :\n11\nCONTRE :\n1 (RICARD)\nLe Conseil autorise Monsieur DELPERIER à signer toutes les pièces afférentes à ce\ndossier.\nMonsieur DELPERIER poursuit en indiquant que des parcelles actuellement sont\nconstructibles et que lorsqu'une demande de permis de construire est déposée, l'Architecte des\nBâtiments de France, rend un refus systématique. Il poursuit en indiquant qu'à ce jour, seul le\nP.O.S. est opposable au tiers et que la Z.P.P.A.U.P. n'est qu'à sa phase d'étude. Monsieur\nDELPERIER rappelle au Conseil que l'Architecte des Bâtiments de France a co-signé le\nP.O.S. actuel, et que maintenant il est contre la constructibilité de certains terrains, ce qui est\ntout de même un paradoxe.\nMonsieur RICARD rappelle que le Conseil Municipal a été élu pour défendre les\nMontolivains et qu'il ne faut pas dégager la Commune de ses responsabilités et laisser ces\nresponsabilités à une seule personne, en l'occurrence l'Architecte des Bâtiments de France.\nMonsieur RICARD poursuit en indiquant au Conseil qu'il est contre la Z.P.P.A.U.P.\nMadame GOUZVINSKI prévient de l'attention à porter sur la démarche de\nZ.P.P.A.U.P. de façon à ce que le prix du m2 ou  de l'accession à la propriété ne flambe pas et\nsoit seulement réservés de ce fait, à une clientèle huppée.\nL'ordre du jour étant épuisé, la séance est levée à 12 h 15.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "4eeb904a81fa0d952b5d22b6746e0a34852da3adbdae0c04e0af4b797a9031ab",
+      "source_bytes": 111013,
+      "retrieved_at": "2026-10-08T16:16:37+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/542e3aac5fcd.json",
+      "diff_from_previous": null
+    }
+  ]
+}

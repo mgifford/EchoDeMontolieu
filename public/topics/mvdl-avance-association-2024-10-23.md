@@ -12,7 +12,7 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 > Machine-generated grouping. Items are linked because they share distinctive words, and the words are shown so you can judge. A grouping can be wrong, and a missing link does not mean there is none. Every entry links to the page of the original PDF.
 
 - **Status:** recurring (5 meetings, 2024-10-23 to 2026-07-22)
-- **Linked by shared words:** mvdl, avance, association, livre
+- **Linked by shared words:** mvdl, avance, association, subvention
 
 ## Timeline
 

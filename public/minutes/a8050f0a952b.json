@@ -1,0 +1,87 @@
+{
+  "document_id": "a8050f0a952b",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20060530.pdf",
+  "source_url": "https://web.archive.org/web/20071012134251/http://www.montolieu.fr/docs/CRCM%2020060530.pdf",
+  "source_sha256": "91294947a251f4db7aec650af23349f0f797ef83b94f3ceec37bd8044129c2c8",
+  "source_bytes": 60487,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020060530.pdf",
+    "wayback_timestamp": "20071012134251",
+    "official_copy": "https://web.archive.org/web/20071012134251/http://www.montolieu.fr/docs/CRCM%2020060530.pdf",
+    "mirror_path": "archive/originals/CRCM20060530.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20060530.pdf",
+    "date_hint_from_filename": "2006-05-30"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:17:12+00:00",
+  "meeting_date": {
+    "value": "2006-05-30",
+    "source": "text layer, page 1: 'L’an deux mil six et le 30 Mai'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 2,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20071012134251/http://www.montolieu.fr/docs/CRCM%2020060530.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’an deux mil six et le 30 Mai à 20 h 30, le Conseil Municipal dûment convoqué, s’est\nréuni sous la présidence de Monsieur DELPERIER Max, Maire de Montolieu, dans la salle du\nConseil.\nEtaient Présents : OLIVIER, GOUZVINSKI, DELPERIER, LASSERRE D.,\nLAURET, RICARD, PARE, ETORE, PUJADE.\nEtaient Absents : SOULIE, SOLE, LAPORTE, GOUZVINSKI procuration à\nPUJADE, DRIEUX procuration à LAURET, PILLOSIO procuration à PARE, LASSERRE C.\nprocuration à LASSERRE D.\nMonsieur LAURET est désigné comme Secrétaire de séance.\nMonsieur le Maire donne lecture du compte-rendu du 05 Mai 2006. Après lecture, ce\ndernier appelle plusieurs observations. Tout d’abord Madame ETORE déclare qu’elle ne\nsignera pas ce compte-rendu dans la mesure où il ne rapporte pas tout ce qui a été dit, ensuite\nparce que Monsieur le Maire a fait voter le budget chapitre par chapitre contrairement aux\nautres années et sans en avertir le Conseil, elle précise qu’elle est contre le budget dans son\nensemble ajoutant que le compte-rendu devrait détailler et expliquer, plutôt que d’énumérer\ndes chiffres.\nMonsieur PARE précise qu’il aurait été souhaitable qu’il y ait eu un peu plus\nd’explications écrites.\nMonsieur OLIVIER rappelle qu’il est impossible de retranscrire tous les propos des\ndébats ce que Monsieur le Maire confirme. Ce dernier prend acte du fait que Madame ETORE\nest contre le budget.\nMonsieur RICARD demande que soit ajouté au prochain compte-rendu les propos\nqu’il a tenus. Monsieur le Maire lui demande d’écrire ce qui doit être rajouté.\n« Intervention de Monsieur RICARD pendant le Conseil Municipal du 05 Mai 2006 :\nArticle 6531 : Indemnités des élus. Vote contre les indemnités des 2ème et 3ème adjoints\npour leur incompétence.\nArticle 6574 : Evolution des subventions insuffisantes envers les associations qui\nparticipent au développement économique du village.\nVote contre les investissements : Bonnes intentions, incapacité à la réalisation depuis 5\nans, vote contre.\nRemarques en fin de P.V :\n- \nLe budget n’a pas été voté dans sa totalité comme les années précédentes. Vote\ncontre, car les remarques précédentes sont rédhibitoires.\n- \nAffaire piscine : Incompétence du maître d’ouvrage délégué pour des travaux qui\nauraient dû être terminés en Octobre 2005 ».\nTravaux piscine.\nMonsieur le Maire informe le Conseil des problèmes importants afférents à la piscine\nmunicipale et rappelle qu’en l’état, on ne peut l’ouvrir au public. Dans le cas d’une procédure\njudiciaire, il serait nécessaire de prendre un Avocat.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20071012134251/http://www.montolieu.fr/docs/CRCM%2020060530.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Madame GOUZVINSKI quitte la séance à 21 h 00.\nMonsieur PARE demande quels sont les moyens qui peuvent être mis en œuvre pour\nouvrir au mois de Juillet, ayant lui-même contacté un maçon qui pourrait faire les travaux\nd’urgence en 3 jours.\nMonsieur le Maire met en cause Monsieur RICARD en partie responsable de cette\nsituation. Madame ETORE s’inscrit en faux catégoriquement contre cette mise en cause et\nrejette la responsabilité sur la Municipalité. Monsieur PARE appelle à un peu plus de sérénité\ndans les débats.\nMonsieur RICARD rappelle qu’il est aux finances et non aux travaux, et tout en\nrappelant une certaine malhonnêteté intellectuelle, reproche à Monsieur le Maire d’avoir\nchoisi des incompétents pour ce dossier.\nMonsieur LAURET ne daigne pas réagir à ces attaques les considérant non fondées.\nMadame ETORE précise qu’il n’y a aucune raison de prendre un avocat, la Commune\npouvant se défendre seule. Par ailleurs, elle précise qu’elle a contacté Monsieur SEGURA qui\nest prêt à venir faire l’état des lieux. Elle informe le Conseil qu’elle a eu les renseignements\nnécessaires auprès de la Préfecture pour entreprendre les travaux indispensables en urgence,\nrécupérer le moteur réparé.\nMonsieur le Maire rappelle au Conseil que dans le cadre d’un marché public, une\nentreprise ne peut intervenir sauf en cas de péril imminent et après avoir passé un marché\nnégocié, il n’est pas question d’enfreindre la réglementation en la matière.\nMonsieur PARE demande que l’on dresse un bilan de toutes les questions et faire une\nsynthèse des réponses.\nDans le cas présent, le Conseil repousse la décision de prendre un avocat.\nEn résumé, Monsieur le Maire informe le Conseil qu’il fait tout le nécessaire pour que\nl’expertise demandée soit faite rapidement, il fera également procéder à un constat d’huissier.\nPour ce qui est des différentes démarches administratives elles sont toutes engagées auprès\ndes compagnies d’assurance.\nAppartements école maternelle.\nMonsieur le Maire demande au Conseil de choisir entre trois solutions pour\nl’aménagement des appartements à l’école maternelle. (copies des plans sont distribuées à\nchaque conseiller. Première solution, les aménagements ne changent rien sur l’extérieur des\nbâtiments ; deuxième solution prolonger la coursive pour accès par ouverture centrale ;\ntroisième solution accès aux logements par escaliers intérieur et extérieur existants.\nLe choix est soumis au vote, le Conseil se prononce à la majorité pour la solution n°1\nsaut Madame ETORE qui s’abstient étant favorable à la solution n°3.\nL’ordre du jour étant épuisé, la séance est levée à 23 h 00.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "91294947a251f4db7aec650af23349f0f797ef83b94f3ceec37bd8044129c2c8",
+      "source_bytes": 60487,
+      "retrieved_at": "2026-10-08T16:17:12+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/a8050f0a952b.json",
+      "diff_from_previous": null
+    }
+  ]
+}

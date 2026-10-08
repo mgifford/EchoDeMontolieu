@@ -27,4 +27,4 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 
 - [ ] “Ce déficit sera reporté dans les dépenses de fonctionnement 2025.”
 
-_Later mentions: the issue comes back on 2025-04-14, 2025-09-25, 2026-04-01, 2026-06-05, 2026-07-22_
+_Later mentions: no later mention found in the 15 meeting(s) that followed (heuristic: it may continue under another title)_

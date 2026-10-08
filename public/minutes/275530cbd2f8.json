@@ -1,0 +1,204 @@
+{
+  "document_id": "275530cbd2f8",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20080404.pdf",
+  "source_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf",
+  "source_sha256": "07b38919b3efcf36ab0049d6d16dbee6024c5e609f7685b05883c30630048101",
+  "source_bytes": 150981,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020080404.pdf",
+    "wayback_timestamp": "20081112040045",
+    "official_copy": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf",
+    "mirror_path": "archive/originals/CRCM20080404.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20080404.pdf",
+    "date_hint_from_filename": "2008-04-04"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:18:48+00:00",
+  "meeting_date": {
+    "value": "2008-04-04",
+    "source": "text layer, page 1: 'L’an deux mille huit et le 4 avril'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 15,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n1\n \nL’an deux mille huit et le 4 avril à 20h30, le Conseil Municipal dûment \nconvoqué par le Maire Monsieur Edouard RICARD s’est réuni dans la salle du \nConseil de la Mairie de Montolieu sous sa Présidence afin de délibérer sur l’ordre du \njour suivant : \n \n- \nCompte de Gestion 2007 et Compte Administratif 2007 \n- \nConstitution des Commissions et désignation des représentations. \n- \nDroit de préemption. \n- \nDélibération du Conseil Municipal donnant délégation au Maire. \n- \nTravaux : Piscine, Médecins, Boucherie. \n- \nIndemnité de Conseil au Percepteur. \n- \nQuestions diverses. \n \n \nPrésents : Mmes Anne Marie Aïgats Galuffo, Danielle Azéma Lasserre, \nElisabeth Bouyssou, Fabienne Burtet, Jeanne Etoré Lortholary, Monia Gharbi \nGarachon, Gisèle Milhau Leroux, Annick Pillosio,  \n \n \n \nMrs Marc Chambaud, Francis Diaz, René Labessède, André \nMartin, Jean Luc Olivier, Edouard Ricard.  \n \nAbsents :   1 (Jean Etienne) \n \nProcurations : 1 ( Jean Etienne au profit de Monia Gharbi Garachon ) \n \n \n \n \nMonsieur le Maire déclare la séance ouverte à : 20h40  \n \n. \nMonsieur jean-Luc Olivier se propose pour assurer le secrétariat de séance : \nle Conseil accepte à l’unanimité. \n  \nMonsieur le Maire propose au Conseil de modifier la chronologie de l’ordre du \njour en déplaçant le vote du Compte de Gestion 2007 et du Compte Administratif \n2007 en dernière position. \n \n1. CONSTITUTION DES COMMISSIONS ET REPRÉSENTATIONS : \n \nCommissions : \n \nMonsieur le Maire propose au Conseil la composition des commissions \ncomme suit sachant qu’il est lui-même président de chacune d’elles : \n \n \nFINANCES : Adjoint délégué : René Labessède \n \n \n \n+ Marc Chambaud, Danièle Lasserre, Jean-Luc Olivier.  \n \n \n \nTRAVAUX et PERSONNEL COMMUNAL : \n \n \n \nAdjoint délégué : Francis Diaz \n+ Jeanne Etoré-Lortholary, Monia Gharbi-Garachon, Danièle \nLasserre, André Martin.  \n \nURBANISME et DEVELOPPEMENT DURABLE : \nChargé également de l’environnement, l’hygiène, l’agriculture, le \ncommerce et l’artisanat \nPrésident: Edouard Ricard  \n+ les adjoints et tous les autres conseillers \n \n \n \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n2\nASSOCIATIONS :  \n \n \n \nAdjoint délégué : Jeanne Etoré-Lortholary \n+ Elisabeth Bouyssou, Fabienne Burtet, Marc Chambaud, \nFrancis Diaz, Jean Etienne, Monia Gharbi-Garachon, Danièle \nLasserre, Jean-Luc Olivier, Annick Pillosio. \n \n \nSOCIAL  : \n \n \n \nAdjoint délégué : Danièle Lasserre \n+ Elisabeth Bouyssou, Fabienne Burtet, Françis Diaz, Annie \nGalluffo, Gisèle Milhau-Leroux.  \n \n \n \nCOMMUNICATION : \n \n \n \nAdjoint délégué : Jeanne Etoré-Lortholary \n \n \n \n+ Fabienne Burtet, Annick Pillosio \n \n \nOUVERTURE DES PLIS SUR APPEL D’OFFRES : \n \n \n \nAdjoint délégué : Francis Diaz \n+ Annie Galluffo, René Labessède, André Martin \n \nIMPÔTS DIRECTS \nAdjoint délégué : René Labessède \n+ 6 commissaires \n \nMonsieur le Maire demande au Conseil de voter pour l’approbation de ces \ncommissions : \n \n \nContre : 0 \n \n \nAbstentions : 0 \n \n \nPour : 15 \nLes commissions sont approuvées à l’unanimité. \n \nReprésentations : \n \nLe Conseil vote à l’unanimité les représentations suivantes : \n \nCommunauté de Communes : \nJean-Luc Olivier suppléant André Martin \n \n \n \n \n \n \nJean Etienne suppléant Annick Pillosio \n             \nEcoles : \nEdouard Ricard, Danièle Lasserre et Monia Gharbi-Garachon \n \n \nSyndicat d’électrification du Cabardès :  Francis Diaz et André Martin \n \nSyndicat Sud-Oriental des eaux de la Montagne Noire: Francis Diaz et       \nAndré Martin. ( Prochaine assemblée générale le jeudi 10 avril 2008 à 18 \nheures au foyer municipal d’Alairac ) \n \nSICTDM : \nAnnick Pillosio et Marc Chambaud proposés à la communauté      \nde communes \n \nSIVOM : \nEdouard Ricard, Elisabeth Bouyssou, Danièle Lasserre proposés \nà la communauté de communes. \n \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n3\nCCAS : \nPrésident Edouard Ricard, Adjointe déléguée Danièle Lasserre, \nElisabeth Bouyssou,   Annie Galluffo, Gisèle Milhau-Leroux,  + \nbénévoles \n  \n \n2. DROIT DE PRÉEMPTION : \n \nLe Notaire de Montolieu demande à la Commune si elle a l’intention \nd’exercer son droit de préemption sur une maison située dans la rue des \nremparts, appartenant à Mr Lepestipon et pour laquelle il a un acquéreur. \n Monsieur le Maire propose de ne pas exercer de droit de préemption sur \ncette maison qui ne présente pas d’intérêt pour la Commune \nContre : 0 \n \n \n \nAbstentions : 0 \n \n \n \nPour : 15 \n \n     Cette proposition est approuvée à l’unanimité. \n     \n \n3. DÉLÉGATIONS DU CONSEIL MUNICIPAL DONNANT DÉLÉGATION AU \nMAIRE (extrait de lettre du 20 mars de la trésorerie d’Alzonne) \n \na. délibération autorisant le maire à signer les marchés à procédure \nadaptée (dépenses sur facture inférieure au seuil de passation des \nmarchés formalisés). Tout achat, quelqu’en soit le montant, constitue un \nmarché. L’attribution d’un marché est de la seule compétence du conseil \nmunicipal qui peut donner délégation au maire. En l’absence de cette \ndélégation, une délibération antérieure à la date d’achat devra être jointe à \nchaque mandat (article L2122-22 du Code Général des Collectivités \nTerritoriales) \n \n      \nMonsieur le Maire demande au Conseil de voter cette délibération : \n \n \n \nContre : 0 \n \n \n \nAbstentions : 0 \n \n \n \nPour : 15 \n \n      La délibération est adoptée à l’unanimité. \n \nb. délibération du conseil donnant délégation au maire dans un certain                      \nnombre de matières (article L2122-22 CGCT). Par exemple :  \n \n \n- tarif des droits de voirie, de stationnement, \n \n \n- signature des contrats d’emprunts, d’assurances, \n \n \n- création des règles de recettes et d’avances, \n \n \n- concessions de cimetière, \n \n \n- acceptation de dons et legs, \n \n \n- aliénation de gré à gré de tiers immobiliers jusqu’à 4600 euros, \n- \nnégociation \net \nacceptation \ndes \nhonoraires \ndes \navocats,               \nnotaires, avoués, huissiers de justice et experts, \n \n \n- offres d’expropriations, \n \n \n- reprise d’alignement en application d’un document d’urbanisme, \n- exercice du droit de préemption et du droit de propriété défini aux \narticles L.240-1 et suivants du code de l’urbanisme, \n \n \n- actions en justice,  \n- règlement des conséquences dommageables des accidents des \nvéhicules municipaux, \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n4\n- signature des conventions relatives au ZAC ou aux participations \npour travaux sur voirie et réseaux,  \n- virements de crédits depuis les chapitres de dépenses imprévues \n(compte 020 et 022) \n \n \nMonsieur le Maire demande au Conseil de voter cette délibération : \n \n \n \nContre : 0 \n \n \n \nAbstentions : 0 \n \n \n \nPour : 15 \n \n           La délibération est adoptée à l’unanimité. \n \n4. TRAVAUX: \n  \nPISCINE: \n \nMonsieur le Maire fait un point général sur la piscine : \n \na. Plan judiciaire : \n \nL’avocat, Maître CIRERA a reçu l’expertise judiciaire qui estime les frais \nde remise en état aux environs de 110 000 € auxquels seront rajoutés les \nautres préjudices subis par la commune. Ce rapport a été remis au Tribunal \nAdministratif pour statuer :  \n \n- \nsi celui-ci donne tort à la Mairie, l’avocat conseille d’arrêter la \nprocédure, \n- \nsi le Tribunal Administratif nous donne raison , il faudra prendre une \ndécision vis-à-vis des assureurs d’Aquatech et de Korchi .  \n \nLe conseil est d’accord sur la poursuite de la mission de l’avocat \nconformément à cette démarche. \n \nPour mémoire Me CIRERA a déjà perçu l’essentiel de ses honoraires et \nl’expert  n’a pas encore été payé. \n \nIl est possible de démarrer les travaux de remise en état de la piscine \nsans attendre le résultat du jugement. \n \nLa 1ère tranche de travaux d’un montant de 265.000 € a été réalisée \ndans sa totalité conformément au prix convenu. \n La 2ème tranche d’un montant de 70.000 € a été effectuée à hauteur de \n30.000 €. Il reste donc 40.000 € de travaux à terminer \n \nNous pouvons regretter : \n- que l’opération de mise en conformité ait été réalisée sur deux \ntranches à l’encontre de la proposition de l’entreprise retenue qui souhaitait \nfaire le tout en une seule tranche car dans ce cas la piscine n’aurait jamais été \narrêtée, \n- que l’économie réalisée par le choix d’Aquatec à la place de Cap \nIngélec passera de 245000 euros à 135000 euros si la procédure judiciaire \nnous est défavorable. \n \n \n \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n5\nb. Plan administratif : \n \nUn appel d’offre restreint à été lancé ; il doit se terminer le 10 avril, ce \nqui peut amener le début des travaux aux environs du 14 avril pour une durée \nd’un mois et demi, ce qui permettrait d’ouvrir la piscine pour la saison à venir. \nL’appel d’offre s’adresse à des entreprises capables de couvrir tous les corps \nde métiers concernés par les travaux afin de n’avoir qu’un seul interlocuteur. \nLes travaux seront suivis par un représentant de la DDASS pour les \nquestions d’hygiène et de sécurité. Un dossier doit lui être fourni. \n \nc.Plan technique : \n \nDès maintenant : \n \nA - Voir les filtres à sable qui ont été remontés à l’envers dans la \nprécipitation, à la veille du démarrage de la piscine et par un personnel \nincompétent alors qu’il n’était pas nécessaire de faire cette opération car ces \nfiltres n’avaient que 5 ans d’utilisation alors que le renouvellement était prévu \ntous les 10 ans. Les éléments grossiers doivent être déposés en bas du filtre \net les éléments fins au dessus  et non le contraire, ce qui a entraîné du sable \nfin dans les canalisations et la piscine. \n \nB - Voir l’état des plages et couverture ombragée d’une plage \n \nC - Vérifier le grillage autour de la piscine ouvert sur le derrière et qui \npose des problèmes de sécurité \n \nD -  Marc CHAMBAUD nous dit connaître un Maître Nageur qui pourrait \nnous donner sa réponse quant à sa disponibilité, pour effectuer cette saison, \nd’ici 8 jours. Monsieur le Maire connaît également une personne susceptible \nd’assurer cette fonction. \n \nTRAVAUX TERRAIN CONRADTY : \n \n\u0001 Pour la pharmacie, Madame HIBERT-REY souhaite un terrain plus grand \n( Rappel : Elle achète le terrain à la Mairie et construit son bâtiment) \n\u0001 Pour le Cabinet Médical rendez-vous est pris avec les médecins et \nl’architecte, Melle SERRA, pour valider le projet.  \n( Rappel : La Mairie sera propriétaire et louera le local aux Médecins ) \n\u0001 Le parking alloué au cabinet médical doit être agrandi \n\u0001 La tranche 1 du lotissement prévue au dessus du cabinet médical et de la \npharmacie est suspendue pour l’instant afin d’accélérer la construction du \ncabinet. (A noter que les futures constructions devront se faire sur \n« radier » pour préserver  les vestiges enfouis en profondeur, ce qui \nentraîne un surcoût conséquent ) \n\u0001  Marc CHAMBAUD suggère de demander des aides pour l’installation de \nmédecins en milieu rural auprès du Conseil Général sachant que les \nmédecins sont prêts à nous accorder un délai supplémentaire pour mener \nà bien ce projet. \n \nMonsieur le Maire demande au Conseil de voter la suspension du \nlotissement pour accélérer la construction du Cabinet Médical et de monter un \ndossier de demande de subvention auprès du Conseil Général. \n \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n6\n \n \n \nContre : 0 \n \n \n \nAbstentions : 0 \n \n \n \nPour : 15 \n \n           La suspension et la demande de subvention sont adoptées à \nl’unanimité. \n \nREMPLACEMENT D’UNE CONDUITE D’EAU : \n \n     Son débit est insuffisant pour alimenter le terrain Conradty et une borne \nd’incendie destinée au faubourg et à la Maison de Retraite. \n     Deux solutions sont possibles : \n \nLa première consiste à se brancher sur le réseau au milieu du village \navec tous les désagréments que cela entraîne ( circulation perturbée, gène \ndes riverains, …) \n \nLa deuxième consiste à se brancher sur la conduite du lotissement la \nFerrière avec la possibilité d’alimenter au passage les riverains qui se \nplaignent d’une pression trop faible. \n \nIl est décidé de chiffrer les deux solutions par la Sade pour faire un \nchoix sachant que dans les cas où les travaux sont sous voirie, il faut prévoir \nun comblement spécial à base de béton spécifique. \n \nLOCAL KINE :  \n \nPas de local spécifique prévu avec le cabinet médical et la pharmacie. \nPossibilité d’étudier le réaménagement du local actuel occupé par les \nmédecins, Monsieur Jean REY, propriétaire, y étant favorable.  \nOn peut aussi éventuellement étudier la vente d’une parcelle du futur \nlotissement. \nA ce jour, aucune personne ne s’est manifestée pour un tel projet. \n \nBOUCHERIE : \n \nLecture d’une lettre émanant d’un couple de 40 ans intéressé par le projet. \nMais les conseillers ne croient pas à la viabilité de ce commerce (emplacement \nmalaisé, marché difficile et saturé….).  \nL’ancienne boucherie qui est à vendre serait mieux placée mais le prix est \ndissuasif (200.000 €). Une visite est cependant nécessaire pour étudier le projet. \nIl est proposé de convoquer le couple pour lui expliquer la position des \nconseillers, et éventuellement proposer le local de Madame PECH qui cherchait \nencore il y a peu de temps un locataire. \nUne conseillère municipale fait remarquer qu’il est déjà loué. A vérifier \nMonsieur le Maire demande au Conseil de voter l’abandon du site prévu pour \nla construction de la boucherie et la recherche d’une autre solution. \n \n \n \nContre : 0 \n \n \n \nAbstentions : 0 \n \n \n \nPour : 15 \nL’abandon du site et la recherche d’une autre solution pour la boucherie sont \nadoptés à l’unanimité. \n \n \n \n \nCAMPING : \n \nLe prix d’achat est de 230.000 €.  \n50% sont payable dès la signature, le reste fin juin 2009.  \nCet achat sera financé par l’emprunt.  \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n7\nLes conseillers penchent plutôt pour une mise en gérance de ce camping au \nlieu d’un salarié de la Mairie.  \nIl reste à étudier un prix de location à la fois proche de la mensualité de \nl’emprunt mais dans un même temps raisonnable pour démarrer l’activité dans \nde bonnes conditions.Voir un professionnel pour évaluer la location. \nUne personne, ex-gérant du Camping « Les lavandières » à Pennautier \npourrait être intéressée.  \nMr Marc Chambaud propose de rencontrer le Maire de Villegly qui possède \naussi un camping selon le même schéma que celui de Montolieu, afin de \nrecueillir des informations et des conseils.  \n \n5. INDEMNITÉ DE CONSEIL AU PERCEPTEUR  \n \nElle correspond à une prime de conseil et de suivi budgetaire. \nElle est fixée à 450 euros. \nCette prime est régularisable en fin d’année en fonction des mouvements \nbudgétaires \nPas de prime d’élaboration du budget car celui-ci est établi par la commune. \n \nMonsieur le Maire demande au Conseil de voter cette indemnité : \n \n \n \nContre : 0 \n \n \n \nAbstentions : 0 \n \n \n \nPour : 15 \nL’indemnité de Conseil au profit du Percepteur est adoptée à l’unanimité. \n \n6. QUESTIONS DIVERSES : \n \n61. Informations administratives :  \n \na. un permis de construire affiché doit mentionner la hauteur de la construction \nprévue. \n      Contestation par un tiers : avant deux mois après affichage. \n      Si l’affichage n’est pas régulier et ne comporte pas toutes les mentions \nprévues par les textes, le délai de recours n’a pas commencé et le tiers peut \ncontester à tout moment. Depuis le 1 octobre 2007, le délai de recours ne part \nqu’à compter de l’affichage sur le terrain. (article R 600-2) \n \nb. le maire ne peut pas rouvrir une voie privée à la circulation publique si ses \npropriétaires s’y opposent. \n \nc. le nouveau maire peut commander un audit financier pour faire le point sur \nla gestion de la commune. \n \nd. la participation pour voirie et réseaux permet de financer les équipements \npublics qui desservent les nouvelles constructions. \n \ne. une commune peut fixer librement le loyer d’un local communal mis à \ndisposition pour maintenir son dernier commerce. \n \nf. le service départemental de l’inspection du travail, de l’emploi et de la \npolitique sociale agricole de l’Aude nous a fait parvenir le barème des salaires \napplicables à compter du 1 avril à tous les salariés des exploitations agricoles de \nla zone céréalière du département. \n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=8",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n8\n \nCe barème est à la disposition des intéressés à la mairie et sera affiché dans \nles panneaux municipaux. \n \n \n \n62. Fonctions du maire et de ses adjoints : \n \nMaire :              \nEdouard Ricard : \nGestion de la commune + \nPersonnel communal administratif \nUrbanisme et développement durable \nPrésident de  toutes les commissions \n1 er Adjoint :            Jeanne Etoré :        Tourisme,  \nDéveloppement du Village du Livre, \nAssociations culturelles, \nCommunication \n2 ème Adjoint : \nFrancis Diaz : \nTravaux + \n \n \n \n \n \n \nPersonnel communal technique, \n \n \n \n \n \n \nAssociations jeunesse, sports, loisirs \n3 ème Adjoint :        Danièle Lasserre : Social + \nPersonnel communal : bibliothèque, \nménages, accompagnement des \nenfants à la cantine,  \nAssociations des écoles et des           \nretraités \n 4 ème Adjoint : \nRené Labessède : Finances \n \n63. Travaux : \n \nBail de 3 ans signé le 1er décembre 2007 pour 400 €/mois. Le local fait 165 m2 \net le jardin de 700 m2 reste à la disposition de la propriétaire. Ce bâtiment étant \nmal utilisé, il sera étudié la possibilité de résilier ce bail ou de sous louer le local. \n \nEglise :  \n \nUne série de travaux est à  prévoir pour rénover certaines parties. \n• Commencer par rénover la chaire pour laquelle un devis a déjà été \nréalisé. (subvention de l’Etat : 50%) \n• Nettoyer également la Nef, qui a également fait l’objet d’un devis. \n• Le toit refait il y a environ 10 ans présente déjà des gouttières. \n• Etudier ensuite l’ouverture de la « 2ème sacristie » en symétrie de la 1ère. \n• Remettre en service la cloche utilisée jadis pour le glas, et mettre en \nvaleur l’ancien mécanisme de l’horloge dans un lieu à définir. \n• Voir la remise en état des chapelles dont celle dédiée à St-Roch. \nS’entretenir avec le Président de l’association des Amis de St-André, \nMichel GOUZVINSKI pour étudier le financement. \n• A noter que le nettoyage de l’intérieur du clocher vient d’être fait. \n• Pas de modification de l’Angélus (une seule personne ayant manifesté \nune gêne pour le moment). \n• Courrier de Monsieur GRZYBOWSKI qui demande, pour la journée du \npatrimoine une mise à disposition du fond de l’église afin de présenter une \ncollection de chasubles et de bannières communales du siècle dernier.  \n"
+    },
+    {
+      "page": 9,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=9",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n9\nLa Mairie accorde son soutien à cette action et éventuellement, dans la \nmesure de ses moyens, mettra  à disposition du matériel et apportera une \naide financière. \nReste à régler le problème de la surveillance du lieu pendant la journée. \n \nAffichage :  \n \nLes libraires demandent 4 panneaux figurant le plan du village pour les trois \nentrées et la place du Pradel.  \nM.Diaz indique qu’il existe 2 grands panneaux dans l’atelier qu’on pourrait \npeut être utiliser. Mme Étoré  s’engage à aller les voir. \n \nCes propositions mises aux voix sont adoptées à l’unanimité. \n \nA ce propos est évoqué l’affichage Mairie des écarts.  \nIl est nécessaire de les  tenir à jour et d’étudier l’installation de nouveaux \npanneaux : Oliviers, Brétous, Ferrière, Piscine. \n \n       Eclairage parking Saint-Denis :  \n         Mme Étoré a demandé le conseil du CAUE. \n         Un rendez vous est fixé au jeudi 10 avec M.Aliaga. \n \nFleurs \nAprès l’embellissement des jardinières du village avant Pâquette, apprécié par \nles Montolivains, Monsieur le Maire propose l’installation par Mr Rouger de \ncactus à fleurs ou de plantes grasses qui ne risquent pas de blesser les enfants \ndevant l’ancienne bascule. \nPlusieurs conseillers expriment des réserves et demandent des plantes sans \npiquants. \nCette proposition mise aux voix est adoptée à l’unanimité. \n \nRéparation de l’escalier du café sur la rue du Collège \nLa proposition de prolongement de la terrasse du café vers la rue du collège \navec la suppression des escaliers qui servent d’urinoir est refusée à la majorité.  \nL’escalier, qui fait partie de l’espace public, sera maintenu et restauré. \n \nAménagement du terrain de pétanque place de l’église : \n   Une rampe en fer forgé a été commandée chez Monsieur DAUDE à Alzonne \npour l’escalier d’accès à la petite place devant le restaurant le « Marque Page ». \nUn devis a été réalisé pour refaire le tour de cette placette. Diverses solutions \nsont encore à étudier avant de décider (trottoir, muret en pierre ?...) \n \nDéfrichage du jardin de la mairie :  \n    L’association des Capitelles de Montolieu se propose de s’en charger. \nCette proposition mise aux voix est approuvée à l’unanimité. \n \nRéparation de la toiture du garage route de Saint-Denis : \nCette proposition mise aux voix est approuvée à l’unanimité. \n \nCourrier de la SCI « Hélios » de l’ALLIER :  \nCette société est intéressée par l’achat de l’ancienne usine NIZET avec un \nprojet de gîtes, la construction de surfaces commerciales dans la cour, et une \nmaison d’hôtes avec un hôtel grand standing et un bar longe. Elle demande un \naccord de  principe de la Mairie pour appuyer de futures demandes de \nsubvention.  \n"
+    },
+    {
+      "page": 10,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=10",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n10\nLes Conseillers Municipaux souhaitent rencontrer cette SCI afin de mieux \ncerner le projet. \nIl est rappelé qu’il existe un projet mené par la communauté de communes et \npar le conseil général pour l’achat et l’aménagement de ce site. \n \nCourrier de l’association scolaire : \n    Suite à son Conseil d’école du 15 03 2008 elle demande : \n   _  une augmentation de la subvention annuelle de la Mairie de 100 € et le \nmaintien du crédit Mairie pour les fournitures scolaires (3.300 €), ceci pour \nfinancer des bureaux en grande section et un ordinateur supplémentaire,  \n   _  de prévoir également des travaux d’amélioration au niveau des toilettes de \nl’école primaire en les remplaçant par des cuvettes. \n   _ Mr Marc Chambaud propose d’en profiter pour rénover également les \ntoilettes situées côté public qui forment un même ensemble. \nLe conseil décide à l’unanimité d’accepter l’augmentation de la subvention et \nde réaliser les travaux de rénovation de l’ensemble toilettes. \n \nMauvaise finition des travaux d’adduction d’eau, électricité et téléphone sur \nle chemin de Montplaisir :  \nMonsieur le Maire est chargé de faire terminer ces travaux. \n \nMise en place de la statue inachevée « LEBOVICI » :  \n    Stockée actuellement dans les locaux techniques de la Mairie, l’emplacement \nproposé serait devant l’impasse de la manufacture, cette sculpture n’étant pas \nterminée à cause d’un problème technique non résolu.  \n    Il parait donc souhaitable de consulter la famille LEBOVICI avant l’installation \nde cette œuvre. \n   Étant donné la qualité et la valeur de la sculpture, la réputation de son auteur, \nM.Chambaud et Mme Pillosio demandent à ce que l’implantation sur le site choisi \nfasse l’objet d’un projet soigneusement élaboré. M.Diaz et M.Ricard font \nobserver que la statue est entreposée depuis longtemps à l’atelier de la Mairie et \nque le temps presse. \n       Monsieur le Maire demande au Conseil de voter cette décision : \n \n \n \nContre : 0 \n \n \n \nAbstentions : 2 ( Marc Chambaud et Annick Pillosio) \n \n \n \nPour : 13 \n       L’installation de la sculpture est adoptée à la majorité. \n \nCourrier de l’entreprise AGR et P :  \nElle demande l’autorisation de traverser le village avec un camion de 12 T \npour un chantier vers Saissac d’ici l’été : l’accord ne peut exister que dans le \nsens de la montée, car il est limité à 3.5 T dans l’autre sens. \nCet accord est ainsi accepté à l’unanimité \n \nLecture d’un courrier de la DDASS :  \nDans le cadre de la prévention des risques de canicule, la DDASS demande \nun inventaire des personnes âgées et isolées qui pourraient être concernées par \nce problème. \n Ce travail est confié à la commission sociale. \n \n \n \n"
+    },
+    {
+      "page": 11,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=11",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n11\n7. COMPTE ADMINISTRATIF ET COMPTE DE GESTION \n \nM14 \n \nDEPENSES DE FONCTIONNEMENT \n \n \n \n \n \nChapitre \nLibellé \nCrédits ouverts \nRéalisé \n% \n011 Charge à caractère général \n199 680,00\n158 126,25\n79,19%\n012 Charge de personnel \n268 980,00\n265 792,57\n98,81%\n65 Autres charges de gestion \n77 001,00\n68 865,26\n89,43%\n66 Charges financières \n14 456,00\n14 455,07\n99,99%\n022 Dépenses imprévues \n200,00\n0,00\n0,00%\n \nTotal des dépenses réelles \n560 317,00\n507 239,15\n90,53%\n \nVir. Section d'investissement \n374 872,00\n0,00\n0,00%\n \nTotal des dépenses \n935 189,00\n507 239,15\n54,24%\n \n \n \n \n \nRECETTES DE FONCTIONNEMENT \n \n \n \n \n \nChapitre  \nLibellé \nCrédits ouverts \nRéalisé \n% \n70 Produits des services \n770,00\n0,00\n0,00%\n73 Impôts et taxes \n337 107,00\n344 517,10\n102,20%\n74 Dotations et participations \n235 152,00\n236 237,46\n100,46%\n75 Autres produits de gestion courante \n73 000,00\n67 642,14\n92,66%\n013 Atténuation de charges \n3 000,00\n3 990,96\n133,03%\n77 Recettes exceptionnelles \n0,00\n3 587,77  \n \nTotal des recettes réelles \n649 029,00\n655 975,43\n101,07%\n \nExcédent 2006 \n286 160,00\n286 160,39\n100,00%\n \nTotal des recettes \n935 189,00\n942 135,82\n100,74%\n \n \n \n \n \n \nRésultat Fonctionnement 2007 \nTotal des dépenses \n507 239,15 \n \n \nTotal des recettes \n942 135,82 \n \n \nExcédent \n434 896,67 \n \n \n \n \n \nDEPENSES D'INVESTISSEMENT \n \n \n \n \n \nChapitre \nLibellé \nCrédits ouverts \nRéalisé \n% \n20 Immobilisations corporelles  \n15 328,00\n3 277,04\n21,38%\n  \nFrais de révision P.L.U \n15 328,00\n3 277,04\n21,38%\n21 Immobilisations incorporelles \n18 000,00\n16 842,76\n93,57%\n  \nTravaux bâtiments \n8 650,00\n8 641,16\n99,90%\n  \nAutres matériels et outillages \n3 000,00\n1 887,64\n62,92%\n  \nMatériel de bureau \n6 350,00\n6 313,96\n99,43%\n23 Immobilisations en cours \n593 389,00\n75 052,32\n12,65%\n  \nConstruction local Médecins \n152 500,00\n0,00\n0,00%\n  \nTravaux appart. Écoles \n140 000,00\n8 031,20\n5,74%\n  \nTravaux de voirie \n60 000,00\n48 086,19\n80,14%\n  \nEclairage public \n8 000,00\n0,00\n0,00%\n  \nMise en conformité piscine 2ème tranche \n41 889,00\n0,00\n0,00%\n  \nLotissement \"Les Jardins de Valsiguier\" \n70 000,00\n12 575,30\n17,96%\n  \nAtelier-Relais Boucherie \n121 000,00\n6 359,63\n5,26%\n16 Emprunts et dettes \n82 365,00\n81 822,10\n99,34%\n"
+    },
+    {
+      "page": 12,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=12",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n12\n  \nEmprunt en €uros \n81 365,00\n81 364,76\n100,00%\n  \nCaution \n1 000,00\n457,34\n45,73%\n \nTotal des dépenses réelles d'invest. \n709 082,00\n176 994,22\n24,96%\n \nDéficit 2006 reporté \n168 889,00\n168 888,11\n100,00%\n \nTotal des dépenses \n877 971,00\n345 882,33\n39,40%\n \n \n \n \n \nRECETTES D'INVESTISSEMENT \n \n \n \n \n \nChapitre \nLibellé \nCrédits ouverts \nRéalisé \n% \n13 Subventions d'investissement \n114 462,00\n14 319,87\n12,51%\n10 Dotations \n148 850,00\n137 763,06\n92,55%\n16 Emprunts \n239 025,00\n27 000,00\n11,30%\n024 Produit des cessions \n762,00\n0,00\n0,00%\n   \n  \n  \n  \n \nTotal des recettes réelles d'invest. \n503 099,00\n179 082,93\n35,60%\n \nVir. Section de Fonctionnement \n374 872,00\n0,00\n0,00%\n \nTotal des recettes \n877 971,00\n179 082,93\n20,40%\n \n \n \n \n \n \nRésultat Investissement 2007 \nTotal des dépenses \n345 882,33 \n \n \nTotal des recettes \n179 082,93 \n \n \nDéficit \n-166 799,40 \n \n \n \n \n \n \nTotal exécution du budget M14/2007 \nFonctionnement \n434 896,67 \n \n \nInvestissement \n-166 799,40 \n \n \nExcédent \n268 097,27 \n \nM49 \n \nDEPENSES DE FONCTIONNEMENT \n \n \n \n \n \nChapitre \nLibellé \nCrédits ouverts \nRéalisé \n% \n011Charge à caractère général \n35 000,00\n21 809,84\n62,31%\n012Charge de personnel \n  \n  \n  \n65Autres charges de gestion \n  \n  \n  \n66Charges financières \n1 141,00\n1 140,55\n99,96%\n022Dépenses imprévues \n  \n  \n  \n \nTotal des dépenses réelles \n36 141,00\n22 950,39\n63,50%\n \nAmortissements \n11 810,00\n11 810,00\n100,00%\n \nVir. Section d'investissement \n45 081,00\n0,00\n0,00%\n \nTotal des dépenses \n93 032,00\n34 760,39\n37,36%\n \n \n \n \n \nRECETTES DE FONCTIONNEMENT \n \n \n \n \n \nChapitre  \nLibellé \nCrédits ouverts \nRéalisé \n% \n70Produits des services \n40 000,00\n36 880,38\n92,20%\n73Impôts et taxes \n  \n  \n  \n74Dotations et participations \n  \n  \n  \n75Autres produits de gestion courante \n  \n  \n  \n013Atténuation de charges \n  \n  \n  \n77Recettes exceptionnelles \n  \n  \n  \n \nTotal des recettes réelles \n40 000,00\n36 880,38\n92,20%\n \nExcédent 2006 \n53 032,00\n53 032,27\n100,00%\n"
+    },
+    {
+      "page": 13,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=13",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n13\n \nTotal des recettes \n93 032,00\n89 912,65\n96,65%\n \n \n \n \n \n \nRésultat Fonctionnement 2007 \nTotal des dépenses \n34 760,39 \n \n \nTotal des recettes \n89 912,65 \n \n \nExcédent \n55 152,26 \n \n \n \n \n \nDEPENSES D'INVESTISSEMENT \n \n \n \n \n \nChapitre \nLibellé \nCrédits ouverts \nRéalisé \n% \n21Immobilisations incorporelles \n178 477,00\n0,00\n0,00%\n  \nInstallation A.E.P (escudié) \n110 000,00\n0,00\n0,00%\n  \nInstallation Assainissement (jalabert) \n65 000,00\n0,00\n0,00%\n  \nAménagement divers (sécurité pompe) \n3 477,00\n0,00\n0,00%\n16Emprunts et dettes \n7 134,00\n7 133,73\n100,00%\n \nTotal des dépenses réelles d'invest. \n185 611,00\n7 133,73\n3,84%\n \nDéficit 2006 reporté \n0,00\n0,00\n0,00\n \nTotal des dépenses \n185 611,00\n7 133,73\n3,84%\n \n \n \n \n \nRECETTES D'INVESTISSEMENT \n \n \n \n \n \nChapitre \nLibellé \nCrédits ouverts \nRéalisé \n% \n13Subventions d'investissement \n14 040,00\n0,00\n0,00%\n10Dotations \n0,00\n0,00  \n16Emprunts \n111 101,00\n0,00\n0,00%\n   \n  \n  \n  \n \nTotal des recettes réelles d'invest. \n125 141,00\n0,00\n0,00%\n \nAmortissements \n11 810,00\n11 810,00\n100,00%\n \nVir. Section de Fonctionnement \n45 081,00\n0,00\n0,00%\n \nExcédent d'investissement 2006 \n3 579,00\n3 579,00\n100,00%\n \nTotal des dépenses \n185 611,00\n15 389,00\n8,29%\n \n \n \n \n \n \n \n \n \n \n \nRésultat Investissement 2007 \nTotal des dépenses \n7 133,73 \n \n \nTotal des recettes \n15 389,00 \n \n \nExcédent \n8 255,27 \n \n \nTotal exécution du budget M49/2007 \nFonctionnement \n55 152,26\n \n \nInvestissement \n8 255,27\n \n \nExcédent \n63 407,53\n \nCCAS \n \nDEPENSES DE FONCTIONNEMENT \n \n \n \n \n \nChapitre \nLibellé \nCrédits ouverts \nRéalisé \n% \n011Charge à caractère général \n6 171,00\n5 241,88\n84,94%\n012Charge de personnel \n  \n  \n  \n65Autres charges de gestion \n  \n  \n  \n66Charges financières \n  \n  \n  \n022Dépenses imprévues \n  \n  \n  \n \nTotal des dépenses réelles \n6 171,00\n5 241,88\n84,94%\n \nVir. Section d'investissement \n3 115,00\n0,00\n0,00%\n"
+    },
+    {
+      "page": 14,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=14",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n14\n \nTotal des dépenses \n9 286,00\n5 241,88\n56,45%\n \n \n \n \n \nRECETTES DE FONCTIONNEMENT \n \n \n \n \n \nChapitre  \nLibellé \nCrédits ouverts \nRéalisé \n% \n70Produits des services \n  \n  \n  \n73Impôts et taxes \n  \n  \n  \n74Dotations et participations \n  \n  \n  \n75Autres produits de gestion courante \n  \n  \n  \n013Atténuation de charges \n  \n  \n  \n77Subvention M14 \n5 645,00\n5 645,00\n100,00%\n \nTotal des recettes réelles \n5 645,00\n5 645,00\n100,00%\n \nExcédent 2006 \n3 641,00\n3 641,49\n100,01%\n \nTotal des recettes \n9 286,00\n9 286,49\n100,01%\n \n \n \n \n \n \n \n \n \n \n \nRésultat Fonctionnement 2007 \nTotal des dépenses \n5 241,88 \n \n \nTotal des recettes \n9 286,49 \n \n \nExcédent \n4 044,61 \n \n \n \n \n \nDEPENSES D'INVESTISSEMENT \n \n \n \n \n \nChapitre \nLibellé \nCrédits ouverts \nRéalisé \n% \n21Immobilisations incorporelles \n8 204,00\n0,00\n0,00%\n  \nŒuvres d'art (sculpture LEBOVICI) \n8 204,00\n0,00\n0,00%\n \nTotal des dépenses réelles d'invest. \n8 204,00\n0,00\n0,00%\n \nDéficit 2006 reporté \n9 911,00\n9 910,12\n99,99%\n \nTotal des dépenses \n18 115,00\n9 910,12\n54,71%\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nRECETTES D'INVESTISSEMENT \n \n \n \n \n \nChapitre \nLibellé \nCrédits ouverts \nRéalisé \n% \n13Subventions d'investissement \n6 098,00\n0,00\n0,00%\n10Dotations \n8 902,00\n0,00\n0,00%\n   \n  \n  \n  \n \nTotal des recettes réelles d'invest. \n15 000,00\n0,00\n0,00%\n \nVir. Section de Fonctionnement \n3 115,00\n0,00\n0,00%\n \nTotal des recettes \n18 115,00\n0,00\n0,00%\n \n \n \n \n \n \nRésultat Investissement 2007 \nTotal des dépenses \n9 910,12 \n \n \nTotal des recettes \n0,00 \n \n \nDéficit \n-9 910,12 \n \n \n \n \n \n \nTotal exécution du budget M14/2007 \nFonctionnement \n4 044,61 \n \n \nInvestissement \n-9 910,12 \n \n \nDéficit \n-5 865,51 \n \nMonsieur le Maire demande au Conseil d’approuver le Compte Administratif : \n \n \nContre : 0 \n \n \nAbstentions : 1 (Jeanne Etoré Lortholary) \n"
+    },
+    {
+      "page": 15,
+      "page_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf#page=15",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n15\n \n \nPour : 14 \n \nLe Compte Administratif est approuvé à la majorité \n \nMonsieur le Maire demande au Conseil d’approuver le Compte de Gestion : \n \n \nContre : 1 (Jeanne Etoré Lortholary) \n \n \nAbstentions : 0 \n \n \nPour : 14 \n \nLe Compte de Gestion est approuvé à la majorité \n \nRéunion de la commission ouverture des plis le 11 Avril 2008 à 18h. \n \nRéunion des Conseillers Municipaux le 11 avril 2008 à 20h30. \n \nProchain Conseil Municipal le 25 Avril 2008 à 20h30. \n \n \nMonsieur le Maire lève la séance à : 22h50 \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "07b38919b3efcf36ab0049d6d16dbee6024c5e609f7685b05883c30630048101",
+      "source_bytes": 150981,
+      "retrieved_at": "2026-10-08T16:18:48+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/275530cbd2f8.json",
+      "diff_from_previous": null
+    }
+  ]
+}

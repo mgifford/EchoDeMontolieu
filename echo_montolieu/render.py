@@ -23,6 +23,7 @@ LABELS = {
     "fr": {
         "banner": "> Lecture automatique du procès-verbal. Elle peut contenir des erreurs ; le PDF original fait foi.",
         "translation_notice": "",
+        "archived": "Ce procès-verbal n’est plus sur le site de la mairie. Copie officielle : [capture de l’Internet Archive]({url}). Notre copie du même fichier : [{name}]({mirror}). La date de la séance vient du texte ; le nom du fichier indique {hint}.",
         "original": "Original : [PDF]({url}) (SHA-256 `{sha}…`, récupéré le {date}). Version {v} sur {n}.",
         "check_pages": "> **Vérifiez l’original pour la ou les pages {pages}.** Elles ont été lues par OCR avec une faible confiance ; chiffres et tableaux peuvent être faux.",
         "ocr_page": "> **La page {n} est une image lue par OCR** (confiance {conf}). Considérez-la comme non vérifiée et consultez {link}.",
@@ -34,6 +35,7 @@ LABELS = {
     "en": {
         "banner": "> Machine-generated reading of the council minutes. It may contain errors; the original PDF is the authoritative document.",
         "translation_notice": "> **Machine translation** of the French original. The French text is authoritative. Tables, image pages read by OCR and notices about private property sales are kept in French.",
+        "archived": "These minutes are no longer on the Mairie's site. Official copy: [Internet Archive capture]({url}). Our copy of the same file: [{name}]({mirror}). The meeting date comes from the text; the file name suggests {hint}.",
         "original": "Original: [PDF]({url}) (SHA-256 `{sha}…`, retrieved {date}). Version {v} of {n}.",
         "check_pages": "> **Check the original for page(s) {pages}.** They were read by OCR with low confidence; figures and tables may be wrong.",
         "ocr_page": "> **Page {n} is an image read by OCR** (confidence {conf}). Treat it as unverified and check {link}.",
@@ -45,6 +47,7 @@ LABELS = {
     "nl": {
         "banner": "> Automatisch gegenereerde weergave van de notulen. Ze kan fouten bevatten; de originele pdf is leidend.",
         "translation_notice": "> **Automatische vertaling** van de Franse originele tekst. De Franse tekst is leidend. Tabellen, door OCR gelezen beeldpagina’s en bekendmakingen over de verkoop van privébezit blijven in het Frans.",
+        "archived": "Deze notulen staan niet meer op de website van de gemeente. Officiële kopie: [opname van het Internet Archive]({url}). Onze kopie van hetzelfde bestand: [{name}]({mirror}). De datum van de vergadering komt uit de tekst; de bestandsnaam wijst op {hint}.",
         "original": "Origineel: [pdf]({url}) (SHA-256 `{sha}…`, opgehaald op {date}). Versie {v} van {n}.",
         "check_pages": "> **Controleer het origineel voor pagina {pages}.** Ze zijn met OCR gelezen met lage betrouwbaarheid; cijfers en tabellen kunnen onjuist zijn.",
         "ocr_page": "> **Pagina {n} is een afbeelding gelezen met OCR** (betrouwbaarheid {conf}). Beschouw ze als niet gecontroleerd en raadpleeg {link}.",
@@ -146,6 +149,10 @@ def render_minutes(rec, lang="fr", tr=None, extra=None, ai_model=None):
         out += [labels["translation_notice"], ""]
     out += [labels["original"].format(url=url, sha=rec["source_sha256"][:16], date=rec["retrieved_at"][:10],
                                       v=rec.get("version", 1), n=len(rec.get("versions", [])) or 1), ""]
+    origin = rec.get("origin")
+    if origin:
+        out += [labels["archived"].format(url=url, name=origin["mirror_path"].rsplit("/", 1)[-1],
+                                          mirror=origin["mirror_url"], hint=origin.get("date_hint_from_filename") or "?"), ""]
     review = [p["page"] for p in rec["pages"] if p.get("status") == "needs_review"]
     if review:
         out += [labels["check_pages"].format(pages=", ".join(map(str, review))), ""]
@@ -293,7 +300,8 @@ def render_index(rows):
            "| Date | Items | Votes | Pages to check | Read | Original |", "|---|---|---|---|---|---|"]
     for r in rows:
         review = ", ".join(map(str, r["review"])) or "none"
-        links = (f"[minutes]({r['folder']}/minutes.md) · [facts]({r['folder']}/facts.md) · "
+        links = (f"[minutes]({r['folder']}/minutes.md) (recovered from the Internet Archive; no digest yet)" if r.get("archived") else
+                 f"[minutes]({r['folder']}/minutes.md) · [facts]({r['folder']}/facts.md) · "
                  f"[follow-ups]({r['folder']}/todo.md)" + "".join(f" · [{label}]({r['folder']}/{name})" for label, name in r.get("extra", [])))
         out.append(f"| {r['date']}{' (draft?)' if r['draft'] else ''}{' v' + str(r['version']) if r['version'] > 1 else ''} "
                    f"| {r['items']} | {r['votes']} | {review} | {links} | [PDF]({r['url']}) |")
@@ -314,11 +322,21 @@ def render_all(public_dir, status_by_item=None):
     for entry in sorted(index["documents"], key=lambda d: ((d["meeting_date"] or {}).get("value") or "", d["filename"] or "")):
         rec = json.loads((public / entry["file"]).read_text(encoding="utf-8"))
         folder = meeting_folder(rec, taken)
-        meeting = parse_meeting(rec)
-        meeting["folder"] = folder
         target = out_dir / folder
         target.mkdir(exist_ok=True)
         (target / "minutes.md").write_text(render_minutes(rec), encoding="utf-8")
+        if rec.get("origin"):
+            # Recovered from the Internet Archive. The digests were built for the current layout and have
+            # not been checked on 2004-2008 minutes (surname-only names), so only the faithful text is published.
+            for stale in ("facts.md", "todo.md"):
+                (target / stale).unlink(missing_ok=True)
+            date = (rec.get("meeting_date") or {}).get("value") or "undated"
+            rows.append({"date": date, "folder": folder, "extra": [], "items": "-", "votes": "-", "review": [
+                p["page"] for p in rec["pages"] if p.get("status") == "needs_review"], "draft": False,
+                "version": rec.get("version", 1), "url": rec["source_url"], "archived": True})
+            continue
+        meeting = parse_meeting(rec)
+        meeting["folder"] = folder
         (target / "facts.md").write_text(render_facts(meeting), encoding="utf-8")
         (target / "todo.md").write_text(render_todo(meeting, status_by_item), encoding="utf-8")
         meetings.append(meeting)

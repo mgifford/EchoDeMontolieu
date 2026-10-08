@@ -1,0 +1,141 @@
+{
+  "document_id": "0dc404d0f630",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20080425.pdf",
+  "source_url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf",
+  "source_sha256": "acf05d2180aaf64eb0d6cdbc99cd656e481a7cba0689120cc84d84e626a36ba4",
+  "source_bytes": 31796,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020080425.pdf",
+    "wayback_timestamp": "20081112040228",
+    "official_copy": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf",
+    "mirror_path": "archive/originals/CRCM20080425.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20080425.pdf",
+    "date_hint_from_filename": "2008-04-25"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:19:02+00:00",
+  "meeting_date": {
+    "value": "2008-04-25",
+    "source": "text layer, page 1: 'L’an deux mil huit et le vingt-cinq du mois d’Avril'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 8,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’an deux mil huit et le vingt-cinq du mois d’Avril à 20 h 30, le Conseil Municipal \ndûment convoqué s’est réuni sous la Présidence de Monsieur RICARD Edouard, Maire \nde Montolieu, dans la Salle du Conseil. \n \nÉtaient \nprésents : \nRICARD, \nETORE-LORTHOLARY, \nDIAZ, \nLASSERRE, \nLABESSEDE, \nLEROUX, \nMARTIN, \nCHAMBAUD, \nGALLUFFO, \nOLIVIER, \nPILLOSIO, GARACHON, BURTET, BOUYSSOU. \n \nAbsent excusé : ETIENNE procuration à GARACHON. \n \nJeanne ETORE propose d'assurer le secrétariat de séance, le Conseil accepte. \n \nMonsieur le Maire demande s'il y a des modifications à apporter au compte rendu du \nConseil précédent. \nJeanne ETORE observe qu'on a oublié de noter qu'avaient été fixées les dates des deux \nréunions suivantes : le 25 avril pour le vote du budget, et le 9 mai pour les questions \ncourantes. \n \nMonsieur LABESSEDE propose que le budget soit voté par chapitres, à l'exception de \nla liste des subventions aux associations qui doivent être votées une à une. \n \nBUDGET M14/2008 \n \nFonctionnement – Dépenses \n \n011 – Charges à caractère général  \n \n \n202 379,00 € \n \nAchats et variations de stocks \n \n \n68 574.00 € \n \nServices extérieurs \n \n \n \n47 800,00 € \n \nAutres services extérieurs  \n \n \n86 005,00 € \n012 – Charges de Personnel  \n \n \n293 050,00 €  \n65 – Autres charges de gestion courante \n \n84 253,00 € \n66 – Charges financières \n \n \n \n11 630,00 € \n68 – Charges exceptionnelles \n \n \n1 387,00 € \n022 – Dépenses impévuees  \n \n \n4 500,00 € \n023 – Virement à la section d’Investissement \n388 710,00 € \nTotal des dépenses de fonctionnement \n \n985 909,00 € \n \nRené LABESSEDE fait observer que le virement de la somme de 388 710,00 € est \nl'excédent qui permet d’alimenter en crédits la section d’Investissement pour réaliser des \ntravaux et permet de ce fait, de réduire les montants à emprunter. \n \nSubventions aux Associations. \n \nSubvention de fonctionnement \naux Associations \n2008 \n  \n  \nFootball Club Cabardès \n2 900,00\nAss. Cult. Et Sport. Ecole Publique \n2 600,00\nAssociation des Maires de l'Aude \n130,00\nAnciens d'Algérie \n120,00\nAnciens Combattants \n120,00\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Amis de la Colline Saint-Roch \n800,00\nComité d'Animation \n950,00\nClub du 3ème Age \n320,00\nA.C.C.A de Montolieu \n530,00\nComité des Parents d'Eleves \n560,00\nComité des Fêtes \n5 600,00\nMaison des Jeunes \n400,00\nAss. Montolieu Village du Livre \n8 000,00\nLa Truite de la Dure \n340,00\nPétanque Club Montolivain \n320,00\nS.P.A. \n400,00\nEcole de Musique \n320,00\nVilles et Métiers d'Art \n80,00\nF.S.E de BRAM \n23,00\nPierres Sèches Montolivaine \n400,00\nGpt de défenses ctre les organ. Nuisibles\n20,00\nEmergence pour le Pays Carcassonnais \n20,00\nCabardès Tennis Club \n50,00\nComité Départemental du Tourisme \n20,00\nSapeurs Pompiers d'Alzonne \n300,00\nA.D.E.P.A.P.E. \n30,00\nA.F.D.A.I.M. 11 \n30,00\nChambre de Métiers 11 \n46,00\nMontolieu Terroir \n100,00\n  \n  \nSubvention non affectée \n971,00\nTotal\n26 500,00\n \nToutes les subventions sont adoptées à l’unanimité. Madame LASSERRE, étant \nPrésidente du Club du 3ème Age, n’a pas pris part au vote concernant l’attribution d’une \nsubvention à cette association. Il en est de même pour Monsieur RICARD concernant la \nsubvention allouée à l’A.D.E.P.A.P.E. \n \nRené LABESSEDE fait observer qu'un certain nombre de contributions ne figurent plus \ndans le chapitre subventions, mais dans le chapitre contribution aux organismes de \nregroupement (c'est le cas de la subvention de 750 € à l'activité théâtre dans le cadre du \nContrat éducatif local). \nLe Conseil a adopté les propositions de la Commission Associations en ce qui concerne \nla participation à un certain nombre d'actions de solidarité (ADEPAPE, AFDAIM, \nformations d'apprentissage de la Chambre des Métiers). \n \nLa Conseil adopte également à l'unanimité le proposition de la Commission demandant \nà ce les associations subventionnées aient présenté leurs rapport financier et rapport \nd'activité avant le 15 juin de chaque année. \n \nTrois demandes ne sont pas encore traitées : \nCelle de l'Association Budobi (reçue l'après-midi même) qui sera traitée le 9 mai. \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Celle du Centre d'Art et de Littérature. La Commission a suggéré l'idée d'une subvention \nà ce nouvel agent de la politique culturelle dans le cadre d'une action concertée avec \nl'Association Montolieu Village du Livre. \nLa demande ponctuelle de l'Association Ebé, pour l'organisation d'un festival de \nmusique traditionnelle en octobre (avec stages de formation accordéon et violon). Le \nConseil demande un plan de financement plus élaboré. \n \n \nFonctionnement - Recettes \n \n70 – Produits des services \n \n \n \n8 370,00 € \n73 – Impôts et taxes  \n \n \n \n348 458,00 € \n74 – Dotations et participations \n \n \n239 050,00 € \n75 – Autre produits de gestion courante \n \n70 000,00 € \n013 – Atténuation de charges  \n \n \n9 315,00 € \n77 – Recettes exceptionnelles \n \n \n2 423,00 € \n002 – Excédent 2007 reporté  \n \n \n308 293,00 € \nTotal des recettes de fonctionnement \n \n985 909,00 €  \n \n \nTarifs Communaux : \n \nLocation chaise :  \nGratuit \nCaution chaise :  \n10€/chaise \nLocation table : \nGratuit \nCaution table : \n25€/table \nLocation Foyer aux Montolivains : Gratuit \nCaution Foyer aux Montolivains : \n300 € \nLocation Foyer aux Associations : \nGratuit \nCaution Foyer aux Associations : \n300 € \nLocation Foyer aux personnes extérieures à la commune : 300 € \nCaution Foyer aux personnes extérieures à la commune : 500 € \n \nLe Conseil adopte à l’unanimité ces tarifs. \n \nTarifs Piscine Municipale : \n \nEntrée piscine adultes : \n2 € \nEntrée piscine enfants : \n1 € \nAbt adultes :  \n \n15 € les 10 bains \nAbt enfants :  \n \n8 € les 10 bains \nGratuit pour les enfants de moins de 5 ans. \n \nLe Conseil adopte à l’unanimité ces tarifs. \n \nM. le Maire tient à préciser qu'aucune exception ne sera faite au règlement de ces droits d'entrée. \n  \n \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \nTaxes communales 2008 : \n \nMonsieur LABESSEDE propose au Conseil municipal de reconduire les taux de \ncontributions directes précédentes, à savoir : \n \nTaxe d’Habitation : 18,58 % \nTaxe Foncières sur les propriétés bâties : 27,86 % \nTaxe Foncière sur les propriétés non bâties : 87,68 % \nTaxe professionnelle : 14,33 % \n \nLe conseil donne son accord à l’unanimité pour reconduire les taux de contributions \ndirectes. \n \nInvestissement – Dépenses \n \n16 – Charges financières \n \n \n56 628,00 € \n \nEmprunts \n \n \n \n54 628,00 € \n \nCaution  \n \n \n \n2 000,00 € \n20 – Immobilisations incorporelles  \n123 000,00 € \n \nFrais de révision P.L.U.  \n \n8 000,00 € \n \nAchat terrain de camping (50%) \n \n115 000,00 € \n21 – Immobilisations corporelles \n \n26 500,00 € \n \nTravaux bâtiments \n \n \n20 000,00 € \n \nAutres matériels et outillages \n \n3 500,00 € \n \nMatériel de bureau \n \n \n3 000,00 € \n \n \n \n23 – Immobilisations en cours \n \n331 194,00 € \n \nTravaux appartements école \n \n175 000,00 € \n \nTravaux de voirie \n \n \n5 891,00 € \n \nEclairage du pont de saissac \n \n11 850,00 € \n \nRéfection piscine municipale \n \n120 000,00 € \n \nFouille Lotissement Côte d’Escudié \n18 453,00 € \n020 – Dépenses imprévues \n \n \n4 500,00 € \n001 – Déficit 2007 reporté \n \n \n166 800,00 € \nTotal des dépenses d’investissement \n708 622,00 € \n \n \nLa deuxième tranche de l'achat du camping sera payée en 2010 (demande de Monsieur \nle Maire au Conseil général, acceptation de principe qui doit être confirmée par la \nCommission de la fin du mois de mai, la signature de l'acte devant intervenir \nimmédiatement après). \n \nInvestissement – Recettes \n \n10 – Dotations \n \n \n \n147 593,00 € \n13 – Subventions d’investissement  \n95 652,00 € \n16 – Emprunts \n \n \n \n5 905,00 € \n021 – Virement section fonctionnement \n388 710,00 € \n024 – Cessions d’immobilisations \n \n70 762,00 € \nTotal des recettes d’Investissement \n708 622,00 €  \n \n \nLe budget M14/2008 est adopté à l’unanimité. \n \n \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "BUDGET M49/2008 \n \nExploitations - Dépenses \n \n011 – Charges à caractère général  \n \n \n32 000,00 € \n \nAchats et variations de stocks \n \n \n12 000,00 € \n \nServices extérieurs \n \n \n \n20 000,00 € \n66 – Charges financières \n \n \n \n625,00 € \n68 – Dotation aux amortissements \n \n \n11 810,00 € \n022 – Dépenses impévuees  \n \n \n4 500,00 € \n023 – Virement à la section d’Investissement \n53 476,00 € \nTotal des dépenses d’exploitation  \n \n97 911,00 € \n \n \n \nExploitation - Recettes \n \n70 – Produits des services \n \n \n \n40 000,00 € \n77 – Produits exceptionnels  \n \n \n2 759,00 € \n002 – Excédent 2007 reporté  \n \n \n55 152,00 € \nTotal des recettes d’exploitation \n \n \n97 911,00 € \n \n \nInvestissement – Dépenses \n \n16 – Emprunts \n \n \n \n \n7 651,00 € \n21 – Immobilisations corporelles \n \n \n109 863,00 € \n \nA.E.P. Côte d’Escudié \n \n \n \n66 250,00 € \n \nInstallation A.E.P. Sauzet  \n \n \n26 851,00 € \n \nInstallation A.E.P. Jalabert \n \n \n13 285,00 € \n \nAménagement divers \n \n \n \n3 477,00 € \n \n \n \nTotal des dépenses d’investissement \n \n117 514,00 € \n \nMonsieur le Maire indique que l'approvisionnement en eau pour la borne à incendie \nrattachée au couvent et au lotissement se fera à partir de la conduite du Petit Paradis, ce \nqui évitera d'avoir un chantier au milieu du village tout l'été, sera plus aisé et moins \ncoûteux. \n \nInvestissement – Recettes \n \n10 – Dotations \n \n \n \n \n13 700,00 € \n13 – Subventions d’investissement  \n \n30 273,00 € \n021 – Virement section d’exploitation \n \n53 476,00 € \n028 – Dotation aux amortissements  \n \n11 810,00 € \n002 – Excédent d’investissement 2007 \n \n8 255,00 € \nTotal des recettes d’Investissement \n \n117 514,00 €  \n \nLe budget M49/2008 est adopté à l’unanimité. \n \n \n \n \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "BUDGET CCAS/2008 \n \nFonctionnement – Dépenses \n \n011 – Charges à caractère général  \n \n \n2 875,00 € \n \nServices extérieurs \n \n \n \n2 875,00 € \n65 – Autres charges de gestion courante \n \n3 000,00 € \nTotal des dépenses de fonctionnement \n \n5 875,00 € \n \nFonctionnement  - Recettes \n \n77 – Produits exceptionnels  \n \n \n1 831,00 € \n002 – Excédent 2007 reporté  \n \n \n4 044,00 € \nTotal des recettes d’exploitation \n \n \n5 875,00 € \n \n \n \n \nInvestissement – Dépenses \n \n21 – Immobilisations corporelles \n \n \n3 000,00 € \n \nSculpture LEBOVICI \n \n \n \n3 000,00 € \n001 – Déficit 2007 reporté \n \n \n \n9 911,00 € \nTotal des dépenses d’investissement \n \n12 911,00 € \n \n \nInvestissement – Recettes \n \n10 – Dotations \n \n \n \n \n8 411,00 € \n13 – Subventions d’investissement  \n \n4 500,00 € \nTotal des recettes d’Investissement \n \n12 911,00 € \n \nLe budget C.C.A.S est adopté à l’unanimité. \n \n \nBUDGETS ANNEXES LOTISSEMENT/GROUPE MEDICAL \n \nBudget annexe Lotissement : \n \nDépenses \nTravaux \n \n276 800,00 € \nAchats d’études \n36 716,00 € \nFrais accessoires \n3 760,00 € \nTotal  \n \n317 276,00 € \n \nRecettes \nSubvention sollicité 30 000,00 € \nEmprunt \n \n287 276,00 € \nTotal  \n \n317 276,00 € \n \n \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Budget annexe Groupe Médical : \n \nDépenses \nTravaux \n \n174 472,00 € \nAchats d’études \n25 475,00 € \nFrais accessoires \n3 450,00 € \nTotal  \n \n203 397,00 € \n \nRecettes \nSubventions sollicités 130 854,00€ \nEmprunt \n \n72 543,00 € \nTotal  \n \n203 397,00 € \n \nLes budgets annexes sont adoptés à l’unanimité. \n \nA l'issue du vote du budget, Jeanne ETORE demande à René LABESSEDE une version \ncondensée et commentée à faire paraître dans le bulletin municipal. \n \nLe Conseil confirme la suppression du loyer pour les locaux du musée qui seront mis à \ndisposition de la même manière que la salle du 1er étage de l'Office de Tourisme qui \ndépend de la Communauté de Communes. \n \nLes Conseillers examinent et approuvent le croquis préparatoire établi par Monsieur \nALIAGA pour l'aménagement du parking du terrain AZEMA qui sera suivi d'une fiche \nConseil du CAUE. \n \nFrancis DIAZ rend compte à l'ensemble du Conseil des travaux effectués par les \nEmployés Communaux (service technique) depuis la mise en place du nouveau Conseil \nMunicipal. Outre l'entretien régulier (balayage des rues et nettoyage du foyer et des \ntoilettes), les employés municipaux ont procédé à un certain nombre de réparations ou \naménagements : \n- terre-plein du Buffou (muret reconstruit par l'Association des Capitelles avec apport de \nmatériaux par les employés municipaux), \n- escalier du café,  \n- nettoyage de l'angle du mur du couvent et du fossé au-dessous, \n- nettoyage du parterre de Valsiger, de la cour de l'école, de la rocaille AZEMA, du \nparterre route St Denis par les soins d'Ivan D’OVIDIO effectuant un stage de 3 semaines \nnon rémunéré dans le cadre de sa formation professionnelle, \n- réfection de nez de rue au centre du village, \n- plantation de géraniums dans les jardinières de la place de l'église, du foyer et du \ncouvent (le reste des plantations étant prévu à partir du 12 mai), \n- passage de la tondeuse épareuse à toutes les entrées du village, \n- obturation d'un certain nombre de nids de poule sur les chemins et dans les rues, \n- nettoyage du clocher, \n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf#page=8",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "- remise en place du miroir au bout de la côte d'Escudié \n- début de rangement des entrepôts municipaux. \nL'aménagement du parterre situé devant l'ancien poids public a été confié à Nicolas \nROUGER. \nFrancis DIAZ évoque aussi le suivi du chantier de la piscine qui est une lourde charge ; \nles employés municipaux ont commencé le nettoyage des abords de la piscine. \nLe règlement du problème de l'emplacement des poubelles se fera dans les semaines à \nvenir. \nLe prochain Conseil Municipal est fixé au Vendredi 09 Mai 2008 à 20 h 30. Une \nréunion préparatoire des Conseillers aura lieu avant le Conseil Municipal. \n \nL’ordre du jour étant épuisé, la séance est levée à 23 h 30. \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "acf05d2180aaf64eb0d6cdbc99cd656e481a7cba0689120cc84d84e626a36ba4",
+      "source_bytes": 31796,
+      "retrieved_at": "2026-10-08T16:19:02+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/0dc404d0f630.json",
+      "diff_from_previous": null
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "document_id": "75b8ee6a0588",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM041204.pdf",
+  "source_url": "https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf",
+  "source_sha256": "b00c05af6b0586328c4aa074696023ff0f15bdf7dfcbf7f80e38fff706c226dc",
+  "source_bytes": 74025,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM041204.pdf",
+    "wayback_timestamp": "20041219055342",
+    "official_copy": "https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf",
+    "mirror_path": "archive/originals/CRCM041204.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM041204.pdf",
+    "date_hint_from_filename": "2004-12-04"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:13:49+00:00",
+  "meeting_date": {
+    "value": "2004-12-04",
+    "source": "text layer, page 1: 'L’an deux mil quatre et le 04 Décembre'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 4,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L’an deux mil quatre et le 04 Décembre à 10 H 00, le Conseil Municipal\ndûment convoqué, s’est réuni sous la Présidence de Monsieur DELPERIER Max, Maire de\nMontolieu, dans la salle du Conseil.\nEtaient présents : DRIEUX. OLIVIER.  DELPERIER. LASSERRE C.\nLASSERRE D. LAURET. RICARD. PARE. LAPORTE. ETORE. CHOTARD.\nEtaient absents : SOULIE. Procuration à ETORE. SOLE procuration à\nOLIVIER. PUJADE procuration à DRIEUX. GOUZVINSKI procuration à LAURET.\nMonsieur OLIVIER est désigné comme secrétaire de séance.\nMadame ETORE intervient au sujet du P.V. de la séance du 16.10.2004,\nqu’elle considère incomplet et ne relatant pas fidèlement les différentes interventions. Elle\ndonne l’exemple de la vente du terrain communal à Monsieur PECH Frédéric, pour laquelle\nelle a donné son accord étant entendu que Monsieur PECH s’engageait à y planter des chênes\ntruffiers, et s’appuyant sur la remarque de Monsieur LASSERRE comme quoi la Commune\nest hostile à la vente de parcelle communale, cela afin de préciser que cette parcelle ne\ndevienne pas constructible à l’avenir. Pour toutes ces raisons Madame ETORE ne signera pas\nle P.V.\nPlusieurs conseillers, cependant, insistent sur le fait qu’il est impossible de\nconsigner mot pour mot les interventions de chaque conseiller.\nMadame CHOTARD intervient pour se plaindre du fait de convoquer le\nConseil Municipal le samedi matin, ne rendant pas facile la vie des personnes qui ont une\nfamille ou d’autres obligations. Monsieur le Maire répond que les convocations sont faites\npar rapport aux urgences et que plusieurs conseillers ne sont pas défavorables au samedi\nmatin. Après discussion, le Conseil décide que les réunions aient lieu le soir et\nprincipalement le Vendredi soir.\nLe Compte rendu du 16.10.2004 étant adopté à la majorité, on passe à l’Ordre\ndu Jour.\n2° TRANCHE TRAVAUX PISCINE MUNICIPALE.\nMonsieur le Maire informe le Conseil que le montant des travaux de la 2°\nTranche s’élèvent à 70 523,00 Euros H.T.\nMonsieur RICARD expose les différents pourcentages d’augmentation. Le\nConseil donne son accord à l’unanimité et il y a lieu de demander une subvention.\nMUR DE SOUTENEMENT DU CHEMIN DE L’ANCIENNE\nTANNERIE.\nMonsieur le Maire informe le Conseil que le Laboratoire Régional des Ponts\net Chaussées  de Toulouse est venu expertiser le mur de soutènement de l’ancienne tannerie.\nL’évaluation des travaux s’élève à 40 329,12 Euros.\nCette mission d’expertise s’élève à 1791,97 Euros. Le Conseil donne son\naccord pour régler le montant de cette expertise.\nMadame ETORE profite de ce sujet pour insister sur l’état des chemins\ncommunaux qui se dégradent. Madame CHOTARD demande si ces travaux sont urgents.\nMonsieur le Maire répond qu’il y a un risque à moyen terme. Madame ETORE demande que\nsoit faite une étude et un plan d’ensemble sur la réfection des chemins communaux. Monsieur\nPARE propose également une étude qui hiérachise les travaux permettant ainsi de ne pas\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "attendre que les ouvrages se dégradent. Monsieur RICARD demande également un plan\nd’ensemble des travaux à effectuer.\nPour ce qui concerne le chemin proprement dit, Monsieur LASSERRE\npropose que l’utilisation du chemin soit limitée en charge et en fréquence, et préconise\néventuellement un passage par le chemin du haut.\nEu égard à toutes ces questions Monsieur le Maire remet ce dossier à une date\nultérieure.\nSIGNALISATION INTERDECTION AUX POIDS LOURDS DE PLUS\nDE 3,5 TONNES.\nMonsieur le Maire informe le Conseil que les panneaux interdisant le passage\ndes poids lourds de Plus de 3,5 Tonnes ont été mis en place par les Ets.La Signalisation\nAudoise. La Commune se chargera des panneaux à l’intérieur de l’agglomération.\nIl est profité de ce sujet pour évoquer la limitation de vitesse à la plaine\nactuellement à 50 et qu’il faudrait ramener progressivement à 30. A ce sujet, Monsieur LONS\n, gérant du camping des Oliviers intervient pour évoquer les problèmes de vitesse et de\nvisibilité à la sortie du camping. Monsieur le Maire informe le Conseil qu’il est intervenu\npour éviter l’abattage d’un platane près du camping prévu par le Conseil Général, et qu’une\nautre solution a été trouvée.\nREFECTION RUES DU 11 NOVEMBRE 1918 ET DU 8 MAI 1945.\nMonsieur le Maire informe le Conseil qu’un appel d’offres a été lançé au 19\nAoût 2004, seuls deux réponses sont parvenues en Mairie, à savoir une proposition de\nMonsieur DARY géomètre pour un montant de 3908,60 Euros ne concernant que le relevé\ndes niveaux des rues et un devis plus complet de la D.D.E. pour un montant de 7405,63\nEuros. Monsieur le Maire rappelle que ces travaux ont déjà été votés par le Conseil\nMunicipal.\nMadame ETORE demande à ce que la D.D.E. soit informée des désidérata de\nla Commune, avant l’édition des plans et le commencement des  travaux.\nMonsieur le Maire rappelle que la D.D.E. a déjà eu des contacts avec\nMonsieur MELON, Architecte des Bâtiments de France.\nEXTENSION GARAGE COMMUNAL.\nMonsieur le Maire rappelle au Conseil que les appels d’offres de Juillet 2004,\nont été infructueux. Un 2° appel d’offres a été lançé le 17 Août auprès de 7 entreprises. Seule\nl’entreprise de Monsieur EL KADIRI a répondu pour effectuer le gros-oeuvre pour un\nmontant de 26 742, 56 Euros T.T.C., il faudra y rajouter la façade et les menuiseries.\nMonsieur le Maire répond qu’à défaut d’une réponse définitive de Monsieur\nPETIT garagiste, un plombier veut s’installer.\nProfitant de ce sujet Monsieur RICARD rappelle obligation qui est faite aux\ncommunes de plus de 500 habitants de tenir une comptabilité de magasin. Monsieur\nLASSERRE répond que ce n’est pas obligatoire.\nLe Conseil vote à l’unanimité le choix de l’entreprise EL KADIRI.\nTERRAIN KONDRATY.\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Monsieur le Maire informe le Conseil que 4 Géomètres ont été contactés pour\neffectuer les relevés du terrain CONDRATY. Monsieur KIENY est retenu à l’unanimité pour\nun montant de 1100,32 Euros T.T.C.\nAMENAGEMENT LOCAL DE M.V.D.L.\nLe Conseil donne son accord pour la construction d’une cloison à l’étage, par\nl’entreprise BALDO.\nPour ce qui est de l’espace vitré au Rez-de-chaussée, 3 Devis sont parvenus en\nMairie à savoir :\nLABEUR : 2020,04 Euros\nRICHARD 2032,20 Euros\nZORZETTO : 1750,94 Euros\nLe Conseil à l’unanimité choisit l’entreprise ZORZETTO.\nCONVENTION AVEC LE F.S.E. DU COLLEGE DE BRAM.\nMonsieur le Maire informe le Conseil que le Syndicat intercommunal du\nCollège de Bram va être dissous. Néanmoins, la majorité des Communes ont souhaité\npoursuivre le soutien financier aux actions socio-culturelles, éducatives et sportives en faveur\ndes enfants. 2 élèves montolivains sont actuellement scolarisés au Collège de Bram.\nLe Conseil, à l’unanimité, sauf Monsieur DELPERIER Principal de ce collège\nqui s’abstient, DECIDE d’adhérer au F.S.E. du Collège de Bram.\nATELIER-RELAIS DE BOUCHERIE ET DE TRANSFORMATION.\nMonsieur le Maire donne lecture d’une lettre de la SARL Le Cabas d’Oc, Las\nFountetos 11310 - SAISSAC, représentée par Madame MAUREL Bernadette, par laquelle\nelle demande la création d’atelier-relais de boucherie et de transformation, (250 M2 environ).\ndes produits issus directement des producteurs. 3 emplois seraient créés par ce projet.\nMadame ETORE pose la question d’un atelier-relais pour une chaîne de\nmagasins, alors que la formule est destinée pour un artisan, elle fait part également de sa\nméfiance quant à une éventuelle concurrence avec l’épicerie du village. Monsieur RICARD\nprécise que le projet ne doit consister qu’à une boucherie et non une épicerie.\nMademoiselle SERRA, architecte, pense que la boulangerie actuelle devrait\nsubir trop de transformations pour en faire une boucherie et le bâtiment du Crédit Agricole\nest trop petit.\nPar ailleurs le Conseil Municipal décide de ne pas exercer son droit de\npréemption sur la vente de la boucherie de Monsieur FAVREAU.\nMonsieur le Maire informe le Conseil qu’un opérateur se porterait acquéreur\nde la boulangerie, sous réserve d’un coût acceptable, pour y faire du locatif ainsi que sur le\nterrain AZEMA.\nMonsieur le Maire demande ensuite de passer au vote pour l’installation d’une\npetite boucherie : 13 contre dont deux abstentions (ETORE, SOULIE).\nCréation d’un atelier-relais boucherie : 13 pour dont deux abstentions\n(ETORE,SOULIE).\nA 12 H 10 Madame CHOTARD quitte la séance.\nQUESTIONS DIVERSES :\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Pour la furure installation des médecins et de la pharmacie, Madame ETORE\net Monsieur PARE posent la question de l’accès des voitures et des piétons. Monsieur le\nMaire répond qu’un parking de 30 places est prévu.\nLe bilan de la piscine  municipale ne peut être fait, les factures d’eau et\nd’électricité n’étant pas parvenues en Mairie.\nPour le Jardin d’enfant, Mademoiselle SERRA fera des propositions.\nMonsieur le Maire répond que des jeux sont déjà en place.\nPour la cloche à remettre en service au clocher de l’Eglise St-André, Monsieur\nMARTIN, architecte fera des propositions.\nPour l’installation de distributeurs de billets, le Crédit Agricole a été relancé,\nun nouveau contact sera pris avec la Poste. Le Conseil Général sera sollicité pour participer  à\ncette opération.\nPour ce qui est du Haut-Débit le Conseil Général a donné l’assurance que son\ninstallation aura lieu le 2° semestre 2005.\nMonsieur DRIEUX Michel est chargé de faire remettre les blocs de pierre\nempêchant le passage sur le pont de l’Izoul.\nMadame ETORE demande des explications du peu d’investissement de la\nCommune dans l’opération brioches. Monsieur le Maire répond que ce sont tous les ans les\nmêmes personnes qui s’investissent, les Associations qui souhaiteraient organiser ce type de\nmanifestation seraient soutenues par la Mairie.\nMadame ETORE demande d’étudier la possibilité d’avoir un local pour les\nsans-abri; elle évoque également le remplacement du bac à fleurs devant le Foyer.\nMonsieur LAURET Bernard est chargé de planifier la remise en état des\nvolets du Presbytère.\nL’Ordre du Jour étant épuisé la séance est levée à 12 H 30.\n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "b00c05af6b0586328c4aa074696023ff0f15bdf7dfcbf7f80e38fff706c226dc",
+      "source_bytes": 74025,
+      "retrieved_at": "2026-10-08T16:13:49+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/75b8ee6a0588.json",
+      "diff_from_previous": null
+    }
+  ]
+}

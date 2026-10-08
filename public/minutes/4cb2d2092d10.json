@@ -1,0 +1,139 @@
+{
+  "document_id": "4cb2d2092d10",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20080606.pdf",
+  "source_url": "https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf",
+  "source_sha256": "8a01aff37642a81b711b992c508d3ff5cfda33203b99d032c3272aaef7463242",
+  "source_bytes": 21189,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020080606.pdf",
+    "wayback_timestamp": "20081112040000",
+    "official_copy": "https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf",
+    "mirror_path": "archive/originals/CRCM20080606.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20080606.pdf",
+    "date_hint_from_filename": "2008-06-06"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:19:26+00:00",
+  "meeting_date": {
+    "value": "2008-06-06",
+    "source": "text layer, page 1: 'L'an deux mille huit et le six juin'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 7,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n1\nL'an deux mille huit et le six juin à 20h30 salle du Conseil \nde la Mairie, le Conseil municipal dûment convoqué s'est réuni \nsous la présidence du Maire, M. Edouard Ricard. \n \nÉtaient présents : Mesdames Bouyssou, Burtet, Etoré-Lortholary, \nGalluffo, Gharbi-Garachon, Milhau-Leroux, Lasserre, Messieurs \nChambaud, Diaz, Labessède, Martin, Olivier, Ricard,   \nAbsents : Annick Pillosio, procuration à André Martin \n          Jean Étienne, procuration à Monia Gharbi \n \nMme Elisabeth Bouyssou propose d'assurer le secrétariat de \nséance, le Conseil accepte à l'unanimité. \n \nM. André Martin fait observer que le compte rendu du Conseil \nprécédent dont il était responsable n'est pas conforme au texte \nqu'il avait remis. M. Jean-Luc Olivier demande que soit donnée \nlecture de ce texte qui ne lui a pas été communiqué. \nM. le Maire donne lecture du compte-rendu du Conseil du 9 mai, \nqui est ensuite approuvé à deux rectifications près. \n \n- Délégation de pouvoir au Maire en matière d'opérations \nfinancières. \nPar exemple, autorisation de signer certains actes, comme \nl'achat du terrain de camping le 5.6.08, les clefs devant être \nremises à la Mairie le mardi 10.6.08 par Maître Fortin-Lézy \naprès signature de l'acte par le représentant du Conseil \ngénéral. \n \n- Terrain de camping : entretien et gestion. \nS'agissant d'un service public, la Mairie a l'obligation de \nfaire appel à candidatures, avec publication dans la presse. \nParmi les candidats intéressés, le choix se portera sur le plus \ncrédible. La délégation de service public doit mentionner la \ndurée de location et les conditions de gestion.  \nLe Conseil décide à l'unanimité que les frais (électricité, \neau, etc.) seront à la charge de la commune, le gestionnaire \npayant un loyer de 200 € par mois pour la durée de juillet, \naoût et septembre. \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n2\nM. Jean-Luc Olivier demande à ce que la commune ait un droit de \nregard sur la tarification, qui sera donc fixée en concertation \navec le gestionnaire. \nEn ce qui concerne l'entretien, Francis Diaz regrette que les \nclef n'aient été mises à disposition avant la signature de \nl'acte ; le CAT de Pennautier n'est plus disponible, il va donc \ns'adresser à d'autres Centres d'Aide par le Travail. \nMarc Chambaud indique qu'un contrôle sera effectué fin juin par \nla Commission de sécurité, il portera sur les installations \nélectriques et les extincteurs ; il convient donc de faire \nappel à un électricien pour vérifier l'ensemble. \n \n- Vente d'un terrain à M. Alain Cau.  \nUn accord avait été donné par l'ancienne municipalité en 2003. \nM. Ricard propose de respecter cette décision, la fixation du \nprix étant de la compétence des Domaines. \nMme Etoré demande à ce que soit bien précisé dans le compte \nrendu que cette opération est exceptionnelle et que le nouveau \nConseil n'est par principe pas favorable à la vente d'aucun \nterrain communal. \nLa décision est mise au vote : 11 voix pour : Ricard, Lasserre, \nDiaz, Olivier, Burtet, Garachon, Martin, Galluffo, Labessède, \nEtienne, Chambaud ; 2 abstentions : Bouyssou, Pillosio ; 2 voix \ncontre : Etoré-Lortholary, Milhau-Leroux. \n \n- Vente usine Nizet \nDeux acquéreurs éventuels se sont manifestés : \n1) une entreprise familiale (SCI Helios) qui achèterait pour \nouvrir un hôtel trois étoiles. \n2) un Hollandais fabricant de meubles de haute qualité, ce \ndernier habiterait l'usine et s'engagerait à conserver la \nlibrairie, l'atelier du verre et l'atelier du livre. \nJeanne Etoré fait observer qu'il n'y a pour l'instant rien de \nconcret sur ce point. \nM. le Maire rappelle que la Mairie peut en tout cas exercer un \ndroit de préemption. \n \n \n \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n3\n \n \n- Proposition du groupe Marcou. \nLe groupe Marcou a soumis une proposition pour la construction \nde logements sociaux sur le terrain Conradty, il offre \négalement une formule de location-vente qui paraîtrait la \nmeilleure solution. Toutefois le prix offert pour le terrain \n(22.000 €) semble insuffisant par rapport au coût de la \nviabilisation. \nM. Ricard a rencontré un autre opérateur social et la Mairie va \nrechercher d'autres propositions. \n \n- Piscine : date d'inauguration et carton d'invitation \nL'inauguration aura lieu le vendredi 27.6.08 à 18h, l'ouverture \nle lendemain.  \nLa carton d'invitation sera adressé à tous les Maires des \nenvirons, aux représentants officiels et politiques, aux \ndirecteurs de centres aérés, à toute la population.  \n500 cartons d'invitation (env. 150 €) (Projet de Visual-\nproduction présenté par J.Etoré). \n \n- Salaire du Maître nageur : il travaillera tous les jours de \n10h à 19h pendant deux mois et son salaire sera fixé dans le \nrespect de la Convention collective afférente. \n \n- Gestion de la buvette de la pisicine : le Conseil décide de \nla confier à un commerçant (en l'occurrence la boulangerie). \nUn effort sera fait pour compenser la perte que représente \ncette nouvelle orientation pour les jeunes qui géraient \njusqu'alors cette buvette (remise en état ou remplacement \nd'objets disparus à la Maison des Jeunes). \nC'est l'occasion de parler de l'état de la Maison des Jeunes, \nsa vétusté et la non-conformité du système électrique. \nLe Conseil décide de faire intervenir un électricien après \ns'être reporté au rapport de l'APAVE (contrôle de sécurité des \nédifices publics). \n \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n4\n- Demande des centre aérés voisins concernant le petit bus \nmunicipal pour les transports vers la piscine en juillet et \naoût. \nLe Sivom de Saissac a fait une demande de mise à disposition du \npetit bus avec chauffeur 3 jours par semaine pour transporter \n20 enfants. La Mairie de Montolieu ne peut assurer ces \ndéplacements : le petit bus compte 8 places et le conditions de \nsécurité ne seraient pas assurées. \nMme Milhau-Leroux évoque une demande dans le même sens mais \npour un seul jour du centre aéré d'Alzonne, mais il ne semble \npas qu'elle ait été formulée par écrit. \n \n- Embauches de l'été \nUn maximum de demandes a été satisfait pour les jeunes de plus \nde 18 ans. \n \n- Mode d'attribution des logements sociaux : \nM. Ricard propose que cette attribution soit assurée par la \nCommission sociale, l'information étant transmise au Conseil. \n \n- Compte rendu de Mme Etoré sur la réunion des Maires de la \nRégion organisée à Montpellier sur le \"Pacte régional\". Un \nouvrage sur la question est disponible dans le bureau des \nadjoints. \n \n- Création d'une Commission \"Développement économique\".  \nVu les chiffres du dernier recensement avec un baisse de la \npopulation qui n’est plus que de 752 habitants dont 74 soeurs, \nil est urgent de réfléchir et de s'investir pour faire venir de \nnouveaux artisans. Le Conseil donne un accord unanime pour la \ncréation de cette commission qui regroupera tous les élus. \n \n- Application des arrêtés sur la distribution des Associations. \nM. Le Maire rappelle les choix qu'il a fait pour les \ninterlocuteurs privilégiés des associations, choix qui ont été \nfaits en fonction de la compétence des élus. \n \n- Personnes nécessaires au CCAS \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n5\nIl regroupe 5 élus : Danièle Lasserre, Annie Galluffo, Gisèle \nMilhau-Leroux, Fabienne Burtet, Elisabeth Bouyssou et trois \npersonnes extérieures au Conseil : Odette Fauquant, Aline \nRouch, Laure Dairin-Escaré. \nUne quatrième personne a été consultée : Mme Jacqueline Milhau. \n \n- Régie cantine \nLégalement, la Mairie ne peut plus gérer le paiement des \ntickets \nde \ncantine, \nla \ncantine \nétant \nassurée \npar \nun \nétablissement privé. M. le Maire souhaiterait que cette gestion \nsoit assurée par le CCAS. Mme Lasserre demandera au Trésor \nPublic de se prononcer sur la légalité de cette procédure. \n \n- Réfection du bloc sanitaire de l'école publique et de la \nPlace du Pradel. \nMme Etoré fait observer que cette réfection complète a été \nvotée par le Conseil le 4 avril.  \nLe problème sera vu à compter du 1er juillet (en même temps que \ncelui de la douche du terrain de sport). \n \n- Débroussaillage des terrains privés  \nM. \nle \nMaire \nrendra \nun \narrêté \nmunicipal \nexigeant \nle \ndébroussaillage des terrains privés conformément aux textes en \nvigueur. \n \n- Fenêtres de la Mairie.  \nDes fenêtres avaient été achetées par l'ancienne municipalité, \nmais aucune réponse précise ne peut être apportée quant à leur \nnombre.  \nMme Etoré précise que la fenêtre du bureau des adjoints a été \nréparée et fonctionne. \n \n- Palette de couleurs de la Mairie \nCette palette doit être refaite par les membres de la \nCommission urbanisme, c'est-à-dire tous les conseillers après \navis des services spécialisés (CAUE, etc.) \n \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n6\n- Aménagement d'une salle du 2ème étage de la Mairie pour le \nrapatriement des archives municipales. Le Conseil donne son \naccord à l'unanimité. \n \n- Interdiction d'affichage sur le pont de la Dure et \nd'affichage sauvage en général.  \nLa signalétique est en cours de révision pour l'affichage \nconstant. \nL'affichage \nponctuel \ndevra \ndésormais \nse \nfaire \nsur \nles \nemplacements réservés à cet effet. \n \n- Éclairage du Pont de Saissac : Le Conseil approuve la \nproposition de la Commission d'appel d'offres dont le choix \ns'est porté sur l'entreprise Cegelec. \n \nQuestions diverses : \n- Source St Michel : remise à tous les conseillers d'un \nhistorique fait par Pierre Antoine Balland après ses recherches \naux archives. \n \n- Bulletin municipal : le Conseil souhaite recevoir un devis \npour un format A4. \n \n- Dératisation:  \nLa distribution gratuite de raticide à la population est \nsupprimée. \nJean-Luc Olivier demande que les stocks encore disponibles \nsoient réservés aux agriculteurs. \n \n- Date de la prochaine réunion du Conseil : 4 juillet 1008. \n \nL'ordre du jour étant épuisé, la séance est levée à 23h.  \n \n \n \n \n \n \n \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf#page=7",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.0,
+      "text": "",
+      "text_sparse": "",
+      "ocr": {
+        "mean_conf": null,
+        "min_conf": null,
+        "low_word_fraction": null,
+        "words": 0
+      }
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "8a01aff37642a81b711b992c508d3ff5cfda33203b99d032c3272aaef7463242",
+      "source_bytes": 21189,
+      "retrieved_at": "2026-10-08T16:19:26+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/4cb2d2092d10.json",
+      "diff_from_previous": null
+    }
+  ]
+}

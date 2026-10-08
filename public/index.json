@@ -1,5 +1,5 @@
 {
-  "count": 25,
+  "count": 55,
   "produced_by": "software (extraction and OCR) written with AI assistance",
   "human_reviewed": false,
   "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
@@ -466,6 +466,532 @@
       ],
       "needs_review_pages": [],
       "file": "minutes/14de957b7587.json"
+    },
+    {
+      "document_id": "7bfebb937a98",
+      "filename": "CRCM20080718.pdf",
+      "source_url": "https://web.archive.org/web/20081112040243/http://www.montolieu.fr/docs/CRCM%2020080718.pdf",
+      "meeting_date": {
+        "value": "2008-07-18",
+        "source": "text layer, page 1: 'CONSEIL MUNICIPAL DU 18/07/2008'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 1,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/7bfebb937a98.json"
+    },
+    {
+      "document_id": "4cb2d2092d10",
+      "filename": "CRCM20080606.pdf",
+      "source_url": "https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf",
+      "meeting_date": {
+        "value": "2008-06-06",
+        "source": "text layer, page 1: 'L'an deux mille huit et le six juin'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 7,
+      "ocr_pages": [
+        7
+      ],
+      "needs_review_pages": [
+        7
+      ],
+      "file": "minutes/4cb2d2092d10.json"
+    },
+    {
+      "document_id": "4a24c84ef2ce",
+      "filename": "CRCM20080509.pdf",
+      "source_url": "https://web.archive.org/web/20081112035845/http://www.montolieu.fr/docs/CRCM%2020080509.pdf",
+      "meeting_date": {
+        "value": "2008-05-09",
+        "source": "text layer, page 1: 'L’an deux mil huit et le neuf du mois de mai'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 7,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/4a24c84ef2ce.json"
+    },
+    {
+      "document_id": "0dc404d0f630",
+      "filename": "CRCM20080425.pdf",
+      "source_url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf",
+      "meeting_date": {
+        "value": "2008-04-25",
+        "source": "text layer, page 1: 'L’an deux mil huit et le vingt-cinq du mois d’Avril'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 8,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/0dc404d0f630.json"
+    },
+    {
+      "document_id": "275530cbd2f8",
+      "filename": "CRCM20080404.pdf",
+      "source_url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf",
+      "meeting_date": {
+        "value": "2008-04-04",
+        "source": "text layer, page 1: 'L’an deux mille huit et le 4 avril'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 15,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/275530cbd2f8.json"
+    },
+    {
+      "document_id": "79fc0d102e01",
+      "filename": "CRCM20070731.pdf",
+      "source_url": "https://web.archive.org/web/20081112040257/http://www.montolieu.fr/docs/CRCM%2020070731.pdf",
+      "meeting_date": {
+        "value": "2007-07-31",
+        "source": "text layer, page 1: 'L'an deux mille sept et le 31 du mois de juillet'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 5,
+      "ocr_pages": [
+        5
+      ],
+      "needs_review_pages": [
+        5
+      ],
+      "file": "minutes/79fc0d102e01.json"
+    },
+    {
+      "document_id": "50f4b75eab85",
+      "filename": "CRCM20070503.pdf",
+      "source_url": "https://web.archive.org/web/20081112035413/http://www.montolieu.fr/docs/CRCM%2020070503.pdf",
+      "meeting_date": {
+        "value": "2007-05-03",
+        "source": "text layer, page 1: 'L’an deux mil sept et le trois du mois de Mai'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 11,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/50f4b75eab85.json"
+    },
+    {
+      "document_id": "a65a917dcfad",
+      "filename": "CRCM20070216.pdf",
+      "source_url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf",
+      "meeting_date": {
+        "value": "2007-02-16",
+        "source": "text layer, page 1: 'L’An deux mil sept et le 16 Février'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 9,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/a65a917dcfad.json"
+    },
+    {
+      "document_id": "ee4b84cd7566",
+      "filename": "CRCM20061124.pdf",
+      "source_url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf",
+      "meeting_date": {
+        "value": "2006-11-24",
+        "source": "text layer, page 1: 'L’An deux mil six et le 24 Novembre'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 4,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/ee4b84cd7566.json"
+    },
+    {
+      "document_id": "e0684f63a512",
+      "filename": "CRCM20060929.pdf",
+      "source_url": "https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf",
+      "meeting_date": {
+        "value": "2006-09-29",
+        "source": "text layer, page 1: 'L'an deux mil six et le 29 Septembre'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 5,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/e0684f63a512.json"
+    },
+    {
+      "document_id": "9e958bbb39e4",
+      "filename": "CRCM20060819.pdf",
+      "source_url": "https://web.archive.org/web/20071012134153/http://www.montolieu.fr/docs/CRCM%2020060819.pdf",
+      "meeting_date": {
+        "value": "2006-08-19",
+        "source": "text layer, page 1: 'L’an deux mil six et le dix neuf du mois d'Août'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 3,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/9e958bbb39e4.json"
+    },
+    {
+      "document_id": "73240b2a6e7b",
+      "filename": "CRCM20060617.pdf",
+      "source_url": "https://web.archive.org/web/20071012134213/http://www.montolieu.fr/docs/CRCM%2020060617.pdf",
+      "meeting_date": {
+        "value": "2006-06-17",
+        "source": "text layer, page 1: 'L’an deux mil six et le 17 Juin'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 2,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/73240b2a6e7b.json"
+    },
+    {
+      "document_id": "a8050f0a952b",
+      "filename": "CRCM20060530.pdf",
+      "source_url": "https://web.archive.org/web/20071012134251/http://www.montolieu.fr/docs/CRCM%2020060530.pdf",
+      "meeting_date": {
+        "value": "2006-05-30",
+        "source": "text layer, page 1: 'L’an deux mil six et le 30 Mai'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 2,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/a8050f0a952b.json"
+    },
+    {
+      "document_id": "f2b54a749068",
+      "filename": "CRCM20060505.pdf",
+      "source_url": "https://web.archive.org/web/20071012134138/http://www.montolieu.fr/docs/CRCM%2020060505.pdf",
+      "meeting_date": {
+        "value": "2006-05-05",
+        "source": "text layer, page 1: 'L’an deux mil six et le cinq du mois de Mai'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 5,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/f2b54a749068.json"
+    },
+    {
+      "document_id": "542e3aac5fcd",
+      "filename": "CRCM20060304.pdf",
+      "source_url": "https://web.archive.org/web/20071012134440/http://www.montolieu.fr/docs/CRCM%2020060304.pdf",
+      "meeting_date": {
+        "value": "2006-04-22",
+        "source": "text layer, page 1: 'L'an deux mil six et le vingt deux Avril'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 6,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/542e3aac5fcd.json"
+    },
+    {
+      "document_id": "25c32404ddc5",
+      "filename": "CRCM20060422.pdf",
+      "source_url": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf",
+      "meeting_date": {
+        "value": "2006-04-22",
+        "source": "text layer, page 1: 'L'an deux mil six et le vingt deux Avril'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 5,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/25c32404ddc5.json"
+    },
+    {
+      "document_id": "2d1f4804d79b",
+      "filename": "CRCM140106.pdf",
+      "source_url": "https://web.archive.org/web/20061123183038/http://www.montolieu.fr/docs/CRCM140106.pdf",
+      "meeting_date": {
+        "value": "2006-01-14",
+        "source": "text layer, page 1: 'L'an deux mil six et le quatorze Janvier'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 5,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/2d1f4804d79b.json"
+    },
+    {
+      "document_id": "1e1f1952deb7",
+      "filename": "CRCM141005.pdf",
+      "source_url": "https://web.archive.org/web/20061123183052/http://www.montolieu.fr/docs/CRCM141005.pdf",
+      "meeting_date": {
+        "value": "2005-10-14",
+        "source": "text layer, page 1: 'L'an deux mil cinq et le quatorze Octobre'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 5,
+      "ocr_pages": [
+        5
+      ],
+      "needs_review_pages": [
+        5
+      ],
+      "file": "minutes/1e1f1952deb7.json"
+    },
+    {
+      "document_id": "072dbe5175d1",
+      "filename": "CRCM250605.pdf",
+      "source_url": "https://web.archive.org/web/20061123182917/http://www.montolieu.fr/docs/CRCM250605.pdf",
+      "meeting_date": {
+        "value": "2005-06-25",
+        "source": "text layer, page 1: 'L'an deux mil cinq et le vingt cinq Juin'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 3,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/072dbe5175d1.json"
+    },
+    {
+      "document_id": "02e80f86db26",
+      "filename": "CRCM220405.pdf",
+      "source_url": "https://web.archive.org/web/20061123183136/http://www.montolieu.fr/docs/CRCM220405.pdf",
+      "meeting_date": {
+        "value": "2005-05-22",
+        "source": "text layer, page 1: 'L'an deux mil cinq et le vingt deux Mai'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 5,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/02e80f86db26.json"
+    },
+    {
+      "document_id": "d1058dea5120",
+      "filename": "CRCM180305.pdf",
+      "source_url": "https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf",
+      "meeting_date": {
+        "value": "2005-03-18",
+        "source": "text layer, page 1: 'L'an deux mil cinq et le dix huit Mars'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 4,
+      "ocr_pages": [
+        4
+      ],
+      "needs_review_pages": [
+        4
+      ],
+      "file": "minutes/d1058dea5120.json"
+    },
+    {
+      "document_id": "e8eafe1e832b",
+      "filename": "CRCM100205.pdf",
+      "source_url": "https://web.archive.org/web/20051014125712/http://www.montolieu.fr/docs/CRCM100205.pdf",
+      "meeting_date": {
+        "value": "2005-02-10",
+        "source": "text layer, page 1: 'L'an deux mil cinq et le dix Février'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 3,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/e8eafe1e832b.json"
+    },
+    {
+      "document_id": "6eacdfd6d0ee",
+      "filename": "CRCM250105.pdf",
+      "source_url": "https://web.archive.org/web/20051014125508/http://www.montolieu.fr/docs/CRCM250105.pdf",
+      "meeting_date": {
+        "value": "2005-01-25",
+        "source": "text layer, page 1: 'L'an deux mil cinq et le vingt cinq Janvier'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 2,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/6eacdfd6d0ee.json"
+    },
+    {
+      "document_id": "2c1dc6cc6df4",
+      "filename": "CRCM050105.pdf",
+      "source_url": "https://web.archive.org/web/20051014125650/http://www.montolieu.fr/docs/CRCM050105.pdf",
+      "meeting_date": {
+        "value": "2005-01-07",
+        "source": "text layer, page 1: 'L'an deux mil cinq et le sept Janvier'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 3,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/2c1dc6cc6df4.json"
+    },
+    {
+      "document_id": "75b8ee6a0588",
+      "filename": "CRCM041204.pdf",
+      "source_url": "https://web.archive.org/web/20041219055342/http://www.montolieu.fr/docs/CRCM041204.pdf",
+      "meeting_date": {
+        "value": "2004-12-04",
+        "source": "text layer, page 1: 'L’an deux mil quatre et le 04 Décembre'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 4,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/75b8ee6a0588.json"
+    },
+    {
+      "document_id": "0d284f9d5608",
+      "filename": "CRCM161004.pdf",
+      "source_url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf",
+      "meeting_date": {
+        "value": "2004-10-16",
+        "source": "text layer, page 1: 'L’an deux mil quatre et le seize Octobre'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 5,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/0d284f9d5608.json"
+    },
+    {
+      "document_id": "6d454c344f5f",
+      "filename": "CRCM170804.pdf",
+      "source_url": "https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf",
+      "meeting_date": {
+        "value": "2004-08-17",
+        "source": "text layer, page 1: 'L’an deux mil quatre et le 17 août'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 3,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/6d454c344f5f.json"
+    },
+    {
+      "document_id": "f4aec19c939f",
+      "filename": "CRCM140504.pdf",
+      "source_url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf",
+      "meeting_date": {
+        "value": "2004-05-14",
+        "source": "text layer, page 1: 'L’an deux mil quatre et le quatorze Mai'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 7,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/f4aec19c939f.json"
+    },
+    {
+      "document_id": "1b12e31c54be",
+      "filename": "CRCM30042004.pdf",
+      "source_url": "https://web.archive.org/web/20041219055321/http://www.montolieu.fr/docs/CRCM30042004.pdf",
+      "meeting_date": {
+        "value": "2004-04-30",
+        "source": "text layer, page 1: 'L’an deux mil quatre et le trente Avril'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 7,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/1b12e31c54be.json"
+    },
+    {
+      "document_id": "de1696484b96",
+      "filename": "CRCM02032004.pdf",
+      "source_url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf",
+      "meeting_date": {
+        "value": "2004-03-02",
+        "source": "text layer, page 1: 'L’an deux mil quatre et le deux Mars'",
+        "status": "tentative"
+      },
+      "draft_suspected": false,
+      "version": 1,
+      "versions": 1,
+      "pages": 7,
+      "ocr_pages": [],
+      "needs_review_pages": [],
+      "file": "minutes/de1696484b96.json"
     }
   ]
 }

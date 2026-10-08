@@ -1,0 +1,112 @@
+{
+  "document_id": "d1058dea5120",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM180305.pdf",
+  "source_url": "https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf",
+  "source_sha256": "b3a24f6184395029880b19f44887771e5e63b7d61b2fb6d1ab716cda37c002f1",
+  "source_bytes": 66431,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM180305.pdf",
+    "wayback_timestamp": "20061123182956",
+    "official_copy": "https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf",
+    "mirror_path": "archive/originals/CRCM180305.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM180305.pdf",
+    "date_hint_from_filename": "2005-03-18"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:16:25+00:00",
+  "meeting_date": {
+    "value": "2005-03-18",
+    "source": "text layer, page 1: 'L'an deux mil cinq et le dix huit Mars'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 4,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "L'an deux mil cinq et le dix huit Mars à 20 h 30, le Conseil Municipal dûment\nconvoqué, s'est réuni sous la Présidence de Monsieur DELPERIER Max, Maire de Montolieu,\ndans la salle du Conseil.\nEtaient présents : DRIEUX, OLIVIER, DELPERIER, LASSERRE D., LAURET,\nRICARD, PARÉ, ETORÉ, LAPORTE, SOULIÉ, CHOTARD.\nEtaient absents : GOUZVINSKI, PUJADE procuration à LAURET, LASSERRE C.,\nSOLÉ.\nMonsieur DRIEUX est désigné comme secrétaire de séance.\nMonsieur le Maire demande l'approbation du compte-rendu de la séance du 10 Février\n2005. Madame ETORÉ déclare qu'elle ne signera pas le compte-rendu, et demande de\nrectifier qu'elle ne s'est pas abstenue au sujet du vote de l'achat du terrain CONRADTY. Le\ncompte-rendu est adopté à la majorité et on passe ensuite à l'ordre du jour.\nAchat/vente chemins GALTIER.\nMonsieur le Maire donne lecture des conclusions de Monsieur PALY, Commissaire-\nEnquêteur, concernant l'enquête publique relative à l'achat et à la vente de chemins, sur la\npropriété de Monsieur GALTIER. Il en ressort aucune observation particulière.\nLe Conseil adopte les conclusions sauf Madame ETORÉ qui s'abstient. Le Conseil\nautorise le Maire à signer les pièces administratives relatives à cette affaire. (documents\nd'arpentage, actes notariés).\nConvention T.D.F.\nMonsieur le Maire donne lecture du projet de bail à passer entre la Commune et\nT.D.F., concernant le site de T.D.F. de Montpertus.\nQuelques corrections sont apportées au fur et à mesure de la lecture des articles.\nLe Conseil donne son accord à l'unanimité après correction.\nConvention Bibliothèque Départementale.\nMonsieur le Maire informe le Conseil qu'il y al lieu de passer une convention avec la\nBibliothèque Départementale concernant l'inventaire descriptif du mobilier de la Bibliothèque\nmunicipale pour une valeur de 29 392 €uros en dépôt lequel la Commune doit souscrire une\nassurance.\nLe Conseil donne son accord à l'unanimité.\nModification des statuts Communauté de Communes.\nMonsieur le Maire donne lecture de la délibération du Conseil Communautaire en date\ndu 26 Janvier 2005, relative aux modifications apportées aux statuts de la Communauté dans\nle cadre des nouvelles dispositions concernant la définition de l'intérêt communautaire\nintroduites par la Loi n°2004-809 du 13 Août 2004.\nLe Conseil approuve à l'unanimité les modifications statutaires.\n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Détermination du tarif de la surtaxe eau exercice 2005 :\nMonsieur le Maire informe le Conseil qu'il y a lieu de se prononcer sur le financement\nde la surtaxe due au Syndicat Sud Oriental.\nLe Conseil, à l'unanimité décide d'appliquer le tarif du 2ème semestre 2004 à savoir 0,36\n€/m3.\nParticipation Mairie à la cotisation complémentaire santé des employés communaux.\nMonsieur le Maire informe le Conseil que la Commune à la possibilité de prendre en\ncharge à hauteur de 25 % la cotisation à la Mutuelle des employés communaux. Cette\nparticipation représenterait 416,40 €uros/an.\nLe Conseil donne son accord à l'unanimité pour cette participation.\nBornage Chemin de Vignard.\nMonsieur le Maire informe le Conseil qu'il y a lieu de procéder au bornage du Chemin\nde Vignard à Montolieu, dans le cadre de l'alimentation E.D.F. de la propriété de Monsieur\nHOFFMAN et pour délimiter la propriété communale.\nDeux géomètres ont répondu : GUENERET pour 1136,20 €uros, LAUTIER pour\n1187,10 €uros.\nLe Conseil demande qu'un devis soit demandé pour le bornage de la totalité du chemin\net donne son accord à l'unanimité pour prendre le moins cher.\nAppartements école maternelle.\nMonsieur le Maire informe le Conseil que les services de la D.D.E. demandent une\ndélibération du Conseil Municipal autorisant le Maire à agir au nom de la Commune pour le\npermis de construire des logements sociaux de l'école maternelle.\nLe Conseil donne son accord à l'unanimité.\n2ème tranche travaux piscine municipale.\nMonsieur le Maire informe le Conseil qu'il y a lieu de passer un contrat avec\nAQUATECH-LME pour la 2ème tranche de travaux pour la piscine municipale pour un\nmontant de 70520,00 €uros H.T. Le Conseil donne son accord à l'unanimité.\nMonsieur LAURET précise que la commune s'était engagée auprès de Monsieur\nSÉGURA de la DDASS à faire une déconnexion des goulottes au niveau du bac tampon pour\nfavoriser un débordement à l'égoût, ce dispositif permettant un écrémage rapide des saletés se\ntrouvant en surface.\nLe Conseil précise qu'il faudrait envisager la remise en état des abords de la piscine.\nDroit de préemption immeuble GHARBI Hassen.\nLe conseil n'a pas l'intention d'user de son droit de préemption sur la vente de\nl'immeuble GHARBI Hassen, Route Nationale (ancien salon de coiffure).\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "P.L.U./Z.P.P.A.U.P.\nMonsieur le Maire donne lecture du compte rendu de la réunion du 04 Mars 2005.\nQuestions diverses.\nMadame ETORÉ pose les questions diverses suivantes :\n- \nLa Maison GAULTIER pour Monsieur ARGENCE, graveur. Monsieur le Maire a\nun rendez-vous le 19 Mars 2005.\n- \nEtudier le coût d'acquisition de petits conteneurs pour les poubelles. Envisager la\nremise des poubelles par les employés communaux et les sortir le Lundi et jeudi\nsoir. Monsieur le Maire précise que plus il y a de conteneurs  plus le coût du\nramassage est élevé. La solution de la remise ne paraît pas envisageable.\n- \nInfiltrations clocher Eglise Saint-André. Monsieur le Maire répond que Monsieur\nMARTIN, Architecte, doit venir sur site, un entrepreneur est déjà venu pour\nintervenir.\n- \nJardin d'enfants, reconstruction correcte du mur. Monsieur le Maire répond que les\njeux sont en place, Monsieur PARÉ précise que des boulons cassés sur les jeux\nprésentent un danger.\n- \nDistributeurs de billets : Monsieur le Maire précise que le Crédit Agricole ne veut\npas participer à l'opération.\n- \nPont de l'Izoul : Blocs de pierre à remettre.\n- \nBacs à fleurs devant le Foyer Jean GUEHENNO, Madame ETORÉ est chargée de\nchosir les nouveaux bacs.\n- \nEntretien des bancs de bois.\n- \nMadame ETORÉ pose la question des œuvres d'art exposées dans le couloir de la\nMairie. Sont-elles vraiment des œuvres d'art ? Qui choisit ? Qui autorise ?\n- \nOù en est la statue de l'Envol pour laquelle la Commune a déjà avancé de l'argent ?\nMonsieur le Maire répond que l'œuvre est commencée.\n- \nEffondrement du mur du sol : Les communaux interviendront.\n- \nEffondrement sur le chemin de Saint-Roch. Monsieur le Maire répond qu'il faut\nconserver les arbres, car ils retiennent le talus, la reconstruction s'avérant délicate.\n- \nAffichage sauvage sur le platanes. Poèmes des écoles dans le cadre du C.E.L.\nInterdiction d'utiliser des punaises sur les platanes.\n- \nLors de la réfection du revêtement du Chemin de la Tannerie, une partie du chemin\nde la propriété de Madame PAQUETON a  été goudronnée, Madame ETORÉ\nrappelle que ce chemin est privé et ne doit plus faire l'objet d'une telle intervention.\n- \nAffichage de l'arrêté de Monsieur le Préfet de l'Aude sur l'inscription de la\nManufacture Royale à l'inventaire des Monuments Historiques.\n- \nMonsieur PARÉ rappelle que l'ampoule à l'angle de la maison CARRIER doit être\nremplacée.\n- \nBassin devant le restaurant à vider et à nettoyer.\n- \nNombreuses plaintes sur les dégâts effectués par les pigeons.\n- \nPrévoir une intervention sur le pluvial de la maison PILLOSIO Route de Saint-\nDenis.\nL'ordre du jour étant épuisé, la séance est levée à 23 h 15.\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=4",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.0,
+      "text": "",
+      "text_sparse": "",
+      "ocr": {
+        "mean_conf": null,
+        "min_conf": null,
+        "low_word_fraction": null,
+        "words": 0
+      }
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "b3a24f6184395029880b19f44887771e5e63b7d61b2fb6d1ab716cda37c002f1",
+      "source_bytes": 66431,
+      "retrieved_at": "2026-10-08T16:16:25+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/d1058dea5120.json",
+      "diff_from_previous": null
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "document_id": "4a24c84ef2ce",
+  "version": 1,
+  "is_current": true,
+  "superseded_at": null,
+  "filename": "CRCM20080509.pdf",
+  "source_url": "https://web.archive.org/web/20081112035845/http://www.montolieu.fr/docs/CRCM%2020080509.pdf",
+  "source_sha256": "8d6a92d3c9c25414268ed3027bacd788d0ca278018806506bf121a1a5e163a0a",
+  "source_bytes": 37511,
+  "source_http": {
+    "etag": null,
+    "last_modified": null
+  },
+  "origin": {
+    "kind": "wayback",
+    "original_url": "http://www.montolieu.fr/docs/CRCM%2020080509.pdf",
+    "wayback_timestamp": "20081112035845",
+    "official_copy": "https://web.archive.org/web/20081112035845/http://www.montolieu.fr/docs/CRCM%2020080509.pdf",
+    "mirror_path": "archive/originals/CRCM20080509.pdf",
+    "mirror_url": "https://github.com/mgifford/EchoDeMontolieu/blob/main/archive/originals/CRCM20080509.pdf",
+    "date_hint_from_filename": "2008-05-09"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "This minutes file is no longer on the Mairie's site. source_url is the Internet Archive capture (the official copy); origin.mirror_url is our copy of the same file. source_sha256 is the hash of the file as downloaded from that capture.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "not applicable: an archived capture does not change; compare a file with source_sha256"
+  },
+  "retrieved_at": "2026-10-08T16:19:14+00:00",
+  "meeting_date": {
+    "value": "2008-05-09",
+    "source": "text layer, page 1: 'L’an deux mil huit et le neuf du mois de mai'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 7,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together.",
+    "produced_by": "software (extraction and OCR) written with AI assistance",
+    "human_reviewed": false,
+    "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+    "disclaimer": "This reading of the minutes was produced automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model rewrote the text: it is the Mairie's own wording, extracted from the PDF, and pages read by OCR are marked and can be misread. No person has checked it. The original PDF is authoritative."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://web.archive.org/web/20081112035845/http://www.montolieu.fr/docs/CRCM%2020080509.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n1\nL’an deux mil huit et le neuf du mois de mai à 20 h 45, le Conseil Municipal \ndûment convoqué s’est réuni sous la Présidence de Monsieur RICARD Edouard, \nMaire de Montolieu, dans la Salle du Conseil. \n \nÉtaient présents : RICARD, ETORE-LORTHOLARY, DIAZ, LASSERRE, LABESSEDE, \nLEROUX, MARTIN, CHAMBAUD, GALLUFFO, OLIVIER, PILLOSIO, GARACHON, BURTET, \nBOUYSSOU. \n \n \nAbsent excusé : ETIENNE procuration à GARACHON. \n \n           André MARTIN propose d'assurer le secrétariat de séance, le Conseil accepte. \n \nMonsieur le Maire demande s'il y a des modifications à apporter au compte rendu \ndu conseil précédent. \n     Pas de remarques : le compte rendu est adopté à l’unanimité \n \n1. Réunions des Commissions \nOnt été réunies   \n- \nLe 22 avril la commission des  associations,  \nA l’interrogation de M. le Maire sur la répartition des compétences en matière \nd’associations, J. Etoré répond qu’en tant que responsable de la Commission des \nAssociations elle ne souhaite pas établir de séparation entre les associations dites \nculturelles et les autres, et qu’elle rencontrera donc toutes en compagnie des adjoints \ndélégués et de tous les membres du Conseil que cela peut intéresser. \nL’agenda des rendez-vous est à la disposition de tous, sur le bureau du Maire. \nCelui-ci répond que les délégations de chacun ont été parfaitement définies \nainsi que les adjoints délégués aux commissions et les nominations de celle-ci. \nCe qui a été voté au Conseil Municipal du 04 Avril 2008 doit être respecté. \nLes délégations des adjoints municipaux fixent les interlocuteurs de 3 familles \nd’associations. \nPour chaque convocation par les responsables il est normal que l’adjointe \ndéléguée à la commission des associations soit présente. \n- Le 23 avril la commission finances,  \n- Le 5 mai la commission travaux,  \n \nLes comptes-rendus de ces commissions ont été soumis pour avis au conseil \nmunicipal du 25 avril 2008. \n           Restent à réunir : \n- La commission sociale, \n- Le CCAS, \n- La commission urbanisme.  \n \n2. Point sur les travaux \n- lotissement : \n- \nmodification du plan sur les lots pharmacienne et médecins, \n- \nfournir le document nécessaire à la dernière demande de subvention, \n- attente du document de la DDE sur les derniers textes relatifs à la nécessité \nde s’engager sur le plan actuel du lotissement avec l’obligation de caution, \nM. Chambaud indique que les opérateurs de logement social du type groupe \nMarcou achètent aussi le terrain (à un tarif moindre que les opérateurs privés) et \nproposent des sytèmes d’accession à ma propriété. \nA. Pillosio rappelle que l’aspect humain a au moins autant d’importance que \nl’aspect financier et qu’il importe de savoir quel type de population on peut recevoir : Un \njeune couple avec des enfants en bas âge a généralement des moyens limités, mais \napporte une vie nouvelle dans le village. \n \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://web.archive.org/web/20081112035845/http://www.montolieu.fr/docs/CRCM%2020080509.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n2\nDes contacts seront pris le plus rapidement possible (par l’intermédiaire de \nl’architecte) avec le goupe Marcou et d’autres opérateurs sociaux ou privés afin qu’ils \nexposent au Conseil leur offre. \n \n- école maternelle : \n- \nles travaux sont bien avancés, \n- \nprovisoirement suspendus pendant les classes ils reprendront le plus tôt \npossible,  \n- \nprévision de mise en location des appartements en septembre, \n- \nTVA 5.5, \n- \nplus value : 2504 euros, \n- \ntravaux annexes : protection sous toiture, fermer les trous par où pénètrent \nles pigeons, installation d’une climatisation pour les deux salles du rez de \nchaussée. \n \nJ. Etoré rappelle que M. Lavail a insisté sur le problème de l’approvisionnement \ndes appartements en électricité, ce point figurant déjà dans le compte rendu de rendez-\nvous de chantier du 17 avril. \n \n     - jeux de pétanque :  \n- \nplace de l’église :  \n. proposition de l’ABF de laisser cette place visible en reprenant le muret et \nen rajoutant une rambarde. Coût très élevé. La mise en place de ce garde-corps \nmétallique n’est pas retenue, \n. proposition de notre architecte : rehausser le muret en pierres qui arrive au \njuste au niveau de la place d’environ 15 centimètres, construire à cette même \nhauteur pour la partie qui reste et mettre un arrêtoir de boules en rondins. Le \nresponsable des travaux étudie la possibilité de réalisation,  \n- hameau des oliviers : un habitant du hameau a proposé de s’en occuper. \n \n- hangar technique : \n \n \n. étude de son emplacement pour 2009, \n \n \n. demande de devis, \n \n \n. accord pour créer une zone artisanale dans le cadre d’un projet cohérent. \n \n      - téléphones mairie : \n \n           . 5 téléphones qui ne peuvent être utilisés qu’à tour de rôle, \n \nJ.Etoré demande à ce que l’installation soit révisée d’urgence. \n \n           . Un certain nombre de conseillers souhaiteraient qu’un téléphone portable \nsoit mis à disposition de chacun des employés municipaux dans le cadre de son \ntravail. Un forfait de 10 euros mensuels payés aux employés techniques pour \nl’utilisation de leurs mobiles dans le cadre de leurs fonctions municipales. \n \n      - nettoyage et embellissement du village : \n      . la programmation du nettoyage est faite par le responsable des travaux, \n      . l’emplacement futur des poubelles est à étudier avec l’accord des \nhabitants. Remarques sur la proximité de l’église, les façons de les masquer et de les \nfixer sans créer de problèmes au ramassage des déchets par le SICTOM. \n \n            La 1ère et le 2ème adjoint en concertation les habitants sont chargés de faire \nun plan du village pour préciser leur emplacement définitif \n \n \n- éclairages  \n \n           Volonté du Maire d’éviter toute location de nacelle pour changer une \nampoule car le coût serait exorbitant, et de préserver la sécurité des employés- pont \nde Saissac :  \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://web.archive.org/web/20081112035845/http://www.montolieu.fr/docs/CRCM%2020080509.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n3\n. changer les 3 réverbères actuels conformément à la préconisation de \nl’ABF: 14 voix pour et une abstention,  \n. raccourcir les existants : rejeté \n                - parking Saint Denis : \n                                . utilisation des gaines d’arrivées conformément à la préconisation du \nCAUE : 15 voix pour.  \nJ. Etoré présente un modèle qui lui a été proposé par Mlle Serra, similaire \naux préconisations du CAUE. Ce modèle est retenu et sera commandé chez Lumi 11. \n \n \n \n           . installation d’un troisième réverbère à gauche en entrant pour \néclairer aussi la route : rejeté \n- l’église et pont de Saissac vu de l’Alzeau: à planifier \n \n3. Camping  \n            \nIl est prévu un débroussaillage par un CAT courant Juin et si possible son \nfonctionnement pendant la période estivale. \n \n \nJ. Etoré précise qu’une demande a été adressée au Conseil Général pour \nobtenir les clefs avant la signature de l’acte et qu’elle aboutira sans doute \nprochainement. \n \n \n \n \n4. Personnel et fonctionnement \n- effectifs du personnel cet été : \n. un maître nageur candidat, \n. 3 personnes pour la piscine, \n. 1 en remplacement du personnel technique en vacances, \n. 4 candidatures ont été présentées à la mairie pour le terrain de camping.  \n- horaires : \n. personnel technique : ils ont été revus pour obtenir une meilleure efficacité \nau travail par une organisation d’équipes complètes du lundi au vendredi, \n               . autre personnel : en examen pour répondre au mieux aux besoins des \nhabitants.  \n- portage des repas : la loi fixe les critères très stricts à respecter pour le \nportage.  \n     Lecture du texte. \n     Voir comment il sera possible de continuer. \n     Il est rappelé que le portage s’arrête comme tous les ans fin mai. \n    \n5. Communication \n     \n \nF. Diaz demande à ce que la sortie du bulletin soit repoussée à la fin juin où \nl’on pourra donner davantage d’informations, la proposition est acceptée. La \ncommission se réunira si possible le mercredi suivant. \n \n6. Urbanisme \n- Monsieur le Maire apporte les informations suivante :  \n \n          . village en perte de population : très inférieure à de 800 selon le dernier \nrecensement, \n               . plus de 80 demandes de constructions.  \n      Devant cette situation il demande d’agir vite en réunissant au plus tard fin mai la \ncommission urbanisme.  \n            Il propose d’examiner deux solutions : \n              . modification du POS en attendant l’aboutissement d’un PLU plus fin dont \nl’étude dure depuis trop longtemps \n \n \n. faire un PLU dans un délai très court \n                 Les études PLU seront à la disposition des Conseillers sur la petite table \nsituée dans la salle du Conseil dès les prochains jours. \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://web.archive.org/web/20081112035845/http://www.montolieu.fr/docs/CRCM%2020080509.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n4\n                 La rapidité de décision et le sérieux de l’étude sont les facteurs essentiels \npour que soit réglé définitivement ce délicat problème dans l’intérêt des habitants et \ndu village.  \n            Il ne sera pas possible de construire n’importe où compte tenu de \nl’environnement et de l’impossibilité financière pour la commune d’assurer les \nraccordements de voirie pour des constructions éloignées. \n            Toutefois une maison n’est pas une pollution visuelle si elle respecte les \nrègles qui régissent l’habitat. \n \n- \nAchat d’un terrain communal par un habitant du village. \nJ. Etoré constate que personne n’est en mesure de produire quelque \ndélibération que ce soit de l’ancienne municipalité sur ce sujet et qu’il n’y a pas eu \nd’enquête publique sur ce point, contrairement à ce qui a pu être colporté. \n    Le  conseil municipal se donne un mois de réflexion pour étudier cette \ndemande. \n \n     - Vente de la maison Craman et droit de préemption  \nLe  conseil municipal décide à l’unanimité de ne pas préempter. \n \n \n     - Ancienne boucherie : \n       L’idée est séduisante car elle permettrait d’ouvrir à nouveau un commerce au \ncentre du village.  \n       Nous manquons par ailleurs de locaux communaux. \n       Coûts d’achat et des réparations nécessaires trop élevés compte tenu du loyer \nqu’il faudra payer. \n       Non retenu dans le budget 2008 \n       Un tel investissement nécessite aux niveaux des risques : \n- \nune analyse sur l’évolution de notre capacité financière \n              -    une étude de marché qui tienne compte de l’évolution des boucheries des \nvillages voisins. \n \n7. Etude à réaliser  \n             Source Saint Michel : \n \n      \nL’Association des Capitelles a entrepris pour la deuxième fois de nettoyer \nles abords et de rechercher le tracé de la conduite de manière à mettre en place un \npoint d’eau à la disposition des habitants. \n \n \nLa Mairie n’a pas encore engagé d’étude à ce projet. \n \n      Départ de Madame Annick Pillosio qui donne procuration à Monsieur André \nMartin. \n                       \n8. Obligations administratives \n- Procédure judiciaire \n            Notre avocat Maître CIRERA nous informe que le Juge Commissaire à la         \nliquidation d’AQUATEC LME a retenu que la commune de MONTOLIEU n’ayant pas \nfait de déclaration de créance dans le délai de 6 mois de la publication au BODAC de \nla liquidation d’AQUATEC, elle ne peut être relevée de forclusion. \n            Le conseil municipal du 9 mai 2008, qui connaissance prise du rapport \nd’expertise judiciaire, autorise Monsieur le Maire Edouard Ricard à présenter \ndemande au Tribunal Administratif afin de pouvoir entériner l’expertise judiciaire, \ndéclarer AQUATEC et KORCHI responsables des désordres, malfaçons et des \ndommages consécutifs et à les voir condamner, solidairement avec leurs assureurs \nau paiement des sommes nécessaires aux travaux de reprise et à la réparation des \ndommages et troubles dans les conditions d’existence subis par la Commune, outre \naccessoires, frais et dépens. \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://web.archive.org/web/20081112035845/http://www.montolieu.fr/docs/CRCM%2020080509.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n5\nLe conseil municipal accepte que le cabinet SCP BOURLAND CIRERA CABEE \nBIVER Avocats à Carcassonne continue à nous assister pour le suivi de la procédure. \nIl autorise Monsieur le Maire à signer toute pièces afférentes à ce dossier.  \n          Vote : 14 pour et 1 abstention. \n \n     J. Etoré déclare qu’elle ne veut plus se pronocer pour quelque dépense \nsupplémentaire que ce soit dans cette affaire dont la poursuite lui paraît absurde. \n \n- Représentants des communes au service départemental d’incendie et de  \nsecours : liste fournie à la préfecture. \n \n     - Recolement des archives municipales : passation des archives en commune entre le \nmaire sortant et le maire entrant. \n \n \n- Nouvelle commission communale des impôts : \n           Nécessité pour Montolieu, outre le maire et le délégué adjoint, de faire \ndésigner par le conseil municipal les nominations 6 commissaires titulaires et \nde 6 commissaires suppléants à prendre dans la population avec 2 cas \nparticuliers : une personne non domiciliée dans la commune et un propriétaire \nde bois et forêt dans la mesure ou sur l’ensemble du territoire il en existe au \nmoins 100 hectares. \n \n- correspondant défense \n   Jean Marcel Etienne  \n \n \n9. Compte rendu sur les réalisations 2007 et le budget 2008 de la communauté de \ncommunes \n \nLes réalisations 2007 font apparaître un déficit cumulé de 156 380.37 € : \n \n \nLa section fonctionnement pour 34 404.75 € due à :  \n \n1- Une recette sur la TP inférieure au montant estimé provoquée par la \nréforme de cette taxe par le parlement : selon un calcul technique compliqué, une \naugmentation de la TP doit être prise en charge à 50% par l’Etat et à 50% par \nl’intercommunalité, ce qui entraîne donc une recette moindre. A cela s’ajoute un \nsystème de plafonnement qui a limité encore l’impact de l’augmentation  décidée \nl’année dernière. Désormais une augmentation des taux d’imposition de la TP est \ntrès aléatoire et doit avant tout être évaluée par une simulation afin de vérifier \nl’incidence exacte sur la recette fiscale induite. \n2- Un changement du mode de facturation de la crêche de Villesèquelande \nqui a entraîné l’affectation de 5 trimestres sur l’année 2007 puisque le trimestre 4 \nde 2006 a été affecté à cet exercice. La facturation au trimestre passe à une \nfacturation au forfait. \n3-Par le report du résultat antérieur d’un montant de 59 933.92 €, ce déficit \nest compensé et devient même un excédent de 25 529.17 € qui passe en recettes \nde fonctionnement et permet ainsi de moins augmenter les impôts. \n \nLa section investissement pour 121 975.62 € : \n \n \n1-Ce déficit est dû principalement à une subvention de 112 000 € attendue \nsur 2007 mais qui n’est pas arrivée à temps pour la comptabiliser en recette. Elle \nconcerne le tennis couvert de Ventenac. \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://web.archive.org/web/20081112035845/http://www.montolieu.fr/docs/CRCM%2020080509.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n6\n \n2-Par le report du résultat antérieur d’un montant de 82 338.83 €, ce déficit \nest ramené à 39 636.79 € et affecté en dépenses d’investissement. \n \n          Le budget annexe de l’atelier relais de Villesèquelande est équilibré : le loyer payé \npar la Cave Coopérative de Villesèquelande couvre le remboursement de l’emprunt \ncontracté pour la réalisation de cet atelier. \n \n \nLe budget 2008 est établi comme suit : \n \nLa section investissement se monte à  \n1 467 725.22 € \nLa section fonctionnement se chiffre à  \n   879 501.77 € \nSoit un total de  \n \n \n \n          2 347 226.99 € \n \nIl s’équilibre par une augmentation de la fiscalité de 13% des taux d’imposition des \nTH et TF, la TP restant sans changement pour les raisons évoquées ci-dessus. \nA noter que cette augmentation entraîne une augmentation de la fiscalité pour les \nménages de 5 à 10 € par foyer, sachant qu’il existe par contre un plafonnement \npour les revenus les plus faibles.  \n \n          La taxe d’enlèvement des ordures ménagères \n \nLà aussi une augmentation de cette taxe TEOM à hauteur de 7 % est  nécessaire \npour équilibrer le budget. Cette augmentation du poste Ordures Ménagères est dû \nà plusieurs facteurs : \n \n- \nLa DRIRE a déclassé le site de traitement de Dominique du niveau 3 au niveau 2 \npour plusieurs problèmes comme entre autres le manque de clôtures autour du \nsite, l’affichage des heures d’ouverture, etc … \n     Elle a en plus donné une amende  de 12 000 € pour des brûlages de matériaux non \nadmis sur le site. Même si cette amende a été « amortie » sur 3 exercices, son \nimpact sur le total des dépenses est perceptible. \n- \nEn conséquence de ce déclassement, certaines opérations de sous-traitance n’ont \nplus été possibles faute d’agrément, pour environ 15 000 €. \n- \nUn autre problème est la baisse de subventions accordées par le CNASEA sur 2 \nemplois affectés à cette activité représentant un manque de 20 000 €. \n \nUn débat s’est engagé sur les moyens de ramener le prix de revient de ce traitement des \nOM à un niveau plus raisonnable. Plusieurs pistes sont à explorer : \n \n1- Repasser en catégorie 3 pour remettre en place les opérations de sous-traitance et \nles développer : possible dès cette année car les manquements ont été traités. \n2- Travailler les différents déchets recyclables : bois, fer, électronique, … pour les \nvaloriser. \n3- Rapatrier Villesèquelande et Aragon sur le SICTDM pour amortir les dépenses. \n4- Au contraire, arrêter le SICTDM et adhérer ensemble au SMICTOM : moins cher \nmais attention à la qualité du service dans ce cas. \n5- A noter d’ores et déjà que l’amende de 12 000 € payée ne sera pas au prochain \nbudget. \n6- Important aussi : l’emprunt du camion poubelle se termine cette année. \n \n10. Questions diverses \n- futur Kiné : Mme Odile Petit de Pezens est candidate \nSon installation peut être prévue après le déménagement des médecins si nous ne \ntrouvons pas d’ci là un local approprié. \n- pigeons : ils abîment les toitures des maisons et des bâtiments communaux (église) \nIl est nécessaire de leur faire quitter Montolieu .  \nSolution envisagée : emploi d’un fauconnier.  \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://web.archive.org/web/20081112035845/http://www.montolieu.fr/docs/CRCM%2020080509.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n7\n     - glas : préparer la mise en service de cette belle cloche. \n     - aides à des associations non arrêtées le 25 avril et qui sont prises sur des \nprovisions du budget 2008 :  \n-    Subvention Aîkido : \n \n \n \n                               100   euros \nTous les Conseillers s’entendent à penser que l’organisation de cours d’aïkido \ngratuits depuis des années mérite le soutien de la municipalité. \n-    Aide exceptionnelle sur facture à la manifestation d’ÉBÉ : \n200 \neuros           \n-    Centre d’Art et de Littérature :                                                1500 euros  \nJ. Etoré rend compte de la rencontre avec Philippe et Bernadette Coquelet, \nresponsables du Centre d’Art et de littérature, avec M. Chambaud et J.L. Olivier. J.L. \nOlivier fait observer qu’il serait embarrassant, dans le contexte actuel de la politique \nculturelle intercommunale, que la Commune ne manifeste pas son soutien à l’initiative \nde la Cave. \nPour manifester ce soutien à l’action globale du Centre d’art et de littérature, un \nsubention de 1500  € lui sera accordée dans le cadre d’une action concertée au point \navec les différents partenaires. Une rencontre est prévue prochainement à cet effet. \n14 voix pour et 1 abstention. \n      - accord pour l’abattage d’un arbre à l’Espérou. \n- \npose de 3 panneaux avec plan du village.  \n- \nEn réponse à la demande de M. et Mme Barthés le conseil donne l’autorisation \npour la réfection du muret de leur cour aux dimensions existantes. \n \nLe prochain Conseil Municipal est fixé au Vendredi 6 Juin 2008 à 20 h 30.  \nUne réunion préparatoire des Conseillers aura lieu avant le Conseil Municipal. \n \nL’ordre du jour étant épuisé, la séance est levée à 23h30 \n \n \n"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "is_current": true,
+      "source_sha256": "8d6a92d3c9c25414268ed3027bacd788d0ca278018806506bf121a1a5e163a0a",
+      "source_bytes": 37511,
+      "retrieved_at": "2026-10-08T16:19:14+00:00",
+      "last_modified": null,
+      "superseded_at": null,
+      "record": "minutes/4a24c84ef2ce.json",
+      "diff_from_previous": null
+    }
+  ]
+}

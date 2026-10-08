@@ -1,5 +1,5 @@
 """Command line: python -m echo_montolieu
-{list,sync,extract,publish-record,render,translate-trial,generate,verify,keygen,redact,status,approve,publish,unpublish,whois} ..."""
+{list,sync,wayback,extract,publish-record,render,translate-trial,generate,verify,keygen,redact,status,approve,publish,unpublish,whois} ..."""
 import argparse
 import json
 import sys
@@ -24,6 +24,19 @@ def main(argv=None):
 
     p_list = sub.add_parser("list", help="list minutes PDFs (one polite request)")
     p_list.add_argument("--cache", default=".cache")
+
+    p_wb = sub.add_parser(
+        "wayback", help="recover minutes missing from the live site from the Internet Archive")
+    p_wb.add_argument("--cache", default=".cache")
+    p_wb.add_argument("--private", default="private")
+    p_wb.add_argument("--archive", default="archive", help="folder for the mirrored originals")
+    p_wb.add_argument("--captures", default="data/wayback_captures.json",
+                      help="saved CDX listing; fetched (one request) if missing or with --refresh")
+    p_wb.add_argument("--refresh", action="store_true")
+    p_wb.add_argument("--tessdata", default=None)
+    p_wb.add_argument("--limit", type=int, default=None)
+    p_wb.add_argument("--delay", type=float, default=10.0)
+    p_wb.add_argument("--dry-run", action="store_true", help="list what would be downloaded")
 
     p_sync = sub.add_parser(
         "sync", help="fetch new minutes politely and extract them to the private folder")
@@ -274,6 +287,28 @@ def main(argv=None):
     elif args.cmd == "whois":
         print(json.dumps(Pseudonymiser.from_environment(args.private).whois(args.identifier),
                          ensure_ascii=False, indent=2))
+    elif args.cmd == "wayback":
+        from . import wayback
+        cap_path = Path(args.captures)
+        if args.refresh or not cap_path.exists():
+            captures = wayback.fetch_captures()
+            cap_path.parent.mkdir(parents=True, exist_ok=True)
+            cap_path.write_text(json.dumps(captures, ensure_ascii=False, indent=1), encoding="utf-8")
+        else:
+            captures = json.loads(cap_path.read_text(encoding="utf-8"))
+        items = wayback.choose_minutes(captures)
+        if args.dry_run:
+            json.dump({"meetings": len(items), "items": [
+                {k: i[k] for k in ("name", "date_hint", "mimetype", "wayback_url")} for i in items]},
+                sys.stdout, ensure_ascii=False, indent=2)
+            print()
+            return
+        fetcher = PoliteFetcher(args.cache, min_delay=args.delay)
+        report = wayback.sync_wayback(fetcher, args.private, args.archive, items,
+                                      tessdata_dir=args.tessdata, limit=args.limit)
+        json.dump(report, sys.stdout, ensure_ascii=False, indent=2)
+        print()
+        sys.exit(report["exit_code"])
     elif args.cmd == "sync":
         fetcher = PoliteFetcher(args.cache, min_delay=args.delay,
                                 archive_dir=Path(args.private) / "archive")
