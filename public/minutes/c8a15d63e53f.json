@@ -1,0 +1,58 @@
+{
+  "document_id": "c8a15d63e53f",
+  "filename": "CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf",
+  "source_sha256": "c8a15d63e53f279968b0d90651686f46af6641737e41d531cb41492bfafbb859",
+  "source_bytes": 118758,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Thu, 23 Jul 2026 11:39:04 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:39:59+00:00",
+  "meeting_date": {
+    "value": "2026-06-26",
+    "source": "text layer, page 1: '26 JUIN 2026'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 2,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \nCONSEIL MUNICIPAL DU 26 JUIN 2026 \n \nL’an deux mille vingt-six et le 26 juin à 19 h 30, le Conseil Municipal dûment convoqué s’est réuni \nsous la Présidence de Monsieur SAFONT Jacques, Maire de Montolieu, à la salle d’honneur de la \nmairie de Montolieu. \n \nEtaient présents : \nAurélie BARBERO, Thierry BOST, Jeanne ETORÉ-LORTHOLARY, Marbouba ETIENNE, Éric OLIVIER, \nChristophe PECH, Jacques SAFONT, Jérémie SANDILLON, Aude SOULIÉ. \n \n \nEtaient absents : \nRené LABESSEDE procuration à Jacques SAFONT \nJean-Paul PUJADE procuration à Christophe PECH \nJean-Luc OLIVIER procuration à Jeanne ETORÉ-LORTHOLARY \nAgnès PAUTOU procuration à Aude SOULIÉ \nMyriam GUIRAUD procuration à Marbouba ETIENNE \nCéline SALA \nLa séance est ouverte à 19h34 minutes. \n \nSecrétariat de séance \n \nMme ETIENNE Marbouba se propose d'être secrétaire de séance. \n \n \n \nVote du Conseil à l'unanimité. \n \nOrdre du jour \n \n- Approbation du PV du 05/06/2026 \n- Redevance d'occupation du domaine public : appartement n°2 Maternelle \n- Modification de la régie piscine municipale  \n \nAPPROBATION DU PV DU CONSEIL MUNICIPAL DU 05 JUIN 2026 \n \nApprobation du PV du 05/06. \nLe procès-verbal a été communiqué par mail à l’ensemble des conseillers. \n \nVote du conseil à l'unanimité. \n \nREDEVANCE D’OCCUPATION DU DOMAINE PUBLIC : APPARTEMENT N°2 MATERNELLE \n \nLa municipalité souhaite louer l’appartement n°2 de la maternelle. \nM. le Maire expose qu’il y a lieu de délibérer sur le montant du loyer. \nLa réglementation indique que les contrats qui lient la commune avec ses locataires lorsque \nl’appartement est attaché à un bâtiment public ne sont pas des baux mais des redevances \nd’occupation du domaine public. \nL’appartement non meublé et de type T3, il se situe au 1er étage de l’école maternelle. \nIl sera loué pour une durée de 6 ans. Les loyers seront payés mensuellement et à terme échue. \nUne caution d’un mois sera demandée dès la signature du contrat de redevance. \nM. le maire propose le prix de 530,00€ avec eau compris dans le loyer. \n \nVote du conseil à l'unanimité. \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/07/CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": " \n \nMODIFICATION DE LA REGIE PISCINE MUNICIPALE \n \nDepuis le 10 juin 2026 des seuils nationaux sont mis en place avec un contrôle automatique du \nmontant et du nombre d’opérations mensuelles autorisés lors de la saisie sur le portail DIGIFIP \nLimite : 1 dépôt de pièces et 1 dépôts de billets autorisés par mois. \n \nLe montant maximum de l’encaisse que le régisseur est actuellement autorisé à conserver est \nfixé à 8 000,00€. Il est proposé au conseil municipal d’augmenter ce montant d’encaisse à 11 \n000,00€. \n \n \nVote du conseil à l'unanimité. \n \n \nINFORMATION \n \n- \nCOMPOSITION DE LA CCID \n \nLors du précédent conseil, il a été choisi 24 contribuables pour la composition de la \ncommission des Impôts Directs \nM. le Maire explique que celle-ci comportait une erreur puisque lui-même est, de droit, \nmembre de la commission en tant que Maire. \nIl a demandé à une autre personne, M. Jamel GHARBI a donc intégré la liste des 24. \n \n \nL’ordre du jour étant épuisé la séance est levée à 19H40 minutes. \n"
+    }
+  ]
+}

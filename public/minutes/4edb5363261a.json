@@ -1,0 +1,83 @@
+{
+  "document_id": "4edb5363261a",
+  "filename": "Projet-CM-15-avril-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf",
+  "source_sha256": "4edb5363261accfdebc80bf28adcf1d2de907625a82eb57785fca892df4ddf55",
+  "source_bytes": 360364,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 27 Dec 2024 09:07:39 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T10:12:00+00:00",
+  "meeting_date": {
+    "value": "2024-04-15",
+    "source": "text layer, page 1: '15 AVRIL 2024'",
+    "status": "tentative"
+  },
+  "draft_suspected": true,
+  "page_count": 4,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \nCONSEIL MUNICIPAL DU 15 AVRIL 2024 à 19 h 30 \n \nL’an deux mille vingt-quatre et le 15 avril à 19 h 30, le conseil municipal dûment convoqué s’est réuni sous \nla présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de Montolieu. \n \nEtaient présents :  \nCécile AGASSE, Magalie BOST- BERGÉ Antoine CASAS-HARILLO, Laure ESCARÉ, Jeanne ETORÉ-LORTHOLARY, \nJamel GHARBI, Bernard LAURET, Valérie MONRAISIN, Éric OLIVIER, Jean-Luc OLIVIER, Vincent PICQUE, \nJacques SAFONT.  \n \n \nEtaient absents :  \n \nCéline SALA procuration à Eric OLIVIER \nAurélie BARBERO, procuration à Magalie BOST- BERGÉ \n \nLa séance est ouverte à 19h34 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat de séance. \nLa proposition est retenue à l’unanimité. \n \nOrdre du jour \n- \nApprobation du procès-Verbal du conseil du 4 avril 2024 ; \n- \nVote des budgets 2024 \n- \nInformations \nVOTE POUR INSCIRPTION A L’ORDRE DU JOUR DE DEUX POINTS COMPLEMENTAIRES \n \nBernard Lauret propose que deux points soient rajoutés à l’Ordre du Jour de ce conseil \n- \nLa première sur la vente de la parcelle cadastrée AB0341 \n- \nLa deuxième suite à la demande de Monsieur Didier Almont \nJeanne ETORÉ-LORTHOLARY demande à quoi correspond la parcelle, Laure ESCARÉ lui précise qu’il s’agit de \nla maison dite maison Afrit. \nEn l’absence d’opposition, les deux points seront donc traités après le vote sur le budget. \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 4 AVRIL 2024 \n \nLe procès-verbal a été communiqué mardi 9 avril par mail à l’ensemble des conseillers.  \n• Le procès-verbal est adopté par 13 voix pour et une abstention. \n \nBUDGET 2024  \n \nLaure ESCARÉ rappelle les principaux équilibres du budget 2024, présenté le 4 avril dernier. \nLa section de fonctionnement représente 1 099 916 euros dont 64 % sont financés par les impôts et taxes. \nLes charges de personnel et les charges générales représentent respectivement 44 % et 31 % des dépenses. \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.408,
+      "text": "2 \n \n \nConcernant la section d’investissement, elle s’établit à 1 450 869 € dont 54% sont couverts par des \ndotations et subventions.  \nLa commune finance pour 84 % des dépenses d’équipement, 5 % de remboursement de capital emprunté. \nLe déficit reporté de 2023 à 2024 est de 157 879 € soit 11 % des dépenses (contre 259 350 € et 27 % en \n2023) \n \n \n \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=3",
+      "method": "tesseract",
+      "status": "machine_read",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.495,
+      "text": "\"4 MF 9”\nTL\n\n1213790 €\nInfrastructures\n\n1 362€ / habitant\n\n— _ ———\n\nCNE\n\n962 789 €\nAdmin générale\n\n1 081€ / habitant\n\nA(K((O\n\nLen\nveuf\nto”\n>\n\n7 414€\nAutres dépenses\n\n8€ / habitant\n\n110 200 €\nRembours dette\n\n124€ / habitant\n\nDépenses Réelles de Fonctionnement (DRF)\n\nRecettes Réelles de Fonctionnement (RRF)\n\nDépenses d'équipement brut (investissements réalisés)\nEncours de la dette\n\nDotation globale de fonctionnement (versée par l'État)\nDépenses de personnel / DRF\n\nDépenses de fonct et remboursement de dette / RRF\nDépenses d'équipement brut / RRF\n\nEncours de la dette / RRF\n\nÉpargne brute / RRF\n\n1 124€/Hab\n\n1 190€/Hab\n\n1 362€/Hab\n\n460€/Hab\n\n154€/Hab\n\n49%\n\n102%\n\n115%\n\n39%\n\n6%\n\nLes ratios transmis sont prévisionnels et à rapprocher des résultats réels de 2023 :\n\nDépenses Réelles de Fonctionnement (DRF)\n\nProduit des impositions directes (fiscalité perçue)\nRecettes Réelles de Fonctionnement (RRF)\n\nDépenses d'équipement brut (investissements réalisés)\nEncours de la dette\n\nDotation globale de fonctionnement (versée par l'État)\nDépenses de personnel / DRF\n\nDépenses de fonct et remboursement de dette / RRF\nDépenses d'équipement brut / RRF\n\nEncours de la dette / RRF\n\n1 073€/Hab\n\n482€/Hab\n\n1 257€/Hab\n\n165€/Hab\n\n460€/Hab\n\n153€/Hab\n\n50%\n\n92%\n\n13%\n\n37%\n\n> Le conseil vote le collectif budgétaire initial par 11 voix pour, une abstention et deux voix\n\ncontre.\n",
+      "text_sparse": "LM\n\nmu\n\nN\n\nap Yes\n\n>< EF”\n\nvS Se\n\n\"of Sp”\n\n|\n\nTL\n\nafp\n\n<<\n\n1213790 €\n\n962 789 €\n\n110 200 €\n\n7 414€\n\nInfrastructures\n\nAdmin générale\n\nRembours dette\n\nAutres dépenses\n\n1 362€\n\nhabitant\n\nDépenses Réelles de Fonctionnement (DRF)\n\n1 124€/Hab\n\nRecettes Réelles de Fonctionnement (RRF)\n\n1 190€/Hab\n\nDépenses d'équipement brut (investissements réalisés)\n\n1 362€/Hab\n\nEncours de la dette\n\n460€/Hab\n\nDotation globale de fonctionnement (versée par l'État)\n\n154€/Hab\n\nDépenses de personnel / DRF\n\n49%\n\nDépenses de fonct et remboursement de dette / RRF\n\n102%\n\nDépenses d'équipement brut / RRF\n\n115%\n\nEncours de la dette / RRF\n\n39%\n\nÉpargne brute / RRF\n\n6%\n\nLes ratios transmis sont prévisionnels et à rapprocher des résultats réels de 2023 :\n\nDépenses Réelles de Fonctionnement (DRF)\n\n1 073€/Hab\n\nProduit des impositions directes (fiscalité perçue)\n\n482€/Hab\n\nRecettes Réelles de Fonctionnement (RRF)\n\n1 257€/Hab\n\nDépenses d'équipement brut (investissements réalisés)\n\n165€/Hab\n\nEncours de la dette\n\n460€/Hab\n\nDotation globale de fonctionnement (versée par l'État)\n\n153€/Hab\n\nDépenses de personnel / DRF\n\n50%\n\nDépenses de fonct et remboursement de dette / RRF\n\n92%\n\nDépenses d'équipement brut / RRF\n\n13%\n\nEncours de la dette / RRF\n\n37%\n\n> Le conseil vote le collectif budgétaire initial par 11 voix pour, une abstention et deux voix\n\ncontre.\n",
+      "ocr": {
+        "mean_conf": 87.5,
+        "min_conf": 0,
+        "low_word_fraction": 0.07,
+        "words": 213
+      }
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "4 \nVENTE PARCELLE CADASTREE AB0341 \n \nBernard LAURET fait part d’un nouvel arrangement entre les deux voisins de la parcelle, sans changement \ndu prix de vente. \nCécile AGASSE ne prend pas part au vote. \n➢ Le conseil vote par 12 voix pour et deux contre la vente de la parcelle selon le nouveau \nprotocole. \n \nDEMANDE DE MONSIEUR DIDIER ALMONT  \nMonsieur ALMONT qui tient « la compagnie du voyageurs » au pôle culturel souhaite que la mairie \nréinstalle à l’angle de la rue du collège le panneau indicateur pour l’apostrophe tel qu’il avait été positionné \npour la saison 2023. \nBernard Lauret rappelle que ledit panneau avait été accepté pour la saison 2023, dans l’attente des travaux \nqui devaient être menés pour permettre l’utilisation de l’entrée principale du pôle via l’impasse de la \nmanufacture. \nOutre le fait que ledit panneau avait été maintenu au-delà de la saison estivale (il devait être enlevé lors \ndes travaux du PAVE, à l’origine prévus à l’automne 2023), il s’avère que la remise en état de l’entrée \nprincipale n’a pas été faite. \nIl propose que les panneaux indicateurs antérieurs à cette opération soient remis en place. \nAntoine CASAS HARILLO intervient et précise qu’il n’y a pas que l’apostrophe à indiquer mais que le pôle \nculturel compte un certain nombre d’artistes, de galeries et lieux d’exposition. \nJeanne ETORÉ-LORTHOLARY rappelle que les coûts de réparation du porche sont exorbitants, qu'une \nsouscription a été ouverte à cet effet, que le problème serait peut-être à réétudier avec les intéressés. \nElle suggère que l’on mette plus de lames, afin de pouvoir indiquer l’ensemble des propositions offertes à la \nvisite. \nLaure ESCARÉ précise que l’ancienne lame indiquant l’apostrophe a été conservée par les gérants de \nl’apostrophe. Le panneau posé l’année dernière est à l’atelier, il sera à restituer. Il est proposé que ce \ndernier soit positionné par les gérants à côté de la porte de la deuxième entrée en haut de la rue des \nPyrénées. \n Après échange, le conseil vote à l’unanimité, la mise en place de plusieurs lames selon le modèle standard \nde la commune, permettant d’indiquer non seulement l’apostrophe mais aussi les exposants payant un \nloyer régulier au pôle culturel, et les lieux d’expositions (salle Ramel par exemple). Il est rappelé que pour \nles nouveaux installés la première lame est gratuite. \n \nINFORMATION \n \nMonsieur le maire informe le conseil que dans le cadre de la loi portant sur la nouvelle organisation de la \nRépublique (dite loi NOTRe), le Département s’est vu confier des compétences en matière de solidarités et \nde cohésion territoriale sur le territoire départemental. \nLa loi relative à la différenciation, la décentralisation, la déconcentration et la simplification de l’action \npublique locale (dite loi 3DS) dispose que le Département doit désormais élaborer un schéma \ndépartemental de la solidarité territoriale. \nCe schéma définit pour une durée de six ans un programme d’actions destiné à permettre, dans les \ndomaines de compétences du Département, un développement équilibré du territoire départemental afin \nde faciliter l’accès aux services et équipements de proximité. \nCe nouveau schéma sera présenté à l’assemblée départementale le 20 juin prochain. Comme prévu par la \nloi, il est soumis en amont pour avis au Conseil régional, aux organes délibérants des communes et des \nétablissements publics de coopération intercommunale à fiscalité propre situés sur le territoire \ndépartemental. \nDans ce cadre, la commune dispose de 2 mois pour transmettre son avis sur le projet de schéma. \nCe dernier sera transmis aux conseillers dans la semaine et porté à l’ordre du jour d’un prochain conseil.  \nLa date limite pour rendre l’avis est le 5 juin 2024. \nL’ordre du jour étant épuisé, la séance est levée à 20 h 09 \n"
+    }
+  ]
+}

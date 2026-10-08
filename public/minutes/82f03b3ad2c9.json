@@ -1,0 +1,112 @@
+{
+  "document_id": "82f03b3ad2c9",
+  "filename": "CRCM-6-MARS-2025-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf",
+  "source_sha256": "82f03b3ad2c9022f65caa05a6e7c1dda3406ab1105777508f861074714b159bb",
+  "source_bytes": 462534,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 25 Apr 2025 13:34:41 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:37:24+00:00",
+  "meeting_date": {
+    "value": "2025-03-06",
+    "source": "text layer, page 1: '6 MARS 2025'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 8,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \n \nCONSEIL MUNICIPAL DU 6 MARS 2025 à 20 h 00 \n \nL’an deux mille vingt-cinq et le 6 mars à 20 h 00, le conseil municipal dûment convoqué s’est réuni \nsous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de Montolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Antoine CASAS-HARILLO, Laure ESCARÉ, Jeanne ETORÉ-\nLORTHOLARY, Jamel GHARBI, Bernard LAURET, Valérie MONRAISIN, Éric OLIVIER, Vincent \nPICQUE, Jacques SAFONT.  \n \n \nEtaient absents :  \nMagalie BOST- BERGÉ, procuration Eric OLIVIER \nJean-Luc OLIVIER, procuration Jacques SAFONT \nCéline SALA, procuration Aurélie BARBERO \n \nLa séance est ouverte à 20 h 04 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat de séance. \nJeanne ETORÉ-LORTHOLARY indique qu’elle s’abstiendra. Elle ajoute que cette abstention n’est \npas dirigée personnellement contre Laure Escaré mais contre un mode de fonctionnement qu’il lui \nparaîtrait par ailleurs souhaitable qu’un membre du secrétariat assiste à la séance.  \nLa proposition de Laure ESCARÉ est retenue par 13 voix pour et une abstention  \n \nOrdre du jour \n- \nApprobation du procès-Verbal du conseil du 14 janvier 2025 \n- \nMarché de rénovation de l’église St André – choix des entreprises \n- \nMise à jour de la tarification sociale de la cantine \n- \nConvention de financement avec le COVALDEM pour le financement de mobiliers urbains \n- \nConvention avec le SYADEM pour un diagnostic de l’éclairage public \n- \nAffectation d’un don de 200 euros au profit du CCAS \n- \nMutualisation de marchés avec Carcassonne Agglo \n- \nMontant de la participation de la commune au GIP Cérès Franco \n- \nDroits de préemption                                                                                                                            \n- \nInformations \n \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 14 JANVIER 2025 \n \nLe procès-verbal a été communiqué avec la convocation. \nIl est approuvé à l’unanimité des membres du conseil \n \n \n \nMARCHÉ DE RENOVATION DE L’ÉGLISE ST ANDRÉ- CHOIX DES ENTREPRISES \n \nMonsieur le Maire rappelle que la commission d’appel d’offre s’est réunie le 7 février 2025. Madame \nLucie Lagarde, du cabinet d’architecture Caroline Serra a présenté le rapport d’analyse des offres \ndes entreprises. \nIl est rappelé que le marché concerne la phase 1 de la restauration de l’église St André de Montolieu, \nqui comporte 1 tranche ferme, et 3 tranches optionnelles. \nDans l’immédiat seule la tranche ferme est programmée et des subventions ont été attribuées par \nla DRAC, et la région. Le montant des travaux de cette tranche ferme est évalué à 303 721,53 HT ; \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.049,
+      "text": "2 \n \nPour chaque lot, une offre au moins a été faite. Toutefois, un lot n’a pas été attribué, en effet après \nnégociation et ajustement de certains prix, l’offre de l’entreprise apparaissait toujours comme étant \nsurévaluée. La maîtrise d’œuvre a donc proposé au maître d’ouvrage de considérer l’offre \ninacceptable et de relancer le lot. Dans la mesure où le lot plâtrerie n’intervient pas en tranche \nferme, la nouvelle consultation, ne retardera pas le démarrage du chantier. \n \nA l’issue de la commission d’appel d’offre ont donc été retenue les entreprises suivantes  \n \nLOT \nEntreprise retenue \nMontant estimé  (HT) \nLot 1 maçonnerie- pierre de \ntaille \nSAS RBMH \n624 569,37 € \n (mission de base) \nLot 2 charpente- couverture \nSAS RBMH \n141 950,06 € \nLot 3 plâtrerie \nMarché infructueux \n77 661,00 €  \n(estimation MOE) \nLot 4 menuiserie \nATELIER BERNARD GUERIN \n48 747,88 € \nLot 5 vitrail \nEN VERRE CONTRE TOUT \n33 252,86 € \nLot 6 décors peints \nPAILLARD BOYER \n157 009,51 € \nLot 7 campanaire \nBODET CAMPANAIRE \n84 997,77 € \nTOTAL \n1 168 188,45 € \n \nNb pour la tranche ferme le montant validé suite à la commission d’appel d’offre est de : \n 281 516,83 € HT. \nLe conseil vote à l’unanimité l’attribution des lots du marchés tels que proposés par la commission \nd’appel d’offre du 7 février. \n \n \nMISE A JOUR DE LA TARIFICATION SOCIALE DE LA CANTINE \n \nMonsieur le maire, rappelle que la tarification sociale de la cantine a été mise en place lors de la \nrentrée 2021/2022 pour 3 ans \nIl convient donc de la renouveler pour l’année en cours \nLes tarifs et tranche de QF ont été déterminés à l’origine de la façon suivante: \n \n \n \nLa proposition est de ne pas modifier les tranches de QF, et de garder la même tarification pour la \ntranche la plus basse soit 1 €, condition nécessaire pour obtenir le complément versé par l’Etat. \nDeux options sont ensuite possibles maintenir la tarification actuelle ou l’augmenter pour les deux \nautres tranches ou l’une des deux autres : 2,5 €, et 3,50 € par exemple. \nLe coût actuel d’un repas avec le prestataire API est de 4,23 € TTC. Pour information, le coût de la \nprestation sur le mois de janvier 2025 est de 3384,44 € pour 800 repas. \n \nAprès échanges, le conseil vote à l’unanimité le renouvellement en l’état de la tarification pour la \ncantine. \nUne nouvelle proposition de barème sera proposée pour la rentrée 2025/2026. \n \nIl est indiqué qu’à la suite de plusieurs remontées sur la qualité de la prestation fournie par API, des \nrecherches sont en cours sur la possibilité d’un changement de prestataire, notamment du fait de la \nmise en place du projet alimentaire territorial de Carcassonne Agglo. La cuisine centrale de la \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.176,
+      "text": "3 \n \nplateforme médico logistique de Carcassonne, en partenariat avec la chambre d’agriculture de \nl’Aude propose un service de restauration scolaire. Des contacts seront pris pour la prochaine \nrentrée.  \n \nCONVENTION DE FINANCEMENT AVEC LE COVALDEM POUR L’ACQUISITION DE MOBILIER \nURBAIN \n \nDans le cadre de l’aménagement paysager des points de collecte, le COVALDEM propose une \nconvention de financement pour l’acquisition de mobilier urbain. \nCette convention prévoit une aide de 800 euros forfaitaire par point de collecte. \nTrois points de collecte sont prévus : au pont du couvent, au parking St Denis, au futur emplacement \nsur le lotissement Valsiger pour un total de 8 289,60 €. ; \nCompte tenu du financement du COVALDEM la dépense pour la commune serait donc de 5889,60€. \n \nLe conseil vote à l’unanimité : \n• L’autorisation à Monsieur, le Maire pour signer la convention  \n• Il précise que les dépenses correspondantes seront inscrites au budget 2025 à la section \ndes investissements. \n \nCONVENTION AVEC LE SYADEN POUR UN DIAGNOSTIC DE L’ECLAIRAGE PUBLIC \n \nLors de sa séance du 24 novembre 2024, le Conseil municipal a autorisé la signature d’une \nconvention avec un volet financier portant sur une opération de renforcement sur le réseau de \ndistribution d’électricité, opération touchant également l’éclairage public, le tout dans le cadre des \ntravaux sur le musée Cérès Franco. \nCette convention prévoit une subvention atténuant le coût de l’opération pour la mairie. \nLa demande de subvention nécessite, la signature par la mairie d’une autre convention  \nEn effet depuis le Comité Syndical du SYADEN d’octobre 2021, pour pouvoir bénéficier des \nsubventions, les communes doivent être inscrites à la mission de diagnostic éclairage public du \nSYADEN. \nCe diagnostic comprend : \n• \nUn inventaire complet du parc éclairage de la commune ; \n• \nLa réalisation d’une cartographie géoréférencée en classe A (conformément à la réforme \nDT/DICT) \n• \nUn bilan financier et énergétique de l’installation actuelle ; \n• \nUn contrôle normatif de l’installation ; \n• \nUn schéma directeur de rénovation. \n \nLe coût de la mission pour la commune de Montolieu serait de 3 309,60 € ttc (tranches \nconditionnelles comprises) \n \nLe projet de convention et le bulletin d’adhésion ont été transmis avec la convocation au conseil de \nce jour. \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "4 \n \nLe conseil vote à l’unanimité \n- \nL’adhésion de la commune à la mission de diagnostic d’éclairage public \n- \nL’autorisation au maire de signer la convention et le bulletin d’adhésion \n- \nL’inscription des dépenses au budget 2025, à la section de fonctionnement. \n \n \nAFFECTATION D’UN DON AU PROFIT DU CCAS \n \nMonsieur le Maire informe le conseil municipal qu’un particulier a souhaité faire un don au CCAS \nen réparation d’une dégradation de panneaux signalétiques à la suite d’un accident. \nLe don est de 200 € \nMonsieur le Maire demande au conseil municipal de délibérer sur l’acceptation de ce don. \n \nAprès en avoir délibéré, à l’unanimité, le conseil municipal : \n- \naccepte le don d’un montant de 200,00 EUR (deux cents euros)  \n- \nau profit du CCAS de la commune de Montolieu; \nIl est précisé que ces sommes seront imputées à l’article – Libéralités reçues au budget du CCAS \nde MONTOLIEU; \n \n \nMUTUALISATION DE MARCHE AVEC CARCASSONNE AGGLO \n \nPar courrier du 19 février dernier, Monsieur Régis Banquet rappelle aux communes qu’elles peuvent \nbénéficier d’Achats mutualisés par le recours à des groupements de commande permanents, \nauxquels les collectivités peuvent adhérer. \nLa procédure de passation des marchés concernés est gérée par les services de l’Agglo, jusqu’à \nleur notification. \nEnsuite chaque commune adhérente assure l’exécution des marchés pour ses besoins propres : \ncommande et paiement. \nLa liste des marchés qui vont être relancés ou des nouveaux marchés proposés est la suivante : \nPour les marchés relancés \n- Prestations d’assistance et de conseils juridiques \n- Prestations topographiques \n- Fourniture de fioul \n- Fourniture de papier \nPour les nouveaux marchés \n- Prestations de vérifications périodiques (conformité électrique, SSI, moyen de secours, aires de \njeux et équipements sportifs, machines, échelles, EPI, chapiteaux, tentes et structures, diagnostic \namiante avant travaux, DPE, contrôle air intérieur ERP, RVRAT) \n \nLes communes ont jusqu’au 17 mars pour se faire connaitre si elles sont intéressées. \nD’après les retours de communes participantes, l’avantage du groupement de commande est \nsurtout la qualité négociée des services, mais les prestations d’assistance et de conseils, ainsi que \nles prestations topographiques permettent aussi d’avoir des tarifs plus compétitifs pour les petites \ncommunes. \n \nAprès échange, le conseil vote à l’unanimité l’adhésion aux marchés \n- Prestations d’assistance et de conseils juridiques \n- Prestations topographiques \n- Prestations de vérifications périodiques \n \nBernard Lauret ajoute que Carcassonne Agglo propose aussi une mise à disposition pour 6 ½ \njournées par an de matériel d’entretien (avec chauffeur), ou de prestation de nettoyage des espaces \nverts.  \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.137,
+      "text": "5 \n \nDans l’attente d’une solution plus pérenne, compte tenu du nombre de chemins à entretenir, un \nrecours (après signature d’une convention) à cette proposition, et à la CUMA peut permettre de \ncompenser les difficultés rencontrées avec l’épareuse communale. \n \n \nDEMANDE D’AUGMENTATION DE LA PARTICIPATION DE LA COMMUNE AU GIP -MUSÉE \nCÉRES FRANCO \n \nL’Assemblée générale du Groupement d’intérêt public qui administre La Coopérative- Musée Cérès \nFranco s’est tenue le 17 janvier. \nL’objectif d’obtention du label « Musée de France » (qui permet de s’assurer le soutien de l’Etat par \nl’intermédiaire de la DRAC et garantit la sauvegarde des collections au sein des collections \nnationales quels que soient les aléas) et la réouverture en 2026 imposent un certain nombre \nd’exigences qui engendrent un coût et augmentent le budget prévisionnel de l’année 2025.  \nAussi a-t-il été demandé que la commune s’associe à l’effort financier de la région, de l’Agglo et \nd’un mécène privé et augmente sa participation au budget 2025 de 1000 à 2000 euros. \nEléments de contexte pour juger du montant du complément exceptionnel au titre de 2025 \nPour rappel l’extension du réseau électrique (Cf. CM du 24 novembre 2024) entraîne déjà un coût \nde 13 094,40€ dont il faut déduire la subvention du SYADEM de 6 547,20 €, porté par la section \nd’investissement du budget 2025. Par ailleurs le montant versé au titre des travaux sur cette année, \négalement sur la ligne d’investissement s’établira à 7000 euros. \n \nMonsieur le maire donne la parole à Jeanne ETORÉ-LORTHOLARY, représentante de la commune \nau GIP. \nCette dernière souligne les efforts financiers consentis par la région, l’agglo et le mécène, afin de \nfaire face à ses dépenses supplémentaires. La commune étant membre à part entière du GIP ne \npeut rester en dehors de cet appel, sachant le bénéfice à terme pour Montolieu de vois s’ouvrir un \nmusée labellisé « musée de France ». \n \nLe conseil vote à l’unanimité l’augmentation de la participation communale et la fixe à 1 500 euros \n \nDROITS DE PRÉEMPTION \n \n \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nB \n400 \nSaint-Roch \n4680 m² \n \nUsage : \n \nParcelle en nature de lande et terre \n \n \nPrix de vente :  \n468,00 euros \nVendeur(s) :   \nMELET André \n \n \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.141,
+      "text": "6 \n \n \nCette parcelle est incluse dans le périmètre protégé au titre de l’inscription de la colline St Roch. \n \nLe conseil décide à l’unanimité d’exercer le droit de préemption sur cette parcelle. \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nC \n154 \nSainte-Croix \n3032 m² \nC \n155 \nSainte-Croix \n4435 m² \n \nUsage : \n \nParcelle en nature de lande et terre \n \n \nPrix de vente :  \n746,50 euros \nVendeur(s) :   \nMELET André \n \n \n \nLe conseil s’oppose à l’unanimité à l’exercice du droit de préemption \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nE                    \n157 \nLAS FAICHOS \n2356 m² \nE \n158 \nLAS FAICHOS \n5878 m² \nE \n159 \nLAS FAICHOS \n3130 m² \nE \n165 \nLAS FAICHOS \n6580 m² \n \n \n \n \n \n \n \n \n \nUsage : \nAgricole \n \n \n \nPrix de vente :  \n2 000.00 euros \nVendeur(s) :   \nMELLET André \n \n \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.193,
+      "text": "7 \n \n \n \nLe conseil s’oppose à l’unanimité à l’exercice du droit de préemption \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nB                    \n0296 \n433 CHE D’ARZENS \n00ha00a80ca \n \n \n \n \n \n \n \n \n \nUsage : \nHABITATION \n \n \n \nPrix de vente :  \n100 000.00 euros \nVendeur(s) :   \nVEN DURMEN Valérie \n \n \n \n \n \nLe conseil s’oppose à l’unanimité à l’exercice du droit de préemption \n \nL’ordre du jour étant épuisé, la séance est levée à 21 h 15 \n \nINFORMATIONS \n \n- \nMarché piscine \n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=8",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "8 \n \n \n- \nProjet hybride agri voltaïque  \n \n- \nTags. \n \n \n \n \n \n \n \n"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "document_id": "edb5340aed0b",
+  "filename": "CRCM-27-11-2025-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf",
+  "source_sha256": "edb5340aed0b1e1f8daddb0df21e8c1219dc4741f453f1232272444e4c101df5",
+  "source_bytes": 969117,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 09 Jan 2026 14:31:06 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:38:59+00:00",
+  "meeting_date": {
+    "value": "2025-11-27",
+    "source": "text layer, page 1: '27 NOVEMBRE 2025'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 10,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \n \nCONSEIL MUNICIPAL DU 27 NOVEMBRE 2025  \n \nL’an deux mille vingt-cinq et le 27 novembre à 20 h 02, le conseil municipal dûment convoqué s’est \nréuni sous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de \nMontolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Antoine CASAS-HARILLO, Laure ESCARÉ, Jeanne ETORÉ-\nLORTHOLARY, Jamel GHARBI, Bernard LAURET, Valérie MONRAISIN, Éric OLIVIER, Jean-Luc \nOLIVIER, Vincent PICQUE, Jacques SAFONT, Céline SALA. \n \n \nEtaient absents :  \nMagalie BOST- BERGÉ, procuration à Aurélie BARBERO \n \nLa séance est ouverte à 20 h 02 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat de la séance. \nLa proposition est retenue par 13 voix et une abstention. \n \nOrdre du jour \n  \n- \nApprobation du Procès-Verbal du 27 octobre 2025 \n- \nPlan Local d’Urbanisme, un point sera fait suite à la réunion publique mais le vote du projet \nsera repoussé sur un conseil ultérieur \n- \nDemande de subvention à l’agglo pour les travaux de la piscine \n- \nIntégration des travaux de voirie dans le budget 2025 \n- \nBudget rectificatif \n- \nRenouvellement ligne de trésorerie \n- \nDemande de versement d'une avance sur subvention pour MVDL \n- \nAutorisation d'engager les dépenses 2026 en attente du vote du budget 2026 \n- \n Avis CST sur le financement de la complémentaire santé des agents communaux \n- \nDroits de préemption \nBernard LAURET précise qu’un droit de préemption supplémentaire est arrivé en mairie, et \nson étude sera jointe aux autres. \n \nMonsieur le maire demande à ajouter un point à l’ordre du jour, oublié lors de l’envoi de la \nconvocation : \n- \nMise en place d’une signalétique à partir du parking st Roch et en haut de l’avenue du mail \norganisation de la consultation des acteurs économiques locaux  \nIl propose de l’insérer avant les droits de préemption. \n \n \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 27 OCTOBRE 2025 \n \nLe procès-verbal a été communiqué avec la convocation au présent conseil. \n \nLe conseil approuve à l’unanimité le Procès-Verbal du conseil du 27 octobre 2025 \n \nPLAN LOCAL D’URBANISME AVANT PHASE DE CONSULTATION \n \nSuite à la réunion publique, il convient de reprendre l’OAP de la Ferrière pour y ajouter une bande \narborée qui longe l’espace partagé piéton voiture et permet d’isoler d’avantage le petit lotissement \ndes constructions déjà présentes. \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "2 \n \nPar ailleurs, Mme BOUSQUET ayant souhaité renoncer à sa demande de rendre constructible le \nterrain sur lequel était prévue l’OAP des Brétous, il convient de déplacer le lotissement sur un autre \nterrain équivalent. Une des possibilités serait de décaler derrière l’OAP du Sol ou tout autre terrain \néquivalent.  \nL’OAP du Sol initiale et celle de la Ferrière seraient priorisées. \nLaure ESCARÉ précise que l’OAP de la Ferrière étant comme le lotissement déjà existant une zone \npotentielle de ruissellement, sa réalisation doit attendre la mise en place définitive du PPRI ( Plan \nde Prévention des Inondations). \nIl est également précisé que contrairement à ce qui a pu être pensé, la branche de Soliha \nMéditerranée qui travaille pour la commune à la révision du PLU n’a pas vocation à lotir les parcelles \nretenues par OAP, et il ne s’agit en aucun cas de logements sociaux. Les propriétaires vendront s’ils \nle souhaitent au promoteur qu’ils voudront bien choisir. \nLe respect des zones déjà retenues permettrait de ne pas avoir à revoter le PADD, ce qui retarderait \nle démarrage des consultations et de l’enquête publique de deux mois à minima. \nLes documents seront réétudiés en décembre et le vote du projet de PLU intégrant ces modifications \npourrait intervenir seulement en janvier dans le cadre d’un conseil dédié. \nSoliha Méditerranée propose d’organiser gracieusement une deuxième réunion publique pour \nprésenter les modifications. \nMme ETORÉ-LORTHOLARY fait remarquer qu’il n’y a aucun inconvénient à revoir le PADD si \nnécessaire, ni à déplacer les « patates » indiquant la localisation des OAP. La précipitation qu’on \nveut imposer n’a aucun sens et si on doit avoir 2 mois de retard, il faut assumer, les difficultés \nrencontrées provenant d’un manque de concertation en amont. \nMme ETORÉ-LORTHOLARY rappelle aussi qu’un projet de PLU ancien prévoyait des constructions \nen disposition concentrique autour du hameau des Oliviers, que cette option devrait être réexaminée \nau regard des réactions actuelles. \n \nDEMANDE DE SUBVENTION A CARCASSONNE AGGLO POUR LES TRAVAUX DE LA \nPISCINE  \n \n \nPour rappel, le conseil en l’absence de réponse de la région a suspendu l’étude du plan de \nfinancement des travaux de la piscine. \nSur une évaluation de 244 228,07 €HT, les seules subventions reçues se décomposaient comme \nsuit : \n- DETR  \n \n24% soit 58 614,74 € \n- département  \n16 % soit 39 076,00 € \nLa région relancée, a renvoyé in fine un document indiquant que l’équipement ne serait pas \nsubventionné. \nAprès échange avec Monsieur BANQUET, pour évaluer la possibilité de faire un portage partagé du \ndossier en tant qu’équipement d’intérêt territorial, ce dernier propose plutôt que Carcassonne Agglo \nintervienne directement en aidant directement la commune par une subvention \n \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "3 \n \n \n \nBernard LAURET rappelle que le calcul a été fait sur les devis les plus importants, toutefois, il est \npossible de ne pas changer les filtres mais d’en faire une rénovation ce qui réduirait le coût total, et \ndonc proportionnellement la charge de l’ensemble des financeurs. \n \nLe conseil vote à l’unanimité la demande de subvention à Carcassonne Agglo. \nPLAN DE FINANCEMENT DES TRAVAUX DE VOIRIES ET INTEGRATION DANS LE BUDGET \n2025 \n \nLes travaux de voiries prévus sur le chemin de Barrens, celui du Moulin de Cathala et celui de la \nTannerie, évalués en bicouche pour les deux premiers, et en tricouche pour le dernier se montaient \nlors de leur évaluation en 2023 à 70 848,00€ \nPour ce montant une subvention a été attribuée par le département pour un montant de 7500 euros \nsoit 15 % d’une somme de 50 000 euros HT. \nUne estimation a été demandée en bicouche pour les 3 chemins à l’entreprise Axe TP en 2025. Le \ndevis présenté est de 69 116.16 € TTC (57 596.80 HT) \nLe chemin de la Tannerie étant bien moins dégradé que les deux autres, un premier entretien sera \neffectué par la régie, afin de curer les fossés, refaire les saignées et boucher les nids de poules. \nPour les deux autres, et compte tenu des restes disponibles sur le FPIC (25 858 euros), il est \nproposé le plan de financement ci-dessus. \n \n \n \n \nLa part du département a été recalculée par rapport au coût  de la deuxième évaluation. \nPour que ces travaux puissent être menés tout début 2026, il convient de les intégrer au budget \nactuel, afin que leur exécution puisse être reportée lors de la clôture des comptes 2025, sans \nattendre le vote du budget 2026 qui n’interviendra qu’après les élections municipales. \n \nLe conseil vote par 12 voix pour et deux voix contre pour le plan de financement et l’inscription dans \nle budget rectificatif 2025. \nfinancements\npourcentage\nréabilitation de l'unité \nde filtration\n112 200,64 € État (Detr)\n58 615 €\n24%\nchangement liners et \nrepris des caniveaux\n132 027,43 € département\n39 076 €\n16%\nC.AGGLO\n50 000 €\n20,5%\ncommune\n96 537 €\n39,5%\nTotal des travaux\n244 228 €\n244 228 €\n100%\n tableau de financement travaux piscine\nfinancements\npourcentage\nmoulin de cathala\n19 142,56 € département\n6 224,60 €\n15%\nchemin de Barrens\n21 362,04 € fpic  2024\n7 523,00 €\n18%\namené et repli de \nfpic 2025\n18 335,00 €\n44%\nchantier\n992,72 € commune\n9 414,72 €\n23%\nTotal des travaux\n41 497,32 €\n41 497,32 €\n100%\n tableau de financement travaux voirie\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "4 \n \n \nBUDGET RECTIFICATIF   \n \nLes documents avec détail est remis aux conseillers. \nLe budget de fonctionnement est recalculé pour s’ajuster  aux prévisions de dépenses sur la fin \nd’année et au point fait sur les recettes.  \n \n \n \nLe détail est remis aux conseillers. \nUn report de la section de fonctionnement est dégagé pour 65878,75 € contre 55 347,10€ dans le \nbudget initial. \n \n \n \nCôté investissement dépenses sont réintégrés et/ou dispatchés sur les lignes comptables \nadéquates : \n- \nLe complément pour l’aménagement paysager du city stade (dans le mobilier et les \naménagement et agencements de terrain) \n- \nLes travaux de voiries \n- \nL’opération Nèfle pour les écoles (mobilier et aménagement et agencement des constructions \nPropositions 2025\nBP 2025\nDÉJÀ REALISÉ AU \n14/10/2025\nBR 2025\nTOTAL O13\n30 000,00 €\n13 948,45 €\n14 060,00 €\nTOTAL 70\n71 989,00 €\n60 084,54 €\n69 283,00 €\nTOTAL 73\n685 520,50 €\n625 935,80 €\n706 540,00 €\nTOTAL 74\n156 907,00 €\n149 557,41 €\n158 020,00 €\nTOTAL 75\nAutres produits de gestion courante\n119 760,00 €\n109 926,36 €\n117 644,96 €\nTOTAL 77\n38 850,00 €\n38 898,91 €\n38 900,00 €\n1 103 026,50 €\n998 351,47 €\n1 104 447,96 €\nTOTAL 042\n0,00 €\n0,00 €\nOO2\n0,00 €\n0,00 €\nTOTAL  OO2\n0,00 €\n0,00 €\nOpérations d'ordre entre sections\nExcédent antérieur reporté fonctionnement\nExcédent antérieur reporté fonctionnement\nTOTAL RECETTES REELLES\nProduits divers\nARTICLE\nFONCTIONNEMENT RECETTES\nProduits des services\nImpôts & taxes\nDotations & participations\nAttenuations de charges\nFONCTIONNEMENT DEPENSES\nARTICLE\nBP 2025\nDÉJÀ REALISÉ AU \n24/11/2025\nBR 2025\nTOTAL  O11 Charges à caractère général\n334 388,87 €\n264 456,62 €\n317 734,00 €\nTOTAL O12\nCharges de personnel\n543 450,00 €\n460 983,04 €\n549 900,00 €\nTOTAL 65\nAutres charges de gestion \ncourante\n127 183,90 €\n97 652,49 €\n132 790,58 €\nTOTAL 66\nCharges financières\n28 486,63 €\n21 138,08 €\n23 974,63 €\nTOTAL 67\nCharges exceptionnelles\n300,00 €\n257,38 €\n300,00 €\nTOTAL 014\nAtténuations de produits\nTOTAL 042\nOpérations d'ordre entre \nsection\n55 347,10\n0,00\n65 878,75\nTOTAL 042\nOpérations d'ordre entre \nsection\n6 500,00\n6 500,00\n6 500,00\nTOTAL  68\nDotations aux provisions \nsemi-budgétaires\n7 370,00\n7 208,00\n7 370,00\n1 103 026,50\n858 195,61 €\n1 104 447,96 €\nTOTAL BUDGET\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "5 \n \npour ce qui concerne la réalisation des fresques qui ont été inaugurées avant l’été) \n \n \n \nCôté recette sont intégrées les subventions pour l’aménagement paysager du city stade (région \npour 9000,00€), celle de la voirie (département pour 6 225,00€), et le surplus de 10 000,00 euros \nau titre du virement de la section de fonctionnement. Le tout est équilibré budgétairement par un \nprêt de 123 672,47 euros. \n \n \n \n \n \nPropositions 2025\nBP 2025\nDÉJÀ REALISÉ AU \n24/11/2025\nBR2025\navec voirie\nchapitre 001\n229665,82\n229665,82\nTOTAL 20\nImmobilisation incorpore\n15 618,00\n6 938,00\n15 618,00\nTOTAL  16\nRemboursement d'empr\n82 025,75\n79 241,57\n85 497,00\nTOTAL 204\nSubventions d'équipeme\n21 754,00\n21 754,00\n21 754,00\nTOTAL 21\nImmobilisations corpore\n602 226,37 \n121 051,58 \n646 839,18 \ntotal 23\nimmobilisation en cours\n0,00 \n8 486,32 \n15 400,00 \n951 289,94 €\n237 471,47 €\n999 374,00 €\nTOTAL 041\nOpérations d'ordre entre\n0,00\n0,00\ninvestissement dépenses\nARTICLE\nSOUS-TOTAL DEPENSES REELLES\nPropositions 2025\nBP 2025\nDÉJÀ REALISÉ AU \n24/11/2025\navec voirie\nTOTAL 10\nDotations, fonds divers & \nréserves\n223 901,63\n218 644,95\n218 645,63\nTOTAL 16\nEmprunts en euros\n101 708,26\n618,70\n124 291,17\nTOTAL 13\nSubventions \nd'investissement\n568 832,95\n213 071,63\n584 058,45\n894 442,84\n432 335,28\n926 995,25\nTOTAL O01\nOpérations d'ordre entre \nsections\n0,00\n0,00\nTOTAL  O40 \nopération d'ordre de \ntransfert entre section\n1 500,00\n6 500,00\n6 500,00\nTOTAL  O41\nopération d'ordre de \ntransfert entre section\n0,00\n0,00\n0,00\nTOTAL  O24 \nVirement de la section \nde fonctionnement\n0,00\n0,00\n0,00\nTOTAL  O21 \nVirement de la section \nde fonctionnement\n55 347,10\n65 878,75\n55 347,10\n65 878,75\n951 289,94\n438 835,28\n999 374,00\nTOTAL RECETTES OPERATIONS \nTOTAL RECETTES (réelles \n \nARTICLE\nTOTAL RECETTES REELLES\n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "6 \n \nLe conseil adopte le budget rectificatif par 12 voix pour et deux voix contre. \n \nRENOUVELLEMENT DE LA LIGNE DE TRESORERIE POUR 2026    \n \nLa commune dispose d’une ligne de trésorerie à la suite d’une décision du conseil municipal de \nfévrier 2023, renouvelée en janvier 2024 puis en Janvier 2025 pour 450 000 €. \nCompte tenu : \n- \ndu montant des travaux qui sont engagés pour l’église et ceux qui pourraient l’être pour la \nréfection de la piscine sur décision du nouveau conseil,  \n- \ndu décalage de réception des subventions accordées une fois les travaux finis, et du \nremboursement de la TVA, \n il est nécessaire de renouveler la ligne de trésorerie existante.  \n \nBernard LAURET présente la proposition du crédit agricole \n \nPROPOSITION DU CREDIT AGRICOLE DU LANGUEDOC \n \nMontant plafond \n450 000 EUR \nTaux VARIABLE pré-fixé \nIndexé \nsur \n€URIBOR \n3 \nMOIS \nmoyenné du mois facturé, soit à titre \nindicatif sur index du mois d’octobre \n2025 à 2,03% à un taux de : 3,23 % \nDurée \n1 an \nMarge sur index ci-dessus \n1,20% \nIntérêts payables à terme \néchu \nMensuellement \nRèglement \ndes \nintérêts \ndébiteurs par  \nMensuellement par procédure de \ndébit d’office \nFrais de dossier \n0,25% soit 1125,00 EUR \n \nLe conseil municipal vote à l’unanimité \n• Le renouvellement de la ligne de trésorerie  \n• L’autorisation à B. LAURET, pour signer le contrat  \n \nDEMANDE D’AVANCE SUR SUBVENTION POUR L’ASSOCIATION : MONTOLIEU VILLAGE DU \nLIVRE ET DES ARTS \n \nL’association MVDL a sollicité par courrier du 25 novembre 2025, une avance sur la subvention qui \nsera provisionnée sur le budget 2026. \nMonsieur le maire procède à la lecture du courrier. \nPour rappel, une avance de 5 000 euros a été accordée en début d’année 2025. L’avance évitera à \nl’association de solliciter un prêt relais en début d’année 2026, avec les frais afférents. \n \nLe conseil vote à l’unanimité l’avance sur la subvention 2026 pour l’association Montolieu Village \ndu Livre et des Arts. \n \n AUTORISATION D’ENGAGER LES DEPENSES 2026 DANS L’ATTENTE DU VOTE DU BUDGET \n2026  \n \nMonsieur le maire rappelle que selon les dispositions de l’article L 1612-1 du code général des \ncollectivités territoriales, dans le cas où le budget d’une collectivité territoriale n’a pas été adopté \navant le 1er janvier de l’exercice auquel il s’applique, l’exécutif de la collectivité territoriale est en \ndroit, jusqu’à l’adoption de ce budget, de mettre en recouvrement les recettes et d’engager, de \nliquider et de mandater les dépenses de la section de fonctionnement dans la limite de celles \ninscrites au budget de l’année précédente. \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.062,
+      "text": "7 \n \nIl est en droit de mandater les dépenses afférentes au remboursement en capital des annuités de \nla dette venant à échéance avant le vote du budget. \nEn outre, jusqu’à l’adoption du budget ou jusqu’au 15 avril, en l’absence d’adoption du budget avant \ncette date, l’exécutif de la collectivité territoriale peut, sur autorisation de l’organe délibérant, \nengager, liquider et mandater les dépenses d’investissement, dans la limite du quart des crédits \nouverts au budget de l’exercice précédent, non compris les crédits afférents au remboursement de \nla dette. \n \nLe conseil vote à l’unanimité pour  \n• Autoriser monsieur le Maire à mandater les dépenses d’investissement, dans la limite du \nquart des crédits ouverts au budget de l’exercice 2025, soit 154 461,00 EUR. \n• Il est précisé que les sommes mandatées seront inscrites au budget 2026. \n \nAVIS CST SUR LE FINANCEMENT DE LA COMPLEMENTAIRE SANTE DES AGENTS \nCOMMUNAUX  \n \nLe comité social territorial a rendu le 13 novembre 2025 son avis sur le financement de la \ncomplémentaire santé des agents communaux. \nCet avis est obligatoire pour la mise en œuvre de la délibération du conseil relatif à ce financement. \nLe conseil prend acte de l’accord donné par le CST. \n \n \nORGANISATION D’UNE REFLEXION DES ACTEURS ECONOMIQUES LOCAUX SUR UNE \nSIGNALETIQUE A PARTIR D’UN CHEMINEMENT DEBUTANT AU PARKING ST ROCH \n \nMonsieur Maximilien FORTIER, afin de favoriser le cheminement des touristes à l’intérieur du centre \nbourg, avait suggéré l’idée d’une sorte de boucle peinte au sol, comme cela a pu être fait de façon \nprovisoire à St Malo. \nLes libraires réunis dans le cadre d’une rencontre avec MVDL, ont majoritairement repoussé cette \nidée, la boucle ne pouvant couvrir l’ensemble des rues du village, et étant esthétiquement \ndiscutable. \nIl reste néanmoins le sujet de faciliter en partant du parking st Roch, la visite non seulement de la \ncoopérative musée Cérès Franco, mais également du village lui-même par une signalétique \nadaptée que ce soit au bas du village au niveau du parking, au départ et à l’arrivée de l’avenue du \nmail qui permet de relier le musée au centre bourg. \nIl est proposé qu’un appel aux bonnes volontés parmi les libraires, commerçants et restaurateurs \nsoit fait afin qu’un groupe de travail soit constitué. La réflexion pourra être cogérée par le Directeur \nde Cérès Franco, l’office du tourisme et MVdL. \nLe fruit du travail pourrait être remonté dès la fin du mois de mars au nouveau conseil, qui arbitrerait \nsi nécessaire et mettrait en œuvre cette signalétique entre avril et mai. \n \n \nLe conseil vote par douze voix pour, une voix contre  et une abstention la mise en place du groupe \nde réflexion des acteurs économiques locaux pour la mise en place d’une signalétique. \n \nDROITS DE PREEMPTION  \n \n \n \n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=8",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.473,
+      "text": "Usage : Une parcelle de terre\n\nPrix de vente : 9 000.00 euros\nVendeur(s) : M MARTIN André\n\n- _ _ _ races # P>sé\n;, / 1 /\nVa / ai 400 7 / ;\ny “ee ; es << ne,\nC qu …-\n\nLe conseil vote à l'unanimité contre l'exercice du droit de préemption\n\nDésignation du bien vendu :\n\nRéf. Cadastrale :\n| Section | N° | lieu-dit | Superficie totale\n00 ha 00 a 48 ca\n\nUsage : Commercial\nPrix de vente : 75 000.00 euros\nVendeur(s) : Mme AUDIER Née GOFFINET Christine\n\ndelaliberte\n\nRue\n\n- Saint\n\nLe conseil vote à l'unanimité contre l'exercice du droit de préemption\n",
+      "text_sparse": "Usage :\n\nUne parcelle de terre\n\nPrix de vente :\n\n9 000.00 euros\n\nVendeur(s) :\n\nM MARTIN André\n\nü\n\nY-\n\nvoa\n\n205 me\n\n/ en\n\nle a / un p\n\nŸ. /\n\nnous\n\n>\n\nLe conseil vote à l'unanimité contre l'exercice du droit de préemption\n\nDésignation du bien vendu :\n\nRéf. Cadastrale :\n\nUsage :\n\nCommercial\n\nPrix de vente :\n\nVendeur(s) :\n\n75 000.00 euros\n\nMme AUDIER Née GOFFINET Christine\n\nver\n\nPlace\n\ndelaliberte\n\ndels\n\nRépublique\n\nRue\n\nRue\n\nArt,\n\nRue\n\nMndépendance\n\nRue\n\nvonroueu\n\nBastie\n\n280664\n\nRue\n\n>\n\nrame. 7»\n\nLe conseil vote à l'unanimité contre l'exercice du droit de préemption\n",
+      "ocr": {
+        "mean_conf": 71.8,
+        "min_conf": 0,
+        "low_word_fraction": 0.288,
+        "words": 111
+      }
+    },
+    {
+      "page": 9,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=9",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.5,
+      "text": "Désignation du bien vendu :\nRéf. Cadastrale :\n\n| Section | W° |\n00 ha 00 a 79 ca\n\nUsage : Immeuble à rénover à usage de remise\nPrix de vente : 45 000.00 euros\nVendeur(s) : FOCH PONTIER SCI Société civile immobilière\n\næ\n\nLieu-dit Superficie totale\n\nLe conseil vote à l'unanimité contre l'exercice du droit de préemption\n\nDésignation du bien vendu :\n\nRéf. Cadastrale\nSection N° Lieu-dit Superficie totale\nAB 307 12 rue du 8 mai 1945 00 ha 01 a 91 ca\nUsage : Habitation\nPrix de vente : 210 000.00 euros\nVende: : Mme TOUNI Marie, Mr ROJANSKI Stanislas\ntone Place MONTOUIE\ndela\nRépublique\n\n2e dans\n\npfifce\n\nLacombe\n4, 80\n,\n® 2%,\nPlace\nduPradel\n\nLe conseil vote à l'unanimité contre l'exercice du droit de préemption\n\n9\n",
+      "text_sparse": "Désignation du bien vendu :\n\nRéf. Cadastrale :\n\n| N° |. lieu-dit |  Superficietotale\n\nUsage\n\nImmeuble à rénover à usage de remise\n\nPrix de vente :\n\n45 000.00 euros\n\nVendeur(s) :\n\nFOCH PONTIER SCI Société civile immobilière\n\n0\n\neee drunez\n\ndelstiberté\n\nmésutique\n\nRue\n\nindépendance\n\n« scale,\n\nBart\n\nue\n\net\n\nes\n\nLe conseil vote à l'unanimité contre l'exercice du droit de préemption\n\nDésignation du bien vendu :\n\nRéf. Cadastrale :\n\nSection\n\nN°\n\nLieu-dit\n\nSuperficie totale\n\nAB\n\n307\n\n12 rue du & mai 1945\n\n00 ha 01 a 91 ca\n\nUsage :\n\nHabitation\n\nPrix de vente :\n\n210 000.00 euros\n\nVende :\n\nMme TOUNI Marie, Mr ROJANSKI Stanislas\n\ny =\n\n—AB 0057\"\n\nAB0049\n\nB*\n\nRu\n\nPE\n\nAB0343\n\n“dela\n\noPlace\n\nPlace\n\n——MONTOLIEL\n\nLiberté\n\ndela\n\nRépublique\n\nnelle\n\nAB0342\n\nRa\n\n‘ers\n\nance\n\nRue\n\nBaste\n\nLcié\n\n» Rue\n\nde*;\n\njo114\n\nBr\n\neo,\n\nago\n\nAnpsos\n\nABC\n\nAscsse \\_\n\nre\n\n50651\n\nPaui\n\nPlace\n\nca\n\n480320\n\nee\n\nLacombe\n\n»\n\nABO\n\nH\n\nAB0525\n\n>\n\nPlace\n\nduPradel\n\n2e\n\néonuen mA.\n\n; AB0451\n\nLe conseil vote à l'unanimité contre l'exercice du droit de préemption\n\n9\n",
+      "ocr": {
+        "mean_conf": 83.5,
+        "min_conf": 0,
+        "low_word_fraction": 0.162,
+        "words": 130
+      }
+    },
+    {
+      "page": 10,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=10",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.181,
+      "text": "10 \n \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n318 \n5 Rue Saint Jean \n00 ha 00 a 23 ca \n \nUsage : \n \nBâtiment \n \nPrix de vente :  \n15 000.00 euros \nVendeur(s) :   \nMme BOYER-ILLIANO \n \n \n \nLe conseil vote à l’unanimité contre l’exercice du droit de préemption \n \nL’ordre du jour étant épuisé la séance est levée à 21h08 \n  \n"
+    }
+  ]
+}

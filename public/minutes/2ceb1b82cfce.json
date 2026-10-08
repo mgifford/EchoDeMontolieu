@@ -1,0 +1,255 @@
+{
+  "document_id": "2ceb1b82cfce",
+  "filename": "CRCM-4-avril-2024-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf",
+  "source_sha256": "2ceb1b82cfce08a493e7fc2abe201d033076fcf74fbb1a87f6728ae420a42c8f",
+  "source_bytes": 924700,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 07 Feb 2025 12:24:06 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T10:12:00+00:00",
+  "meeting_date": {
+    "value": "2024-04-04",
+    "source": "text layer, page 1: '4 AVRIL 2024'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 20,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \nCONSEIL MUNICIPAL DU 4 AVRIL 2024 A 20 h 00 \n \nL’an deux mille vingt-quatre et le 4 avril à 20 h 00, le conseil municipal dûment convoqué s’est réuni sous la \nprésidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de Montolieu. \n \nEtaient présents :  \nAurélie BARBERO, Magalie BOST- BERGÉ Antoine CASAS-HARILLO, Laure ESCARÉ, Jeanne ETORÉ-\nLORTHOLARY, Jamel GHARBI, Bernard LAURET, Éric OLIVIER, Céline SALA. \n \n \nEtaient absents :  \nCécile AGASSE, pouvoir à Jamel GHARBI  \nJean-Luc OLIVIER, pouvoir à Jacques SAFONT  \nValérie MONRAISIN, pouvoir à Laure ESCARÉ \nVincent PICQUE \nJacques SAFONT \n \nLa séance est ouverte à 20 h 05 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat de la séance. \n➢ Le conseil accepte à l’unanimité que le secrétariat de la séance soit assuré par Laure ESCARÉ \n \nOrdre du jour \n- \nApprobation du procès-Verbal du conseil du 31 janvier 2024 ; \n- \nComptes administratifs budget général, et budgets annexes \n- \nEtats des taxes \n- \nRenouvellement des tarifs piscine et diverses locations \n- \nDemandes de subventions \n- \nPrésentation du Collectif budgétaire initial 2024, budget général et budget annexe \n- \nTransfert de propriété des chemins destinés à être classés dans le domaine communal \n- \nDroits de préemption  \n- \nInformations \n \n \n \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 31 JANVIER 2024 \n \nLe procès-verbal a été communiqué avec la convocation au présent conseil.  \n➢ Il est approuvé à l’unanimité des conseillers \n \nCOMPTES ADMINISTRATIFS ET AFFECTATION DES RESULTATS \n \nCOMPTES ADMINISTRATIFS \n \nPrésentation des comptes administratifs 2023 de la commune, du Groupe Médical, du CCAS et du \nLotissement \n \nPour la commune \nLes analyses (capacité de désendettement, calcul des différents ratios) seront transmises au conseil la \nsemaine prochaine. \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "2 \nPour ce qui est des dépenses de fonctionnement, le chapitre des charges de personnel est le plus \nimportant avec un peu plus de 50 %, suivi par celui des charges à caractère général. \nLes recettes sont constituées pour 61 % des impôts et taxes. On notera la croissance des recettes en \natténuation de charge du fait des remplacements d’agents malades ou en mi-temps thérapeutique.  \n \n \n \nLes dépenses d’investissement sont peu importantes par rapport au prévisionnel : les travaux du Pave ont \ndémarré en toute fin d’année, néanmoins une partie des frais d’étude ont été réglés sur 2023. Les travaux du \npresbytère ne sont pas totalement soldés. \nEn conséquence, les subventions ne peuvent être réclamées, celles qui ont été reçues concerne la deuxième \nopération d’équipement informatique de l’école (opération de 2022). \n \nCode\nLibellé\nBUDGET \nINITIAL\nBUDGET \nTOTAL\nréalisé total \n31/12/2023\n011.\n Charges à caractère général\n340 550,00\n357 900,00\n311 292,61\n012.\n Charges de personnel et frais assimilés\n456 000,00\n488 000,00\n482 223,87\n014.\n Atténuations de produits\n0,00\n2 286,16\n2 286,16\n022.\n Dépenses imprévues\n0,00\n0,00\n0,00\n023.\n Virement à la section d’investissement\n108 567,58\n111 820,42\n0,00\n042.\n Opérations d'ordre de transfert entre sections\n0,00\n0,00\n0,00\n65.\n Autres charges de gestion courante\n132 786,00\n154 820,00\n148 642,05\n66.\n Charges financières\n11 950,00\n12 000,00\n11 753,24\n67.\n Charges exceptionnelles\n0,00\n0,00\n0,00\n0,00\n0,00\n0,00\nTOTAUX\nDEPENSES DE FONCTIONNEMENT\n1 049 853,58\n1 126 826,58\n956 197,93\nCode\nLibellé\n2023 initial\nBUDGET \nTOTAL\nréalisé total \n31/12/2023\n002.\n Résultat d'exploitation reporté\n34 301,58\n34 301,58\n34 301,58\n013.\n Atténuations de charges\n20 000,00\n46 000,00\n61 020,52\n042.\n Opérations d'ordre de transfert entre sections\n0,00\n0,00\n0,00\n70.\n Produits des services, du domaine et ventes divers\n25 380,00\n35 180,00\n39 269,94\n73.\nImpôts et taxes\n686 488,00\n721 651,00\n705 712,29\n74.\n Dotations et participations\n166 084,00\n167 794,00\n183 454,92\n75.\n Autres produits de gestion courante\n115 000,00\n115 000,00\n123 244,73\n76.\n Produits financiers\n0,00\n0,00\n77.\n Produits exceptionnels\n2 600,00\n6 900,00\n6 959,61\n0,00\n0,00\n0,00\nTOTAUX\nRECETTES DE FONCTIONNEMENT\n1 049 853,58\n1 126 826,58\n1 153 963,59\nBUDGET GENERAL\nFONCTIONNEMENT RECETTES\nBUDGET GENERAL\nFONCTIONNEMENT DEPENSES\n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "3 \n \n \n \n \nExcédent de fonctionnement de 197765.66 € \nDéficit d’investissement de 157879,11 €  \nRésultat net 39 886,65 € \n \nPour le CCAS \n \n \n \nCode\nLibellé\nBUDGET INITIAL BUDGET \nTOTAL\n31/12/2023\n001.\n Solde d'exécution de la section d'investissement reporté\n259 350,21\n259 350,21 259 350,21\n020.\n Dépenses imprévues\n0,00\n0,00\n0,00\n040.\n Opérations d’ordre de transfert entre section\n0,00\n0,00\n0,00\n10.\n Dotations, fonds divers et réserves\n0,00\n0,00\n0,00\n16.\n Emprunts et dettes assimilées\n70 715,00\n70 715,00\n70 710,12\n20.\n Immobilisations incorporelles\n39 600,00\n62 403,00\n6 804,00\n204.\n Subventions d'équipement versées\n0,00\n0,00\n21.\n Immobilisations corporelles\n661 930,00\n638 912,00 140 344,07\n23.\n Immobilisations en cours\n0,00\n0,00\n0,00\n0,00\nTOTAUX\nDEPENSES D'INVESTISSEMENT\n1 031 595,21\n1 031 380,21 477 208,40\nBUDGET GENERAL\nINVESTISSEMENT DEPENSES\nCode\nLibellé\nBUDGET INITIAL BUDGET \nTOTAL\n31/12/2023\n001.\n Solde d'exécution de la section d'investissement reporté\n0,00\n0,00\n0,00\n021.\n Virement de la section d’exploitation (recettes)\n111 478,42\n111 820,42\n0,00\n024.\n Produits des cessions d’immobilisations (recettes)\n46 000,00\n0,00\n0,00\n040.\n Opérations d’ordre de transfert entre section\n0,00\n0,00\n0,00\n041.\n Opérations patrimoniales\n0,00\n0,00\n0,00\n10.\n Dotations, fonds divers et réserves\n312 343,21\n312 343,21 315 520,72\n13.\n Subventions d'investissement\n399 817,00\n399 817,00\n3 550,00\n16.\n Emprunts et dettes assimilées\n204 124,42\n207 399,58\n258,57\n27.\n Autres immobilisations financières\n0,00\nTOTAUX\nRECETTES D'INVESTISSEMENT\n1 073 763,05\n1 031 380,21 319 329,29\nBUDGET GENERAL\nINVESTISSEMENT RECETTES\nCode\nLibellé\n2023\nRéalisé total\nDispo.\n002.\nRésultat d'exploitation reporté\n245,94\n245,94\n0,00\n002.\nRésultat d'exploitation reporté\n245,94\n245,94\n65.\n Autres charges de gestion courante\n2 754,06\n732,05\n2 022,01\n6562.\nAides\n2 754,06\n732,05\n2 022,01\nTOTAUX\nDEPENSES DE FONCTIONNEMENT\n3 000,00\n977,99\n2 022,01\nBUDGET CCAS\nFONCTIONNEMENT DEPENSES\n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "4 \n \nExcédent de fonctionnement 3 522.01 € \nIl n’y a pas d’investissement pour le CCAS \n \nPour le groupe médical \n \nSection de fonctionnement \n \n \nSection d’investissement \n \n \nCode\nLibellé\n2023\nRéalisé total\nDispo.\n002.\n Résultat d'exploitation reporté\n0,00\n0,00\n0,00\n002.\n Résultat d'exploitation reporté\n0,00\n74.\n Dotations et participations\n3 000,00\n4 500,00\n-1 500,00\n7474.\nCommunes (Subvention budget général)\n3 000,00\n4 500,00\n-1 500,00\nTOTAUX\nRECETTES DE FONCTIONNEMENT\n3 000,00\n4 500,00\n-1 500,00\nBUDGET CCAS\nFONCTIONNEMENT RECETTES\nCode\nLibellé\n2023\nRéalisé totalDispo.\n023.\n Virement à la section d’investissement\n9 725,66\n0,00\n9 725,66\n023(ordre).\n Virement à la section d’investissement\n9 725,66\n9 725,66\n66.\n Charges financières\n3 150,00\n3 148,71\n1,29\n66111.\n Intérêts réglés à l’échéance\n3 150,00\n3 148,71\n1,29\n67.\n Charges exceptionnelles\n0,00\n0,00\n0,00\nTOTAUX\nDEPENSES DE FONCTIONNEMENT\n12 875,66\n3 148,71\n9 726,95\nCode\nLibellé\n2023\nRéalisé totalDispo.\n002.\n Résultat d'exploitation reporté\n1,66\n1,66\n0,00\n002.\n Résultat d'exploitation reporté\n1,66\n1,66\n0,00\n74.\n Dotations et participations\n12 874,00\n12 873,50\n0,50\n74718.\nAutres (participation communes MOUSSOULENS PEZENS\n3 241,00\n3 240,50\n0,50\n74748.\nCommunes (Subvention budget général)\n9 633,00\n9 633,00\n0,00\n0,00\nTOTAUX\nRECETTES DE FONCTIONNEMENT\n12 875,66\n12 875,16\n0,50\nFONCTIONNEMENT RECETTES\nBUDGET GROUPE MEDICAL\nFONCTIONNEMENT DEPENSES\nBUDGET GROUPE MEDICAL\nCode\nLibellé\n2023\nRéalisé totalDispo.\n001.\n Solde d'exécution de la section d'investissement reporté\n9 362,26\n9 362,26\n0,00\n001.\n Solde d'exécution de la section d'investissement reporté\n9 362,26\n9 362,26\n0,00\n16.\n Emprunts et dettes assimilées\n9 725,66\n9 725,25\n0,41\n1641.\n Emprunts en euros\n9 725,66\n9 725,25\n0,41\n165.\n Dépôts et cautionnements reçus\n0,00\nTOTAUX\nDEPENSES D'INVESTISSEMENT\n19 087,92\n19 087,51\n0,41\nINVESTISSEMENT DEPENSES\n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "5 \n \n \nL’excédent de fonctionnement est de 9 726,45 € \nLe déficit d’investissement est de 9 725,25 €  \nRésultat net 1,20 € \n \nPour le lotissement \n \nSection de fonctionnement \n \n \n \nCode\nLibellé\n2023\nRéalisé totalDispo.\n001.\n Solde d'exécution de la section d'investissement reporté\n0,00\n0,00\n0,00\n021.\n Virement de la section d’exploitation (recettes)\n9 725,66\n0,00\n9 725,66\n021(ordre).\n Virement de la section d’exploitation\n9 725,66\n9 725,66\n10.\n Dotations, fonds divers et réserves\n9 362,26\n9 362,26\n0,00\n1068.\n Excédents de fonctionnement capitalisés\n9 362,26\n9 362,26\n0,00\nTOTAUX\nRECETTES D'INVESTISSEMENT\n19 087,92\n9 362,26\n9 725,66\nBUDGET GROUPE MEDICAL\nINVESTISSEMENT RECETTES\nCode\nLibellé\n2023\nRéalisé total\nDispo.\n023.\n Virement à la section d’investissement\n171 456,49\n0,00\n171 456,49\n023(ordre).\n Virement à la section d’investissement\n171 456,49\n171 456,49\n042.\n Opérations d'ordre de transfert entre sections\n328 536,00\n0,00\n328 536,00\n71355(ordre)Variation de stocks de terrains aménagés\n328 536,00\n328 536,00\n043.\n Autres charges de gestion courante\n1 114,00\n0,00\n1 114,00\n608 (ordre) Frais accessoires sur terrains\n1 114,00\n1 114,00\n66.\n Charges financières\n1 114,00\n1 113,67\n0,33\n66111.\n Intérêts réglés à l’échéance\n1 114,00\n1 113,67\n0,33\nTOTAUX\nDEPENSES DE FONCTIONNEMENT\n502 220,49\n1 113,67\n501 106,82\nCode\nLibellé\n2023\nRéalisé total\nDispo.\n002.\n Résultat d'exploitation reporté\n124 607,49\n124 607,49\n0,00\n002.\n Résultat d'exploitation reporté\n124 607,49\n124 607,49\n0,00\n042.\n Opérations d'ordre de transfert entre sections\n333 503,00\n0,00\n333 503,00\n7133(ordre). Variation des en-cours de production de biens\n333 503,00\n333 503,00\n043.\nOpérations d'ordre à l'intérieur de la section\n1 114,00\n0,00\n1 114,00\n796(ordre)\nTransfert de charges financières\n1 114,00\n1 114,00\n70.\nProduits des services, du domaine et ventes divers\n17 250,00\n0,00\n17 250,00\n7015.\nVente de terrains aménagés\n17 250,00\n17 250,00\n74.\n Dotations et participations\n25 746,00\n25 746,00\n0,00\n74748.\nCommunes (subvention budget général)\n25 746,00\n25 746,00\n0,00\n0,00\nTOTAUX\nRECETTES DE FONCTIONNEMENT\n502 220,49\n150 353,49\n351 867,00\nBUDGET LOTISSEMENT\nFONCTIONNEMENT RECETTES\nBUDGET LOTISSEMENT\nFONCTIONNEMENT DEPENSES\n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "6 \nL’excédent de fonctionnement est de 149 239,82 € \nSection d’investissement \n \n \n \nLe déficit d’investissement est de166 486.41 € \nLe résultat cumulé s’établir à 17 246,59 € correspond au terrain non vendu \n \nAprès la présentation, Monsieur le Maire est invité à quitter la salle. \n \n➢ Les conseillers procèdent au vote des comptes administratifs et l’affectation des résultats. \n➢ Les conseillers approuvent le compte administratif de la commune, à l’unanimité \n➢ Les conseillers approuvent le compte administratif du groupe médical, à l’unanimité  \n➢ Les conseillers approuvent le compte administratif du CCAS par 9 voix pour et une, contre. \n➢ Les conseillers approuvent le compte administratif du lotissement, à l’unanimité \n \nMonsieur le Maire est invité à revenir dans la salle du Conseil \n \nAFFECTION DES RESULTATS \n \nPour la commune  \n \nRappel : résultat net de 39 886,55 € \nLe conseil statue sur le seul résultat de fonctionnement qui doit en priorité couvrir le besoin de financement \nde la section d’investissement. \n➢ Le conseil vote à l’unanimité pour l’affectation telle que présentée  \n \nCode\nLibellé\n2023\nRéalisé total\nDispo.\n001.\n Solde d'exécution de la section d'investissement reporté 141 854,80\n141 854,80\n0,00\n001.\n Solde d'exécution de la section d'investissement reporté\n141 854,80\n141 854,80\n0,00\n040.\n Opérations d’ordre de transfert entre section\n333 503,00\n0,00\n333 503,00\n3551(ordre)\nProduits finis\n333 503,00\n333 503,00\n16.\n Emprunts et dettes assimilées\n24 634,69\n24 631,61\n3,08\n1641.\n Emprunts en euros\n24 634,69\n24 631,61\n3,08\nTOTAUX\nDEPENSES D'INVESTISSEMENT\n499 992,49\n166 486,41\n333 506,08\nCode\nLibellé\n2023\nRéalisé total\nDispo.\n001.\n Solde d'exécution de la section d'investissement reporté\n0,00\n0,00\n0,00\n001.\n Solde d'exécution de la section d'investissement reporté\n0,00\n021.\n Virement de la section d’exploitation (recettes)\n171 456,49\n0,00\n171 456,49\n021(ordre).\n Virement de la section d’exploitation\n171 456,49\n171 456,49\n024.\n Produits des cessions d’immobilisations (recettes)\n0,00\n0,00\n0,00\n024.\n Produits des cessions d’immobilisations (recettes)\n0,00\n040.\n Opérations d’ordre de transfert entre section\n328 536,00\n0,00\n328 536,00\n3555(ordre)\nTerrains aménagés\n328 536,00\n328 536,00\nTOTAUX\nRECETTES D'INVESTISSEMENT\n499 992,49\n0,00\n499 992,49\nBUDGET LOTISSEMENT\nINVESTISSEMENT RECETTES\nBUDGET LOTISSEMENT\nINVESTISSEMENT DEPENSES\n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "7 \n \n \nPour le CCAS \nRappel : résultat net de 3522,01 € \nIl n’y a pas de section d’investissement pour le CCAS \nLe conseil vote à l’unanimité pour l’affectation telle que présentée \n \n \n \n \nPour le groupe médical \n \nRappel : Résultat net de 1,20 € \n \nLe conseil statue sur le seul résultat de fonctionnement qui doit en priorité couvrir le besoin de financement \nde la section d’investissement. \n➢ Le conseil vote à l’unanimité pour l’affectation telle que présentée  \n \n \n \n  \n \nAffectation\nrésultats\nA - Résultat global de la section de fonctionnement à affecter\n197 765,66\nB - Solde d'exécution de la section d'investissement (inscription D ou R 001)\n-157 879,11\nC - Solde des restes à réaliser en section d'investissement\n0,00\nD - Besoin de financement de la section d'investissement (B + C)\n-157 879,11\nE - Couverture du besoin de financement 2023 (compte 1068)\n157 879,11\nExcédent de fonctionnement reporté (inscription R002) =  A - E\n39 886,55\nAffectation\nrésultats\nA - Résultat global de la section de fonctionnement à affecter\n3 522,01\nB - Solde d'exécution de la section d'investissement (inscription D ou R 001)\n0,00\nC - Solde des restes à réaliser en section d'investissement\n0,00\nD - Besoin de financement de la section d'investissement (B + C)\n0,00\nE - Couverture du besoin de financement 2023 (compte 1068)\n0,00\nDéficit de fonctionnement reporté (inscription D002) =  A - E\n3 522,01\nAffectation\nrésultats\nA - Résultat global de la section de fonctionnement à affecter\n9 726,45\nB - Solde d'exécution de la section d'investissement (inscription D ou R 001)\n-9 725,25\nC - Solde des restes à réaliser en section d'investissement\n0,00\nD - Besoin de financement de la section d'investissement (B + C)\n-9 725,25\nE - Couverture du besoin de financement 2023 (compte 1068)\n9 725,25\nExcédent de fonctionnement reporté (inscription R002) =  A - E\n1,20\n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=8",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "8 \n \n \n \nPour le lotissement \n \nRésultat net de - 17 246,59 € qui correspond au terrain non vendu  \nL’excédent de fonctionnement ne peut être affecté au déficit d’investissement sur l’opération du lotissement \nLe conseil vote à l’unanimité pour l’affectation telle que présentée  \n \n \n \n \n \nETAT DES TAXES POUR 2024 \n \nL’état des taxes pour 2024 est présenté au conseil. \nPour faire suite à la demande exprimée lors de la commission financière, il est indiqué que l’augmentation \nd’un demi-point de la part de la commune représentait un apport de 4318 €, et celle d’un point 8 636 €. \nCes montants ramenés au montant du projet de budget de fonctionnement (1 159 916 €) ne sont pas \nsignificatifs et ne justifient pas que l’on revienne sur l’état des taxes, compte tenu du contexte socio-\néconomique. La pression fiscale est déjà suffisante avec l’augmentation des bases et le poids des \nprélèvements au titre des autres collectivités. \nJeanne ETORÉ-LORTHOLARY fait remarquer que la commune a vendu pour 6 000 € une parcelle communale, \nsans que l’on estime que le montant de la recette n’était pas significatif. \nIl est répondu que cette recette ne pesait pas sur les personnes payant l’impôt, ce qui ne serait pas le cas \navec une augmentation du taux des impôts fonciers.  \n \n➢ Le conseil vote à l’unanimité l’état des taxes présenté\nAffectation\nrésultats\nA - Résultat global de la section de fonctionnement à affecter\n149 239,82\nB - Solde d'exécution de la section d'investissement (inscription D ou R 001)\n-166 486,41\nC - Solde des restes à réaliser en section d'investissement\n0,00\nD - Besoin de financement de la section d'investissement (B + C)\nE - Couverture du besoin de financement 2023 (compte 1068)\n0,00 (1068 non autorisé Lotissement)\nExcédent de fonctionnement reporté (inscription R002) =  A - E\n149 239,82\n"
+    },
+    {
+      "page": 9,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=9",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.624,
+      "text": "es N° 1259 COM (1)\n\nMINISTÈRE\n\nDE L'ÉCONOMIE COMMUNE : 253 MONTOLIEU\nDES FINANCES RAINETÉ 44 CARCASSONNE .\nINDUSTRIELLE ET NUMÉRIQUE ARRONDISSEMENT : DL\n\npe TRÉSORERIE OU SGC : SGC CARCASSONNE | 20)\n\nTAUX D'IMPOSITION DES TAXES DIRECTES LOCALES POUF\n\nProduits attendus\n(col. 4 x col. 6)\n2024\n7\n\nTaxe foncière bâtie (TFB) 144,49 , 393 197\n\nTaxe foncière non bâties (TFNB) F, 22 774\n51148\n\n467 119\n\nBases 5e inipasiion Taux de référence | Taux de majoration | Bases d'imposition Ï i Produit attendu\npo , prévisionnelles R ; : (col 4x col. 6x\nPE 2023 2024 2024 taux TH voté 2024)\nMajoration de taxe d'habitation (MTHS) nr 77 me = D re\n\nAide au calcul dés taux par variation proportionnelle : il n'est pas nécessaire de remplir cette rubrique en cas dé reconduction des taux de référence où de variation différenciée.\n\nCalcul du coefficient de variation proportionnelle Taux proportionnels\nTaxes (6 décimales) (cal. 2xcol.3) | Si l'un des taux déterminés\n8 9 10 de manière proportionnelle\n\nTaxe foncière bâties (TFB Produit total souhaité excède le taux plafond\n{ ) indiqué en colonne 3, une\n\nTaxe foncière non bâties (TFNB) me Ice 91 SO OUT re\nTaxe d'habitation (TH) [467116\nCotisation foncière des entreprises (CFE) | Produit total de référence (total colonne 5)\n\n——— (78132) 42977 — pass 4 700 2 NES NN 5\n\nSi la diminution sans lien L]\ndes taux a été décidée en 2024,\ncochez la case\n\nProduits attendus des\nressources à taux voté\n\nDAVID PESSAROSSI\n\nMIRECTEIR MER NES FINANCES\n- 42 977 - 4 700 = 430 139 (73111)\n\n(col. 7)\n\n",
+      "text_sparse": "Ex\n\nN° 1259 COM (1)\n\nMINISTÈRE\n\nDE L'ÉCONOMIE\n\nCOMMUNE\n\n253 MONTOLIEU\n\nDEs\n\nET DE LA SOUVERAINETÉ\n\nARRONDISSEMENT\n\n11 CARCASSONNE\n\nFDI\n\nINDUSTRIELLE ET NUMÉRIQUE\n\nÉcateé\n\nLänei\n\nTRÉSORERIE OU SGC - SGC CARCASSONNE\n\naf\n\n\\___2024 __)\n\nA\n\nÉTAT DE NOTIF\n\nON\n\nPRÉ\n\nIQ\n\nEL\n\nTAUX D'IMPOSITION DES TAXES DIRECTES LOCALES POU\n\nFa\n\nFISC\n\nTaux pla\n\niton | Produits référence\n\nTaux votés\n\nProduits attendus\n\n2024\n\nprévisionnelles\n\n(col. 4 x col. 2)\n\n2024\n\n(col. 4 x col. 6)\n\n2024\n\n2024\n\n7\n\nTaxe foncière bâtie (TFB)\n\n825 381\n\n144,49\n\n863 600\n\n393 197\n\n45,53\n\n393 197\n\n32551\n\nss\n\n236,72\n\n33 800\n\n22 774\n\n67,58\n\n22 774\n\nTaxe foncière non bâties (TFNB)\n\nTaxe d'habitation (TH)\n\n293 861\n\n22,19\n\n59,03\n\n230 500\n\n51 148\n\n22,19\n\n51 148\n\n>>>\n\n>>>\n\n>>>\n\n>>>\n\nx>>\n\nTotal\n\n467 119\n\n467 119\n\nTaux de référence\n\nProduit référence | Taux de majoration\n\nProduit attendu\n\neu\n\ncol. 4xcol. x\n\n(col.4 x col.2 x col.3})\n\n2024\n\ntaux TH voté 2024)\n\n[Mapraiondesxe hasta TR, | | | 91 Of Os Of\n\nAide au calcul dès taux par variation proportionnelle\n\nil n'est pas nécessaire de remplir cette rubrique en cas de reconduction des laux de référence ou de variation différenciée.\n\nCalcul du coefficient de variation proportionnelle\n\nTaux proportionnels\n\nTaxes\n\n(6 décimales)\n\n(cal. 2 x col. 9)\n\nsil'un toux dét iné Si la diminution sans lien\n\n[]\n\n8\n\nLe\n\n10\n\nde manière proportionnelle\n\ndes taux a été décidée en 2074,\n\nexcède le taux plafond\n\ncochez la case\n\nTaxe foncière bâties (TFB)\n\nProduit total souhaité\n\nindiqué en colonne 3, une\n\nTaxe foncière non bâties (TFNB)\n\nmr\n\n=\n\nvariation différenciée doit\n\n| osligetarement être votée\n\nProduit total de référence (total colonne 5)\n\nNDÉPEN\n\nve [revrees | cou | re Re rar 1 ren eee] 8\n\n|... | (ave) or]. | | (ass) ao) OO 38690|  10697|\n\nÀ CARCASSONNE\n\nProduits attendus des\n\nProduits attendus des\n\nressources à taux voté\n\nTotal prévisionnel au titre || Le O6 MARS 2024\n\nressources indépendantes\n\nde la fiscalité directe Pour la Direction des Finances publiques\n\nPour la Préfecture\n\nPour la Commune,\n\ndes taux votés\n\nDAVID PESSAROSSI\n\n(col. 7)\n\n(col. 14)\n\n2024\n\nMIRFOTEUR MER MES FINA\n\n- 42 977 - 4 700 = 430 139 (73111)\n",
+      "ocr": {
+        "mean_conf": 78.9,
+        "min_conf": 0,
+        "low_word_fraction": 0.192,
+        "words": 266
+      }
+    },
+    {
+      "page": 10,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=10",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "10 \nRENOUVELLEMENT DES TARIFS PISCINE ET DIVERSES LOCATION \n \nTarifs piscine 2024 (hors camping) \nRappel 2023 \nEntrée adultes  \n3,5 € \nEntrée enfants \n1,5 € \nAbt adultes \n \n30 € \nAbt enfants \n \n10 € \nGratuité pour les enfants de moins de 5 ans \nTarif famille   \n6 €  \nLa tarification famille pose un problème de gestion des entrées pour les personnes qui assurent \nl’encaissement, du fait de l’absence de vérification possible sur la réalité de la famille, et génère \nincompréhension et mécontentement. \nIl est donc proposé le remplacement du tarif famille par 1 entrée enfant gratuite pour deux entrées adultes \npayantes (hors abonnement). \n \nAprès échanges et afin de ne pas trop pénaliser les familles les tarifs suivants sont finalement retenus à \nl’unanimité par le conseil pour la saison 2024 \nEntrée adultes  \n3,5 € \nEntrée enfants \n1€ \nAbt adultes \n \n30 € \nAbt enfants \n \n9 € \nGratuité pour les enfants de moins de 5 ans \nSuppression du tarif famille \n \nForfait mensuel permettant la fréquentation gratuite de la piscine par les clients du camping \nAu vu des décomptes 2023, il est proposé de fixer le forfait mensuel à régler par le camping à \n 700 €  \n➢ Le conseil vote à l’unanimité la fixation du forfait mensuel pour le camping à 700 € \n \nPour le tarif groupe \n(ALSH, centres de vacances ou colonies),  \nRappel 2023 entrée à 1 € enfants et accompagnants, \n➢ Le conseil vote à l’unanimité le renouvellement du tarif 2023 pour la saison 2024 pour les groupes \n \nTarif location foyer 2024 \n \n➢ Le conseil vote à l’unanimité la reconduction des tarifs comme suit \n \nTarif location foyer \n \nCaution \nTarifs locations \nHabitant de la commune \n \n500,00 € \n100,00€ (week-end et férié) \nPersonnes extérieures à la \ncommune \n500,00€ \n350,00€ (week-end et férié) \n \nTarif location matériel 2024 \n \n➢ Le conseil vote à l’unanimité la reconduction des tarifs comme suit \n \nLocation matériel \nConditions \nTarifs location \nMini pelle avec chauffeur \nMin .1 h/ Max 4 h \n55,00 €/H  \n"
+    },
+    {
+      "page": 11,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=11",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "11 \nTracteur épareuse avec chauffeur \nMin .1 h/ Max 4 h \n55,00 €/H  \nLocation camion sans chauffeur \nLivraison 17h-enlèvement \nmatin \n55,00 € \n \nDEMANDES DE SUBVENTION 2024 \n \n \nDans la mesure où certaines associations n’ont pas fait part de leur souhait, il est rappelé que la subvention \naccordée ne sera versée que sous réserve d’une demande et de la fourniture des documents habituels \nnotamment les comptes de résultats. \nLes subventions sont votées à l’unanimité du conseil exceptée celle concernant le collège la Bertrande (club \nmoto). Cette subvention est votée par 10 voix pour et une contre  \n \nLe demande de subvention du secours populaire sera transmise au CCAS pour décision sur ses propres \nfonds. \nLa demande pour l’AFM-téléthon est rejetée, de même que celle du « souvenir français ». \nLISTE DES SUBVENTIONS AUX ASSOCIATIONS\n2021\n2022\n2023 demandé\nretenu 2024\nACCA MONTOLIEU\n700\n700\n700\n700\n700\nADEPAPE\n50\n50\n50\n50\n50\nAFDAIM11 \n30\n30\n30\n30\n30\nAMICALE DES POMPIER D'ALZONNE\n300\n300\n300\n300\n300\nAMICALE DU PERSONNEL COMMUNAL\n300\n300\n300\n300\n300\nANCIENS COMBATTANTS\n200\n200\n200\n200\n200\nANCIENS D'ALGERIE\n120\n120\n120\n120\n120\nAS SAISSAC CABARDES\n3000\n3000\n3000\n3000\n3000\nASSO MONTOLIEU VILLAGE DU LIVRE\n9000\n10500\n10500\n10500\n10500\nASSOCIATION AMPELOFOLIES CABARDES\n250\n250\n250\n250\n250\nASSOCIATION PARENTS ELEVES\n600\n600\n600\n1000\n800\nASSOCIATION VALORISATION PATRIMOINE\n500\n500\n500\n500\n500\nAUDE AUX ARTS\n2000\n2000\n2000\n2000\n2000\nAVE C\n300\n300\n300\n300\n300\nBUDOBI\n300\n300\n300\n300\n300\nCHAMBRE DES METIES\n200\n200\n176\n200\n75\nCHASSE MAITERIE NEUVE\n300\n300\n300\n300\n300\nCLUB DU 3EME AGE\n300\n600\n600\n600\n600\nCOMITE DES FETES\n1000\n5000\n5000\n5000\n5000\nCOOPERATIVE SCOLAIRE MONTOLIEU\n1200\n1200\n1200\n1500\n1500\nGEDON11 il s'agit d'une adhésion pris en \ncharge sur un autre compte pour 2024\n70\n70\n70\nJAZZ SOUS LE PREAU (non versé en 2023)\n200\n1000\n1000\n0\n0\nLA TRUITE DE LA DURE\n600\n600\n600\n600\n600\nLES AMIS DE LA COLLINE ST ROCH\n1550\n800\n800\n800\n800\nLIGUE CANCER\n50\n50\n50\n50\n50\nPARTIR EN LIVRE (assocition ADELE)\n150\n275\n500\n1000\n600\nPETANQUE CLUB CABARDE\n450\n450\n450\n450\n450\nPIERRES SECHES MONTOLIVAINES\n700\n900\n900\n900\n900\nPREVENTION ROUTIERE AUDE\n50\n100\n100\n100\n150\nCOLLEGE LA BERTRANDE (club moto)\n100\ncahier de la montagne noire\n100\nnon affecté\n104\nTOTAL\n24470\n30695\n31000\n31050\n30575\n"
+    },
+    {
+      "page": 12,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=12",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "12 \n \nN’ont pas pris part aux votes les membres des bureaux des associations suivantes : \nPour l’association valorisation du patrimoine montolivain  Jeanne ETORÉ-LORTHOLARY \nPour Aude aux Arts   \n \n \n \n \n \nAntoine CASAS-HARILLO \n \nCOLLECTIF BUDGETAIRE INITIAL 2024 \n \n \nPrésentation des grandes lignes du budget de la commune. \nLes documents ont été envoyés le 3 avril aux conseillers. \nPar rapport à la première présentation en commission finance, on notera que les dotations ont été reprises \nsuite à leur communication par l’État durant le week-end pascal. Parallèlement on trouvera des \najustements dans le chapitre des charges générales. \nCe budget est le premier présenté sous la version M57 qui introduit un certain nombre de modifications : \nmodification de l’intitulé des comptes, introduction des comptes de provisions (créances douteuses, et \ncompte épargne temps) lesquels impactent en conséquence les équilibres et le virement de la section de \nfonctionnement à celle d’investissement du projet envoyé  \nA noter : \nLe report d’excédent de fonctionnement est de 39 886,65 € et non 34 685,91 sur les états transmis : le \ncomptable public n’a pas retenu pour 5 200,21 euros de dépenses faites dans les journées \ncomplémentaires pour le compte de gestion, dépenses qui sont donc transférées sur le budget 2024. \nPar ailleurs la commune doit prendre en charge pour 514 € d’admission en non-valeur (créances non \nrecouvrées) et un provisionnement salaire et charge pour les CET des employés communaux (évaluation de \n4000 €) \nLe projet de budget s’établit donc à : \n- \n1 159 916,55 euros pour la section de fonctionnement \n- \n1 450 869,11 euros pour la section d’investissement \n \n \n \n \nLe poste charges de personnels et frais assimilés représente 42 % du budget devant les charges à caractère \ngénéral avec 29 % \nCôté recettes, les impositions directes représentent 43 % du budget devant les impôts et taxes (18%) \nCode\nLibellé\nBP initial 2023\nBP initial 2024\nRéalisé total \n31/12/2023\n011.\n Charges à caractère général\n340 550,00\n        \n337 765,00\n            \n316 493,25\n         \n012.\n Charges de personnel et frais assimilés\n456 000,00\n        \n486 500,00\n            \n482 223,87\n         \n014.\n Atténuations de produits\n-\n                    \n2 900,00\n               \n2 286,16\n             \n023.\n Virement à la section d’investissement\n108 567,58\n        \n98 714,55\n              \n042.\n Opérations d’ordre de transfert entre sections\n-\n                    \n60 000,00\n              \n-\n                     \n65.\n Autres charges de gestion courante\n132 786,00\n        \n138 523,00\n            \n148 642,05\n         \n66.\n Charges financières\n11 950,00\n          \n31 000,00\n              \n11 753,24\n           \n67.\n Charges exceptionnelles\n-\n                    \n514,00\n                  \n68\ndotation aux amortissements,dépréciation et provisions\n-\n                    \n4 000,00\n               \nTOTAL FONCTIONNEMENT\n1 049 853,58\n      \n1 159 916,55\n         \n961 398,57\n         \nFONCTIONNEMENT DEPENSES\n"
+    },
+    {
+      "page": 13,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=13",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "13 \n \n \n \nPour ce qui concerne les charges de personnel, il est précisé suite à une demande émise par les conseillers, \nque le paiement de la prime inflation a représenté (charges comprises) 4056,43 €, comptabilisé sur les \ncomptes 2024. \nLe CIA comptabilisé en 2023 a atteint 2500 €. \nSuite à une interrogation émise lors de la commission finances, il est précisé que l’engagement passé avec \nnotre compagnie d’assurance, court jusqu’au 31 décembre 2025. Il conviendra de procéder à des \ncomparaisons, et de se rapprocher de Carcassonne Agglo pour le prochain renouvellement compte tenu de \nla croissance observée du coût de notre couverture. \n \nLes analyses pour le budget général seront communiquées aux conseillers la semaine prochaine. \nLes délais de transmission des dernières informations (notamment la prise en charge des dotations sur \nprovision) ont été communiquées trop tardivement pour permettre de saisir l’ensemble des éléments dans \nle logiciel.  \n \nConcernant les dépenses d’investissement, on notera une modification sur le montant des immobilisations \ncorporelles par rapport au projet envoyé pour un montant de 2 280 €. \n \n \nIl concerne le règlement final d’un échange de chemins sur le Trabet.  \nLe détail des immobilisations corporelles est rappelé. \nCode\nLibellé\nBP initial 2024\nRéalisé total \n31/12/2023\n002.\n Résultat d'exploitation reporté\n34 301,58\n          \n39 886,55\n              \n34 301,58\n           \n013.\n Atténuations de charges\n20 000,00\n          \n30 000,00\n              \n61 020,52\n           \n042.\n Opérations d’ordre de transfert entre sections\n-\n                    \n-\n                       \n-\n                     \n70.\n Produits des services, du domaine et ventes divers\n25 380,00\n          \n31 600,00\n              \n39 269,94\n           \n73.\n Impôts et taxes\n193 013,00\n        \n209 000,00\n            \n192 966,00\n         \n731.\n Impositions directes\n493 475,00\n        \n499 916,00\n            \n512 746,29\n         \n74.\n Dotations et participations\n166 084,00\n        \n170 553,00\n            \n183 454,92\n         \n75.\n Autres produits de gestion courante\n115 000,00\n        \n118 100,00\n            \n123 244,73\n         \n77.\n Produits exceptionnels\n2 600,00\n            \n60 861,00\n              \n6 959,61\n             \nTOTAL FONCTIONNEMENT\n1 049 853,58\n      \n1 159 916,55\n         \n1 153 963,59\n      \nFONCTIONNEMENT RECETTES\nCode\nLibellé\ninitial 2023\nBP initial 2024\nInvestissement dépense\n001.\n Solde d'exécution de la section d'investissement reporté\n259 350,21\n               \n157 879,11\n               \n040.\n Opérations d’ordre de transfert entre section\n-\n                          \n-\n                          \n041.\n opérations patrimoniales\n-\n                          \n-\n                          \n10.\n Dotations, fonds divers et réserves\n-\n                          \n-\n                          \n16.\n Emprunts et dettes assimilées\n70 715,00\n                \n79 200,00\n                \n20.\n Immobilisations incorporelles\n39 600,00\n                \n42 600,00\n                \n21.\n Immobilisations corporelles\n661 930,00\n               \n1 171 190,00\n            \nTOTAL DEPENSES INVESTISSEMENTS\n1 031 595,21\n            \n1 450 869,11\n            \n"
+    },
+    {
+      "page": 14,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=14",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "14 \n \n \n \n21.\n Immobilisations corporelles\n661 930,00\n               \n1 171 190,00\n            \n2111.\n Terrains nus\n2 280,00\n                  \npour solde échange chemin (trabet)\n2113.\n Terrains aménagés autres que voirie\n3 130,00\n                  \n90 000,00\n                \ncitystade incluant frais d'architecte\n2115.\n Terrains bâtis\n2135.\n Installations générales, agencements, aménagements des const\n545 595,00\n               \n2138.\n Autres constructions \n               111 800,00 \n2151.\n Réseaux de voirie\n35 000,00\n                \n2152.\n Installations de voirie\n495 500,00\n456 315,00\n               \npave\n21531.\n Réseaux d'adduction d'eau\n21538.\n Autres réseaux\n9 000,00\n                  \n2158.\n Autres installations, matériel et outillage techniques\n4 200,00\n                  \npompes à chaleur musée\n21611.\n Biens sous-jacents (œuvre et objet d'art)\n12 000,00\n                \n21 200,00\n                \nvierge et crucifiction\n2182.\n Matériel de transport\n2183.\n Matériel de bureau et matériel informatique\n3 600,00\n                  \nrenouvellement matériel informatique secrétarait\n2184.\n Mobilier\n4 500,00\n                  \n39 000,00\n                \néquipement Nefle école\n2188.\n Autres immobilisations corporelles\n23.\n Immobilisations en cours\n238.\n Avances et acomptes versées sur commandes d'immobilisations\nrampe colline St Roch(1400)+église + toit pisicine(60000)+ réfection \nappartement(46600)+ solde presbytère(13662+4000)\n"
+    },
+    {
+      "page": 15,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=15",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "15 \n \nPrésentation des budgets annexes \n \nPour le CCAS \n  \nLe montant du budget s’établit à 3 522.01 €, aucun abondement n’est prévu pour le budget initial, un point \nsera fait en cours d’année au vu des dépenses présentées. \n \nPour le groupe médical \n \nLe montant du budget s’établit à 12 874, 20 € pour le fonctionnement incluant la participation des communes \nvoisines et à 19827,59 € pour les investissements dont les échéances de prêt pour \n10 102,34 € \n  \nPour le lotissement \nLe montant du budget s’établit à 513 023,82 € pour le fonctionnement et 512 703,82 € pour les \ninvestissements comprenant pour 12 871 € la subvention de la commune. L’emprunt sera remboursé en \n2024. Il conviendra que le conseil se penche sur le devenir du terrain non vendu. \n \nL’ensemble de ces budgets sera présenté au vote lors du conseil municipal du 15 avril prochain. \n \nTRANSFERT DE PROPRIETE AU PROFIT DE LA COMMUNE DES CHEMINS PRIVÉS DESTINÉS A ENTRER DANS \nLE DOMAINE COMMUNAL \n \nDans le cadre du classement des chemins dans le domaine communal, il convient avant de poursuivre les \ndémarches de procéder au transfert de propriété des chemins privés suivants : \n- \nChemin de Borderouge \n- \nChemin du Trabet (poursuite de la voie impériale) \n- \nChemin des Brétous (Mme Nicole Cabanié) \n- \nChemin de Villeneuve  \n \nLe transfert se ferait, après accord avec les propriétaires pour l’euro symbolique, la commune prenant en \ncharge la totalité des frais d’acte auprès du notaire. \nDans le même ordre d’idée, les mêmes démarches seront faites pour la parcelle à l’angle du chemin de \nJalabert, pour pouvoir couler une dalle et mieux aménager l’espace pour les containers à ordures. \n \n➢ Le conseil vote par 10 voix pour et une abstention l’autorisation pour le maire, après accord des \nactuels propriétaires, à signer les actes de transfert au profit de la commune de l’ensemble des \nchemins et parcelles citées. \n \n \n \n \n \n \n \n \n \n \n \n \n"
+    },
+    {
+      "page": 16,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=16",
+      "method": "tesseract",
+      "status": "machine_read",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.616,
+      "text": "VENTE UNIQUEMENT DU LOT A POUR UNE SURFACE DE 1861M?\n\nUsage : Grange-remise avec terrain attenant\nPrix de vente : 90 000,00 EUR\nVendeur(s) : ESCANDE Jean Marius, ESCANDE Elisabeth, ESCANDE Jean-Luc,\n\nESCANDE André, ESCANDE Laurent\n\n> Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption\n",
+      "text_sparse": "u bien\n\ndu\n\nast\n\n| Section | N°\n\n| Superficietotale |\n\n|. MB | 235 | 3Ruedes Marromniess | 90m\n\n| ÆÆ | 289 | 3Ruedes Marronniess | 60m |\n\nVENTE UNIQUEMENT DU LOT A POUR UNE SURFACE DE 1861M?\n\nGrange-remise avec terrain attenant\n\nPrix de vente\n\n90 000,00 EUR\n\nVendeur(s)\n\nESCANDE Jean Marius, ESCANDE Elisabeth, ESCANDE Jean-Luc\n\nESCANDE André, ESCANDE Laurent\n\nA\n\n120\n\ned tre\n\n(>\n\nE\n\n14 #\n\n13\n\nAB\n\n1e\n\n121\n\n130\n\na\n\n#/\n\n651\n\nPa\n\npe\n\n121\n\n127\n\nST\n\n» Place\n\n128\n\n9.” 44\n\nLa\n\nx 322\n\n2\n\n_\n\n(es\n\nro\n\nde\n\n525\n\n\\ 524 1\n\n>\n\n| 6%\n\n\\\n\n7e\n\n{ 1\n\n|\n\n—_ 625\n\nSS7) ss9 |\n\n637\n\nferme\n\n__@\n\n@\n\npod,\n\n, 225,\n\nLÀ\n\nWir\n\na# Ge\n\n— —\n\n246\n\n1@ 2e\n\n| —_—\n\n\\ 242\n\nŸ\n\n455\n\n521\n\n}- _—\n\nL\n\n———\n\n243\n\nC;\n\nBP\n\nns\n\n»-\n\n—f\n\nui.\n\n643 êat\n\n642 /631\n\n244\n\n574\n\n647\n\nDa\n\nI\n\nLe\n\n> Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption\n\n16\n",
+      "ocr": {
+        "mean_conf": 92.6,
+        "min_conf": 41,
+        "low_word_fraction": 0.02,
+        "words": 49
+      }
+    },
+    {
+      "page": 17,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=17",
+      "method": "tesseract",
+      "status": "machine_read",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.585,
+      "text": "Désignation du bien vendu :\n\nRéf. Cadastrale :\nPECH ROSIE\nPECH ROSIE\nPECH ROSIE\nPECH ROSIE\n\nUsage : Terrain d'agrément\n\nPrix de vente : 3000,00 EUR\n\nVendeur(s) : PECH Marie-José\n\n> Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption\n\n17\n",
+      "text_sparse": "Désignation\n\nbien vendu :\n\nRéf. Cadastrale :\n\n140\n\nPECH ROSIE\n\n3265\n\n141\n\nPECH ROSIE\n\n4020 m°\n\n143\n\nPECH ROSIE\n\n7885 m°\n\n144\n\nPECH ROSIE\n\n2069 m°\n\nUsage\n\nTerrain d'agrément\n\nPrix de vente :\n\n3000,00 EUR\n\nVendeur(s) :\n\n; :\n\nPECH Marie-José\n\nLS\n\n«2\n\nus\n\ncd\n\n.\n\n“\n\nw\n\nss\n\n«on\n\nae\n\n”\n\nm\n\n”\n\n—_\n\n=> =\n\nET\n\n”\n\n155\n\ncu\n\n*s\n\n155\n\n4 4\n\nvs\n\n182\n\nwe\n\nwe\n\n158\n\nLS\n\nre\n\nLei\n\n<\"\n\nmm\n\nL\n\nve\n\n163\n\nte\n\n”\n\n163\n\nts\n\nPAL\n\n184\n\nLi\n\n08\n\n> Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption\n\n17\n",
+      "ocr": {
+        "mean_conf": 93.0,
+        "min_conf": 79,
+        "low_word_fraction": 0.0,
+        "words": 44
+      }
+    },
+    {
+      "page": 18,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=18",
+      "method": "tesseract",
+      "status": "machine_read",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.654,
+      "text": "Désignation du bien vendu :\n\n> Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption\n\n",
+      "text_sparse": "Désignation du bien ve\n\nbien ndu :\n\nRéf. Cadastrale\n\n>\n\nLe conseil se prononce à l’unanimité contre l’exercice du droit de préemption\n\n18\n",
+      "ocr": {
+        "mean_conf": 93.8,
+        "min_conf": 79,
+        "low_word_fraction": 0.0,
+        "words": 18
+      }
+    },
+    {
+      "page": 19,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=19",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.626,
+      "text": "Désignation du bien vendu :\nRéf. Cadastrale :\n\nLe Sauzet Ouest 5476 m°\nLe Sauzet Ouest 1995 m°\nLe Sauzet Est 6486 m°\nLe Sauzet Est 4800 m°\nLe Sauzet Est 10750 m*\nUsage : Agricole\nPrix de vente : 22680,00 EUR\nVendeur(s) : SAFER\n— j —_— - 42\n‘ se 2 42 Lu\n> “5 427\n446\n48\nss\nÏ PS)\nLS\n618 â |\nfer ° Ca y; a\n8 \"es, .\n—w/ J8$) 482 &\nen 1/ # SR @ e\nEC 6489 ess /-582—— fa _\n» 621 o & boss \"\n15-02 ;\ntd ee à; ts 4\nS j = & »/ 7% 462 413\n223 % pr _ - 8/0 178 5\nN s Po (885\n; 205 — _ 396\n\n> Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption\n",
+      "text_sparse": "Dési\n\non du bien vendu :\n\nadastrale\n\n| Section | NW | lieu-dit |  Superficietotale __\n\n71\n\nLe Sauzet Ouest\n\n5476 m*\n\n72\n\nLe Sauzet Ouest\n\n1995 m*\n\n447\n\nLe Sauzet Est\n\n6486 m’\n\nLe Sauzet Est\n\n4800 m°\n\nLe Sauzet Est\n\n10750 m°\n\nAgricole\n\nPrix de vente\n\n22680,00 EUR\n\nVendeur(s\n\nSAFER\n\n_—_\n\n>\n\n42:\n\nss\n\n442\n\n445\n\n427\n\nx\n\n61\n\n__\n\na\n\n618\n\n-B\n\n617\n\nSF\n\n| 455 T\n\næ\n\n459\n\nx\n\n456!\n\nCe &\n\nvar |\n\n5x8 5\n\n—4\n\n6489\n\ness /- 582\n\n_—\n\n453\n\n621\n\n461\n\n«=\n\n#14\n\n>e\n\n76\n\n74\n\n#13\n\n#12\n\ns23\n\n410\n\nPS a/ee\n\n#07\n\nISF æ\n\nét\n\n405\n\n> Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption\n\n19\n",
+      "ocr": {
+        "mean_conf": 58.7,
+        "min_conf": 0,
+        "low_word_fraction": 0.465,
+        "words": 142
+      }
+    },
+    {
+      "page": 20,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=20",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.541,
+      "text": "20 \n \n➢ Le conseil se prononce à l’unanimité contre l’exercice du droit de préemption \n \nL’ordre du jour étant épuisé, la séance est levée à 22 h10. \n \n \nINFORMATIONS \n \nSite internet, le candidat retenu est BIZNET   \nTravaux de nuit pour la réfection de la chaussée \nChoix des potelets  \nDemande association de défense du patrimoine montolivain pour la prise en charge par la mairie de 1200 \neuros (devis en mairie de Monsieur Jacolot). La mairie prendra directement en charge cette dépense. Elle \ndevrait économiser sur l’installation des grands panneaux, puisqu’ il y en aura moins que prévu. En effet le \ndépartement refuse l’emplacement prévu pour celui d’Alzonne.  \n"
+    }
+  ]
+}

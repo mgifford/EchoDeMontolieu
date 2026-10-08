@@ -1,0 +1,155 @@
+{
+  "document_id": "c51eda05592f",
+  "filename": "CRCM-27-03-2025-1-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf",
+  "source_sha256": "c51eda05592f5e738b189c72a67d207cf62a6c0c1cdf0427df44e69628636641",
+  "source_bytes": 1314458,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 25 Apr 2025 13:34:53 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:37:40+00:00",
+  "meeting_date": {
+    "value": "2025-03-27",
+    "source": "text layer, page 1: '27 MARS  2025'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 12,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \nCONSEIL MUNICIPAL DU 27 MARS  2025 A 20 h 00 \n \nL’an deux mille vingt-cinq et le 27 mars à 20 h 00, le conseil municipal dûment convoqué s’est \nréuni sous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de \nMontolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Magalie BOST- BERGÉ, Antoine CASAS-HARILLO, Laure \nESCARÉ, Jeanne ETORÉ-LORTHOLARY, Jamel GHARBI, Bernard LAURET, Éric OLIVIER, \nJean-Luc OLIVIER, Jacques SAFONT, Céline SALA. \n \n \nEtaient absents :  \nValérie MONRAISIN, procuration à Laure ESCARÉ \nVincent PICQUE \n \nLa séance est ouverte à 20 h 05 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat de la séance. \nLa proposition est retenue par 12 voix pour et une abstention. \n \nOrdre du jour \n- \nApprobation du procès-Verbal du conseil du 6 mars 2025 ; \n- \nCompte Financier Unique (CFU) du budget général, et des budgets annexes et affectation \ndes résultats \n- \nEtats des taxes \n- \nRenouvellement des tarifs piscine et diverses locations \n- \nMise en place de prestations de service \n- \nDemandes de subventions \n- \nPrésentation du Collectif budgétaire initial 2025, budget général et budgets annexes \n- \nDroits de préemption  \n- \nMotion relative à la réforme du CAS FACE \n \n \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 6 MARS 2025 \n \nLe procès-verbal a été communiqué avec la convocation au présent conseil. \n \n Le conseil approuve le Procès-Verbal du conseil du 6 mars 2025 par 11 voix pour, une abstention \net une contre.  \n \nCOMPTE FINANCIER UNIQUE DU BUDGET GÉNÉRAL ET DES BUDGETS ANNEXES \nAFFECTATION DES RÉSULTATS \n \n \nPrésentation des CFU 2024 de la commune, du Groupe Médical, du CCAS et du Lotissement. \nLes documents, déjà présentés lors de la commission des finances sont remis en séance  \n \n \n \n \n \n \n \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.426,
+      "text": "2 \n \nPOUR LA COMMUNE \n \nLes recettes de fonctionnement \nLes recettes de fonctionnement s’établissent à 1 092 493, 18 € \n \n \nLes dépenses de fonctionnement \nLes dépenses de fonctionnement s’établissent à 1 031 858,02 €. \n \n \nL’excédent de fonctionnement est de 60 635,16 €, auquel il faut ajouter l’excédent de \nfonctionnement reporté soit 43 554,47 €, pour un total de 104 189,63 € \n \n \n \n \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=3",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.54,
+      "text": "Les recettes d'investissement\nConcernant les recettes d’investissement, elles se montent à 721 381,26 €.\n\nChap Libellé\n018 RSA\n13 Subventions d'investissement (hors 138)\n16  Emprunts et dettes assimilées (hors 16449, 165, .)\n20 Immobilisations incorporelles (sauf 204)\n204 Subventions d'équipement versées\n21 Immobilisations corporelles\n22 Immobilisations reçues en affectation\n23 Immobilisations en cours (sauf 2324)\nTotal des recettes d'équipement\n10 Dotations, fonds divers et réserves\n138 Autres subventions invest. non transf.\n16  Emprunts et dettes assimilées (16449, 165 et 166)\n18 Compte de liaison : affectation (BA, régie)\n26 Participations et créances rattachées\n27 Autres immobilisations financières\n024 _ Produits des cessions d’immobilisations\nTotal des recettes financières\n45 — Chapitres d'opérations pour compte de tiers\n\nTotal des recettes réelles d'investissement 1 400 524.43 € 697 097.94 €\n\n021\n\nVirement de la section de fonctionnement\n\n040 Opérations ordre transfert entre sections\n\n041\n\nOpérations patrimoniales\n\nTotal des recettes d'ordre d'investissement\n\nTotal des recettes d'investissement de l'exercice 1 451 208.43 € 721 381.26 €\n\nR 001 Solde d'exécution positif reporté\n\nre rt cr\nLes dépenses d'investissement\n\nLes dépenses d’investissements s’établissent à 800 415,97 €\n\nChap Libellé\n018 RSA\n20 Immobilisations incorporelles (sauf 204)\n204 Subventions d'équipement versées\n21 Immobilisations corporelles\n22 — Immobilisations reçues en affectation\n23 — Immobilisations en cours (sauf 2324)\nTotal des opérations d'équipement\nTotal des dépenses d'équipement\n10 Dotations, fonds divers et réserves\n13 Subventions d'investissement\n16  Emprunts et dettes assimilées (sauf 1688 non-budg)\n18 — Compte de liaison : affectattion (BA régie)\n26 Participations et créances rattachées\n27 Autres immobilisations financières\nTotal des dépenses financières\n45 — Chapitres d'opérations pour compte de tiers\n\nBP 2024 CFU 2024\n000€ 000€\n808 731.59 € 232 672.33 €\n31373273 € 283 000.00 €\n000€ 000€\n000€ 000€\n000€ 000€\n000€ 000€\n000€ 000€\n1122464,32€ 515 672.33 €\n176 580.11 € 181 425.61 €\n000€ 000€\n\n51 480.00 € 000€\n000€ 000€\n000€ 000€\n000€ 000€\n\n50 000.00 € 000€\n\n278 060.11 € 181 425.61 €\n000€ 000€\n46 400.68 € 000€\n000€ 20 000.00 €\n4 283.32 € 4283.32 €\n50 684.00 € 24 283. .32 €\n\nBP 2024\n0.00 €\n42 348.00 €\n7 500.00 €\n1167 246.00 €\n0.00 €\n0.00 €\n0.00 €\n1217094.00€\n0.00 €\n0.00 €\n79 200.00 €\n0.00 €\n0.00 €\n0.00 €\n79 200.00 €\n0.00 €\n\nCFU 2024\n0.00 €\n15 894.00 €\n7 500.00 €\n693 592.05 €\n0.00 €\n0.00 €\n0.00 €\n716 986.05 €\n0.00 €\n0.00 €\n79 146.60 €\n0.00 €\n0.00 €\n0.00€\n79 146.60 €\n0.00 €\n\nTotal des dépenses réelles d'investissement 1 296 294.00 € 796 132.65 €\n\n040\n041\n\nOpérations ordre transfert entre sections\n\nTotal des dépenses d'ordre d'investissement\n\nTotal des dépenses d'investissement de l'exercice 1 300 577.32 € 800 415.97 €\n\nD 001 Solde d'exécution négatif reporté\n\nTotal des dépenses d'investissement cumulées 1451 208.43 € ——\n\n0.00€\n4 283.32 €\n4283.32 €\n\n15063111 €\n\n0.00 €\n4283.32 €\n4283.32 €\n",
+      "text_sparse": "Les recettes d'investissement\n\nConcernant les recettes d’investissement, elles se montent à 721 381,26 €.\n\nChap\n\nLibellé\n\nBP 2024\n\nCFU 2024\n\n018\n\nRSA\n\n000€\n\n000€\n\n13\n\nSubventions d'investissement (hors 138)\n\n808 731.59 €\n\n232 672.33 €\n\n16\n\nEmprunts et dettes assimilées (hors 16449, 165, …)\n\n31373273 €\n\n283 000.00 €\n\n20\n\n000€\n\n000€\n\nImmobilisations incorporelles (sauf 204)\n\n204\n\n000€\n\n000€\n\nSubventions d'équipement versées\n\n000€\n\n000€\n\n21\n\nImmobilisations corporelles\n\n22\n\nImmobilisations reçues en affectation\n\n000€\n\n000€\n\n23\n\nImmobilisations en cours (sauf 2324)\n\n000€\n\n000€\n\nTotal des recettes d'équipement\n\n1122 464,32€\n\n515 67233 €\n\n10\n\n176 580.11 €\n\n181 425.61 €\n\n138\n\nAutres subventions invest. non transf.\n\n000€\n\n000€\n\n16\n\nEmprunts et dettes assimilées (16449, 165 et 166)\n\n51 480.00 €\n\n000€\n\n18\n\nCompte de liaison : affectation (BA, régie)\n\n000€\n\n000€\n\n26\n\nParticipations et créances rattachées\n\n000€\n\n000€\n\n27\n\nAutres immobilisations financières\n\n000€\n\n000€\n\n024\n\nProduits des cessions d’immobilisations\n\n50 000.00 €\n\n0.00€\n\nTotal des recettes financières\n\n278 060.11 €\n\n181 425.61 €\n\n45\n\nChapitres d'opérations pour compte de tiers\n\n000€\n\n000€\n\n021\n\nVirement de la section de fonctionnement\n\n46 400.68 €\n\n000€\n\n040 Opérations ordre transfert entre sections\n\n000€\n\n20 000.00 €\n\n041\n\nOpérations patrimoniales\n\n4 283.32 €\n\n4283.32€\n\nTotal des recettes d'ordre d'investissement\n\n50 684.00 €\n\n24 283.32 €\n\nR 001 Solde d'exécution positif reporté\n\n000€\n\nsde ct vien cmd ee\n\nLes dépenses d'investissement\n\nLes dépenses d’investissements s’établissent à 800 415,97 €\n\nChap\n\nLibellé\n\nBP 2024\n\nCFU 2024\n\n018\n\nRSA\n\n000€\n\n0.00 €\n\n20\n\n42348.00 €\n\n15 894.00 €\n\nImmobilisations incorporelles (sauf 204)\n\n204\n\n7 500.00 €\n\n7500.00 €\n\nSubventions d'équipement versées\n\n21\n\n1167 246.00€\n\n693 592.05 €\n\nImmobilisations corporelles\n\n22\n\n000€\n\n0.00€\n\nImmobilisations reçues en affectation\n\n23\n\n0.00€\n\n0.00€\n\nImmobilisations en cours (sauf 2324)\n\nTotal des opérations d'équipement\n\n0.00€\n\n0.00 €\n\nTotal des dépenses d'équipement\n\n1217094.00€\n\n716 986.05 €\n\n10\n\nDotations, fonds divers et réserves\n\n000€\n\n0.00€\n\n13\n\nSubventions d'investissement\n\n0.00€\n\n0.00€\n\n16\n\nEmprunts et dettes assimilées (sauf 1688 non-budg)\n\n79 200.00 €\n\n79 146.60 €\n\n18\n\nCompte de liaison : affectattion (BA,régie)\n\n0.00€\n\n0.00€\n\n26\n\nParticipations et créances rattachées\n\n0.00€\n\n0.00€\n\n27\n\nAutres immobilisations financières\n\n0.00€\n\n0.00€\n\nTotal des dépenses financières\n\n79 200.00 €\n\n79 146.60 €\n\n45\n\nChapitres d'opérations pour compte de tiers\n\n000€\n\n0.00 €\n\n040 Opérations ordre transfert entre sections\n\n0.00€\n\n0.00 €\n\n041\n\n4 283.32 €\n\n4283.32 €\n\nTotal des dépenses d'ordre d'investissement\n\n4283.32 €\n\n4283.32 €\n\nD 001 Solde d'exécution négatif reporté\n\n15063111 €\n\nrs des épris ee\n",
+      "ocr": {
+        "mean_conf": 84.9,
+        "min_conf": 0,
+        "low_word_fraction": 0.123,
+        "words": 489
+      }
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.411,
+      "text": "4 \n \nLe déficit d’investissement s’établit à 79 034,71 € auquel il faut ajouter le déficit antérieur de  \n150 631,11 € soit un déficit cumulé de 229 665,82 €. En tenant compte des restes à réaliser en \nrecettes pour 119 199,98 €, le besoin de financement de la section d’investissement se monte à : \n110 465,84 € \n \nLe résultat net est un déficit de 6 276,21 € \n \nPOUR LE CCAS \n \n \n \nIl n’y a pas d’investissement pour le CCAS. On constate un excédent de fonctionnement pour : \n3 422.01 € \n \nPOUR LE GROUPE MEDICAL \n \n \n \nL’excédent de fonctionnement s’établit à 8 086,62 € \nLe déficit d’investissement est de 10 102,34 €  \n \nLe résultat net est un déficit de 2 015,72 € qui s’explique par l’absence de contribution 2024 de la \nmairie de Pezens. \nCe déficit sera reporté dans les dépenses de fonctionnement 2025. \n \n \n \n \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.21,
+      "text": "5 \nPOUR LE LOTISSEMENT \n \n \nL’excédent de fonctionnement est de 161 952,42 €  \nLe déficit d’investissement est de 179 200,14 € \nLe résultat cumulé s’établit à - 17 247,72 € et correspond au terrain non vendu. \nAprès la présentation, Monsieur le Maire est invité à quitter la salle. \n \nLes conseillers procèdent au vote des CFU 2024 : \n- \n Le CFU de la commune est validé par 11 voix pour et une abstention  \n- \nCFU CCAS est validé par 11 voix pour et une voix contre  \n- \nCFU groupe médical est validé à l’unanimité \n- \nCFU Lotissement est validé par 11 voix pour et une abstention et l’affectation des résultats \ncomme suit. \n \nAFFECTION DES RESULTATS \n \nPour la commune  \n \nRappel : résultat net déficitaire de 6 276,21 € \nLe conseil statue sur le seul résultat de fonctionnement qui doit en priorité couvrir le besoin de \nfinancement de la section d’investissement. \n \n  \n \n- \nLe conseil vote l’affectation du résultat comme présentée par 12 voix pour et une abstention  \n \n \n \n \nDEPENSES\nRECETTES\nSOLDE\nRésultat 2024\n1 031 858,02\n1 092 493,18\n60 635,16\nSection de fonctionnement\nRésultats antérieurs\n43 554,47\n43 554,47\nRésultat à affecter\n1 031 858,02\n1 136 047,65\n104 189,63\nRésultat 2024\n800 415,97\n721 381,26\n-79 034,71\nSection d'investissement\nRésultats antérieurs\n150 631,11\n-150 631,11\nSolde global d'exécution\n951 047,08\n721 381,26\n-229 665,82\nRésultats cumulés 2024 (avant RAR)\n1 982 905,10\n1 857 428,91\n-125 476,19\nRestes à réaliser\nFonctionnement\n0,00\nau 31/12/2024\nInvestissement\n119 199,98\n119 199,98\nRésultats cumulés 2024 (y compris RAR)\n1 982 905,10\n1 976 628,89\n-6 276,21\n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "6 \nPour le CCAS \nRappel : résultat net de 3422,01 € \nIl n’y a pas de section d’investissement pour le CCAS \nAffectation résultats \nA - Résultat global de la section de fonctionnement à affecter \n3 422,01 \nB - Solde d'exécution de la section d'investissement (inscription D ou R 001) \n0,00 \nC - Solde des restes à réaliser en section d'investissement \n0,00 \nD - Besoin de financement de la section d'investissement (B + C) \n0,00 \nE - Couverture du besoin de financement 2024 (compte 1068) \n0,00 \nExcédent de fonctionnement reporté \n(inscription R002) =  A - E \n  \n3 422,01 \n \n- \n \n- \nLe conseil vote l’affectation du résultat comme présentée par 12 voix pour et un contre  \n \nPour le groupe médical \n \nRappel : Résultat net de -2 015,72 € \n \nLe conseil statue sur le seul résultat de fonctionnement qui doit en priorité couvrir le besoin de \nfinancement de la section d’investissement. \n \n \nAffectation résultats \nA - Résultat global de la section de fonctionnement à affecter \n8 086,62 \nB - Solde d'exécution de la section d'investissement (inscription D ou R 001) \n-10 102,34 \nC - Solde des restes à réaliser en section d'investissement \n0,00 \nD - Besoin de financement de la section d'investissement (B + C) \n-10 102,34 \nE - Couverture du besoin de financement 2024 (compte 1068) \n10 102,34 \nExcédent de fonctionnement reporté \n(inscription R002) =  A - E \n  \n-2 015,72 \n \nLe conseil vote l’affectation du résultat comme présentée à l’unanimité \n \nPour le lotissement \n \nRésultat net de - 17 247,72 € qui correspond au terrain non vendu  \nL’excédent de fonctionnement ne peut être affecté au déficit d’investissement sur l’opération du \nlotissement \nAffectation \nrésultats \nA - Résultat global de la section de fonctionnement à \naffecter \n161 952,42 \nB - Solde d'exécution de la section d'investissement \n(inscription D ou R 001) \n-179 200,14 \nC - Solde des restes à réaliser en section d'investissement \n0,00 \nD - Besoin de financement de la section d'investissement (B + \nC) \n  \nE - Couverture du besoin de financement 2024 (compte \n1068) \n0,00 \n(1068 non autorisé \nLotissement) \nExcédent de fonctionnement reporté (inscription R002) \n=  A - E \n  \n161 952,42 \n \n- \nLe conseil vote l’affectation du résultat comme présentée par 12 voix pour et une abstention  \nMonsieur le Maire est invité à revenir dans la salle du Conseil \n \n \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.359,
+      "text": "7 \n \n \nETAT DES TAXES POUR 2025 \n \nL’état des taxes pour 2025 est présenté au conseil, par Bernard LAURET. \n \n Il propose de retenir les taux tels que proposés soit \n-45,53% pour la taxe foncière bâtie \n-67,38 %pour la taxe foncière sur le non bâti. \n-22.19 %pour la taxe d’habitation \nLe conseil vote à l’unanimité l’état des taxes tel que présenté \n \n \nRENOUVELLEMENT DES TARIFS PISCINE ET DIVERSES LOCATION \n \nTarifs piscine 2025 (hors camping) \n \nPropositions pour la saison 2025 (reconduction des tarifs à l’identique) \nEntrée adultes  \n3,5 € \nEntrée enfants \n1€ \nAbt adultes  \n30 € \nAbt enfants  \n9 € \nGratuité pour les enfants de moins de 5 ans \n \nLe conseil vote à l’unanimité la reconduction des tarifs  \n \nForfait mensuel permettant la fréquentation gratuite de la piscine par les clients du camping \nLe conseil vote à l’unanimité la reconduction du forfait à 700 € \n \nPour le tarif groupe \n (ALSH, centres de vacances ou colonies),  \n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=8",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "8 \nProposition : augmenter la tarification à 1.5 €  \n \nAprès échange, le conseil vote pour une tarification à 1,5 € par 10 voix pour, et deux abstentions  \n \nTarif location foyer 2025 \n \nAprès échange, le conseil vote par 12 voix pour et une contre les tarifs de location comme suit \n \nTarif location foyer \n \nCaution \nTarifs locations \nHabitant de la commune \n \n1000,00 € \n100,00€ (week-end et férié) \nPersonnes extérieures à la \ncommune \n1000,00€ \n350,00€ (week-end et férié)  \n \n \nTarif location matériel 2025 \n \nLe conseil vote à l’unanimité la reconduction des tarifs comme suit \n \nLocation matériel \nConditions \nTarifs location \nMini pelle avec chauffeur \nMin .1 h/ Max 4 h \n55,00 €/H  \nLocation camion sans chauffeur \nLivraison 17h-\nenlèvement matin \n55,00 € \n \nMISE EN PLACE DE CONTRAT DE PRESTATIONS DE SERVICE \n \nLors d’un précédent conseil, des solutions ont été recherchées pour permettre à la commune \nd’intervenir, à la demande de particuliers, soit dans le cadre d’opérations de nettoyage sur des \nmurs privés donnant sur la voie publique, soit dans des cas d’urgence  (arbre menaçant la sécurité \ndes personnes sur la voie publique) contre rémunération. \nAprès vérification de la légalité d’une telle prestation, il convient que le conseil statue sur la \ntarification de cette dernière. \nLe plus logique est de facturer : \n- \nLe coût horaire du ou des employés ayant été affectés à la tâche, en fonction du nombre \nd’heures passées  \n- \nUn forfait de 55 euros pour le matériel utilisé s’il appartient à la commune, ou le coût réel \nde la location si le matériel doit être loué à l’extérieur \n- \nLe coût des produits éventuellement utilisés \n \nLes particuliers devront signer une convention, dégageant la mairie de toute responsabilité \nnotamment en cas de mauvais état préalable du bâtiment, pouvant entraîner une dégradation \ncomplémentaire. Un constat pourrait être fait en amont (avec photo), signé par les deux parties. \n \nIl est proposé de porter le coût horaire à l’équivalent de l’employé le plus ancien, soit 25 € \n \nLe conseil vote à l’unanimité les modalités de constitution du coût de la prestation de service avec \nun coût horaire de 25 €. \n \nDEMANDES DE SUBVENTION 2025 \n \nLe tableau des demandes de subvention est transmis en séance. \n \nLes subventions qui suivent sont votés à l’unanimité, à l’exception : \n• de la demande de l’association Adèle , M ; le Maire propose l’attribution de 600,00€: 9 voix \npour, 4 contre. Les personnes ayant votées contre souhaitaient augmenter cette dernière. \n"
+    },
+    {
+      "page": 9,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=9",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.083,
+      "text": "9 \n• \n \nCOLLECTIF BUDGETAIRE INITIAL 2025 \n \nPrésentation des grandes lignes du budget de la commune. \nLes documents sont remis en séance aux conseillers. \nAvant toute explication sur les montants par chapitre, il est fait un point sur l’état financier de la \ncommune au regard de son endettement. \n \n \n2023\n2024\nDEMANDE 2025 décision\nBUDOBI\n300\n300\n300\n300\nVALORISATION PATRIMOINE\n500\n500\n500\n500\nAPE\n600\n800\n1100\n1100\nAMPELOFOLIES\n250\n250\n250\n250\nMVDL\n10500\n10500\n10500\n10700\nANCIENS COMBATTANTS\n200\n200\n200\n200\nAFDAIM\n30\n30\n30\n30\nCHASSE DES VALLES DE L ALZEAU A LA VERNASSONNE\n300\n300\n300\n300\nCLUB DES RETRAITES\n600\n600\n600\n600\nCOOPERATIVE SCOLAIRE\n1200\n1500\n1500\n1500\nLA TRUITE DE LA DURE\n600\n600\n600\n600\nLIGUE CONTRE LE CANCER\n50\n50\n50\n50\nPIERRES SECHES MONTOLIVAINES\n900\n900\n900\n900\nPREVENTION ROUTIERE\n100\n150\n150\n150\nAMICALE DU PERSONNEL COMMUNAL\n300\n300\n300\n300\nPETANQUE CLUB DU CABARDES\n450\n450\n450\n450\nOMSM\n3000\n3000\n3000\n3000\nACCA MONTOLIEU\n700\n700\n700\n700\nADELE\n500\n600\n1000\n600\nCOMITE DES FETES\n5000\n5000\n5000\n5000\nCHAMBRE DES METIERS\n176\n75\n75\n75\nADEPAPAE\n50\n50\n50\n50\nANCIENS D ALGERIE\n120\n120\n120\n120\nAMIS DE LA COLLINE SAINT ROCH\n800\n800\n800\n800\nPOMPIERS D ALZONNE\n300\n300\n300\n300\nPATRIMOINE VALLEES DU CABARDES\n100\n100\n100\nAVEC\n300\n300\n300\n300\nAUDE AUX ARTS\n2000\n2000\n2000\n2000\nTENNIS DE TABLE\n300\n0\ntelethon\npas de montant\n0\nREVE DU MARTINET\npas de montant\n0\nSECOURS CATHOLIQUE\npas de montant\n0\nSOUVENIR Français\npas de montant\n0\nASSO. FORESTIERE DE L'AUDE\n30\n0\nFOYER SOCIO EDUCATIF COLLEGE BRAM\n22,50\n0\nAMICALE MONTOLIVAINE ST-ROCH\npas de montant\n0\nGFC (ecole de foot)\npas de montant\n300\nNon affecté\n104\n0\n29930\n30475\n31505\n31275\n"
+    },
+    {
+      "page": 10,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=10",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "10 \n \n \nLa section de fonctionnement \n \n \n \n \nLa section d’investissement \n \n \n \n \nLe projet de budget s’établit donc à : \n- \n1 096 225,50 euros pour la section de fonctionnement (contre 1 159 916,55 en 2024) \n- \n   962 455,74 euros pour la section d’investissement (contre 1 450 869,11 en 2024) \n \nJeanne ETORÉ- LORTHOLARY quitte la séance à 22 h 15, et donne sa procuration à Jean Luc \nOLIVIER.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n011 Charges à caractère général\n332 412,66 €\n013 Atténuations de charges\n30 000,00 €\n012 Charges de personnel et frais assimilés\n539 450,00 €\n70 Produits de service, du domaine et vente divers\n71 989,00 €\n014 Atténuations de produits\n0,00 €\n73 Impôts et taxes\n682 999,50 €\n65 Autres charges de gestion courante\n127 183,90 €\n74 Dotations et participations\n157 626,00 €\n66 Charges financières\n28 486,63 €\n75 Autres produits de gestion courante\n119 760,00 €\n67 Charges exceptionnelles\n0,00 €\n77 Produits exceptionnels\n33 850,00 €\n1 027 533,19 €\n1 096 224,50 €\n042 Opérations d'ordre de transfert entre sections\n1 500,00 €\n0,00 €\n68 Dotations aux provisions semi-budgétaires\n7 370,00 €\n0,00 €\n023 Virement à la section d'investissement\n53 545,10 €\n002 Déficit antérieur reporté fonctionnement\n6 276,21 €\n68 691,31 €\n0,00 €\n1 096 224,50 €\n1 096 224,50 €\n002 Excédent antérieur reporté de fonctionnement\n042 Opérations d'ordre de transfert entre sections\nDépenses de Fonctionnement\nRecettes de Fonctionnement\nDépenses Réelles Prévues 2025\nRecettes Réelles Prévues 2025\nTotal opération d'ordre\nTotal opération d'ordre\nTotal des dépenses 2025\nTotal des recettes 2025\n15 618,00 €\n223 901,63 €\n82 025,75 €\n116 276,06 €\n21 754,00 €\n567 232,95 €\n21 Immobilisations corporelles\n613 392,17 €\n732 789,92 €\n907 410,64 €\n229 665,82 €\n0,00 €\n040 Opérations d'ordres de transfert entre section\n0,00 €\n040 Opérations d'ordres de transfert entre section\n1 500,00 €\n0,00 €\n024 Produits de cession d'immobilisations (recettes)\n0,00 €\n021 Virement de la section de fonctionnement\n53 545,10 €\n229 665,82 €\n55 045,10 €\n962 455,74 €\n962 455,74 €\nDépenses d' Investissement\nRecettes d' Investissement\n020 Immobilisations incorporelles\n10 Dotations, fonds divers et réserves\n16 Emprunts et dettes assimilées\n204 Subvention d'équipement versées\n16 Emprunts et dettes assimilées\n13 Subventions d'investissement\nRecettes Réelles Prévues 2025\nTotal opération d'ordre\nTotal des dépenses 2025\nTotal des recettes 2025\n001 Excédent antérieur reporté d'investissement\nDépenses Réelles Prévues 2025\n041 Opérations patrimoniales\n001 Solde d'éxecution d'investissement reporté\nTotal opération d'ordre\n"
+    },
+    {
+      "page": 11,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=11",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.11,
+      "text": "11 \nDROIT DE PREEMPTION  \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n281 \n2 rue Bastié \n45m2 \n \nUsage : \n \nHabitation \n \n \nPrix de vente :  \n85000 euros \nVendeur(s) :   \nDIEPPOIS Martine \n \n \n \nLe conseil s’oppose à l’exercice du droit de préemption à l’unanimité \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n298 \n22 rue du 8 mai 1945 \n00ha00a52ca \nAB \n299 \n22 rue du 8 mai 1945 \n00ha00a20ca \n \nUsage : \n \nHabitation \n \n \nPrix de vente :  \n155 000 euros \nVendeur(s) :   \nYAGER Jérôme \n \n \n \n \n \n"
+    },
+    {
+      "page": 12,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=12",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.133,
+      "text": "12 \n \n \nLe conseil s’oppose à l’exercice du droit de préemption à l’unanimité \n \n \nMOTION \n \nMonsieur le Maire indique que la loi de finances pour 2025 a introduit, dans ses articles 20 et 129, \nla réforme du financement des aides à l’électrification rurale qui prévalait avec la gestion du \ncompte d’affectation spéciale (CAS) Facé. \nL’enveloppe du CAS Facé est alimentée par un prélèvement annuel, auprès des gestionnaires de \nréseaux de distribution, sur les recettes du tarif d’utilisation des réseaux publics d’électricité \n(TURPE). \nCe système de financement, dont l’origine remonte à 1936, permettait le financement de l’entretien \net de la modernisation des réseaux au moyen d’une ressource d’emploi provenant de l’utilisation \ndes réseaux, et assurait une péréquation entre les zones urbaines et rurales. Dans le département \nde l’Aude, le Syndicat Audois d’Energies et du Numérique (SYADEN) est l’autorité organisatrice \nde la distribution publique d’électricité en charge notamment de réaliser les investissements sur le \nréseau d’électricité au sein des zones d’électrification rurale au sens du classement du FACE. \nCe changement suscite des craintes de plusieurs ordres, mais le SYADEN s’émeut surtout de ne \npouvoir disposer à terme d’autant de moyen que ceux dont il a disposé jusqu’à présent, d’où la \nmotion qui a été transmise aux conseillers avec la convocation à la séance présente. \n  \nLe conseil vote à l’unanimité pour \n- \nadopter la motion portée conjointement par le SYADEN et l’Entente des syndicats d’énergie \nen région Territoire d’Energie d’Occitanie (TEO), \n- \nautoriser le Maire à porter cette motion auprès des instances de l’Etat et en particulier \nsolliciter le Préfet du département de l’Aude sur ce dossier. \n \nL’ordre du jour étant épuisé, la séance est levée à 22 h 45 \n"
+    }
+  ]
+}

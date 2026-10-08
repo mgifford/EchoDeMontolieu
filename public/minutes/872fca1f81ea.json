@@ -1,0 +1,121 @@
+{
+  "document_id": "872fca1f81ea",
+  "filename": "CRCM-09-03-2026-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf",
+  "source_sha256": "872fca1f81ea094e79a38187c0dee025e00823a4439be530fa9c4cadfc40fd77",
+  "source_bytes": 1336354,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Thu, 16 Apr 2026 12:39:00 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T10:12:00+00:00",
+  "meeting_date": {
+    "value": "2026-03-09",
+    "source": "text layer, page 1: '9 MARS 2026'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 9,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \n \nCONSEIL MUNICIPAL DU 9 MARS 2026 \n \nL’an deux mille vingt-six et le neuf mars à 19 h 32, le conseil municipal dûment convoqué s’est réuni \nsous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de Montolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Magalie BOST- BERGÉ, Antoine CASAS-HARILLO, Laure \nESCARÉ, Jeanne ETORÉ-LORTHOLARY, Jamel GHARBI, Bernard LAURET, Valérie \nMONRAISIN, Éric OLIVIER, Vincent PICQUE, Jacques SAFONT, Céline SALA. \n \n \nEtaient absents :  \nJean-Luc OLIVIER, procuration donnée à Jeanne ETORÉ-LORTHOLARY \n \nLa séance est ouverte à 19 h 32 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat de la séance. \nLa proposition est retenue par 13 voix pour et une abstention (Jeanne ETORÉ-LORTHOLARY)  \n \nOrdre du jour \n  \n- \nApprobation du Procès-Verbal du 8 janvier 2026 \n- \nApprobation des comptes 2025 des budgets de la commune \n- \nClôture du projet de PLU avant démarrage des consultations \n- \nDroits de préemption \n \n Monsieur le Maire sollicite les membres du conseil, pour rajouter à l’Ordre du jour, la \ndemande d’avance de subvention pour l’association organisatrice du trail de Montolieu prévue \nen avril 2026. Ce point sera traité avant les droits de préemption. La demande est retenue à \nl’unanimité. \n \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 8 JANVIER 2026 \n \nLe procès-verbal a été communiqué avec la convocation au présent conseil. \n \nIl est approuvé à l’unanimité \n \nAPPROBATION DES COMPTES 2025 DES BUDGETS DE LA COMMUNE \n \nLes comptes sont présentés au conseil  \nSont projetés successivement \nLe Compte Financier Unique  du CCAS \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.426,
+      "text": "2 \n \n \n Ce dernier fait apparaitre des dépenses pour 1800 euros se décomposant : \n• En secours 100 € \n• En subvention 1700 € dont 400 € versés au titre du Fonds Unique Logement \nLes recettes se montent à 200 € (don numéraire). \nCompte tenu d’un solde en début d’année de 3 422,01 euros, le résultat est un excédent de \n1822,01€ \n \nLe Compte Financier Unique  du Lotissement \n \n \nCe compte est sans changement par rapport à l’année dernière, aucun mouvement n’y a été fait le \nprêt est terminé. \nLe résultat déficitaire de 17 247,72 euros correspond au terrain non vendu, se situant en haut du \nlotissement. \nLe comptable du trésor avait pris note en début d’année 2025, lors de sa visite avant la préparation \ndes budgets du souhait de la commune de mettre fin au suivi de ce budget et de réintégrer le résultat \ndans les comptes de la commune. Il doit nous fournir le schéma d’écritures comptables pour se \nfaire. A ce jour ce point n’est pas réglé. \n \nLe Compte Financier Unique  du groupe médical \n \n \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.491,
+      "text": "3 \n \n \n \nIl est rappelé que les dépenses sont celles du remboursement du prêt (le capital en investissement, \nles intérêts en fonctionnement), les recettes de fonctionnement correspondent à la dotation \nd’équilibre qui figure sur les comptes de la commune pour équilibrer les comptes. \nEn 2025, ni Pezens, ni Moussoulens n’ont participé financièrement à ce budget. \n \nEn recette d’investissement on trouve l’excédent de fonctionnement capitalisé de l’exercice \nprécédent. \nLe résultat de 10 centimes déficitaire, est dû à un arrondi dans les échéances de prêt. \n \nLe Compte Financier Unique  de la commune \n \n \n \nSection de Fonctionnement \n \n \n \n \nSection d’Investissement \nLes recettes de fonctionnement, puis les \ndépenses de fonctionnement sont \nprésentées par chapitre. \nDe même pour les recettes et dépenses \nd’investissement \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.38,
+      "text": "4 \n \n \n \n \n \n \nLe détail des RAR se présente comme suit : \n \n \nPour mémoire, il est rappelé que la capacité de désendettement de la commune était passée de \n3.14 années en 2022 à 8.9 années en 2024. \nLe ratio d’endettement de la commune était de 0,6 en 2024. Il se situait au-dessus de la médiane \nde la strate nationale, mais restait néanmoins en dessous du dernier décile de la strate nationale. \nCe ration s’établit à 49 % fin 2025. La mairie ne dispose pas à l’heure actuelle d’élément de \ncomparaison.  \n \nLaure ESCARÉ rappelle que 2022 à 2025 ce sont 1,36 millions d’euros qui ont été investis par la \ncommune, et la capacité de désendettement de la commune a été ramenée en 2025 à 5,61 ans. \n \n \n \n \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.289,
+      "text": "5 \n \nAprès la présentation, Monsieur le Maire est invité à quitter la salle. \nLes conseillers procèdent au vote des CFU 2025  et à l’affectation des résultats comme suit:  \n \nPour le budget du CCAS \nRappel : résultat net de 1822,01 € \nIl n’y a pas de section d’investissement pour le CCAS \n \n \nLe conseil valide le CFU et vote l’affectation du résultat comme présentée par 12 voix pour et une \nabstention (Jeanne ETORÉ-LORTHOLARY) \n \nPour le budget du Lotissement \n \nLe conseil valide le CFU et vote l’affectation du résultat comme présentée à l’unanimité. \n \nPour le budget du groupe médical \n \n \nLe conseil valide le CFU et vote l’affectation du résultat comme présentée à l’unanimité. \n \n \nPour le budget général de la commune \n \n \n \n \n  \n  \nAffectation \n  \n  \nrésultats \n  \n  \n  \n  \n  \n  \nA - Résultat global de la section de fonctionnement à affecter \n93 356,72 \nB - Solde d'exécution de la section d'investissement (inscription D ou R 001) \n-84 420,38 \nC - Solde des restes à réaliser en section d'investissement \n11 341,20 \nD - Besoin de financement de la section d'investissement (B + C) \n-73 079,18 \nE - Couverture du besoin de financement 2025 (compte 1068) \n73 079,18 \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.035,
+      "text": "6 \n \nrecette de fonctionnement reporté \n(inscription R002) =  A - E \n  \n20 277,54 \n \nIl est donc proposé l’affection suivante \n \n \nLe conseil valide le CFU et vote l’affectation du résultat comme présentée à l’unanimité. \n \nMonsieur le Maire est invité à rejoindre la séance. \n \nCLÔTURE DU PROJET PLU AVANT DEMARRAGE DES CONSULTATIONS \n \nBernard Lauret indique qu’au regard de l’agitation actuelle autour des seules extensions urbaines \nincluses dans le document, il a décidé qu’il n’y aurait pas de vote de clôture avant les prochaines \nélections. \nIl estime plus opportun de laisser le soin de ce vote au prochain conseil, qui agira comme il le \nsouhaite. Il précise que compte tenu des délais incompressibles des consultations, et de la période \nestivale qui s’ensuit, voter maintenant, ou dans un mois et demi, ne changera rien, et que la clôture \ndéfinitive du PLU se ferait en tout état de cause, en fin d’année 2026. \nLaure ESCARÉ fait part du résultat des consultations des conseillers, à la suite des propositions \nissues de la dernière réunion publique, aux demandes de précision de SOLIHA et aux dernières \ndemandes de modification du PLU. \n• Elargissement des parcelles sur l’OAP du Sol n°2 – cet élargissement engendre un \nraccourcissement des longueurs pour ne pas consommer plus de foncier, mais qui pourra \nêtre compensé par la vente en fond de jardin de terrain non constructible. A noter que la \nprésentation de l’OAP ne concerne que la partie constructible des terrains. \n Cette demande a été acceptée par 8 conseillers sur 10 qui se sont manifestés, 2 se sont abstenus \n• Pour la Ferrière augmentation de la bande de terrain de 12 à 15 mètres et absence \nd'ouverture en fond de jardin sur la bande arborée. \nCette demande a été refusée par 8 conseillers sur 10 qui se sont manifestés, 2 se sont abstenus. \nL’augmentation de la bande réduisait d’autant la surface des parcelles, qui ne pouvaient être \ncompensée de l’autre côté puisque la voirie clôturait l’opération. Par ailleurs l’absence d’ouverture \ndes fonds de jardin sur cette bande, créait une discontinuité dans les opérations d’extension \nurbaine, contraire à l’application de la loi montagne. \n• Pour l’OAP 2 du Sol, fallait-il imposer une orientation de faîtage, ou laisser cette dernière \nlibre pour permettre de faciliter l’implantation des constructions en fonction des parcelles ? \n8 conseillers sur 11 votants ont choisi une orientation libre (on notera que l’orientation des faîtages \na été imposé sur l’OAP n°1, afin de préserver son intégration dans le paysage) \n• Pour l’OAP de la Ferrière, le conseil souhaitait-il que les 2 OAP précédentes soient \nentièrement terminées avant d’autoriser le démarrage de l’OAP de la Ferrière, ou voulait-il \nretenir une réalisation en pourcentage de l’OAP 2 du Sol pour ce démarrage ? Pour rappel \nl’OAP du SOL n°2 ne peut démarrer que lorsque la première est réalisée à 60 % \n8 conseillers sur 11 votants ont demandé à ce que l’OAP 2 du Sol soit entièrement achevée, avant \nque ne puisse démarrer celle de la Ferrière. \nJeanne ETORÉ-LORTHOLARY intervient pour contester ce mode de consultation, qui s’il peut être \nutile et légal dans des cas d’urgence pour faciliter la vente d’un bien en l’absence de séance de \nconseil, lui parait inadapté dans ce cas. Ces points auraient dû être soumis à délibération dans le \ncadre d’un conseil. \nLaure ESCARÉ indique que ces points étaient nécessaires pour permettre au prestataire de \ntravailler et finaliser les documents, qui ont été reçus le 5 mars en mairie. \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "7 \n \nElle précise que deux OAP ont été ajoutées : l’une pour le cimetière et l’autre pour la zone \nd’équipement au sud du Sol. En effet, pour toutes les zones AU, y compris les zones AUE, les OAP \nsont obligatoires. \n \nL’ensemble des documents a été transmis aux conseillers, une édition a été réalisée, qui est mise \nà disposition des montolivains, dans l’attente d’un prochain vote. \n \nDEMANDE D’AVANCE SUR SUBVENTION POUR L’ASSOCIATION TRAIL ST ROCH \n \nMonsieur Thierry BOST, président de l’association Trail St Roch a sollicité une avance sur la \nsubvention qui pourrait être attribuée par le prochain conseil dans le cadre de son budget 2026. \nBernard LAURET interroge les conseillers sur l’accord de principe de versement d’une avance. Le \nconseil donne son accord à l’unanimité. \nSur le montant à accorder, il est précisé que la demande de subvention elle-même est de 400 euros. \nLe nouveau conseil ne votant pas le budget avant la mi-avril (présentation et quinze jours de latence \navant le vote), il ne peut être envisagé de porter l’avance au montant de la demande actuelle. \nLaure ESCARÉ indique que pour l’année précédente, la subvention avait été accordée à \nl’association des parents d’élève pour l’organisation du trail pour un montant de 300 €. \nMonsieur Thierry BOST, sollicité par le conseil, précise que l’intégralité des bénéfices sera reversée \nà l’APE comme l’année précédente. \nAprès échange, le conseil vote à l’unanimité l’octroi d’une avance sur subvention de 300 euros. \n \nDROIT DE PREEMPTION \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n226 \n7 rue du Foyer \n40 m² \nAB \n485 \n7 rue du Foyer \n67 m² \n \nUsage : \n \nBâtiment \n \nPrix de vente :  \n220 000.00 euros \nVendeur(s) :   \nMr GLEIZES Georges et CHASTAN Guylaine \n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=8",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.261,
+      "text": "8 \n \n \n \nLe conseil s’oppose à l’unanimité à l’exercice du droit de préemption. \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n288 \n9 Rue du 8 mai 1945 \n115 m² \n \nUsage : \n \nBâtiment Habitation \n \nPrix de vente :  \n110 000.00 euros \nVendeur(s) :   \nMr SANCHEZ Juan et Mme SANCHEZ Aurélie \n \n \n \nLe conseil s’oppose à l’unanimité à l’exercice du droit de préemption. \n \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n621 \n2 rue du Pétrin \n51 m² \n"
+    },
+    {
+      "page": 9,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-09-03-2026-site-internet.pdf#page=9",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.187,
+      "text": "9 \n \n \nUsage : \n \nBâtiment Habitation et local commercial \n \nPrix de vente :  \n210 000.00 euros \nVendeur(s) :   \nMme BURTET épouse LABESSEDE Fabienne \n \n \n \nLe conseil s’oppose à l’unanimité à l’exercice du droit de préemption. \n \nDésignation du bien vendu :  \nRéf. Cadastrale : \n \nSection \nN° \nLieu-dit \nSuperficie totale \nAB \n295 \n28 rue du 8 mai 1945 \n73 m² \n \nUsage : \n \nBâtiment Habitation \n \nPrix de vente :  \n115 000.00 euros \nVendeur(s) :   \nMaître Xavier ROUANET \n \n \n \nLe conseil s’oppose à l’unanimité à l’exercice du droit de préemption. \n \nL’ordre du jour étant épuisé la séance est levée à 20 h 19 \n  \n \n"
+    }
+  ]
+}

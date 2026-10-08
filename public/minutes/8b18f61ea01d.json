@@ -1,0 +1,67 @@
+{
+  "document_id": "8b18f61ea01d",
+  "filename": "CRCM-28-mars-2026-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf",
+  "source_sha256": "8b18f61ea01d46629e7c009484bdb89a7c178e3751863548a8966bfb75ec772e",
+  "source_bytes": 113728,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Thu, 16 Apr 2026 12:38:25 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T10:12:00+00:00",
+  "meeting_date": {
+    "value": "2026-03-28",
+    "source": "text layer, page 1: '28 mars 2026'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 3,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "CONSEIL MUNICIPAL du 28 mars 2026 \n \nL’an deux mille vingt-six et le 28 mars à 11 h 00, le conseil municipal dûment convoqué s’est \nréuni sous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de \nMontolieu. \n \nEtaient présents :  \nAurélie BARBERO, Thierry BOST, Jeanne ETORÉ-LORTHOLARY, Mahbouba GHARBI, \nMyriam GUIRAUD, René LABESSEDE, Éric OLIVIER, Jean-Luc OLIVIER, Agnès PAUTOU, \nChristophe PECH, Jean-Paul PUJADE, Jacques SAFONT, Céline SALA, Jérémie \nSANDILLON, Aude SOULIÉ \n \n \nEtaient absents : / \n \nLa séance est ouverte à 11 h 02. \n \nSecrétariat de séance \nMme ETIENNE Marbouba propose d’assurer le secrétariat de séance. \nLa proposition est retenue à l’unanimité. \nOrdre du jour \n  \n- \nInstallation du conseil municipal \n- \nElection du Maire \n- \nFixation du nombre d’adjoints \n- \nElection des adjoints \n- \nLecture de la charte de l’élu \n- \nApprobation du procès-verbal du 09/03/2026 \n \nINSTALLATION DU CONSEIL MUNICIPAL \n \nMonsieur le maire, Bernard LAURET, procède à l’appel des conseillers municipaux et déclare \nle nouveau conseil municipal installé dans ses fonctions. \n \nIl demande à Mme ETORE LORTHOLARY, doyenne du conseil municipal, de prendre la \nprésidence pour l’élection du Maire. \n \nELECTION DU MAIRE \n \nDésignation de 2 assesseurs : M. OLIVIER Jean-Luc et M. SANDILLON Jérémie. \nMadame ETORE LORTHOLARY demande qui se porte candidat à l’élection du maire. \nCandidature : M. SAFONT Jacques \nMadame ETORE LORTHOLARY invite les conseillers à passer dans l’isoloir pour procéder au \nvote \nRésultat du vote du conseil : \nNombre de votants : 15 \nNombre de suffrages déclarés nuls : 1 \nNombre de suffrages déclarés blancs : 1 \nNombre de suffrages exprimés : 13 \nMajorité relative : 7 \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "Suffrages obtenus : M. SAFONT Jacques : 13 \n \nM. SAFONT Jacques est élu maire de la commune. \n \nM. le Maire prend la présidence de la suite de la séance. \n \nFIXATION DU NOMBRE D’ADJOINTS \n \nM. le maire rappelle que le conseil municipal doit déterminer le nombre des adjoints au maire \nsans que ce nombre puisse excéder 30 % de l'effectif légal du conseil municipal qui est de 15. \nPar conséquent il propose de fixer le nombre d’adjoints à 4. \n \nLe conseil approuve à l’unanimité. \n \nELECTION DES ADJOINTS \n \nM. le maire propose une liste d’adjoints composée comme suit :  \n1. M. LABESSEDE René 2. Mme BARBERO Aurélie 3. M. BOST Thierry 4. Mme PAUTOU \nAgnès \nM le Maire demande s’il y a une autre liste de candidats, Mme Jeanne Etoré-Lortholary se \nporte candidate. Il lui est répondu qu’elle doit présenter une liste d’adjoints. \nElle répond qu’elle n’est donc candidate à rien. \n \nJeanne Etoré-Lortholary tient à ce que soit noté au procès-verbal que les élus de la liste Agir \nensemble autrement pour Montolieu, en reconnaissant leur lourde défaite, considérant qu'ils \nreprésentaient néanmoins près de 40% des électeurs montolivains, avaient fait la demande \nd'un poste d'adjoint à la culture et du poste délégué à la communauté d'agglomération, que M. \nJacques Safont accompagné de Mme Agnès Pautou étaient venus lui signifier le rejet de cette \ndemande de vive voix à son domicile.  \n \nM. le Maire invite les conseillers à passer dans l’isoloir pour procéder au vote \nRésultat du vote du conseil : \nNombre de votants : 15 \nNombre de suffrages déclarés nuls : 1 \nNombre de suffrages déclarés blancs : 1 \nNombre de suffrages exprimés : 13 \nMajorité relative : 7 \nSuffrages obtenus : M. LABESSEDE / Mme BARBERO / M. BOST / Mme PAUTOU : 13 \n \nProclamation des adjoints élus. \n \nDiscours de M. le maire. \n \nLECTURE DE LA CHARTE DE L’ELU LOCAL \n \nM. le Maire procède à la lecture de la charte de l’élu local : \n \n1 Dans l’exercice de son mandat, l’élu local s’engage à respecter les principes de liberté, \nd’égalité, de fraternité et de laïcité ainsi que les lois et les symboles de la République. \n2 L’élu local exerce ses fonctions avec impartialité, diligence, dignité, probité et intégrité. Dans \nce cadre, il poursuit le seul intérêt général, à l’exclusion de tout intérêt qui lui soit personnel, \ndirectement ou indirectement, ou de tout autre intérêt particulier. \n3 L’élu local veille à prévenir ou à faire cesser immédiatement tout conflit d’intérêts réprimé \npar la loi. Lorsque ses intérêts personnels sont en cause dans les affaires soumises à l’organe \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/04/CRCM-28-mars-2026-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "délibérant dont il est membre, l’élu local s’engage à les faire connaître avant le débat et le \nvote. \n4 L’élu local s’engage à ne pas utiliser à d’autres fins les ressources et les moyens mis à sa \ndisposition pour l’exercice de son mandat ou de ses fonctions. \n5 Dans l’exercice de ses fonctions, l’élu local s’abstient de prendre des mesures lui accordant \nun avantage personnel ou professionnel. \n6 L’élu local participe avec assiduité aux réunions de l’organe délibérant et des instances dans \nlesquelles il a été désigné. \n7 Issu du suffrage universel, l’élu local est et reste responsable de ses actes pour la durée de \nson mandat devant l’ensemble des citoyens de la collectivité territoriale, à qui il rend compte \ndes actes et des décisions pris dans le cadre de ses fonctions.  \n8 L’élu local déclare, dans un registre tenu par la collectivité territoriale, les dons, avantages \net invitations d’une valeur qu’il estime supérieure à 150 euros dont il a bénéficié en raison de \nson mandat. Ne sont pas soumis à cette obligation déclarative les cadeaux d’usage et les \ndéplacements effectués à l’invitation des autorités publiques françaises ou dans le cadre d’un \nautre mandat électif.  \n9 Les élus locaux peuvent bénéficier du versement d’une indemnité pour l’exercice effectif de \nleurs fonctions électives et de la prise en charge des frais exposés dans ce cadre, dans les \nconditions prévues par la loi.  \n10 Les élus locaux sont affiliés, pour l’exercice de leur mandat, au régime général de la sécurité \nsociale dans les conditions définies à l’article L 382-31 du code de la sécurité sociale et à des \nrégimes spéciaux définis par le code général des collectivités territoriales.  \n11 Les élus locaux bénéficient, à l’occasion de leurs fonctions, d’une protection organisée par \nla collectivité territoriale, conformément aux règles fixées par le code pénal, les lois spéciales \net le code général des collectivités territoriales.  \n12 Le droit à la formation est reconnu aux élus locaux. Il s’exerce dans les conditions fixées \npar le code général des collectivités territoriales.  \n13 Toute personne titulaire d’un mandat local bénéficie, dans des conditions prévues par la loi, \nde garanties accordées dans l’exercice du mandat et à son issue et permettant notamment de \nconcilier celui-ci avec une activité professionnelle ou la poursuite d’études supérieures.  \n14 Tout élu local peut consulter un référent déontologue chargé de lui apporter tout conseil \nutile au respect des principes mentionnés à l’article L. 1111-13 du code général des collectivités \nterritoriales. Un décret en Conseil d'Etat détermine les modalités et les critères de désignation \ndes référents déontologues. \n \nM. le Maire remet un exemplaire à chaque conseiller pour signature. \n \nAPPROBATION DU PV DU CONSEIL MUNICIPAL DU 09 MARS 2026 \n \nLe procès-verbal a été communiqué avec la convocation au présent conseil. \n \nApprouvé à la majorité avec 13 voix pour et 2 abstentions (Jean-Luc OLIVIER et Agnès \nPAUTOU). \n \n \nL’ordre du jour étant épuisé la séance est levée à 11 h 40. \n \n \n \nLe Président \n \n \n \n \n \n \nLa Secrétaire \n"
+    }
+  ]
+}

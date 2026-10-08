@@ -1,0 +1,126 @@
+{
+  "document_id": "dbeb59677c40",
+  "filename": "CRCM-24062025-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf",
+  "source_sha256": "dbeb59677c4073821ad42b2ef258dcd79744271f4867adefc7239c443284a547",
+  "source_bytes": 553084,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 24 Oct 2025 11:38:50 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:38:17+00:00",
+  "meeting_date": {
+    "value": "2025-06-24",
+    "source": "text layer, page 1: '24 JUIN 2025'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 8,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \n \nCONSEIL MUNICIPAL DU 24 JUIN 2025  \n \nL’an deux mille vingt-cinq et le vingt-quatre juin à vingt heure et quatre minute, le conseil municipal \ndûment convoqué s’est réuni sous la présidence de Monsieur Bernard LAURET, à la salle d’honneur \nde la mairie de Montolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Antoine CASAS-HARILLO, Laure ESCARÉ, Jeanne ETORÉ-\nLORTHOLARY, Jamel GHARBI, Bernard LAURET, Éric OLIVIER, Vincent PICQUE, Jacques \nSAFONT. \n \n \nEtaient absents :  \nMagalie BOST- BERGÉ procuration à Aurélie BARBERO \nValérie MONRAISIN procuration à Laure ESCARÉ \nJean-Luc OLIVIER, procuration à Jacques SAFONT \nCéline SALA, procuration à Jamel GHARBI \n \nLa séance est ouverte à 20 h 04 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat de la séance. \nLe conseil retient la proposition par 13 voix pour et une abstention \n \nOrdre du jour \n  \n- \nApprobation du Procès-Verbal du 27 mai \n- \nVote PADD 3ème version \n- \nArbitrages règlement PLU  \n- \nRelance lot 3 du marché de l'église \n- \nChemins ruraux \n- \nRenouvellement convention avec Carcassonne Agglo pour les contrôles des Points d'Eau \nIncendie (PEI) \n- \nEngagement sur les marchés mutualisés de Carcassonne Agglo \n- \nAménagement du boulodrome : installation d'un éclairage  \n- \nLancement d'un marché de services : Assurances \n- \nDroits de préemption \n \nInformations \n \nMonsieur le maire demande à inscrire à l’ordre du jour, un point concernant la demande d’une \nsubvention exceptionnelle sollicitée par l’école, et un point concernant la réunion de la CCID. \nCes deux points seront abordés avant les droits de préemption \nLe conseil retient les deux inscriptions à l’unanimité \n \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 27 MAI 2025 \n \nLe procès-verbal a été communiqué aux conseillers. \nJeanne ETORÉ-LORTHOLARY demande que soit retiré la phrase suivante : \n« Se contenter de « tolérer » les infractions au PLU comme le suggère Jeanne ETORÉ-\nLORTHOLARY n’aurait que l’effet de les multiplier. ». \nElle indique qu’elle n’a jamais suggéré de tolérer les infractions. Laure ESCARÉ indique que lorsque \ns’est posé la question de que faire une fois que les volets étaient posés, Jeanne ETORÉ-\nLORTHOLARY a répondu qu’il n’y avait qu’à les tolérer. Jeanne ETORÉ-LORTHOLARY répond que \nce n’était pas le sens de sa répartie, et qu’elle s’est faite mal comprendre. La commune devrait pour \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "2 \n \nelle, poursuivre les infractions aux règlements du PLU. \nLa phrase sera retirée. \n \nEn conséquence et après ces échanges le conseil municipal approuve à l’unanimité le Procès-\nVerbal du 27 mai 2025 \n \nVOTE DE LA TROISIEME VERSION DU PADD \n \nLaure ESCARÉ indique qu’une dernière version du PADD a été envoyée ce jour même, Soliha y a \nrajouté la trame verte prévue dans le prolongement du Sol. \nElle énumère les modifications intervenues sur la troisième version \n• \nPage 4 : Ajout de la loi Montagne \n• \nAxe 1 modifié (A, B, C et D) : mise à jour des chiffres à la suite de l’étude de la vacance. \n• \nMise à jour de la dernière diapo, à la suite de l’étude de la vacance avec proposition de \ntypologie de ménages attendue conformément à la demande la DDTM.   Cette typologie est \nà valider par le conseil. \n• \nCarte 7 préservation de l’environnement p17. Suppression de la patate bleue correspondant \nau projet de deuxième ZAENR non retenue par le conseil \n• \nCarte 5, page 13, la zone AP/NP (patate bleue) a été étendue afin d’inscrire le cercle de \nprotection de 1.5 km autour du clocher et la zone agricole a été ajustée en conséquence \n(patates rouges) \n• \nToutes les cartes ont été re faites pour plus de lisibilité. \nPar ailleurs, le règlement graphique a été modifié avec le périmètre de 1.5km de visibilité autour du \nclocher ainsi que les abords de la chapelle Saint Roch (cf. cartes AP-NP). \n \nLe conseil vote par 13 voix pour et une abstention la version remaniée du PADD et la proposition \nde typologie des ménages. \n \nARBITRAGE CONCERNANT LE REGLEMENT DU PLU \n \nMonsieur le Maire indique que 4 points sont à étudier. \n \nLe premier concerne le taux de réalisation de l’OAP prioritaire à partir duquel il est possible de lancer \nla deuxième opération. \nIl est nécessaire auparavant de dénommer les OAP, afin de déconnecter leur numéro de leur ordre \nde priorisation. \nActuellement l’OAP N°1 est celle de la Ferrière, et est la dernière par ordre de priorité. \n \nIl est proposé de nommer les OAP comme suit : \nOAP les Brétous (la première en termes de priorité) \nOAP du Sol  \nOAP La ferrière \nLe conseil valide à l’unanimité les 3 noms des OAP \n \nLaure ESCARÉ rappelle que la deuxième OAP ne peut être engagé que lorsque le taux de \nréalisation de la première est atteint. Ce taux s’entend comme la réalisation des constructions. \nLe Conseil ne peut descendre en dessous de 50 %, mais il peut être positionné plus haut, ce qui \nest plus acceptable par les partenaires institutionnels. \nLe taux de 60 % est proposé \n \nLe conseil fixe à l’unanimité le taux de réalisation à 60 %  \n \n \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "3 \n \nLe deuxième point concerne la liste des éléments à protéger au titre du petit patrimoine \nSoliha a transmis une cartographie des éléments (marqué par des étoiles), complétée par l’envoi \nd’un document par Jeanne ETORÉ-LORTHOLARY  \nLa cartographie ne reprend pas tout, la liste de Mme ETORÉ-LORTHOLARY, ayant été reçu après \nl’établissement. \nAprès échange il est proposé de refaire une réunion de travail afin de valider ou pas chaque \nproposition. La date du 1er juillet est retenue. La réunion se tiendra à 20 h. \n \nLe troisième point concerne l’orientation des faîtages pour les OAP \nComme pour l’OAP La Ferrière, l’orientation des faîtages n’est pas parallèle à la rue, la règle \nd’orientation des faîtages prévue initialement dans le règlement des zones à Urbaniser, a été \nsupprimée (puisqu’elle prévoit justement cette orientation parallèle à la rue).  \nRèglementer l’orientation des faîtages n’est pas une obligation. \nAprès échange, il est voté à l’unanimité de demander à Soliha d’avoir une règlementation propre à \nchaque OAP. \n \nLe quatrième point concerne la règlementation du camping à la ferme \nÀ la suite de l’interrogation des exploitants agricoles ou éleveurs sur leur projet de camping à la \nferme, deux demandes ont été réceptionnées, dont l’une concernant une aire de camping-car, \nl’autre l’installation d’une tiny-house. \nLe conseil a le choix entre inscrire dans le règlement d’une façon générale (à l’article 2 des \noccupations autorisées de la zone Agricole) ce principe, ou ouvrir cette possibilité dans le cadre de \ndeux STECAL (Secteurs de Taille et de Capacité d'Accueil Limitées) correspondants aux deux \ndemandes. Dans ce cas il y aura un zonage spécial, à l’instar de celui qui a été créé pour la mini \nferme, pour la tiny-house. L’avantage du STECAL est d’éviter la prolifération des projets sur \nl’ensemble de la zone A, et de s’en tenir strictement aux seules demandes exprimées.  \nÉric OLIVIER fait remarquer que l’on a laissé jusqu’au 30 juin aux agriculteurs pour faire connaitre \nleurs projets, il reste encore quelques jours pour cela. \nLaure ESCARÉ le reconnait mais s’il y a d’autres demandes, il faut traiter la question comme pour \nles deux premières : un accord spécifique pour chaque, avec un STECAL qui limite le règlement du \nPLU aux seuls projets connus, ou une ouverture plus large. \nJeanne ETORÉ-LORTHOLARY ne voit pas pourquoi on ne pourrait pas avoir une ouverture plus \nlarge. \nÉric OLIVIER souligne que si seules deux demandes ont été reçues à ce jour, on peut avoir lors \nd’une vente d’exploitation, un nouvel exploitant qui souhaitera peut-être faire du camping à la ferme, \net si ce n’est pas prévu dans le règlement, il faudra intervenir par une révision du PLU. \nJacques SAFONT demande si l’on ne pourrait pas le prévoir globalement dans le règlement sous \nréserve de l’accord de la mairie, afin d’éviter de trop nombreux projets, et de taille trop grande. \nLaure ESCARÉ précise que ces installations doivent déjà avoir l’accord de la chambre d’agriculture, \net elles sont déjà soumises à une règlementation stricte, par exemple une aire pour les camping-\ncars ne doit pas dépasser 5 à 6 emplacements. Si l’on veut éviter une prolifération, le STECAL \npermet de limiter en créant un zonage spécifique. \nAprès échange, il est convenu que SOLIHA sera sollicité pour approfondir la question : est-il \npossible d’inscrire dans le règlement une ouverture, avec accord de la commune pour les projets. \n \n \nRELANCE DE MARCHE PUBLIC LOT 3 INFRUCTUEUX DE L’EGLISE \n \n \nA la suite de la demande du Conseil, Mme LAGARDE, a fait savoir qu’il n’y avait aucun surcoût \nd’honoraire engendré par la relance. \nIl n’y a pas de nécessitée à consulter le lot 3 dès à présent. \nIl sera en revanche nécessaire d’anticiper la relance de cette consultation a minima 6 mois avant le \ndémarrage de la Tranche Optionnelle 1. \nDans la mesure où il n’y a aucun surcoût, Bernard LAURET propose de relancer la consultation pour \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.204,
+      "text": "4 \n \nle lot 3, à charge pour le prochain conseil municipal de programmer la tranche optionnelle 1 quand il \nle souhaitera. \n \nLe conseil vote à l’unanimité la relance du marché public de l’église pour le lot 3 infructueux. \n \nDECISION SUR CHEMIN RURAUX DANS LE CADRE DE LA DEMARCHE DE CLASSEMENT \nDES VOIES COMMUNALES \n \nLe conseil a sursis à statuer lors de sa dernière séance concernant un chemin à Villeneuve. \nCe chemin ne dessert que des parcelles appartenant à la famille OLIVIER. Monsieur Jérôme \nOLIVIER s’engage à en laisser l’accès libre au public \nUn courrier reçu ce jour le précise clairement. \nJeanne ETORÉ-LORTHOLARY s’interroge sur cet engagement en cas de vente ultérieure du \nchemin. \nLaure ESCARÉ indique que la servitude de passage proposée par Jérôme OLIVIER sera inscrite sur \nl’acte dressé par le Notaire, il n’a donc aucun risque que le libre accès soit ultérieurement remis en \ncause. \n \nAurélie BARBERO et Eric OLIVIER ne participent pas au vote.  \n \nLe conseil approuve à l’unanimité des votants, la régularisation par échange du chemin de Villeneuve. \n \n \nRENOUVELLEMENT DE LA CONVENTION AVEC CARCASSONNE AGGLO POUR LE \nCONTROLE DES POINTS D’EAU INCENDIE (PIE) \n \nLa convention a été transmise avec l’ordre du jour du présent conseil. \n \nUne précédente convention signée en 2019 avait donné lieu à un contrôle en 2020, depuis, ce point \nobligatoire tous les deux ans, n’avait pas été suivi. \nLa tarification est calculée à partir d’un prix unitaire pour chaque PEI. La commune en compte 16. \n \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "5 \n \n \nLe conseil vote à l’unanimité le renouvellement de la convention avec Carcassonne Agglo pour le \ncontrôle des PEI, et autorise Bernard LAURET à signer ladite convention. \n \nENGAGEMENT SUR LES MARCHES MUTUALISES DE CARCASSONNE AGGLO \n \nLe Code de la Commande Publique permet à une pluralité de personnes publiques justifiant de \nbesoins \ncommuns liés à un achat déterminé, de s’associer en groupement de commandes dans le but \nd’optimiser des avantages tant au niveau économique qu’au niveau de la qualité des prestations. \nL’objectif est de faire bénéficier à tous les membres du groupement des mêmes conditions \nfinancières pour la réalisation de prestations identiques, ce qui aura aussi pour intérêt de mutualiser \nles procédures de passation des marchés. \nLors d’un précédent conseil la commune a souhaité s’associer à la constitution de groupements \npermanents pour : \n- Les prestations d’assistance et de conseils juridiques \n- Les prestations topographiques \n- Les prestations de vérifications périodiques (conformité électrique, SSI, moyens de secours, aires \nde jeux et équipements sportifs, machines, échelles, EPI, chapiteau, tente et structure, diagnostic \namiante avant travaux, DPE, contrôle air intérieur ERP, RVRAT) \n \nLes conditions de fonctionnement de ces groupements sont fixées par les différentes conventions \nqui ont été transmise en amont aux conseillers. \n \nLe conseil à l’unanimité \n- Approuve l’adhésion de la commune de MONTOLIEU. aux groupements de commande \npermanents \npour : \n➢ Les prestations d’assistance et de conseils juridiques \n➢ Les prestations topographiques \n➢ Les prestations de vérifications périodiques \n \n- Approuve les termes des conventions constitutives des groupements de commande annexées à \nla présente délibération, \n- Accepte que la Communauté d’Agglomération Carcassonne Agglo soit coordonnatrice du \ngroupement, \n- Autorise Monsieur le Maire à signer pour chaque groupement le formulaire d’adhésion (annexe 1) \net à compléter l’annexe 2, \n- Autorise Monsieur le Maire à assurer l’exécution des marchés correspondants, avenants, pour les \nbesoins propres de la commune. \n \nAMENAGEMENT DU BOULODROME \n \n \nLa mise en éclairage est réclamée depuis plusieurs années par le club de pétanque. \nUne opportunité de récupérer des poteaux s’étant présentée, un aménagement est possible. \nUn devis pour obtenir un éclairage aux normes et sécurisé rapidement a été transmis pour un \nmontant de 9685.20 euros.  \nL’entreprise JARIE est par ailleurs déjà intervenue pour placer et sceller les poteaux (pour 1320 €). \nIl est proposé de passer cette opération en investissement (comme pour l’éclairage du stade) \nLa commune pourra en récupérer la TVA, et faire appel au FPIC. \n \nLe conseil vote à l’unanimité l’inscription des travaux nécessaires à la section des investissements. \n \n \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "6 \n \nRENOUVELLEMENT DU CONTRAT D’ASSURANCE DE LA COMMUNE \n \nLe contrat d’assurance de la commune s’achève au 31 décembre 2025, il convient donc de procéder \nà son renouvellement. \nCompte tenu de la technicité de ce type de contrat, et des difficultés à apprécier les offres qui \npourraient être faites, il est proposé au conseil de faire appel à un courtier en assurance. \nLe contrat doit couvrir plusieurs types de dommages \n- \nDommages aux Véhicules \n- \nDommages aux Biens  \n- \nProtection juridique, Protection fonctionnelle, Responsabilités \nA la question du choix du courtier Bernard LAURET indique que l’agence immobilière AVEROUX \noffre aussi ce type de service. Elle sera contactée à cet effet. \n \nLe conseil vote à l’unanimité le recours à un courtier en assurance pour le renouvellement des \ncontrats d’assurances pour la commune. \n \nDEMANDE DE SUBVENTION EXCEPTIONNELLE DE LA COOPERATIVE SCOLAIRE \n \nLa coopérative scolaire a sollicité en février dernier une subvention exceptionnelle de 380 euros, \nafin de permettre à tous les enfants de profiter d’un séjour en Ariège en fin d’année scolaire. \nCette demande n’avait pas été rapportée, et lors du vote des subventions, aucune alerte n’a été \nfaite. Une relance de la sollicitation a donc été faite au secrétariat. \nLa demande est en conséquence présentée ce jour par Bernard Lauret qui en fait la lecture. \nLe conseil vote par 13 voix pour, et une contre la subvention exceptionnelle de 380 euros à la \ncoopérative scolaire. \n \n \nREUNION DE LA COMMISSION COMMUNALE DES IMPOTS DIRECTS (CCID) \n \nDans le cadre de la maison référencée au cadastre AB 0341, il s’avère que la mairie est en indivision \ndepuis 1969, avec une personne dont il n’y a plus de nouvelle depuis longtemps, la commune ayant \ntoujours payé l’entièreté de la taxe foncière. \nLa commune a donc la possibilité d’acquérir la pleine propriété au titre des « biens supposés sans \nmaitre ». \nPour se faire, il est nécessaire de réunir la CCID qui doit valider le document du Trésor Public, \njustifiant que la taxe foncière n’est plus payée depuis au moins 3 ans, ou est payée par un tiers. \n \nA ce titre les membres de cette commission seront appelés à se réunir sous la présidence Du maire \nou de son adjoint délégué, en cas d’absence, les suppléants assureront le remplacement. \n \nLes commissaires titulaires sont les suivants :  \nAGASSE Cécile, BOST BERGE Magali, ETORE LORTHOLARY Jeanne, MONRAISIN Valérie \nPICQUE Vincent, BARBERO Aurélie \nLes commissaires suppléants sont les suivants : \nCASAS Antoine, GHARBI Jamel, OLIVIER Eric, SAFONT Jacques, BOST Thierry, OLIVIER Jean-\nLuc \nAprès échange, il est convenu de réunir la CCID le 1er juillet juste avant la réunion de travail sur les \nPLU. \n \n \n \n \n \n \n \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=7",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.396,
+      "text": "Désignation du bien vendu :\nRéf. Cadastrale :\n\n| Section | N° | Lieudt | Superficie totale\n| ÆB | 490 | 17RueSaintDenis | 40mæ |\nUsage : Bâtiment à usage d'habitation\nPrix de vente : 96 000,00 euros\nVendeur(s) : Mme SALÉ Claude\n\nAB0423\n\n| AB0422\n\nLe conseil vote à l'unanimité contre l'exercice du droit de préemption\n",
+      "text_sparse": "Désignation du bien vendu :\n\nRéf. Cadastrale :\n\nUsage :\n\nBâtiment à usage d'habitation\n\nPrix de vente :\n\n96 000,00 euros\n\nVendeur(s) :\n\nMme SALÉ Claude\n\nAB0423\n\naéize\n\nABO418\n\nëa\n\nAB0489\n\n-\n\nAB0417\n\nLed\n\n46082 à\n\n——\n\nÀ % Ag0011\n\nSR\n\nLe conseil vote à l'unanimité contre l'exercice du droit de préemption\n",
+      "ocr": {
+        "mean_conf": 80.9,
+        "min_conf": 23,
+        "low_word_fraction": 0.207,
+        "words": 58
+      }
+    },
+    {
+      "page": 8,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=8",
+      "method": "tesseract",
+      "status": "needs_review",
+      "note": "Text recovered by OCR from an image. Figures and table structure may be wrong or missing; check the original page.",
+      "image_area_fraction": 0.477,
+      "text": "Désignation du bien vendu :\n\nRéf. Cadastrale __ _ _ _\nUsage : Bâtiment à usage d'habitation\nDrivdawante: — ANF00000 rene rc ms TS\nVendeur(s) : Mme PAUTOU Marie Ange\n\nLe conseil vote à l’unanimité contre l’exercice du droit de préemption\n\nL'ordre du jour étant épuisé la séance est levée à 21 h 30, et le public est invité à sortir\n\n",
+      "text_sparse": "Désignation du bien vendu :\n\nRéf. Cadastrale :\n\n.\n\n| 260\n\nUsage :\n\nBâtiment à usage d'habitation\n\nDriv Aa vanta + 4\n\nM ROUES ES Us De\n\nVendeur(s) :\n\nMme PAUTOU Marie Ange\n\nB0429\n\nasc (50\n\nfi\n\n—\n\ne\n\n“aB)\n\n—Z\n\nLe conseil vote à l’unanimité contre l’exercice du droit de préemption\n\nL'ordre du jour étant épuisé la séance est levée à 21 h 30, et le public est invité à sortir\n",
+      "ocr": {
+        "mean_conf": 80.2,
+        "min_conf": 0,
+        "low_word_fraction": 0.164,
+        "words": 61
+      }
+    }
+  ]
+}

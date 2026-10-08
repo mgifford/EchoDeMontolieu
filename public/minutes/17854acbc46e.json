@@ -1,0 +1,112 @@
+{
+  "document_id": "17854acbc46e",
+  "filename": "CM-18-SEPTEMBRE-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf",
+  "source_sha256": "17854acbc46e1322c3f0a9520405405cfe326c7ed21a3d1406dfe4cfe5054115",
+  "source_bytes": 642828,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 15 Nov 2024 17:41:36 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T10:12:00+00:00",
+  "meeting_date": {
+    "value": "2024-09-18",
+    "source": "text layer, page 1: '18 SEPTEMBRE 2024'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 8,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \nCONSEIL MUNICIPAL DU 18 SEPTEMBRE 2024 à 20 h 00 \n \nL’an deux mille vingt-quatre et le 18 septembre à 20 h 00, le conseil municipal dûment convoqué s’est réuni \nsous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de Montolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Magalie BOST- BERGÉ Antoine CASAS-HARILLO, Laure ESCARÉ, Jeanne \nETORÉ-LORTHOLARY, Jamel GHARBI, Bernard LAURET, Valérie MONRAISIN, Éric OLIVIER, Vincent PICQUE, \nJacques SAFONT, Céline SALA.  \n \n \nEtaient absents :  \nJean-Luc OLIVIER, procuration à Jacques SAFONT \n \nLa séance est ouverte à 20h08 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat de séance. \nLe conseil accepte la proposition à l’unanimité. \n \nOrdre du jour \n- \nApprobation du procès-Verbal du conseil du 13 juin 2024  \n- \nRapport CLECT et Attribution de compensation 2024 \n- \nAdhésion au contrat d’assurance statutaire2025-2026 du centre de gestion \n- \nDM n°2 \n- \nConvention SYADEN \n- \nRenouvellement du mandat d’aide juridique \n- \nDemande de vente de la parcelle AB505 \n- \nDemande de prêt \n- \nProjet d’installation d’une vidéo protection                                                           \n- \nDroits de préemption  \n- \nMise en place d’une aide spécifique pour participation à des concours et évènements particuliers                   \n- \nInformations \nMonsieur le maire propose de rajouter à l’ordre du jour trois délibérations : \n- une pour des admissions en non-valeur, \n- une pour l’acceptation d’un don au profit de la commune concernant la réalisation de la main courante à la \nchapelle St Roch. \n- une pour sollicitation du FPIC pour la réfection du mur du presbytère. \n Ces délibérations seront abordées après la décision modificative N°2. \n \nLe conseil vote à l’unanimité pour le rattachement de ces trois points à l’ordre du jour. \n  \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 13 JUIN 2024 \n \nLe procès-verbal a été communiqué avec la convocation. \n➢ A la majorité avec 13 voix pour et 1 abstention  \n \nRAPPORT CLECT ET ATTRIBUTION DE COMPENSATION \n \nLa CLECT s’est réunie le 19 juin 2024 et a approuvé le rapport relatif à la modification des attributions de \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.049,
+      "text": "2 \ncompensation dans le cadre de : \n- la revalorisation de la compensation du transfert de taux mis en œuvre suite à l’adoption du \nPacte Fiscal et Financier ; \n- le transfert de charges pour la ludothèque d’Alzonne ; \n- la participation des communes aux investissements portés en 2023 par Carcassonne Agglo sur la Gestion \ndes Eaux Pluviales Urbaines \nConformément à l’article 1609 nonies C du CGI : « Le montant de l’attribution de compensation et les \nconditions de sa révision peuvent être fixés librement par délibérations concordantes du conseil \ncommunautaire, statuant à la majorité des deux tiers, et des conseils municipaux des communes membres \nintéressées, en tenant compte du rapport de la commission locale d’évaluation des transferts de charges. » \nLe rapport de la CLECT a été transmis avec la convocation au présent conseil. \nIl est proposé au conseil de valider l’attribution de compensation suivant les modalités ci-dessous : \n \n \nLe conseil est informé que suite à la prise en charge par la commune de la délégation à l’entretien du \npluvial dans le cadre du GEPU, Carcassonne Agglo a procédé le 11 juin 2024 au versement d’une somme de \n2323 €, qui représente le coût des personnels municipaux affectées à cette surveillance. \n \n➢ Le conseil vote à l’unanimité : \n- l’acceptation de la révision libre des attributions de compensation au titre de l’exercice 2024 et suivants \ntelle qu’elle figure dans le rapport de la commission d’évaluation des transferts de charges (CLECT) du 19 \njuin 2024 ; \n- la fixation du montant de l’attribution de compensation 2024 à 131 839€ en fonctionnement et à - \n14 754€ en investissement ; \n Et charge Monsieur le Maire de l’exécution de la présente délibération et de tous les actes nécessaires à sa \nmise en œuvre. \n \n \nADHESION AU CONTRAT D’ASSURANCE STATUTAIRE 2025-2028 DU CENTRE DE GESTION \n \nLe Maire rappelle qu’en vertu de l’application des textes régissant le statut de ses agents, en application de \nl’article 26 de la Loi n° 84-53 du 26 janvier 1984 portant dispositions statutaires relatives à la Fonction \nPublique Territoriale et du Décret n° 86-552 du 14 mars 1986, le centre de gestion a communiqué à la \nCommune le projet de renouvellement d’adhésion au contrat d’assurance statutaire. \nAssureur : CNP Assurances \nCourtier : Willis Towers Watson France \nDurée du contrat : 4 ans (date d’effet au 01/01/2025). \nPréavis : contrat résiliable chaque année sous réserve de l’observation d’un préavis de 6 mois. \nAgents Permanents (Titulaires ou Stagiaires) affiliés à la C.N.R.A.C.L. \nRisques garantis : \n• Décès \n• Congé pour invalidité temporaire imputable au service \n• Longue maladie, maladie longue durée \n• Maternité y compris congés pathologiques / Adoption / Paternité et accueil de l’enfant \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.307,
+      "text": "3 \n• Maladie ordinaire ou temps partiel pour raison thérapeutique sans arrêt préalable à l’expiration \nd’une période de franchise mentionnée à l’acte d’engagement \n• Temps partiel pour raison thérapeutique consécutif à un arrêt, mise en disponibilité d’office pour \nraison de santé, infirmité de guerre, allocation d’invalidité temporaire \n• Maintien du demi-traitement pour les agents ayant épuisé leurs droits à prestations \nConditions : (garanties/franchises/taux) \n \nAgents Titulaires ou Stagiaires non-affiliés à la C.N.R.A.C.L. et des Agents Non-Titulaires ou Agents affiliés I.R.C.A.N.T.E.C \nRisques garantis : \n• Congé pour invalidité imputable au service \n• Grave maladie \n• Maternité (y compris congés pathologiques) / Adoption / Paternité et accueil de l’enfant \n• Maladie ordinaire à l’expiration d’une période de franchise mentionnée à l’acte d’engagement \n• Reprise d’activité partielle pour motif thérapeutique \nConditions : (garanties/franchises/taux) \n \nIl est précisé que ces taux n’intègrent pas la rémunération du centre de gestion au titre de la réalisation de \nla présente mission facultative. \nIl est proposé au conseil de s’en tenir à une franchise de 10 jours pour l’ensemble des agents quelle que soit \nl’organisme d’affiliation \n➢ Le conseil vote à l’unanimité pour une garantie avec franchise de 10 jours pour l’ensemble des agents \nconcernés soit un taux de : \n- \n8,09 % pour les agents affiliés à la C.N.R.A.C.L. \n- \n1,10 % pour tous les autres. \n \n \n \n"
+    },
+    {
+      "page": 4,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=4",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.286,
+      "text": "4 \n \nDECISION MODIFICATIVE N°2 \n \nDans le cadre de la finalisation des opérations concernant la deuxième tranche de travaux du presbytère, la \ndirection des finances nous demande de régulariser une opération, la comptabilité auxiliaire n’ayant pas \nété mouvementée. \nIl s’agit du règlement de la retenue de Garantie pour le lot attribué à CHEVRIN GELI \n \n➢ Le conseil vote à l’unanimité la décision modificative n°2 \nADMISSIONS EN NON-VALEUR \n \nMonsieur le comptable du Trésor informe la commune du non-recouvrement de titres pour un total de \n360,04 euros. \nLes sommes correspondent à des frais d’actes non remboursés, des soldes de restauration scolaires, ou des \nloyers pour des locataires décédés. \nLaure ESCARÉ en donne le détail. \nLe conseil est sollicité pour classer ces sommes en non-valeur. \n \n➢ Le conseil vote à l’unanimité le classement en admission en non-valeur pour un total de 360,04 €. \n \n \nACCEPTATION D’UN DON DE L’ASSOCIATION AMICALE MONTOLIVAINE SAINT ROCH \n \nMonsieur le maire, rappelle qu’à la demande de l’association Montolivaine St Roch, il a été réalisé une main \ncourante pour faciliter l’accès à l’esplanade et à la chapelle. \nL’association a proposé d’y participer financièrement et de faire un don à la commune pour montant de 861 \neuros. \nLe conseil est sollicité pour accepter le don, son imputation se fera à l’article 10251 dons et legs en capital. \n \n➢ Le conseil vote à l’unanimité l’acceptation du don de 861 € de l’association Montolivaine St Roch \n"
+    },
+    {
+      "page": 5,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=5",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "5 \nDEMANDE DE VERSEMENT FPIC 2022 \n \nMonsieur le Maire propose au conseil de solliciter une part du FPIC 2022 auprès de l’EPCI CARCASSONNE \nAGGLO, pour le solde des travaux de la rénovation de la façade du presbytère. La participation demandée \nne peut excéder 80% du montant des dépenses réalisées en HT, toutes subventions cumulées. \nLe solde du montant total des travaux s’est élevé à 27 495,00 EUR HT. \nMonsieur le maire propose au Conseil Municipal le plan de financement suivant : \nDEPENSES (€ HT) \nMONTANT  \nHT \nTAUX \nRECETTES (€ HT) \nMONTANT HT \nTAUX \nSolde Travaux façade 2024 \n27 495,00   \nDépartement  \n8 248,50 \n30,00 % \n \n   \nFPIC \n13 747,50 \n50,00 % \n \n   \nAutofinancement \n5 499,00 \n20,00 % \n \n  \n \n \n \nTOTAL \n27 495,00 \n100,00% \nTOTAL  \n27 495,00 \n100,00% \n \n \nIl est précisé que le FPIC 2022 est de 22 448,00 €. Il s’établit à 16 063,00 € pour 2023 et 19 651,00 € pour \n2024. \nLaure ESCARÉ précise que la subvention sollicitée au titre de la DETR a été refusée, ce qui nécessite \nd’augmenter la contribution au titre du FPIC. \n \n➢ A la majorité, le conseil vote la demande de versement d’une part du FPIC 2022 pour 13747,50 € au \ntitre de la réfection de la façade nord du presbytère par 13 voix pour et 1 abstention. \n \nCONVENTION DE MISE A DISPOSITION DE TERRAIN POUR LE SYADEN \n \nMonsieur le Maire fait part au Conseil Municipal que dans le cadre du programme Très Haut Débit sur le \ndépartement de l’Aude, il y aurait lieu de signer une convention de mise à disposition de terrain avec le \nSyndicat Audois D’Energies et du Numérique (SYADEN). Le terrain concerné est la parcelle cadastrée section \nOG n° 110 sur une surface de 16 m², route de Carcassonne. Cette convention a pour objet de définir les \nconditions dans lesquelles le SYADEN est autorisé à : \n- Occuper le domaine public de la commune, \n- Accueillir et faire exploiter le local technique par un opérateur exploitant ou un délégataire, \n- Accueillir sur le site les équipements techniques d’opérateurs tiers, ceci aux fins de limiter le nombre de \nlocaux techniques et de préserver l’intégrité du paysage. \n \nLa convention a été transmise avec la convocation au présent conseil. \n \n➢ Le conseil autorise à l’unanimité Monsieur le maire à signer la convention de mise à disposition de \nterrain avec le SYADEN \n \nRENOUVELLEMENT DU MANDAT D’AIDE JURIDIQUE \n \nPar un récent courrier, la mairie a été informée de la décision de la SCI CAZOUBA de porter appel de la \ndécision rendu par le tribunal administratif, rejetant ses demandes et la condamnant à régler 1500 € à la \ncommune. \nMonsieur le Maire sollicite donc le renouvellement du mandat d’aide juridique auprès de Maître Maynadier \nqui avait défendu la commune lors de la première instance. \n \n➢ Le conseil vote à l’unanimité le renouvellement du mandat d’aide juridique auprès de Maître \nMaynadier. \n"
+    },
+    {
+      "page": 6,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=6",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.155,
+      "text": "6 \nDEMANDE DE VENTE DE LA PARCELLE AB 505 \n \nPar courrier du 12 septembre dernier, Mme PECH Marie José a renouvelé sa demande auprès de la \ncommune pour la vente de la parcelle AB 505. \nCette parcelle concerne un jardin à l’aplomb de celui de la mairie, accessible d’une part par un escalier en \nfer dont l’entrée se situe au fond du préau de la cour de l’école primaire, et d’autre part par des terrains qui \nappartiennent en propre, à la famille PECH. \n \nCe jardin avait été mis à disposition gratuitement pour en faire un potager familial, mais n’a pas du tout été \nentretenu. Son accès est difficile et dangereux du côté de l’école primaire, et ne permet pas d’y faire passer \ndu gros matériel, d’où un manque d’entretien régulier autre que totalement manuel. \nIl n’est pas possible non plus d’en faire un usage public du fait des difficultés d’accès. \nMonsieur le maire propose de s’en dessaisir sous réserve d’une servitude d’accès afin de réparer ou \nd’entretenir le mur de soutènement du jardin de la mairie. \nUn prix de 5000 € pourrait être proposé \n \n \n➢ A la majorité, le conseil vote par 11 voix pour et 3 voix contre le principe de la vente de la parcelle \nAB 505 à Madame Marie José PECH. \n \n \n \n \nPour le prix et après discussion, \n➢ A la majorité le conseil le fixe à 5000 € net vendeur par 10 voix pour, 3 voix contre et une abstention. \n \nDEMANDE DE PRÊT \n \nLes travaux du PAVE s’achèvent, de même que ceux de la deuxième tranche du presbytère. Toutefois les \nsubventions ne sont pas encore rentrées (celles du PAVE venant rembourser la ligne de trésorerie utilisée \ndans le cadre de cette opération). \nPour boucler l’opération city stade et toit de la piscine, il est nécessaire d’exécuter une partie du prêt \nd’équilibre pour un montant de 73 000 euros, représentant la part de la commune (et la TVA) sur ces \ntravaux, déduction faite des subventions accordées. \n"
+    },
+    {
+      "page": 7,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=7",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.25,
+      "text": "7 \nPour rappel le total des travaux représente TTC la somme de 151313,28 euros. \nLes subventions accordées (département, préfecture, région), un total de 78 090,66 euros \nRestent à financer 73 222.62 par la commune. \nLe crédit agricole a fait la proposition suivante. \n \n \n \n➢ A la majorité, le conseil vote par 13 voix pour et une abstention l’acceptation de la proposition sur 10 \nans avec échéances trimestrielles. \n \nPROJET D’INSTALLATION D’UNE VIDEO PROTECTION \n \nA la multiplication des actes d’incivilité et de dégradation depuis deux ans, la commune se doit de se \ndonner les moyens de réagir, d’obtenir réparation, ou de permettre à des particuliers de le faire. \nLaure ESCARÉ rappelle qu’une plainte contre X à toutes les chances d’être classée sans suite si l’on ne peut \nidentifier la personne responsable. \nUn représentant de la gendarmerie s’est déplacé début septembre pour expliquer les principes de la vidéo \nprotection pour les communes. \nA partir d’un premier projet présenté pour lequel un devis a été établi, il a été rappelé que le principe vise à \nfilmer la voie publique et par ce biais à protéger les bâtiments publics. Outre les équipements spécifiques \ncomme la piscine, ou des points où les incivilités se multiplient, il est recommandé de placer des caméras \naux entrées de village et aux bifurcations. \nUn correspondant à la préfecture aide les communes à calibrer leur demande, et à monter leur dossier. \nIl est rappelé qu’il s’agit de vidéo protection, qu’il n’y a donc pas des personnes qui surveillent les images \nen continu, mais des enregistrements qui peuvent être visualisés sur réquisition par la gendarmerie dans la \nlimite d’un historique fixé par la commune (qui peut être de 15 jours, 3 semaines ou un mois). \nAfin de poursuivre les démarches et de déposer un dossier, il est demandé au conseil de voter sur le \nprincipe de la mise en œuvre d’une vidéo protection. \nLa gendarmerie pourra se déplacer sur demande pour rencontrer les élus, et participer à une réunion \npublique autour de ce projet. \n \n➢ A la majorité, le conseil vote par 10 voix pour et 4 voix contre, la mise en place d’une vidéo \nprotection dans la commune. \n \n \n \n \n"
+    },
+    {
+      "page": 8,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf#page=8",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.24,
+      "text": "8 \n \nDROITS DE PRÉEMPTION \n \n \n \nCompte tenu des éléments fournis, sans correspondance avec la demande, et d’un point à éclaircir dans le \ncadre des travaux du PLU pour ces parcelles, le conseil décide à l’unanimité de sursoir à statuer sur ce droit \nde préemption.  \n \n \nMISE EN PLACE D’UNE AIDE SPECIFIQUE POUR PARTICIPATION AUX CONCOURS ET EVENEMENTS \nPARTICULIERS \n \nL’attention du Conseil a été attiré sur le cas d’une jeune professionnelle sélectionnée pour participer à la \ncoupe de France de sa spécialité. Compte tenu des frais engagés du fait de cette participation, \n(déplacement et hébergement), elle a créé une cagnotte en ligne. \nDes conseillers souhaitent que la mairie marque son soutien à cette démarche, en octroyant une aide. \n \n➢ Après en avoir délibéré, le conseil vote à l’unanimité l’attribution d’une aide spécifique de 150 euros \nqui sera imputé sur l’article 65134 du budget de la commune. \n \nL’ordre du jour étant épuisé, la séance est levée à 21 h 19. \n \n"
+    }
+  ]
+}

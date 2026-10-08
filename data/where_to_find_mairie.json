@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "purpose": "Signpost: where to find information about Montolieu. Points to the owner's page; does not copy their content.",
+    "owner": "Mairie de Montolieu",
+    "source_checked_at": "2026-10-08",
+    "found_on": "https://www.montolieu.fr/ (homepage navigation, fetched once on 2026-10-08)",
+    "conventions": {
+      "label_fr": "Taken from the link text on the source site.",
+      "label_en": "Written by the project author. Unreviewed translation; a Dutch (nl) label is not yet provided.",
+      "what_you_find_en": "Inferred from the link label only. The target page was NOT read, so this is tentative.",
+      "language_of_target": "Language of the linked page, not verified beyond the site's French navigation.",
+      "verify_at_source": "true means the content changes over time (dates, times, rules); always confirm on the linked page."
+    }
+  },
+  "entries": [
+    {
+      "id": "comptes-rendus-cm",
+      "label_fr": "Comptes rendus CM",
+      "label_en": "Council meeting minutes",
+      "url": "https://www.montolieu.fr/mairie/comptes-rendus-cm/",
+      "what_you_find_en": "PDF minutes of municipal council meetings (25 PDFs listed on 2026-10-08; earliest January 2024).",
+      "basis": "page fetched and parsed on 2026-10-08",
+      "language_of_target": "fr",
+      "verify_at_source": true
+    },
+    {
+      "id": "agenda",
+      "label_fr": "Agenda",
+      "label_en": "Events calendar",
+      "url": "https://www.montolieu.fr/agenda/",
+      "what_you_find_en": "Calendar of municipal events (tentative).",
+      "basis": "link label only; target page not read",
+      "language_of_target": "fr",
+      "verify_at_source": true
+    },
+    {
+      "id": "urbanisme",
+      "label_fr": "Urbanisme",
+      "label_en": "Urban planning",
+      "url": "https://www.montolieu.fr/mairie/urbanisme/",
+      "what_you_find_en": "Planning information (tentative).",
+      "basis": "link label only; target page not read",
+      "language_of_target": "fr",
+      "verify_at_source": true
+    },
+    {
+      "id": "demande-urbanisme",
+      "label_fr": "Demande d'urbanisme",
+      "label_en": "Planning application",
+      "url": "https://www.montolieu.fr/vos-demarches/demande-durbanisme/",
+      "what_you_find_en": "How to submit a planning application (tentative).",
+      "basis": "link label only; target page not read",
+      "language_of_target": "fr",
+      "verify_at_source": true
+    },
+    {
+      "id": "revision-plu",
+      "label_fr": "Révision du PLU",
+      "label_en": "Local urban plan (PLU) revision",
+      "url": "https://www.montolieu.fr/vos-demarches/revision-du-plu/",
+      "what_you_find_en": "Information on the revision of the local urban plan. Its existence suggests the plan is being revised, so any zoning information may be out of date (tentative).",
+      "basis": "link label only; target page not read",
+      "language_of_target": "fr",
+      "verify_at_source": true
+    },
+    {
+      "id": "commerces",
+      "label_fr": "Commerces",
+      "label_en": "Shops",
+      "url": "https://www.montolieu.fr/bien-vivre-a-montolieu/commerces/",
+      "what_you_find_en": "Local shops (tentative).",
+      "basis": "link label only; target page not read",
+      "language_of_target": "fr",
+      "verify_at_source": true
+    },
+    {
+      "id": "restaurants",
+      "label_fr": "Restaurants",
+      "label_en": "Restaurants",
+      "url": "https://www.montolieu.fr/bien-vivre-a-montolieu/restaurants/",
+      "what_you_find_en": "Local restaurants (tentative).",
+      "basis": "link label only; target page not read",
+      "language_of_target": "fr",
+      "verify_at_source": true
+    },
+    {
+      "id": "dechets-encombrants",
+      "label_fr": "Déchets & encombrants",
+      "label_en": "Waste and bulky items",
+      "url": "https://www.montolieu.fr/infos-pratiques/dechets-encombrants/",
+      "what_you_find_en": "Waste and bulky-item collection information (tentative).",
+      "basis": "link label only; target page not read",
+      "language_of_target": "fr",
+      "verify_at_source": true
+    },
+    {
+      "id": "horaires-bus",
+      "label_fr": "Horaires Bus Agglo",
+      "label_en": "Bus timetables",
+      "url": "https://www.montolieu.fr/infos-pratiques/horaires-bus-agglo/",
+      "what_you_find_en": "Bus timetables for the local agglomeration network (tentative).",
+      "basis": "link label only; target page not read",
+      "language_of_target": "fr",
+      "verify_at_source": true
+    },
+    {
+      "id": "contact",
+      "label_fr": "Contact",
+      "label_en": "Contact the Mairie",
+      "url": "https://www.montolieu.fr/contact/",
+      "what_you_find_en": "How to contact the Mairie (tentative).",
+      "basis": "link label only; target page not read",
+      "language_of_target": "fr",
+      "verify_at_source": true
+    },
+    {
+      "id": "randonnees",
+      "label_fr": "Piste de randonnées",
+      "label_en": "Walking routes",
+      "url": "https://rando.grand-carcassonne-tourisme.fr/",
+      "what_you_find_en": "Walking route site run by Grand Carcassonne Tourisme, linked from the Mairie homepage (tentative).",
+      "basis": "link label only; target site not fetched",
+      "owner": "Grand Carcassonne Tourisme",
+      "language_of_target": "fr",
+      "verify_at_source": true
+    }
+  ]
+}

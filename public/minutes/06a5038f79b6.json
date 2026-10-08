@@ -1,0 +1,67 @@
+{
+  "document_id": "06a5038f79b6",
+  "filename": "CRCM-8-01-2026-site-internet.pdf",
+  "source_url": "https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf",
+  "source_sha256": "06a5038f79b63f757ef6bf8bbeb5050cae77599c1cd5645a992a8b222738df77",
+  "source_bytes": 283246,
+  "source_http": {
+    "etag": null,
+    "last_modified": "Fri, 13 Mar 2026 09:51:22 GMT"
+  },
+  "verify": {
+    "algorithm": "SHA-256",
+    "about": "source_sha256 is the hash of the PDF exactly as downloaded from source_url on retrieved_at. The PDF itself is not copied here.",
+    "local_file": "shasum -a 256 FILE.pdf",
+    "against_site": "python -m echo_montolieu verify DOCUMENT_ID"
+  },
+  "retrieved_at": "2026-10-08T12:35:58+00:00",
+  "meeting_date": {
+    "value": "2026-01-08",
+    "source": "text layer, page 1: '8 JANVIER 2026'",
+    "status": "tentative"
+  },
+  "draft_suspected": false,
+  "page_count": 3,
+  "extractor": {
+    "pymupdf": "1.28.2",
+    "tesseract": "tesseract 5.5.0",
+    "ocr_model": "fra (tessdata_best)"
+  },
+  "labels": {
+    "machine_generated": true,
+    "faithful_transcription": true,
+    "redacted": false,
+    "verify_at_source": true,
+    "text_included": true,
+    "text_sparse_note": "text_sparse is an alternate OCR reading. It finds more figures in tables but does not keep rows and columns together."
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf#page=1",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "1 \n \nCONSEIL MUNICIPAL DU 8 JANVIER 2026 \n \nL’an deux mille vingt-six et le 8 janvier à 19 h 30, le conseil municipal dûment convoqué s’est réuni \nsous la présidence de Monsieur Bernard LAURET, à la salle d’honneur de la mairie de Montolieu. \n \nEtaient présents :  \nCécile AGASSE, Aurélie BARBERO, Laure ESCARÉ, Jamel GHARBI, Bernard LAURET, Valérie \nMONRAISIN, Éric OLIVIER, Jean-Luc OLIVIER, Céline SALA. \n \n \nEtaient absents :  \nMagalie BOST- BERGÉ, procuration à Céline SALA \nAntoine CASAS-HARILLO, procuration à Bernard LAURET \nJeanne ETORÉ-LORTHOLARY, approuve procuration à Jean Luc OLIVIER \nVincent PICQUE, procuration à Laure ESCARÉ \nJacques SAFONT, procuration à Aurélie BARBERO \nLa séance est ouverte à 19 h 38 \n \nSecrétariat de séance \n \nLaure ESCARÉ propose d’assurer le secrétariat de la séance. \nLa proposition est validée à l’unanimité par le conseil \n \nOrdre du jour \n  \n- \nApprobation du Procès-Verbal du 27 novembre 2025 \n- \nApprobation PADD modifié \n- \nAcquisition bien sans Maître lot 3 du bien section AB0341 \n- \nDemande d'avance sur subvention \n- \nDroits de préemption \n \n \nAPPROBATION DU PROCES VERBAL DU CONSEIL DU 27 NOVEMBRE 2025 \n \nLe procès-verbal a été communiqué avec la convocation au présent conseil. \n \nLe conseil l’approuve à l’unanimité \n \nAPPROBATION DU PLAN D’AMENAGEMENT ET DE DEVELOPPEMENT DURABLE (PADD) \nVERSION N°5 \n \nPour rappel, suite à la deuxième réunion publique et aux demandes de modification qui y ont fait \nsuite, la société prestataire a procédé à un recalcul des objectifs de population et à une modification \nde la cartographie, à la demande du conseil. \nL’OAP prévue sur les Brétous a été abandonnée et transférée sur une deuxième OAP au Sol. Le \nnombre de constructions neuves est passé de 21 à 19, afin de desserrer la densité tout en restant \ndans les normes du SCOT. \nLa nouvelle mouture du PADD comportant en rouge les modifications apportées a été transférée \naux conseillers le 29 décembre dernier, puis à nouveau le 7 janvier, avec la rectification de la page \n7 : la cartographie des zones d’extension de l’urbanisation comportait encore dans sa première \nversion une zone englobant à la fois les Brétous (projet abandonné) et le Sol. La zone a été modifiée \npour ne porter que sur le Sol. \n \nUne 3eme réunion publique sera proposée le 27 janvier prochain à la population. \n \n"
+    },
+    {
+      "page": 2,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf#page=2",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": null,
+      "image_area_fraction": 0.0,
+      "text": "2 \n \nLes précisions ci-dessous sont apportées aux conseillers. \nPour ce qui concerne l’OAP de la Ferrière, et après échange et déplacement sur site avec des \nmembres du collectif, la proposition émise, après concertation avec Soliha est la suivante : \n- \nPassage de 6 constructions à 5 constructions \n- \nUne bande de 15 mètres arborée \n- \nPuis les fonds de jardin des villas \n- \nLa voirie desservant en sens unique le lotissement passera à l’opposé de ce qui était prévu \nà l’origine, c’est-à-dire au fond de la parcelle et non le long des terrains déjà construits, et \nrejoindra la rue en traversant l’actuel espace planté de pins, et non le long de la parcelle de \nMme Cappiot. \nLaure ESCARÉ précise que pour respecter les obligations de densification du fait de l’implantation \nde la bande de 15 mètres, (ce qui représenterait 1000 m²) une réserve non utilisée de 600 m² est \nmobilisée, et que sur l’OAP 2 du Sol, la surface des parcelles constructibles serait réduite (2 à 4 \nmètres environ, calculs à finaliser) pour gagner les 400 m² manquants. Toutefois pour éviter des \nterrains trop exigus, il sera toujours possible au propriétaire de vendre une partie complémentaire \nde son terrain mais au prix du non constructible. Les acquéreurs auront l’obligation d’utiliser \nuniquement la partie constructible pour l’édification de leur maison, mais pour autant les parcelles \nseront plus spacieuses. \nUn message après le déplacement sur site a été laissé à Soliha pour adapter la présentation des \nOAP. \nA ce sujet et pour l’OAP n°2 du Sol, Mme Labastie avait demandé si le conseil souhaitait que les \nmaisons soient alignées. Il n’y a pas eu de retour complet des conseillers. \nAprès échange, le conseil décide qu’au-delà de l’orientation qui doit être la même, les constructions \npeuvent être positionnées librement dans la partie constructible des parcelles. \n \nUne fois le vote de cette version du PADD, la commune devra respecter un délai de deux mois \navant d’arrêter le projet de PLU. \n \nLe conseil approuve par 12 voix pour, une contre et une abstention le PADD présenté. \n \nACQUISITION BIEN SANS MAITRE \n \n \nLe 2 juillet 2025, Monsieur le Maire a émis un arrêté constatant la réunion des conditions du 2° de \nl’article L. 1123-1 du Code général de la propriété des personnes publiques concernant le lot 2 et la \nmoitié indivise du lot 3 du bien Section AB parcelle 0341, situé au 19 rue des remparts. \nCet arrêté a été affiché en mairie durant 6 mois, publié dans la presse au sein d’un journal local et \nnotifié au dernier domicile du dernier propriétaire connu. \nAucun recours gracieux, ni contentieux n’est intervenu durant ce délai, en conséquence les \nconditions sont réunies pour intégrer le lot 2 et la moitié indivise du lot 3 du bien Section AB parcelle \n0341, situé au 19 rue des remparts aux biens communaux. \nLaure ESCARÉ précise que le dernier propriétaire connu était  Monsieur DIVIES Guillaume, décédé \net que la succession était ouverte depuis plus de 30 ans. \n \nLe conseil vote à l’unanimité, l’incorporation dans les biens communaux du lot 2 et la moitié indivise \ndu lot 3 du bien Section AB parcelle 0341, situé au 19 rue des remparts. \n \nDEMANDE D’AVANCE SUR SUBVENTION POUR LES JOURNEES MONDIALES DE L’ART \n \nDans le cadre de l’organisation des journées mondiales de l’art, le collectif a sollicité une demande \nd’avance sur subvention d’un montant de 200 euros. \nEn 2025, la subvention avait été portée par MVdL, car la commune ne pouvait attribuer de \n"
+    },
+    {
+      "page": 3,
+      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf#page=3",
+      "method": "text_layer",
+      "status": "machine_extracted",
+      "note": "Page is largely an image with a text layer; the text layer was not independently verified.",
+      "image_area_fraction": 0.333,
+      "text": "3 \n \nsubvention en dehors du cadre juridique d’une association. \nPour 2026, la demande sera portée par l’association la Manuf qui participe elle-même à \nl’évènement. \nMonsieur le Maire donne lecture de la lettre de demande déposée en mairie par le collectif \nLa demande de subvention est de 500 euros, mais il est juste sollicité une avance équivalente à ce \nqui a été accordée l’année précédente, charge pour le nouveau conseil élu en mars prochain de \nstatuer sur le montant total de la subvention. \n \nLe conseil accorde à l’unanimité une avance de 200 euros pour l’organisation des journées \nmondiales de l’art. Cette avance sera versée à l’association la Manuf. \n \nDROITS DE PREEMPTION  \n \n \n \n \n \n \nLe conseil vote à l’unanimité contre l’exercice du droit de préemption. \n \nL’ordre du jour étant épuisé la séance est levée à 19h 55 \n \n \n \n \n \n \n \n \n \n"
+    }
+  ]
+}
