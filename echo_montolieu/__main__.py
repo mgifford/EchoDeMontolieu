@@ -169,7 +169,9 @@ def main(argv=None):
         result = th.build_threads(meetings)
         report, _ = render_all(args.public, th.todo_status(result))
         pages = th.write_topics(args.public, result, meetings)
-        print(json.dumps({"meetings": report["meetings"], "topic_pages": pages,
+        from .finance import write_finance
+        finance = write_finance(args.public, meetings, result)
+        print(json.dumps({"meetings": report["meetings"], "topic_pages": pages, "finance": finance,
                           "issues_in_several_meetings": sum(1 for t in result["threads"] if t["status"] != "one-off"),
                           "possibly_dropped": sum(1 for t in result["threads"] if t["possibly_dropped"])}, indent=2))
     elif args.cmd == "translate-trial":

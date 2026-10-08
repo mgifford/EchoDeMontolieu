@@ -10,7 +10,7 @@ import re
 
 from .privacy import _fold, _patterns, find_private_names
 from .signals import (find_amounts, find_exceptions, find_followups, find_legal_refs,
-                      find_place_candidates, find_topics, is_property_transaction,
+                      find_place_candidates, find_rule_mentions, find_topics, is_property_transaction,
                       parse_votes, sentences)
 from .text import clean_page_lines, paragraphs, sentence_case
 
@@ -281,7 +281,7 @@ def parse_meeting(record, officials_visible=True):
             # Counts only: no places, amounts or sentences from private sales.
             item["sale_notices"] = len(votes["votes"])
             item.update({"amounts": [], "legal_refs": [], "exceptions": [], "followups": [],
-                         "places": [], "snippet": "", "text": ""})
+                         "places": [], "snippet": "", "text": "", "rule_mentions": []})
         else:
             def keep(rows):
                 return [{**r, "sentence": scrub(r["sentence"])} for r in rows]
@@ -289,6 +289,7 @@ def parse_meeting(record, officials_visible=True):
                 "amounts": keep(find_amounts(body)),
                 "legal_refs": keep(find_legal_refs(body)),
                 "exceptions": keep(find_exceptions(body)),
+                "rule_mentions": keep(find_rule_mentions(body)),
                 "followups": keep(find_followups(body)),
                 "places": find_place_candidates(body),
                 "snippet": _snippet(body, scrub),

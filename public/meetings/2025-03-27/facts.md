@@ -143,11 +143,6 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 - 1 096 225,50 €, 962 455,74 €, 332 412,66 €, 30 000 €, 539 450 €, 71 989 €, 0 €, 682 999,50 €, 127 183,90 €, 157 626 €, 28 486,63 €, 119 760 €, 0 €, 33 850 €, 1 027 533,19 €, 1 096 224,50 €, 1 500 €, 0 €, 7 370 €, 0 €, 53 545,10 €, 6 276,21 €, 68 691,31 €, 0 €, 1 096 224,50 €, 1 096 224,50 €, 15 618 €, 223 901,63 €, 82 025,75 €, 116 276,06 €, 21 754 €, 567 232,95 €, 613 392,17 €, 732 789,92 €, 907 410,64 €, 229 665,82 €, 0 €, 0 €, 1 500 €, 0 €, 0 €, 53 545,10 €, 229 665,82 €, 55 045,10 €, 962 455,74 €, 962 455,74 €: “pas de montant 0 GFC (ecole de foot) pas de montant 300 Non affecté 104 0 29930 30475 31505 31275 La section de fonctionnement La section d’investissement Le projet de budget s’établit donc à : - 1 096 225,50 euros pour ”
 
-**Exceptions or derogations mentioned**
-
-- “pas de montant 0 GFC (ecole de foot) pas de montant 300 Non affecté 104 0 29930 30475 31505 31275 La section de fonctionnement La section d’investissement Le projet de budget s’établit donc à : - 1 09”
-- “pas de montant 0 GFC (ecole de foot) pas de montant 300 Non affecté 104 0 29930 30475 31505 31275 La section de fonctionnement La section d’investissement Le projet de budget s’établit donc à : - 1 09”
-
 ## Droit de preemption
 
 [p.11](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=11) to [p.12](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=12) · Vote: unanimous · Topics: droit de préemption, voirie et travaux, intercommunalité
