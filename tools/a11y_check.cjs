@@ -52,17 +52,25 @@ const axeSource = fs.readFileSync(path.join(modules, 'axe-core', 'axe.min.js'), 
     const page = await ctx.newPage();
     await page.goto(URL);
     const total = await page.evaluate(() => document.querySelectorAll('a[href]').length);
-    let reached = 0, noOutline = 0;
-    for (let i = 0; i < total + 2; i++) {
+    // Tab also visits buttons and other focusable controls (map markers, zoom buttons), so allow for them.
+    const stops = await page.evaluate(() => document.querySelectorAll('a[href], button, [tabindex="0"]').length);
+    const seen = new Set();            // distinct links reached; Tab can pass the same one twice
+    let noOutline = 0;
+    for (let i = 0; i < stops + 2; i++) {
       await page.keyboard.press('Tab');
       const info = await page.evaluate(() => {
         const el = document.activeElement;
         if (!el || el.tagName !== 'A') return null;
         const s = getComputedStyle(el);
-        return { w: parseFloat(s.outlineWidth), st: s.outlineStyle };
+        const r = el.getBoundingClientRect();
+        return { key: el.href + '|' + Math.round(r.x) + ',' + Math.round(r.y), w: parseFloat(s.outlineWidth), st: s.outlineStyle };
       });
-      if (info) { reached++; if (!(info.w >= 3 && info.st !== 'none')) noOutline++; }
+      if (info && !seen.has(info.key)) {
+        seen.add(info.key);
+        if (!(info.w >= 3 && info.st !== 'none')) noOutline++;
+      }
     }
+    const reached = seen.size;
     console.log(`\nkeyboard: links=${total}, reached by Tab=${reached}, without a 3px outline=${noOutline}`);
     await ctx.close();
   }

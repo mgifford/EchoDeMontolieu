@@ -1,0 +1,455 @@
+{
+ "commune": {
+  "name": "Montolieu",
+  "citycode": "11253",
+  "postcode": "11170",
+  "lat": 43.311995,
+  "lon": 2.220246
+ },
+ "places": [
+  {
+   "label": "Chemin de Villeneuve",
+   "kind": "street",
+   "lat": 43.329399,
+   "lon": 2.204645,
+   "ban_label": "Chemin de Villeneuve 11170 Montolieu",
+   "ban_score": 0.946,
+   "mentioned_as": [
+    "chemin de Villeneuve"
+   ],
+   "items": [
+    {
+     "date": "2024-04-04",
+     "folder": "2024-04-04",
+     "title": "Transfert de propriete au profit de la commune des chemins privés destinés a entrer dans le domaine communal",
+     "page": 15,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf",
+     "topics": [
+      "voirie et travaux"
+     ]
+    },
+    {
+     "date": "2025-06-24",
+     "folder": "2025-06-24",
+     "title": "Decision sur chemin ruraux dans le cadre de la demarche de classement des voies communales",
+     "page": 4,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf",
+     "topics": [
+      "voirie et travaux",
+      "associations et vie locale"
+     ]
+    }
+   ],
+   "themes": {
+    "voirie et travaux": 2,
+    "associations et vie locale": 1
+   },
+   "main_theme": "voirie et travaux",
+   "shape": "square",
+   "meetings": 2
+  },
+  {
+   "label": "Route de Carcassonne",
+   "kind": "street",
+   "lat": 43.297673,
+   "lon": 2.221459,
+   "ban_label": "Route de Carcassonne 11170 Montolieu",
+   "ban_score": 0.945,
+   "mentioned_as": [
+    "route de Carcassonne"
+   ],
+   "items": [
+    {
+     "date": "2024-09-18",
+     "folder": "2024-09-18",
+     "title": "Convention de mise a disposition de terrain pour le SYADEN",
+     "page": 5,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2024/11/CM-18-SEPTEMBRE-site-internet.pdf",
+     "topics": [
+      "intercommunalité"
+     ]
+    },
+    {
+     "date": "2025-10-27",
+     "folder": "2025-10-27",
+     "title": "Niveau de franchise",
+     "page": 2,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf",
+     "topics": [
+      "voirie et travaux",
+      "patrimoine, culture, tourisme"
+     ]
+    }
+   ],
+   "themes": {
+    "intercommunalité": 1,
+    "voirie et travaux": 1,
+    "patrimoine, culture, tourisme": 1
+   },
+   "main_theme": "intercommunalité",
+   "shape": "diamond",
+   "meetings": 2
+  },
+  {
+   "label": "Route d’Alzonne",
+   "kind": "street",
+   "lat": 43.301034,
+   "lon": 2.212359,
+   "ban_label": "Route d’Alzonne 11170 Montolieu",
+   "ban_score": 0.941,
+   "mentioned_as": [
+    "route d’Alzonne"
+   ],
+   "items": [
+    {
+     "date": "2025-09-25",
+     "folder": "2025-09-25",
+     "title": "Cheminement pietonnier vers la coopérative musée ceres franco",
+     "page": 4,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
+     "topics": [
+      "voirie et travaux",
+      "patrimoine, culture, tourisme"
+     ]
+    },
+    {
+     "date": "2025-10-27",
+     "folder": "2025-10-27",
+     "title": "Niveau de franchise",
+     "page": 2,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf",
+     "topics": [
+      "voirie et travaux",
+      "patrimoine, culture, tourisme"
+     ]
+    },
+    {
+     "date": "2025-10-27",
+     "folder": "2025-10-27",
+     "title": "Photovoltaîque de nouvenergie et le projet agrivolatîque de guitard",
+     "page": 4,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf",
+     "topics": [
+      "urbanisme"
+     ]
+    }
+   ],
+   "themes": {
+    "voirie et travaux": 2,
+    "patrimoine, culture, tourisme": 2,
+    "urbanisme": 1
+   },
+   "main_theme": "voirie et travaux",
+   "shape": "square",
+   "meetings": 2
+  },
+  {
+   "label": "Rue des Remparts",
+   "kind": "street",
+   "lat": 43.310164,
+   "lon": 2.213583,
+   "ban_label": "Rue des Remparts 11170 Montolieu",
+   "ban_score": 0.948,
+   "mentioned_as": [
+    "rue des remparts"
+   ],
+   "items": [
+    {
+     "date": "2026-01-08",
+     "folder": "2026-01-08",
+     "title": "Acquisition bien sans maitre",
+     "page": 2,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2026/03/CRCM-8-01-2026-site-internet.pdf",
+     "topics": [
+      "urbanisme"
+     ]
+    },
+    {
+     "date": "2026-07-22",
+     "folder": "2026-07-22",
+     "title": "Décision modificative budgétaire",
+     "page": 3,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf",
+     "topics": [
+      "finances",
+      "urbanisme"
+     ]
+    }
+   ],
+   "themes": {
+    "urbanisme": 2,
+    "finances": 1
+   },
+   "main_theme": "urbanisme",
+   "shape": "square",
+   "meetings": 2
+  },
+  {
+   "label": "Avenue du Mail",
+   "kind": "street",
+   "lat": 43.308024,
+   "lon": 2.21414,
+   "ban_label": "Avenue du Mail 11170 Montolieu",
+   "ban_score": 0.947,
+   "mentioned_as": [
+    "avenue du mail"
+   ],
+   "items": [
+    {
+     "date": "2025-11-27",
+     "folder": "2025-11-27",
+     "title": "Signaletique a partir d’un cheminement debutant au parking st roch",
+     "page": 7,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf",
+     "topics": [
+      "patrimoine, culture, tourisme"
+     ]
+    }
+   ],
+   "themes": {
+    "patrimoine, culture, tourisme": 1
+   },
+   "main_theme": "patrimoine, culture, tourisme",
+   "shape": "triangle",
+   "meetings": 1
+  },
+  {
+   "label": "Borderouge",
+   "kind": "lieu-dit",
+   "lat": 43.335715,
+   "lon": 2.215318,
+   "ban_label": "Borderouge 11170 Montolieu",
+   "ban_score": 0.938,
+   "mentioned_as": [
+    "Borderouge"
+   ],
+   "items": [
+    {
+     "date": "2026-07-22",
+     "folder": "2026-07-22",
+     "title": "Décision modificative budgétaire",
+     "page": 3,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf",
+     "topics": [
+      "finances",
+      "urbanisme"
+     ]
+    }
+   ],
+   "themes": {
+    "finances": 1,
+    "urbanisme": 1
+   },
+   "main_theme": "finances",
+   "shape": "circle",
+   "meetings": 1
+  },
+  {
+   "label": "Chemin de Borderouge",
+   "kind": "street",
+   "lat": 43.334026,
+   "lon": 2.216254,
+   "ban_label": "Chemin de Borderouge 11170 Montolieu",
+   "ban_score": 0.567,
+   "mentioned_as": [
+    "chemin de Borderouge - Chemin du"
+   ],
+   "items": [
+    {
+     "date": "2024-04-04",
+     "folder": "2024-04-04",
+     "title": "Transfert de propriete au profit de la commune des chemins privés destinés a entrer dans le domaine communal",
+     "page": 15,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf",
+     "topics": [
+      "voirie et travaux"
+     ]
+    }
+   ],
+   "themes": {
+    "voirie et travaux": 1
+   },
+   "main_theme": "voirie et travaux",
+   "shape": "square",
+   "meetings": 1
+  },
+  {
+   "label": "Chemin de Jalabert",
+   "kind": "street",
+   "lat": 43.305872,
+   "lon": 2.213886,
+   "ban_label": "Chemin de Jalabert 11170 Montolieu",
+   "ban_score": 0.945,
+   "mentioned_as": [
+    "chemin de Jalabert"
+   ],
+   "items": [
+    {
+     "date": "2024-04-04",
+     "folder": "2024-04-04",
+     "title": "Transfert de propriete au profit de la commune des chemins privés destinés a entrer dans le domaine communal",
+     "page": 15,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf",
+     "topics": [
+      "voirie et travaux"
+     ]
+    }
+   ],
+   "themes": {
+    "voirie et travaux": 1
+   },
+   "main_theme": "voirie et travaux",
+   "shape": "square",
+   "meetings": 1
+  },
+  {
+   "label": "Chemin des Barrens",
+   "kind": "street",
+   "lat": 43.308832,
+   "lon": 2.226179,
+   "ban_label": "Chemin des Barrens 11170 Montolieu",
+   "ban_score": 0.715,
+   "mentioned_as": [
+    "chemin de Barrens"
+   ],
+   "items": [
+    {
+     "date": "2025-11-27",
+     "folder": "2025-11-27",
+     "title": "Plan de financement des travaux de voiries et integration dans le budget",
+     "page": 3,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf",
+     "topics": [
+      "voirie et travaux",
+      "finances"
+     ]
+    }
+   ],
+   "themes": {
+    "voirie et travaux": 1,
+    "finances": 1
+   },
+   "main_theme": "voirie et travaux",
+   "shape": "square",
+   "meetings": 1
+  },
+  {
+   "label": "Chemin des Bretous",
+   "kind": "street",
+   "lat": 43.31158,
+   "lon": 2.210658,
+   "ban_label": "Chemin des Bretous 11170 Montolieu",
+   "ban_score": 0.946,
+   "mentioned_as": [
+    "chemin des Brétous"
+   ],
+   "items": [
+    {
+     "date": "2024-04-04",
+     "folder": "2024-04-04",
+     "title": "Transfert de propriete au profit de la commune des chemins privés destinés a entrer dans le domaine communal",
+     "page": 15,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf",
+     "topics": [
+      "voirie et travaux"
+     ]
+    }
+   ],
+   "themes": {
+    "voirie et travaux": 1
+   },
+   "main_theme": "voirie et travaux",
+   "shape": "square",
+   "meetings": 1
+  },
+  {
+   "label": "Montpertus",
+   "kind": "lieu-dit",
+   "lat": 43.303565,
+   "lon": 2.204505,
+   "ban_label": "Montpertus 11170 Montolieu",
+   "ban_score": 0.938,
+   "mentioned_as": [
+    "Montpertus"
+   ],
+   "items": [
+    {
+     "date": "2025-04-14",
+     "folder": "2025-04-14",
+     "title": "Du deploiement du reseau basse frequence",
+     "page": 1,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf",
+     "topics": [
+      "voirie et travaux",
+      "intercommunalité"
+     ]
+    }
+   ],
+   "themes": {
+    "voirie et travaux": 1,
+    "intercommunalité": 1
+   },
+   "main_theme": "voirie et travaux",
+   "shape": "square",
+   "meetings": 1
+  },
+  {
+   "label": "Place de l'Eglise",
+   "kind": "street",
+   "lat": 43.310476,
+   "lon": 2.214738,
+   "ban_label": "Place de l'Eglise 11170 Montolieu",
+   "ban_score": 0.945,
+   "mentioned_as": [
+    "place de l’église"
+   ],
+   "items": [
+    {
+     "date": "2025-09-25",
+     "folder": "2025-09-25",
+     "title": "Mise en place d’une video protection en location",
+     "page": 2,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 1
+  },
+  {
+   "label": "Route de Fraisse",
+   "kind": "street",
+   "lat": 43.309601,
+   "lon": 2.223845,
+   "ban_label": "Route de Fraisse 11170 Montolieu",
+   "ban_score": 0.945,
+   "mentioned_as": [
+    "route de Fraisse"
+   ],
+   "items": [
+    {
+     "date": "2025-09-25",
+     "folder": "2025-09-25",
+     "title": "Cheminement pietonnier vers la coopérative musée ceres franco",
+     "page": 4,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
+     "topics": [
+      "voirie et travaux",
+      "patrimoine, culture, tourisme"
+     ]
+    }
+   ],
+   "themes": {
+    "voirie et travaux": 1,
+    "patrimoine, culture, tourisme": 1
+   },
+   "main_theme": "voirie et travaux",
+   "shape": "square",
+   "meetings": 1
+  }
+ ],
+ "candidates": 54,
+ "held_back_items": 1
+}

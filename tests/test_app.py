@@ -156,3 +156,11 @@ def test_repeated_links_say_which_meeting_they_belong_to_for_screen_readers(clie
     assert 'original PDF<span class="sr"> of 2024-09-18</span>' in body
     assert 'extracted text (JSON)<span class="sr"> of 2024-09-18</span>' in body
     assert ".sr{position:absolute" in body                     # the visually-hidden style is defined
+
+
+def test_landing_page_has_an_explore_section_with_the_map_and_the_markdown_pages(client):
+    body = client.get("/").text
+    assert "<h2>Explore</h2>" in body and "Map and list of places discussed" in body
+    assert 'href="https://mgifford.github.io/EchoDeMontolieu/places/map.html"' in body       # the Space points to Pages
+    for page in ("topics/index.md", "finance/index.md", "meetings/index.md"):
+        assert f'href="https://github.com/mgifford/EchoDeMontolieu/blob/main/public/{page}"' in body

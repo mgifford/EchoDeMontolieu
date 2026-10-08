@@ -4,10 +4,10 @@
 
 ## How much the minutes say explicitly
 
-- Agenda items with euro amounts: **98** (of 248 items in 25 meetings).
+- Agenda items with euro amounts: **97** (of 248 items in 25 meetings).
 - Of those, items that **cite a law, article, decree or budget instruction**: **7**.
 - Items with **wording that points to a rule or limit** but no citation: **10**.
-- Items that **say nothing about a rule**: **81**.
+- Items that **say nothing about a rule**: **80**.
 - Items with **exception wording**: **5** (plus 1 without amounts).
 
 The minutes seldom state their legal basis, so most of the picture cannot be read from them. "None stated" below does not mean there is no basis.
@@ -121,7 +121,6 @@ The minutes seldom state their legal basis, so most of the picture cannot be rea
 | 2026-04-13 | Mobilisation du fpic | 3 538 €, 7 523 €, 18 335 €, 3 538 € (+3 more) |  | none stated |  | - | [p.7](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=7) |
 | 2026-04-13 | Coût final de l’operation (ht) financements montants pourcentage | 5 665 €, 3 538 €, 7 523 €, 13 489 € (+2 more) |  | none stated |  | majority | [p.7](https://www.montolieu.fr/wp-content/uploads/2026/05/CRCM-DU-13-avril-2026-SITE-INTERNET.pdf#page=7) |
 | 2026-06-05 | Demande de prêt | 26 000 €, 225 000 €, 225 000 €, 125 000 € (+5 more) | 4,34 %, 0,2 %, 4,4 %, 1 %, 15 %, 10 % | rule wording only |  | unanimous | [p.4](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=4) |
-| 2026-06-05 | Vente d’un immeuble cadastree c 551 | 70 000 € |  | none stated |  | - | [p.5](https://www.montolieu.fr/wp-content/uploads/2026/07/PV-CONSEIL-MUNICIPAL-DU-05-juin-2026.pdf#page=5) |
 | 2026-06-26 | Redevance d'occupation du domaine public : appartement n°2 Maternelle | 530 € |  | rule wording only |  | unanimous | [p.1](https://www.montolieu.fr/wp-content/uploads/2026/07/CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf#page=1) |
 | 2026-06-26 | Modification de la régie piscine municipale | 8 000 €, 11 000 € |  | none stated |  | unanimous | [p.2](https://www.montolieu.fr/wp-content/uploads/2026/07/CR-CONSEIL-MUNICIPAL-DU-26-juin-2026.pdf#page=2) |
 | 2026-07-22 | Décision modificative budgétaire | 49 €, 5 000 €, 5 049 € |  | none stated |  | unanimous | [p.3](https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=3) |

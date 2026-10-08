@@ -22,6 +22,10 @@ def build(out_dir, public="public", data="data"):
         shutil.copyfile(public / "index.json", out / "index.json")
     if (public / "minutes").exists():
         shutil.copytree(public / "minutes", out / "minutes")
+    for name in ("map.html", "places.json"):  # the map and its data; the Markdown pages are read on GitHub
+        if (public / "places" / name).exists():
+            (out / "places").mkdir(exist_ok=True)
+            shutil.copyfile(public / "places" / name, out / "places" / name)
     if (data / "where_to_find_mairie.json").exists():
         shutil.copyfile(data / "where_to_find_mairie.json", out / "where_to_find_mairie.json")
     (out / "index.html").write_text(_landing(index, pointers, static=True), encoding="utf-8")

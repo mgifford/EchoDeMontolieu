@@ -267,6 +267,7 @@ def find_topics(title, body):
 
 _SALE_MARKERS = re.compile(
     r"pr[ée]emption|\bDIA\b|intention d.ali[ée]ner|d[ée]signation du bien|bien vendu|prix de vente"
+    r"|offre d.achat|mise en vente|mise [àa] prix|notaire charg[ée] de la vente"
     r"|\b(?:vendeur|acqu[ée]reur)s?\s*(?:\(s\))?\s*:", re.I)
 
 
@@ -301,13 +302,22 @@ def _trim(name):
     return " ".join(words)
 
 
+_POSTCODE = re.compile(r"\b(\d{5})\b")
+
+
+def _elsewhere(text, end, window=40):
+    """True when a postal code other than Montolieu's (11170) follows: the place is in another commune."""
+    m = _POSTCODE.search(text[end: end + window])
+    return bool(m) and m.group(1) != "11170"
+
+
 def find_place_candidates(text):
     """Street and lieu-dit mentions. Candidates: they are confirmed only by geocoding."""
     out, seen = [], set()
     flat = " ".join(text.split())
     for m in _STREET.finditer(flat):
         name = _trim(m.group("name"))
-        if not name:
+        if not name or _elsewhere(flat, m.start("name") + len(name)):
             continue
         label = f"{m.group('type').lower()} {name}"
         if label.lower() not in seen:
@@ -315,7 +325,7 @@ def find_place_candidates(text):
             out.append({"kind": "street", "label": label, "number": (m.group("num") or "").strip() or None})
     for m in _LIEUDIT.finditer(flat):
         label = _trim(m.group("name"))
-        if label and label.lower() not in seen:
+        if label and not _elsewhere(flat, m.start("name") + len(label)) and label.lower() not in seen:
             seen.add(label.lower())
             out.append({"kind": "lieu-dit", "label": label, "number": None})
     return out

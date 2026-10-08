@@ -139,3 +139,20 @@ def test_rule_wording_is_found_without_a_citation_and_figures_are_skipped():
 
 def test_a_titre_exceptionnel_is_a_real_exception_not_an_accounting_category():
     assert [e["marker"] for e in find_exceptions("À titre exceptionnel, la salle est prêtée à l’association.")] == ["à titre exceptionnel"]
+
+
+def test_notice_wording_of_a_sale_makes_an_item_sensitive():
+    assert is_property_transaction("CUXAC CABARDES (11390).", "Notaire chargé de la vente : Étude de Maître X. offre d’achat vente 1 RUE DES OLIVIERS")
+    assert is_property_transaction("X", "La commune décide la mise en vente de l’ancienne école.")
+    assert is_property_transaction("X", "Les offres seront ouvertes. Mise à prix : 80 000 €.")
+
+
+def test_a_place_followed_by_another_postal_code_is_in_another_commune():
+    found = {p["label"] for p in find_place_candidates("Étude, 2 bis rue Bellevue 11390 Cuxac. Travaux rue des remparts 11170 Montolieu.")}
+    assert "rue des remparts" in found and "rue Bellevue" not in found
+    assert [p["label"] for p in find_place_candidates("La rue Bellevue (11390) est concernée.")] == []
+
+
+def test_a_lieu_dit_followed_by_another_postal_code_is_in_another_commune():
+    assert [p["label"] for p in find_place_candidates("Au lieu-dit Borderouge 11390 Cuxac, un terrain.")] == []
+    assert [p["label"] for p in find_place_candidates("Au lieu-dit Borderouge 11170 Montolieu, un terrain.")] == ["Borderouge"]

@@ -36,8 +36,6 @@ Decisions about sales of private property (2 notice(s)). Details are in the minu
 
 > Monsieur le maire rappelle que sont considérés comme biens sans maître, les biens immobiliers faisant partie d’une succession ouverte depuis plus de trente ans et pour laquelle aucun successible ne s’est présenté. Par détermination de la loi, ils appartiennent aux communes ou, en cas de renonciation à l’État (articles…
 
-**Places mentioned (unverified):** Cazelles
-
 ## Autorisation d’engager les depenses 2025 en attente du vote du budget
 
 [p.2](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=2) · Vote: unanimous · Topics: finances

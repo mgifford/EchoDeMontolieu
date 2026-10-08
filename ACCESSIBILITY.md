@@ -120,8 +120,16 @@ It runs axe-core at 1280 and 320 pixels wide, loads the page under its real Cont
 Policy, checks for horizontal overflow at 320 pixels, and tabs through every link to confirm a
 visible 3px outline. Report the result, including counts of `incomplete` items.
 
-Last result for the landing page (axe-core 4.13.0): 0 violations at both widths, no
-horizontal overflow, 65 of 65 links reachable by keyboard with an outline.
+Last results (axe-core 4.13.0, 1280 and 320 pixels wide, no horizontal overflow at either):
+
+| Page | Violations | Links reached by keyboard | Left for manual checking |
+|---|---|---|---|
+| Home page | 0 | 69 of 69, all with a 3px outline | none |
+| Map and list of places | 0 | 38 of 38, all with a 3px outline | colour contrast of text drawn over map tiles |
+
+On the map page: markers are 44 by 44 pixels, labelled, reachable with Tab and opened with Enter;
+the table lists the same 13 places and works without JavaScript; the page loads under its own
+Content Security Policy with no violations.
 
 ### By hand (automation cannot do these)
 - [ ] Keyboard only: reach and operate everything; focus is visible and in a sensible order.
@@ -133,10 +141,16 @@ horizontal overflow, 65 of 65 links reachable by keyboard with an outline.
 
 ## Known gaps (kept honest)
 
-- No testing with a screen reader or with disabled users has been done.
-- The landing page is English only; French, English and Dutch versions are planned, and
-  translations are not yet reviewed by native speakers.
-- There is no map or list view yet, and no language switcher or skip link.
+- No testing with a screen reader or with disabled users has been done. This matters most for the map.
+- The landing page is English only; French, English and Dutch versions of the minutes are planned,
+  and the labels and glossary used for them are not yet reviewed by native speakers.
+- There is no language switcher or skip link on the home page yet.
+- Map: markers overlap when the map is zoomed out (places 100 m apart are about 14 pixels apart at
+  the zoom that shows everything). It therefore opens at village scale, where the closest places are
+  57 pixels apart, and the list is the complete, reliable way to read the places.
+- Map: the contrast of the map's own text and attribution over tiles cannot be measured
+  automatically. The tiles and Leaflet come from third parties (OpenStreetMap, unpkg), which see
+  the visitor's address; the page says so, and the list does not depend on them.
 - Contrast was measured by formula for the palette above, not on a real range of screens.
 - Dark mode is not offered.
 - The faithful minutes copy the Mairie's text; the PDFs themselves may not be accessible.

@@ -6,7 +6,7 @@ import sys
 from datetime import datetime, timezone
 
 from .extract import extract_pdf
-from .fetch import PoliteFetcher
+from .fetch import PoliteFetcher, StopFetching
 from pathlib import Path
 
 from . import publish as pub
@@ -91,6 +91,12 @@ def main(argv=None):
     p_gen.add_argument("--cache", default=".cache/model_cache.json")
     p_gen.add_argument("--dry-run", action="store_true", help="estimate cost, send nothing")
 
+    p_geo = sub.add_parser(
+        "geocode", help="look up place names in the national address database (polite; one request per new name)")
+    p_geo.add_argument("--public", default="public")
+    p_geo.add_argument("--cache", default="data/geocode_cache.json")
+    p_geo.add_argument("--delay", type=float, default=1.0)
+
     p_st = sub.add_parser("status", help="state of each redacted document")
     p_st.add_argument("--private", default="private")
     p_st.add_argument("--public", default="public")
@@ -171,7 +177,10 @@ def main(argv=None):
         pages = th.write_topics(args.public, result, meetings)
         from .finance import write_finance
         finance = write_finance(args.public, meetings, result)
-        print(json.dumps({"meetings": report["meetings"], "topic_pages": pages, "finance": finance,
+        from . import places as pl
+        cache = pl.BanGeocoder("data/geocode_cache.json")
+        place_info = pl.write_places(args.public, meetings, cache.cached)
+        print(json.dumps({"meetings": report["meetings"], "topic_pages": pages, "finance": finance, "places": place_info,
                           "issues_in_several_meetings": sum(1 for t in result["threads"] if t["status"] != "one-off"),
                           "possibly_dropped": sum(1 for t in result["threads"] if t["possibly_dropped"])}, indent=2))
     elif args.cmd == "translate-trial":
@@ -226,6 +235,20 @@ def main(argv=None):
         report["spent_usd"] = round(budget.spent, 5)
         print(json.dumps(report, indent=2, ensure_ascii=False))
         sys.exit(2 if report["stopped"] else (1 if report["needs_review"] else 0))
+    elif args.cmd == "geocode":
+        from . import places, threads as th
+        meetings = th.load_meetings(args.public)
+        found, held_back = places.collect_candidates(meetings)
+        geocoder = places.BanGeocoder(args.cache, min_delay=args.delay)
+        todo = [q for q in found if geocoder.cached(q) is None]
+        print(json.dumps({"candidates": len(found), "to_look_up": len(todo), "held_back_items": held_back}))
+        try:
+            for query in todo:
+                geocoder.lookup(query)
+        except StopFetching as exc:
+            print(f"stopped: {exc}", file=sys.stderr)
+            sys.exit(2)
+        print(json.dumps({"requests_made": geocoder.requests_made, "pruned": geocoder.prune(found)}))
     elif args.cmd == "status":
         print(json.dumps(pub.status(args.private, args.public), indent=2))
     elif args.cmd == "approve":

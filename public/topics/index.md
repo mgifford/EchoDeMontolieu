@@ -49,6 +49,6 @@ The last mention carries a postponement or a plan and the issue does not appear 
 These come back in most meetings by nature, so they are not treated as issues.
 
 - Approval of the previous minutes and routine items: 29 items in 25 meetings
-- Notices of private property sales (counts only): 31 items in 20 meetings
+- Notices of private property sales (counts only): 33 items in 20 meetings
 
-85 further items appeared in a single meeting only.
+83 further items appeared in a single meeting only.
