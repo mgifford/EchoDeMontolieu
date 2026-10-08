@@ -21,3 +21,5 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 **Authorises someone to act**
 
 - [ ] “Un tracé de 18 Km a notamment été récemment défini ; Le circuit N°5 « la garrigue Aragon/Fraisse-Cabardès /Montolieu/Moussoulens/Ventenac Cabardès » qui passe par la commune de Montolieu selon le schéma joint Le conseil à l’unanimité : - Approuve l’inscription”
+
+_Later mentions: no later mention found in the 11 meeting(s) that followed (heuristic: it may continue under another title)_

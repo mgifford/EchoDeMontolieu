@@ -21,3 +21,5 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 **Authorises someone to act**
 
 - [ ] “Le conseil approuve à l’unanimité le PEDT tel que présenté, et autorise Monsieur le Maire à le signer ainsi que toute pièce afférente.”
+
+_Later mentions: no later mention found in the 10 meeting(s) that followed (heuristic: it may continue under another title)_

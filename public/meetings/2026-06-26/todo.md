@@ -21,3 +21,5 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 **Planned or expected action**
 
 - [ ] “Une caution d’un mois sera demandée dès la signature du contrat de redevance.”
+
+_Later mentions: no later mention found in the 1 meeting(s) that followed (heuristic: it may continue under another title)_

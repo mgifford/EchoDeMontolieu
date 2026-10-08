@@ -16,12 +16,6 @@ machine_generated: true
 
 These are sentences that *look like* a commitment, a postponement or a plan. They are candidates found by wording, not a checked action list. Verify each against the page.
 
-## Approbation du proces verbal du conseil du 4 avril 2024 ([p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=1))
-
-**Postponed or to be revisited**
-
-- [ ] “Le déficit reporté de 2023 à 2024 est de 157 879 € soit 11 % des dépenses (contre 259 350 € et 27 % en 2023) "4 MF 9” TL 1213790 € Infrastructures 1 362€ / habitant _ ——— CNE 962 789 € Admin générale 1 081€ / habitant A(K((O Len veuf to” > 7 414€ Autres dépens”
-
 ## Demande de [name withheld] ([p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/Projet-CM-15-avril-site-internet.pdf#page=4))
 
 **Postponed or to be revisited**
@@ -31,3 +25,5 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 **Planned or expected action**
 
 - [ ] “Ce nouveau schéma sera présenté à l’assemblée départementale le 20 juin prochain.”
+
+_Later mentions: no later mention found in the 22 meeting(s) that followed (heuristic: it may continue under another title)_

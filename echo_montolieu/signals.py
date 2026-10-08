@@ -190,10 +190,23 @@ _FOLLOWUPS = [
 ]
 
 
+_ACCOUNTING_CARRY = re.compile(r"(?:résultat|déficit|excédent|solde|crédits?|restes?|reste à réaliser|montant)\s+(?:de\s+\w+\s+)?(?:à\s+)?report", re.I)
+
+
+def _mostly_numbers(sentence):
+    return sum(c.isdigit() for c in sentence) / max(len(sentence), 1) > 0.12
+
+
 def find_followups(text):
-    """Sentences that look like a commitment, a deferral or a plan. Candidates only."""
+    """Sentences that look like a commitment, a deferral or a plan. Candidates only.
+
+    "Déficit reporté" and similar are accounting (carried over), not a postponement, and
+    sentences that are mostly figures are table content, so both are skipped.
+    """
     out = []
     for s in sentences(text):
+        if _ACCOUNTING_CARRY.search(s) or _mostly_numbers(s):
+            continue
         for kind, pat in _FOLLOWUPS:
             if pat.search(s):
                 out.append({"type": kind, "sentence": s})

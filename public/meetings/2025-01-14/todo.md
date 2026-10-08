@@ -25,14 +25,20 @@ These are sentences that *look like* a commitment, a postponement or a plan. The
 - [ ] “En outre, jusqu’à l’adoption du budget ou jusqu’au 15 avril, en l’absence d’adoption du budget avant cette date, l’exécutif de la collectivité territoriale peut, sur autorisation de l’organe délibérant, engager, liquider et mandater les dépenses d’investisseme”
 - [ ] “Le conseil vote à l’unanimité pour Autoriser monsieur le Maire à mandater les dépenses d’investissement, dans la limite du quart des crédits ouverts au budget de l’exercice 2024, soit 318 447,00 EUR.”
 
+_Later mentions: the issue comes back on 2025-11-27_
+
 ## Renouvellement de la convention de medecine du travail avec le cdg11 ([p.2](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=2))
 
 **Planned or expected action**
 
 - [ ] “Il souligne l’opportunité pour la Collectivité de pouvoir bénéficier d’un service pluridisciplinaire et au meilleur coût en adhérant au service de Médecine de prévention et de santé au travail géré directement par le Centre de Gestion La nouvelle convention a ”
 
+_Later mentions: no later mention found in the 17 meeting(s) that followed (heuristic: it may continue under another title)_
+
 ## Demande d’avance de subvention sur 2025 pour MVDL ([p.4](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=4))
 
 **Postponed or to be revisited**
 
 - [ ] “Une aide exceptionnelle de 300 euros est attribuée pour cette opération à l’unanimité, elle sera inscrite au budget 2025.”
+
+_Later mentions: the issue comes back on 2025-11-27, 2026-03-09, 2026-07-22_

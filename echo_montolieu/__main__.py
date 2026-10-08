@@ -164,8 +164,14 @@ def main(argv=None):
         print(json.dumps(result, indent=2))
         sys.exit(0 if result["match"] else 1)
     elif args.cmd == "render":
-        report, _ = render_all(args.public)
-        print(json.dumps({"meetings": report["meetings"]}, indent=2))
+        from . import threads as th
+        meetings = th.load_meetings(args.public)
+        result = th.build_threads(meetings)
+        report, _ = render_all(args.public, th.todo_status(result))
+        pages = th.write_topics(args.public, result, meetings)
+        print(json.dumps({"meetings": report["meetings"], "topic_pages": pages,
+                          "issues_in_several_meetings": sum(1 for t in result["threads"] if t["status"] != "one-off"),
+                          "possibly_dropped": sum(1 for t in result["threads"] if t["possibly_dropped"])}, indent=2))
     elif args.cmd == "translate-trial":
         from . import trial
         from .translate import ChatTranslator
