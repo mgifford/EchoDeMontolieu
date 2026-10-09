@@ -528,6 +528,27 @@ def _osm_pin(p):
     return f"https://www.openstreetmap.org/?mlat={p['lat']:.6f}&mlon={p['lon']:.6f}#map=18/{p['lat']:.6f}/{p['lon']:.6f}"
 
 
+def map_with_site_navigation(text):
+    """The map page is its own document (Leaflet needs its own content security policy), so it gets the site's
+    top navigation here, at build time: the shared stylesheet, the same menu, and links to each language."""
+    ui, e = UI["en"], html.escape
+    items = [("home", "../en/index.html"), ("whatsnew", "../en/whats-new/index.html"), ("meetings", "../en/meetings/index.html"),
+             ("issues", "../en/topics/index.html"), ("finance", "../en/finance/index.html"), ("places", "../en/places/index.html"),
+             ("map", None), ("about_ai", disclosure.AI_PAGE_URL)]
+    links = "".join(f'<li><a href="{e(href)}">{e(ui[key])}</a></li>' if href else
+                    f'<li><a href="map.html" aria-current="page">{e(ui[key])}</a></li>' for key, href in items)
+    langs = "".join(f'<li><a href="../{code}/index.html" lang="{code}" hreflang="{code}">{NAMES[code]}</a></li>' for code in LANGS)
+    header = (f'<header>\n<p class="brand"><a href="../en/index.html" lang="fr">{SITE_NAME}</a></p>\n'
+              f'<nav aria-label="{e(ui["nav"])}"><ul>{links}</ul></nav>\n'
+              f'<nav aria-label="{e(ui["language"])}" class="langs"><ul>{langs}</ul></nav>\n</header>\n')
+    text = text.replace("<style>", '<link rel="stylesheet" href="../assets/site.css">\n<style>', 1)
+    text = re.sub(r"(style-src )", r"\1'self' ", text, count=1)
+    skip = re.search(r'<a class="skip"[^>]*>.*?</a>\n', text)          # the page's own skip link stays first in the tab order
+    at = skip.end() if skip else text.index("<body>\n") + len("<body>\n")
+    text = text[:at] + header + text[at:]
+    return text
+
+
 def place_links(public):
     """folder -> {"confirmed": [{label, kind, osm, pages}], "unconfirmed": [{label, kind, search, pages}]}."""
     try:
@@ -819,7 +840,11 @@ def build(out_dir, public="public", data="data"):
     for name in ("map.html", "places.json"):
         if (public / "places" / name).exists():
             (out / "places").mkdir(exist_ok=True)
-            shutil.copyfile(public / "places" / name, out / "places" / name)
+            if name == "map.html":
+                text = (public / "places" / name).read_text(encoding="utf-8")
+                (out / "places" / name).write_text(map_with_site_navigation(text) if "<body>" in text else text, encoding="utf-8")
+            else:
+                shutil.copyfile(public / "places" / name, out / "places" / name)
     if (data / "where_to_find_mairie.json").exists():
         shutil.copyfile(data / "where_to_find_mairie.json", out / "where_to_find_mairie.json")
     (out / "index.html").write_text(chooser(), encoding="utf-8")

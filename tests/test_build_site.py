@@ -54,3 +54,18 @@ def test_site_builder_needs_only_markdown_it_not_requests_or_the_pipeline(tmp_pa
             "print(build(sys.argv[1], 'public', 'data'))\n")
     done = subprocess.run([sys.executable, "-c", code, str(tmp_path / "_site")], capture_output=True, text=True, cwd=Path(__file__).resolve().parent.parent)
     assert done.returncode == 0, done.stderr[-600:]
+
+
+def test_map_page_gets_the_site_navigation_after_its_own_skip_link(tmp_path):
+    public, data = tmp_path / "public", tmp_path / "data"
+    (public / "places").mkdir(parents=True); data.mkdir()
+    (public / "places" / "map.html").write_text(
+        "<!doctype html><html lang=\"en\"><head><meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; "
+        "style-src 'sha256-x' https://unpkg.com\"><style>body{}</style></head><body>\n"
+        "<a class=\"skip\" href=\"#list\">Skip the map</a>\n<header><h1>Places</h1></header>\n<main></main></body></html>")
+    out = build(tmp_path / "_site", public, data)
+    page = (out / "places" / "map.html").read_text()
+    assert page.index("Skip the map") < page.index('<nav aria-label="Main navigation">') < page.index("<h1>Places</h1>")
+    assert 'href="../en/whats-new/index.html"' in page and 'href="map.html" aria-current="page">Map' in page
+    assert 'href="../fr/index.html"' in page and 'href="../nl/index.html"' in page
+    assert 'href="../assets/site.css"' in page and "style-src 'self' 'sha256-x'" in page
