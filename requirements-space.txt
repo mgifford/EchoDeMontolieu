@@ -2,3 +2,4 @@
 # Not pinned yet; pin once the app is settled.
 fastapi
 uvicorn
+mcp>=1.9,<2
