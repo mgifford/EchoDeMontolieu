@@ -18,4 +18,4 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 “Madame [name withheld] déclare qu'elle ne signera pas le compte-rendu, considérant qu'il ne relate pas entièrement ce qui a été dit. Le compte-rendu est adopté à la majorité.”
 
-Vote : à la majorité.
+Vote: à la majorité.

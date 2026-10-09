@@ -18,22 +18,22 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 “La commission a donc décidé de retenir le véhicule de marque [name withheld] au prix de 27 400 € H.T. Le Conseil se prononce comme suit sur la proposition de la commission modernisation : Pour : 9 Abstention : 1 ([name withheld] D.) Contre : 3 Pour information, une offre a été faite à hauteur de 4 000 €uros pour l'achat de l'ancien camion.”
 
-Vote : à la majorité (contre 3, abstentions 9).
+Vote: à la majorité (contre 3, abstentions 9).
 
 ## Décision 2 ([p.2](https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf#page=2))
 
 “Monsieur [name withheld] répond qu'il n'y a pas lieu de prendre ces fonds sur ce projet, l'affectation des crédits ne pouvant être modifiée. Le Conseil municipal se prononce comme suit pour contracter l'emprunt : Pour : 8 Abstention : 1 ([name withheld] D.) Contre : 4 [name withheld] 3 entreprises ont présenté des devis.”
 
-Vote : à la majorité (contre 4, abstentions 8).
+Vote: à la majorité (contre 4, abstentions 8).
 
 ## Décision 3 ([p.3](https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf#page=3))
 
 “Pour sa part, considérant que le bureau d'études n'est ni averti des réunions ni consulté et que la démarche est absurde, elle s'abstiendra d'un bout à l'autre du débat. Le Conseil à l'unanimité est pour le maintien des parcelles constructibles du P.O.S dans le P.L.U.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 4 ([p.3](https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf#page=3))
 
 “… par secteur, les zones susceptible d'être agrandies à savoir : Hameau des [name withheld] Les [name withheld] l'Horte de [name withheld], Le [name withheld] Pont [name withheld] et une petite partie des [name withheld] POUR : 11 ABSTENTION : 1 CONTRE : 1 Monsieur [name withheld] précise qu'il vote contre ces propositions, car il estime que toutes les demandes de terrains constructibles doivent être satisfaites.”
 
-Vote : à la majorité (contre 1, abstentions 11).
+Vote: à la majorité (contre 1, abstentions 11).

@@ -39,3 +39,13 @@ def test_digest_keeps_vote_sentences_drops_voter_lists_and_counts_sales():
     assert d["sale_notices"] == 1
     page = ad.render_facts(rec(sale), d, "2004-12-04")
     assert "Tous les noms sont remplacés" in page and "#page=1" in page and "Information sur l’IA" in page
+
+
+def test_facts_page_labels_are_in_each_language_and_the_quote_is_flagged_as_french():
+    vocab = ad.Vocabulary([rec(LINES + BODY)])
+    d = ad.digest(rec(LINES + BODY), vocab)
+    en, nl, fr = (ad.render_facts(rec(LINES + BODY), d, "2004-12-04", lang) for lang in ("en", "nl", "fr"))
+    assert "Decisions and votes: 2004-12-04" in en and "French text:" in en and "unanimous" in en and "All names are replaced" in en
+    assert "not translated yet" in en and "Décision" not in en and "AI disclosure" in en
+    assert "Besluiten en stemmingen" in nl and "Franse tekst:" in nl and "unaniem" in nl and "Alle namen zijn vervangen" in nl
+    assert "Décisions et votes" in fr and "à l’unanimité" in fr

@@ -18,10 +18,10 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 “Mme [name withheld] persiste à penser que ce projet n'est pas un bon projet. Vote sur l'autorisation au Maire de signer la convention avec la [name withheld] des [name withheld] sous réserve de la confirmation par EDF de l'absence d'obstacle: Contre : 1 Abstention 4 : [name withheld] Pour 6.”
 
-Vote : à la majorité (contre 1).
+Vote: à la majorité (contre 1).
 
 ## Décision 2 ([p.3](https://web.archive.org/web/20081112040257/http://www.montolieu.fr/docs/CRCM%2020070731.pdf#page=3))
 
 “M. le Maire dit l'avoir appris a posteriori. Les modifications de statuts de l'intercommunalité sont finalement approuvées à l'unanimité.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.

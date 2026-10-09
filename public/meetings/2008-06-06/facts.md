@@ -18,22 +18,22 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 “1 [name withheld] deux mille huit et le six juin à 20h30 salle du Conseil de la Mairie, le Conseil municipal dûment convoqué s'est réuni sous la présidence du Maire, M. [name withheld]. Étaient présents : Mesdames [name withheld] Messieurs [name withheld] Absents : [name withheld] procuration à [name withheld] procuration à [name withheld] Mme [name withheld] propose d'assurer le secrétariat de séance, le Conseil accepte à l'unanimité.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 2 ([p.1](https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf#page=1))
 
 “La délégation de service public doit mentionner la durée de location et les conditions de gestion. Le Conseil décide à l'unanimité que les frais (électricité, eau, etc.) seront à la charge de la commune, le gestionnaire payant un loyer de 200 € par mois pour la durée de juillet, août et septembre.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 3 ([p.2](https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf#page=2))
 
 “Mme [name withheld] demande à ce que soit bien précisé dans le compte rendu que cette opération est exceptionnelle et que le nouveau Conseil n'est par principe pas favorable à la vente d'aucun terrain communal. La décision est mise au vote : 11 voix pour : [name withheld] 2 abstentions : [name withheld] 2 voix contre : [name withheld] Vente usine [name withheld] Deux acquéreurs éventuels se sont manifestés : 1) une entreprise familiale (SCI [name withheld]) qui achèterait pour ouvrir un hôtel trois étoiles. 2) un [name withheld] fabricant de meubles de haute qualité, ce dernier habiterait l'usine et s'engagerait à …”
 
-Vote : à la majorité (pour 11, contre 2, abstentions 2).
+Vote: à la majorité (pour 11, contre 2, abstentions 2).
 
 ## Décision 4 ([p.6](https://web.archive.org/web/20081112040000/http://www.montolieu.fr/docs/CRCM%2020080606.pdf#page=6))
 
 “6 - [name withheld] d'une salle du 2ème étage de la Mairie pour le rapatriement des archives municipales. Le Conseil donne son accord à l'unanimité. - Interdiction d'affichage sur le pont de la Dure et d'affichage sauvage en général.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.

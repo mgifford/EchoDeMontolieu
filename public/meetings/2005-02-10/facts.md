@@ -18,16 +18,16 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 “Le Conseil donne son accord pour contracter un emprunt auprès de la [name withheld] d'Epargne dans les conditions ci-dessus. Madame [name withheld] (avec procuration de Mademoiselle [name withheld]) précise qu'elle s'abstient pour les mêmes raisons citées ci-avant.”
 
-Vote : à la majorité (abstentions 1).
+Vote: à la majorité (abstentions 1).
 
 ## Décision 2 ([p.2](https://web.archive.org/web/20051014125712/http://www.montolieu.fr/docs/CRCM100205.pdf#page=2))
 
 “Monsieur le Maire demande au Conseil d'inscrire au budget 2005 l'opération d'achat du terrain [name withheld] en dépense et en recettes, car celle-ci n'avait pas été programmée au budget 2004. POUR : 12 ABSTENTION : 2 ([name withheld] avec procuration).”
 
-Vote : à la majorité (abstentions 12).
+Vote: à la majorité (abstentions 12).
 
 ## Décision 3 ([p.3](https://web.archive.org/web/20051014125712/http://www.montolieu.fr/docs/CRCM100205.pdf#page=3))
 
 “Le Conseil, à l'unanimité, n'est pas favorable à un tel échange car la parcelle communale [name withheld] n°416 permet l'accès à des terrains privés donnant sur le ravin et il y a donc servitude de passage.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.

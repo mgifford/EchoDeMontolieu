@@ -356,8 +356,10 @@ def render_all(public_dir, status_by_item=None):
         vocab = archive_digest.Vocabulary([r for _, _, r in archived_digests])
         for folder, date, rec in archived_digests:
             d = archive_digest.digest(rec, vocab)
-            (out_dir / folder / "facts.md").write_text(
-                disclosure.with_front_matter(archive_digest.render_facts(rec, d, date), f"Décisions et votes: {date}"), encoding="utf-8")
+            for lang, name in (("fr", "facts.md"), ("en", "facts.en.md"), ("nl", "facts.nl.md")):
+                title = archive_digest.LABELS[lang]["title"].format(date=date)
+                (out_dir / folder / name).write_text(
+                    disclosure.with_front_matter(archive_digest.render_facts(rec, d, date, lang), title), encoding="utf-8")
     rows.sort(key=lambda r: r["date"], reverse=True)
     (out_dir / "index.md").write_text(disclosure.with_front_matter(render_index(rows), "Council meetings"), encoding="utf-8")
     return {"meetings": len(meetings), "folders": sorted(taken)}, meetings

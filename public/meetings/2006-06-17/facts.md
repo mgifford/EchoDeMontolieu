@@ -18,4 +18,4 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 “… et démarches administratives par un appel d’offres auprès d’architectes, emprunt, le matériel financé par les pétitionnaires, ces derniers seraient redevables d’un loyer, la Commune restant propriétaire des lieux. L’accord de principe est voté à la majorité des membres présents.”
 
-Vote : à la majorité.
+Vote: à la majorité.
