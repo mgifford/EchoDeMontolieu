@@ -300,7 +300,7 @@ def render_index(rows):
            "| Date | Items | Votes | Pages to check | Read | Original |", "|---|---|---|---|---|---|"]
     for r in rows:
         review = ", ".join(map(str, r["review"])) or "none"
-        links = (f"[minutes]({r['folder']}/minutes.md) (recovered from the Internet Archive; no digest yet)" if r.get("archived") else
+        links = (f"[minutes]({r['folder']}/minutes.md) · [decisions and votes]({r['folder']}/facts.md) (recovered from the Internet Archive; cautious digest)" if r.get("archived") else
                  f"[minutes]({r['folder']}/minutes.md) · [facts]({r['folder']}/facts.md) · "
                  f"[follow-ups]({r['folder']}/todo.md)" + "".join(f" · [{label}]({r['folder']}/{name})" for label, name in r.get("extra", [])))
         out.append(f"| {r['date']}{' (draft?)' if r['draft'] else ''}{' v' + str(r['version']) if r['version'] > 1 else ''} "
@@ -318,7 +318,7 @@ def render_all(public_dir, status_by_item=None):
     index = json.loads((public / "index.json").read_text(encoding="utf-8"))
     out_dir = public / "meetings"
     out_dir.mkdir(parents=True, exist_ok=True)
-    taken, rows, meetings = set(), [], []
+    taken, rows, meetings, archived_digests = set(), [], [], []
     for entry in sorted(index["documents"], key=lambda d: ((d["meeting_date"] or {}).get("value") or "", d["filename"] or "")):
         rec = json.loads((public / entry["file"]).read_text(encoding="utf-8"))
         folder = meeting_folder(rec, taken)
@@ -326,11 +326,12 @@ def render_all(public_dir, status_by_item=None):
         target.mkdir(exist_ok=True)
         (target / "minutes.md").write_text(render_minutes(rec), encoding="utf-8")
         if rec.get("origin"):
-            # Recovered from the Internet Archive. The digests were built for the current layout and have
-            # not been checked on 2004-2008 minutes (surname-only names), so only the faithful text is published.
-            for stale in ("facts.md", "todo.md"):
+            # Recovered from the Internet Archive. The ordinary digest was built for today's layout and leaks names
+            # in this one, so these minutes get the cautious decisions-and-votes digest of archive_digest.py instead.
+            for stale in ("todo.md",):
                 (target / stale).unlink(missing_ok=True)
             date = (rec.get("meeting_date") or {}).get("value") or "undated"
+            archived_digests.append((folder, date, rec))
             rows.append({"date": date, "folder": folder, "extra": [], "items": "-", "votes": "-", "review": [
                 p["page"] for p in rec["pages"] if p.get("status") == "needs_review"], "draft": False,
                 "version": rec.get("version", 1), "url": rec["source_url"], "archived": True})
@@ -350,6 +351,13 @@ def render_all(public_dir, status_by_item=None):
                      "votes": ", ".join(f"{n} {VOTE_LABELS[k].split(' ')[0]}" for k, n in counts.items() if k) or "none found",
                      "review": meeting["pages_needing_review"], "draft": bool(rec.get("draft_suspected")),
                      "version": meeting["version"], "url": rec["source_url"]})
+    if archived_digests:
+        from . import archive_digest
+        vocab = archive_digest.Vocabulary([r for _, _, r in archived_digests])
+        for folder, date, rec in archived_digests:
+            d = archive_digest.digest(rec, vocab)
+            (out_dir / folder / "facts.md").write_text(
+                disclosure.with_front_matter(archive_digest.render_facts(rec, d, date), f"Décisions et votes: {date}"), encoding="utf-8")
     rows.sort(key=lambda r: r["date"], reverse=True)
     (out_dir / "index.md").write_text(disclosure.with_front_matter(render_index(rows), "Council meetings"), encoding="utf-8")
     return {"meetings": len(meetings), "folders": sorted(taken)}, meetings
