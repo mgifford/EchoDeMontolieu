@@ -1,0 +1,14 @@
+label,kind,latitude,longitude,openstreetmap_url,meetings,first_meeting,last_meeting
+Chemin de Villeneuve,street,43.329399,2.204645,https://www.openstreetmap.org/?mlat=43.329399&mlon=2.204645#map=18/43.329399/2.204645,3,2006-11-24,2025-06-24
+Place de l'Eglise,street,43.310476,2.214738,https://www.openstreetmap.org/?mlat=43.310476&mlon=2.214738#map=18/43.310476/2.214738,3,2008-04-04,2025-09-25
+Route de Carcassonne,street,43.297673,2.221459,https://www.openstreetmap.org/?mlat=43.297673&mlon=2.221459#map=18/43.297673/2.221459,2,2024-09-18,2025-10-27
+Route d’Alzonne,street,43.301034,2.212359,https://www.openstreetmap.org/?mlat=43.301034&mlon=2.212359#map=18/43.301034/2.212359,2,2025-09-25,2025-10-27
+Rue des Remparts,street,43.310164,2.213583,https://www.openstreetmap.org/?mlat=43.310164&mlon=2.213583#map=18/43.310164/2.213583,2,2026-01-08,2026-07-22
+Avenue du Mail,street,43.308024,2.21414,https://www.openstreetmap.org/?mlat=43.308024&mlon=2.214140#map=18/43.308024/2.214140,1,2025-11-27,2025-11-27
+Borderouge,lieu-dit,43.335715,2.215318,https://www.openstreetmap.org/?mlat=43.335715&mlon=2.215318#map=18/43.335715/2.215318,1,2026-07-22,2026-07-22
+Chemin de Borderouge,street,43.334026,2.216254,https://www.openstreetmap.org/?mlat=43.334026&mlon=2.216254#map=18/43.334026/2.216254,1,2024-04-04,2024-04-04
+Chemin de Jalabert,street,43.305872,2.213886,https://www.openstreetmap.org/?mlat=43.305872&mlon=2.213886#map=18/43.305872/2.213886,1,2024-04-04,2024-04-04
+Chemin des Barrens,street,43.308832,2.226179,https://www.openstreetmap.org/?mlat=43.308832&mlon=2.226179#map=18/43.308832/2.226179,1,2025-11-27,2025-11-27
+Chemin des Bretous,street,43.31158,2.210658,https://www.openstreetmap.org/?mlat=43.311580&mlon=2.210658#map=18/43.311580/2.210658,1,2024-04-04,2024-04-04
+Montpertus,lieu-dit,43.303565,2.204505,https://www.openstreetmap.org/?mlat=43.303565&mlon=2.204505#map=18/43.303565/2.204505,1,2025-04-14,2025-04-14
+Route de Fraisse,street,43.309601,2.223845,https://www.openstreetmap.org/?mlat=43.309601&mlon=2.223845#map=18/43.309601/2.223845,1,2025-09-25,2025-09-25

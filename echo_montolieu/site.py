@@ -37,6 +37,23 @@ KEY = "echo-lang"
 
 UI = {
     "en": {
+        "data_title": "Open data",
+        "data_nav": "Open data",
+        "e_data": "Open data: the meetings, decisions, votes and places as JSON and CSV files",
+        "data_intro": "The same information as this site, as files you can download, open in a spreadsheet or load into your own tools. They are derived and machine-generated: names are replaced, private property sales are counted and never listed, summaries are written by AI models and no person has reviewed them. Every row links to the page of the original document, which is authoritative.",
+        "data_files": "Files",
+        "data_updated": "Newest meeting in the files: {date}. {meetings} meetings, {decisions} decisions and votes, {places} confirmed places.",
+        "data_f_json": "Everything in one file: meetings with their decisions, summaries in the languages that exist, and places.",
+        "data_f_meetings": "One row per meeting: date, pages to check, number of decisions, number of private sale notices, link to the original.",
+        "data_f_decisions": "One row per agenda item or recovered vote sentence: title, vote, pages, topics, euro amounts, link to the page of the original. For the 2003 to 2008 minutes the French vote sentence is in the text_fr column, with every name replaced.",
+        "data_f_places": "One row per confirmed place: name, kind, coordinates, OpenStreetMap link, number of meetings.",
+        "data_notes": "Notes",
+        "data_n1": "CSV files are UTF-8 with commas. A cell that could be read as a formula by a spreadsheet starts with an apostrophe.",
+        "data_n2": "Titles and sentences are in French, the language of the minutes. Summaries are in French, English and Dutch where they exist.",
+        "data_n3": "No reuse licence has been chosen for this derived data yet. The original minutes are public documents of the Mairie.",
+        "data_n4": "Files are rebuilt with the site. For a question that these files do not answer, see the search and the MCP server described in the project README.",
+        "data_dl": "Download",
+        "data_size": "{kb} KB",
         "all_minutes_long": "See all minutes, back to 2003",
         "home_recent": "Showing the last 12 months ({n} {sets}). Older minutes, {first} to {last}, are on the Meetings page.", "all_minutes": "All minutes",
         "wn_short": "In short",
@@ -106,6 +123,23 @@ UI = {
         "chooser_p": "Choose your language",
     },
     "fr": {
+        "data_title": "Données ouvertes",
+        "data_nav": "Données ouvertes",
+        "e_data": "Données ouvertes : séances, décisions, votes et lieux en fichiers JSON et CSV",
+        "data_intro": "Les mêmes informations que ce site, sous forme de fichiers à télécharger, à ouvrir dans un tableur ou à charger dans vos propres outils. Elles sont dérivées et produites automatiquement : les noms sont remplacés, les ventes de biens privés sont comptées et jamais listées, les résumés sont écrits par des modèles d’IA et aucune personne ne les a relus. Chaque ligne renvoie à la page du document original, qui fait foi.",
+        "data_files": "Fichiers",
+        "data_updated": "Séance la plus récente dans les fichiers : {date}. {meetings} séances, {decisions} décisions et votes, {places} lieux confirmés.",
+        "data_f_json": "Tout dans un seul fichier : les séances avec leurs décisions, les résumés dans les langues disponibles, et les lieux.",
+        "data_f_meetings": "Une ligne par séance : date, pages à vérifier, nombre de décisions, nombre d’avis de vente de biens privés, lien vers l’original.",
+        "data_f_decisions": "Une ligne par point de l’ordre du jour ou par phrase de vote retrouvée : titre, vote, pages, thèmes, montants en euros, lien vers la page de l’original. Pour les procès-verbaux de 2003 à 2008, la phrase de vote en français figure dans la colonne text_fr, tous les noms étant remplacés.",
+        "data_f_places": "Une ligne par lieu confirmé : nom, type, coordonnées, lien OpenStreetMap, nombre de séances.",
+        "data_notes": "Remarques",
+        "data_n1": "Les fichiers CSV sont en UTF-8, séparés par des virgules. Une cellule qu’un tableur pourrait lire comme une formule commence par une apostrophe.",
+        "data_n2": "Les titres et les phrases sont en français, la langue des procès-verbaux. Les résumés sont en français, en anglais et en néerlandais quand ils existent.",
+        "data_n3": "Aucune licence de réutilisation n’a encore été choisie pour ces données dérivées. Les procès-verbaux originaux sont des documents publics de la Mairie.",
+        "data_n4": "Les fichiers sont reconstruits avec le site. Pour une question que ces fichiers ne couvrent pas, voyez la recherche et le serveur MCP décrits dans le README du projet.",
+        "data_dl": "Télécharger",
+        "data_size": "{kb} Ko",
         "all_minutes_long": "Voir tous les procès-verbaux, depuis 2003",
         "home_recent": "Les 12 derniers mois ({n} {sets}). Les procès-verbaux plus anciens, de {first} à {last}, sont sur la page Séances.", "all_minutes": "Tous les procès-verbaux",
         "wn_short": "En bref",
@@ -175,6 +209,23 @@ UI = {
         "chooser_p": "Choisissez votre langue",
     },
     "nl": {
+        "data_title": "Open data",
+        "data_nav": "Open data",
+        "e_data": "Open data: vergaderingen, besluiten, stemmingen en plaatsen als JSON- en CSV-bestanden",
+        "data_intro": "Dezelfde informatie als op deze site, als bestanden die u kunt downloaden, in een spreadsheet kunt openen of in uw eigen hulpmiddelen kunt laden. Ze zijn afgeleid en automatisch gemaakt: namen zijn vervangen, verkopen van particuliere panden worden geteld en nooit vermeld, samenvattingen zijn geschreven door AI-modellen en door niemand nagelezen. Elke rij verwijst naar de pagina van het originele document, dat leidend is.",
+        "data_files": "Bestanden",
+        "data_updated": "Nieuwste vergadering in de bestanden: {date}. {meetings} vergaderingen, {decisions} besluiten en stemmingen, {places} bevestigde plaatsen.",
+        "data_f_json": "Alles in één bestand: vergaderingen met hun besluiten, samenvattingen in de beschikbare talen, en plaatsen.",
+        "data_f_meetings": "Eén rij per vergadering: datum, te controleren pagina’s, aantal besluiten, aantal meldingen van verkoop van particuliere panden, link naar het origineel.",
+        "data_f_decisions": "Eén rij per agendapunt of teruggevonden stemzin: titel, stemming, pagina’s, thema’s, bedragen in euro, link naar de pagina van het origineel. Voor de notulen van 2003 tot 2008 staat de Franse stemzin in de kolom text_fr, met alle namen vervangen.",
+        "data_f_places": "Eén rij per bevestigde plaats: naam, soort, coördinaten, OpenStreetMap-link, aantal vergaderingen.",
+        "data_notes": "Opmerkingen",
+        "data_n1": "CSV-bestanden zijn UTF-8 met komma’s. Een cel die een spreadsheet als formule zou lezen, begint met een apostrof.",
+        "data_n2": "Titels en zinnen zijn in het Frans, de taal van de notulen. Samenvattingen zijn in het Frans, Engels en Nederlands waar ze bestaan.",
+        "data_n3": "Voor deze afgeleide gegevens is nog geen licentie voor hergebruik gekozen. De originele notulen zijn openbare documenten van de Mairie.",
+        "data_n4": "De bestanden worden met de site opnieuw opgebouwd. Voor een vraag die deze bestanden niet beantwoorden, zie de zoekfunctie en de MCP-server in de README van het project.",
+        "data_dl": "Downloaden",
+        "data_size": "{kb} KB",
         "all_minutes_long": "Alle notulen bekijken, vanaf 2003",
         "home_recent": "De laatste 12 maanden ({n} {sets}). Oudere notulen, van {first} tot {last}, staan op de pagina Vergaderingen.", "all_minutes": "Alle notulen",
         "wn_short": "In het kort",
@@ -608,6 +659,18 @@ def places_section(lang, found):
     return "".join(parts)
 
 
+def data_page_body(lang, info, sizes):
+    """The Open data page: what the files are, how to read them, where they are and what they do not promise."""
+    ui, e = UI[lang], html.escape
+    names = [("council.json", "data_f_json"), ("meetings.csv", "data_f_meetings"), ("decisions.csv", "data_f_decisions"), ("places.csv", "data_f_places")]
+    rows = "".join(f'<li><a href="../../data/{n}" download>{e(n)}</a> <span class="note">({e(ui["data_size"].format(kb=max(1, round(sizes.get(n, 0) / 1024))))})</span>: {e(ui[k])}</li>'
+                   for n, k in names)
+    notes = "".join(f"<li>{e(ui[k])}</li>" for k in ("data_n1", "data_n2", "data_n3", "data_n4"))
+    return (f'<h1>{e(ui["data_title"])}</h1>{disclosure.html("rules", lang)}<p>{e(ui["data_intro"])}</p>'
+            f'<p>{e(ui["data_updated"].format(date=human_date(lang, info.get("newest_meeting")), meetings=info.get("counts", {}).get("meetings", 0), decisions=info.get("counts", {}).get("decisions", 0), places=info.get("counts", {}).get("places", 0)))}</p>'
+            f'<h2>{e(ui["data_files"])}</h2><ul>{rows}</ul><h2>{e(ui["data_notes"])}</h2><ul>{notes}</ul>')
+
+
 def meeting_nav(lang, folder, name, files):
     """Strip at the top of a meeting page linking its sibling pages (summary, full minutes, facts, follow-ups)."""
     ui, e = UI[lang], html.escape
@@ -687,7 +750,7 @@ def whats_new_feed(lang, data, files):
             f"<updated>{updated}</updated>" + "".join(entries) + "</feed>\n")
 
 
-def landing_body(lang, index, pointers, folders, files, has_zoning=False, has_whats_new=False):
+def landing_body(lang, index, pointers, folders, files, has_zoning=False, has_whats_new=False, has_data=False):
     """Home page: alerts, introduction, explore links, the minutes grouped by year, where to find things."""
     ui, e = UI[lang], html.escape
     since = recent_since(index)
@@ -729,6 +792,7 @@ def landing_body(lang, index, pointers, folders, files, has_zoning=False, has_wh
 <li><a href="topics/index.html">{e(ui['issues'])}</a>: {e(ui['e_issues'])}</li>
 <li><a href="finance/index.html">{e(ui['finance'])}</a>, {e(ui['e_finance'])}</li>
 <li><a href="places/index.html">{e(ui['e_places'])}</a></li>
+{f'<li><a href="data/index.html">{e(ui["data_title"])}</a>: {e(ui["e_data"].split(": ", 1)[-1])}</li>' if has_data else ''}
 {f'<li><a href="zoning/index.html">{e(ui["e_zoning"])}</a></li>' if has_zoning else ''}
 <li><a href="places/map.html">{e(ui['e_map'])}</a></li>
 </ul>
@@ -862,6 +926,10 @@ def build(out_dir, public="public", data="data"):
     if (public / "places" / "map.html").exists():
         (out / "places").mkdir(exist_ok=True)
         (out / "places" / "map.html").write_text(map_redirect_page(), encoding="utf-8")
+    opendata = {}
+    if (public / "data" / "council.json").exists():
+        shutil.copytree(public / "data", out / "data")
+        opendata = _read_json(out / "data" / "council.json", {})
     if (data / "where_to_find_mairie.json").exists():
         shutil.copyfile(data / "where_to_find_mairie.json", out / "where_to_find_mairie.json")
     (out / "index.html").write_text(chooser(), encoding="utf-8")
@@ -871,7 +939,10 @@ def build(out_dir, public="public", data="data"):
     place_map = place_links(public)
     whats = _read_json(public / "whats-new" / "whats-new.json", None)
     for lang in LANGS:
-        pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders, meeting_files(public), (public / 'zoning' / 'index.md').exists(), (public / 'whats-new' / 'whats-new.json').exists()))]
+        pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders, meeting_files(public), (public / 'zoning' / 'index.md').exists(), (public / 'whats-new' / 'whats-new.json').exists(), (public / 'data' / 'council.json').exists()))]
+        if opendata:
+            sizes = {f.name: f.stat().st_size for f in (out / "data").iterdir()}
+            pages.append(Page(lang, "data/index.html", UI[lang]["data_title"], data_page_body(lang, opendata, sizes)))
         if whats and whats.get("latest"):
             pages.append(Page(lang, "whats-new/index.html", UI[lang]["wn_title"], whats_new_body(lang, whats, meeting_files(public), _read_json(public / "whats-new" / "intro.json", None))))
             feed = out / lang / "whats-new" / "feed.xml"
