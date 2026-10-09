@@ -53,7 +53,7 @@ UI = {
         "e_meetings": "Each meeting: the minutes, with summaries and follow-ups",
         "e_issues": "what keeps coming back, and what may have been dropped",
         "e_finance": "as far as the minutes state them",
-        "e_places": "Places discussed (list)",
+        "e_places": "Places discussed (list)", "e_zoning": "Planning and heritage zoning, from the national planning portal",
         "e_map": "Map of places discussed",
         "minutes_h": "Council minutes",
         "minutes_total": "{total} {sets} across {years} {yrs} ({span}). Most recent first.", "sets": ("set of minutes", "sets of minutes"), "yrs": ("year", "years"),
@@ -88,7 +88,7 @@ UI = {
         "e_meetings": "Chaque séance : le procès-verbal, avec résumés et suites à donner",
         "e_issues": "ce qui revient souvent, et ce qui a peut-être été abandonné",
         "e_finance": "dans la mesure où les procès-verbaux les indiquent",
-        "e_places": "Lieux évoqués (liste)",
+        "e_places": "Lieux évoqués (liste)", "e_zoning": "Urbanisme et zonages patrimoniaux, d’après le Géoportail de l’urbanisme",
         "e_map": "Carte des lieux évoqués",
         "minutes_h": "Procès-verbaux du conseil municipal",
         "minutes_total": "{total} {sets} sur {years} {yrs} ({span}). Le plus récent d’abord.", "sets": ("procès-verbal", "procès-verbaux"), "yrs": ("année", "années"),
@@ -123,7 +123,7 @@ UI = {
         "e_meetings": "Elke vergadering: de notulen, met samenvattingen en vervolgacties",
         "e_issues": "wat steeds terugkomt, en wat misschien is blijven liggen",
         "e_finance": "voor zover de notulen ze vermelden",
-        "e_places": "Besproken plaatsen (lijst)",
+        "e_places": "Besproken plaatsen (lijst)", "e_zoning": "Ruimtelijke ordening en erfgoedzones, volgens het nationale planningsportaal",
         "e_map": "Kaart van besproken plaatsen",
         "minutes_h": "Notulen van de gemeenteraad",
         "minutes_total": "{total} {sets} uit {years} {yrs} ({span}). Meest recente eerst.", "sets": ("set notulen", "sets notulen"), "yrs": ("jaar", "jaar"),
@@ -388,7 +388,7 @@ def meeting_nav(lang, folder, name, files):
     return f'<nav class="mnav" aria-label="{e(ui["meeting_nav"])}"><ul>{"".join(items)}</ul></nav>' if len(items) > 1 else ""
 
 
-def landing_body(lang, index, pointers, folders, files):
+def landing_body(lang, index, pointers, folders, files, has_zoning=False):
     """Home page: alerts, introduction, explore links, the minutes grouped by year, where to find things."""
     ui, e = UI[lang], html.escape
     by_year = meetings_list(lang, index, folders, files)
@@ -433,6 +433,7 @@ def landing_body(lang, index, pointers, folders, files):
 <li><a href="topics/index.html">{e(ui['issues'])}</a>: {e(ui['e_issues'])}</li>
 <li><a href="finance/index.html">{e(ui['finance'])}</a>, {e(ui['e_finance'])}</li>
 <li><a href="places/index.html">{e(ui['e_places'])}</a></li>
+{f'<li><a href="zoning/index.html">{e(ui["e_zoning"])}</a></li>' if has_zoning else ''}
 <li><a href="../places/map.html">{e(ui['e_map'])}</a> ({e(ui['map'])})</li>
 </ul>
 <h2 id="minutes">{e(ui['minutes_h'])}</h2>
@@ -562,7 +563,7 @@ def build(out_dir, public="public", data="data"):
 
     folders = folders_by_document(public)
     for lang in LANGS:
-        pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders, meeting_files(public)))]
+        pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders, meeting_files(public), (public / 'zoning' / 'index.md').exists()))]
         for base in page_bases(public):
             found = pick(public / base, lang)
             if not found:

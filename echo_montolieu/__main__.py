@@ -131,6 +131,13 @@ def main(argv=None):
     p_pm.add_argument("--delay", type=float, default=2.0)
     p_pm.add_argument("--offline", action="store_true", help="use the cache only; send no request")
 
+    p_zo = sub.add_parser(
+        "zoning", help="fetch planning and heritage zoning for the commune from the national planning portal (polite) "
+                       "and write public/zoning/")
+    p_zo.add_argument("--public", default="public")
+    p_zo.add_argument("--cache", default="data/gpu_cache.json")
+    p_zo.add_argument("--delay", type=float, default=2.0)
+
     p_geo = sub.add_parser(
         "geocode", help="look up place names in the national address database (polite; one request per new name)")
     p_geo.add_argument("--public", default="public")
@@ -283,6 +290,15 @@ def main(argv=None):
         except StopFetching as exc:
             print(f"stopped: {exc}. Answers already received are cached; run again later.", file=sys.stderr)
             sys.exit(1)
+    elif args.cmd == "zoning":
+        from . import zoning
+        try:
+            snap = zoning.write_zoning(args.public, zoning.GpuClient(args.cache, min_delay=args.delay))
+        except StopFetching as exc:
+            print(f"stopped: {exc}. Answers already received are cached; run again later.", file=sys.stderr)
+            sys.exit(1)
+        print(json.dumps({"documents": len(snap["documents"]), "zones": len(snap["zones"]),
+                          "heritage_prescriptions": len(snap["heritage_prescriptions"]), "endpoint_status": snap["endpoint_status"]}, indent=2))
     elif args.cmd == "geocode":
         from . import places, threads as th
         meetings = th.load_meetings(args.public)
