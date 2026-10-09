@@ -96,20 +96,25 @@ def test_meetings_pages_link_summary_and_full_minutes_in_plain_words(tmp_path):
     assert "Deze pagina is nog niet beschikbaar" not in (out / "nl/meetings/index.html").read_text()
 
 
-def test_landing_groups_by_year_in_each_language_with_proper_plurals(tmp_path):
+def test_home_shows_only_the_last_12_months_and_the_meetings_page_keeps_the_totals(tmp_path):
     public, data = tmp_path / "public", tmp_path / "data"
     public.mkdir(); data.mkdir()
     docs = [{"document_id": f"{i:012x}", "filename": f"f{i}.pdf", "source_url": "https://www.montolieu.fr/x.pdf",
-             "meeting_date": {"value": d}, "versions": 1} for i, d in enumerate(["2026-07-22", "2026-06-05", "2024-01-31", "2003-04-04"])]
+             "meeting_date": {"value": d}, "versions": 1} for i, d in enumerate(["2026-07-22", "2026-06-05", "2025-07-23", "2025-07-21", "2024-01-31", "2003-04-04"])]
     import json
     (public / "index.json").write_text(json.dumps({"documents": docs}))
     out = build(tmp_path / "_site", public, data)
-    assert "4 sets of minutes across 3 years (2003–2026)" in (out / "en/index.html").read_text()
-    assert "2026: 2 sets of minutes" in (out / "en/index.html").read_text() and "2024: 1 set of minutes" in (out / "en/index.html").read_text()
+    en = (out / "en/index.html").read_text()
+    assert "Showing the last 12 months (3 sets of minutes). Older minutes, 2003 to 2025, are on the Meetings page." in en
+    assert "22 July 2026" in en and "23 July 2025" in en and "21 July 2025" not in en and "31 January 2024" not in en and "2003" in en.split("Older minutes")[1][:20]
+    assert "2026: 2 sets of minutes" in en and "2025: 1 set of minutes" in en and 'href="meetings/index.html">All minutes' in en
+    assert "6 sets of minutes across 4 years (2003–2026)" in (out / "en/meetings/index.html").read_text()
     fr = (out / "fr/index.html").read_text()
-    assert "4 procès-verbaux sur 3 années (2003–2026)" in fr and "2026 : 2 procès-verbaux" in fr and "2024 : 1 procès-verbal" in fr
-    assert "Aucun procès-verbal trouvé pour : 2004–2023" in fr
-    assert "4 sets notulen uit 3 jaar" in (out / "nl/index.html").read_text()
+    assert "Les 12 derniers mois (3 procès-verbaux)" in fr and "31 janvier 2024" not in fr
+    meetings_fr = (out / "fr/meetings/index.html").read_text()
+    assert "6 procès-verbaux sur 4 années (2003–2026)" in meetings_fr and "Aucun procès-verbal trouvé pour : 2004–2023" in meetings_fr
+    assert "6 sets notulen uit 4 jaar" in (out / "nl/meetings/index.html").read_text()
+
 
 
 def test_chooser_sends_visitors_with_a_saved_or_browser_language_and_stays_usable_without_script(tmp_path):
