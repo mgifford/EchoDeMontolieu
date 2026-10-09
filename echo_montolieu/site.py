@@ -592,6 +592,11 @@ def map_with_site_navigation(text, lang):
     header = (f'<header>\n<p class="brand"><a href="../index.html" lang="fr">{SITE_NAME}</a></p>\n'
               f'<nav aria-label="{e(ui["nav"])}"><ul>{links}</ul></nav>\n'
               f'<nav aria-label="{e(ui["language"])}" class="langs"><ul>{langs}</ul></nav>\n</header>\n')
+    # The page's own title bar was a <header>; with the site header above it, the page would have two banners, and a title
+    # outside <main> would sit outside every landmark. So the title becomes the first thing inside <main>.
+    title = re.search(r"<header>(<h1>.*?</h1>)</header>\n?", text)
+    if title:
+        text = text.replace(title.group(0), "", 1).replace('<main id="main">', '<main id="main">\n' + title.group(1), 1)
     text = text.replace("<style>", '<link rel="stylesheet" href="../../assets/site.css">\n<style>', 1)
     text = text.replace("</head>", '<script src="../../assets/site.js" defer></script>\n</head>', 1)
     text = re.sub(r"(style-src )", r"\1'self' ", text, count=1)
