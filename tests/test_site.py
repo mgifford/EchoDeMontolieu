@@ -75,13 +75,25 @@ def test_tables_scroll_in_a_labelled_focusable_region_with_column_headers():
     assert 'role="region" aria-label="Tableau 1" tabindex="0"' in out and '<th scope="col">A</th>' in out
 
 
-def test_translation_links_in_the_meetings_table_are_dropped_because_each_language_has_its_own_tree(tmp_path):
+def test_meetings_pages_link_summary_and_full_minutes_in_plain_words(tmp_path):
+    import json
     public, data = tmp_path / "public", tmp_path / "data"
-    (public / "meetings").mkdir(parents=True); data.mkdir()
-    (public / "meetings" / "index.md").write_text("# Council meetings\n\n| Read |\n|---|\n| [minutes](d/minutes.md) · [minutes EN](d/minutes.en.md) |\n")
+    (public / "meetings" / "2025-06-24").mkdir(parents=True); data.mkdir()
+    (public / "meetings" / "index.md").write_text("# Council meetings\n")
+    front = "---\ndocument_id: aaaaaaaaaaaa\nlanguage: fr\n---\n# "
+    for name in ("minutes", "summary"):
+        (public / "meetings" / "2025-06-24" / f"{name}.md").write_text(front + name + "\n\ntext\n")
+    (public / "index.json").write_text(json.dumps({"documents": [{
+        "document_id": "aaaaaaaaaaaa", "filename": "x.pdf", "source_url": "https://www.montolieu.fr/x.pdf",
+        "meeting_date": {"value": "2025-06-24"}, "versions": 1}]}))
     out = build(tmp_path / "_site", public, data)
-    page = (out / "en/meetings/index.html").read_text()
-    assert "minutes EN" not in page and 'href="d/minutes.html"' in page
+    for lang, date, summary in (("en", "24 June 2025", "Summary"), ("fr", "24 juin 2025", "Résumé"), ("nl", "24 juni 2025", "Samenvatting")):
+        for page, prefix in (("index.html", "meetings/"), ("meetings/index.html", "")):
+            html_ = (out / lang / page).read_text()
+            assert date in html_ and f'href="{prefix}2025-06-24/summary.html">{summary}' in html_
+            assert f'href="{prefix}2025-06-24/minutes.html"' in html_
+        assert 'class="mnav"' in (out / lang / "meetings/2025-06-24/minutes.html").read_text()
+    assert "Deze pagina is nog niet beschikbaar" not in (out / "nl/meetings/index.html").read_text()
 
 
 def test_landing_groups_by_year_in_each_language_with_proper_plurals(tmp_path):
