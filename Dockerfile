@@ -13,10 +13,14 @@ RUN pip install --no-cache-dir -r requirements-space.txt
 
 # Only published data goes into the image. private/ and .cache/ never do.
 COPY --chown=user app.py .
-# The AI disclosure wording is shared with the pipeline: ship that one module, not the pipeline.
-COPY --chown=user echo_montolieu/__init__.py echo_montolieu/disclosure.py ./echo_montolieu/
+# The modules that build and query the database use only the standard library; the OCR and fetch
+# modules in the same folder are shipped but never imported here.
+COPY --chown=user echo_montolieu ./echo_montolieu
+COPY --chown=user schema.sql .
 COPY --chown=user public ./public
 COPY --chown=user data/where_to_find_mairie.json ./data/where_to_find_mairie.json
+# The searchable database is derived from public/ at build time and not stored in git.
+RUN python -c "from echo_montolieu import db; print(db.build_public('public', 'data/echo.db'))"
 
 EXPOSE 7860
 CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port ${PORT}"]

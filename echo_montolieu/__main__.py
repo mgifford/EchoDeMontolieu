@@ -1,5 +1,5 @@
 """Command line: python -m echo_montolieu
-{list,sync,wayback,history,extract,publish-record,render,translate-trial,generate,verify,keygen,redact,status,approve,publish,unpublish,whois} ..."""
+{list,sync,wayback,history,build-db,search,extract,publish-record,render,translate-trial,generate,verify,keygen,redact,status,approve,publish,unpublish,whois} ..."""
 import argparse
 import json
 import sys
@@ -37,6 +37,16 @@ def main(argv=None):
     p_wb.add_argument("--limit", type=int, default=None)
     p_wb.add_argument("--delay", type=float, default=10.0)
     p_wb.add_argument("--dry-run", action="store_true", help="list what would be downloaded")
+
+    p_db = sub.add_parser("build-db", help="build the public searchable database (derived layer) from public/")
+    p_db.add_argument("--public", default="public")
+    p_db.add_argument("--out", default="data/echo.db")
+
+    p_se = sub.add_parser("search", help="search the public database")
+    p_se.add_argument("query")
+    p_se.add_argument("--db", default="data/echo.db")
+    p_se.add_argument("--limit", type=int, default=10)
+    p_se.add_argument("--lang", choices=["fr", "en", "nl"], default=None)
 
     p_hist = sub.add_parser(
         "history", help="machine-readable history across all minutes (private folder unless --public-out)")
@@ -292,6 +302,13 @@ def main(argv=None):
     elif args.cmd == "whois":
         print(json.dumps(Pseudonymiser.from_environment(args.private).whois(args.identifier),
                          ensure_ascii=False, indent=2))
+    elif args.cmd == "build-db":
+        from . import db
+        print(json.dumps(db.build_public(args.public, args.out), indent=2))
+    elif args.cmd == "search":
+        from . import db
+        json.dump(db.search_public(args.db, args.query, args.limit, args.lang), sys.stdout, ensure_ascii=False, indent=2)
+        print()
     elif args.cmd == "history":
         from . import history
         h = history.write(args.public, args.out)

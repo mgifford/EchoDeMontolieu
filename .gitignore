@@ -13,6 +13,9 @@ venv/
 # Must never be committed or published.
 private/
 
+# Built from public/ by `build-db`; a binary, so never committed (Hugging Face rejects binaries).
+data/echo.db
+
 # Translation trial outputs (review first, then commit a curated report)
 trials/
 
