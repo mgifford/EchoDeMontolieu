@@ -1,0 +1,21 @@
+---
+title: "Decisions and votes: 2006-06-17"
+machine_generated: true
+produced_by: "software (programmed rules) written with AI assistance"
+human_reviewed: false
+ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
+---
+# Decisions and votes: 2006-06-17
+
+> **AI disclosure.** This page was generated automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model wrote its text: it is extracted from the minutes by programmed rules. No person has checked it, and it can be wrong. The original documents are authoritative. [About AI in this project](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
+
+> Cautious automatic reading of an old set of minutes (recovered from the Internet Archive). Only sentences that state a vote are kept, with the sentence before. **All names are replaced** (more than strictly needed, on purpose: an unfamiliar place name may be replaced too) and lists of voters are removed. Private property sales are counted, not quoted. **The quoted sentences are in French, the language of the minutes, and are not translated yet.** The full French text and the original PDF are authoritative.
+
+- Votes found: 1 (0 unanimous, 1 by majority, 0 rejected).
+- Private property sale notices: 0 (counted only).
+
+## Decision 1 ([p.1](https://web.archive.org/web/20071012134213/http://www.montolieu.fr/docs/CRCM%2020060617.pdf#page=1))
+
+French text: “… et démarches administratives par un appel d’offres auprès d’architectes, emprunt, le matériel financé par les pétitionnaires, ces derniers seraient redevables d’un loyer, la Commune restant propriétaire des lieux. L’accord de principe est voté à la majorité des membres présents.”
+
+Vote: by majority.

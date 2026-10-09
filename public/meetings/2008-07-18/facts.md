@@ -18,4 +18,4 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 “L’assemblée passe au vote. La [name withheld] est retenue avec 14 voix pour.”
 
-Vote : à la majorité (pour 14).
+Vote: à la majorité (pour 14).

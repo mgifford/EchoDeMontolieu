@@ -18,16 +18,16 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 “Par ailleurs, Monsieur [name withheld] de l ’Ecole, a fait une demande d ’avance de 200 €uros afin de démarrer les activités du C.E.L 2003/2004. Le Conseil se prononce par 14 voix POUR et 1 ABSTENTION (Mme [name withheld]).”
 
-Vote : à la majorité (pour 14, abstentions 1).
+Vote: à la majorité (pour 14, abstentions 1).
 
 ## Décision 2 ([p.1](https://web.archive.org/web/20031030083200/http://www.montolieu.fr:80/conseil/crcm200903.html))
 
 “Après quelques calculs, M. le Maire indique que le coût sera de 450 €uros par mois, charges comprises. Le Conseil se prononce par 8 voix POUR, 1 ABSTENTION (Monsieur [name withheld]) et 6 voix CONTRE (Mesdames [name withheld] Monsieur [name withheld] avec procurations).”
 
-Vote : à la majorité (pour 8, contre 6, abstentions 1).
+Vote: à la majorité (pour 8, contre 6, abstentions 1).
 
 ## Décision 3 ([p.1](https://web.archive.org/web/20031030083200/http://www.montolieu.fr:80/conseil/crcm200903.html))
 
 “… plan de financement pour lequel il convient de demander au Conseil Général de l ’Aude une subvention plus élevée à cause du mode de calcul pour la subvention du [name withheld] (prix du terrain non pris en compte). Le Conseil se prononce favorablement pour le nouveau plan de financement par 14 voix POUR et 1 ABSTENTION (Mme [name withheld]).”
 
-Vote : à la majorité (pour 14, abstentions 1).
+Vote: à la majorité (pour 14, abstentions 1).

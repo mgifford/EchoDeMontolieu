@@ -125,22 +125,46 @@ def digest(rec, vocab):
     return {"decisions": decisions, "sale_notices": sales}
 
 
-def render_facts(rec, d, date):
+# The page's own words, in each language. The quoted sentences are always French (the minutes' language) until a
+# model translates them; the labels around them are fixed text, written once here.
+LABELS = {
+    "fr": {
+        "title": "Décisions et votes: {date}", "note": "Lecture automatique et prudente d’un procès-verbal ancien (récupéré sur l’Internet Archive). Seules les phrases qui annoncent un vote sont gardées, avec la phrase qui les précède. **Tous les noms sont remplacés** (par excès : un nom de lieu inconnu peut l’être aussi) et les listes de votants sont supprimées. Les ventes de biens privés sont comptées, pas citées. Le texte fidèle et le PDF original font foi.",
+        "found": "Décisions avec vote repérées : {n} ({u} à l’unanimité, {m} à la majorité, {r} rejetées).",
+        "sales": "Avis de vente de biens privés : {n} (comptés seulement).",
+        "none": "Aucune phrase de vote n’a été reconnue dans ce procès-verbal. Lisez le [texte complet](minutes.md).",
+        "decision": "Décision {n}", "vote": "Vote", "for": "pour", "against": "contre", "abstentions": "abstentions",
+        "kind": {"unanimous": "à l’unanimité", "majority": "à la majorité", "rejected": "rejeté"}, "quote": ""},
+    "en": {
+        "title": "Decisions and votes: {date}", "note": "Cautious automatic reading of an old set of minutes (recovered from the Internet Archive). Only sentences that state a vote are kept, with the sentence before. **All names are replaced** (more than strictly needed, on purpose: an unfamiliar place name may be replaced too) and lists of voters are removed. Private property sales are counted, not quoted. **The quoted sentences are in French, the language of the minutes, and are not translated yet.** The full French text and the original PDF are authoritative.",
+        "found": "Votes found: {n} ({u} unanimous, {m} by majority, {r} rejected).",
+        "sales": "Private property sale notices: {n} (counted only).",
+        "none": "No vote sentence was recognised in these minutes. Read the [full text](minutes.md) (in French).",
+        "decision": "Decision {n}", "vote": "Vote", "for": "for", "against": "against", "abstentions": "abstentions",
+        "kind": {"unanimous": "unanimous", "majority": "by majority", "rejected": "rejected"}, "quote": "French text:"},
+    "nl": {
+        "title": "Besluiten en stemmingen: {date}", "note": "Voorzichtige automatische lezing van oude notulen (teruggevonden in het Internet Archive). Alleen zinnen die een stemming vermelden zijn bewaard, met de zin ervoor. **Alle namen zijn vervangen** (bewust meer dan strikt nodig: ook een onbekende plaatsnaam kan vervangen zijn) en lijsten van stemmers zijn verwijderd. Verkopen van particuliere panden worden geteld, niet geciteerd. **De geciteerde zinnen staan in het Frans, de taal van de notulen, en zijn nog niet vertaald.** De volledige Franse tekst en de originele pdf zijn leidend.",
+        "found": "Gevonden stemmingen: {n} ({u} unaniem, {m} bij meerderheid, {r} verworpen).",
+        "sales": "Meldingen van verkoop van particuliere panden: {n} (alleen geteld).",
+        "none": "In deze notulen is geen zin met een stemming herkend. Lees de [volledige tekst](minutes.md) (in het Frans).",
+        "decision": "Besluit {n}", "vote": "Stemming", "for": "voor", "against": "tegen", "abstentions": "onthoudingen",
+        "kind": {"unanimous": "unaniem", "majority": "bij meerderheid", "rejected": "verworpen"}, "quote": "Franse tekst:"},
+}
+
+
+def render_facts(rec, d, date, lang="fr"):
+    L = LABELS[lang]
     kinds = Counter(x["kind"] for x in d["decisions"])
-    out = [f"# Décisions et votes: {date}", "", disclosure.markdown("rules", "fr"), "",
-           "> Lecture automatique et prudente d’un procès-verbal ancien (récupéré sur l’Internet Archive). Seules les phrases qui "
-           "annoncent un vote sont gardées, avec la phrase qui les précède. **Tous les noms sont remplacés** (par excès : un nom "
-           "de lieu inconnu peut l’être aussi) et les listes de votants sont supprimées. Les ventes de biens privés sont comptées, "
-           "pas citées. Le texte fidèle et le PDF original font foi.", "",
-           f"- Décisions avec vote repérées : {len(d['decisions'])} "
-           f"({kinds.get('unanimous', 0)} à l’unanimité, {kinds.get('majority', 0)} à la majorité, {kinds.get('rejected', 0)} rejetées).",
-           f"- Avis de vente de biens privés : {d['sale_notices']} (comptés seulement).", ""]
+    out = [f"# {L['title'].format(date=date)}", "", disclosure.markdown("rules", lang), "", f"> {L['note']}", "",
+           f"- {L['found'].format(n=len(d['decisions']), u=kinds.get('unanimous', 0), m=kinds.get('majority', 0), r=kinds.get('rejected', 0))}",
+           f"- {L['sales'].format(n=d['sale_notices'])}", ""]
     if not d["decisions"]:
-        out += ["Aucune phrase de vote n’a été reconnue dans ce procès-verbal. Lisez le [texte complet](minutes.md).", ""]
+        out += [L["none"], ""]
     for n, x in enumerate(d["decisions"], 1):
         link = f"[p.{x['page']}]({x['page_url']})" if x.get("page_url") else f"p.{x['page']}"
-        counts = ", ".join(f"{label} {x[k]}" for label, k in (("pour", "for"), ("contre", "against"), ("abstentions", "abstentions")) if x[k])
-        out += [f"## Décision {n} ({link})", "", f"“{x['text']}”", "", f"Vote : {KIND_FR[x['kind']]}{' (' + counts + ')' if counts else ''}.", ""]
+        counts = ", ".join(f"{L[label]} {x[k]}" for label, k in (("for", "for"), ("against", "against"), ("abstentions", "abstentions")) if x[k])
+        out += [f"## {L['decision'].format(n=n)} ({link})", "", f"{L['quote']} “{x['text']}”".strip(), "",
+                f"{L['vote']}: {L['kind'][x['kind']]}{' (' + counts + ')' if counts else ''}.", ""]
     return "\n".join(out).rstrip() + "\n"
 
 

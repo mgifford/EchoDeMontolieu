@@ -18,4 +18,4 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 “… ne changent rien sur l’extérieur des bâtiments ; deuxième solution prolonger la coursive pour accès par ouverture centrale ; troisième solution accès aux logements par escaliers intérieur et extérieur existants. Le choix est soumis au vote, le Conseil se prononce à la majorité pour la solution n°1 saut Madame [name withheld] qui s’abstient étant favorable à la solution n°3.”
 
-Vote : à la majorité (abstentions 1).
+Vote: à la majorité (abstentions 1).

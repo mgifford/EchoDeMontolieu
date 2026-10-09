@@ -18,58 +18,58 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 “Madame [name withheld] déclare qu'elle ne signera pas le compte-rendu, et demande de rectifier qu'elle ne s'est pas abstenue au sujet du vote de l'achat du terrain [name withheld]. Le compte-rendu est adopté à la majorité et on passe ensuite à l'ordre du jour.”
 
-Vote : à la majorité.
+Vote: à la majorité.
 
 ## Décision 2 ([p.1](https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=1))
 
 “Il en ressort aucune observation particulière. Le Conseil adopte les conclusions sauf Madame [name withheld] qui s'abstient.”
 
-Vote : à la majorité (abstentions 1).
+Vote: à la majorité (abstentions 1).
 
 ## Décision 3 ([p.1](https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=1))
 
 “Quelques corrections sont apportées au fur et à mesure de la lecture des articles. Le Conseil donne son accord à l'unanimité après correction.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 4 ([p.1](https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=1))
 
 “… de passer une convention avec la [name withheld] concernant l'inventaire descriptif du mobilier de la [name withheld] municipale pour une valeur de 29 392 €uros en dépôt lequel la Commune doit souscrire une assurance. Le Conseil donne son accord à l'unanimité.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 5 ([p.1](https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=1))
 
 “… 2005, relative aux modifications apportées aux statuts de la Communauté dans le cadre des nouvelles dispositions concernant la définition de l'intérêt communautaire introduites par la Loi n°2004-809 du 13 Août 2004. Le Conseil approuve à l'unanimité les modifications statutaires.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 6 ([p.2](https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=2))
 
 “Détermination du tarif de la surtaxe eau exercice 2005 : Monsieur le Maire informe le Conseil qu'il y a lieu de se prononcer sur le financement de la surtaxe due au Syndicat [name withheld] Le Conseil, à l'unanimité décide d'appliquer le tarif du 2ème semestre 2004 à savoir 0,36 €/m3.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 7 ([p.2](https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=2))
 
 “Cette participation représenterait 416,40 €uros/an. Le Conseil donne son accord à l'unanimité pour cette participation.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 8 ([p.2](https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=2))
 
 “Deux géomètres ont répondu : GUENERET pour 1136,20 €uros, [name withheld] pour 1187,10 €uros. Le Conseil demande qu'un devis soit demandé pour le bornage de la totalité du chemin et donne son accord à l'unanimité pour prendre le moins cher.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 9 ([p.2](https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=2))
 
 “… informe le Conseil que les services de la D.D.E. demandent une délibération du Conseil Municipal autorisant le Maire à agir au nom de la Commune pour le permis de construire des logements sociaux de l'école maternelle. Le Conseil donne son accord à l'unanimité. 2ème tranche travaux piscine municipale.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 10 ([p.2](https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf#page=2))
 
 “Monsieur le Maire informe le Conseil qu'il y a lieu de passer un contrat avec [name withheld] pour la 2ème tranche de travaux pour la piscine municipale pour un montant de 70520,00 €uros H.T. Le Conseil donne son accord à l'unanimité.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.

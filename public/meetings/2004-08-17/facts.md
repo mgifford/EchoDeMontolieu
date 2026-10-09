@@ -18,34 +18,34 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 “[name withheld] procuration à [name withheld] D. [name withheld] procuration à [name withheld]. Le compte-rendu du 14 mai 2004 est adopté à l’unanimité.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 2 ([p.1](https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf#page=1))
 
 “Il propose de passer une convention avec le Cabinet de Mademoiselle [name withheld], 54, Rue des [name withheld] à Carcassonne. Le Conseil donne son accord à l’unanimité, Madame [name withheld] précisant que cette affaire dure depuis un an.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 3 ([p.1](https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf#page=1))
 
 “La rémunération de l’architecte s’élève à 12 %. Mesdames [name withheld] s’abstiennent, les reste du Conseil donne son accord et autorise le Maire à signer la convention avec Monsieur [name withheld].”
 
-Vote : à la majorité (abstentions 1).
+Vote: à la majorité (abstentions 1).
 
 ## Décision 4 ([p.1](https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf#page=1))
 
 “Le Conseil donne son accord pour que ce chemin soit cédé à la Commune et donc entretenu par elle, l’ancien chemin sera réouvert pour accéder à l’Izoul. Le Conseil donne son acoord à l’unanimité.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 5 ([p.2](https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf#page=2))
 
 “Monsieur [name withheld], chargé de ce dossier, est arrivé à un montant de 250 Euros par mois. Le Conseil donne son accord à l’unanimité, en précisant que la taxe foncière sera supportée par le locataire.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 6 ([p.3](https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf#page=3))
 
 “Questions diverses : Place du [name withheld] : Mademoiselle [name withheld], architecte, sera contactée pour cette affaire. Vente du tracteur [name withheld] à la demande de Monsieur [name withheld] pour la somme de 300 euros : accord du Conseil à l’unanimité.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.

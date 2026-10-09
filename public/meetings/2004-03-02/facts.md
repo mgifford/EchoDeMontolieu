@@ -18,40 +18,40 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 “… à 262 600 € H.T. en les répartissant sur 2004 et 2005 tout en gardant la possibilité de faire fonctionner la piscine en 2004 Monsieur [name withheld] précise que cette modification a été décidée en commission budget. Monsieur le Maire met au vote : POUR : 13 ABSTENTION : 1 ([name withheld] sans procuration).”
 
-Vote : à la majorité (abstentions 13).
+Vote: à la majorité (abstentions 13).
 
 ## Décision 2 ([p.2](https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=2))
 
 “Valeur 2,2034 au 4 mars. Accord du Conseil à l'unanimité.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 3 ([p.2](https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=2))
 
 “… précise que la Maison [name withheld] restera propriété de la Commune et que la mise à disposition ne concernera que l'utilisation du bâtiment par la Communauté et des charges de fonctionnement qui lui incomberont. Accord à l'unanimité.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
 
 ## Décision 4 ([p.3](https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=3))
 
 “Monsieur le Maire demande à chaque élu d'exprimer son avis. Plusieurs solutions sont proposées par des Conseillers : La première, par Monsieur [name withheld], réduction de la chaussée, section des racines incriminées, stationnement côté arbres, rejetée par 7 voix contre ([name withheld] avec procurations), 6 pour ([name withheld] D, [name withheld] C., [name withheld] avec procuration) et 1 abstention (procuration [name withheld]).”
 
-Vote : à la majorité (contre 7, abstentions 1).
+Vote: à la majorité (contre 7, abstentions 1).
 
 ## Décision 5 ([p.3](https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=3))
 
 “… stationnement côté arbres, rejetée par 7 voix contre ([name withheld] avec procurations), 6 pour ([name withheld] D, [name withheld] C., [name withheld] avec procuration) et 1 abstention (procuration [name withheld]). La seconde, par Monsieur [name withheld], racler les racines et goudronner tel que devant chez Madame [name withheld], rejetée par 7 voix contre ([name withheld] avec procurations), 6 pour ([name withheld] D, [name withheld] C., [name withheld] avec procuration) et 1 abstention (procuration [name withheld]).”
 
-Vote : à la majorité (contre 7, abstentions 1).
+Vote: à la majorité (contre 7, abstentions 1).
 
 ## Décision 6 ([p.3](https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=3))
 
 “… chez Madame [name withheld], rejetée par 7 voix contre ([name withheld] avec procurations), 6 pour ([name withheld] D, [name withheld] C., [name withheld] avec procuration) et 1 abstention (procuration [name withheld]). La troisième, par Monsieur [name withheld], arrachage de 4 pins et replantation immédiate, adoptée par 7 voix pour ([name withheld] avec procurations), 6 contre ([name withheld] D, [name withheld] C., [name withheld] avec procuration) et 1 abstention (procuration [name withheld]).”
 
-Vote : à la majorité (pour 7, contre 6, abstentions 1).
+Vote: à la majorité (pour 7, contre 6, abstentions 1).
 
 ## Décision 7 ([p.6](https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf#page=6))
 
 “Monsieur [name withheld] souhaite que la Commune se dote d'un rétroprojecteur. Accord à l'unanimité.”
 
-Vote : à l’unanimité.
+Vote: à l’unanimité.
