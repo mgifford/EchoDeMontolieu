@@ -28,6 +28,7 @@ LANG_IN = {"en": {"fr": "French", "en": "English", "nl": "Dutch"},
            "nl": {"fr": "Frans", "en": "Engels", "nl": "Nederlands"}}
 SITE_NAME = "L’Écho de Montolieu"
 REPO_URL = "https://github.com/mgifford/EchoDeMontolieu"
+SITE_URL = "https://mgifford.github.io/EchoDeMontolieu/"
 PANNEAUPOCKET_URL = "https://app.panneaupocket.com/ville/922810321-montolieu-11170"
 CSP = ("default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self' data:; "
        "base-uri 'none'; form-action 'none'")
@@ -35,6 +36,35 @@ KEY = "echo-lang"
 
 UI = {
     "en": {
+        "e_whatsnew": "What’s new and what to watch, from the latest minutes",
+        "whatsnew": "What’s new",
+        "wn_title": "What’s new and what to watch",
+        "wn_intro": "A digest of the latest council meetings, made by software from the minutes. It reports what the minutes say was decided, postponed or planned. It does not predict anything. The minutes are published weeks after each meeting, so check the Mairie and PanneauPocket for current notices.",
+        "wn_latest": "Latest meetings",
+        "wn_decisions": "{n} agenda items",
+        "wn_sales": "Private property sale notices: {n} (counted, not listed)",
+        "wn_back": "Issues that came back",
+        "wn_back_row": "{n} meetings, from {first} to {last}",
+        "wn_pending": "Postponed or planned, in the latest minutes",
+        "wn_pending_note": "Sentences that look like a postponement or a plan. Candidates found by wording, not a checked list.",
+        "wn_dates": "Dates mentioned in the latest minutes",
+        "wn_dates_note": "Dates written in the text, from the meeting date onwards. Check the sentence and the original before relying on one.",
+        "wn_dropped": "Possibly dropped",
+        "wn_dropped_note": "Postponed at their last mention and not seen again in the meetings since. A heuristic: they may have continued under another title.",
+        "wn_dropped_row": "last mentioned {last}; {n} meetings since",
+        "wn_watch": "What to keep an eye on",
+        "wn_watch_note": "Subjects that come up in the minutes, by how often in the last twelve months.",
+        "wn_watch_row": "{items} items in {meetings} meetings in the last twelve months; last on {last}",
+        "wn_none": "Nothing found.",
+        "wn_feed": "Subscribe with an Atom feed",
+        "wn_vote": {"unanimous": "unanimous", "majority": "by majority", "rejected": "rejected"},
+        "wn_novote": "no vote found",
+        "wn_postponed": "postponed",
+        "wn_planned": "planned",
+        "wn_more": "All issues over time",
+        "wn_feed_entry": "Council meeting of {date}: {n} agenda items",
+        "topics": {"finances": "Budget, taxes and borrowing", "subventions": "Subsidies", "urbanisme": "Planning and the local plan (PLU)", "voirie et travaux": "Roads and works", "patrimoine, culture, tourisme": "Heritage, culture and tourism", "personnel": "Staff", "intercommunalité": "Joint bodies and the Grand Carcassonne area", "environnement et risques": "Environment and risks", "école et enfance": "School and children", "associations et vie locale": "Associations and village life"},
+        "why": {"finances": "Taxes, the budget and the credit line decide what the village can afford.", "subventions": "Who receives public money, and how much.", "urbanisme": "The revision of the local plan (PLU) sets what can be built where.", "voirie et travaux": "Roads, paths, the church and other works that affect daily life.", "patrimoine, culture, tourisme": "The museum, the church and the village’s visitors.", "personnel": "Posts, grades and benefits of the village staff.", "intercommunalité": "Decisions taken with the neighbouring communes, such as lighting and shared contracts.", "environnement et risques": "Fire, flood and forest risks.", "école et enfance": "School, after-school care and children’s activities.", "associations et vie locale": "Agreements and support for associations."},
         "places_u_h": "Other place names mentioned, not confirmed", "places_u_note": "These names were picked out of the minutes by pattern and could not be matched to a street or place in Montolieu. The links run a search on OpenStreetMap; the result may be empty or point to the wrong place.", "search_osm": "search OpenStreetMap",
         "places_h": "Places discussed in this meeting", "places_note": "Each place was found in the minutes and confirmed by the national address database; the link opens it on OpenStreetMap. A pin shows where the street or place is, not the exact spot a decision concerned. Not every place is found.", "page_abbr": "page",
         "summary": "Summary", "full": "Full minutes", "facts_l": "Facts", "todo_l": "Follow-ups", "orig": "Original",
@@ -72,6 +102,35 @@ UI = {
         "chooser_p": "Choose your language",
     },
     "fr": {
+        "e_whatsnew": "Nouveautés et points à suivre, d’après les derniers procès-verbaux",
+        "whatsnew": "Nouveautés",
+        "wn_title": "Nouveautés et points à suivre",
+        "wn_intro": "Un résumé des derniers conseils municipaux, fait par un logiciel à partir des procès-verbaux. Il rapporte ce que les procès-verbaux disent avoir été décidé, reporté ou prévu. Il ne prédit rien. Les procès-verbaux paraissent des semaines après chaque séance : consultez la Mairie et PanneauPocket pour les avis en cours.",
+        "wn_latest": "Dernières séances",
+        "wn_decisions": "{n} points à l’ordre du jour",
+        "wn_sales": "Avis de vente de biens privés : {n} (comptés, non listés)",
+        "wn_back": "Sujets revenus",
+        "wn_back_row": "{n} séances, du {first} au {last}",
+        "wn_pending": "Reporté ou prévu, dans les derniers procès-verbaux",
+        "wn_pending_note": "Phrases qui ressemblent à un report ou à un projet. Candidates repérées par les mots, pas une liste vérifiée.",
+        "wn_dates": "Dates citées dans les derniers procès-verbaux",
+        "wn_dates_note": "Dates écrites dans le texte, à partir de la date de la séance. Vérifiez la phrase et l’original avant de vous y fier.",
+        "wn_dropped": "Peut-être abandonnés",
+        "wn_dropped_note": "Reportés lors de leur dernière mention et non revus dans les séances suivantes. Une heuristique : ils ont pu continuer sous un autre titre.",
+        "wn_dropped_row": "dernière mention le {last} ; {n} séances depuis",
+        "wn_watch": "À surveiller",
+        "wn_watch_note": "Sujets qui reviennent dans les procès-verbaux, selon leur fréquence sur les douze derniers mois.",
+        "wn_watch_row": "{items} points dans {meetings} séances sur les douze derniers mois ; dernier le {last}",
+        "wn_none": "Rien trouvé.",
+        "wn_feed": "S’abonner avec un flux Atom",
+        "wn_vote": {"unanimous": "à l’unanimité", "majority": "à la majorité", "rejected": "rejeté"},
+        "wn_novote": "pas de vote repéré",
+        "wn_postponed": "reporté",
+        "wn_planned": "prévu",
+        "wn_more": "Tous les sujets dans le temps",
+        "wn_feed_entry": "Conseil municipal du {date} : {n} points à l’ordre du jour",
+        "topics": {"finances": "Budget, impôts et emprunts", "subventions": "Subventions", "urbanisme": "Urbanisme et plan local (PLU)", "voirie et travaux": "Voirie et travaux", "patrimoine, culture, tourisme": "Patrimoine, culture et tourisme", "personnel": "Personnel", "intercommunalité": "Intercommunalité et Grand Carcassonne", "environnement et risques": "Environnement et risques", "école et enfance": "École et enfance", "associations et vie locale": "Associations et vie locale"},
+        "why": {"finances": "Les impôts, le budget et la ligne de trésorerie fixent ce que le village peut se permettre.", "subventions": "Qui reçoit de l’argent public, et combien.", "urbanisme": "La révision du plan local (PLU) fixe ce qui peut être construit et où.", "voirie et travaux": "Routes, chemins, église et autres travaux qui touchent la vie quotidienne.", "patrimoine, culture, tourisme": "Le musée, l’église et les visiteurs du village.", "personnel": "Postes, grades et avantages du personnel communal.", "intercommunalité": "Décisions prises avec les communes voisines : éclairage, marchés groupés.", "environnement et risques": "Risques d’incendie, d’inondation et de forêt.", "école et enfance": "École, périscolaire et activités pour les enfants.", "associations et vie locale": "Conventions et soutien aux associations."},
         "places_u_h": "Autres noms de lieux cités, non confirmés", "places_u_note": "Ces noms ont été repérés dans le procès-verbal par un motif et n’ont pas pu être rattachés à une rue ou à un lieu de Montolieu. Les liens lancent une recherche sur OpenStreetMap ; le résultat peut être vide ou désigner un autre lieu.", "search_osm": "rechercher sur OpenStreetMap",
         "places_h": "Lieux évoqués dans cette séance", "places_note": "Chaque lieu a été repéré dans le procès-verbal et confirmé par la Base Adresse Nationale ; le lien l’ouvre sur OpenStreetMap. Le repère montre où se trouve la rue ou le lieu, pas l’endroit exact concerné par une décision. Tous les lieux ne sont pas trouvés.", "page_abbr": "page",
         "summary": "Résumé", "full": "Procès-verbal complet", "facts_l": "Faits", "todo_l": "Suites", "orig": "Original",
@@ -109,6 +168,35 @@ UI = {
         "chooser_p": "Choisissez votre langue",
     },
     "nl": {
+        "e_whatsnew": "Nieuw en om in de gaten te houden, uit de laatste notulen",
+        "whatsnew": "Nieuw",
+        "wn_title": "Nieuw en om in de gaten te houden",
+        "wn_intro": "Een overzicht van de laatste gemeenteraden, door software gemaakt uit de notulen. Het meldt wat volgens de notulen is besloten, uitgesteld of gepland. Het voorspelt niets. De notulen verschijnen weken na elke vergadering: raadpleeg de Mairie en PanneauPocket voor actuele berichten.",
+        "wn_latest": "Laatste vergaderingen",
+        "wn_decisions": "{n} agendapunten",
+        "wn_sales": "Meldingen van verkoop van particuliere panden: {n} (geteld, niet vermeld)",
+        "wn_back": "Onderwerpen die terugkwamen",
+        "wn_back_row": "{n} vergaderingen, van {first} tot {last}",
+        "wn_pending": "Uitgesteld of gepland, in de laatste notulen",
+        "wn_pending_note": "Zinnen die op een uitstel of plan lijken. Kandidaten op grond van woorden, geen gecontroleerde lijst.",
+        "wn_dates": "Data genoemd in de laatste notulen",
+        "wn_dates_note": "Data die in de tekst staan, vanaf de datum van de vergadering. Controleer de zin en het origineel voordat u erop vertrouwt.",
+        "wn_dropped": "Mogelijk vergeten",
+        "wn_dropped_note": "Bij de laatste vermelding uitgesteld en in de latere vergaderingen niet meer gezien. Een vuistregel: ze kunnen onder een andere titel zijn doorgegaan.",
+        "wn_dropped_row": "laatst genoemd op {last}; {n} vergaderingen sindsdien",
+        "wn_watch": "Om in de gaten te houden",
+        "wn_watch_note": "Onderwerpen die in de notulen terugkomen, naar frequentie in de laatste twaalf maanden.",
+        "wn_watch_row": "{items} punten in {meetings} vergaderingen in de laatste twaalf maanden; laatst op {last}",
+        "wn_none": "Niets gevonden.",
+        "wn_feed": "Abonneren met een Atom-feed",
+        "wn_vote": {"unanimous": "unaniem", "majority": "bij meerderheid", "rejected": "verworpen"},
+        "wn_novote": "geen stemming gevonden",
+        "wn_postponed": "uitgesteld",
+        "wn_planned": "gepland",
+        "wn_more": "Alle onderwerpen in de tijd",
+        "wn_feed_entry": "Gemeenteraad van {date}: {n} agendapunten",
+        "topics": {"finances": "Begroting, belastingen en leningen", "subventions": "Subsidies", "urbanisme": "Ruimtelijke ordening en het lokale plan (PLU)", "voirie et travaux": "Wegen en werken", "patrimoine, culture, tourisme": "Erfgoed, cultuur en toerisme", "personnel": "Personeel", "intercommunalité": "Samenwerking en Grand Carcassonne", "environnement et risques": "Milieu en risico’s", "école et enfance": "School en kinderen", "associations et vie locale": "Verenigingen en dorpsleven"},
+        "why": {"finances": "Belastingen, begroting en kredietlijn bepalen wat het dorp zich kan veroorloven.", "subventions": "Wie openbaar geld krijgt, en hoeveel.", "urbanisme": "De herziening van het lokale plan (PLU) bepaalt wat waar gebouwd mag worden.", "voirie et travaux": "Wegen, paden, de kerk en andere werken die het dagelijks leven raken.", "patrimoine, culture, tourisme": "Het museum, de kerk en de bezoekers van het dorp.", "personnel": "Functies, rangen en voordelen van het gemeentepersoneel.", "intercommunalité": "Besluiten met de buurgemeenten, zoals verlichting en gezamenlijke contracten.", "environnement et risques": "Brand-, overstromings- en bosrisico’s.", "école et enfance": "School, naschoolse opvang en activiteiten voor kinderen.", "associations et vie locale": "Overeenkomsten met en steun aan verenigingen."},
         "places_u_h": "Andere genoemde plaatsnamen, niet bevestigd", "places_u_note": "Deze namen zijn met een patroon uit de notulen gehaald en konden niet aan een straat of plaats in Montolieu worden gekoppeld. De links starten een zoekopdracht op OpenStreetMap; het resultaat kan leeg zijn of naar een andere plek wijzen.", "search_osm": "zoeken op OpenStreetMap",
         "places_h": "Plaatsen die in deze vergadering aan bod kwamen", "places_note": "Elke plaats is in de notulen gevonden en bevestigd door de nationale adressendatabase; de link opent ze op OpenStreetMap. Een speld toont waar de straat of plaats ligt, niet de exacte plek waarop een besluit betrekking had. Niet elke plaats wordt gevonden.", "page_abbr": "pagina",
         "summary": "Samenvatting", "full": "Volledige notulen", "facts_l": "Feiten", "todo_l": "Vervolg", "orig": "Origineel",
@@ -261,6 +349,7 @@ def layout(page, available_langs):
     home = _up(d) or "./"             # this language's home
     e = html.escape
     nav_items = [("home", home + "index.html", "index.html"), ("minutes", home + "index.html#minutes", None),
+                 ("whatsnew", home + "whats-new/index.html", "whats-new/index.html"),
                  ("meetings", home + "meetings/index.html", "meetings/index.html"),
                  ("issues", home + "topics/index.html", "topics/index.html"),
                  ("finance", home + "finance/index.html", "finance/index.html"),
@@ -451,7 +540,68 @@ def meeting_nav(lang, folder, name, files):
     return f'<nav class="mnav" aria-label="{e(ui["meeting_nav"])}"><ul>{"".join(items)}</ul></nav>' if len(items) > 1 else ""
 
 
-def landing_body(lang, index, pointers, folders, files, has_zoning=False):
+def whats_new_body(lang, data, files):
+    """The What's new page: latest meetings, what came back, what was postponed or dated, what to watch."""
+    ui, e = UI[lang], html.escape
+    fr = lambda text: f'<span lang="fr">{e(text)}</span>'
+    plink = lambda row: f'<a href="{e(row["page_url"])}">{e(ui["page_abbr"])} {row["page"]}</a>'
+    parts = [f'<h1>{e(ui["wn_title"])}</h1>', disclosure.html("rules", lang), f'<p>{e(ui["wn_intro"])}</p>',
+             f'<p><a href="feed.xml">{e(ui["wn_feed"])}</a></p>']
+    parts.append(f'<h2>{e(ui["wn_latest"])}</h2>')
+    for m in data["recent_meetings"]:
+        links = " · ".join(f'<a href="../meetings/{e(href)}">{e(label)}</a>' for label, href in meeting_links(lang, m["folder"], files.get(m["folder"], set())))
+        rows = "".join(
+            f'<li>{fr(d["title"])} ({e(ui["wn_vote"].get(d["vote"], ui["wn_novote"]))}; {plink(d)})</li>' for d in m["decisions"])
+        sales = f'<p class="note">{e(ui["wn_sales"].format(n=m["sale_notices"]))}</p>' if m["sale_notices"] else ""
+        parts.append(f'<h3>{e(human_date(lang, m["date"]))}</h3><p>{e(ui["wn_decisions"].format(n=len(m["decisions"])))}. {links}</p>'
+                     f'<ul>{rows}</ul>{sales}')
+    parts.append(f'<h2>{e(ui["wn_back"])}</h2>')
+    if data["coming_back"]:
+        parts.append("<ul>" + "".join(
+            f'<li>{fr(t["title"])}: {e(ui["wn_back_row"].format(n=t["n_meetings"], first=human_date(lang, t["meetings"][0]), last=human_date(lang, t["last"])))}</li>'
+            for t in data["coming_back"]) + f'</ul><p><a href="../topics/index.html">{e(ui["wn_more"])}</a></p>')
+    else:
+        parts.append(f'<p>{e(ui["wn_none"])}</p>')
+    parts.append(f'<h2>{e(ui["wn_pending"])}</h2><p class="note">{e(ui["wn_pending_note"])}</p>')
+    parts.append(("<ul>" + "".join(
+        f'<li><strong>{e(human_date(lang, x["date"]))}</strong>, {e(ui["wn_" + ("postponed" if x["type"] == "deferred" else "planned")])}: '
+        f'{fr(x["title"])}. <q lang="fr">{e(x["sentence"])}</q> ({plink(x)})</li>' for x in data["pending"]) + "</ul>")
+        if data["pending"] else f'<p>{e(ui["wn_none"])}</p>')
+    parts.append(f'<h2>{e(ui["wn_dates"])}</h2><p class="note">{e(ui["wn_dates_note"])}</p>')
+    parts.append(("<ul>" + "".join(
+        f'<li><strong>{e(human_date(lang, x["mentioned"]))}</strong>: <q lang="fr">{e(x["sentence"])}</q> '
+        f'({e(human_date(lang, x["meeting"]))}, {plink(x)})</li>' for x in data["dates_mentioned"]) + "</ul>")
+        if data["dates_mentioned"] else f'<p>{e(ui["wn_none"])}</p>')
+    parts.append(f'<h2>{e(ui["wn_dropped"])}</h2><p class="note">{e(ui["wn_dropped_note"])}</p>')
+    parts.append(("<ul>" + "".join(
+        f'<li>{fr(x["title"])}: {e(ui["wn_dropped_row"].format(last=human_date(lang, x["last"]), n=x["later_meetings"]))}</li>'
+        for x in data["possibly_dropped"]) + "</ul>") if data["possibly_dropped"] else f'<p>{e(ui["wn_none"])}</p>')
+    parts.append(f'<h2>{e(ui["wn_watch"])}</h2><p class="note">{e(ui["wn_watch_note"])}</p><ul>' + "".join(
+        f'<li><strong>{e(ui["topics"][w["topic"]])}</strong>: {e(ui["why"][w["topic"]])} '
+        f'<span class="note">{e(ui["wn_watch_row"].format(items=w["items_last_year"], meetings=w["meetings_last_year"], last=human_date(lang, w["last"])))}</span></li>'
+        for w in data["watch"] if w["topic"] in ui["topics"]) + "</ul>")
+    return "\n".join(parts)
+
+
+def whats_new_feed(lang, data, files):
+    """Atom feed, one entry per recent meeting. Dates come from the minutes, so a rebuild changes nothing."""
+    e = html.escape
+    ui, base = UI[lang], SITE_URL
+    entries = []
+    for m in data.get("feed_meetings", []):
+        page = "summary" if "summary" in files.get(m["folder"], set()) else "minutes"
+        link = f"{base}{lang}/meetings/{m['folder']}/{page}.html" if m["folder"] else f"{base}{lang}/meetings/index.html"
+        title = ui["wn_feed_entry"].format(date=human_date(lang, m["date"]), n=m["decisions"])
+        entries.append(f"<entry><id>tag:mgifford.github.io,2026:echo-montolieu:{lang}:{m['date']}</id><title>{e(title)}</title>"
+                       f'<link href="{e(link)}"/><updated>{m["date"]}T00:00:00Z</updated></entry>')
+    updated = (data.get("latest") or "1970-01-01") + "T00:00:00Z"
+    return ('<?xml version="1.0" encoding="utf-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="' + lang + '">'
+            f"<id>tag:mgifford.github.io,2026:echo-montolieu:{lang}:whats-new</id><title>{e(SITE_NAME)}: {e(ui['wn_title'])}</title>"
+            f'<link rel="self" href="{base}{lang}/whats-new/feed.xml"/><link href="{base}{lang}/whats-new/index.html"/>'
+            f"<updated>{updated}</updated>" + "".join(entries) + "</feed>\n")
+
+
+def landing_body(lang, index, pointers, folders, files, has_zoning=False, has_whats_new=False):
     """Home page: alerts, introduction, explore links, the minutes grouped by year, where to find things."""
     ui, e = UI[lang], html.escape
     by_year = meetings_list(lang, index, folders, files)
@@ -492,6 +642,7 @@ def landing_body(lang, index, pointers, folders, files, has_zoning=False):
 <p>{e(ui['intro'])}</p>
 <h2>{e(ui['explore'])}</h2>
 <ul>
+{f'<li><a href="whats-new/index.html">{e(ui["whatsnew"])}</a>: {e(ui["e_whatsnew"])}</li>' if has_whats_new else ''}
 <li><a href="meetings/index.html">{e(ui['meetings'])}</a>: {e(ui['e_meetings'])}</li>
 <li><a href="topics/index.html">{e(ui['issues'])}</a>: {e(ui['e_issues'])}</li>
 <li><a href="finance/index.html">{e(ui['finance'])}</a>, {e(ui['e_finance'])}</li>
@@ -626,8 +777,14 @@ def build(out_dir, public="public", data="data"):
 
     folders = folders_by_document(public)
     place_map = place_links(public)
+    whats = _read_json(public / "whats-new" / "whats-new.json", None)
     for lang in LANGS:
-        pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders, meeting_files(public), (public / 'zoning' / 'index.md').exists()))]
+        pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders, meeting_files(public), (public / 'zoning' / 'index.md').exists(), (public / 'whats-new' / 'whats-new.json').exists()))]
+        if whats and whats.get("latest"):
+            pages.append(Page(lang, "whats-new/index.html", UI[lang]["wn_title"], whats_new_body(lang, whats, meeting_files(public))))
+            feed = out / lang / "whats-new" / "feed.xml"
+            feed.parent.mkdir(parents=True, exist_ok=True)
+            feed.write_text(whats_new_feed(lang, whats, meeting_files(public)), encoding="utf-8")
         for base in page_bases(public):
             found = pick(public / base, lang)
             if not found:

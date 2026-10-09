@@ -224,11 +224,13 @@ def main(argv=None):
         pages = th.write_topics(args.public, result, meetings)
         from .finance import write_finance
         finance = write_finance(args.public, meetings, result)
+        from . import whats_new
+        whats = whats_new.write(args.public, meetings, result)
         from . import places as pl
         cache = pl.BanGeocoder("data/geocode_cache.json")
         from .archive_digest import place_meetings
         place_info = pl.write_places(args.public, meetings + place_meetings(args.public), cache.cached)
-        print(json.dumps({"meetings": report["meetings"], "topic_pages": pages, "finance": finance, "places": place_info,
+        print(json.dumps({"meetings": report["meetings"], "topic_pages": pages, "finance": finance, "whats_new": whats, "places": place_info,
                           "issues_in_several_meetings": sum(1 for t in result["threads"] if t["status"] != "one-off"),
                           "possibly_dropped": sum(1 for t in result["threads"] if t["possibly_dropped"])}, indent=2))
     elif args.cmd == "translate-trial":
