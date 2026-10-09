@@ -19,7 +19,8 @@ POINTERS = {"entries": [
 
 
 @pytest.fixture
-def client(tmp_path):
+def client(tmp_path, monkeypatch):
+    monkeypatch.setenv("ECHO_DB", str(tmp_path / "no-database-here.db"))   # never pick up a database built on this machine
     public, data = tmp_path / "public", tmp_path / "data"
     (public / "minutes").mkdir(parents=True)
     data.mkdir()
