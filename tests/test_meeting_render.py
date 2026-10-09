@@ -330,3 +330,33 @@ def test_a_translated_render_must_name_its_model():
     with pytest.raises(ValueError):
         render_minutes(record(), lang="nl")
     assert render_minutes(record())                                      # French needs none: it is the original wording
+
+
+def test_sale_items_never_keep_a_title_that_names_a_parcel_or_an_address():
+    from echo_montolieu.meeting import SALE_TITLE_NEUTRAL, parse_meeting
+    rec = {"document_id": "a" * 12, "source_url": "https://e/x.pdf", "source_sha256": "a" * 64, "page_count": 1, "version": 1,
+           "meeting_date": {"value": "2026-06-05", "status": "tentative"},
+           "pages": [{"page": 1, "method": "text_layer", "status": "machine_extracted", "page_url": "https://e/x.pdf#page=1",
+                      "text": "ORDRE DU JOUR\n- Vente d'un immeuble cadastré C0551\n- Droits de préemption\n\n"
+                              "VENTE D'UN IMMEUBLE CADASTREE C 551\nM. le maire propose la vente de l'immeuble cadastrée C0551 situé au 1 rue des Oliviers. "
+                              "Prix de vente : 100 000 euros.\nVote du conseil à l'unanimité\n\n"
+                              "DROITS DE PREEMPTION\nDésignation du bien vendu : Réf. Cadastrale : Section N° AB 221 13 rue des Remparts\n"}]}
+    m = parse_meeting(rec)
+    sale = [i for i in m["items"] if i["sensitive"]]
+    assert sale and all("551" not in i["title"] and "oliviers" not in i["title"].lower() for i in sale)
+    assert SALE_TITLE_NEUTRAL in {i["title"] for i in sale}
+    assert all(not i["text"] and not i["snippet"] for i in sale)
+
+
+def test_an_address_heading_split_off_a_sale_notice_stays_part_of_the_sale():
+    from echo_montolieu.meeting import parse_meeting
+    rec = {"document_id": "b" * 12, "source_url": "https://e/x.pdf", "source_sha256": "b" * 64, "page_count": 1, "version": 1,
+           "meeting_date": {"value": "2026-06-05", "status": "tentative"},
+           "pages": [{"page": 1, "method": "text_layer", "status": "machine_extracted", "page_url": "https://e/x.pdf#page=1",
+                      "text": "ORDRE DU JOUR\n- Vente d'un immeuble\n- Questions diverses\n\n"
+                              "VENTE D'UN IMMEUBLE\nM. le maire propose la vente. Prix de vente : 100 000 euros.\nNotaire chargé de la vente :\n\n"
+                              "11390 – CUXAC CABARDES.\nPublicité de la vente : affichage. Il propose de passer au vote.\n\n"
+                              "QUESTIONS DIVERSES\nRien à signaler.\n"}]}
+    items = parse_meeting(rec)["items"]
+    assert [i["sensitive"] for i in items][:2] == [True, True]
+    assert not any("cuxac" in (i["title"] + i["text"] + i["snippet"]).lower() for i in items)

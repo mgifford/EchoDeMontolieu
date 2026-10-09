@@ -213,13 +213,13 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 **Places mentioned (unverified):** chemin de Borderouge - Chemin du, chemin des Brétous, chemin de Villeneuve, chemin de Jalabert
 
-## Vente uniquement du lot a pour une surface de 1861m?
+## [transaction immobilière : détails omis]
 
 [p.16](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=16) to [p.17](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=17) · Vote: unanimous
 
 Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.
 
-## Pech rosie pech rosie pech rosie pech rosie
+## [transaction immobilière : détails omis]
 
 [p.17](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=17) to [p.20](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-4-avril-2024-site-internet.pdf#page=20) · Vote: unanimous · Topics: droit de préemption, voirie et travaux
 

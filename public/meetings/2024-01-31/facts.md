@@ -82,13 +82,13 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 - 26 000 €: “Cela porterait à 26 000 euros la contribution totale de la commune (le pourcentage restant 0,57 %).”
 - 11 000 €: “Le conseil municipal décide à l’unanimité d’accorder un financement complémentaire de 11 000 euros pour les travaux du musée Ceres Franco, et d’autoriser Bernard LAURET à signer la convention.”
 
-## Signature de la charte de l’arbre et du paysage du departement de l’aude
+## [transaction immobilière : détails omis]
 
 [p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=3) · Vote: majority (not unanimous) (for: 12, against: 1)
 
 Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.
 
-## Usage : Local d'habitation a usage de débarras
+## [transaction immobilière : détails omis]
 
 [p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=4) to [p.5](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=5) · Vote: unanimous
 

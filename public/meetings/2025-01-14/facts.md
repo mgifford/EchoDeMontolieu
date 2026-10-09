@@ -25,7 +25,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 - Items: 10. Pages: 6.
 - Pages read by low-confidence OCR: 5. Check the original.
 
-## Etoré-lortholary,
+## [transaction immobilière : détails omis]
 
 [p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=1) · Vote: unanimous · Topics: finances, vie institutionnelle
 
@@ -107,13 +107,13 @@ Decisions about sales of private property (2 notice(s)). Details are in the minu
 - “Par ailleurs l’association des parents d’élèves de Montolieu a sollicité la mairie pour une aide exceptionnelle dans le cadre de l’organisation d’un trail pour récolter des fonds.”
 - “Une aide exceptionnelle de 300 euros est attribuée pour cette opération à l’unanimité, elle sera inscrite au budget 2025.”
 
-## Arbitrages dans le cadre des travaux du PLU
+## [transaction immobilière : détails omis]
 
 [p.4](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=4) to [p.6](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=6) · Vote: majority (not unanimous) (for: 12, against: 1, abstentions: 1) · Topics: urbanisme, voirie et travaux
 
 Decisions about sales of private property (2 notice(s)). Details are in the minutes; they are left out here on purpose.
 
-## Franc-sud
+## [transaction immobilière : détails omis]
 
 [p.6](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=6) · Vote: unanimous
 

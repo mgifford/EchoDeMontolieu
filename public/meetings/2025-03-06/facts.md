@@ -126,13 +126,13 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 Decisions about sales of private property (2 notice(s)). Details are in the minutes; they are left out here on purpose.
 
-## Las faichos
+## [transaction immobilière : détails omis]
 
 [p.6](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=6) to [p.7](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=7) · Vote: unanimous
 
 Decisions about sales of private property (1 notice(s)). Details are in the minutes; they are left out here on purpose.
 
-## 433 che d’arzens
+## [transaction immobilière : détails omis]
 
 [p.7](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=7) to [p.8](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=8) · Vote: unanimous
 

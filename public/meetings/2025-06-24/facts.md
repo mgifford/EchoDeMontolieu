@@ -106,7 +106,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 - “La coopérative scolaire a sollicité en février dernier une subvention exceptionnelle de 380 euros, afin de permettre à tous les enfants de profiter d’un séjour en Ariège en fin d’année scolaire.”
 - “Le conseil vote par 13 voix pour, et une contre la subvention exceptionnelle de 380 euros à la coopérative scolaire.”
 
-## Reunion de la commission communale des impots directs (ccid)
+## [transaction immobilière : détails omis]
 
 [p.6](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=6) to [p.8](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=8) · Vote: unanimous · Topics: vie institutionnelle, urbanisme
 
