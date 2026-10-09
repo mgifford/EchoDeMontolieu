@@ -407,9 +407,9 @@ def layout(page, available_langs):
     root = _up(d + 1)                 # the site root, from this page
     home = _up(d) or "./"             # this language's home
     e = html.escape
-    nav_items = [("home", home + "index.html", "index.html"), ("minutes", home + "index.html#minutes", None),
+    nav_items = [("home", home + "index.html", "index.html"), ("minutes", home + "meetings/index.html", "meetings/index.html"),
                  ("whatsnew", home + "whats-new/index.html", "whats-new/index.html"),
-                 ("meetings", home + "meetings/index.html", "meetings/index.html"),
+                 ("meetings", home + "meetings/index.html", None),
                  ("issues", home + "topics/index.html", "topics/index.html"),
                  ("finance", home + "finance/index.html", "finance/index.html"),
                  ("places", home + "places/index.html", "places/index.html"),
@@ -582,7 +582,8 @@ def map_with_site_navigation(text, lang):
     top navigation here, at build time: the shared stylesheet, the same menu, and a language switcher that stays on the map.
     `text` is the page for `lang`, published at /<lang>/places/map.html."""
     ui, e = UI[lang], html.escape
-    items = [("home", "../index.html"), ("whatsnew", "../whats-new/index.html"), ("meetings", "../meetings/index.html"),
+    items = [("home", "../index.html"), ("minutes", "../meetings/index.html"), ("whatsnew", "../whats-new/index.html"),
+             ("meetings", "../meetings/index.html"),
              ("issues", "../topics/index.html"), ("finance", "../finance/index.html"), ("places", "../places/index.html"),
              ("map", None), ("about_ai", disclosure.AI_PAGE_URL)]
     links = "".join(f'<li><a href="{e(href)}">{e(ui[key])}</a></li>' if href else
