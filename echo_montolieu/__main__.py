@@ -40,11 +40,15 @@ def main(argv=None):
 
     p_db = sub.add_parser("build-db", help="build the public searchable database (derived layer) from public/")
     p_db.add_argument("--public", default="public")
-    p_db.add_argument("--out", default="data/echo.db")
+    p_db.add_argument("--out", default=None, help="default data/echo.db, or private/echo-private.db with --private")
+    p_db.add_argument("--private", action="store_true",
+                      help="build the PRIVATE database instead: faithful text with names and parcel references; "
+                           "written only under private/ and never to be published")
 
     p_se = sub.add_parser("search", help="search the public database")
     p_se.add_argument("query")
-    p_se.add_argument("--db", default="data/echo.db")
+    p_se.add_argument("--db", default=None, help="default data/echo.db, or private/echo-private.db with --private")
+    p_se.add_argument("--private", action="store_true", help="search the private database (faithful text, names kept)")
     p_se.add_argument("--limit", type=int, default=10)
     p_se.add_argument("--lang", choices=["fr", "en", "nl"], default=None)
 
@@ -118,6 +122,14 @@ def main(argv=None):
     p_gen.add_argument("--public", default="public")
     p_gen.add_argument("--cache", default=".cache/model_cache.json")
     p_gen.add_argument("--dry-run", action="store_true", help="estimate cost, send nothing")
+
+    p_pm = sub.add_parser(
+        "parcel-map", help="PRIVATE: map the parcels named in sale notices from the IGN cadastre API (polite; one request per new parcel)")
+    p_pm.add_argument("--db", default="private/echo-private.db")
+    p_pm.add_argument("--cache", default="private/ign_parcels_cache.json")
+    p_pm.add_argument("--out", default="private/parcels.html")
+    p_pm.add_argument("--delay", type=float, default=2.0)
+    p_pm.add_argument("--offline", action="store_true", help="use the cache only; send no request")
 
     p_geo = sub.add_parser(
         "geocode", help="look up place names in the national address database (polite; one request per new name)")
@@ -263,6 +275,14 @@ def main(argv=None):
         report["spent_usd"] = round(budget.spent, 5)
         print(json.dumps(report, indent=2, ensure_ascii=False))
         sys.exit(2 if report["stopped"] else (1 if report["needs_review"] else 0))
+    elif args.cmd == "parcel-map":
+        from . import parcel_map
+        lookup = parcel_map.ParcelLookup(args.cache, min_delay=args.delay)
+        try:
+            print(json.dumps(parcel_map.build_parcel_map(args.db, lookup, args.out, fetch=not args.offline), indent=2))
+        except StopFetching as exc:
+            print(f"stopped: {exc}. Answers already received are cached; run again later.", file=sys.stderr)
+            sys.exit(1)
     elif args.cmd == "geocode":
         from . import places, threads as th
         meetings = th.load_meetings(args.public)
@@ -303,11 +323,20 @@ def main(argv=None):
         print(json.dumps(Pseudonymiser.from_environment(args.private).whois(args.identifier),
                          ensure_ascii=False, indent=2))
     elif args.cmd == "build-db":
-        from . import db
-        print(json.dumps(db.build_public(args.public, args.out), indent=2))
+        if args.private:
+            from . import private_db
+            print(json.dumps(private_db.build_private(args.public, args.out or "private/echo-private.db"), indent=2))
+        else:
+            from . import db
+            print(json.dumps(db.build_public(args.public, args.out or "data/echo.db"), indent=2))
     elif args.cmd == "search":
-        from . import db
-        json.dump(db.search_public(args.db, args.query, args.limit, args.lang), sys.stdout, ensure_ascii=False, indent=2)
+        if args.private:
+            from . import private_db
+            result = private_db.search_private(args.db or "private/echo-private.db", args.query, args.limit)
+        else:
+            from . import db
+            result = db.search_public(args.db or "data/echo.db", args.query, args.limit, args.lang)
+        json.dump(result, sys.stdout, ensure_ascii=False, indent=2)
         print()
     elif args.cmd == "history":
         from . import history
