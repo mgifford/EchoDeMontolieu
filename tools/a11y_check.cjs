@@ -13,6 +13,7 @@ const req = createRequire(modules);
 const { chromium } = req('playwright');
 const axeSource = fs.readFileSync(path.join(modules, 'axe-core', 'axe.min.js'), 'utf8');
 
+let failures = 0;       // violations, missing focus outlines, CSP errors: the exit code is non-zero if any
 (async () => {
   const browser = await chromium.launch();
 
@@ -24,7 +25,8 @@ const axeSource = fs.readFileSync(path.join(modules, 'axe-core', 'axe.min.js'), 
     page.on('console', m => { if (/Content Security Policy/i.test(m.text())) violations.push(m.text()); });
     await page.goto(URL);
     const bg = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
-    console.log('real CSP: body background =', bg, '(expect rgb(251, 249, 245)) | CSP console errors:', violations.length);
+    console.log('real CSP: body background =', bg, '| CSP console errors:', violations.length);
+    failures += violations.length;
     await ctx.close();
   }
 
@@ -40,6 +42,7 @@ const axeSource = fs.readFileSync(path.join(modules, 'axe-core', 'axe.min.js'), 
     }));
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
     console.log(`\n[${label}] axe ${res.testEngine.version}: violations=${res.violations.length} passes=${res.passes.length} incomplete=${res.incomplete.length} inapplicable=${res.inapplicable.length}`);
+    failures += res.violations.length;
     for (const v of res.violations) console.log('  VIOLATION', v.id, v.impact, '-', v.help, '|', v.nodes.length, 'node(s)');
     for (const v of res.incomplete) console.log('  needs manual check:', v.id, '-', v.help, '|', v.nodes.length, 'node(s)');
     console.log('  horizontal overflow (px):', overflow);
@@ -72,7 +75,9 @@ const axeSource = fs.readFileSync(path.join(modules, 'axe-core', 'axe.min.js'), 
     }
     const reached = seen.size;
     console.log(`\nkeyboard: links=${total}, reached by Tab=${reached}, without a 3px outline=${noOutline}`);
+    failures += noOutline;
     await ctx.close();
   }
   await browser.close();
+  if (failures) { console.error(`FAILED: ${failures} problem(s)`); process.exit(1); }
 })().catch(e => { console.error('ERROR', e.message); process.exit(1); });

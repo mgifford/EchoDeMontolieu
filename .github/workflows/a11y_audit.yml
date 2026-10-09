@@ -1,0 +1,51 @@
+name: Accessibility audit
+
+# Builds the static site and runs axe-core (WCAG 2.0/2.1/2.2 A and AA rules plus best practice) in
+# Chromium at desktop and 320 px widths, with the page's real Content-Security-Policy and a keyboard
+# check. Automation finds only part of what matters: screen reader behaviour, zoom, and the quality
+# of the French and Dutch wording still need people (see ACCESSIBILITY.md).
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  axe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build the site
+        run: |
+          pip install markdown-it-py
+          python build_site.py _site
+      - name: Install the audit tools
+        run: |
+          mkdir -p "$RUNNER_TEMP/a11y" && cd "$RUNNER_TEMP/a11y"
+          npm init -y >/dev/null
+          npm install --no-audit --no-fund playwright@1.49.1 axe-core@4.13.0
+          npx playwright install --with-deps chromium
+      - name: Serve and audit
+        env:
+          A11Y_NODE_MODULES: ${{ runner.temp }}/a11y/node_modules
+        run: |
+          python -m http.server 8080 --directory _site >/dev/null 2>&1 &
+          sleep 2
+          latest=$(ls _site/en/meetings | grep -E '^[0-9]' | sort | tail -1)
+          status=0
+          for path in en/ fr/ nl/ en/meetings/index.html "en/meetings/$latest/minutes.html" \
+                      nl/topics/index.html fr/finance/index.html en/places/index.html places/map.html; do
+            echo "::group::$path"
+            node tools/a11y_check.cjs "http://localhost:8080/$path" || status=1
+            echo "::endgroup::"
+          done
+          exit $status
