@@ -128,14 +128,15 @@ def _archived_and_current_public(tmp_path):
     return public
 
 
-def test_archived_minutes_get_faithful_text_only_and_stay_out_of_derived_pages(tmp_path):
+def test_archived_minutes_get_the_cautious_digest_and_stay_out_of_derived_aggregates(tmp_path):
     from echo_montolieu import threads
     from echo_montolieu.render import render_all
     public = _archived_and_current_public(tmp_path)
     _, meetings = render_all(public)
     assert [m["date"] for m in meetings] == ["2024-04-04"]
     old = public / "meetings" / "2004-03-02"
-    assert (old / "minutes.md").exists() and not (old / "facts.md").exists() and not (old / "todo.md").exists()
+    assert (old / "minutes.md").exists() and (old / "facts.md").exists() and not (old / "todo.md").exists()
+    assert "Tous les noms sont remplacés" in (old / "facts.md").read_text(encoding="utf-8")
     assert "Internet Archive" in (old / "minutes.md").read_text(encoding="utf-8")
     assert "2004-03-02" in (public / "meetings" / "index.md").read_text(encoding="utf-8")
     assert [m["meeting"]["date"] for m in threads.load_meetings(public)] == ["2024-04-04"]

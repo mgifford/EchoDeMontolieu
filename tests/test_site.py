@@ -164,3 +164,36 @@ def test_map_link_in_the_places_list_points_at_the_shared_map():
 def test_two_tables_on_one_page_get_different_region_names():
     out = render_markdown("| A |\n|---|\n| 1 |\n\ntext\n\n| B |\n|---|\n| 2 |\n", "Table")
     assert 'aria-label="Table 1"' in out and 'aria-label="Table 2"' in out
+
+
+def test_minutes_page_links_confirmed_places_to_openstreetmap_after_the_title(tmp_path):
+    import json
+    public, data = tmp_path / "public", tmp_path / "data"
+    (public / "meetings" / "2026-07-22").mkdir(parents=True); (public / "places").mkdir(); data.mkdir()
+    (public / "meetings" / "2026-07-22" / "minutes.md").write_text("---\ndocument_id: aaaaaaaaaaaa\nlanguage: fr\n---\n# Conseil du 22 juillet\n\ntexte\n")
+    (public / "meetings" / "2026-07-23").mkdir()
+    (public / "meetings" / "2026-07-23" / "minutes.md").write_text("---\ndocument_id: bbbbbbbbbbbb\nlanguage: fr\n---\n# Autre\n\ntexte\n")
+    (public / "places" / "places.json").write_text(json.dumps({"places": [{
+        "label": "Rue des Remparts", "kind": "street", "lat": 43.310164, "lon": 2.213583, "items": [
+            {"folder": "2026-07-22", "page": 3, "url": "https://www.montolieu.fr/x.pdf", "date": "2026-07-22", "title": "t"}]}]}))
+    out = build(tmp_path / "_site", public, data)
+    for lang, heading in (("en", "Places discussed in this meeting"), ("fr", "Lieux évoqués dans cette séance"), ("nl", "Plaatsen die in deze vergadering")):
+        page = (out / lang / "meetings/2026-07-22/minutes.html").read_text()
+        assert heading in page and "openstreetmap.org/?mlat=43.310164&amp;mlon=2.213583" in page and "x.pdf#page=3" in page
+        assert page.index("</h1>") < page.index(heading)
+        assert heading not in (out / lang / "meetings/2026-07-23/minutes.html").read_text()
+
+
+def test_unconfirmed_places_get_openstreetmap_search_links_but_no_pins(tmp_path):
+    import json
+    public, data = tmp_path / "public", tmp_path / "data"
+    (public / "meetings" / "2005-01-25").mkdir(parents=True); (public / "places").mkdir(); data.mkdir()
+    (public / "meetings" / "2005-01-25" / "minutes.md").write_text("---\ndocument_id: aaaaaaaaaaaa\nlanguage: fr\n---\n# Conseil\n\ntexte\n")
+    (public / "places" / "places.json").write_text(json.dumps({"places": [], "unconfirmed_mentions": [{
+        "label": "place du Foirail", "kind": "street", "search": "https://www.openstreetmap.org/search?query=place%20du%20Foirail%2C%20Montolieu",
+        "items": [{"folder": "2005-01-25", "page": 2, "url": "https://web.archive.org/x.pdf", "date": "2005-01-25"}]}]}))
+    out = build(tmp_path / "_site", public, data)
+    page = (out / "en/meetings/2005-01-25/minutes.html").read_text()
+    assert "Other place names mentioned, not confirmed" in page and "openstreetmap.org/search?query=place%20du%20Foirail%2C%20Montolieu" in page
+    assert "Places discussed in this meeting" not in page and "mlat=" not in page and "x.pdf#page=2" in page
+    assert "Autres noms de lieux cités" in (out / "fr/meetings/2005-01-25/minutes.html").read_text()

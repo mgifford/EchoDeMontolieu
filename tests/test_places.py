@@ -252,3 +252,29 @@ def test_prune_drops_lookups_for_names_that_are_no_longer_candidates(tmp_path):
     reopened = pl.BanGeocoder(tmp_path / "cache.json", Session())
     assert reopened.cached("rue des remparts") and reopened.cached("rue bellevue") is None
     assert g.prune(["rue des remparts"]) == 0
+
+
+def test_search_links_are_offered_only_for_plausible_names_and_are_cut_at_the_name():
+    from echo_montolieu import places as pl
+    assert pl.plausible("place du Foirail", "street") and pl.plausible("rue des remparts", "street") and pl.plausible("Boulzons", "lieu-dit")
+    for junk in ("place centrale", "cours de natation", "chemin de", "rue en traversant l’actuel espace", "place de STECAL", "passage devant"):
+        assert not pl.plausible(junk, "street"), junk
+    assert pl.search_label("place des Tilleuls sont") == "place des Tilleuls"
+    assert pl.search_label("côte d'Escudié - début de") == "côte d'Escudié"
+    assert pl.osm_search("place du Foirail") == "https://www.openstreetmap.org/search?query=place%20du%20Foirail%2C%20Montolieu"
+
+
+def test_archived_minutes_give_place_candidates_without_sale_passages_or_names(tmp_path):
+    import json
+    from echo_montolieu import archive_digest as ad
+    public = tmp_path / "public"; (public / "minutes").mkdir(parents=True)
+    text = ("Etaient présents : DRIEUX. OLIVIER. DELPERIER.\nSecrétariat de séance : OLIVIER.\n"
+            "Les travaux de la place du Foirail sont décidés. Le budget est voté. Droit de préemption sur la maison de Mme DUPUIS située rue des Rames. "
+            "Le conseil s’oppose. Le chemin de Peyremale est refait.")
+    rec = {"document_id": "d1", "origin": "wayback", "source_url": "https://web.archive.org/x.pdf", "meeting_date": {"value": "2005-01-25"},
+           "pages": [{"page": 1, "text": text}]}
+    (public / "minutes" / "d1.json").write_text(json.dumps(rec))
+    (public / "index.json").write_text(json.dumps({"documents": [{"document_id": "d1", "file": "minutes/d1.json", "meeting_date": {"value": "2005-01-25"}, "filename": "x.pdf"}]}))
+    from echo_montolieu.places import search_label
+    labels = {search_label(p["label"]) for m in ad.place_meetings(public) for it in m["meeting"]["items"] for p in it["places"]}
+    assert "place du Foirail" in labels and "chemin de Peyremale" in labels and "rue des Rames" not in labels

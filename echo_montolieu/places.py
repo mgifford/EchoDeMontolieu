@@ -19,6 +19,7 @@ import html
 import json
 import re
 import time
+from urllib.parse import quote
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -133,6 +134,37 @@ class BanGeocoder:
 # ---- from the minutes to places -------------------------------------------------------------------
 
 
+# Street words that are also ordinary French ("place centrale", "cours de natation", "passage devant"): only a
+# capitalised name or a well-known landmark makes them a plausible place. The rest are rarely anything else.
+_AMBIGUOUS_TYPES = {"chemin", "route", "place", "cours", "passage", "traverse", "carrefour", "lieu", "ancien"}
+_LANDMARKS = {"eglise", "mail", "halle", "mairie", "ecole", "source", "fontaine", "lavoir", "pont", "foyer", "cimetiere", "moulin"}
+
+
+_PREP = r"(?:de la|de l[’']|du|des|de|d[’']|l[’']|la|le|les)"
+_MODIFIER = r"(?:rural|rurale|communal|communale|départementale|departementale|ancien|ancienne)"
+_STREET_LABEL = re.compile(rf"^(?P<type>\S+)(?:\s+{_MODIFIER})?(?:\s+{_PREP}\s*|\s+)(?P<name>\S.*)$", re.I)
+
+
+def plausible(label, kind):
+    """Could this unconfirmed candidate be a real place name? Used only to decide whether to offer a search link."""
+    label = label.strip()
+    if kind == "lieu-dit":
+        return label[:1].isupper() and not label.isupper()
+    m = _STREET_LABEL.match(label)
+    if not m or label.endswith("-"):
+        return False
+    has_prep = bool(re.match(rf"^\S+(?:\s+{_MODIFIER})?\s+{_PREP}\s*\S", label, re.I))
+    words = [w for w in re.findall(r"[\wÀ-ÿ]+", m.group("name")) if _fold(w) not in PARTICLES]
+    if not words:
+        return False
+    first = words[0]
+    named = first[0].isupper() and not first.isupper() and _fold(first) not in TYPE_WORDS
+    landmark = _fold(first) in _LANDMARKS
+    if _fold(m.group("type")) in _AMBIGUOUS_TYPES:         # "place", "cours", "chemin" are also ordinary words
+        return named or landmark
+    return named or (has_prep and len(words) <= 3)          # "rue des remparts" yes; "rue en traversant l'actuel espace" no
+
+
 def eligible(item):
     """Items whose places may be mapped. Everything else is counted but never shown."""
     return not (item["sensitive"] or "withheld" in item["title"].lower() or SALE_TITLE.search(item["title_key"]))
@@ -159,12 +191,16 @@ def collect_candidates(meetings):
 def build_places(meetings, lookup):
     """Verified places. `lookup(query)` returns BAN features or None when it was not looked up."""
     found, held_back = collect_candidates(meetings)
-    groups, unconfirmed = {}, []
+    groups, unconfirmed, by_clean = {}, [], {}
     for label, info in found.items():
         features = lookup(label)
         match = next((f for f in (features or []) if verify(label, f["props"])), None)
         if not match:
             unconfirmed.append(label)
+            clean = search_label(label)
+            if plausible(clean, info["kind"]):
+                entry = by_clean.setdefault(_fold(clean), {"label": clean, "kind": info["kind"], "search": osm_search(clean), "items": []})
+                entry["items"] += [{k: o[k] for k in ("date", "folder", "page", "url")} for o in info["occurrences"]]
             continue
         lon, lat = match["coords"]
         key = (match["props"]["name"], round(lon, 4), round(lat, 4))
@@ -187,10 +223,30 @@ def build_places(meetings, lookup):
                        "themes": dict(themes), "main_theme": main, "shape": SHAPE_OF.get(main, "diamond"),
                        "meetings": len({o["date"] for o in items})})
     places.sort(key=lambda p: (-p["meetings"], p["label"]))
-    return places, {"candidates": len(found), "unconfirmed": sorted(unconfirmed), "held_back_items": held_back}
+    return places, {"candidates": len(found), "unconfirmed": sorted(unconfirmed), "held_back_items": held_back,
+                    "unconfirmed_mentions": sorted(by_clean.values(), key=lambda m: m["label"].lower())}
 
 
 # ---- output -----------------------------------------------------------------------------------------
+
+
+def search_label(label):
+    """The place name only: cut a candidate at the first lowercase word that follows its capitalised name
+    ("place des Tilleuls sont" -> "place des Tilleuls") and at a dash or bracket."""
+    label = re.split(r"\s[-–(]\s|\s*[(\[]", label.strip())[0].replace("’", "'")
+    out, named = [], False
+    for w in label.split():
+        bare = re.sub(r"^[a-zA-Zà-ÿ]'", "", w)
+        if named and w[:1].islower() and _fold(w) not in PARTICLES and not w.lower().endswith("'"):
+            break
+        out.append(w)
+        named = named or (bare[:1].isupper() and not bare.isupper() and len(out) > 1)
+    return " ".join(out)
+
+
+def osm_search(label):
+    """OpenStreetMap's own search for a name in Montolieu. A link the reader may follow; nothing is sent from here."""
+    return "https://www.openstreetmap.org/search?query=" + quote(f"{label}, {COMMUNE['name']}")
 
 
 def _osm(p):
@@ -205,7 +261,8 @@ def render_places_md(places, info):
            f"- [Map of Montolieu on OpenStreetMap]({OSM_TOWN})",
            "- [Interactive map of the places below](map.html) (the table on that page lists the same places)",
            f"- {len(places)} places confirmed, from {info['candidates']} candidate names. "
-           f"{len(info['unconfirmed'])} candidates were not confirmed and are not shown.",
+           f"{len(info['unconfirmed'])} candidates were not confirmed and are not on the map"
+           f"{'; the plausible ones are listed at the end with search links' if info.get('unconfirmed_mentions') else ''}.",
            f"- Not shown on purpose: {info['held_back_items']} {'item' if info['held_back_items'] == 1 else 'items'} "
            "about property sales or naming a private person.", "",
            "| Place | Type | Main theme | Meetings | Where it came up |", "|---|---|---|---|---|"]
@@ -213,6 +270,13 @@ def render_places_md(places, info):
         where = "; ".join(f"{o['date']}: {o['title'][:50]} ({page_link(o['url'], o['page'])})" for o in p["items"][:4])
         more = f" (+{len(p['items']) - 4} more)" if len(p["items"]) > 4 else ""
         out.append(f"| [{p['label']}]({_osm(p)}) | {p['kind']} | {p['main_theme'] or '-'} | {p['meetings']} | {where}{more} |")
+    mentions = info.get("unconfirmed_mentions") or []
+    if mentions:
+        out += ["", "## Names not yet confirmed", "",
+                "Picked out of the minutes by pattern but not matched to a street or place in Montolieu. The links search "
+                "OpenStreetMap; the result may be empty or wrong.", ""]
+        out += [f"- {m['label']} ({m['kind']}): [search OpenStreetMap]({m['search']}); "
+                + ", ".join(f"{o['date']} {page_link(o['url'], o['page'])}" for o in m["items"][:4]) for m in mentions]
     return "\n".join(out) + "\n"
 
 
