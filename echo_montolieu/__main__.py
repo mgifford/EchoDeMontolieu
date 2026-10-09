@@ -226,7 +226,8 @@ def main(argv=None):
         finance = write_finance(args.public, meetings, result)
         from . import places as pl
         cache = pl.BanGeocoder("data/geocode_cache.json")
-        place_info = pl.write_places(args.public, meetings, cache.cached)
+        from .archive_digest import place_meetings
+        place_info = pl.write_places(args.public, meetings + place_meetings(args.public), cache.cached)
         print(json.dumps({"meetings": report["meetings"], "topic_pages": pages, "finance": finance, "places": place_info,
                           "issues_in_several_meetings": sum(1 for t in result["threads"] if t["status"] != "one-off"),
                           "possibly_dropped": sum(1 for t in result["threads"] if t["possibly_dropped"])}, indent=2))
@@ -301,7 +302,8 @@ def main(argv=None):
                           "heritage_prescriptions": len(snap["heritage_prescriptions"]), "endpoint_status": snap["endpoint_status"]}, indent=2))
     elif args.cmd == "geocode":
         from . import places, threads as th
-        meetings = th.load_meetings(args.public)
+        from .archive_digest import place_meetings
+        meetings = th.load_meetings(args.public) + place_meetings(args.public)
         found, held_back = places.collect_candidates(meetings)
         geocoder = places.BanGeocoder(args.cache, min_delay=args.delay)
         todo = [q for q in found if geocoder.cached(q) is None]

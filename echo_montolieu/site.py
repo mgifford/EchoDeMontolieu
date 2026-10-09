@@ -35,6 +35,7 @@ KEY = "echo-lang"
 
 UI = {
     "en": {
+        "places_u_h": "Other place names mentioned, not confirmed", "places_u_note": "These names were picked out of the minutes by pattern and could not be matched to a street or place in Montolieu. The links run a search on OpenStreetMap; the result may be empty or point to the wrong place.", "search_osm": "search OpenStreetMap",
         "places_h": "Places discussed in this meeting", "places_note": "Each place was found in the minutes and confirmed by the national address database; the link opens it on OpenStreetMap. A pin shows where the street or place is, not the exact spot a decision concerned. Not every place is found.", "page_abbr": "page",
         "summary": "Summary", "full": "Full minutes", "facts_l": "Facts", "todo_l": "Follow-ups", "orig": "Original",
         "no_summary": "no summary yet", "data_l": "Data", "meeting_nav": "This meeting", "col_date": "Date",
@@ -71,6 +72,7 @@ UI = {
         "chooser_p": "Choose your language",
     },
     "fr": {
+        "places_u_h": "Autres noms de lieux cités, non confirmés", "places_u_note": "Ces noms ont été repérés dans le procès-verbal par un motif et n’ont pas pu être rattachés à une rue ou à un lieu de Montolieu. Les liens lancent une recherche sur OpenStreetMap ; le résultat peut être vide ou désigner un autre lieu.", "search_osm": "rechercher sur OpenStreetMap",
         "places_h": "Lieux évoqués dans cette séance", "places_note": "Chaque lieu a été repéré dans le procès-verbal et confirmé par la Base Adresse Nationale ; le lien l’ouvre sur OpenStreetMap. Le repère montre où se trouve la rue ou le lieu, pas l’endroit exact concerné par une décision. Tous les lieux ne sont pas trouvés.", "page_abbr": "page",
         "summary": "Résumé", "full": "Procès-verbal complet", "facts_l": "Faits", "todo_l": "Suites", "orig": "Original",
         "no_summary": "pas encore de résumé", "data_l": "Données", "meeting_nav": "Cette séance", "col_date": "Date",
@@ -107,6 +109,7 @@ UI = {
         "chooser_p": "Choisissez votre langue",
     },
     "nl": {
+        "places_u_h": "Andere genoemde plaatsnamen, niet bevestigd", "places_u_note": "Deze namen zijn met een patroon uit de notulen gehaald en konden niet aan een straat of plaats in Montolieu worden gekoppeld. De links starten een zoekopdracht op OpenStreetMap; het resultaat kan leeg zijn of naar een andere plek wijzen.", "search_osm": "zoeken op OpenStreetMap",
         "places_h": "Plaatsen die in deze vergadering aan bod kwamen", "places_note": "Elke plaats is in de notulen gevonden en bevestigd door de nationale adressendatabase; de link opent ze op OpenStreetMap. Een speld toont waar de straat of plaats ligt, niet de exacte plek waarop een besluit betrekking had. Niet elke plaats wordt gevonden.", "page_abbr": "pagina",
         "summary": "Samenvatting", "full": "Volledige notulen", "facts_l": "Feiten", "todo_l": "Vervolg", "orig": "Origineel",
         "no_summary": "nog geen samenvatting", "data_l": "Gegevens", "meeting_nav": "Deze vergadering", "col_date": "Datum",
@@ -390,34 +393,52 @@ def _insert_after_h1(body, section):
 
 
 def place_links(public):
-    """folder -> places confirmed for that meeting: [{label, kind, osm, pages: [(page, url)]}]."""
+    """folder -> {"confirmed": [{label, kind, osm, pages}], "unconfirmed": [{label, kind, search, pages}]}."""
     from .places import _osm
     try:
         data = _read_json(Path(public) / "places" / "places.json", {})
-        places = data.get("places", []) if isinstance(data, dict) else []
+        data = data if isinstance(data, dict) else {}
     except ValueError:                  # an unreadable places file just means no place links
-        places = []
+        data = {}
     out = {}
-    for p in places:
+
+    def add(kind, entry, items):
         by_folder = {}
-        for it in p.get("items", []):
+        for it in items:
             by_folder.setdefault(it["folder"], []).append((it["page"], it.get("url")))
         for folder, pages in by_folder.items():
-            out.setdefault(folder, []).append({"label": p["label"], "kind": p.get("kind"), "osm": _osm(p), "pages": sorted(set(pages))})
+            out.setdefault(folder, {"confirmed": [], "unconfirmed": []})[kind].append({**entry, "pages": sorted(set(pages))})
+
+    for p in data.get("places", []):
+        add("confirmed", {"label": p["label"], "kind": p.get("kind"), "osm": _osm(p)}, p.get("items", []))
+    for m in data.get("unconfirmed_mentions", []):
+        add("unconfirmed", {"label": m["label"], "kind": m.get("kind"), "search": m["search"]}, m.get("items", []))
     return out
 
 
+def _page_links(ui, pages):
+    e = html.escape
+    return ", ".join((f'<a href="{e(u)}#page={n}">{e(ui["page_abbr"])} {n}</a>' if u else f'{e(ui["page_abbr"])} {n}') for n, u in pages)
+
+
 def places_section(lang, found):
-    """OpenStreetMap links for the places confirmed in one meeting; empty when there are none."""
-    if not found:
+    """OpenStreetMap links for the places in one meeting: confirmed ones as map pins, the rest as search links."""
+    if not found or not (found["confirmed"] or found["unconfirmed"]):
         return ""
     ui, e = UI[lang], html.escape
-    items = []
-    for p in sorted(found, key=lambda p: p["label"]):
-        pages = ", ".join((f'<a href="{e(u)}#page={n}">{e(ui["page_abbr"])} {n}</a>' if u else f'{e(ui["page_abbr"])} {n}') for n, u in p["pages"])
-        items.append(f'<li><a href="{e(p["osm"])}" lang="fr">{e(p["label"])}</a> ({e(p["kind"] or "")}; {pages})</li>')
-    return (f'<section aria-labelledby="places-h"><h2 id="places-h">{e(ui["places_h"])}</h2>'
-            f'<ul>{"".join(items)}</ul><p class="note">{e(ui["places_note"])}</p></section>')
+    parts = []
+    if found["confirmed"]:
+        items = [f'<li><a href="{e(p["osm"])}" lang="fr">{e(p["label"])}</a> ({e(p["kind"] or "")}; {_page_links(ui, p["pages"])})</li>'
+                 for p in sorted(found["confirmed"], key=lambda p: p["label"].lower())]
+        parts.append(f'<section aria-labelledby="places-h"><h2 id="places-h">{e(ui["places_h"])}</h2><ul>{"".join(items)}</ul>'
+                     f'<p class="note">{e(ui["places_note"])}</p></section>')
+    if found["unconfirmed"]:
+        items = [f'<li><span lang="fr">{e(p["label"])}</span> ({e(p["kind"] or "")}; {_page_links(ui, p["pages"])}): '
+                 f'<a href="{e(p["search"])}">{e(ui["search_osm"])}<span class="sr"> : {e(p["label"])}</span></a></li>'
+                 for p in sorted(found["unconfirmed"], key=lambda p: p["label"].lower())]
+        parts.append(f'<section aria-labelledby="places-u-h"><h2 id="places-u-h">{e(ui["places_u_h"])}</h2><ul>{"".join(items)}</ul>'
+                     f'<p class="note">{e(ui["places_u_note"])}</p></section>')
+    return "".join(parts)
 
 
 def meeting_nav(lang, folder, name, files):

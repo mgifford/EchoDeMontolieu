@@ -142,3 +142,51 @@ def render_facts(rec, d, date):
         counts = ", ".join(f"{label} {x[k]}" for label, k in (("pour", "for"), ("contre", "against"), ("abstentions", "abstentions")) if x[k])
         out += [f"## Décision {n} ({link})", "", f"“{x['text']}”", "", f"Vote : {KIND_FR[x['kind']]}{' (' + counts + ')' if counts else ''}.", ""]
     return "\n".join(out).rstrip() + "\n"
+
+
+def place_meetings(public_dir):
+    """The recovered minutes as pseudo-meetings, so their street and lieu-dit mentions can be geocoded like the rest.
+
+    One pseudo-item per page that names a place. A sentence about a property sale, and the sentence on each side of it,
+    is skipped; names from the attendance lists and after honorifics are replaced first, and a candidate that still
+    holds a replaced name is dropped. Only the place label is kept: no text of the minutes goes into the item."""
+    import json
+    from pathlib import Path
+
+    from .render import meeting_folder
+    from .signals import find_place_candidates
+    public = Path(public_dir)
+    index = json.loads((public / "index.json").read_text(encoding="utf-8"))
+    entries = sorted(index["documents"], key=lambda d: ((d["meeting_date"] or {}).get("value") or "", d["filename"] or ""))
+    records, taken = [], set()
+    for entry in entries:
+        rec = json.loads((public / entry["file"]).read_text(encoding="utf-8"))
+        folder = meeting_folder(rec, taken)          # computed for every record so folder names match render_all
+        if rec.get("origin"):
+            records.append((folder, rec))
+    vocab = Vocabulary([r for _, r in records])
+    out = []
+    for folder, rec in records:
+        date = (rec.get("meeting_date") or {}).get("value")
+        items = []
+        for pg in rec["pages"]:
+            sents = sentences(pg.get("text") or "")
+            sale = {j for i, s in enumerate(sents) if is_property_transaction("", s) for j in (i - 1, i, i + 1)}
+            labels = []
+            for i, s in enumerate(sents):
+                if i in sale:
+                    continue
+                masked = _HONORIFIC_NAME_ANYCASE.sub(lambda m: m.group(0).split()[0] + " " + PLACEHOLDER, s)
+                if vocab._rx:
+                    folded, parts, last = _fold(masked), [], 0
+                    for m in vocab._rx.finditer(folded):
+                        parts += [masked[last:m.start()], PLACEHOLDER]
+                        last = m.end()
+                    masked = "".join(parts) + masked[last:]
+                labels += [c for c in find_place_candidates(masked) if PLACEHOLDER not in c["label"]]
+            if labels:
+                items.append({"id": f"{rec['document_id']}-p{pg['page']}", "sensitive": False, "title": f"Mentioned in the minutes of {date}",
+                              "title_key": "", "pages": [pg["page"], pg["page"]], "topics": [], "places": labels})
+        if items:
+            out.append({"meeting": {"date": date, "source_url": rec["source_url"], "items": items}, "folder": folder, "name_tokens": set()})
+    return out
