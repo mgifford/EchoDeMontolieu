@@ -56,16 +56,24 @@ def test_site_builder_needs_only_markdown_it_not_requests_or_the_pipeline(tmp_pa
     assert done.returncode == 0, done.stderr[-600:]
 
 
-def test_map_page_gets_the_site_navigation_after_its_own_skip_link(tmp_path):
+def test_map_is_published_in_each_language_with_the_site_navigation_and_old_links_still_work(tmp_path):
     public, data = tmp_path / "public", tmp_path / "data"
     (public / "places").mkdir(parents=True); data.mkdir()
-    (public / "places" / "map.html").write_text(
-        "<!doctype html><html lang=\"en\"><head><meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; "
-        "style-src 'sha256-x' https://unpkg.com\"><style>body{}</style></head><body>\n"
-        "<a class=\"skip\" href=\"#list\">Skip the map</a>\n<header><h1>Places</h1></header>\n<main></main></body></html>")
+    page = ("<!doctype html><html lang=\"{lang}\"><head><meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; "
+            "script-src 'sha256-s' https://unpkg.com; style-src 'sha256-x' https://unpkg.com\"><style>body{{}}</style></head><body>\n"
+            "<a class=\"skip\" href=\"#list\">Skip {lang}</a>\n<header><h1>Places {lang}</h1></header>\n<main></main></body></html>")
+    for lang, name in (("en", "map.html"), ("fr", "map.fr.html"), ("nl", "map.nl.html")):
+        (public / "places" / name).write_text(page.format(lang=lang))
     out = build(tmp_path / "_site", public, data)
-    page = (out / "places" / "map.html").read_text()
-    assert page.index("Skip the map") < page.index('<nav aria-label="Main navigation">') < page.index("<h1>Places</h1>")
-    assert 'href="../en/whats-new/index.html"' in page and 'href="map.html" aria-current="page">Map' in page
-    assert 'href="../fr/index.html"' in page and 'href="../nl/index.html"' in page
-    assert 'href="../assets/site.css"' in page and "style-src 'self' 'sha256-x'" in page
+    for lang, label in (("en", ">Map<"), ("fr", ">Carte<"), ("nl", ">Kaart<")):
+        text = (out / lang / "places" / "map.html").read_text()
+        assert f"Places {lang}" in text and text.index(f"Skip {lang}") < text.index("<nav aria-label=") < text.index(f"<h1>Places {lang}</h1>")
+        assert 'aria-current="page">' in text and label in text and "(English only)" not in text
+        assert 'href="../whats-new/index.html"' in text and 'href="../index.html"' in text
+        assert 'href="../../fr/places/map.html"' in text and 'href="../../nl/places/map.html"' in text and 'href="../../en/places/map.html"' in text
+        assert 'href="../../assets/site.css"' in text and "style-src 'self' 'sha256-x'" in text and "script-src 'self' 'sha256-s'" in text
+    old = (out / "places" / "map.html").read_text()                      # links that predate the languages still land somewhere useful
+    assert 'url=../en/places/map.html' in old and all(f'href="../{c}/places/map.html"' in old for c in ("en", "fr", "nl"))
+    for lang in ("en", "fr", "nl"):
+        nav = (out / lang / "index.html").read_text()
+        assert 'href="places/map.html"' in nav

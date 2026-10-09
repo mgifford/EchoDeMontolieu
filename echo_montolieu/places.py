@@ -307,6 +307,80 @@ th{background:#EBF3FA}
 """
 
 
+# Everything the map page says, per language. Place names and the titles of agenda items stay as the minutes write them
+# (French); the words around them are fixed text, written once here. The French and Dutch have no native-speaker review yet.
+MAP_TEXT = {
+    "en": {
+        "title": "Places discussed in Montolieu council meetings", "h1": "Places discussed in council meetings",
+        "description": "A map and a table of streets and places that came up in Montolieu council meetings.",
+        "skip": "Skip the map and go to the list of places", "home": "Back to the home page",
+        "intro": "Streets and places that came up in the council minutes, confirmed against the national address database (BAN). "
+                 "A marker shows where a street or place is, not the exact spot a decision concerned. Sales of property and items naming "
+                 "a private person are not shown ({held} kept off this page on purpose). The map opens on the village; places up to about "
+                 "{far} km away appear when you zoom out, and every place is in the list below.",
+        "item_one": "item", "item_many": "items", "town_map": "Map of Montolieu on OpenStreetMap",
+        "noscript": "The interactive map needs JavaScript. The list below has the same places and works without it.",
+        "note": "The map loads its code from unpkg.com and its tiles from OpenStreetMap, which therefore see your address when it loads. The list does not.",
+        "map_h": "Map", "legend": "Marker shapes", "map_label": "Map of places discussed. The same places are listed in the table below.",
+        "list_h": "List of places", "empty": "No places have been confirmed yet.",
+        "caption": "Places discussed in council meetings", "th_place": "Place (opens OpenStreetMap)", "th_type": "Type",
+        "th_theme": "Marker and main theme", "th_meetings": "Meetings", "th_where": "Where it came up", "other": "other",
+        "kinds": {"street": "street", "lieu-dit": "locality"}, "meeting_one": "meeting", "meeting_many": "meetings",
+        "press": "Press Enter for details.",
+        "shapes": {"circle": ("Circle", "finances and subsidies"), "square": ("Square", "roads, works, planning and environment"),
+                   "triangle": ("Triangle", "heritage, culture, associations and schools"), "diamond": ("Diamond", "other subjects")},
+        "themes": {"finances": "finances", "subventions": "subsidies", "voirie et travaux": "roads and works", "urbanisme": "planning",
+                   "environnement et risques": "environment and risks", "patrimoine, culture, tourisme": "heritage, culture, tourism",
+                   "associations et vie locale": "associations and village life", "école et enfance": "school and children"},
+    },
+    "fr": {
+        "title": "Lieux évoqués dans les conseils municipaux de Montolieu", "h1": "Lieux évoqués dans les conseils municipaux",
+        "description": "Une carte et un tableau des rues et des lieux évoqués dans les conseils municipaux de Montolieu.",
+        "skip": "Passer la carte et aller à la liste des lieux", "home": "Retour à l’accueil",
+        "intro": "Rues et lieux évoqués dans les procès-verbaux du conseil, confirmés par la Base Adresse Nationale (BAN). "
+                 "Un repère montre où se trouve une rue ou un lieu, pas l’endroit exact concerné par une décision. Les ventes de biens "
+                 "et les points qui nomment une personne privée ne sont pas montrés (volontairement laissés de côté : {held}). La carte s’ouvre "
+                 "sur le village ; les lieux jusqu’à environ {far} km apparaissent en dézoomant, et chaque lieu figure dans la liste ci-dessous.",
+        "item_one": "point", "item_many": "points", "town_map": "Carte de Montolieu sur OpenStreetMap",
+        "noscript": "La carte interactive nécessite JavaScript. La liste ci-dessous contient les mêmes lieux et fonctionne sans.",
+        "note": "La carte charge son code depuis unpkg.com et ses fonds de carte depuis OpenStreetMap, qui voient donc votre adresse à ce moment. La liste, non.",
+        "map_h": "Carte", "legend": "Formes des repères", "map_label": "Carte des lieux évoqués. Les mêmes lieux sont dans le tableau ci-dessous.",
+        "list_h": "Liste des lieux", "empty": "Aucun lieu n’a encore été confirmé.",
+        "caption": "Lieux évoqués dans les conseils municipaux", "th_place": "Lieu (ouvre OpenStreetMap)", "th_type": "Type",
+        "th_theme": "Repère et thème principal", "th_meetings": "Séances", "th_where": "Où il en est question", "other": "autre",
+        "kinds": {"street": "rue", "lieu-dit": "lieu-dit"}, "meeting_one": "séance", "meeting_many": "séances",
+        "press": "Appuyez sur Entrée pour les détails.",
+        "shapes": {"circle": ("Cercle", "finances et subventions"), "square": ("Carré", "voirie, travaux, urbanisme et environnement"),
+                   "triangle": ("Triangle", "patrimoine, culture, associations et écoles"), "diamond": ("Losange", "autres sujets")},
+        "themes": {"finances": "finances", "subventions": "subventions", "voirie et travaux": "voirie et travaux", "urbanisme": "urbanisme",
+                   "environnement et risques": "environnement et risques", "patrimoine, culture, tourisme": "patrimoine, culture, tourisme",
+                   "associations et vie locale": "associations et vie locale", "école et enfance": "école et enfance"},
+    },
+    "nl": {
+        "title": "Plaatsen die in de gemeenteraad van Montolieu aan bod kwamen", "h1": "Plaatsen die in de gemeenteraad aan bod kwamen",
+        "description": "Een kaart en een tabel van straten en plaatsen die in de gemeenteraad van Montolieu aan bod kwamen.",
+        "skip": "De kaart overslaan en naar de lijst met plaatsen gaan", "home": "Terug naar de startpagina",
+        "intro": "Straten en plaatsen die in de notulen van de gemeenteraad voorkwamen, bevestigd door de nationale adressendatabase (BAN). "
+                 "Een markering toont waar een straat of plaats ligt, niet de exacte plek waarop een besluit betrekking had. Verkopen van panden "
+                 "en punten waarin een particulier wordt genoemd, worden niet getoond ({held} bewust weggelaten). De kaart opent op het dorp; "
+                 "plaatsen tot ongeveer {far} km verderop verschijnen als u uitzoomt, en elke plaats staat in de lijst hieronder.",
+        "item_one": "punt", "item_many": "punten", "town_map": "Kaart van Montolieu op OpenStreetMap",
+        "noscript": "De interactieve kaart heeft JavaScript nodig. De lijst hieronder bevat dezelfde plaatsen en werkt zonder.",
+        "note": "De kaart laadt haar code van unpkg.com en haar kaartvlakken van OpenStreetMap, die daardoor uw adres zien. De lijst niet.",
+        "map_h": "Kaart", "legend": "Vormen van de markeringen", "map_label": "Kaart van de besproken plaatsen. Dezelfde plaatsen staan in de tabel hieronder.",
+        "list_h": "Lijst van plaatsen", "empty": "Er is nog geen plaats bevestigd.",
+        "caption": "Plaatsen die in de gemeenteraad aan bod kwamen", "th_place": "Plaats (opent OpenStreetMap)", "th_type": "Soort",
+        "th_theme": "Markering en hoofdthema", "th_meetings": "Vergaderingen", "th_where": "Waar het ter sprake kwam", "other": "overig",
+        "kinds": {"street": "straat", "lieu-dit": "buurtschap"}, "meeting_one": "vergadering", "meeting_many": "vergaderingen",
+        "press": "Druk op Enter voor details.",
+        "shapes": {"circle": ("Cirkel", "financiën en subsidies"), "square": ("Vierkant", "wegen, werken, ruimtelijke ordening en milieu"),
+                   "triangle": ("Driehoek", "erfgoed, cultuur, verenigingen en scholen"), "diamond": ("Ruit", "overige onderwerpen")},
+        "themes": {"finances": "financiën", "subventions": "subsidies", "voirie et travaux": "wegen en werken", "urbanisme": "ruimtelijke ordening",
+                   "environnement et risques": "milieu en risico’s", "patrimoine, culture, tourisme": "erfgoed, cultuur, toerisme",
+                   "associations et vie locale": "verenigingen en dorpsleven", "école et enfance": "school en kinderen"},
+    },
+}
+
 def _svg(shape, fill, size=28):
     c = size / 2
     body = {"circle": f'<circle cx="{c}" cy="{c}" r="{c - 3}"/>',
@@ -326,7 +400,7 @@ MAP_SCRIPT = """
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
   data.places.forEach(function (p) {
     var icon = L.divIcon({className: '', html: data.shapes[p.shape], iconSize: [44, 44], iconAnchor: [22, 22]});
-    var text = p.label + ', ' + p.meetings + (p.meetings === 1 ? ' meeting' : ' meetings');
+    var text = p.label + ', ' + p.meetings + ' ' + (p.meetings === 1 ? data.ui.meeting_one : data.ui.meeting_many);
     var marker = L.marker([p.lat, p.lon], {icon: icon, title: text, keyboard: true}).addTo(map);
     var box = document.createElement('div');
     var h = document.createElement('strong'); h.textContent = p.label; box.appendChild(h);
@@ -339,7 +413,7 @@ MAP_SCRIPT = """
     box.appendChild(ul); marker.bindPopup(box);
     var el = marker.getElement();
     if (el) {
-      el.setAttribute('role', 'button'); el.setAttribute('aria-label', text + '. Press Enter for details.');
+      el.setAttribute('role', 'button'); el.setAttribute('aria-label', text + '. ' + data.ui.press);
       // Tab visits every marker, including those outside the opening view: bring the focused one into view.
       el.addEventListener('focus', function () { map.panInside(marker.getLatLng(), {padding: [60, 60]}); });
     }
@@ -355,10 +429,12 @@ def _farthest_km(places):
                            (p["lat"] - cy) * 110.574) for p in places), default=0.0)
 
 
-def render_map_html(places, info):
+def render_map_html(places, info, lang="en"):
+    T = MAP_TEXT[lang]
     far = f"{_farthest_km(places):.1f}".rstrip("0").rstrip(".")
     data = {"center": {"lat": COMMUNE["lat"], "lon": COMMUNE["lon"]},
             "shapes": {k: _svg(k, v[2], 44) for k, v in SHAPES.items()},
+            "ui": {k: T[k] for k in ("meeting_one", "meeting_many", "press")},
             "places": [{k: p[k] for k in ("label", "lat", "lon", "meetings", "shape", "items")}
                        | {"items": [{k: o[k] for k in ("date", "title", "page", "url")} for o in p["items"]]}
                        for p in places]}
@@ -370,45 +446,42 @@ def render_map_html(places, info):
            "img-src https://tile.openstreetmap.org https://unpkg.com data:; "
            "base-uri 'none'; form-action 'none'")
     e = html.escape
-    legend = "".join(f"<li>{_svg(k, v[2])}<span>{e(v[0])}: {e(v[1])}</span></li>" for k, v in SHAPES.items())
+    legend = "".join(f"<li>{_svg(k, v[2])}<span>{e(T['shapes'][k][0])}: {e(T['shapes'][k][1])}</span></li>" for k, v in SHAPES.items())
     rows = []
     for p in places:
         items = "".join(f'<li><a href="{e(o["url"])}#page={o["page"]}">{e(o["date"])}: {e(o["title"])}</a></li>' for o in p["items"][:6])
-        theme = f'{e(SHAPES[p["shape"]][0])}, {e(p["main_theme"] or "other")}'
-        rows.append(f'<tr><th scope="row"><a href="{e(_osm(p))}">{e(p["label"])}</a></th><td>{e(p["kind"])}</td>'
+        main = T["themes"].get(p["main_theme"], p["main_theme"]) if p["main_theme"] else T["other"]
+        theme = f'{e(T["shapes"][p["shape"]][0])}, {e(main)}'
+        rows.append(f'<tr><th scope="row"><a href="{e(_osm(p))}" lang="fr">{e(p["label"])}</a></th><td>{e(T["kinds"].get(p["kind"], p["kind"]))}</td>'
                     f'<td>{theme}</td><td>{p["meetings"]}</td><td><ul>{items}</ul></td></tr>')
-    table = ("<table><caption>Places discussed in council meetings</caption><thead><tr><th scope=\"col\">Place (opens "
-             "OpenStreetMap)</th><th scope=\"col\">Type</th><th scope=\"col\">Marker and main theme</th>"
-             "<th scope=\"col\">Meetings</th><th scope=\"col\">Where it came up</th></tr></thead><tbody>"
-             + "".join(rows) + "</tbody></table>") if places else "<p>No places have been confirmed yet.</p>"
+    table = (f'<table><caption>{e(T["caption"])}</caption><thead><tr><th scope="col">{e(T["th_place"])}</th><th scope="col">{e(T["th_type"])}</th>'
+             f'<th scope="col">{e(T["th_theme"])}</th><th scope="col">{e(T["th_meetings"])}</th><th scope="col">{e(T["th_where"])}</th></tr></thead><tbody>'
+             + "".join(rows) + "</tbody></table>") if places else f'<p>{e(T["empty"])}</p>'
+    held = f"{info['held_back_items']} {T['item_one'] if info['held_back_items'] == 1 else T['item_many']}"
     return f"""<!doctype html>
-<html lang="en">
+<html lang="{lang}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="{csp}">
-<title>Places discussed in Montolieu council meetings</title>
-<meta name="description" content="A map and a table of streets and places that came up in Montolieu council meetings.">
+<title>{e(T["title"])}</title>
+<meta name="description" content="{e(T["description"])}">
 <style>{MAP_STYLE}</style>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="{LEAFLET_CSS_SRI}" crossorigin="">
 </head>
 <body>
-<a class="skip" href="#list">Skip the map and go to the list of places</a>
-<header><h1>Places discussed in council meetings</h1></header>
+<a class="skip" href="#list">{e(T["skip"])}</a>
+<header><h1>{e(T["h1"])}</h1></header>
 <main id="main">
-<p>Streets and places that came up in the council minutes, confirmed against the national address database
-(BAN). A marker shows where a street or place is, not the exact spot a decision concerned. Sales of property
-and items naming a private person are not shown ({info['held_back_items']} {'item' if info['held_back_items'] == 1 else 'items'} kept off this page on purpose).
-The map opens on the village; places up to about {far} km away appear when you zoom out, and every place is in the list below.
-<a href="{e(OSM_TOWN)}">Map of Montolieu on OpenStreetMap</a>. <a href="../index.html">Back to the home page</a>.</p>
-{disclosure.html("rules")}
-<noscript><p>The interactive map needs JavaScript. The list below has the same places and works without it.</p></noscript>
-<p class="note">The map loads its code from unpkg.com and its tiles from OpenStreetMap, which therefore see your
-address when it loads. The list does not.</p>
-<h2>Map</h2>
-<ul class="legend" aria-label="Marker shapes">{legend}</ul>
-<div id="map" role="region" aria-label="Map of places discussed. The same places are listed in the table below."></div>
-<h2 id="list">List of places</h2>
+<p>{e(T["intro"].format(held=held, far=far))}
+<a href="{e(OSM_TOWN)}">{e(T["town_map"])}</a>. <a href="../index.html">{e(T["home"])}</a>.</p>
+{disclosure.html("rules", lang)}
+<noscript><p>{e(T["noscript"])}</p></noscript>
+<p class="note">{e(T["note"])}</p>
+<h2>{e(T["map_h"])}</h2>
+<ul class="legend" aria-label="{e(T["legend"])}">{legend}</ul>
+<div id="map" role="region" aria-label="{e(T["map_label"])}"></div>
+<h2 id="list">{e(T["list_h"])}</h2>
 {table}
 <script type="application/json" id="places-data">{data_json}</script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="{LEAFLET_JS_SRI}" crossorigin=""></script>
@@ -426,6 +499,7 @@ def write_places(public_dir, meetings, lookup):
     (target / "places.json").write_text(json.dumps({"commune": COMMUNE, **disclosure.labels("rules"), "places": places, **{k: v for k, v in info.items() if k != "unconfirmed"}},
                                                     ensure_ascii=False, indent=1), encoding="utf-8")
     (target / "index.md").write_text(disclosure.with_front_matter(render_places_md(places, info), "Places discussed"), encoding="utf-8")
-    (target / "map.html").write_text(render_map_html(places, info), encoding="utf-8")
+    for lang, name in (("en", "map.html"), ("fr", "map.fr.html"), ("nl", "map.nl.html")):
+        (target / name).write_text(render_map_html(places, info, lang), encoding="utf-8")
     return {"places": len(places), "candidates": info["candidates"], "unconfirmed": len(info["unconfirmed"]),
             "held_back_items": info["held_back_items"]}

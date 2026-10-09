@@ -2,7 +2,7 @@
 
   /                 chooser; a small script sends visitors to their language (saved choice, else the browser's)
   /fr/ /en/ /nl/    the same pages in each language, each with the central navigation and a language switcher
-  /places/map.html  the map (shared; its labels are English only)
+  /<lang>/places/map.html  the map, in each language (/places/map.html is a small page that links to the three)
 
 Pages come from the Markdown in public/. A page is shown in the visitor's language when a file for it
 exists (for example minutes.en.md); otherwise the page that does exist is shown with a visible notice
@@ -78,7 +78,7 @@ UI = {
         "datefmt": "{d} {m} {y}",
         "skip": "Skip to main content", "nav": "Main navigation", "language": "Language",
         "home": "Home", "minutes": "Council minutes", "meetings": "Meetings", "issues": "Issues over time",
-        "finance": "Finance", "places": "Places", "map": "Map (English only)", "about_ai": "About AI",
+        "finance": "Finance", "places": "Places", "map": "Map", "about_ai": "About AI",
         "table": "Table", "open_source": "Open source (AGPL-3.0)", "ai_page": "About AI in this project",
         "review": "The French and Dutch wording of this interface was written by an AI assistant and has not been reviewed by a native speaker.",
         "fallback": "This page is not available in {want} yet. It is shown in {have}.",
@@ -147,7 +147,7 @@ UI = {
         "datefmt": "{d} {m} {y}",
         "skip": "Aller au contenu principal", "nav": "Navigation principale", "language": "Langue",
         "home": "Accueil", "minutes": "Procès-verbaux", "meetings": "Séances", "issues": "Sujets au fil du temps",
-        "finance": "Finances", "places": "Lieux", "map": "Carte (en anglais)", "about_ai": "À propos de l’IA",
+        "finance": "Finances", "places": "Lieux", "map": "Carte", "about_ai": "À propos de l’IA",
         "table": "Tableau", "open_source": "Logiciel libre (AGPL-3.0)", "ai_page": "L’IA dans ce projet",
         "review": "Les termes français et néerlandais de cette interface ont été écrits par un assistant d’IA et n’ont pas été relus par un locuteur natif.",
         "fallback": "Cette page n’existe pas encore en {want}. Elle est affichée en {have}.",
@@ -216,7 +216,7 @@ UI = {
         "datefmt": "{d} {m} {y}",
         "skip": "Naar de hoofdinhoud", "nav": "Hoofdnavigatie", "language": "Taal",
         "home": "Home", "minutes": "Notulen", "meetings": "Vergaderingen", "issues": "Onderwerpen in de tijd",
-        "finance": "Financiën", "places": "Plaatsen", "map": "Kaart (alleen Engels)", "about_ai": "Over AI",
+        "finance": "Financiën", "places": "Plaatsen", "map": "Kaart", "about_ai": "Over AI",
         "table": "Tabel", "open_source": "Open source (AGPL-3.0)", "ai_page": "AI in dit project",
         "review": "De Franse en Nederlandse teksten van deze interface zijn door een AI-assistent geschreven en niet door een moedertaalspreker nagelezen.",
         "fallback": "Deze pagina is nog niet beschikbaar in het {want}. Ze wordt getoond in het {have}.",
@@ -274,8 +274,6 @@ def _fix_href(href, root=""):
     parts = urlsplit(href)
     if parts.scheme or parts.netloc or not parts.path:
         return href
-    if parts.path == "map.html":                      # the map lives once, at the site root
-        return root + "places/map.html"
     path = re.sub(r"(?:\.(?:en|nl))?\.md$", ".html", parts.path)
     return path + (f"#{parts.fragment}" if parts.fragment else "")
 
@@ -364,7 +362,7 @@ def layout(page, available_langs):
                  ("issues", home + "topics/index.html", "topics/index.html"),
                  ("finance", home + "finance/index.html", "finance/index.html"),
                  ("places", home + "places/index.html", "places/index.html"),
-                 ("map", root + "places/map.html", None), ("about_ai", disclosure.AI_PAGE_URL, None)]
+                 ("map", home + "places/map.html", "places/map.html"), ("about_ai", disclosure.AI_PAGE_URL, None)]
     links = []
     for key, href, own in nav_items:
         current = ' aria-current="page"' if own and own == page.rel else ""
@@ -528,25 +526,38 @@ def _osm_pin(p):
     return f"https://www.openstreetmap.org/?mlat={p['lat']:.6f}&mlon={p['lon']:.6f}#map=18/{p['lat']:.6f}/{p['lon']:.6f}"
 
 
-def map_with_site_navigation(text):
+def map_with_site_navigation(text, lang):
     """The map page is its own document (Leaflet needs its own content security policy), so it gets the site's
-    top navigation here, at build time: the shared stylesheet, the same menu, and links to each language."""
-    ui, e = UI["en"], html.escape
-    items = [("home", "../en/index.html"), ("whatsnew", "../en/whats-new/index.html"), ("meetings", "../en/meetings/index.html"),
-             ("issues", "../en/topics/index.html"), ("finance", "../en/finance/index.html"), ("places", "../en/places/index.html"),
+    top navigation here, at build time: the shared stylesheet, the same menu, and a language switcher that stays on the map.
+    `text` is the page for `lang`, published at /<lang>/places/map.html."""
+    ui, e = UI[lang], html.escape
+    items = [("home", "../index.html"), ("whatsnew", "../whats-new/index.html"), ("meetings", "../meetings/index.html"),
+             ("issues", "../topics/index.html"), ("finance", "../finance/index.html"), ("places", "../places/index.html"),
              ("map", None), ("about_ai", disclosure.AI_PAGE_URL)]
     links = "".join(f'<li><a href="{e(href)}">{e(ui[key])}</a></li>' if href else
                     f'<li><a href="map.html" aria-current="page">{e(ui[key])}</a></li>' for key, href in items)
-    langs = "".join(f'<li><a href="../{code}/index.html" lang="{code}" hreflang="{code}">{NAMES[code]}</a></li>' for code in LANGS)
-    header = (f'<header>\n<p class="brand"><a href="../en/index.html" lang="fr">{SITE_NAME}</a></p>\n'
+    langs = "".join(f'<li><a href="../../{code}/places/map.html" lang="{code}" hreflang="{code}" data-setlang="{code}"'
+                    f'{" aria-current=\"true\"" if code == lang else ""}>{NAMES[code]}</a></li>' for code in LANGS)
+    header = (f'<header>\n<p class="brand"><a href="../index.html" lang="fr">{SITE_NAME}</a></p>\n'
               f'<nav aria-label="{e(ui["nav"])}"><ul>{links}</ul></nav>\n'
               f'<nav aria-label="{e(ui["language"])}" class="langs"><ul>{langs}</ul></nav>\n</header>\n')
-    text = text.replace("<style>", '<link rel="stylesheet" href="../assets/site.css">\n<style>', 1)
+    text = text.replace("<style>", '<link rel="stylesheet" href="../../assets/site.css">\n<style>', 1)
+    text = text.replace("</head>", '<script src="../../assets/site.js" defer></script>\n</head>', 1)
     text = re.sub(r"(style-src )", r"\1'self' ", text, count=1)
+    text = re.sub(r"(script-src )", r"\1'self' ", text, count=1)
     skip = re.search(r'<a class="skip"[^>]*>.*?</a>\n', text)          # the page's own skip link stays first in the tab order
     at = skip.end() if skip else text.index("<body>\n") + len("<body>\n")
-    text = text[:at] + header + text[at:]
-    return text
+    return text[:at] + header + text[at:]
+
+
+def map_redirect_page():
+    """/places/map.html: older links land here, one click from the map in each language."""
+    links = "".join(f'<li><a href="../{c}/places/map.html" lang="{c}" hreflang="{c}">{NAMES[c]}</a></li>' for c in LANGS)
+    return ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+            "<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'self'; base-uri 'none'\">\n"
+            '<meta http-equiv="refresh" content="0; url=../en/places/map.html">\n<title>Map / Carte / Kaart</title>\n'
+            '<link rel="stylesheet" href="../assets/site.css">\n</head>\n<body>\n<main id="main">\n'
+            f"<h1>Map / Carte / Kaart</h1>\n<ul class=\"choose\">{links}</ul>\n</main>\n</body>\n</html>\n")
 
 
 def place_links(public):
@@ -719,7 +730,7 @@ def landing_body(lang, index, pointers, folders, files, has_zoning=False, has_wh
 <li><a href="finance/index.html">{e(ui['finance'])}</a>, {e(ui['e_finance'])}</li>
 <li><a href="places/index.html">{e(ui['e_places'])}</a></li>
 {f'<li><a href="zoning/index.html">{e(ui["e_zoning"])}</a></li>' if has_zoning else ''}
-<li><a href="../places/map.html">{e(ui['e_map'])}</a> ({e(ui['map'])})</li>
+<li><a href="places/map.html">{e(ui['e_map'])}</a></li>
 </ul>
 <h2 id="minutes">{e(ui['minutes_h'])}</h2>
 {minutes}
@@ -837,14 +848,20 @@ def build(out_dir, public="public", data="data"):
         shutil.copyfile(public / "index.json", out / "index.json")
     if (public / "minutes").exists():
         shutil.copytree(public / "minutes", out / "minutes")
-    for name in ("map.html", "places.json"):
-        if (public / "places" / name).exists():
-            (out / "places").mkdir(exist_ok=True)
-            if name == "map.html":
-                text = (public / "places" / name).read_text(encoding="utf-8")
-                (out / "places" / name).write_text(map_with_site_navigation(text) if "<body>" in text else text, encoding="utf-8")
-            else:
-                shutil.copyfile(public / "places" / name, out / "places" / name)
+    if (public / "places" / "places.json").exists():
+        (out / "places").mkdir(exist_ok=True)
+        shutil.copyfile(public / "places" / "places.json", out / "places" / "places.json")
+    for lang, name in (("en", "map.html"), ("fr", "map.fr.html"), ("nl", "map.nl.html")):
+        source = public / "places" / name
+        if not source.exists() and lang != "en":
+            source = public / "places" / "map.html"                     # not generated yet: the English map
+        if source.exists():
+            text = source.read_text(encoding="utf-8")
+            (out / lang / "places").mkdir(parents=True, exist_ok=True)
+            (out / lang / "places" / "map.html").write_text(map_with_site_navigation(text, lang) if "<body>" in text else text, encoding="utf-8")
+    if (public / "places" / "map.html").exists():
+        (out / "places").mkdir(exist_ok=True)
+        (out / "places" / "map.html").write_text(map_redirect_page(), encoding="utf-8")
     if (data / "where_to_find_mairie.json").exists():
         shutil.copyfile(data / "where_to_find_mairie.json", out / "where_to_find_mairie.json")
     (out / "index.html").write_text(chooser(), encoding="utf-8")
