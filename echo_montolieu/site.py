@@ -35,6 +35,7 @@ KEY = "echo-lang"
 
 UI = {
     "en": {
+        "places_h": "Places discussed in this meeting", "places_note": "Each place was found in the minutes and confirmed by the national address database; the link opens it on OpenStreetMap. A pin shows where the street or place is, not the exact spot a decision concerned. Not every place is found.", "page_abbr": "page",
         "summary": "Summary", "full": "Full minutes", "facts_l": "Facts", "todo_l": "Follow-ups", "orig": "Original",
         "no_summary": "no summary yet", "data_l": "Data", "meeting_nav": "This meeting", "col_date": "Date",
         "meetings_intro": "One page per meeting: an AI-written summary where one exists, the full minutes tidied for reading, and a link to the original. Dates link to the summary when there is one, otherwise to the full minutes.",
@@ -70,6 +71,7 @@ UI = {
         "chooser_p": "Choose your language",
     },
     "fr": {
+        "places_h": "Lieux évoqués dans cette séance", "places_note": "Chaque lieu a été repéré dans le procès-verbal et confirmé par la Base Adresse Nationale ; le lien l’ouvre sur OpenStreetMap. Le repère montre où se trouve la rue ou le lieu, pas l’endroit exact concerné par une décision. Tous les lieux ne sont pas trouvés.", "page_abbr": "page",
         "summary": "Résumé", "full": "Procès-verbal complet", "facts_l": "Faits", "todo_l": "Suites", "orig": "Original",
         "no_summary": "pas encore de résumé", "data_l": "Données", "meeting_nav": "Cette séance", "col_date": "Date",
         "meetings_intro": "Une page par séance : un résumé écrit par une IA quand il existe, le procès-verbal complet mis en forme pour la lecture, et un lien vers l’original. La date mène au résumé s’il existe, sinon au procès-verbal complet.",
@@ -105,6 +107,7 @@ UI = {
         "chooser_p": "Choisissez votre langue",
     },
     "nl": {
+        "places_h": "Plaatsen die in deze vergadering aan bod kwamen", "places_note": "Elke plaats is in de notulen gevonden en bevestigd door de nationale adressendatabase; de link opent ze op OpenStreetMap. Een speld toont waar de straat of plaats ligt, niet de exacte plek waarop een besluit betrekking had. Niet elke plaats wordt gevonden.", "page_abbr": "pagina",
         "summary": "Samenvatting", "full": "Volledige notulen", "facts_l": "Feiten", "todo_l": "Vervolg", "orig": "Origineel",
         "no_summary": "nog geen samenvatting", "data_l": "Gegevens", "meeting_nav": "Deze vergadering", "col_date": "Datum",
         "meetings_intro": "Eén pagina per vergadering: een door AI geschreven samenvatting waar die bestaat, de volledige notulen leesbaar opgemaakt, en een link naar het origineel. De datum verwijst naar de samenvatting, anders naar de volledige notulen.",
@@ -378,6 +381,41 @@ def meetings_index_body(lang, index, folders, files):
     return "\n".join(parts)
 
 
+def _insert_after_h1(body, section):
+    """Put `section` right after the page's first heading (after the navigation strip, before the long text)."""
+    if not section:
+        return body
+    m = re.search(r"</h1>", body)
+    return body[:m.end()] + section + body[m.end():] if m else section + body
+
+
+def place_links(public):
+    """folder -> places confirmed for that meeting: [{label, kind, osm, pages: [(page, url)]}]."""
+    from .places import _osm
+    data = _read_json(Path(public) / "places" / "places.json", {})
+    out = {}
+    for p in data.get("places", []):
+        by_folder = {}
+        for it in p.get("items", []):
+            by_folder.setdefault(it["folder"], []).append((it["page"], it.get("url")))
+        for folder, pages in by_folder.items():
+            out.setdefault(folder, []).append({"label": p["label"], "kind": p.get("kind"), "osm": _osm(p), "pages": sorted(set(pages))})
+    return out
+
+
+def places_section(lang, found):
+    """OpenStreetMap links for the places confirmed in one meeting; empty when there are none."""
+    if not found:
+        return ""
+    ui, e = UI[lang], html.escape
+    items = []
+    for p in sorted(found, key=lambda p: p["label"]):
+        pages = ", ".join((f'<a href="{e(u)}#page={n}">{e(ui["page_abbr"])} {n}</a>' if u else f'{e(ui["page_abbr"])} {n}') for n, u in p["pages"])
+        items.append(f'<li><a href="{e(p["osm"])}" lang="fr">{e(p["label"])}</a> ({e(p["kind"] or "")}; {pages})</li>')
+    return (f'<section aria-labelledby="places-h"><h2 id="places-h">{e(ui["places_h"])}</h2>'
+            f'<ul>{"".join(items)}</ul><p class="note">{e(ui["places_note"])}</p></section>')
+
+
 def meeting_nav(lang, folder, name, files):
     """Strip at the top of a meeting page linking its sibling pages (summary, full minutes, facts, follow-ups)."""
     ui, e = UI[lang], html.escape
@@ -562,6 +600,7 @@ def build(out_dir, public="public", data="data"):
     (out / ".nojekyll").write_text("", encoding="utf-8")
 
     folders = folders_by_document(public)
+    place_map = place_links(public)
     for lang in LANGS:
         pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders, meeting_files(public), (public / 'zoning' / 'index.md').exists()))]
         for base in page_bases(public):
@@ -577,6 +616,8 @@ def build(out_dir, public="public", data="data"):
                 body, content_lang = meetings_index_body(lang, index, folders, meeting_files(public)), lang
             elif len(parts) == 3 and parts[0] == "meetings":
                 body = meeting_nav(lang, parts[1], parts[2], meeting_files(public)) + body
+                if parts[2] == "minutes":
+                    body = _insert_after_h1(body, places_section(lang, place_map.get(parts[1])))
             pages.append(Page(lang, base + ".html", first_heading(text, base), body, content_lang))
         for page in pages:
             target = out / lang / page.rel
