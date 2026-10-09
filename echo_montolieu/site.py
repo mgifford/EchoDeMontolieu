@@ -392,9 +392,13 @@ def _insert_after_h1(body, section):
 def place_links(public):
     """folder -> places confirmed for that meeting: [{label, kind, osm, pages: [(page, url)]}]."""
     from .places import _osm
-    data = _read_json(Path(public) / "places" / "places.json", {})
+    try:
+        data = _read_json(Path(public) / "places" / "places.json", {})
+        places = data.get("places", []) if isinstance(data, dict) else []
+    except ValueError:                  # an unreadable places file just means no place links
+        places = []
     out = {}
-    for p in data.get("places", []):
+    for p in places:
         by_folder = {}
         for it in p.get("items", []):
             by_folder.setdefault(it["folder"], []).append((it["page"], it.get("url")))
