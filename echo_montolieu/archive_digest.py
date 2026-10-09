@@ -134,28 +134,42 @@ LABELS = {
         "sales": "Avis de vente de biens privés : {n} (comptés seulement).",
         "none": "Aucune phrase de vote n’a été reconnue dans ce procès-verbal. Lisez le [texte complet](minutes.md).",
         "decision": "Décision {n}", "vote": "Vote", "for": "pour", "against": "contre", "abstentions": "abstentions",
-        "kind": {"unanimous": "à l’unanimité", "majority": "à la majorité", "rejected": "rejeté"}, "quote": ""},
+        "kind": {"unanimous": "à l’unanimité", "majority": "à la majorité", "rejected": "rejeté"}, "quote": "",
+        "tr": "", "orig": "", "note_tr": ""},
     "en": {
         "title": "Decisions and votes: {date}", "note": "Cautious automatic reading of an old set of minutes (recovered from the Internet Archive). Only sentences that state a vote are kept, with the sentence before. **All names are replaced** (more than strictly needed, on purpose: an unfamiliar place name may be replaced too) and lists of voters are removed. Private property sales are counted, not quoted. **The quoted sentences are in French, the language of the minutes, and are not translated yet.** The full French text and the original PDF are authoritative.",
         "found": "Votes found: {n} ({u} unanimous, {m} by majority, {r} rejected).",
         "sales": "Private property sale notices: {n} (counted only).",
         "none": "No vote sentence was recognised in these minutes. Read the [full text](minutes.md) (in French).",
         "decision": "Decision {n}", "vote": "Vote", "for": "for", "against": "against", "abstentions": "abstentions",
-        "kind": {"unanimous": "unanimous", "majority": "by majority", "rejected": "rejected"}, "quote": "French text:"},
+        "kind": {"unanimous": "unanimous", "majority": "by majority", "rejected": "rejected"}, "quote": "French text:",
+        "tr": "Machine translation:", "orig": "French original:",
+        "note_tr": "Cautious automatic reading of an old set of minutes (recovered from the Internet Archive). Only sentences that state a vote are kept, with the sentence before. **All names are replaced** (more than strictly needed, on purpose) and lists of voters are removed. Private property sales are counted, not quoted. **The quoted sentences were machine-translated from the French, which is shown under each one; the French is authoritative.** The original PDF is authoritative too."},
     "nl": {
         "title": "Besluiten en stemmingen: {date}", "note": "Voorzichtige automatische lezing van oude notulen (teruggevonden in het Internet Archive). Alleen zinnen die een stemming vermelden zijn bewaard, met de zin ervoor. **Alle namen zijn vervangen** (bewust meer dan strikt nodig: ook een onbekende plaatsnaam kan vervangen zijn) en lijsten van stemmers zijn verwijderd. Verkopen van particuliere panden worden geteld, niet geciteerd. **De geciteerde zinnen staan in het Frans, de taal van de notulen, en zijn nog niet vertaald.** De volledige Franse tekst en de originele pdf zijn leidend.",
         "found": "Gevonden stemmingen: {n} ({u} unaniem, {m} bij meerderheid, {r} verworpen).",
         "sales": "Meldingen van verkoop van particuliere panden: {n} (alleen geteld).",
         "none": "In deze notulen is geen zin met een stemming herkend. Lees de [volledige tekst](minutes.md) (in het Frans).",
         "decision": "Besluit {n}", "vote": "Stemming", "for": "voor", "against": "tegen", "abstentions": "onthoudingen",
-        "kind": {"unanimous": "unaniem", "majority": "bij meerderheid", "rejected": "verworpen"}, "quote": "Franse tekst:"},
+        "kind": {"unanimous": "unaniem", "majority": "bij meerderheid", "rejected": "verworpen"}, "quote": "Franse tekst:",
+        "tr": "Machinevertaling:", "orig": "Frans origineel:",
+        "note_tr": "Voorzichtige automatische lezing van oude notulen (teruggevonden in het Internet Archive). Alleen zinnen die een stemming vermelden zijn bewaard, met de zin ervoor. **Alle namen zijn vervangen** (bewust meer dan strikt nodig) en lijsten van stemmers zijn verwijderd. Verkopen van particuliere panden worden geteld, niet geciteerd. **De geciteerde zinnen zijn machinaal uit het Frans vertaald; het Frans staat eronder en is leidend.** De originele pdf is ook leidend."},
 }
 
 
-def render_facts(rec, d, date, lang="fr"):
+def facts_sha(rec, d, date):
+    """Fingerprint of the French page: a translation made from different French is stale."""
+    import hashlib
+    return hashlib.sha256(render_facts(rec, d, date, "fr").encode("utf-8")).hexdigest()
+
+
+def render_facts(rec, d, date, lang="fr", translated=None, model=None):
+    """The decisions page. `translated` maps a decision's index to (text, ok) when a model translated the quotes."""
     L = LABELS[lang]
     kinds = Counter(x["kind"] for x in d["decisions"])
-    out = [f"# {L['title'].format(date=date)}", "", disclosure.markdown("rules", lang), "", f"> {L['note']}", "",
+    note = L["note_tr"] if translated is not None else L["note"]
+    kind = "translation" if translated is not None else "rules"
+    out = [f"# {L['title'].format(date=date)}", "", disclosure.markdown(kind, lang, model), "", f"> {note}", "",
            f"- {L['found'].format(n=len(d['decisions']), u=kinds.get('unanimous', 0), m=kinds.get('majority', 0), r=kinds.get('rejected', 0))}",
            f"- {L['sales'].format(n=d['sale_notices'])}", ""]
     if not d["decisions"]:
@@ -163,8 +177,13 @@ def render_facts(rec, d, date, lang="fr"):
     for n, x in enumerate(d["decisions"], 1):
         link = f"[p.{x['page']}]({x['page_url']})" if x.get("page_url") else f"p.{x['page']}"
         counts = ", ".join(f"{L[label]} {x[k]}" for label, k in (("for", "for"), ("against", "against"), ("abstentions", "abstentions")) if x[k])
-        out += [f"## {L['decision'].format(n=n)} ({link})", "", f"{L['quote']} “{x['text']}”".strip(), "",
-                f"{L['vote']}: {L['kind'][x['kind']]}{' (' + counts + ')' if counts else ''}.", ""]
+        out += [f"## {L['decision'].format(n=n)} ({link})", ""]
+        got = translated.get(n - 1) if translated is not None else None
+        if got and got[1]:
+            out += [f"{L['tr']} “{got[0]}”", "", f"{L['orig']} “{x['text']}”", ""]
+        else:
+            out += [f"{L['quote']} “{x['text']}”".strip(), ""]
+        out += [f"{L['vote']}: {L['kind'][x['kind']]}{' (' + counts + ')' if counts else ''}.", ""]
     return "\n".join(out).rstrip() + "\n"
 
 

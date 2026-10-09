@@ -36,6 +36,7 @@ KEY = "echo-lang"
 
 UI = {
     "en": {
+        "wn_short": "In short",
         "e_whatsnew": "What’s new and what to watch, from the latest minutes",
         "whatsnew": "What’s new",
         "wn_title": "What’s new and what to watch",
@@ -102,6 +103,7 @@ UI = {
         "chooser_p": "Choose your language",
     },
     "fr": {
+        "wn_short": "En bref",
         "e_whatsnew": "Nouveautés et points à suivre, d’après les derniers procès-verbaux",
         "whatsnew": "Nouveautés",
         "wn_title": "Nouveautés et points à suivre",
@@ -168,6 +170,7 @@ UI = {
         "chooser_p": "Choisissez votre langue",
     },
     "nl": {
+        "wn_short": "In het kort",
         "e_whatsnew": "Nieuw en om in de gaten te houden, uit de laatste notulen",
         "whatsnew": "Nieuw",
         "wn_title": "Nieuw en om in de gaten te houden",
@@ -540,13 +543,21 @@ def meeting_nav(lang, folder, name, files):
     return f'<nav class="mnav" aria-label="{e(ui["meeting_nav"])}"><ul>{"".join(items)}</ul></nav>' if len(items) > 1 else ""
 
 
-def whats_new_body(lang, data, files):
+def whats_new_body(lang, data, files, intro=None):
     """The What's new page: latest meetings, what came back, what was postponed or dated, what to watch."""
     ui, e = UI[lang], html.escape
     fr = lambda text: f'<span lang="fr">{e(text)}</span>'
     plink = lambda row: f'<a href="{e(row["page_url"])}">{e(ui["page_abbr"])} {row["page"]}</a>'
     parts = [f'<h1>{e(ui["wn_title"])}</h1>', disclosure.html("rules", lang), f'<p>{e(ui["wn_intro"])}</p>',
              f'<p><a href="feed.xml">{e(ui["wn_feed"])}</a></p>']
+    texts = (intro or {}).get("texts") or {}
+    shown = texts.get(lang) or texts.get("fr")
+    if shown:
+        shown_lang = lang if texts.get(lang) else "fr"
+        kind = "summary_translation" if shown_lang != "fr" else "summary"
+        note = f'<p class="note">{e(ui["fallback"].format(want=LANG_IN[lang][lang], have=LANG_IN[lang]["fr"]))}</p>' if shown_lang != lang else ""
+        parts.append(f'<section aria-labelledby="wn-short-h"><h2 id="wn-short-h">{e(ui["wn_short"])}</h2>'
+                     f'{disclosure.html(kind, lang, shown["model"])}{note}<p lang="{shown_lang}">{e(shown["text"])}</p></section>')
     parts.append(f'<h2>{e(ui["wn_latest"])}</h2>')
     for m in data["recent_meetings"]:
         links = " · ".join(f'<a href="../meetings/{e(href)}">{e(label)}</a>' for label, href in meeting_links(lang, m["folder"], files.get(m["folder"], set())))
@@ -781,7 +792,7 @@ def build(out_dir, public="public", data="data"):
     for lang in LANGS:
         pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders, meeting_files(public), (public / 'zoning' / 'index.md').exists(), (public / 'whats-new' / 'whats-new.json').exists()))]
         if whats and whats.get("latest"):
-            pages.append(Page(lang, "whats-new/index.html", UI[lang]["wn_title"], whats_new_body(lang, whats, meeting_files(public))))
+            pages.append(Page(lang, "whats-new/index.html", UI[lang]["wn_title"], whats_new_body(lang, whats, meeting_files(public), _read_json(public / "whats-new" / "intro.json", None))))
             feed = out / lang / "whats-new" / "feed.xml"
             feed.parent.mkdir(parents=True, exist_ok=True)
             feed.write_text(whats_new_feed(lang, whats, meeting_files(public)), encoding="utf-8")

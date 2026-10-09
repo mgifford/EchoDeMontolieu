@@ -14,8 +14,10 @@ name: Generate summaries and translations
 # run "Deploy GitHub Pages" and the accessibility audit by hand from the Actions tab if you want them.
 #
 # What it never does: it never reads private/ (that folder does not exist on the runner), never runs the
-# private parcel map, never sends sale notices or archived (2003-2008) minutes to a model, and never prints
-# the token. Inputs reach the shell only through environment variables and are validated first.
+# private parcel map, never sends sale notices to a model, and of the archived (2003-2008) minutes sends only the scrubbed decision
+# sentences (names already replaced), never their full text, and never prints
+# the token. It also writes the English and Dutch of the 2003-2008 decisions pages and the model-written "In short"
+# paragraph of the What's new page. Inputs reach the shell only through environment variables and are validated first.
 on:
   workflow_dispatch:
     inputs:

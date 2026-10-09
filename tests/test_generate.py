@@ -52,6 +52,7 @@ def run(tmp_path, client=None, **kw):
     public = make_public(tmp_path) if not (tmp_path / "public").exists() else tmp_path / "public"
     client = client or Smart()
     summ, trans = ChatModel("sum-model", client=client), ChatTranslator("tr-model", client=client)
+    kw.setdefault("extras", False)           # the 2003-2008 pages and the What's new paragraph have their own tests
     report = generate(public, summ, trans, ["en", "nl"], **kw)
     return public / "meetings" / "2025-03-05", client, report
 
