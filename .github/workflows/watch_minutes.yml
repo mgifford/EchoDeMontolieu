@@ -1,0 +1,50 @@
+name: Watch for new minutes
+
+# Once a week (and on demand) this makes ONE polite request for the Mairie's minutes page and compares it with the minutes
+# already published here. If there are new files it opens an issue that links them. It downloads, extracts and publishes
+# nothing: the version history lives in private/ on the maintainer's computer, so adding a new PDF is still done there.
+#
+# If the Mairie's site refuses the request (a 403, a 429 or a server error) the job fails and GitHub tells you; try again later
+# or run the check from your own computer. GitHub pauses scheduled workflows after 60 days without activity in the repository.
+on:
+  schedule:
+    - cron: "37 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: watch-minutes
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    if: github.repository == 'mgifford/EchoDeMontolieu'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the three libraries the check imports
+        run: pip install requests beautifulsoup4 lxml
+      - name: Check the Mairie's minutes page
+        run: python -m echo_montolieu.watch --report watch_report.json --issue watch_issue.md
+      - name: Open an issue if there is something new
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -f watch_issue.md ]; then
+            echo "Nothing new."
+            exit 0
+          fi
+          title=$(cat watch_issue.md.title)
+          gh label create new-minutes --color 0E8A16 --description "New minutes on the Mairie's site" --force >/dev/null
+          if gh issue list --state open --label new-minutes --json title --jq '.[].title' | grep -Fxq "$title"; then
+            echo "An open issue already covers these files."
+            exit 0
+          fi
+          gh issue create --title "$title" --label new-minutes --body-file watch_issue.md

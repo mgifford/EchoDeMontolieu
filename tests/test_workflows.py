@@ -32,3 +32,13 @@ def test_generate_workflow_keeps_inputs_out_of_shell_and_the_token_out_of_the_pr
 def test_generate_workflow_refuses_private_paths_and_caps_spend():
     text = _text("generate.yml")
     assert "private/" in text and "<= 5" in text and "--max-usd" in text
+
+
+def test_watch_workflow_is_read_only_apart_from_issues_and_uses_no_secrets():
+    text = _text("watch_minutes.yml")
+    assert "schedule:" in text and "workflow_dispatch:" in text and "pull_request" not in text
+    assert "contents: read" in text and "issues: write" in text and "contents: write" not in text
+    assert "secrets." not in text.replace("github.token", "") and "HF_TOKEN" not in text
+    runs = re.findall(r"run: \|\n((?:\s{10,}.*\n)+)", text)
+    assert runs and not any("${{" in block for block in runs)
+    assert "echo_montolieu.watch" in text and "sync" not in text.split("on:\n", 1)[1].replace("# ", "").split("jobs:")[1]
