@@ -197,3 +197,46 @@ def test_unconfirmed_places_get_openstreetmap_search_links_but_no_pins(tmp_path)
     assert "Other place names mentioned, not confirmed" in page and "openstreetmap.org/search?query=place%20du%20Foirail%2C%20Montolieu" in page
     assert "Places discussed in this meeting" not in page and "mlat=" not in page and "x.pdf#page=2" in page
     assert "Autres noms de lieux cités" in (out / "fr/meetings/2005-01-25/minutes.html").read_text()
+
+
+def _whats_new_public(tmp_path):
+    import json
+    public, data = tmp_path / "public", tmp_path / "data"
+    (public / "whats-new").mkdir(parents=True); (public / "meetings" / "2026-07-22").mkdir(parents=True); data.mkdir()
+    (public / "meetings" / "2026-07-22" / "minutes.md").write_text("---\ndocument_id: aaaaaaaaaaaa\nlanguage: fr\n---\n# Conseil\n\ntexte\n")
+    (public / "whats-new" / "whats-new.json").write_text(json.dumps({
+        "latest": "2026-07-22",
+        "recent_meetings": [{"date": "2026-07-22", "folder": "2026-07-22", "source_url": "https://example.org/x.pdf", "sale_notices": 1, "decisions": [
+            {"title": "Décision modificative budgétaire", "vote": "unanimous", "page": 3, "page_url": "https://example.org/x.pdf#page=3", "topics": ["finances"]}]}],
+        "feed_meetings": [{"date": "2026-07-22", "folder": "2026-07-22", "decisions": 1}],
+        "coming_back": [{"title": "Convention MVDL", "meetings": ["2024-10-23", "2026-07-22"], "n_meetings": 2, "last": "2026-07-22"}],
+        "pending": [{"date": "2026-06-26", "title": "Redevance", "type": "planned", "sentence": "Une caution sera demandée.", "page": 1, "page_url": "https://example.org/y.pdf#page=1"}],
+        "dates_mentioned": [{"meeting": "2026-06-05", "mentioned": "2026-09-27", "sentence": "Les élections auront lieu le 27 septembre 2026.", "title": "t", "page": 1, "page_url": "https://example.org/z.pdf#page=1"}],
+        "possibly_dropped": [{"title": "Projet X", "last": "2025-06-24", "later_meetings": 5, "sentence": "reporté"}],
+        "watch": [{"topic": "urbanisme", "items_last_year": 6, "meetings_last_year": 4, "last": "2026-07-22"}]}))
+    return public, data
+
+
+def test_whats_new_page_and_feed_exist_in_each_language_and_are_linked(tmp_path):
+    import xml.dom.minidom
+    public, data = _whats_new_public(tmp_path)
+    out = build(tmp_path / "_site", public, data)
+    for lang, word, date, vote in (("en", "What’s new and what to watch", "22 July 2026", "unanimous"), ("fr", "Nouveautés et points à suivre", "22 juillet 2026", "à l’unanimité"),
+                                   ("nl", "Nieuw en om in de gaten te houden", "22 juli 2026", "unaniem")):
+        page = (out / lang / "whats-new/index.html").read_text()
+        assert word in page and date in page and vote in page and "example.org/x.pdf#page=3" in page
+        assert 'href="feed.xml"' in page and "27 septembre 2026" in page or lang != "fr"
+        assert 'aria-current="page"' in page                                                 # the navigation marks this page
+        assert 'href="whats-new/index.html"' in (out / lang / "index.html").read_text()     # linked from the home page
+        assert page.count("whats-new/index.html") >= 1 and "whats-new/index.html" in (out / lang / "index.html").read_text()
+        feed = xml.dom.minidom.parse(str(out / lang / "whats-new/feed.xml"))
+        assert feed.getElementsByTagName("updated")[0].firstChild.data == "2026-07-22T00:00:00Z"
+        assert "meetings/2026-07-22/minutes.html" in feed.getElementsByTagName("link")[2].getAttribute("href")
+
+
+def test_whats_new_builds_are_reproducible_and_absent_without_data(tmp_path):
+    public, data = _whats_new_public(tmp_path)
+    a = (build(tmp_path / "a", public, data) / "en/whats-new/feed.xml").read_text()
+    assert a == (build(tmp_path / "b", public, data) / "en/whats-new/feed.xml").read_text()
+    (public / "whats-new" / "whats-new.json").unlink()
+    assert not (build(tmp_path / "c", public, data) / "en/whats-new").exists()
