@@ -520,9 +520,13 @@ def _insert_after_h1(body, section):
     return body[:m.end()] + section + body[m.end():] if m else section + body
 
 
+def _osm_pin(p):
+    """OpenStreetMap link to a pin. Written here, not imported from places.py, so the site builder keeps its one dependency."""
+    return f"https://www.openstreetmap.org/?mlat={p['lat']:.6f}&mlon={p['lon']:.6f}#map=18/{p['lat']:.6f}/{p['lon']:.6f}"
+
+
 def place_links(public):
     """folder -> {"confirmed": [{label, kind, osm, pages}], "unconfirmed": [{label, kind, search, pages}]}."""
-    from .places import _osm
     try:
         data = _read_json(Path(public) / "places" / "places.json", {})
         data = data if isinstance(data, dict) else {}
@@ -538,7 +542,7 @@ def place_links(public):
             out.setdefault(folder, {"confirmed": [], "unconfirmed": []})[kind].append({**entry, "pages": sorted(set(pages))})
 
     for p in data.get("places", []):
-        add("confirmed", {"label": p["label"], "kind": p.get("kind"), "osm": _osm(p)}, p.get("items", []))
+        add("confirmed", {"label": p["label"], "kind": p.get("kind"), "osm": _osm_pin(p)}, p.get("items", []))
     for m in data.get("unconfirmed_mentions", []):
         add("unconfirmed", {"label": m["label"], "kind": m.get("kind"), "search": m["search"]}, m.get("items", []))
     return out

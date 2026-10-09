@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 from echo_montolieu.site import build
 
@@ -40,3 +41,16 @@ def test_site_contains_only_published_data(tmp_path):
     assert (out / "places" / "map.html").exists() and (out / "places" / "places.json").exists()
     assert "SECRET" not in "".join(p.read_text() for p in out.rglob("*") if p.is_file())
     assert not (out / "redacted").exists() and "Redacted page" not in "".join(p.read_text() for p in out.rglob("*.html"))
+
+
+def test_site_builder_needs_only_markdown_it_not_requests_or_the_pipeline(tmp_path):
+    """The Pages workflow installs markdown-it-py alone; an import of anything heavier broke the deploy once."""
+    import subprocess
+    import sys
+    code = ("import sys\n"
+            "for name in ('requests', 'fitz', 'pytesseract', 'huggingface_hub', 'bs4', 'lxml', 'PIL', 'fastapi', 'mcp'):\n"
+            "    sys.modules[name] = None\n"
+            "from echo_montolieu.site import build\n"
+            "print(build(sys.argv[1], 'public', 'data'))\n")
+    done = subprocess.run([sys.executable, "-c", code, str(tmp_path / "_site")], capture_output=True, text=True, cwd=Path(__file__).resolve().parent.parent)
+    assert done.returncode == 0, done.stderr[-600:]
