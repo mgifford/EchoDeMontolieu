@@ -163,8 +163,8 @@ def test_heading_ids_ignore_the_trailing_page_mark_so_contents_links_work():
     assert 'id="budget"' in out
 
 
-def test_map_link_in_the_places_list_points_at_the_shared_map():
-    assert 'href="../../places/map.html"' in render_markdown("[map](map.html)\n", "Table", root="../../")
+def test_map_link_in_the_places_list_stays_in_the_languages_places_folder():
+    assert 'href="map.html"' in render_markdown("[map](map.html)\n", "Table", root="../../")
 
 
 def test_two_tables_on_one_page_get_different_region_names():

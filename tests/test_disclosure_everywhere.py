@@ -37,7 +37,8 @@ def test_every_published_json_carries_the_disclosure_fields():
 def test_published_html_names_ai():
     for f in _files("*.html"):
         t = f.read_text(encoding="utf-8")
-        assert "AI disclosure." in t and disclosure.AI_PAGE_URL in t, f
+        headings = [disclosure._TEXT[lang]["heading"] for lang in ("en", "fr", "nl")]       # the map pages exist in all three languages
+        assert any(h in t for h in headings) and disclosure.AI_PAGE_URL in t, f
 
 
 def test_documents_carry_a_disclosure():
