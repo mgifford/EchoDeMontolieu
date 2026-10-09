@@ -61,7 +61,7 @@ def test_map_is_published_in_each_language_with_the_site_navigation_and_old_link
     (public / "places").mkdir(parents=True); data.mkdir()
     page = ("<!doctype html><html lang=\"{lang}\"><head><meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; "
             "script-src 'sha256-s' https://unpkg.com; style-src 'sha256-x' https://unpkg.com\"><style>body{{}}</style></head><body>\n"
-            "<a class=\"skip\" href=\"#list\">Skip {lang}</a>\n<header><h1>Places {lang}</h1></header>\n<main></main></body></html>")
+            "<a class=\"skip\" href=\"#list\">Skip {lang}</a>\n<header><h1>Places {lang}</h1></header>\n<main id=\"main\"></main></body></html>")
     for lang, name in (("en", "map.html"), ("fr", "map.fr.html"), ("nl", "map.nl.html")):
         (public / "places" / name).write_text(page.format(lang=lang))
     out = build(tmp_path / "_site", public, data)
@@ -71,6 +71,7 @@ def test_map_is_published_in_each_language_with_the_site_navigation_and_old_link
         assert 'aria-current="page">' in text and label in text and "(English only)" not in text
         assert 'href="../whats-new/index.html"' in text and 'href="../index.html"' in text
         assert 'href="../../fr/places/map.html"' in text and 'href="../../nl/places/map.html"' in text and 'href="../../en/places/map.html"' in text
+        assert text.count("<header") == 1 and text.index('<main') < text.index(f"<h1>Places {lang}</h1>")           # one banner landmark, and the title inside <main>
         assert 'href="../../assets/site.css"' in text and "style-src 'self' 'sha256-x'" in text and "script-src 'self' 'sha256-s'" in text
     old = (out / "places" / "map.html").read_text()                      # links that predate the languages still land somewhere useful
     assert 'url=../en/places/map.html' in old and all(f'href="../{c}/places/map.html"' in old for c in ("en", "fr", "nl"))
