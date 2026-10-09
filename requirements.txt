@@ -14,3 +14,5 @@ markdown-it-py
 fastapi
 httpx
 pytest
+# MCP server over the public database (1.x API; 2.x renamed it)
+mcp>=1.9,<2

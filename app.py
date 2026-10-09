@@ -13,6 +13,7 @@ import os
 import re
 import time
 from collections import deque
+from contextlib import asynccontextmanager
 from pathlib import Path
 
 from echo_montolieu import disclosure
@@ -207,7 +208,24 @@ def create_app(public_dir=None, data_dir=None, limiter=None, trust_proxy=None):
                                      float(os.environ.get("ECHO_RATE_WINDOW", "60")))
     if trust_proxy is None:
         trust_proxy = os.environ.get("ECHO_TRUST_PROXY") == "1"
-    app = FastAPI(title="L'Écho de Montolieu", docs_url=None, redoc_url=None, openapi_url=None)
+    db_path = Path(os.environ.get("ECHO_DB", "data/echo.db"))
+    mcp_server = None
+    if db_path.exists() and os.environ.get("ECHO_MCP", "1") != "0":
+        try:
+            from echo_montolieu import mcp_server as mcp_module
+            mcp_server = mcp_module.build_server(db_path, mcp_module.allowed_hosts_from(os.environ))
+        except ImportError:        # the mcp package is optional; the rest of the site works without it
+            mcp_server = None
+
+    @asynccontextmanager
+    async def lifespan(_app):
+        if mcp_server is None:
+            yield
+        else:
+            async with mcp_server.session_manager.run():
+                yield
+
+    app = FastAPI(title="L'Écho de Montolieu", docs_url=None, redoc_url=None, openapi_url=None, lifespan=lifespan)
 
     @app.middleware("http")
     async def guard(request: Request, call_next):
@@ -233,7 +251,9 @@ def create_app(public_dir=None, data_dir=None, limiter=None, trust_proxy=None):
         return _landing(_read_json(public / "index.json", {}),
                         _read_json(data / "where_to_find_mairie.json", {}))
 
-    db_path = Path(os.environ.get("ECHO_DB", "data/echo.db"))
+    if mcp_server is not None:
+        # One process, one port: the MCP endpoint is /mcp (streamable HTTP), behind the same rate limiter.
+        app.router.routes.extend(mcp_server.streamable_http_app().routes)
 
     @app.get("/api/search")
     def search(q: str = "", limit: int = 10, lang: str = None):
