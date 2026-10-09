@@ -35,6 +35,11 @@ KEY = "echo-lang"
 
 UI = {
     "en": {
+        "summary": "Summary", "full": "Full minutes", "facts_l": "Facts", "todo_l": "Follow-ups", "orig": "Original",
+        "no_summary": "no summary yet", "data_l": "Data", "meeting_nav": "This meeting", "col_date": "Date",
+        "meetings_intro": "One page per meeting: an AI-written summary where one exists, the full minutes tidied for reading, and a link to the original. Dates link to the summary when there is one, otherwise to the full minutes.",
+        "months": ("January","February","March","April","May","June","July","August","September","October","November","December"),
+        "datefmt": "{d} {m} {y}",
         "skip": "Skip to main content", "nav": "Main navigation", "language": "Language",
         "home": "Home", "minutes": "Council minutes", "meetings": "Meetings", "issues": "Issues over time",
         "finance": "Finance", "places": "Places", "map": "Map (English only)", "about_ai": "About AI",
@@ -65,6 +70,11 @@ UI = {
         "chooser_p": "Choose your language",
     },
     "fr": {
+        "summary": "Résumé", "full": "Procès-verbal complet", "facts_l": "Faits", "todo_l": "Suites", "orig": "Original",
+        "no_summary": "pas encore de résumé", "data_l": "Données", "meeting_nav": "Cette séance", "col_date": "Date",
+        "meetings_intro": "Une page par séance : un résumé écrit par une IA quand il existe, le procès-verbal complet mis en forme pour la lecture, et un lien vers l’original. La date mène au résumé s’il existe, sinon au procès-verbal complet.",
+        "months": ("janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"),
+        "datefmt": "{d} {m} {y}",
         "skip": "Aller au contenu principal", "nav": "Navigation principale", "language": "Langue",
         "home": "Accueil", "minutes": "Procès-verbaux", "meetings": "Séances", "issues": "Sujets au fil du temps",
         "finance": "Finances", "places": "Lieux", "map": "Carte (en anglais)", "about_ai": "À propos de l’IA",
@@ -95,6 +105,11 @@ UI = {
         "chooser_p": "Choisissez votre langue",
     },
     "nl": {
+        "summary": "Samenvatting", "full": "Volledige notulen", "facts_l": "Feiten", "todo_l": "Vervolg", "orig": "Origineel",
+        "no_summary": "nog geen samenvatting", "data_l": "Gegevens", "meeting_nav": "Deze vergadering", "col_date": "Datum",
+        "meetings_intro": "Eén pagina per vergadering: een door AI geschreven samenvatting waar die bestaat, de volledige notulen leesbaar opgemaakt, en een link naar het origineel. De datum verwijst naar de samenvatting, anders naar de volledige notulen.",
+        "months": ("januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"),
+        "datefmt": "{d} {m} {y}",
         "skip": "Naar de hoofdinhoud", "nav": "Hoofdnavigatie", "language": "Taal",
         "home": "Home", "minutes": "Notulen", "meetings": "Vergaderingen", "issues": "Onderwerpen in de tijd",
         "finance": "Financiën", "places": "Plaatsen", "map": "Kaart (alleen Engels)", "about_ai": "Over AI",
@@ -293,34 +308,90 @@ def layout(page, available_langs):
 """
 
 
-def landing_body(lang, index, pointers, folders):
-    """Home page: alerts, introduction, explore links, the minutes grouped by year, where to find things."""
+def human_date(lang, iso):
+    """'2025-06-24' as '24 June 2025' (localised); anything else is returned unchanged."""
+    m = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", iso or "")
+    if not m:
+        return iso or ""
+    y, mo, d = m.groups()
+    day = "1er" if lang == "fr" and d == "01" else str(int(d))
+    return UI[lang]["datefmt"].format(d=day, m=UI[lang]["months"][int(mo) - 1], y=y)
+
+
+def meeting_files(public):
+    """folder -> set of page names that exist for it (minutes, summary, facts, todo), in any language."""
+    out = {}
+    for f in (Path(public) / "meetings").glob("*/*.md"):
+        name = re.sub(r"\.(?:en|nl)$", "", f.stem)
+        out.setdefault(f.parent.name, set()).add(name)
+    return out
+
+
+def meeting_links(lang, folder, have, prefix=""):
+    """Human-readable links to one meeting's pages: [(label, href)], summary first."""
+    ui = UI[lang]
+    pairs = [("summary", "summary"), ("full", "minutes"), ("facts_l", "facts"), ("todo_l", "todo")]
+    return [(ui[label], f"{prefix}{folder}/{name}.html") for label, name in pairs if name in have]
+
+
+def meetings_list(lang, index, folders, files, prefix="meetings/", up="../", every=False):
+    """The minutes as a list: a dated heading, then Summary, Full minutes and Original as plain links."""
     ui, e = UI[lang], html.escape
     by_year = {}
     docs = sorted(index.get("documents", []), key=lambda d: ((d.get("meeting_date") or {}).get("value") or "", d.get("filename") or ""), reverse=True)
     for d in docs:
         when = (d.get("meeting_date") or {}).get("value")
-        about = f'<span class="sr"> {e(ui["of"].format(date=when or ""))}</span>' if when else ""
-        links = []
         folder = folders.get(d["document_id"])
-        if folder:
-            links.append(f'<a href="meetings/{e(folder)}/minutes.html">{e(ui["read"])}{about}</a>')
+        shown = e(human_date(lang, when)) if when else e(ui["undated"])
+        about = f'<span class="sr"> {e(ui["of"].format(date=human_date(lang, when)))}</span>' if when else ""
+        have = files.get(folder, set()) if folder else set()
+        links = [f'<a href="{prefix}{e(href)}">{e(label)}{about}</a>' for label, href in meeting_links(lang, folder, have)
+                 if every or label in (ui["summary"], ui["full"])] if folder else []
+        if folder and "summary" not in have:
+            links.insert(0, f'<span class="note">{e(ui["no_summary"])}</span>')
         src = d.get("source_url")
         if src and src.startswith("https://"):
             label = ui["archive"] if src.startswith("https://web.archive.org/") else ui["pdf"]
             links.append(f'<a href="{e(src)}" lang="fr">{e(label)}{about}</a>')
-        links.append(f'<a href="../minutes/{e(d["document_id"])}.json">{e(ui["json"])}{about}</a>')
+        data = [f'<a href="{up}minutes/{e(d["document_id"])}.json">{e(ui["json"])}{about}</a>']
         n = d.get("versions", 1)
         flags = ""
         if n > 1:
-            links.append(f'<a href="../minutes/{e(d["document_id"])}/diff-v{n - 1}-v{n}.json">{e(ui["changes"].format(n=n))}{about}</a>')
+            data.append(f'<a href="{up}minutes/{e(d["document_id"])}/diff-v{n - 1}-v{n}.json">{e(ui["changes"].format(n=n))}{about}</a>')
             flags += " " + ui["revised"].format(n=n)
         if d.get("ocr_pages"):
             flags += " " + ui["ocr"].format(n=len(d["ocr_pages"]), r=len(d.get("needs_review_pages", [])))
-        label = e(when) if when else e(ui["undated"])
+        lead = f'<strong>{shown}</strong>{e(ui["draft"]) if d.get("draft_suspected") else ""}'
         by_year.setdefault(when[:4] if when else "undated", []).append(
-            f'<li><strong>{label}</strong> <span lang="fr">{e(d.get("filename") or d["document_id"])}</span>'
-            f'{e(ui["draft"]) if d.get("draft_suspected") else ""}: {", ".join(links)}.{e(flags)}</li>')
+            f'<li>{lead}: {" · ".join(links)}.{e(flags)} <span class="note">{e(ui["data_l"])}: {", ".join(data)}.</span></li>')
+    return by_year
+
+
+def meetings_index_body(lang, index, folders, files):
+    """The meetings page: every meeting by year with all its pages as plain links."""
+    ui, e = UI[lang], html.escape
+    by_year = meetings_list(lang, index, folders, files, prefix="", up="../../", every=True)
+    parts = [f'<h1>{e(ui["meetings"])}</h1>', disclosure.html("rules", lang), f'<p>{e(ui["meetings_intro"])}</p>']
+    for y in sorted((y for y in by_year if y != "undated"), reverse=True) + (["undated"] if "undated" in by_year else []):
+        heading = ui["undated"] if y == "undated" else y
+        parts.append(f'<h2 id="y{y}">{e(heading)}</h2><ul>{"".join(by_year[y])}</ul>')
+    return "\n".join(parts)
+
+
+def meeting_nav(lang, folder, name, files):
+    """Strip at the top of a meeting page linking its sibling pages (summary, full minutes, facts, follow-ups)."""
+    ui, e = UI[lang], html.escape
+    items = []
+    for label, href in meeting_links(lang, folder, files.get(folder, set())):
+        here = href.endswith(f"/{name}.html")
+        items.append(f'<li><a href="{e(href.split("/", 1)[1])}"{" aria-current=\"page\"" if here else ""}>{e(label)}</a></li>')
+    return f'<nav class="mnav" aria-label="{e(ui["meeting_nav"])}"><ul>{"".join(items)}</ul></nav>' if len(items) > 1 else ""
+
+
+def landing_body(lang, index, pointers, folders, files):
+    """Home page: alerts, introduction, explore links, the minutes grouped by year, where to find things."""
+    ui, e = UI[lang], html.escape
+    by_year = meetings_list(lang, index, folders, files)
     years = sorted((y for y in by_year if y != "undated"), reverse=True)
     total = sum(len(v) for v in by_year.values())
     if total:
@@ -442,6 +513,9 @@ th{background:var(--grey)}
 code{background:var(--grey);padding:0 .2rem;overflow-wrap:anywhere}
 pre{white-space:pre-wrap;overflow-wrap:anywhere;background:var(--grey);padding:.5rem}
 h1{font-size:1.7rem;line-height:1.25}
+.mnav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.25rem .5rem}
+.mnav a{display:inline-flex;align-items:center;min-height:44px;padding:0 .75rem;border:2px solid var(--brand);border-radius:4px;background:var(--tint)}
+.mnav a[aria-current]{background:var(--brand);color:#fff;font-weight:700}
 .choose{list-style:none;padding:0}
 .choose a{display:inline-block;min-height:44px;padding:.5rem 1rem;font-size:1.2rem}
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
@@ -488,7 +562,7 @@ def build(out_dir, public="public", data="data"):
 
     folders = folders_by_document(public)
     for lang in LANGS:
-        pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders))]
+        pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders, meeting_files(public)))]
         for base in page_bases(public):
             found = pick(public / base, lang)
             if not found:
@@ -497,6 +571,11 @@ def build(out_dir, public="public", data="data"):
             meta, text = split_front(path.read_text(encoding="utf-8"))
             text = _TRANSLATION_LINK.sub("", text)
             body = render_markdown(text, UI[lang]["table"], _up(base.count("/") + 1))
+            parts = base.split("/")
+            if base == "meetings/index":
+                body, content_lang = meetings_index_body(lang, index, folders, meeting_files(public)), lang
+            elif len(parts) == 3 and parts[0] == "meetings":
+                body = meeting_nav(lang, parts[1], parts[2], meeting_files(public)) + body
             pages.append(Page(lang, base + ".html", first_heading(text, base), body, content_lang))
         for page in pages:
             target = out / lang / page.rel
