@@ -1,0 +1,205 @@
+name: Generate summaries and translations
+
+# Run by hand (Actions tab, "Run workflow"; works from the GitHub phone app). It writes the model-written
+# French summaries and the English and Dutch versions for meetings that do not have them yet, optionally looks
+# up place names (national address database) and zoning (national planning portal), re-renders the pages,
+# runs the tests, and opens a pull request with the result for you to read before merging.
+#
+# Needs the repository secret HF_TOKEN. The model calls need a Hugging Face token with the permission
+# "Make calls to Inference Providers"; a token that can only push to the Space is refused at the preflight step
+# below, with a clear message, before anything is spent.
+#
+# Also needs Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+# Pull requests opened by this workflow do not start the other workflows (a GitHub rule for GITHUB_TOKEN);
+# run "Deploy GitHub Pages" and the accessibility audit by hand from the Actions tab if you want them.
+#
+# What it never does: it never reads private/ (that folder does not exist on the runner), never runs the
+# private parcel map, never sends sale notices or archived (2003-2008) minutes to a model, and never prints
+# the token. Inputs reach the shell only through environment variables and are validated first.
+on:
+  workflow_dispatch:
+    inputs:
+      max_usd:
+        description: "Hard spending cap in US dollars for the model calls (1 to 5)"
+        default: "2"
+        required: true
+      only:
+        description: "Only these meetings, space separated, such as 2026-07-22 2026-06-26 (empty = all missing)"
+        default: ""
+        required: false
+      summary_model:
+        description: "Model that writes the French summary"
+        default: "Qwen/Qwen3-235B-A22B-Instruct-2507:scaleway"
+        required: true
+      translation_model:
+        description: "Model that translates"
+        default: "google/gemma-3-27b-it"
+        required: true
+      geocode:
+        description: "Also look up place names in the national address database (polite, a few minutes)"
+        type: boolean
+        default: false
+      zoning:
+        description: "Also fetch planning and heritage zoning from the national planning portal"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: generate
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.repository == 'mgifford/EchoDeMontolieu'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Validate the inputs
+        env:
+          MAX_USD: ${{ inputs.max_usd }}
+          ONLY: ${{ inputs.only }}
+          SUMMARY_MODEL: ${{ inputs.summary_model }}
+          TRANSLATION_MODEL: ${{ inputs.translation_model }}
+        run: |
+          python - <<'PY'
+          import os, re, sys
+          problems = []
+          try:
+              if not 0 < float(os.environ["MAX_USD"]) <= 5:
+                  problems.append("max_usd must be above 0 and at most 5")
+          except ValueError:
+              problems.append("max_usd must be a number")
+          if not re.fullmatch(r"(\d{4}-\d{2}-\d{2}(-[0-9a-f]{12})?)?( \d{4}-\d{2}-\d{2}(-[0-9a-f]{12})?)*", os.environ["ONLY"].strip()):
+              problems.append("only must be meeting folders such as 2026-07-22, separated by spaces")
+          for name in ("SUMMARY_MODEL", "TRANSLATION_MODEL"):
+              if not re.fullmatch(r"[A-Za-z0-9_.:/-]{3,120}", os.environ[name]):
+                  problems.append(f"{name.lower()} has unexpected characters")
+          if problems:
+              print("\n".join(problems), file=sys.stderr)
+              sys.exit(1)
+          PY
+
+      - name: Preflight, can the token call a model? (costs a fraction of a cent)
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          TRANSLATION_MODEL: ${{ inputs.translation_model }}
+        run: |
+          if [ -z "$HF_TOKEN" ]; then
+            echo "The HF_TOKEN repository secret is not set." >&2
+            exit 1
+          fi
+          python - <<'PY'
+          import os, sys
+          from huggingface_hub import InferenceClient
+          try:
+              out = InferenceClient().chat_completion(
+                  model=os.environ["TRANSLATION_MODEL"], max_tokens=5,
+                  messages=[{"role": "user", "content": "Reply with the single word: ok"}])
+              print("The token can call the model.")
+          except Exception as exc:
+              print("The token could not call the model:", type(exc).__name__, str(exc)[:300], file=sys.stderr)
+              print("If this is a 401 or 403, create a Hugging Face fine-grained token with 'Make calls to Inference "
+                    "Providers' and save it as the HF_TOKEN secret (or add that permission to the existing one).", file=sys.stderr)
+              sys.exit(1)
+          PY
+
+      - name: Keep the model cache between runs
+        uses: actions/cache@v4
+        with:
+          path: .cache/model_cache.json
+          key: model-cache-${{ github.run_id }}
+          restore-keys: model-cache-
+
+      - name: Estimate the cost (sends nothing)
+        env:
+          SUMMARY_MODEL: ${{ inputs.summary_model }}
+          TRANSLATION_MODEL: ${{ inputs.translation_model }}
+          MAX_USD: ${{ inputs.max_usd }}
+          ONLY: ${{ inputs.only }}
+        run: |
+          python -m echo_montolieu generate --summary-model "$SUMMARY_MODEL" --translation-model "$TRANSLATION_MODEL" \
+            --max-usd "$MAX_USD" ${ONLY:+--only $ONLY} --dry-run
+
+      - name: Generate summaries and translations
+        id: gen
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          SUMMARY_MODEL: ${{ inputs.summary_model }}
+          TRANSLATION_MODEL: ${{ inputs.translation_model }}
+          MAX_USD: ${{ inputs.max_usd }}
+          ONLY: ${{ inputs.only }}
+        run: |
+          set +e
+          python -m echo_montolieu generate --summary-model "$SUMMARY_MODEL" --translation-model "$TRANSLATION_MODEL" \
+            --max-usd "$MAX_USD" ${ONLY:+--only $ONLY} | tee generate_report.txt
+          code=${PIPESTATUS[0]}
+          # 0 = done, 1 = done but some passages need review, 2 = stopped at the spending cap (run again to continue)
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" -gt 2 ]; then exit "$code"; fi
+
+      - name: Look up place names
+        if: ${{ inputs.geocode }}
+        run: python -m echo_montolieu geocode
+
+      - name: Fetch zoning
+        if: ${{ inputs.zoning }}
+        run: python -m echo_montolieu zoning
+
+      - name: Render the pages
+        run: python -m echo_montolieu render
+
+      - name: Tests
+        run: python -m pytest -q
+
+      - name: Open a pull request with the result
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GEN_CODE: ${{ steps.gen.outputs.code }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          git add public data
+          if git diff --cached --quiet; then
+            echo "Nothing new was generated, so no pull request is needed."
+            exit 0
+          fi
+          if git diff --cached --name-only | grep -E '(^|/)private/|\.cache/'; then
+            echo "Refusing to commit a private or cache path." >&2
+            exit 1
+          fi
+          branch="auto/generate-$(date -u +%Y%m%d-%H%M)"
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git checkout -q -b "$branch"
+          git commit -q -m "Generate summaries and translations (workflow run)"
+          git push -q origin "$branch"
+          case "$GEN_CODE" in
+            0) status="Finished." ;;
+            1) status="Finished, but some passages failed the automatic checks and were kept in French with a visible note." ;;
+            2) status="Stopped at the spending cap. Run the workflow again to continue; finished work is not paid for twice." ;;
+          esac
+          {
+            echo "Written by the *Generate summaries and translations* workflow ([run]($RUN_URL))."
+            echo
+            echo "$status"
+            echo
+            echo '```'
+            tail -n 40 generate_report.txt
+            echo '```'
+            echo
+            echo "Everything model-written is marked as such and unreviewed. Please read a few summaries and translations"
+            echo "before merging. Checks on this PR do not start automatically (a GitHub rule for pull requests opened by"
+            echo "workflows); the tests ran inside the workflow and passed."
+          } > pr_body.md
+          gh pr create --base main --head "$branch" --title "Generated summaries and translations" --body-file pr_body.md
