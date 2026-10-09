@@ -107,3 +107,8 @@ page must meet it and report how it was checked. Run the tests before opening a 
 [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html) (declared in the header above; a
 `LICENSE` file has not been added yet). The text of the council minutes belongs to the Mairie;
 whether it may be republished is a question for the project owner and has not been reviewed.
+
+The derived data files published under `/data/` (`council.json` and the CSV files) are released under the
+[Licence Ouverte 2.0 (Etalab)](https://www.etalab.gouv.fr/licence-ouverte-open-licence/), compatible with CC BY 4.0: reuse is free,
+including commercially, if you credit the source and the date of the data. They are machine-generated and unreviewed, and the
+original documents are authoritative. Code and data are separate works with separate licences.
