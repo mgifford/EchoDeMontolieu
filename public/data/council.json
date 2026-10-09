@@ -6,7 +6,11 @@
   "disclaimer": "This page was generated automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model wrote its text: it is extracted from the minutes by programmed rules. No person has checked it, and it can be wrong. The original documents are authoritative."
  },
  "source": "https://github.com/mgifford/EchoDeMontolieu",
- "notice": "Derived, machine-generated data about the council minutes of Montolieu (Aude, France). Names are replaced, private property sales are counted and not listed, and summaries are written by AI models and not reviewed by a person. The original documents are authoritative; every row links to the page of the original. No reuse licence has been chosen for this derived data yet.",
+ "notice": "Derived, machine-generated data about the council minutes of Montolieu (Aude, France). Names are replaced, private property sales are counted and not listed, and summaries are written by AI models and not reviewed by a person. The original documents are authoritative; every row links to the page of the original. This derived data is released under the Licence Ouverte 2.0 (Etalab). Reuse is free, including commercially, if you credit the source and the date of the data: Source: L’Écho de Montolieu (https://github.com/mgifford/EchoDeMontolieu), data of 2026-07-22.",
+ "license": "etalab-2.0",
+ "license_name": "Licence Ouverte 2.0 (Etalab)",
+ "license_url": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
+ "attribution": "Source : L’Écho de Montolieu (https://github.com/mgifford/EchoDeMontolieu)",
  "counts": {
   "meetings": 57,
   "decisions": 458,

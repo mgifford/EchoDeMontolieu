@@ -50,7 +50,7 @@ UI = {
         "data_notes": "Notes",
         "data_n1": "CSV files are UTF-8 with commas. A cell that could be read as a formula by a spreadsheet starts with an apostrophe.",
         "data_n2": "Titles and sentences are in French, the language of the minutes. Summaries are in French, English and Dutch where they exist.",
-        "data_n3": "No reuse licence has been chosen for this derived data yet. The original minutes are public documents of the Mairie.",
+        "data_n3": "This derived data is released under the Etalab Open Licence 2.0 (Licence Ouverte 2.0). Reuse is free, including commercially, if you credit the source and the date of the data, for example: Source: L’Écho de Montolieu, data of {date}. The licence is compatible with CC BY 4.0. The code is AGPL-3.0. The original minutes are public documents of the Mairie.",
         "data_n4": "Files are rebuilt with the site. For a question that these files do not answer, see the search and the MCP server described in the project README.",
         "data_dl": "Download",
         "data_size": "{kb} KB",
@@ -136,7 +136,7 @@ UI = {
         "data_notes": "Remarques",
         "data_n1": "Les fichiers CSV sont en UTF-8, séparés par des virgules. Une cellule qu’un tableur pourrait lire comme une formule commence par une apostrophe.",
         "data_n2": "Les titres et les phrases sont en français, la langue des procès-verbaux. Les résumés sont en français, en anglais et en néerlandais quand ils existent.",
-        "data_n3": "Aucune licence de réutilisation n’a encore été choisie pour ces données dérivées. Les procès-verbaux originaux sont des documents publics de la Mairie.",
+        "data_n3": "Ces données dérivées sont publiées sous Licence Ouverte 2.0 (Etalab). La réutilisation est libre, y compris commerciale, à condition de citer la source et la date des données, par exemple : Source : L’Écho de Montolieu, données du {date}. Cette licence est compatible avec CC BY 4.0. Le code est sous AGPL-3.0. Les procès-verbaux originaux sont des documents publics de la Mairie.",
         "data_n4": "Les fichiers sont reconstruits avec le site. Pour une question que ces fichiers ne couvrent pas, voyez la recherche et le serveur MCP décrits dans le README du projet.",
         "data_dl": "Télécharger",
         "data_size": "{kb} Ko",
@@ -222,7 +222,7 @@ UI = {
         "data_notes": "Opmerkingen",
         "data_n1": "CSV-bestanden zijn UTF-8 met komma’s. Een cel die een spreadsheet als formule zou lezen, begint met een apostrof.",
         "data_n2": "Titels en zinnen zijn in het Frans, de taal van de notulen. Samenvattingen zijn in het Frans, Engels en Nederlands waar ze bestaan.",
-        "data_n3": "Voor deze afgeleide gegevens is nog geen licentie voor hergebruik gekozen. De originele notulen zijn openbare documenten van de Mairie.",
+        "data_n3": "Deze afgeleide gegevens zijn vrijgegeven onder de Franse Licence Ouverte 2.0 (Etalab). Hergebruik is vrij, ook commercieel, mits u de bron en de datum van de gegevens vermeldt, bijvoorbeeld: Bron: L’Écho de Montolieu, gegevens van {date}. De licentie is compatibel met CC BY 4.0. De code valt onder AGPL-3.0. De originele notulen zijn openbare documenten van de Mairie.",
         "data_n4": "De bestanden worden met de site opnieuw opgebouwd. Voor een vraag die deze bestanden niet beantwoorden, zie de zoekfunctie en de MCP-server in de README van het project.",
         "data_dl": "Downloaden",
         "data_size": "{kb} KB",
@@ -665,7 +665,9 @@ def data_page_body(lang, info, sizes):
     names = [("council.json", "data_f_json"), ("meetings.csv", "data_f_meetings"), ("decisions.csv", "data_f_decisions"), ("places.csv", "data_f_places")]
     rows = "".join(f'<li><a href="../../data/{n}" download>{e(n)}</a> <span class="note">({e(ui["data_size"].format(kb=max(1, round(sizes.get(n, 0) / 1024))))})</span>: {e(ui[k])}</li>'
                    for n, k in names)
-    notes = "".join(f"<li>{e(ui[k])}</li>" for k in ("data_n1", "data_n2", "data_n3", "data_n4"))
+    notes = "".join(f"<li>{e(ui[k].format(date=human_date(lang, info.get('newest_meeting'))))}</li>" for k in ("data_n1", "data_n2", "data_n3", "data_n4"))
+    licence = {"fr": "Licence Ouverte 2.0 (Etalab)", "en": "Etalab Open Licence 2.0 (Licence Ouverte 2.0)", "nl": "Franse Licence Ouverte 2.0 (Etalab)"}[lang]
+    notes = notes.replace(licence, f'<a href="https://www.etalab.gouv.fr/licence-ouverte-open-licence/">{e(licence)}</a>', 1)
     return (f'<h1>{e(ui["data_title"])}</h1>{disclosure.html("rules", lang)}<p>{e(ui["data_intro"])}</p>'
             f'<p>{e(ui["data_updated"].format(date=human_date(lang, info.get("newest_meeting")), meetings=info.get("counts", {}).get("meetings", 0), decisions=info.get("counts", {}).get("decisions", 0), places=info.get("counts", {}).get("places", 0)))}</p>'
             f'<h2>{e(ui["data_files"])}</h2><ul>{rows}</ul><h2>{e(ui["data_notes"])}</h2><ul>{notes}</ul>')

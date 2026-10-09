@@ -5,8 +5,8 @@ the facts pages, the summaries and the confirmed places. Nothing here comes from
 already replaced, private property sales are counted and never listed, and every row links to the page of the
 original. The files are static and are rebuilt by `render`; the website publishes them under /data/.
 
-No licence has been chosen for this derived data yet. Each file says so, and says that machine-written text is
-unreviewed and the original documents are authoritative.
+The derived data is released under the Licence Ouverte 2.0 (Etalab; the code is AGPL-3.0). Each file says so, and says that
+machine-written text is unreviewed and the original documents are authoritative.
 """
 import csv
 import io
@@ -19,8 +19,12 @@ from .db import _front, _summary_body
 
 NOTICE = ("Derived, machine-generated data about the council minutes of Montolieu (Aude, France). Names are replaced, private "
           "property sales are counted and not listed, and summaries are written by AI models and not reviewed by a person. "
-          "The original documents are authoritative; every row links to the page of the original. No reuse licence has been "
-          "chosen for this derived data yet.")
+          "The original documents are authoritative; every row links to the page of the original. This derived data is released under the "
+          "Licence Ouverte 2.0 (Etalab). Reuse is free, including commercially, if you credit the source and the date of the data: "
+          "Source: L’Écho de Montolieu (https://github.com/mgifford/EchoDeMontolieu), data of <newest_meeting>.")
+LICENSE = "etalab-2.0"
+LICENSE_URL = "https://www.etalab.gouv.fr/licence-ouverte-open-licence/"
+ATTRIBUTION = "Source : L’Écho de Montolieu (https://github.com/mgifford/EchoDeMontolieu)"
 MEETING_COLUMNS = ["date", "source", "folder", "document_id", "version", "page_count", "pages_to_check", "decisions",
                    "private_sale_notices", "summary_languages", "original_url", "site_page_en"]
 DECISION_COLUMNS = ["date", "source", "n", "title", "text_fr", "vote", "votes_for", "votes_against", "abstentions",
@@ -120,11 +124,18 @@ def build(public_dir, meetings, archived=()):
     places = _places(public)
     generated = {"meetings": len(json_meetings), "decisions": len(decision_rows), "places": len(places),
                  "newest_meeting": json_meetings[0]["date"] if json_meetings else None}
-    document = {"labels": disclosure.labels("rules"), "source": "https://github.com/mgifford/EchoDeMontolieu", "notice": NOTICE,
+    document = {"labels": disclosure.labels("rules"), "source": "https://github.com/mgifford/EchoDeMontolieu", "notice": NOTICE.replace("<newest_meeting>", generated["newest_meeting"] or "unknown"),
+                "license": LICENSE, "license_name": "Licence Ouverte 2.0 (Etalab)", "license_url": LICENSE_URL, "attribution": ATTRIBUTION,
                 "counts": {k: generated[k] for k in ("meetings", "decisions", "places")}, "newest_meeting": generated["newest_meeting"],
                 "columns": {"meetings.csv": MEETING_COLUMNS, "decisions.csv": DECISION_COLUMNS, "places.csv": PLACE_COLUMNS},
                 "meetings": json_meetings, "places": places}
-    files = {"council.json": json.dumps(document, ensure_ascii=False, indent=1) + "\n",
+    newest = generated["newest_meeting"] or "unknown"
+    readme = (f"{NOTICE.replace('<newest_meeting>', newest)}\n\n"
+              f"Licence: Licence Ouverte 2.0 / Etalab Open Licence 2.0 ({LICENSE_URL}), compatible with CC BY 4.0.\n"
+              f"Please credit: {ATTRIBUTION}, data of {newest}. The code of the project is AGPL-3.0.\n\n"
+              "Files: council.json (everything), meetings.csv, decisions.csv, places.csv. CSV files are UTF-8; a cell that a spreadsheet could read "
+              "as a formula starts with an apostrophe.\nProject: https://github.com/mgifford/EchoDeMontolieu\n")
+    files = {"README.txt": readme, "council.json": json.dumps(document, ensure_ascii=False, indent=1) + "\n",
              "meetings.csv": to_csv(MEETING_COLUMNS, meeting_rows), "decisions.csv": to_csv(DECISION_COLUMNS, decision_rows),
              "places.csv": to_csv(PLACE_COLUMNS, [{**p, "meetings": len(p["meetings"])} for p in places])}
     return files, generated

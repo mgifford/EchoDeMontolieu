@@ -36,7 +36,8 @@ def test_files_hold_decisions_but_never_private_sales_and_every_row_links_to_the
     m = doc["meetings"][0]
     assert m["private_sale_notices"] == 1 and m["decisions"][0]["original_page_url"] == "https://example.org/x.pdf#page=2"
     assert m["summaries"]["fr"]["written_by"] == "AI model (m)" and m["summaries"]["fr"]["human_reviewed"] is False
-    assert doc["labels"]["human_reviewed"] is False and "No reuse licence" in doc["notice"]
+    assert doc["labels"]["human_reviewed"] is False and doc["license"] == "etalab-2.0" and "Licence Ouverte 2.0" in doc["notice"] and doc["attribution"].startswith("Source")
+    assert "Etalab" in files["README.txt"] and "AGPL-3.0" in files["README.txt"] and "2026-07-22" in doc["notice"]
     rows = list(csv.DictReader(io.StringIO(files["decisions.csv"])))
     assert rows[0]["title"] == "Budget" and rows[0]["euro_amounts"] == "300.00" and rows[0]["original_page_url"].endswith("#page=2")
     assert list(csv.DictReader(io.StringIO(files["meetings.csv"])))[0]["private_sale_notices"] == "1"
@@ -70,5 +71,5 @@ def test_site_publishes_the_files_and_a_data_page_in_each_language(tmp_path):
     for lang, title, date in (("en", "Open data", "22 July 2026"), ("fr", "Données ouvertes", "22 juillet 2026"), ("nl", "Open data", "22 juli 2026")):
         page = (out / lang / "data" / "index.html").read_text()
         assert title in page and date in page and 'href="../../data/decisions.csv"' in page and "https://example.org" not in page
-        assert "1 " in page and "[{" not in page
+        assert "1 " in page and "[{" not in page and 'href="https://www.etalab.gouv.fr/licence-ouverte-open-licence/">' in page
         assert 'href="data/index.html"' in (out / lang / "index.html").read_text()
