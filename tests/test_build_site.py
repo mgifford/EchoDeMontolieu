@@ -29,9 +29,10 @@ def test_site_contains_only_published_data(tmp_path):
     public, data = make(tmp_path)
     out = build(tmp_path / "_site", public, data)
     files = sorted(str(p.relative_to(out)) for p in out.rglob("*") if p.is_file())
-    assert files == [".nojekyll", "assets/site.css", "assets/site.js", "en/index.html", "fr/index.html", "index.html",
+    assert files == [".nojekyll", "assets/site.css", "assets/site.js", "en/index.html", "en/meetings/index.html",
+                     "fr/index.html", "fr/meetings/index.html", "index.html",
                      "index.json", "minutes/abababababab.json", "minutes/abababababab/diff-v1-v2.json",
-                     "nl/index.html", "where_to_find_mairie.json"]
+                     "nl/index.html", "nl/meetings/index.html", "where_to_find_mairie.json"]
     (public / "places").mkdir()
     for name in ("map.html", "places.json"):
         (public / "places" / name).write_text(name)

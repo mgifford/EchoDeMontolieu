@@ -14,6 +14,7 @@ import html
 import json
 import re
 import shutil
+from datetime import date, timedelta
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -36,6 +37,8 @@ KEY = "echo-lang"
 
 UI = {
     "en": {
+        "home_recent": "Showing the last 12 months ({n} {sets}). Older minutes, {first} to {last}, are on the Meetings page.", "all_minutes": "All minutes",
+        "wn_short": "In short",
         "e_whatsnew": "What’s new and what to watch, from the latest minutes",
         "whatsnew": "What’s new",
         "wn_title": "What’s new and what to watch",
@@ -102,6 +105,8 @@ UI = {
         "chooser_p": "Choose your language",
     },
     "fr": {
+        "home_recent": "Les 12 derniers mois ({n} {sets}). Les procès-verbaux plus anciens, de {first} à {last}, sont sur la page Séances.", "all_minutes": "Tous les procès-verbaux",
+        "wn_short": "En bref",
         "e_whatsnew": "Nouveautés et points à suivre, d’après les derniers procès-verbaux",
         "whatsnew": "Nouveautés",
         "wn_title": "Nouveautés et points à suivre",
@@ -168,6 +173,8 @@ UI = {
         "chooser_p": "Choisissez votre langue",
     },
     "nl": {
+        "home_recent": "De laatste 12 maanden ({n} {sets}). Oudere notulen, van {first} tot {last}, staan op de pagina Vergaderingen.", "all_minutes": "Alle notulen",
+        "wn_short": "In het kort",
         "e_whatsnew": "Nieuw en om in de gaten te houden, uit de laatste notulen",
         "whatsnew": "Nieuw",
         "wn_title": "Nieuw en om in de gaten te houden",
@@ -429,13 +436,15 @@ def meeting_links(lang, folder, have, prefix=""):
     return [(ui[label], f"{prefix}{folder}/{name}.html") for label, name in pairs if name in have]
 
 
-def meetings_list(lang, index, folders, files, prefix="meetings/", up="../", every=False):
+def meetings_list(lang, index, folders, files, prefix="meetings/", up="../", every=False, since=None):
     """The minutes as a list: a dated heading, then Summary, Full minutes and Original as plain links."""
     ui, e = UI[lang], html.escape
     by_year = {}
     docs = sorted(index.get("documents", []), key=lambda d: ((d.get("meeting_date") or {}).get("value") or "", d.get("filename") or ""), reverse=True)
     for d in docs:
         when = (d.get("meeting_date") or {}).get("value")
+        if since and (not when or when < since):
+            continue
         folder = folders.get(d["document_id"])
         shown = e(human_date(lang, when)) if when else e(ui["undated"])
         about = f'<span class="sr"> {e(ui["of"].format(date=human_date(lang, when)))}</span>' if when else ""
@@ -462,11 +471,41 @@ def meetings_list(lang, index, folders, files, prefix="meetings/", up="../", eve
     return by_year
 
 
+def minutes_summary(lang, by_year):
+    """'N sets of minutes across Y years (span)' and the list of years with none. ("", "") when there are no minutes."""
+    ui, e = UI[lang], html.escape
+    years = sorted((y for y in by_year if y != "undated"), reverse=True)
+    total = sum(len(v) for v in by_year.values())
+    if not total:
+        return "", ""
+    span = f"{years[-1]}–{years[0]}" if len(years) > 1 else (years[0] if years else "")
+    missing = [y for y in range(int(years[-1]), int(years[0])) if str(y) not in by_year] if years else []
+    gaps, run = [], []
+    for y in missing + [None]:
+        if run and (y is None or y != run[-1] + 1):
+            gaps.append(str(run[0]) if len(run) == 1 else f"{run[0]}–{run[-1]}")
+            run = []
+        if y is not None:
+            run.append(y)
+    line = f'<p>{e(ui["minutes_total"].format(total=total, sets=_word(lang, "sets", total), years=len(years), yrs=_word(lang, "yrs", len(years)), span=span))}</p>'
+    gap_note = f'<p class="note">{e(ui["gaps"].format(gaps="; ".join(gaps)))}</p>' if gaps else ""
+    return line, gap_note
+
+
+def recent_since(index, days=365):
+    """The date `days` before the latest dated meeting (so a build never changes by itself), or None."""
+    dates = [(d.get("meeting_date") or {}).get("value") for d in index.get("documents", [])]
+    dates = [d for d in dates if d]
+    if not dates:
+        return None
+    return (date.fromisoformat(max(dates)) - timedelta(days=days)).isoformat()
+
+
 def meetings_index_body(lang, index, folders, files):
     """The meetings page: every meeting by year with all its pages as plain links."""
     ui, e = UI[lang], html.escape
     by_year = meetings_list(lang, index, folders, files, prefix="", up="../../", every=True)
-    parts = [f'<h1>{e(ui["meetings"])}</h1>', disclosure.html("rules", lang), f'<p>{e(ui["meetings_intro"])}</p>']
+    parts = [f'<h1>{e(ui["meetings"])}</h1>', disclosure.html("rules", lang), f'<p>{e(ui["meetings_intro"])}</p>', *minutes_summary(lang, by_year)]
     for y in sorted((y for y in by_year if y != "undated"), reverse=True) + (["undated"] if "undated" in by_year else []):
         heading = ui["undated"] if y == "undated" else y
         parts.append(f'<h2 id="y{y}">{e(heading)}</h2><ul>{"".join(by_year[y])}</ul>')
@@ -540,13 +579,21 @@ def meeting_nav(lang, folder, name, files):
     return f'<nav class="mnav" aria-label="{e(ui["meeting_nav"])}"><ul>{"".join(items)}</ul></nav>' if len(items) > 1 else ""
 
 
-def whats_new_body(lang, data, files):
+def whats_new_body(lang, data, files, intro=None):
     """The What's new page: latest meetings, what came back, what was postponed or dated, what to watch."""
     ui, e = UI[lang], html.escape
     fr = lambda text: f'<span lang="fr">{e(text)}</span>'
     plink = lambda row: f'<a href="{e(row["page_url"])}">{e(ui["page_abbr"])} {row["page"]}</a>'
     parts = [f'<h1>{e(ui["wn_title"])}</h1>', disclosure.html("rules", lang), f'<p>{e(ui["wn_intro"])}</p>',
              f'<p><a href="feed.xml">{e(ui["wn_feed"])}</a></p>']
+    texts = (intro or {}).get("texts") or {}
+    shown = texts.get(lang) or texts.get("fr")
+    if shown:
+        shown_lang = lang if texts.get(lang) else "fr"
+        kind = "summary_translation" if shown_lang != "fr" else "summary"
+        note = f'<p class="note">{e(ui["fallback"].format(want=LANG_IN[lang][lang], have=LANG_IN[lang]["fr"]))}</p>' if shown_lang != lang else ""
+        parts.append(f'<section aria-labelledby="wn-short-h"><h2 id="wn-short-h">{e(ui["wn_short"])}</h2>'
+                     f'{disclosure.html(kind, lang, shown["model"])}{note}<p lang="{shown_lang}">{e(shown["text"])}</p></section>')
     parts.append(f'<h2>{e(ui["wn_latest"])}</h2>')
     for m in data["recent_meetings"]:
         links = " · ".join(f'<a href="../meetings/{e(href)}">{e(label)}</a>' for label, href in meeting_links(lang, m["folder"], files.get(m["folder"], set())))
@@ -604,26 +651,21 @@ def whats_new_feed(lang, data, files):
 def landing_body(lang, index, pointers, folders, files, has_zoning=False, has_whats_new=False):
     """Home page: alerts, introduction, explore links, the minutes grouped by year, where to find things."""
     ui, e = UI[lang], html.escape
-    by_year = meetings_list(lang, index, folders, files)
-    years = sorted((y for y in by_year if y != "undated"), reverse=True)
-    total = sum(len(v) for v in by_year.values())
-    if total:
-        span = f"{years[-1]}–{years[0]}" if len(years) > 1 else (years[0] if years else "")
-        missing = [y for y in range(int(years[-1]), int(years[0])) if str(y) not in by_year] if years else []
-        gaps, run = [], []
-        for y in missing + [None]:
-            if run and (y is None or y != run[-1] + 1):
-                gaps.append(str(run[0]) if len(run) == 1 else f"{run[0]}–{run[-1]}")
-                run = []
-            if y is not None:
-                run.append(y)
-        minutes = f'<p>{e(ui["minutes_total"].format(total=total, sets=_word(lang, "sets", total), years=len(years), yrs=_word(lang, "yrs", len(years)), span=span))}</p>'
-        if gaps:
-            minutes += f'<p class="note">{e(ui["gaps"].format(gaps="; ".join(gaps)))}</p>'
-        for y in years + (["undated"] if "undated" in by_year else []):
-            n = len(by_year[y])
-            heading = ui["undated"] + f": {n}" if y == "undated" else ui["year_h"].format(year=y, n=n, sets=_word(lang, "sets", n))
-            minutes += f'<h3 id="minutes-{y}">{e(heading)}</h3><ul>{"".join(by_year[y])}</ul>'
+    since = recent_since(index)
+    by_year = meetings_list(lang, index, folders, files, since=since)
+    all_by_year = meetings_list(lang, index, folders, files)
+    if by_year:
+        years = sorted((y for y in by_year if y != "undated"), reverse=True)
+        n = sum(len(v) for v in by_year.values())
+        old = sorted((d.get("meeting_date") or {}).get("value", "")[:4] for d in index.get("documents", [])
+                     if (d.get("meeting_date") or {}).get("value") and (d["meeting_date"]["value"] < since))
+        minutes = (f'<p>{e(ui["home_recent"].format(n=n, sets=_word(lang, "sets", n), first=old[0], last=old[-1])) if old else ""} '
+                   f'<a href="meetings/index.html">{e(ui["all_minutes"])}</a></p>')
+        for y in years:
+            k = len(by_year[y])
+            minutes += f'<h3 id="minutes-{y}">{e(ui["year_h"].format(year=y, n=k, sets=_word(lang, "sets", k)))}</h3><ul>{"".join(by_year[y])}</ul>'
+    elif all_by_year:
+        minutes = f'<p><a href="meetings/index.html">{e(ui["all_minutes"])}</a></p>'
     else:
         minutes = f'<p>{e(ui["none_yet"])}</p>'
     where = []
@@ -781,7 +823,7 @@ def build(out_dir, public="public", data="data"):
     for lang in LANGS:
         pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders, meeting_files(public), (public / 'zoning' / 'index.md').exists(), (public / 'whats-new' / 'whats-new.json').exists()))]
         if whats and whats.get("latest"):
-            pages.append(Page(lang, "whats-new/index.html", UI[lang]["wn_title"], whats_new_body(lang, whats, meeting_files(public))))
+            pages.append(Page(lang, "whats-new/index.html", UI[lang]["wn_title"], whats_new_body(lang, whats, meeting_files(public), _read_json(public / "whats-new" / "intro.json", None))))
             feed = out / lang / "whats-new" / "feed.xml"
             feed.parent.mkdir(parents=True, exist_ok=True)
             feed.write_text(whats_new_feed(lang, whats, meeting_files(public)), encoding="utf-8")
@@ -801,6 +843,8 @@ def build(out_dir, public="public", data="data"):
                 if parts[2] == "minutes":
                     body = _insert_after_h1(body, places_section(lang, place_map.get(parts[1])))
             pages.append(Page(lang, base + ".html", first_heading(text, base), body, content_lang))
+        if index.get("documents") and not any(pg.rel == "meetings/index.html" for pg in pages):
+            pages.append(Page(lang, "meetings/index.html", UI[lang]["meetings"], meetings_index_body(lang, index, folders, meeting_files(public)), lang))
         for page in pages:
             target = out / lang / page.rel
             target.parent.mkdir(parents=True, exist_ok=True)

@@ -111,3 +111,101 @@ def write(public_dir, meetings, result):
     (target / "whats-new.json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     return {"latest": data["latest"], "recent": len(data["recent_meetings"]), "pending": len(data["pending"]),
             "dates": len(data["dates_mentioned"]), "dropped": len(data["possibly_dropped"])}
+
+
+# ---- the plain-language paragraph, written by a model ----------------------------------------------------
+
+INTRO_PROMPT_VERSION = "1"
+INTRO_SYSTEM = (
+    "Tu rédiges un court paragraphe « En bref » pour la page « Nouveautés » d’un site d’information communal. "
+    "Tu reçois la liste des points des derniers conseils municipaux de Montolieu, avec leurs votes, les reports "
+    "ou projets annoncés et les dates citées. Écris UN seul paragraphe de quatre à six phrases, en français clair "
+    "et simple, pour des habitants.\\n"
+    "Règles :\\n"
+    "- N’utilise que ce qui est dans le texte. Ne devine rien, ne prédis rien, ne donne aucun conseil.\\n"
+    "- Recopie exactement les dates, chiffres et montants.\\n"
+    "- Ne nomme aucune personne. Ne dis rien des ventes de biens privés.\\n"
+    "- Dis que ces informations viennent des procès-verbaux et peuvent être en retard sur l’actualité.\\n"
+    "- Pas de titre, pas de liste, pas de préambule : seulement le paragraphe."
+)
+
+
+def intro_input(data):
+    """What the model is given: the digest as plain lines (titles are already scrubbed)."""
+    lines = []
+    for m in data["recent_meetings"]:
+        votes = "; ".join(f"{d['title']} ({d['vote'] or 'pas de vote repéré'})" for d in m["decisions"])
+        lines.append(f"Séance du {m['date']} : {votes}.")
+    for x in data["pending"][:6]:
+        lines.append(f"Reporté ou prévu ({x['date']}) : {x['title']} : {x['sentence']}")
+    for x in data["dates_mentioned"][:6]:
+        lines.append(f"Date citée : {x['mentioned']} : {x['sentence']}")
+    return "\n".join(lines)
+
+
+def check_intro(text, source):
+    from .translate import _NUM, _stop_ratio, number_cores
+    body = text.strip()
+    must_exist = [c for m in _NUM.finditer(body) for c in [re.sub(r"\D", "", m.group(0))]
+                  if len(c) >= 3 or re.search(r"\d[.,]\d", m.group(0))]
+    source_cores = set(number_cores(source)) | {c[:4] for c in number_cores(source)}
+    sentences_n = len(re.findall(r"[.!?](?:\s|$)", body))
+    return {
+        "one_paragraph": "\n\n" not in body and not re.search(r"(?m)^\s*(?:[-*#]|\d+\.)", body),
+        "figures_in_source": all(c in source_cores for c in must_exist),
+        "is_french": _stop_ratio(body, "fr") > max(_stop_ratio(body, "en"), _stop_ratio(body, "nl")),
+        "no_preamble": not re.match(r"\s*(?:voici|here is|sure|bien sûr|certainement)", body, re.I),
+        "no_placeholder": "withheld" not in body,
+        "length_plausible": 250 <= len(body) <= 1800 and 3 <= sentences_n <= 9,
+    }
+
+
+def write_intro(public_dir, data, summary_model, translator, langs, force=False, now=None):
+    """Write public/whats-new/intro.json: a model-written French paragraph and its translations. Returns a report."""
+    import hashlib
+    from datetime import datetime, timezone
+    target = Path(public_dir) / "whats-new" / "intro.json"
+    report = {"written": False, "status": None, "needs_review": []}
+    if not data.get("recent_meetings"):
+        return report
+    source = intro_input(data)
+    source_hash = hashlib.sha256(source.encode("utf-8")).hexdigest()
+    old = json.loads(target.read_text(encoding="utf-8")) if target.exists() else {}
+    fresh = (old.get("input_sha256") == source_hash and old.get("prompt_version") == INTRO_PROMPT_VERSION
+             and old.get("summary_model") == summary_model.model
+             and all(old.get("texts", {}).get(l, {}).get("model") == translator.model for l in langs))
+    if fresh and not force:
+        report["status"] = "unchanged"
+        return report
+    messages = [{"role": "system", "content": INTRO_SYSTEM}, {"role": "user", "content": source}]
+    text = summary_model.complete("whats-new-intro", messages, [source, INTRO_PROMPT_VERSION]).text.strip()
+    checks = check_intro(text, source)
+    failed = [k for k, v in checks.items() if not v]
+    if failed:
+        hint = "Ta réponse précédente a échoué à ces vérifications : " + ", ".join(failed) + ". Corrige-la en respectant les règles."
+        second = summary_model.complete("whats-new-intro-retry", messages + [{"role": "assistant", "content": text},
+                                        {"role": "user", "content": hint}], [source, INTRO_PROMPT_VERSION, hint]).text.strip()
+        second_checks = check_intro(second, source)
+        if sum(second_checks.values()) >= sum(checks.values()):
+            text, checks = second, second_checks
+        failed = [k for k, v in checks.items() if not v]
+    texts = {"fr": {"text": text, "model": summary_model.model}}
+    if failed:
+        report["needs_review"].append("whats-new/intro.json: " + ", ".join(failed))
+    elif langs:
+        for lang in langs:
+            (shown, ok, _), = translator.translate_many([text], lang, ())
+            if ok:
+                texts[lang] = {"text": shown, "model": translator.model}
+            else:
+                report["needs_review"].append(f"whats-new/intro.json: {lang} translation failed its checks (French shown instead)")
+    out = {"labels": disclosure.labels("summary", summary_model.model), "kind": "whats-new-intro", "prompt_version": INTRO_PROMPT_VERSION,
+           "summary_model": summary_model.model, "input_sha256": source_hash,
+           "generated_at": (now or datetime.now(timezone.utc)).isoformat(timespec="seconds"),
+           "status": "ok" if not failed else "needs_review", "checks_failed": failed, "texts": texts}
+    if failed:
+        out["texts"] = {}                      # a paragraph that failed its checks is not shown; the report names the problem
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    report.update(written=True, status=out["status"])
+    return report

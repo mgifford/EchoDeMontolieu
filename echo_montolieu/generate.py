@@ -7,7 +7,8 @@ Per meeting folder (names in French unless marked):
 
 Safety, all enforced here:
   * a spending cap that stops the run (BudgetExceeded);
-  * names are masked before text is sent; sale notices are never sent;
+  * names are masked before text is sent; sale notices are never sent; of the archived 2003-2008 minutes only
+    the scrubbed decision sentences are translated (see archive_translate.py), never their full text;
   * a translated passage that fails the number or reference checks is replaced by the
     French original with a visible note;
   * reruns are free: results are cached, and a file whose inputs are unchanged is skipped.
@@ -132,7 +133,7 @@ def translate_summary(summary_md, lang, translator, names, model_name):
     return "---\n" + "\n".join(front) + "\n---\n" + body_out.rstrip() + "\n", failed, len(done)
 
 
-def generate(public_dir, summary_model, translator, langs, only=None, force=False, now=None):
+def generate(public_dir, summary_model, translator, langs, only=None, force=False, now=None, extras=True):
     """Write the files for every meeting (or those in `only`). Returns a report."""
     public = Path(public_dir)
     index = json.loads((public / "index.json").read_text(encoding="utf-8"))
@@ -144,7 +145,7 @@ def generate(public_dir, summary_model, translator, langs, only=None, force=Fals
             rec = json.loads((public / entry["file"]).read_text(encoding="utf-8"))
             folder = meeting_folder(rec, taken)
             if (only and folder not in only) or rec.get("origin"):
-                continue                          # archived minutes are not sent to a model yet (see render_all)
+                continue                          # the full archived minutes are never sent to a model (see _extras for what is)
             target = public / "meetings" / folder
             target.mkdir(parents=True, exist_ok=True)
             meeting = parse_meeting(rec)
@@ -190,10 +191,28 @@ def generate(public_dir, summary_model, translator, langs, only=None, force=Fals
                 else:
                     report["skipped"] += 1
             report["meetings"].append(row)
+        if extras:
+            _extras(public, summary_model, translator, langs, only, force, now, report)
     except BudgetExceeded as exc:
         report["stopped"] = str(exc)
     render_all(public)                                               # refresh index.md with the new links
     return report
+
+
+def _extras(public, summary_model, translator, langs, only, force, now, report):
+    """English/Dutch for the 2003-2008 decisions pages (scrubbed sentences only) and the What's new paragraph."""
+    from . import threads, whats_new
+    from .archive_translate import translate_archive_facts
+    archive = translate_archive_facts(public, translator, langs, only=only, force=force)
+    report["archive_facts"] = {"written": archive["written"], "skipped": archive["skipped"]}
+    report["needs_review"] += archive["needs_review"]
+    if only:
+        return                                                       # a run limited to some meetings leaves the paragraph alone
+    meetings = threads.load_meetings(public)
+    data = whats_new.build(meetings, threads.build_threads(meetings))
+    intro = whats_new.write_intro(public, data, summary_model, translator, langs, force=force, now=now)
+    report["whats_new_intro"] = intro["status"]
+    report["needs_review"] += intro["needs_review"]
 
 
 def estimate_generation(public_dir, langs, summary_price, translate_price):
@@ -212,7 +231,15 @@ def estimate_generation(public_dir, langs, summary_price, translate_price):
         summary_in += len(summary_input(meeting))
         minutes_chars += sum(len(t) for t in dict.fromkeys(seen))
         meetings += 1
-    summary_tokens_in, summary_tokens_out = int(summary_in / 3.2) + 500 * meetings, 900 * meetings
+    archive_chars = 0
+    from .archive_translate import archived_digests
+    try:
+        archive_chars = sum(len(x["text"]) for _, _, _, d in archived_digests(public) for x in d["decisions"])
+    except FileNotFoundError:
+        pass
+    minutes_chars += archive_chars                                  # only the scrubbed decision sentences are sent
+    summary_in += 4000                                              # the What's new paragraph
+    summary_tokens_in, summary_tokens_out = int(summary_in / 3.2) + 500 * meetings, 900 * meetings + 400
     per_lang_chars = minutes_chars + 2800 * meetings          # the minutes plus a ~2,800-character summary
     tr_in = int(per_lang_chars / 3.2) * len(langs) + 40 * meetings * len(langs)
     tr_out = int(per_lang_chars / 3.2 * 1.25) * len(langs)
