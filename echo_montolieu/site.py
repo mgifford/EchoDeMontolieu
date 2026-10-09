@@ -37,6 +37,7 @@ KEY = "echo-lang"
 
 UI = {
     "en": {
+        "all_minutes_long": "See all minutes, back to 2003",
         "home_recent": "Showing the last 12 months ({n} {sets}). Older minutes, {first} to {last}, are on the Meetings page.", "all_minutes": "All minutes",
         "wn_short": "In short",
         "e_whatsnew": "What’s new and what to watch, from the latest minutes",
@@ -105,6 +106,7 @@ UI = {
         "chooser_p": "Choose your language",
     },
     "fr": {
+        "all_minutes_long": "Voir tous les procès-verbaux, depuis 2003",
         "home_recent": "Les 12 derniers mois ({n} {sets}). Les procès-verbaux plus anciens, de {first} à {last}, sont sur la page Séances.", "all_minutes": "Tous les procès-verbaux",
         "wn_short": "En bref",
         "e_whatsnew": "Nouveautés et points à suivre, d’après les derniers procès-verbaux",
@@ -173,6 +175,7 @@ UI = {
         "chooser_p": "Choisissez votre langue",
     },
     "nl": {
+        "all_minutes_long": "Alle notulen bekijken, vanaf 2003",
         "home_recent": "De laatste 12 maanden ({n} {sets}). Oudere notulen, van {first} tot {last}, staan op de pagina Vergaderingen.", "all_minutes": "Alle notulen",
         "wn_short": "In het kort",
         "e_whatsnew": "Nieuw en om in de gaten te houden, uit de laatste notulen",
@@ -668,6 +671,7 @@ def landing_body(lang, index, pointers, folders, files, has_zoning=False, has_wh
         for y in years:
             k = len(by_year[y])
             minutes += f'<h3 id="minutes-{y}">{e(ui["year_h"].format(year=y, n=k, sets=_word(lang, "sets", k)))}</h3><ul>{"".join(by_year[y])}</ul>'
+        minutes += f'<p><a href="meetings/index.html">{e(ui["all_minutes_long"])}</a></p>'
     elif all_by_year:
         minutes = f'<p><a href="meetings/index.html">{e(ui["all_minutes"])}</a></p>'
     else:

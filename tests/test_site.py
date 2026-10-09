@@ -109,6 +109,7 @@ def test_home_shows_only_the_last_12_months_and_the_meetings_page_keeps_the_tota
     assert "22 July 2026" in en and "23 July 2025" in en and "21 July 2025" not in en and "31 January 2024" not in en and "2003" in en.split("Older minutes")[1][:20]
     assert "2026: 2 sets of minutes" in en and "2025: 1 set of minutes" in en and 'href="meetings/index.html">All minutes' in en
     assert "6 sets of minutes across 4 years (2003–2026)" in (out / "en/meetings/index.html").read_text()
+    assert en.index("See all minutes, back to 2003") > en.index("22 July 2026") and 'href="meetings/index.html">See all minutes' in en
     fr = (out / "fr/index.html").read_text()
     assert "Les 12 derniers mois (3 procès-verbaux)" in fr and "31 janvier 2024" not in fr
     meetings_fr = (out / "fr/meetings/index.html").read_text()
