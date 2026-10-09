@@ -43,7 +43,7 @@ jobs:
           latest=$(ls _site/en/meetings | grep -E '^[0-9]' | sort | tail -1)
           status=0
           for path in en/ fr/ nl/ en/meetings/index.html "en/meetings/$latest/minutes.html" \
-                      nl/topics/index.html fr/finance/index.html en/places/index.html en/whats-new/index.html en/places/map.html fr/places/map.html; do
+                      nl/topics/index.html fr/finance/index.html en/places/index.html en/whats-new/index.html en/places/map.html fr/places/map.html en/data/index.html; do
             echo "::group::$path"
             node tools/a11y_check.cjs "http://localhost:8080/$path" || status=1
             echo "::endgroup::"
