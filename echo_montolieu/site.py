@@ -21,6 +21,7 @@ from urllib.parse import urlsplit
 from markdown_it import MarkdownIt
 
 from . import disclosure
+from .whats_new import string_key
 
 LANGS = ("fr", "en", "nl")
 NAMES = {"fr": "Français", "en": "English", "nl": "Nederlands"}
@@ -69,6 +70,7 @@ UI = {
         "wn_pending": "Postponed or planned, in the latest minutes",
         "wn_pending_note": "Sentences that look like a postponement or a plan. Candidates found by wording, not a checked list.",
         "wn_dates": "Dates mentioned in the latest minutes",
+        "wn_original": "French original", "wn_tr_note": "The titles and sentences below are machine translations of the French minutes. Software checks numbers and legal references; a person has not read them. The French original follows each one.",
         "wn_dates_note": "Dates written in the text, from the meeting date onwards. Check the sentence and the original before relying on one.",
         "wn_dropped": "Possibly dropped",
         "wn_dropped_note": "Postponed at their last mention and not seen again in the meetings since. A heuristic: they may have continued under another title.",
@@ -155,6 +157,7 @@ UI = {
         "wn_pending": "Reporté ou prévu, dans les derniers procès-verbaux",
         "wn_pending_note": "Phrases qui ressemblent à un report ou à un projet. Candidates repérées par les mots, pas une liste vérifiée.",
         "wn_dates": "Dates citées dans les derniers procès-verbaux",
+        "wn_original": "Original", "wn_tr_note": "",
         "wn_dates_note": "Dates écrites dans le texte, à partir de la date de la séance. Vérifiez la phrase et l’original avant de vous y fier.",
         "wn_dropped": "Peut-être abandonnés",
         "wn_dropped_note": "Reportés lors de leur dernière mention et non revus dans les séances suivantes. Une heuristique : ils ont pu continuer sous un autre titre.",
@@ -241,6 +244,7 @@ UI = {
         "wn_pending": "Uitgesteld of gepland, in de laatste notulen",
         "wn_pending_note": "Zinnen die op een uitstel of plan lijken. Kandidaten op grond van woorden, geen gecontroleerde lijst.",
         "wn_dates": "Data genoemd in de laatste notulen",
+        "wn_original": "Frans origineel", "wn_tr_note": "De titels en zinnen hieronder zijn machinevertalingen van de Franse notulen. Software controleert getallen en wettelijke verwijzingen; een persoon heeft ze niet gelezen. Het Franse origineel staat na elke vertaling.",
         "wn_dates_note": "Data die in de tekst staan, vanaf de datum van de vergadering. Controleer de zin en het origineel voordat u erop vertrouwt.",
         "wn_dropped": "Mogelijk vergeten",
         "wn_dropped_note": "Bij de laatste vermelding uitgesteld en in de latere vergaderingen niet meer gezien. Een vuistregel: ze kunnen onder een andere titel zijn doorgegaan.",
@@ -401,6 +405,66 @@ def _up(depth):
     return "../" * depth
 
 
+# Language of parts (WCAG 3.1.2). Pages made from the minutes quote French titles and sentences inside English or Dutch text.
+# The generators know which words those are but write plain Markdown, so the builder marks them here: a stretch of text that
+# is clearly French gets <span lang="fr">. Only text that carries no `lang` of its own is touched.
+_STRONG_FR = frozenset("le la les des du un une pour dans au aux avec cette ces ses leur sont été est il qui et elle elles nous vous sur par ou".split())
+_OTHER = frozenset("the of and to in is are for with on that this by an as it be was were from at or not which their its has have"
+                   " het een van op te dat die voor met zijn niet aan er door als ook bij naar of dit deze worden werd".split())
+_SKIP_TAGS = frozenset(("script", "style", "title", "head", "code", "pre", "svg", "textarea"))
+_VOID_TAGS = frozenset(("br", "img", "meta", "link", "input", "hr", "source", "area", "base", "col", "wbr"))
+_TOKEN = re.compile(r"(<!--.*?-->|<[^>]+>)", re.S)
+_WORDS = re.compile(r"[^\W\d_]+", re.U)                   # d’une counts as d + une
+
+
+def is_french(text):
+    """True when `text` is French prose or a French title: two French function words and more of them than English or Dutch ones,
+    or one French function word and none from either other language. Under three words, or doubtful, it is left alone."""
+    words = [w.lower() for w in _WORDS.findall(text)]
+    if len(words) < 3:
+        return False
+    fr = sum(1 for w in words if w in _STRONG_FR)
+    other = sum(1 for w in words if w in _OTHER)
+    return (fr >= 2 and fr > 2 * other) or (fr >= 1 and other == 0)
+
+
+def mark_french(fragment):
+    """`fragment` (HTML) with each clearly French text node outside any element that already has a `lang` wrapped in <span lang="fr">."""
+    out, stack, skip = [], [], 0
+    for piece in _TOKEN.split(fragment):
+        if not piece:
+            continue
+        if piece.startswith("<!--"):
+            out.append(piece)
+        elif piece.startswith("<"):
+            out.append(piece)
+            m = re.match(r"<(/?)([a-zA-Z0-9]+)([^>]*)>", piece)
+            if not m:
+                continue
+            closing, tag, rest = m.group(1) == "/", m.group(2).lower(), m.group(3)
+            if tag in _VOID_TAGS or rest.rstrip().endswith("/"):
+                continue
+            if closing:
+                while stack:                                       # pop up to the matching open tag
+                    top = stack.pop()
+                    if top[0] == tag:
+                        skip -= top[2]
+                        break
+            else:
+                has_lang = bool(re.search(r"\slang\s*=", rest))
+                is_skip = tag in _SKIP_TAGS
+                stack.append((tag, has_lang, 1 if (has_lang or is_skip) else 0))
+                skip += 1 if (has_lang or is_skip) else 0
+        else:
+            if skip == 0 and piece.strip():
+                # Punctuation, and a trailing "(street):"-style note in the page's own language, stay outside the French span.
+                core = re.match(r"^(\s*[)\]\[(;,.:]*\s*)(.*?)((?:\s*\([^()]*\))?[\s:;,.()\]]*)$", piece, re.S)
+                if core and core.group(2) and is_french(html.unescape(core.group(2))):
+                    piece = f'{core.group(1)}<span lang="fr">{core.group(2)}</span>{core.group(3)}'
+            out.append(piece)
+    return "".join(out)
+
+
 def layout(page, available_langs, budget=False):
     """Full HTML document: skip link, header with central navigation and language switcher, main, footer."""
     lang, ui, d = page.lang, UI[page.lang], page.depth
@@ -428,7 +492,8 @@ def layout(page, available_langs, budget=False):
     notice = ""
     if page.content_lang != lang:
         notice = (f'<p class="notice" role="note">{e(ui["fallback"].format(want=LANG_IN[lang][lang], have=LANG_IN[lang][page.content_lang]))}</p>')
-    body = f'<div lang="{page.content_lang}">{page.body}</div>' if page.content_lang != lang else page.body
+    content = mark_french(page.body) if page.content_lang != "fr" else page.body
+    body = f'<div lang="{page.content_lang}">{content}</div>' if page.content_lang != lang else content
     title = f"{page.title} – {SITE_NAME}" if page.rel != "index.html" else SITE_NAME
     return f"""<!doctype html>
 <html lang="{lang}">
@@ -606,7 +671,11 @@ def map_with_site_navigation(text, lang, budget=False):
     text = re.sub(r"(script-src )", r"\1'self' ", text, count=1)
     skip = re.search(r'<a class="skip"[^>]*>.*?</a>\n', text)          # the page's own skip link stays first in the tab order
     at = skip.end() if skip else text.index("<body>\n") + len("<body>\n")
-    return text[:at] + header + text[at:]
+    text = text[:at] + header + text[at:]
+    if lang != "fr":
+        head, sep, rest = text.partition("<body>")
+        text = head + sep + mark_french(rest) if sep else text
+    return text
 
 
 def map_redirect_page():
@@ -664,7 +733,7 @@ def places_section(lang, found):
                  for p in sorted(found["unconfirmed"], key=lambda p: p["label"].lower())]
         parts.append(f'<section aria-labelledby="places-u-h"><h2 id="places-u-h">{e(ui["places_u_h"])}</h2><ul>{"".join(items)}</ul>'
                      f'<p class="note">{e(ui["places_u_note"])}</p></section>')
-    return "".join(parts)
+    return f'<div lang="{lang}">{"".join(parts)}</div>'      # the section is in the visitor's language even inside French minutes
 
 
 def data_page_body(lang, info, sizes):
@@ -691,10 +760,20 @@ def meeting_nav(lang, folder, name, files):
     return f'<nav class="mnav" aria-label="{e(ui["meeting_nav"])}"><ul>{"".join(items)}</ul></nav>' if len(items) > 1 else ""
 
 
-def whats_new_body(lang, data, files, intro=None):
+def whats_new_body(lang, data, files, intro=None, strings=None):
     """The What's new page: latest meetings, what came back, what was postponed or dated, what to watch."""
     ui, e = UI[lang], html.escape
-    fr = lambda text: f'<span lang="fr">{e(text)}</span>'
+    shown_tr = (strings or {}).get("texts", {}).get(lang, {}) if lang != "fr" else {}
+
+    def fr(text):                      # a French title: translated when a checked translation exists, with the original kept
+        t = shown_tr.get(string_key(text))
+        return (f'<span lang="{lang}">{e(t)}</span> <span class="note">({e(ui["wn_original"])}: <span lang="fr">{e(text)}</span>)</span>'
+                if t else f'<span lang="fr">{e(text)}</span>')
+
+    def quote(text):                   # a French sentence, quoted exactly, with its translation first when there is one
+        t = shown_tr.get(string_key(text))
+        return (f'<span lang="{lang}">{e(t)}</span> <span class="note">{e(ui["wn_original"])}: <q lang="fr">{e(text)}</q></span>'
+                if t else f'<q lang="fr">{e(text)}</q>')
     plink = lambda row: f'<a href="{e(row["page_url"])}">{e(ui["page_abbr"])} {row["page"]}</a>'
     parts = [f'<h1>{e(ui["wn_title"])}</h1>', disclosure.html("rules", lang), f'<p>{e(ui["wn_intro"])}</p>',
              f'<p><a href="feed.xml">{e(ui["wn_feed"])}</a></p>']
@@ -706,6 +785,8 @@ def whats_new_body(lang, data, files, intro=None):
         note = f'<p class="note">{e(ui["fallback"].format(want=LANG_IN[lang][lang], have=LANG_IN[lang]["fr"]))}</p>' if shown_lang != lang else ""
         parts.append(f'<section aria-labelledby="wn-short-h"><h2 id="wn-short-h">{e(ui["wn_short"])}</h2>'
                      f'{disclosure.html(kind, lang, shown["model"])}{note}<p lang="{shown_lang}">{e(shown["text"])}</p></section>')
+    if shown_tr and ui["wn_tr_note"]:
+        parts.append(disclosure.html("translation", lang, strings.get("model")) + f'<p class="note">{e(ui["wn_tr_note"])}</p>')
     parts.append(f'<h2>{e(ui["wn_latest"])}</h2>')
     for m in data["recent_meetings"]:
         links = " · ".join(f'<a href="../meetings/{e(href)}">{e(label)}</a>' for label, href in meeting_links(lang, m["folder"], files.get(m["folder"], set())))
@@ -724,11 +805,11 @@ def whats_new_body(lang, data, files, intro=None):
     parts.append(f'<h2>{e(ui["wn_pending"])}</h2><p class="note">{e(ui["wn_pending_note"])}</p>')
     parts.append(("<ul>" + "".join(
         f'<li><strong>{e(human_date(lang, x["date"]))}</strong>, {e(ui["wn_" + ("postponed" if x["type"] == "deferred" else "planned")])}: '
-        f'{fr(x["title"])}. <q lang="fr">{e(x["sentence"])}</q> ({plink(x)})</li>' for x in data["pending"]) + "</ul>")
+        f'{fr(x["title"])}. {quote(x["sentence"])} ({plink(x)})</li>' for x in data["pending"]) + "</ul>")
         if data["pending"] else f'<p>{e(ui["wn_none"])}</p>')
     parts.append(f'<h2>{e(ui["wn_dates"])}</h2><p class="note">{e(ui["wn_dates_note"])}</p>')
     parts.append(("<ul>" + "".join(
-        f'<li><strong>{e(human_date(lang, x["mentioned"]))}</strong>: <q lang="fr">{e(x["sentence"])}</q> '
+        f'<li><strong>{e(human_date(lang, x["mentioned"]))}</strong>: {quote(x["sentence"])} '
         f'({e(human_date(lang, x["meeting"]))}, {plink(x)})</li>' for x in data["dates_mentioned"]) + "</ul>")
         if data["dates_mentioned"] else f'<p>{e(ui["wn_none"])}</p>')
     parts.append(f'<h2>{e(ui["wn_dropped"])}</h2><p class="note">{e(ui["wn_dropped_note"])}</p>')
@@ -955,7 +1036,7 @@ def build(out_dir, public="public", data="data"):
             sizes = {f.name: f.stat().st_size for f in (out / "data").iterdir()}
             pages.append(Page(lang, "data/index.html", UI[lang]["data_title"], data_page_body(lang, opendata, sizes)))
         if whats and whats.get("latest"):
-            pages.append(Page(lang, "whats-new/index.html", UI[lang]["wn_title"], whats_new_body(lang, whats, meeting_files(public), _read_json(public / "whats-new" / "intro.json", None))))
+            pages.append(Page(lang, "whats-new/index.html", UI[lang]["wn_title"], whats_new_body(lang, whats, meeting_files(public), _read_json(public / "whats-new" / "intro.json", None), _read_json(public / "whats-new" / "translations.json", None))))
             feed = out / lang / "whats-new" / "feed.xml"
             feed.parent.mkdir(parents=True, exist_ok=True)
             feed.write_text(whats_new_feed(lang, whats, meeting_files(public)), encoding="utf-8")

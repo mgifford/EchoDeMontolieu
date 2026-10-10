@@ -5,6 +5,7 @@ no private sales (counted elsewhere, never listed). The output is a data file, `
 the website turns it into pages and an Atom feed in each language. Nothing is predicted: "upcoming" means a
 date, a plan or a postponement that the latest minutes themselves mention, with the sentence and the page.
 """
+import hashlib
 import json
 import re
 from datetime import date, timedelta
@@ -21,6 +22,31 @@ WATCH_TOPICS = [t for t in TOPICS if t not in ("droit de préemption", "vie inst
 _MONTHS = {"janvier": 1, "février": 2, "fevrier": 2, "mars": 3, "avril": 4, "mai": 5, "juin": 6, "juillet": 7, "août": 8, "aout": 8,
            "septembre": 9, "octobre": 10, "novembre": 11, "décembre": 12, "decembre": 12}
 _DATE = re.compile(r"\b(\d{1,2}|1er)\s+(" + "|".join(_MONTHS) + r")(?:\s+(20\d{2}))?\b", re.I)
+
+
+def clip(text, limit, around=None):
+    """`text` cut at the end of a sentence, or else of a word, within `limit` characters; "…" marks anything left out.
+
+    With `around` (a position in the text) a long text keeps the stretch that contains that position instead of the start."""
+    text = text.strip()
+    if len(text) <= limit:
+        return text
+    if around is not None and around > limit - 60:
+        start = text.rfind(" ", 0, max(0, around - limit // 2)) + 1
+        return "…" + clip(text[start:], limit - 1)
+    head = text[:limit]
+    end = max(head.rfind(". "), head.rfind("? "), head.rfind("! "))
+    if end >= limit // 2:
+        return head[:end + 1]
+    return head[:head.rfind(" ")].rstrip(" ,;:") + "…"
+
+
+def looks_like_prose(sentence):
+    """False for table rows and column headings that the text extraction turned into a "sentence"."""
+    words = sentence.split()
+    if len(words) < 3 or sum(1 for w in words if any(c.isdigit() for c in w)) >= 6:      # a run of figures is a table
+        return False
+    return sum(1 for w in words[1:] if w[:1].isupper()) / (len(words) - 1) <= 0.4          # many capitals are headings
 
 
 def mentioned_dates(sentence, meeting_date):
@@ -73,13 +99,13 @@ def build(meetings, result):
                 continue
             for f in it["followups"]:
                 if f["type"] in ("deferred", "planned"):
-                    pending.append({"date": mt["date"], "title": it["title"], "type": f["type"], "sentence": f["sentence"][:260],
+                    pending.append({"date": mt["date"], "title": it["title"], "type": f["type"], "sentence": clip(f["sentence"], 260),
                                     "page": it["pages"][0], "page_url": f"{mt['source_url']}#page={it['pages'][0]}"})
             for s in sentences(it["text"]):
-                if sum(c.isdigit() for c in s) > 0.15 * len(s):       # table rows, not prose
+                if sum(c.isdigit() for c in s) > 0.15 * len(s) or not looks_like_prose(s):       # table rows, not prose
                     continue
                 for d in mentioned_dates(s, mt["date"]):
-                    dates.append({"meeting": mt["date"], "mentioned": d, "sentence": s[:260], "title": it["title"],
+                    dates.append({"meeting": mt["date"], "mentioned": d, "sentence": clip(s, 360, around=list(_DATE.finditer(s))[-1].end()), "title": it["title"],
                                   "page": it["pages"][0], "page_url": f"{mt['source_url']}#page={it['pages'][0]}"})
     seen, unique = set(), []
     for d in sorted(dates, key=lambda d: (d["mentioned"], d["meeting"])):
@@ -88,7 +114,7 @@ def build(meetings, result):
             seen.add(key)
             unique.append(d)
     dropped = [{"title": t["title"], "last": t["meetings"][-1], "later_meetings": t["later_meetings"],
-                "sentence": t["pending"][0]["sentence"][:200]} for t in result["threads"] if t["possibly_dropped"]]
+                "sentence": clip(t["pending"][0]["sentence"], 200)} for t in result["threads"] if t["possibly_dropped"]]
     cutoff = (date.fromisoformat(latest) - timedelta(days=30 * WATCH_MONTHS)).isoformat()
     watch = []
     for topic in WATCH_TOPICS:
@@ -102,6 +128,54 @@ def build(meetings, result):
             "feed_meetings": [{"date": m["meeting"]["date"], "folder": m["folder"], "decisions": len([i for i in m["meeting"]["items"] if not i["sensitive"]])}
                               for m in sorted(dated, key=lambda m: m["meeting"]["date"], reverse=True)[:FEED_ENTRIES]],
             "coming_back": coming_back, "pending": pending[:15], "possibly_dropped": dropped, "dates_mentioned": unique[:15], "watch": watch}
+
+
+def string_key(text):
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
+
+
+def display_strings(data):
+    """The French titles and sentences the What's new page shows, in page order, without repeats."""
+    out = []
+    for m in data.get("recent_meetings", []):
+        out += [d["title"] for d in m["decisions"]]
+    out += [t["title"] for t in data.get("coming_back", [])]
+    for x in data.get("pending", []):
+        out += [x["title"], x["sentence"]]
+    out += [x["sentence"] for x in data.get("dates_mentioned", [])]
+    out += [x["title"] for x in data.get("possibly_dropped", [])]
+    return list(dict.fromkeys(s for s in out if s))
+
+
+def write_translations(public_dir, data, translator, langs, force=False):
+    """Write public/whats-new/translations.json: each French title and sentence on the page, translated.
+
+    Same translator and checks as the other translations (numbers, legal references and language are verified; a failed
+    segment is left out and the page shows the French). Strings already translated by the same model are not sent again.
+    """
+    from .translate import PROMPT_VERSION
+    target = Path(public_dir) / "whats-new" / "translations.json"
+    old = json.loads(target.read_text(encoding="utf-8")) if target.exists() else {}
+    reuse = old.get("model") == translator.model and old.get("prompt_version") == PROMPT_VERSION and not force
+    strings = display_strings(data)
+    texts, report = {}, {"translated": 0, "failed": 0, "needs_review": []}
+    for lang in langs:
+        kept = {k: v for k, v in (old.get("texts", {}).get(lang, {}) if reuse else {}).items() if k in {string_key(x) for x in strings}}
+        todo = [x for x in strings if string_key(x) not in kept]
+        if todo:
+            for text, (shown, ok, failed) in zip(todo, translator.translate_many(todo, lang, ())):
+                if ok:
+                    kept[string_key(text)] = shown
+                    report["translated"] += 1
+                else:
+                    report["failed"] += 1
+        texts[lang] = kept
+    if report["failed"]:
+        report["needs_review"].append(f"whats-new/translations.json: {report['failed']} segment(s) failed their checks (French shown instead)")
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(json.dumps({"labels": disclosure.labels("translation", translator.model), "kind": "whats-new-strings",
+                                  "prompt_version": PROMPT_VERSION, "model": translator.model, "texts": texts}, ensure_ascii=False, indent=1), encoding="utf-8")
+    return report
 
 
 def write(public_dir, meetings, result):

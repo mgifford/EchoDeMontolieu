@@ -213,6 +213,9 @@ def _extras(public, summary_model, translator, langs, only, force, now, report):
     intro = whats_new.write_intro(public, data, summary_model, translator, langs, force=force, now=now)
     report["whats_new_intro"] = intro["status"]
     report["needs_review"] += intro["needs_review"]
+    strings = whats_new.write_translations(public, data, translator, langs, force=force)
+    report["whats_new_strings"] = {"translated": strings["translated"], "failed": strings["failed"]}
+    report["needs_review"] += strings["needs_review"]
 
 
 def estimate_generation(public_dir, langs, summary_price, translate_price):
