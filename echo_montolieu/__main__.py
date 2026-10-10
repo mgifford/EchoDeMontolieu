@@ -252,6 +252,8 @@ def main(argv=None):
         result = th.build_threads(meetings)
         report, _ = render_all(args.public, th.todo_status(result))
         pages = th.write_topics(args.public, result, meetings)
+        from . import resources
+        resources.write(args.public)
         from .finance import write_finance
         finance = write_finance(args.public, meetings, result)
         from . import whats_new
