@@ -92,7 +92,7 @@ Decisions about sales of private property (2 notice(s)). Details are in the minu
 
 ## Demande d’avance de subvention sur 2025 pour MVDL
 
-[p.4](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=4) · Vote: unanimous · Topics: subventions
+[p.4](https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=4) · Vote: unanimous · Topics: subventions, Village du Livre (MVDL)
 
 > L’association MVDL a sollicité par courrier du 8 janvier 2025, une avance sur la subvention qui sera provisionnée sur le budget 2025. Monsieur le maire procède à la lecture du courrier. Pour rappel, une avance de 5 000 euros a été accordée en début d’année 2024. Par ailleurs l’association des parents d’élèves de…
 

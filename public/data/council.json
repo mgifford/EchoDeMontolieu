@@ -13,7 +13,7 @@
  "attribution": "Source : L’Écho de Montolieu (https://github.com/mgifford/EchoDeMontolieu)",
  "counts": {
   "meetings": 57,
-  "decisions": 458,
+  "decisions": 457,
   "places": 13
  },
  "newest_meeting": "2026-07-22",
@@ -167,6 +167,7 @@
      "last_page": 4,
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=4",
      "topics": [
+      "Village du Livre (MVDL)",
       "subventions"
      ],
      "euro_amounts": [
@@ -1424,6 +1425,7 @@
      "last_page": 6,
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=6",
      "topics": [
+      "Village du Livre (MVDL)",
       "associations et vie locale"
      ],
      "euro_amounts": [
@@ -1464,7 +1466,9 @@
      "last_page": 7,
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=7",
      "topics": [
-      "patrimoine, culture, tourisme"
+      "patrimoine, culture, tourisme",
+      "Village du Livre (MVDL)",
+      "musée Cérès Franco"
      ],
      "euro_amounts": []
     }
@@ -1524,36 +1528,7 @@
       16816.93,
       15418.93,
       14909.51,
-      15418.93
-     ]
-    },
-    {
-     "n": 3,
-     "title": "Cooperative musee ceres franco",
-     "vote": null,
-     "first_page": 2,
-     "last_page": 2,
-     "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2",
-     "topics": [
-      "patrimoine, culture, tourisme"
-     ],
-     "euro_amounts": [
-      484000.0,
-      294000.0
-     ]
-    },
-    {
-     "n": 4,
-     "title": "Niveau de franchise",
-     "vote": "rejected",
-     "first_page": 2,
-     "last_page": 4,
-     "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2",
-     "topics": [
-      "voirie et travaux",
-      "patrimoine, culture, tourisme"
-     ],
-     "euro_amounts": [
+      15418.93,
       1648.71,
       2486.56,
       410.45,
@@ -1575,7 +1550,23 @@
       569.77,
       15137.1,
       9802.36,
-      3168.13,
+      3168.13
+     ]
+    },
+    {
+     "n": 3,
+     "title": "Cooperative musee ceres franco",
+     "vote": "rejected",
+     "first_page": 2,
+     "last_page": 4,
+     "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2",
+     "topics": [
+      "voirie et travaux",
+      "musée Cérès Franco"
+     ],
+     "euro_amounts": [
+      484000.0,
+      294000.0,
       487000.0,
       500000.0,
       56000.0,
@@ -1589,7 +1580,7 @@
      ]
     },
     {
-     "n": 5,
+     "n": 4,
      "title": "Photovoltaîque de nouvenergie et le projet agrivolatîque de guitard",
      "vote": "rejected",
      "first_page": 4,
@@ -1601,7 +1592,7 @@
      "euro_amounts": []
     },
     {
-     "n": 6,
+     "n": 5,
      "title": "Schema d’amenagement et de gestion des eaux (sage) aude et cotiers audois",
      "vote": "unanimous",
      "first_page": 6,
@@ -1613,7 +1604,7 @@
      "euro_amounts": []
     },
     {
-     "n": 7,
+     "n": 6,
      "title": "Projet educatif de territoire de carcassonne agglo",
      "vote": "unanimous",
      "first_page": 6,
@@ -1623,14 +1614,14 @@
      "euro_amounts": []
     },
     {
-     "n": 8,
+     "n": 7,
      "title": "Pour la coopérative musée ceres franco",
      "vote": "unanimous",
      "first_page": 8,
      "last_page": 8,
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8",
      "topics": [
-      "patrimoine, culture, tourisme"
+      "musée Cérès Franco"
      ],
      "euro_amounts": [
       606.18,
@@ -1639,7 +1630,7 @@
      ]
     },
     {
-     "n": 9,
+     "n": 8,
      "title": "Installation d’une borne de recharge pour vehicule electrique",
      "vote": "unanimous",
      "first_page": 8,
@@ -1649,14 +1640,15 @@
      "euro_amounts": []
     },
     {
-     "n": 10,
+     "n": 9,
      "title": "Attribution du lot 3 des travaux de l’eglise : Lot plâtrerie",
      "vote": "unanimous",
      "first_page": 8,
      "last_page": 8,
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8",
      "topics": [
-      "voirie et travaux"
+      "voirie et travaux",
+      "église Saint-André"
      ],
      "euro_amounts": [
       26864.12,
@@ -1786,7 +1778,7 @@
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=4",
      "topics": [
       "voirie et travaux",
-      "patrimoine, culture, tourisme"
+      "musée Cérès Franco"
      ],
      "euro_amounts": [
       400000.0,
@@ -1985,6 +1977,7 @@
      "last_page": 4,
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=3",
      "topics": [
+      "église Saint-André",
       "associations et vie locale"
      ],
      "euro_amounts": []
@@ -2190,7 +2183,8 @@
      "last_page": 8,
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf#page=8",
      "topics": [
-      "associations et vie locale"
+      "associations et vie locale",
+      "église Saint-André"
      ],
      "euro_amounts": []
     },
@@ -2204,7 +2198,7 @@
      "topics": [
       "associations et vie locale",
       "subventions",
-      "patrimoine, culture, tourisme"
+      "Village du Livre (MVDL)"
      ],
      "euro_amounts": [
       200.0,
@@ -2411,7 +2405,7 @@
      "topics": [
       "finances",
       "subventions",
-      "patrimoine, culture, tourisme"
+      "associations et vie locale"
      ],
      "euro_amounts": [
       52704.0,
@@ -2898,7 +2892,7 @@
      "topics": [
       "associations et vie locale",
       "voirie et travaux",
-      "patrimoine, culture, tourisme"
+      "église Saint-André"
      ],
      "euro_amounts": [
       624569.37,
@@ -3006,7 +3000,7 @@
      "last_page": 5,
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=5",
      "topics": [
-      "patrimoine, culture, tourisme",
+      "musée Cérès Franco",
       "finances"
      ],
      "euro_amounts": [
@@ -3143,7 +3137,8 @@
      "last_page": 4,
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/crcm-14012025-site-internet.pdf#page=4",
      "topics": [
-      "subventions"
+      "subventions",
+      "Village du Livre (MVDL)"
      ],
      "euro_amounts": [
       5000.0,
@@ -3319,7 +3314,6 @@
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=1",
      "topics": [
       "voirie et travaux",
-      "patrimoine, culture, tourisme",
       "finances"
      ],
      "euro_amounts": []
@@ -3332,6 +3326,7 @@
      "last_page": 3,
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=3",
      "topics": [
+      "Village du Livre (MVDL)",
       "associations et vie locale"
      ],
      "euro_amounts": []
@@ -3355,8 +3350,8 @@
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=4",
      "topics": [
       "voirie et travaux",
-      "associations et vie locale",
-      "patrimoine, culture, tourisme"
+      "église Saint-André",
+      "associations et vie locale"
      ],
      "euro_amounts": []
     },
@@ -3710,7 +3705,8 @@
      "last_page": 7,
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=7",
      "topics": [
-      "voirie et travaux"
+      "voirie et travaux",
+      "église Saint-André"
      ],
      "euro_amounts": []
     },
@@ -4290,7 +4286,7 @@
      "original_page_url": "https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=3",
      "topics": [
       "voirie et travaux",
-      "patrimoine, culture, tourisme"
+      "musée Cérès Franco"
      ],
      "euro_amounts": [
       2600000.0,

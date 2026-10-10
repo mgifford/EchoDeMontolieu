@@ -125,19 +125,19 @@
     {
      "date": "2025-10-27",
      "folder": "2025-10-27",
-     "title": "Niveau de franchise",
+     "title": "Cooperative musee ceres franco",
      "page": 2,
      "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf",
      "topics": [
       "voirie et travaux",
-      "patrimoine, culture, tourisme"
+      "musée Cérès Franco"
      ]
     }
    ],
    "themes": {
     "intercommunalité": 1,
     "voirie et travaux": 1,
-    "patrimoine, culture, tourisme": 1
+    "musée Cérès Franco": 1
    },
    "main_theme": "intercommunalité",
    "shape": "diamond",
@@ -162,18 +162,18 @@
      "url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
      "topics": [
       "voirie et travaux",
-      "patrimoine, culture, tourisme"
+      "musée Cérès Franco"
      ]
     },
     {
      "date": "2025-10-27",
      "folder": "2025-10-27",
-     "title": "Niveau de franchise",
+     "title": "Cooperative musee ceres franco",
      "page": 2,
      "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf",
      "topics": [
       "voirie et travaux",
-      "patrimoine, culture, tourisme"
+      "musée Cérès Franco"
      ]
     },
     {
@@ -189,7 +189,7 @@
    ],
    "themes": {
     "voirie et travaux": 2,
-    "patrimoine, culture, tourisme": 2,
+    "musée Cérès Franco": 2,
     "urbanisme": 1
    },
    "main_theme": "voirie et travaux",
@@ -255,12 +255,16 @@
      "page": 7,
      "url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf",
      "topics": [
-      "patrimoine, culture, tourisme"
+      "patrimoine, culture, tourisme",
+      "Village du Livre (MVDL)",
+      "musée Cérès Franco"
      ]
     }
    ],
    "themes": {
-    "patrimoine, culture, tourisme": 1
+    "patrimoine, culture, tourisme": 1,
+    "Village du Livre (MVDL)": 1,
+    "musée Cérès Franco": 1
    },
    "main_theme": "patrimoine, culture, tourisme",
    "shape": "triangle",
@@ -465,13 +469,13 @@
      "url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
      "topics": [
       "voirie et travaux",
-      "patrimoine, culture, tourisme"
+      "musée Cérès Franco"
      ]
     }
    ],
    "themes": {
     "voirie et travaux": 1,
-    "patrimoine, culture, tourisme": 1
+    "musée Cérès Franco": 1
    },
    "main_theme": "voirie et travaux",
    "shape": "square",

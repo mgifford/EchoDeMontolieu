@@ -66,7 +66,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Subvention à régulariser MVDL
 
-[p.4](https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=4) · Vote: unanimous · Topics: subventions
+[p.4](https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=4) · Vote: unanimous · Topics: Village du Livre (MVDL), subventions
 
 > A la signature du contrat tripartite entre Carcassonne Agglo, MVDL et la mairie à l’occasion du salon de la gravure il a été convenu qu’une subvention de 300,00€ serait versée pour son organisation. La commune ne pouvait pas, dans un délai très court, assurer le versement. Celui-ci a donc été avancé par l’association…
 

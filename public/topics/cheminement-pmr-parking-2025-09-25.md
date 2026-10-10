@@ -22,15 +22,15 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 > Les conseillers ont été destinataires de l’étude réalisée par l’ATD11. Une première réunion a eu lieu le 18 sur place à Cérès Franco en présence de la région et du département et de Carcassonne Agglo. Y étaient présent, Bernard LAURET, Laure ESCARÉ. Les options du GIP y ont été débattues. Après de nombreux échanges…
 
-### 2025-10-27: Niveau de franchise
+### 2025-10-27: Cooperative musee ceres franco
 
-[p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) · vote: rejected · [facts](../meetings/2025-10-27/facts.md) · amounts: 1 649 €, 2 487 €, 410 €, 476 €, 107 €, 93 €, 300 €, 10 593 €, 750 €, 9 677 €, 1 500 €, 9 374 €, 300 €, 3 168 €, 600 €, 2
+[p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) · vote: rejected · [facts](../meetings/2025-10-27/facts.md) · amounts: 484 000 €, 294 000 €, 487 000 €, 500 000 €, 56 000 €, 46 400 €, 60 000 €, 40 600 €, 29 000 €, 116 000 €, 116 000 €, 29 0
 
-> 2025 2026 % 2025/2026 Responsabilité sans franchise hors options 1 648,71 € 2 486,56 € 51% Protection juridique sans franchise 410,45 € 475,98 € 16% protection fonctionnelle sans franchise 107,45 € 92,95 € -13,50% Avec franchise 300 € hors franchise particulière 10 593,19 € 8% Avec franchise 750 € hors franchise…
+> A la demande des partenaires du GIP, l’ATD11 a présenté le projet détaillé du cheminement partant du parking St Roch. L’ensemble des documents a été transmis aux conseillers le 14 octobre. L’ensemble du projet, études comprises se monte à 484 000 € TTC, en tenant compte d’une remise aux normes complètes du pont…
 
 ## Amounts across meetings
 
 | Date | Amounts mentioned |
 |---|---|
 | 2025-09-25 | 400 000 €, 80 000 € |
-| 2025-10-27 | 1 649 €, 2 487 €, 410 €, 476 €, 107 €, 93 €, 300 €, 10 593 €, 750 €, 9 677 €, 1 500 €, 9 374 €, 300 €, 3 168 €, 600 €, 2 |
+| 2025-10-27 | 484 000 €, 294 000 €, 487 000 €, 500 000 €, 56 000 €, 46 400 €, 60 000 €, 40 600 €, 29 000 €, 116 000 €, 116 000 €, 29 0 |

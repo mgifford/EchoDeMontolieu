@@ -183,11 +183,25 @@ def split_items(blocks):
     title = blocks[headings[0]]
     cut = headings[1] if len(headings) > 1 else len(blocks)
     header = blocks[headings[0] + 1: cut]
+    agenda_keys = [k for k in (title_key(b["text"]) for b in header if b["kind"] == "bullet") if k]
     items = []
-    for n, start in enumerate(headings[1:], start=0):
+    n = 0
+    while n < len(headings) - 1:
+        start = headings[n + 1]
         end = headings[n + 2] if n + 2 < len(headings) else len(blocks)
         body = blocks[start + 1: end]
         heading = blocks[start]
+        n += 1
+        if items and _is_table_caption(heading, body, agenda_keys) and _unfinished(items[-1]["blocks"]):
+            # A table caption the extractor placed mid-sentence: the table goes to the
+            # item it is about and the prose after it goes back to the item it continues.
+            split = _table_run_end(body)
+            owner = _caption_owner(items, heading["text"])
+            owner["blocks"].append({"kind": "subheading", "text": heading["text"],
+                                    "page": heading["page"]})
+            owner["blocks"].extend(body[:split])
+            items[-1]["blocks"].extend(body[split:])
+            continue
         # A heading whose body has almost no prose is a table caption or sub-heading:
         # fold it into the previous item.
         if items and (_prose_length(body) < MIN_PROSE_CHARS or not _sentence_blocks(body)):
@@ -197,6 +211,52 @@ def split_items(blocks):
             continue
         items.append({"title_raw": heading["text"], "blocks": list(body), "page": heading["page"]})
     return title, header, items
+
+
+_TABLE_KINDS = ("table", "subheading")
+
+
+def _is_table_caption(heading, body, agenda_keys):
+    """A heading that is not on the agenda and opens straight into a table."""
+    if not agenda_keys or not body or body[0]["kind"] != "table":
+        return False
+    rest = body[_table_run_end(body):]
+    if (not rest or rest[0]["kind"] != "paragraph" or not rest[0]["text"][:1].islower()
+            or len(rest[0]["text"].split()) < 8 or rest[0]["page"] == heading["page"]):
+        return False    # the prose after the table must pick up a sentence cut at a page break
+    key = title_key(heading["text"])
+    return bool(key) and not any(a == key or a.startswith(key) or key.startswith(a)
+                                 for a in agenda_keys)
+
+
+def _unfinished(blocks):
+    """True when the last paragraph stops without closing punctuation (cut mid-sentence)."""
+    paras = [b for b in blocks if b["kind"] == "paragraph"]
+    return bool(paras) and not re.search(r"[.!?:;»)\]]\s*$", paras[-1]["text"].strip())
+
+
+def _table_run_end(body):
+    """Index after the leading run of table cells, row labels and sub-headings."""
+    end = 0
+    for i, b in enumerate(body):
+        label = b["kind"] == "paragraph" and len(b["text"].split()) < 8
+        if b["kind"] in _TABLE_KINDS or label:
+            end = i + 1
+        else:
+            break
+    return end
+
+
+def _caption_owner(items, caption):
+    """The nearest earlier item (within three) sharing the most words with the caption."""
+    words = set(title_key(caption).split())
+    best, best_hits = items[-1], 0
+    for item in reversed(items[-3:]):
+        text = set((title_key(item["title_raw"]) + " " + title_key(_block_text(item["blocks"]))).split())
+        hits = len(words & text)
+        if hits > best_hits:
+            best, best_hits = item, hits
+    return best
 
 
 def _block_text(blocks):

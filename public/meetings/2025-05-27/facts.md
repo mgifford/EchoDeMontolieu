@@ -81,13 +81,13 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Relance de marche public lot 3 infructueux de l’eglise
 
-[p.8](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf#page=8) · Vote: no vote found · Topics: associations et vie locale
+[p.8](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf#page=8) · Vote: no vote found · Topics: associations et vie locale, église Saint-André
 
 > [name withheld] du cabinet d’architecture Serra a par mail sollicité la commune pour la relance du lot 3 infructueux du marché de l’église. Ce lot interviendra dans la réalisation de la première tranche optionnelle de la phase 1. Les travaux de la tranche ferme débutant en novembre de cette année et devant se terminer…
 
 ## Demande de subvention de l'association Le rêve du martinet
 
-[p.8](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf#page=8) to [p.9](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf#page=9) · Vote: majority (not unanimous) (for: 8, against: 5, abstentions: 1) · Topics: associations et vie locale, subventions, patrimoine, culture, tourisme
+[p.8](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf#page=8) to [p.9](https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf#page=9) · Vote: majority (not unanimous) (for: 8, against: 5, abstentions: 1) · Topics: associations et vie locale, subventions, Village du Livre (MVDL)
 
 > L’association a réitéré sa demande de subvention, à la suite d’échanges entre elle, la commune et l’association MVDL auprès de laquelle la demanderesse avait été renvoyée. [name withheld] a dans un mail précisé la position de MVdL dont Monsieur le Maire donne lecture. Jeanne ETORÉ-LORTHOLARY précise qu’elle n’a rien…
 

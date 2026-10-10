@@ -1,0 +1,139 @@
+{
+ "_meta": {
+  "note": "Hand-chosen links. Each was returned by a web search on 2026-10-10; the target pages were not read in full. Wording is by the assistant and unreviewed. Add the museum's own site once its address is confirmed."
+ },
+ "entries": [
+  {
+   "id": "mvdl",
+   "url": "https://www.montolieu-livre.fr/en/?p=4225",
+   "title": {
+    "fr": "Association Montolieu Village du Livre et des Arts",
+    "en": "Montolieu Village du Livre et des Arts association",
+    "nl": "Vereniging Montolieu Village du Livre et des Arts"
+   },
+   "about": {
+    "fr": "L’association qui anime le village du livre : histoire, programme culturel annuel et salon du livre ancien et d’occasion (selon des sources tierces, le week-end de Pâques).",
+    "en": "The association that runs the book village: its history, yearly cultural programme and the antiquarian and second-hand book fair (held at Easter weekend, according to third-party sources).",
+    "nl": "De vereniging die het boekendorp draagt: geschiedenis, jaarlijks cultureel programma en de beurs voor antiquarische en tweedehandsboeken (volgens externe bronnen met Pasen)."
+   }
+  },
+  {
+   "id": "aude-tourisme",
+   "url": "https://www.audetourisme.com/fr/experiences/montolieu-village-livre-et-arts",
+   "title": {
+    "fr": "Aude Tourisme : Montolieu, village du livre et des arts",
+    "en": "Aude Tourisme: Montolieu, village of books and arts",
+    "nl": "Aude Tourisme: Montolieu, dorp van boeken en kunst"
+   },
+   "about": {
+    "fr": "La fiche du village sur le site du tourisme départemental.",
+    "en": "The village’s entry on the département’s tourism site.",
+    "nl": "De pagina van het dorp op de toerismesite van het departement."
+   }
+  },
+  {
+   "id": "mairie-agenda",
+   "url": "https://www.montolieu.fr/agenda/",
+   "title": {
+    "fr": "Agenda de la Mairie",
+    "en": "The Mairie’s events calendar",
+    "nl": "Evenementenkalender van de gemeente"
+   },
+   "about": {
+    "fr": "Le calendrier des manifestations communales ; à vérifier à la source.",
+    "en": "The calendar of municipal events; confirm at the source.",
+    "nl": "De kalender van gemeentelijke evenementen; controleer bij de bron."
+   }
+  },
+  {
+   "id": "rando",
+   "url": "https://rando.grand-carcassonne-tourisme.fr/",
+   "title": {
+    "fr": "Randonnées, Grand Carcassonne Tourisme",
+    "en": "Walking routes, Grand Carcassonne Tourisme",
+    "nl": "Wandelroutes, Grand Carcassonne Tourisme"
+   },
+   "about": {
+    "fr": "Les itinéraires de randonnée, lié depuis la page d’accueil de la Mairie.",
+    "en": "Walking routes, linked from the Mairie’s homepage.",
+    "nl": "Wandelroutes, gelinkt vanaf de startpagina van de gemeente."
+   }
+  }
+ ],
+ "church": {
+  "sign": {
+   "seen": {
+    "fr": "sur place, photographié par le mainteneur du projet ; date non notée",
+    "en": "on site, photographed by the project maintainer; date not recorded",
+    "nl": "ter plaatse, gefotografeerd door de beheerder van het project; datum niet genoteerd"
+   },
+   "listed_since": "1972-09-27",
+   "phase1_total_ht": 1224677.81,
+   "firm_tranche_ht": 303721.63,
+   "funders": [
+    [
+     "DRAC Occitanie",
+     161214.66
+    ],
+    [
+     "Région Occitanie",
+     52096.0
+    ],
+    [
+     "Commune de Montolieu",
+     90410.97
+    ]
+   ]
+  },
+  "minutes": [
+   {
+    "date": "2025-03-06",
+    "label": "firm_estimate",
+    "amount_ht": 303721.53,
+    "url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=1"
+   },
+   {
+    "date": "2025-03-06",
+    "label": "firm_validated",
+    "amount_ht": 281516.83,
+    "url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2"
+   },
+   {
+    "date": "2025-03-06",
+    "label": "tender_total",
+    "amount_ht": 1168188.45,
+    "url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2"
+   },
+   {
+    "date": "2025-10-27",
+    "label": "lot3_all_tranches",
+    "amount_ht": 104525.12,
+    "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8"
+   },
+   {
+    "date": "2025-03-06",
+    "label": "lot3_estimate",
+    "amount_ht": 77661.0,
+    "url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2"
+   },
+   {
+    "date": "2025-10-27",
+    "label": "saving_stated",
+    "amount_ht": 29625.0,
+    "pct": 2.42,
+    "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8"
+   }
+  ],
+  "open_questions": [
+   {
+    "id": "lot6",
+    "minutes_url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2",
+    "text": {
+     "fr": "Lot 6 (décors peints) : le tableau du procès-verbal du 6 mars 2025 retient « Paillard Boyer » (estimation 157 009,51 € HT), alors que le panneau de chantier indique « Atelier d’Autan ». Il peut s’agir d’un changement d’entreprise ou d’une erreur de transcription ; rien dans les documents lus ici ne le dit. À confirmer auprès de la Mairie.",
+     "en": "Lot 6 (painted decoration): the table in the 6 March 2025 minutes names “Paillard Boyer” (estimate €157,009.51 excl. VAT), while the site notice shows “Atelier d’Autan”. It may be a change of contractor or a transcription error; nothing in the documents read here says which. To be confirmed with the Mairie.",
+     "nl": "Kavel 6 (decoratieve schilderwerken): de tabel in de notulen van 6 maart 2025 noemt “Paillard Boyer” (raming €157.009,51 excl. btw), terwijl het bouwbord “Atelier d’Autan” toont. Het kan een wissel van aannemer zijn of een overschrijffout; niets in de hier gelezen documenten zegt welke. Te bevestigen bij de gemeente."
+    }
+   }
+  ]
+ }
+}

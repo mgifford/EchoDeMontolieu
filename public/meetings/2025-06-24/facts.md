@@ -49,7 +49,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Relance de marche public lot 3 infructueux de l’eglise
 
-[p.3](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=3) to [p.4](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=4) · Vote: unanimous · Topics: associations et vie locale
+[p.3](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=3) to [p.4](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=4) · Vote: unanimous · Topics: église Saint-André, associations et vie locale
 
 > A la suite de la demande du Conseil, [name withheld], a fait savoir qu’il n’y avait aucun surcoût d’honoraire engendré par la relance. Il n’y a pas de nécessitée à consulter le lot 3 dès à présent. Il sera en revanche nécessaire d’anticiper la relance de cette consultation a minima 6 mois avant le démarrage de la…
 

@@ -70,7 +70,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Engagement de la commune sur le financement complementaire des travaux du musee ceres franco
 
-[p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=3) · Vote: unanimous · Topics: voirie et travaux, patrimoine, culture, tourisme
+[p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CM-31-JANVIER-2024-site-internet.pdf#page=3) · Vote: unanimous · Topics: voirie et travaux, musée Cérès Franco
 
 > Le financement initial des travaux du Musée Cérès Franco s'élevait à 2 600 000 euros, le financement total actualisé s'élève à 4 600 000 euros. La part de financement initialement prise en charge par la commune de Montolieu était de 15 000 euros (soit 0,57% du total). Pour couvrir le montant actuel des travaux, en…
 

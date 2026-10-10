@@ -46,8 +46,8 @@ In progress (see the open pull requests): readable Markdown for every meeting (f
 summary, and follow-ups), topics over time, finance and regulation links, places and a map,
 and French, English and Dutch versions.
 
-Not built yet, despite earlier plans: a business directory, parcel and zoning lookups, an MCP
-server, a vector search.
+Not built yet, despite earlier plans: a business directory and a vector search. An MCP server, a
+places map, zoning lookups and a culture and tourism page now exist (see HANDOFF.md).
 
 ## How the data is handled
 

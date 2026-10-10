@@ -261,11 +261,13 @@ def main(argv=None):
         from . import export
         from .archive_translate import archived_digests
         opendata = export.write(args.public, meetings, archived_digests(Path(args.public)))
+        from . import culture
+        culture_info = culture.write(args.public)
         from . import places as pl
         cache = pl.BanGeocoder("data/geocode_cache.json")
         from .archive_digest import place_meetings
         place_info = pl.write_places(args.public, meetings + place_meetings(args.public), cache.cached)
-        print(json.dumps({"meetings": report["meetings"], "topic_pages": pages, "finance": finance, "whats_new": whats, "open_data": opendata, "places": place_info,
+        print(json.dumps({"meetings": report["meetings"], "topic_pages": pages, "finance": finance, "whats_new": whats, "open_data": opendata, "culture": culture_info, "places": place_info,
                           "issues_in_several_meetings": sum(1 for t in result["threads"] if t["status"] != "one-off"),
                           "possibly_dropped": sum(1 for t in result["threads"] if t["possibly_dropped"])}, indent=2))
     elif args.cmd == "translate-trial":
