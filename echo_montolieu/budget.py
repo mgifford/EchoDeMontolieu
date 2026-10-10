@@ -4,25 +4,34 @@ The Direction générale des Finances publiques (DGFiP) publishes the accounting
 one dataset per year, under the Licence Ouverte (https://data.economie.gouv.fr/, "Balances comptables des communes").
 This module reads one exported file per year (the rows of Montolieu's SIREN), keeps the commune's main budget
 (not the annex budgets), adds up a few headline figures per year and writes a page in French, English and Dutch.
-It does not fetch anything: the portal's robots.txt asks automated clients to stay out of its API, so the files are
-exported by a person (see `FILES_HELP`) and this step runs offline.
+
+The files come from the portal's documented Explore API with `--fetch`: one request per year, filtered to this commune,
+five seconds apart, with the project's descriptive User-Agent. The portal's robots.txt disallows /api/ for automated
+clients, and the maintainer chose to use the API anyway for this one data set. So `--fetch` is run by hand, never by a
+workflow or by `render`, and nothing else in the project uses this exception. Without `--fetch` the step is offline.
 
 The figures are what was executed (the accounts), not what was voted: the voted budget documents are the
 Mairie's own and are not published here. The sums follow simple, stated rules (see `RULES`); they are not an
 official analysis and a person has not checked them.
 
-Run by hand: `python -m echo_montolieu budget --from FOLDER`. `render` does not touch these pages.
+Run by hand: `python -m echo_montolieu budget --fetch` (or `--from FOLDER` for files already exported). `render` does not touch these pages.
 """
 import json
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+import requests
+
 from . import disclosure
+from .fetch import USER_AGENT, StopFetching
 
 SIREN = "211102538"
 DATASET = "balances-comptables-des-communes-en-{year}"
 SOURCE_PAGE = "https://data.economie.gouv.fr/explore/dataset/{dataset}/"
 VOTED_2026 = "https://www.montolieu.fr/wp-content/uploads/2026/05/BUDGET-2026.pdf"
+API = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/{dataset}/exports/json"
+FIRST_YEAR = 2010
 FILES_HELP = (f'One JSON file per year named balances-YYYY.json in the folder, each exported from the dataset "{DATASET}" on '
               f'data.economie.gouv.fr with the filter siren = {SIREN} (Export > JSON).')
 
@@ -79,6 +88,28 @@ def summarise(rows):
     return out
 
 
+def fetch_years(folder, years, delay=5.0, session=None):
+    """Save balances-YYYY.json for each year in `folder`: this commune's rows only. A year the portal does not have (404) is skipped;
+    a 429 or a server error stops the run."""
+    folder = Path(folder)
+    folder.mkdir(parents=True, exist_ok=True)
+    s = session or requests.Session()
+    saved = []
+    for n, year in enumerate(years):
+        if n:
+            time.sleep(delay)
+        resp = s.get(API.format(dataset=DATASET.format(year=year)), params={"where": f'siren="{SIREN}"'},
+                     headers={"User-Agent": USER_AGENT}, timeout=120)
+        if resp.status_code == 404:
+            continue
+        if resp.status_code == 429 or resp.status_code >= 500:
+            raise StopFetching(f"{resp.status_code} from the open data portal for {year}")
+        resp.raise_for_status()
+        (folder / f"balances-{year}.json").write_bytes(resp.content)
+        saved.append(year)
+    return saved
+
+
 def collect(folder):
     """{year: figures} from the files balances-YYYY.json in `folder`; a year without a file, or without rows for the main budget, is left out."""
     found = {}
@@ -94,6 +125,7 @@ def collect(folder):
 
 T = {
     "en": dict(
+        basis="Unlike the other pages, this one does not use the minutes: its figures come from the national open data named below.",
         title="Finances over the years", lead="Montolieu's accounts, year by year",
         intro=("This page adds up the commune's executed accounts for each year from the national open data of the public finance "
                "administration (DGFiP). It shows what was spent and received, not what was voted. The voted budget documents are the Mairie's; "
@@ -116,6 +148,7 @@ T = {
         source="Source", source_line="Each year is one dataset on data.economie.gouv.fr, \"Balances comptables des communes\", released under the Licence Ouverte 2.0.",
         updated="Fetched {when}.", back="Back to the finance page"),
     "fr": dict(
+        basis="Contrairement aux autres pages, celle-ci n’utilise pas les procès-verbaux : ses chiffres viennent des données ouvertes nationales citées plus bas.",
         title="Les finances au fil des années", lead="Les comptes de Montolieu, année par année",
         intro=("Cette page additionne, pour chaque année, les comptes exécutés de la commune à partir des données ouvertes de la "
                "Direction générale des Finances publiques (DGFiP). Elle montre ce qui a été dépensé et reçu, pas ce qui a été voté. "
@@ -138,6 +171,7 @@ T = {
         source="Source", source_line="Chaque année est un jeu de données sur data.economie.gouv.fr, « Balances comptables des communes », sous Licence Ouverte 2.0.",
         updated="Données récupérées le {when}.", back="Retour à la page Finances"),
     "nl": dict(
+        basis="In tegenstelling tot de andere pagina’s gebruikt deze de notulen niet: de cijfers komen uit de hieronder genoemde nationale open data.",
         title="De financiën door de jaren heen", lead="De rekeningen van Montolieu, jaar na jaar",
         intro=("Deze pagina telt per jaar de uitgevoerde rekeningen van de gemeente op, uit de open data van de Franse "
                "overheidsfinanciën (DGFiP). Ze toont wat is uitgegeven en ontvangen, niet wat is goedgekeurd. "
@@ -178,7 +212,7 @@ def render(lang, years, fetched):
     first, last = ys[0], ys[-1]
     e = lambda n: euros(lang, n)
     voted = f"[{t['voted']}]({VOTED_2026})"
-    lines = [f"# {t['title']}", "", disclosure.markdown("rules", lang), "", f"{t['lead']}.", "", t["intro"].format(voted=voted), ""]
+    lines = [f"# {t['title']}", "", disclosure.markdown("rules", lang), "", f"> {t['basis']}", "", f"{t['lead']}.", "", t["intro"].format(voted=voted), ""]
     lines += [t["summary"].format(first=first, last=last, r0=e(years[first]["revenue"]), r1=e(years[last]["revenue"]),
                                   s0=e(years[first]["spending"]), s1=e(years[last]["spending"]),
                                   d0=e(years[first]["debt"]), d1=e(years[last]["debt"])), ""]
@@ -212,7 +246,9 @@ def write(public_dir, years, data_file="data/budget_years.json", fetched=None):
     return {"years": sorted(years), "pages": 3}
 
 
-def run(folder, public_dir="public", data_file="data/budget_years.json"):
+def run(folder, public_dir="public", data_file="data/budget_years.json", fetch=False, delay=5.0):
+    if fetch:
+        fetch_years(folder, range(FIRST_YEAR, datetime.now(timezone.utc).year + 1), delay)
     years = collect(folder)
     if not years:
         raise SystemExit(f"no rows for SIREN {SIREN} in {folder}. {FILES_HELP}")

@@ -75,3 +75,25 @@ def test_the_finance_page_links_to_the_budget_page_only_when_it_exists(tmp_path)
     (tmp_path / "finance/budget.md").write_text("x", encoding="utf-8")
     finance.write_finance(tmp_path, [])
     assert "(budget.md)" in (tmp_path / "finance/index.md").read_text(encoding="utf-8")
+
+
+def test_fetch_saves_one_filtered_file_per_year_skips_a_404_and_stops_on_a_429(tmp_path):
+    from types import SimpleNamespace
+    import pytest
+    from echo_montolieu.fetch import StopFetching
+    calls = []
+
+    class Session:
+        def __init__(self, codes):
+            self.codes = codes
+
+        def get(self, url, params, headers, timeout):
+            calls.append((url, params, headers["User-Agent"]))
+            code = self.codes[len(calls) - 1]
+            return SimpleNamespace(status_code=code, content=b"[]", raise_for_status=lambda: None)
+
+    assert b.fetch_years(tmp_path, [2010, 2011], delay=0, session=Session([200, 404])) == [2010]
+    assert (tmp_path / "balances-2010.json").exists() and not (tmp_path / "balances-2011.json").exists()
+    assert calls[0][1] == {"where": 'siren="211102538"'} and "EchoDeMontolieu" in calls[0][2] and "balances-comptables-des-communes-en-2010" in calls[0][0]
+    with pytest.raises(StopFetching):
+        b.fetch_years(tmp_path, [2012], delay=0, session=Session([429] * 5))

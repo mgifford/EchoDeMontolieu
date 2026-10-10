@@ -101,8 +101,10 @@ def main(argv=None):
     p_ren.add_argument("--public", default="public")
 
     p_bud = sub.add_parser(
-        "budget", help="write the finances-over-time pages from exported DGFiP yearly accounts (offline; see --from)")
-    p_bud.add_argument("--from", dest="folder", required=True, help="folder with balances-YYYY.json, one file per year")
+        "budget", help="write the finances-over-time pages from the DGFiP yearly accounts (--fetch asks the portal's API, one request per year)")
+    p_bud.add_argument("--from", dest="folder", default=".cache/budget", help="folder with balances-YYYY.json, one file per year")
+    p_bud.add_argument("--fetch", action="store_true", help="download the files first (run by hand only; see echo_montolieu/budget.py)")
+    p_bud.add_argument("--delay", type=float, default=5.0)
     p_bud.add_argument("--public", default="public")
 
     p_tr = sub.add_parser(
@@ -223,7 +225,7 @@ def main(argv=None):
         sys.exit(0 if result["match"] else 1)
     elif args.cmd == "budget":
         from . import budget
-        print(json.dumps(budget.run(args.folder, args.public), indent=2))
+        print(json.dumps(budget.run(args.folder, args.public, fetch=args.fetch, delay=args.delay), indent=2))
     elif args.cmd == "render":
         from . import threads as th
         meetings = th.load_meetings(args.public)

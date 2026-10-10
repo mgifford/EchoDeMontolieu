@@ -249,3 +249,7 @@ Issues that came up in several meetings with amounts each time. Open an issue fo
 |---|---|
 | 2025-09-25 | 400 000 €, 80 000 € |
 | 2025-10-27 | 1 649 €, 2 487 €, 410 €, 476 € (+28 more) |
+
+## Over the years
+
+[The commune's accounts year by year](budget.md), from the national open data.
