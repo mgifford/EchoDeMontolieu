@@ -16,7 +16,7 @@ L'Écho de Montolieu: a trilingual (fr/en/nl) civic signpost and record of the c
 
 - Everything built so far is merged to `main`, except the pull request that carries this note (#33, a fix for the map pages' accessibility audit plus this handoff). **Merge #33.** After that nothing is open.
 - Workflows on `main`: *Deploy GitHub Pages*, *Sync to Hugging Face Space* (on every push), *Accessibility audit* (axe, on push and pull requests; was red from #28 until #33), *Generate summaries and translations* (manual), *Watch for new minutes* (weekly, opens an issue).
-- Tests: 354 pass, 1 skipped. The accessibility audit passed on #33 (run 38); locally `tools/a11y_check.cjs` reports 0 axe violations on the three map pages and the open-data page.
+- Tests: 380 pass, 1 skipped (as of 2026-10-10). The accessibility audit passed on #33 (run 38); locally `tools/a11y_check.cjs` reports 0 axe violations on the three map pages and the open-data page.
 - Content: 57 meetings in the record (25 current, 32 recovered from the Internet Archive for 2003-2008; none found for 2009-2023, the maintainer is asking the Mairie). Model summaries exist for 13 of the 25 current meetings. 13 places are confirmed on the map.
 
 ## What the maintainer must do (nobody else can)

@@ -109,6 +109,7 @@ UI = {
         "e_issues": "what keeps coming back, and what may have been dropped",
         "e_finance": "as far as the minutes state them",
         "e_resources": "Local risks and public data: flood and ground risk, geology, recorded sales",
+        "e_culture": "Culture and tourism: museum, book village, church, and where to find events",
         "e_places": "Places discussed (list)", "e_zoning": "Planning and heritage zoning, from the national planning portal",
         "e_map": "Map of places discussed",
         "minutes_h": "Council minutes",
@@ -197,6 +198,7 @@ UI = {
         "e_issues": "ce qui revient souvent, et ce qui a peut-être été abandonné",
         "e_finance": "dans la mesure où les procès-verbaux les indiquent",
         "e_resources": "Risques locaux et données publiques : inondation et sol, géologie, ventes enregistrées",
+        "e_culture": "Culture et tourisme : musée, village du livre, église, et où trouver les événements",
         "e_places": "Lieux évoqués (liste)", "e_zoning": "Urbanisme et zonages patrimoniaux, d’après le Géoportail de l’urbanisme",
         "e_map": "Carte des lieux évoqués",
         "minutes_h": "Procès-verbaux du conseil municipal",
@@ -285,6 +287,7 @@ UI = {
         "e_issues": "wat steeds terugkomt, en wat misschien is blijven liggen",
         "e_finance": "voor zover de notulen ze vermelden",
         "e_resources": "Lokale risico’s en openbare gegevens: overstroming en bodem, geologie, geregistreerde verkopen",
+        "e_culture": "Cultuur en toerisme: museum, boekendorp, kerk en waar u evenementen vindt",
         "e_places": "Besproken plaatsen (lijst)", "e_zoning": "Ruimtelijke ordening en erfgoedzones, volgens het nationale planningsportaal",
         "e_map": "Kaart van besproken plaatsen",
         "minutes_h": "Notulen van de gemeenteraad",
@@ -844,7 +847,7 @@ def whats_new_feed(lang, data, files):
             f"<updated>{updated}</updated>" + "".join(entries) + "</feed>\n")
 
 
-def landing_body(lang, index, pointers, folders, files, has_zoning=False, has_whats_new=False, has_data=False, has_resources=False):
+def landing_body(lang, index, pointers, folders, files, has_zoning=False, has_whats_new=False, has_data=False, has_resources=False, has_culture=False):
     """Home page: alerts, introduction, explore links, the minutes grouped by year, where to find things."""
     ui, e = UI[lang], html.escape
     since = recent_since(index)
@@ -887,6 +890,7 @@ def landing_body(lang, index, pointers, folders, files, has_zoning=False, has_wh
 <li><a href="finance/index.html">{e(ui['finance'])}</a>, {e(ui['e_finance'])}</li>
 <li><a href="places/index.html">{e(ui['e_places'])}</a></li>
 {f'<li><a href="resources/index.html">{e(ui["e_resources"])}</a></li>' if has_resources else ''}
+{f'<li><a href="culture/index.html">{e(ui["e_culture"])}</a></li>' if has_culture else ''}
 {f'<li><a href="data/index.html">{e(ui["data_title"])}</a>: {e(ui["e_data"].split(": ", 1)[-1])}</li>' if has_data else ''}
 {f'<li><a href="zoning/index.html">{e(ui["e_zoning"])}</a></li>' if has_zoning else ''}
 <li><a href="places/map.html">{e(ui['e_map'])}</a></li>
@@ -1035,7 +1039,7 @@ def build(out_dir, public="public", data="data"):
     place_map = place_links(public)
     whats = _read_json(public / "whats-new" / "whats-new.json", None)
     for lang in LANGS:
-        pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders, meeting_files(public), (public / 'zoning' / 'index.md').exists(), (public / 'whats-new' / 'whats-new.json').exists(), (public / 'data' / 'council.json').exists(), (public / 'resources' / 'index.md').exists()))]
+        pages = [Page(lang, "index.html", SITE_NAME, landing_body(lang, index, pointers, folders, meeting_files(public), (public / 'zoning' / 'index.md').exists(), (public / 'whats-new' / 'whats-new.json').exists(), (public / 'data' / 'council.json').exists(), (public / 'resources' / 'index.md').exists(), (public / 'culture' / 'index.md').exists()))]
         if opendata:
             sizes = {f.name: f.stat().st_size for f in (out / "data").iterdir()}
             pages.append(Page(lang, "data/index.html", UI[lang]["data_title"], data_page_body(lang, opendata, sizes)))
