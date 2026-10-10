@@ -97,3 +97,19 @@ def test_fetch_saves_one_filtered_file_per_year_skips_a_404_and_stops_on_a_429(t
     assert calls[0][1] == {"where": 'siren="211102538"'} and "EchoDeMontolieu" in calls[0][2] and "balances-comptables-des-communes-en-2010" in calls[0][0]
     with pytest.raises(StopFetching):
         b.fetch_years(tmp_path, [2012], delay=0, session=Session([429] * 5))
+
+
+def test_the_menu_has_a_budget_item_only_when_the_budget_page_exists(tmp_path):
+    from echo_montolieu.site import build
+    pub = tmp_path / "public"
+    (pub / "finance").mkdir(parents=True)
+    (pub / "index.json").write_text(json.dumps({"count": 0, "documents": []}), encoding="utf-8")
+    (pub / "finance/index.md").write_text("# Finance\n\ntext\n", encoding="utf-8")
+    build(tmp_path / "a", pub, tmp_path / "nodata")
+    assert "finance/budget.html" not in (tmp_path / "a/en/index.html").read_text(encoding="utf-8")
+    (pub / "finance/budget.md").write_text("# Budget\n\ntext\n", encoding="utf-8")
+    build(tmp_path / "b", pub, tmp_path / "nodata")
+    page = (tmp_path / "b/en/finance/index.html").read_text(encoding="utf-8")
+    assert '<a href="../finance/budget.html">Budget</a>' in page
+    assert '<a href="../finance/budget.html" aria-current="page">Budget</a>' in (tmp_path / "b/en/finance/budget.html").read_text(encoding="utf-8")
+    assert '<a href="./finance/budget.html">Budget</a>' in (tmp_path / "b/en/index.html").read_text(encoding="utf-8")

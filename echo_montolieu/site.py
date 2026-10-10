@@ -95,7 +95,7 @@ UI = {
         "datefmt": "{d} {m} {y}",
         "skip": "Skip to main content", "nav": "Main navigation", "language": "Language",
         "home": "Home", "minutes": "Council minutes", "meetings": "Meetings", "issues": "Issues over time",
-        "finance": "Finance", "places": "Places", "map": "Map", "about_ai": "About AI",
+        "finance": "Finance", "budget": "Budget", "places": "Places", "map": "Map", "about_ai": "About AI",
         "table": "Table", "open_source": "Open source (AGPL-3.0)", "ai_page": "About AI in this project",
         "review": "The French and Dutch wording of this interface was written by an AI assistant and has not been reviewed by a native speaker.",
         "fallback": "This page is not available in {want} yet. It is shown in {have}.",
@@ -181,7 +181,7 @@ UI = {
         "datefmt": "{d} {m} {y}",
         "skip": "Aller au contenu principal", "nav": "Navigation principale", "language": "Langue",
         "home": "Accueil", "minutes": "Procès-verbaux", "meetings": "Séances", "issues": "Sujets au fil du temps",
-        "finance": "Finances", "places": "Lieux", "map": "Carte", "about_ai": "À propos de l’IA",
+        "finance": "Finances", "budget": "Budget", "places": "Lieux", "map": "Carte", "about_ai": "À propos de l’IA",
         "table": "Tableau", "open_source": "Logiciel libre (AGPL-3.0)", "ai_page": "L’IA dans ce projet",
         "review": "Les termes français et néerlandais de cette interface ont été écrits par un assistant d’IA et n’ont pas été relus par un locuteur natif.",
         "fallback": "Cette page n’existe pas encore en {want}. Elle est affichée en {have}.",
@@ -267,7 +267,7 @@ UI = {
         "datefmt": "{d} {m} {y}",
         "skip": "Naar de hoofdinhoud", "nav": "Hoofdnavigatie", "language": "Taal",
         "home": "Home", "minutes": "Notulen", "meetings": "Vergaderingen", "issues": "Onderwerpen in de tijd",
-        "finance": "Financiën", "places": "Plaatsen", "map": "Kaart", "about_ai": "Over AI",
+        "finance": "Financiën", "budget": "Begroting", "places": "Plaatsen", "map": "Kaart", "about_ai": "Over AI",
         "table": "Tabel", "open_source": "Open source (AGPL-3.0)", "ai_page": "AI in dit project",
         "review": "De Franse en Nederlandse teksten van deze interface zijn door een AI-assistent geschreven en niet door een moedertaalspreker nagelezen.",
         "fallback": "Deze pagina is nog niet beschikbaar in het {want}. Ze wordt getoond in het {have}.",
@@ -401,7 +401,7 @@ def _up(depth):
     return "../" * depth
 
 
-def layout(page, available_langs):
+def layout(page, available_langs, budget=False):
     """Full HTML document: skip link, header with central navigation and language switcher, main, footer."""
     lang, ui, d = page.lang, UI[page.lang], page.depth
     root = _up(d + 1)                 # the site root, from this page
@@ -412,6 +412,7 @@ def layout(page, available_langs):
                  ("meetings", home + "meetings/index.html", None),
                  ("issues", home + "topics/index.html", "topics/index.html"),
                  ("finance", home + "finance/index.html", "finance/index.html"),
+                 *([("budget", home + "finance/budget.html", "finance/budget.html")] if budget else []),
                  ("places", home + "places/index.html", "places/index.html"),
                  ("map", home + "places/map.html", "places/map.html"), ("about_ai", disclosure.AI_PAGE_URL, None)]
     links = []
@@ -577,14 +578,15 @@ def _osm_pin(p):
     return f"https://www.openstreetmap.org/?mlat={p['lat']:.6f}&mlon={p['lon']:.6f}#map=18/{p['lat']:.6f}/{p['lon']:.6f}"
 
 
-def map_with_site_navigation(text, lang):
+def map_with_site_navigation(text, lang, budget=False):
     """The map page is its own document (Leaflet needs its own content security policy), so it gets the site's
     top navigation here, at build time: the shared stylesheet, the same menu, and a language switcher that stays on the map.
     `text` is the page for `lang`, published at /<lang>/places/map.html."""
     ui, e = UI[lang], html.escape
     items = [("home", "../index.html"), ("minutes", "../meetings/index.html"), ("whatsnew", "../whats-new/index.html"),
              ("meetings", "../meetings/index.html"),
-             ("issues", "../topics/index.html"), ("finance", "../finance/index.html"), ("places", "../places/index.html"),
+             ("issues", "../topics/index.html"), ("finance", "../finance/index.html"),
+             *([("budget", "../finance/budget.html")] if budget else []), ("places", "../places/index.html"),
              ("map", None), ("about_ai", disclosure.AI_PAGE_URL)]
     links = "".join(f'<li><a href="{e(href)}">{e(ui[key])}</a></li>' if href else
                     f'<li><a href="map.html" aria-current="page">{e(ui[key])}</a></li>' for key, href in items)
@@ -914,6 +916,7 @@ def build(out_dir, public="public", data="data"):
     (out / "assets" / "site.css").write_text(CSS, encoding="utf-8")
     (out / "assets" / "site.js").write_text(JS, encoding="utf-8")
     index = _read_json(public / "index.json", {"count": 0, "documents": []})
+    has_budget = (public / "finance" / "budget.md").exists()       # the menu item appears only when the page does
     pointers = _read_json(data / "where_to_find_mairie.json", {"entries": []})
     # data files and the map, as before
     if (public / "index.json").exists():
@@ -930,7 +933,7 @@ def build(out_dir, public="public", data="data"):
         if source.exists():
             text = source.read_text(encoding="utf-8")
             (out / lang / "places").mkdir(parents=True, exist_ok=True)
-            (out / lang / "places" / "map.html").write_text(map_with_site_navigation(text, lang) if "<body>" in text else text, encoding="utf-8")
+            (out / lang / "places" / "map.html").write_text(map_with_site_navigation(text, lang, has_budget) if "<body>" in text else text, encoding="utf-8")
     if (public / "places" / "map.html").exists():
         (out / "places").mkdir(exist_ok=True)
         (out / "places" / "map.html").write_text(map_redirect_page(), encoding="utf-8")
@@ -977,5 +980,5 @@ def build(out_dir, public="public", data="data"):
         for page in pages:
             target = out / lang / page.rel
             target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_text(layout(page, LANGS), encoding="utf-8")
+            target.write_text(layout(page, LANGS, has_budget), encoding="utf-8")
     return out
