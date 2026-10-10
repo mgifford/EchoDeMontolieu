@@ -60,4 +60,4 @@ These come back in most meetings by nature, so they are not treated as issues.
 - Approval of the previous minutes and routine items: 29 items in 25 meetings
 - Notices of private property sales (counts only): 34 items in 20 meetings
 
-82 further items appeared in a single meeting only.
+81 further items appeared in a single meeting only.

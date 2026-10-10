@@ -22,7 +22,7 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 This digest is extracted by rules, not written by a person (see `summary.md` for a readable summary): each line quotes the sentence it comes from and links the page. Elected officials on the attendance list are named; other personal names are replaced by `[name withheld]`. Read the [full minutes](minutes.md) or the [original PDF](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf).
 
 - Attendance: 11 present, 1 absent or represented.
-- Items: 11. Pages: 8.
+- Items: 10. Pages: 8.
 
 ## Approbation du proces verbal du conseil du 25 septembre 2025
 
@@ -39,26 +39,17 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 **Amounts**
 
 - 16 816,93 €, 15 418,93 €, 14 909,51 €, 15 418,93 €: “La SMACL a fait le point dernièrement pour vérifier les éléments dont elle disposait et a transmis les propositions suivantes (TTC) Si l’on prend le maximum de protection (non compris la garantie auto-collaborateur, la f”
+- 1 648,71 €, 2 486,56 €, 410,45 €, 475,98 €, 107,45 €, 92,95 €, 300 €, 10 593,19 €, 750 €, 9 677,27 €, 1 500 €, 9 373,66 €, 300 €, 3 168,25 €, 600 €, 2 688,17 €, 900 €, 2 480,36 €, 569,77 €, 15 137,10 €, 9 802,36 €, 3 168,13 €: “DEMANDE DE SUBVENTION POUR LE CHEMINEMENT PIETONNIER VERS LA NIVEAU DE FRANCHISE 2025 2026 % 2025/2026 Responsabilité sans franchise hors options 1 648,71 € 2 486,56 € 51% Protection juridique sans franchise 410,45 € 475”
 
 ## Cooperative musee ceres franco
 
-[p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) · Vote: no vote found · Topics: patrimoine, culture, tourisme
+[p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) to [p.4](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=4) · Vote: rejected (abstentions: 1) · Topics: voirie et travaux, patrimoine, culture, tourisme
 
 > A la demande des partenaires du GIP, l’ATD11 a présenté le projet détaillé du cheminement partant du parking St Roch. L’ensemble des documents a été transmis aux conseillers le 14 octobre. L’ensemble du projet, études comprises se monte à 484 000 € TTC, en tenant compte d’une remise aux normes complètes du pont…
 
 **Amounts**
 
 - 484 000 €, 294 000 €: “L’ensemble du projet, études comprises se monte à 484 000 € TTC, en tenant compte d’une remise aux normes complètes du pont (gardes corps compris), laquelle représenterait 294 000 € TTC soit près de 61 % de l’ensemble de”
-
-## Niveau de franchise
-
-[p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) to [p.4](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=4) · Vote: rejected (abstentions: 1) · Topics: voirie et travaux, patrimoine, culture, tourisme
-
-> 2025 2026 % 2025/2026 Responsabilité sans franchise hors options 1 648,71 € 2 486,56 € 51% Protection juridique sans franchise 410,45 € 475,98 € 16% protection fonctionnelle sans franchise 107,45 € 92,95 € -13,50% Avec franchise 300 € hors franchise particulière 10 593,19 € 8% Avec franchise 750 € hors franchise…
-
-**Amounts**
-
-- 1 648,71 €, 2 486,56 €, 410,45 €, 475,98 €, 107,45 €, 92,95 €, 300 €, 10 593,19 €, 750 €, 9 677,27 €, 1 500 €, 9 373,66 €, 300 €, 3 168,25 €, 600 €, 2 688,17 €, 900 €, 2 480,36 €, 569,77 €, 15 137,10 €, 9 802,36 €, 3 168,13 €: “2025 2026 % 2025/2026 Responsabilité sans franchise hors options 1 648,71 € 2 486,56 € 51% Protection juridique sans franchise 410,45 € 475,98 € 16% protection fonctionnelle sans franchise 107,45 € 92,95 € -13,50% Avec f”
 - 487 000 €: “Le conseil est sollicité pour la demande de subvention qui doit être faite avant le 31 octobre pour la première phase des travaux telle que proposée par le département c’est-à-dire les études préalables de l’ensemble du ”
 - 500 000 €: “Rien ne nous oblige, après ne nous en être pas occupés pendant 5 ans, à nous précipiter sur une solution à 500.000 euros.”
 - 56 000 €, 46 400 €, 60 000 €, 40 600 €, 29 000 €, 116 000 €, 116 000 €: “Par ailleurs, si le musée obtient, comme on peut l'espérer, le label Musée de France, les contributions au GIP vont augmenter : il me paraît bien plus important de prévoir de pouvoir abonder ce budget que de mettre une p”

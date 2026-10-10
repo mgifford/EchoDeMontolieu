@@ -20,11 +20,11 @@ Number of agenda items per theme and quarter. An item can have up to three theme
 | vie institutionnelle |  |  |  | 2 | 1 | 1 |  | 1 | 1 | 13 | 4 | 23 |
 | urbanisme |  | 2 | 1 | 2 | 3 | 4 |  | 3 | 4 | 1 | 2 | 22 |
 | associations et vie locale |  | 1 | 1 | 2 | 2 | 7 | 1 | 1 | 2 | 2 |  | 19 |
-| patrimoine, culture, tourisme | 1 | 1 |  | 2 | 2 | 2 | 2 | 4 |  | 1 | 2 | 17 |
 | subventions |  | 2 | 1 |  | 4 | 4 |  | 1 | 2 | 2 | 1 | 17 |
+| patrimoine, culture, tourisme | 1 | 1 |  | 2 | 2 | 2 | 2 | 3 |  | 1 | 2 | 16 |
 | droit de préemption |  | 1 | 1 | 1 | 2 | 1 | 1 | 2 | 2 | 2 | 1 | 14 |
 | personnel |  | 1 | 1 |  | 1 |  | 1 | 1 | 2 | 5 | 2 | 14 |
 | intercommunalité |  |  | 1 | 1 | 2 | 1 | 1 |  |  | 2 |  | 8 |
 | école et enfance |  | 2 |  |  | 1 | 1 | 1 |  |  |  |  | 5 |
 | environnement et risques |  |  |  |  |  | 1 | 2 |  |  |  |  | 3 |
-| **All items** | 9 | 39 | 15 | 16 | 36 | 28 | 16 | 27 | 15 | 40 | 7 | 248 |
+| **All items** | 9 | 39 | 15 | 16 | 36 | 28 | 16 | 26 | 15 | 40 | 7 | 247 |

@@ -13,10 +13,10 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 ## How much the minutes say explicitly
 
-- Agenda items with euro amounts: **97** (of 248 items in 25 meetings).
+- Agenda items with euro amounts: **96** (of 247 items in 25 meetings).
 - Of those, items that **cite a law, article, decree or budget instruction**: **7**.
 - Items with **wording that points to a rule or limit** but no citation: **10**.
-- Items that **say nothing about a rule**: **80**.
+- Items that **say nothing about a rule**: **79**.
 - Items with **exception wording**: **5** (plus 1 without amounts).
 
 The minutes seldom state their legal basis, so most of the picture cannot be read from them. "None stated" below does not mean there is no basis.
@@ -98,9 +98,8 @@ The minutes seldom state their legal basis, so most of the picture cannot be rea
 | 2025-09-25 | Sollicitation de don pour aude solidarite dans le cadre des incendies  | 500 € |  | none stated |  | unanimous | [p.6](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=6) |
 | 2025-09-25 | Financement de la complementaire sante des agents communaux | 15 €, 15 € |  | cites: décret 2022-581 |  | unanimous | [p.7](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=7) |
 | 2025-09-25 | Relance du marche pour la modification du liner de la pisicine et la r | 244 228 €, 58 615 €, 39 076 € |  | none stated |  | - | [p.8](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=8) |
-| 2025-10-27 | Reconduction contrat d’assurance smacl | 16 817 €, 15 419 €, 14 910 €, 15 419 € |  | none stated |  | unanimous | [p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) |
-| 2025-10-27 | Cooperative musee ceres franco | 484 000 €, 294 000 € |  | none stated |  | - | [p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) |
-| 2025-10-27 | Niveau de franchise | 1 649 €, 2 487 €, 410 €, 476 € (+28 more) |  | none stated | yes | rejected | [p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) |
+| 2025-10-27 | Reconduction contrat d’assurance smacl | 16 817 €, 15 419 €, 14 910 €, 15 419 € (+22 more) |  | none stated |  | unanimous | [p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) |
+| 2025-10-27 | Cooperative musee ceres franco | 484 000 €, 294 000 €, 487 000 €, 500 000 € (+8 more) |  | none stated | yes | rejected | [p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) |
 | 2025-10-27 | Pour la coopérative musée ceres franco | 606 €, 303 €, 606 € |  | none stated |  | unanimous | [p.8](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8) |
 | 2025-10-27 | Attribution du lot 3 des travaux de l’eglise : Lot plâtrerie | 26 864 €, 29 625 €, 104 525 €, 104 525 € |  | none stated |  | unanimous | [p.8](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8) |
 | 2025-11-27 | Demande de subvention a carcassonne agglo pour les travaux de la pisci | 244 228 €, 58 615 €, 39 076 € |  | none stated |  | unanimous | [p.2](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=2) |
@@ -156,7 +155,7 @@ A reference shown as `?` has no code named near it in the text, so it is not gue
 - **2025-03-06, Demande d’augmentation de la participation de la commune au gip -musée céres fra** ([p.5](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=5)) [exceptionnel]: “Eléments de contexte pour juger du montant du complément exceptionnel au titre de 2025 Pour rappel l’extension du réseau électrique (Cf.” (amounts 2 000 €, 13 094 €, 6 547 €, 7 000 € (+1 more))
 - **2025-03-27, Demandes de subvention 2025** ([p.8](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-27-03-2025-1-site-internet.pdf#page=8)) [exception]: “Les subventions qui suivent sont votés à l’unanimité, à l’exception : de la demande de l’association Adèle , M ; le Maire propose l’attribution de 600,00€: 9 voix pour, 4 contre.” (amounts 600 €)
 - **2025-06-24, Demande de subvention exceptionnelle de la cooperative scolaire** ([p.6](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-24062025-site-internet.pdf#page=6)) [exceptionnelle]: “La coopérative scolaire a sollicité en février dernier une subvention exceptionnelle de 380 euros, afin de permettre à tous les enfants de profiter d’un séjour en Ariège en fin d’année scolaire.” (amounts 380 €, 380 €)
-- **2025-10-27, Niveau de franchise** ([p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2)) [dérogations]: “Jeanne ETORÉ-LORTHOLARY rappelle pour le pont qu’on pouvait demander des dérogations.” (amounts 1 649 €, 2 487 €, 410 €, 476 € (+28 more))
+- **2025-10-27, Cooperative musee ceres franco** ([p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2)) [dérogations]: “Jeanne ETORÉ-LORTHOLARY rappelle pour le pont qu’on pouvait demander des dérogations.” (amounts 484 000 €, 294 000 €, 487 000 €, 500 000 € (+8 more))
 
 ## Recurring money issues: amounts over time
 
@@ -248,7 +247,7 @@ Issues that came up in several meetings with amounts each time. Open an issue fo
 | Date | Amounts |
 |---|---|
 | 2025-09-25 | 400 000 €, 80 000 € |
-| 2025-10-27 | 1 649 €, 2 487 €, 410 €, 476 € (+28 more) |
+| 2025-10-27 | 484 000 €, 294 000 €, 487 000 €, 500 000 € (+8 more) |
 
 ## Over the years
 

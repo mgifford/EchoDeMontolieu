@@ -360,3 +360,29 @@ def test_an_address_heading_split_off_a_sale_notice_stays_part_of_the_sale():
     items = parse_meeting(rec)["items"]
     assert [i["sensitive"] for i in items][:2] == [True, True]
     assert not any("cuxac" in (i["title"] + i["text"] + i["snippet"]).lower() for i in items)
+
+
+def _b(kind, text, page=2):
+    return {"kind": kind, "text": text, "page": page}
+
+
+def test_table_caption_inside_an_item_does_not_swallow_the_rest_of_it():
+    from echo_montolieu.meeting import split_items
+    prose = "Le conseil examine le projet de cheminement et son financement par la commune. "
+    blocks = [
+        _b("heading", "CONSEIL MUNICIPAL DU 1 JANVIER 2025", 1),
+        _b("bullet", "Reconduction assurance"), _b("bullet", "Cooperative musee"),
+        _b("heading", "RECONDUCTION ASSURANCE"),
+        _b("paragraph", prose * 2 + "La franchise change."),
+        _b("heading", "COOPERATIVE MUSEE"),
+        _b("paragraph", prose * 2 + "Le document permet PRODUIT"),
+        _b("heading", "NIVEAU DE FRANCHISE"),
+        _b("table", "2025\n2026"), _b("paragraph", "Sans franchise"), _b("table", "1 648,71 €"),
+        _b("subheading", "Dommage aux biens"), _b("paragraph", "TOTAL 2025"),
+        _b("paragraph", "d’isoler la première tranche du projet. " + prose + "La demande de subvention est rejetée par 7 voix.", 3),
+    ]
+    _, _, items = split_items(blocks)
+    assert [i["title_raw"] for i in items] == ["RECONDUCTION ASSURANCE", "COOPERATIVE MUSEE"]
+    museum = " ".join(b["text"] for b in items[1]["blocks"])
+    assert "rejetée par 7 voix" in museum and "1 648,71" not in museum
+    assert any("1 648,71" in b["text"] for b in items[0]["blocks"])
