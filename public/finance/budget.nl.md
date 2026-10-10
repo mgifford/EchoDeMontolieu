@@ -1,13 +1,13 @@
 ---
 title: "De financiën door de jaren heen"
 machine_generated: true
-produced_by: "software (programmed rules) written with AI assistance"
+produced_by: "software and documents written with AI assistance"
 human_reviewed: false
 ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 ---
 # De financiën door de jaren heen
 
-> **Informatie over AI.** Deze pagina is automatisch gemaakt door software die met hulp van AI is geschreven (Claude, een AI-assistent van Anthropic). Geen enkel AI-model heeft de tekst geschreven: ze wordt met geprogrammeerde regels uit de notulen gehaald. Niemand heeft ze gecontroleerd en ze kan fouten bevatten. De originele documenten zijn leidend. [AI in dit project](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
+> **Informatie over AI.** Deze website en de software erachter zijn met hulp van AI geschreven (Claude, een AI-assistent van Anthropic). De meeste pagina’s worden met geprogrammeerde regels gemaakt; waar een AI-model een tekst heeft geschreven of vertaald, staat dat bij de tekst. Niemand heeft elke pagina gecontroleerd. De originele documenten zijn leidend. [AI in dit project](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
 
 > In tegenstelling tot de andere pagina’s gebruikt deze de notulen niet: de cijfers komen uit de hieronder genoemde nationale open data.
 

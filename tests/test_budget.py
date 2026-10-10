@@ -55,6 +55,7 @@ def test_pages_in_three_languages_are_written_with_disclosure_caveats_and_every_
     assert "language: fr" in fr and "# Les finances au fil des années" in fr and "| 2010 |" in fr and "| 2011 |" in fr
     en = (tmp_path / "public/finance/budget.en.md").read_text(encoding="utf-8")
     assert "executed accounts, not the voted budget" in en and "AI disclosure" in en and b.VOTED_2026 in en
+    assert "extracted from the minutes" not in en and "does not use the minutes" in en
     assert "# De financiën" in (tmp_path / "public/finance/budget.nl.md").read_text(encoding="utf-8")
     assert json.loads((tmp_path / "budget_years.json").read_text())["years"]["2010"]["revenue"] == 7500
 

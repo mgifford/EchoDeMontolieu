@@ -212,7 +212,7 @@ def render(lang, years, fetched):
     first, last = ys[0], ys[-1]
     e = lambda n: euros(lang, n)
     voted = f"[{t['voted']}]({VOTED_2026})"
-    lines = [f"# {t['title']}", "", disclosure.markdown("rules", lang), "", f"> {t['basis']}", "", f"{t['lead']}.", "", t["intro"].format(voted=voted), ""]
+    lines = [f"# {t['title']}", "", disclosure.markdown("site", lang), "", f"> {t['basis']}", "", f"{t['lead']}.", "", t["intro"].format(voted=voted), ""]
     lines += [t["summary"].format(first=first, last=last, r0=e(years[first]["revenue"]), r1=e(years[last]["revenue"]),
                                   s0=e(years[first]["spending"]), s1=e(years[last]["spending"]),
                                   d0=e(years[first]["debt"]), d1=e(years[last]["debt"])), ""]
@@ -236,7 +236,7 @@ def write(public_dir, years, data_file="data/budget_years.json", fetched=None):
     target = Path(public_dir) / "finance"
     target.mkdir(parents=True, exist_ok=True)
     for lang, name in (("fr", "budget.md"), ("en", "budget.en.md"), ("nl", "budget.nl.md")):
-        page = disclosure.with_front_matter(render(lang, years, fetched), T[lang]["title"])
+        page = disclosure.with_front_matter(render(lang, years, fetched), T[lang]["title"], kind="site")
         if lang == "fr":
             page = page.replace("---\n", "---\nlanguage: fr\n", 1)
         (target / name).write_text(page, encoding="utf-8")
