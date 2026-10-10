@@ -32,7 +32,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Marché de renovation de l’église st andré- Choix des entreprises
 
-[p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=1) to [p.2](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2) · Vote: no vote found · Topics: associations et vie locale, voirie et travaux, patrimoine, culture, tourisme
+[p.1](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=1) to [p.2](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2) · Vote: no vote found · Topics: associations et vie locale, voirie et travaux, église Saint-André
 
 > Monsieur le Maire rappelle que la commission d’appel d’offre s’est réunie le 7 février 2025. [name withheld], du cabinet d’architecture Caroline Serra a présenté le rapport d’analyse des offres des entreprises. Il est rappelé que le marché concerne la phase 1 de la restauration de l’église St André de Montolieu, qui…
 
@@ -105,7 +105,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Demande d’augmentation de la participation de la commune au gip -musée céres franco
 
-[p.5](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=5) · Vote: unanimous · Topics: patrimoine, culture, tourisme, finances
+[p.5](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=5) · Vote: unanimous · Topics: musée Cérès Franco, finances
 
 > L’Assemblée générale du Groupement d’intérêt public qui administre La Coopérative- Musée Cérès Franco s’est tenue le 17 janvier. L’objectif d’obtention du label « Musée de France » (qui permet de s’assurer le soutien de l’Etat par l’intermédiaire de la DRAC et garantit la sauvegarde des collections au sein des…
 

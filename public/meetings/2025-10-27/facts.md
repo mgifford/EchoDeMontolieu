@@ -43,7 +43,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Cooperative musee ceres franco
 
-[p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) to [p.4](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=4) · Vote: rejected (abstentions: 1) · Topics: voirie et travaux, patrimoine, culture, tourisme
+[p.2](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=2) to [p.4](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=4) · Vote: rejected (abstentions: 1) · Topics: voirie et travaux, musée Cérès Franco
 
 > A la demande des partenaires du GIP, l’ATD11 a présenté le projet détaillé du cheminement partant du parking St Roch. L’ensemble des documents a été transmis aux conseillers le 14 octobre. L’ensemble du projet, études comprises se monte à 484 000 € TTC, en tenant compte d’une remise aux normes complètes du pont…
 
@@ -94,7 +94,7 @@ Decisions about sales of private property (1 notice(s)). Details are in the minu
 
 ## Pour la coopérative musée ceres franco
 
-[p.8](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8) · Vote: unanimous · Topics: patrimoine, culture, tourisme
+[p.8](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8) · Vote: unanimous · Topics: musée Cérès Franco
 
 > Un mail de [name withheld] du GAL Pays Carcassonnais est parvenu en mairie jeudi dernier. Lors de l’assemblée générale du GIP, le 17 octobre dernier, le projet de campagne de communication du musée a été présentée. Son financement doit logiquement se répartir entre les membres du GIP dont la commune de Montolieu et…
 
@@ -113,7 +113,7 @@ Decisions about sales of private property (1 notice(s)). Details are in the minu
 
 ## Attribution du lot 3 des travaux de l’eglise : Lot plâtrerie
 
-[p.8](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8) · Vote: unanimous · Topics: voirie et travaux
+[p.8](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8) · Vote: unanimous · Topics: voirie et travaux, église Saint-André
 
 > A la suite de la relance du lot 3 plâtrerie pour les travaux de l’église St André, une seule entreprise a soumissionné, la même que lors du lancement du marché. Il s’agit d’EUROPLATRE Néanmoins la proposition financière est différente, et permet de rester dans l’évaluation globale du cabinet Serra. S’agissant d’une…
 

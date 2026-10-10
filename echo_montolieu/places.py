@@ -43,7 +43,8 @@ TYPE_WORDS = {"rue", "chemin", "place", "impasse", "avenue", "route", "ruelle", 
 # Marker shape per main theme, so meaning never rests on colour alone.
 SHAPE_OF = {"finances": "circle", "subventions": "circle",
             "voirie et travaux": "square", "urbanisme": "square", "environnement et risques": "square",
-            "patrimoine, culture, tourisme": "triangle", "associations et vie locale": "triangle",
+            "patrimoine, culture, tourisme": "triangle", "musée Cérès Franco": "triangle", "Village du Livre (MVDL)": "triangle",
+            "église Saint-André": "triangle", "associations et vie locale": "triangle",
             "école et enfance": "triangle"}
 SHAPES = {"circle": ("Circle", "finances and subsidies", "#004B87"),
           "square": ("Square", "roads, works, planning and environment", "#8A3B00"),
@@ -330,7 +331,7 @@ MAP_TEXT = {
         "shapes": {"circle": ("Circle", "finances and subsidies"), "square": ("Square", "roads, works, planning and environment"),
                    "triangle": ("Triangle", "heritage, culture, associations and schools"), "diamond": ("Diamond", "other subjects")},
         "themes": {"finances": "finances", "subventions": "subsidies", "voirie et travaux": "roads and works", "urbanisme": "planning",
-                   "environnement et risques": "environment and risks", "patrimoine, culture, tourisme": "heritage, culture, tourism",
+                   "environnement et risques": "environment and risks", "patrimoine, culture, tourisme": "heritage, culture, tourism", "musée Cérès Franco": "Cérès Franco museum", "Village du Livre (MVDL)": "Village du Livre association", "église Saint-André": "St André church",
                    "associations et vie locale": "associations and village life", "école et enfance": "school and children"},
     },
     "fr": {
@@ -353,7 +354,7 @@ MAP_TEXT = {
         "shapes": {"circle": ("Cercle", "finances et subventions"), "square": ("Carré", "voirie, travaux, urbanisme et environnement"),
                    "triangle": ("Triangle", "patrimoine, culture, associations et écoles"), "diamond": ("Losange", "autres sujets")},
         "themes": {"finances": "finances", "subventions": "subventions", "voirie et travaux": "voirie et travaux", "urbanisme": "urbanisme",
-                   "environnement et risques": "environnement et risques", "patrimoine, culture, tourisme": "patrimoine, culture, tourisme",
+                   "environnement et risques": "environnement et risques", "patrimoine, culture, tourisme": "patrimoine, culture, tourisme", "musée Cérès Franco": "musée Cérès Franco", "Village du Livre (MVDL)": "association Village du Livre", "église Saint-André": "église Saint-André",
                    "associations et vie locale": "associations et vie locale", "école et enfance": "école et enfance"},
     },
     "nl": {
@@ -376,7 +377,7 @@ MAP_TEXT = {
         "shapes": {"circle": ("Cirkel", "financiën en subsidies"), "square": ("Vierkant", "wegen, werken, ruimtelijke ordening en milieu"),
                    "triangle": ("Driehoek", "erfgoed, cultuur, verenigingen en scholen"), "diamond": ("Ruit", "overige onderwerpen")},
         "themes": {"finances": "financiën", "subventions": "subsidies", "voirie et travaux": "wegen en werken", "urbanisme": "ruimtelijke ordening",
-                   "environnement et risques": "milieu en risico’s", "patrimoine, culture, tourisme": "erfgoed, cultuur, toerisme",
+                   "environnement et risques": "milieu en risico’s", "patrimoine, culture, tourisme": "erfgoed, cultuur, toerisme", "musée Cérès Franco": "museum Cérès Franco", "Village du Livre (MVDL)": "vereniging Village du Livre", "église Saint-André": "Sint-Andrékerk",
                    "associations et vie locale": "verenigingen en dorpsleven", "école et enfance": "school en kinderen"},
     },
 }

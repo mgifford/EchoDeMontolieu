@@ -66,6 +66,7 @@
      "page": 4,
      "page_url": "https://www.montolieu.fr/wp-content/uploads/2026/09/PV-CONSEIL-MUNICIPAL-DU-22-juillet-2026-site.pdf#page=4",
      "topics": [
+      "Village du Livre (MVDL)",
       "subventions"
      ]
     }
@@ -384,12 +385,6 @@
    "last": "2026-07-22"
   },
   {
-   "topic": "patrimoine, culture, tourisme",
-   "items_last_year": 8,
-   "meetings_last_year": 5,
-   "last": "2026-07-22"
-  },
-  {
    "topic": "subventions",
    "items_last_year": 6,
    "meetings_last_year": 5,
@@ -408,6 +403,24 @@
    "last": "2026-04-13"
   },
   {
+   "topic": "patrimoine, culture, tourisme",
+   "items_last_year": 5,
+   "meetings_last_year": 4,
+   "last": "2026-07-22"
+  },
+  {
+   "topic": "musée Cérès Franco",
+   "items_last_year": 4,
+   "meetings_last_year": 3,
+   "last": "2025-11-27"
+  },
+  {
+   "topic": "Village du Livre (MVDL)",
+   "items_last_year": 3,
+   "meetings_last_year": 2,
+   "last": "2026-07-22"
+  },
+  {
    "topic": "intercommunalité",
    "items_last_year": 3,
    "meetings_last_year": 3,
@@ -424,6 +437,12 @@
    "items_last_year": 1,
    "meetings_last_year": 1,
    "last": "2025-09-25"
+  },
+  {
+   "topic": "église Saint-André",
+   "items_last_year": 1,
+   "meetings_last_year": 1,
+   "last": "2025-10-27"
   }
  ]
 }

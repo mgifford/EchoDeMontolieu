@@ -30,7 +30,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Financement des projets d’investissement 2025
 
-[p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=1) to [p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=3) · Vote: unanimous · Topics: voirie et travaux, patrimoine, culture, tourisme, finances
+[p.1](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=1) to [p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=3) · Vote: unanimous · Topics: voirie et travaux, finances
 
 > Rénovation de la piscine Il s’agit de remplacer les liners et de revoir le circuit de canalisation qui présente actuellement de nombreuses fuites que l’entreprise création piscine a colmaté pour permettre l’exploitation estivale sans trop de déperdition d’eau. Mais la réparation est temporaire et nécessite une…
 
@@ -44,7 +44,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Convention entre la commune et l’association MVDL
 
-[p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=3) · Vote: unanimous · Topics: associations et vie locale
+[p.3](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=3) · Vote: unanimous · Topics: Village du Livre (MVDL), associations et vie locale
 
 > La convention initiale passée entre la commune et MVdL en 2001, nécessite un toilettage sur un certain nombre de points, notamment pour valider juridiquement la mise à disposition désormais gratuite des locaux du musée des arts et métiers du livre, et actualiser les engagements réciproques de chaque partie. Le projet…
 
@@ -62,7 +62,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Lancement marché de travaux pour la phase 1 pour l’eglise st andré
 
-[p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=4) · Vote: unanimous · Topics: voirie et travaux, associations et vie locale, patrimoine, culture, tourisme
+[p.4](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-23-OCTOBRE-2024-SITE-INTERNET.pdf#page=4) · Vote: unanimous · Topics: voirie et travaux, église Saint-André, associations et vie locale
 
 > Monsieur le Maire rappelle à l’assemblée que, conformément à l’article 28 du nouveau code des Marchés Publics, une consultation a été lancée par la Commune dans le but de confier les travaux de restauration de l’église St André pour sa phase 1, qui comprend une tranche ferme, et 3 tranches optionnelles. La mise en…
 

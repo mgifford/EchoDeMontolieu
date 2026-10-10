@@ -83,7 +83,7 @@ Decisions about sales of private property (1 notice(s)). Details are in the minu
 
 ## Engagement de la reflexion sur la troisieme tranche des travaux du presbytere
 
-[p.7](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=7) · Vote: majority (not unanimous) (for: 13, abstentions: 1) · Topics: voirie et travaux
+[p.7](https://www.montolieu.fr/wp-content/uploads/2024/12/CRCM-13-JUIN-2024-1-SITE-INTERNET.pdf#page=7) · Vote: majority (not unanimous) (for: 13, abstentions: 1) · Topics: voirie et travaux, église Saint-André
 
 > Bernard LAURET rappelle que les travaux de la deuxième tranche du presbytère vont s’achever, avec la pose des gradins par la société COMECA. Compte tenu des difficultés rencontrées dans le suivi dédits travaux, il convient de décider si cette dernière tranche doit être confiée au cabinet d’architecte de Caroline…
 

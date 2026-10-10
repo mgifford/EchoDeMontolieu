@@ -82,7 +82,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Clim musee
 
-[p.5](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=5) to [p.7](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=7) · Vote: majority (not unanimous) (for: 23, against: 5; for: 12, against: 1, abstentions: 1) · Topics: finances, subventions, patrimoine, culture, tourisme
+[p.5](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=5) to [p.7](https://www.montolieu.fr/wp-content/uploads/2025/05/CRCM-14-AVRIL-2025-site-internet.pdf#page=7) · Vote: majority (not unanimous) (for: 23, against: 5; for: 12, against: 1, abstentions: 1) · Topics: finances, subventions, associations et vie locale
 
 > 52 704,00 € nefle 44917+ CACHE CONTENEUR 7787 602 226,37 € 721 624,12 € 0,00 229 665,82 € Déficit d'investissement reporté : contre-balancé par le compte de recettes d'investissement 1068 229 665,82 € 229 665,82 951 289,94 € Inscription Budgétaire le Point sur la fongibilité des crédits La commune ayant adopté le…
 

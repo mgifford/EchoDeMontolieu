@@ -121,7 +121,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Livre et des arts
 
-[p.6](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=6) · Vote: unanimous · Topics: associations et vie locale
+[p.6](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=6) · Vote: unanimous · Topics: Village du Livre (MVDL), associations et vie locale
 
 > L’association MVDL a sollicité par courrier du 25 novembre 2025, une avance sur la subvention qui sera provisionnée sur le budget 2026. Monsieur le maire procède à la lecture du courrier. Pour rappel, une avance de 5 000 euros a été accordée en début d’année 2025. L’avance évitera à l’association de solliciter un prêt…
 
@@ -151,7 +151,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Signaletique a partir d’un cheminement debutant au parking st roch
 
-[p.7](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=7) · Vote: majority (not unanimous) (for: 12, against: 1, abstentions: 1) · Topics: patrimoine, culture, tourisme
+[p.7](https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf#page=7) · Vote: majority (not unanimous) (for: 12, against: 1, abstentions: 1) · Topics: patrimoine, culture, tourisme, Village du Livre (MVDL), musée Cérès Franco
 
 > [name withheld], afin de favoriser le cheminement des touristes à l’intérieur du centre bourg, avait suggéré l’idée d’une sorte de boucle peinte au sol, comme cela a pu être fait de façon provisoire à St Malo. Les libraires réunis dans le cadre d’une rencontre avec MVDL, ont majoritairement repoussé cette idée, la…
 

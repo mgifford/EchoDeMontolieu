@@ -77,7 +77,7 @@ This digest is extracted by rules, not written by a person (see `summary.md` for
 
 ## Cheminement pietonnier vers la coopérative musée ceres franco
 
-[p.4](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=4) to [p.5](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=5) · Vote: majority (not unanimous) (for: 10, against: 3) · Topics: voirie et travaux, patrimoine, culture, tourisme
+[p.4](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=4) to [p.5](https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf#page=5) · Vote: majority (not unanimous) (for: 10, against: 3) · Topics: voirie et travaux, musée Cérès Franco
 
 > Les conseillers ont été destinataires de l’étude réalisée par l’ATD11. Une première réunion a eu lieu le 18 sur place à Cérès Franco en présence de la région et du département et de Carcassonne Agglo. Y étaient présent, Bernard LAURET, Laure ESCARÉ. Les options du GIP y ont été débattues. Après de nombreux échanges…
 
