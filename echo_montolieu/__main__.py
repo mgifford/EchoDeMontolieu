@@ -100,6 +100,11 @@ def main(argv=None):
         "render", help="write readable Markdown: minutes, summary and follow-ups per meeting")
     p_ren.add_argument("--public", default="public")
 
+    p_bud = sub.add_parser(
+        "budget", help="write the finances-over-time pages from exported DGFiP yearly accounts (offline; see --from)")
+    p_bud.add_argument("--from", dest="folder", required=True, help="folder with balances-YYYY.json, one file per year")
+    p_bud.add_argument("--public", default="public")
+
     p_tr = sub.add_parser(
         "translate-trial", help="compare translation models on real minutes (use --dry-run first)")
     p_tr.add_argument("--models", nargs="+", default=[
@@ -216,6 +221,9 @@ def main(argv=None):
             result = verify.verify_online(record, PoliteFetcher(args.cache))
         print(json.dumps(result, indent=2))
         sys.exit(0 if result["match"] else 1)
+    elif args.cmd == "budget":
+        from . import budget
+        print(json.dumps(budget.run(args.folder, args.public), indent=2))
     elif args.cmd == "render":
         from . import threads as th
         meetings = th.load_meetings(args.public)
