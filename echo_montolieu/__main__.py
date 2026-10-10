@@ -96,6 +96,15 @@ def main(argv=None):
     p_ver.add_argument("--public", default="public")
     p_ver.add_argument("--cache", default=".cache")
 
+    p_dvf = sub.add_parser(
+        "dvf", help="private: list recorded sales (DVF files you downloaded) by street or section, and match them to the sale notices in the minutes")
+    p_dvf.add_argument("--from", dest="folder", default="private/dvf", help="folder with the yearly CSV files for Montolieu")
+    p_dvf.add_argument("--street", default=None, help="part of a street name, such as 'saint denis'")
+    p_dvf.add_argument("--section", default=None, help="cadastre section, such as AB")
+    p_dvf.add_argument("--match", action="store_true", help="pair the council's sale notices with the recorded sales of the same parcel")
+    p_dvf.add_argument("--db", default="private/echo-private.db")
+    p_dvf.add_argument("--limit", type=int, default=30)
+
     p_ren = sub.add_parser(
         "render", help="write readable Markdown: minutes, summary and follow-ups per meeting")
     p_ren.add_argument("--public", default="public")
@@ -223,6 +232,17 @@ def main(argv=None):
             result = verify.verify_online(record, PoliteFetcher(args.cache))
         print(json.dumps(result, indent=2))
         sys.exit(0 if result["match"] else 1)
+    elif args.cmd == "dvf":
+        from . import dvf
+        if not list(Path(args.folder).glob("*.csv")):
+            sys.exit(f"no CSV files in {args.folder}. {dvf.HOW_TO}")
+        sales = dvf.load(args.folder)
+        if args.match:
+            for m in dvf.match_notices(sales, args.db):
+                print(f"notice {m['notice']} p.{m['page']}  parcel {m['parcel']}  ->  {dvf.describe(m['sale'])}")
+        else:
+            for s in dvf.search(sales, args.street, args.section)[:args.limit]:
+                print(dvf.describe(s))
     elif args.cmd == "budget":
         from . import budget
         print(json.dumps(budget.run(args.folder, args.public, fetch=args.fetch, delay=args.delay), indent=2))
