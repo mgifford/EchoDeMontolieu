@@ -138,5 +138,8 @@ def render_finance(meetings, threads_result=None):
 def write_finance(public_dir, meetings, threads_result=None):
     target = Path(public_dir) / "finance"
     target.mkdir(parents=True, exist_ok=True)
-    (target / "index.md").write_text(disclosure.with_front_matter(render_finance(meetings, threads_result), "Finance, rules and exceptions"), encoding="utf-8")
+    body = render_finance(meetings, threads_result)
+    if (target / "budget.md").exists():                      # written by `python -m echo_montolieu budget`, from exported open data
+        body += "\n## Over the years\n\n[The commune's accounts year by year](budget.md), from the national open data.\n"
+    (target / "index.md").write_text(disclosure.with_front_matter(body, "Finance, rules and exceptions"), encoding="utf-8")
     return {"money_items": len(money_rows(meetings)), "exception_items": len(exception_rows(meetings))}
