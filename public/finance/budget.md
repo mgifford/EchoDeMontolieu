@@ -2,13 +2,13 @@
 language: fr
 title: "Les finances au fil des années"
 machine_generated: true
-produced_by: "software (programmed rules) written with AI assistance"
+produced_by: "software and documents written with AI assistance"
 human_reviewed: false
 ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 ---
 # Les finances au fil des années
 
-> **Information sur l’IA.** Cette page a été produite automatiquement par un logiciel écrit avec l’aide d’une IA (Claude, un assistant d’IA d’Anthropic). Aucun modèle d’IA n’a rédigé son texte : il est extrait des procès-verbaux par des règles programmées. Personne ne l’a vérifié et il peut contenir des erreurs. Les documents originaux font foi. [L’IA dans ce projet](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
+> **Information sur l’IA.** Ce site et le logiciel qui le produit ont été écrits avec l’aide d’une IA (Claude, un assistant d’IA d’Anthropic). La plupart des pages sont produites par des règles programmées ; lorsqu’un modèle d’IA a rédigé ou traduit un texte, le texte l’indique. Personne n’a vérifié chaque page. Les documents originaux font foi. [L’IA dans ce projet](https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md)
 
 > Contrairement aux autres pages, celle-ci n’utilise pas les procès-verbaux : ses chiffres viennent des données ouvertes nationales citées plus bas.
 
