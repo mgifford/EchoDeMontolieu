@@ -34,6 +34,10 @@ Notice seen on site, photographed by the project maintainer; date not recorded. 
 
 The two firm-tranche amounts are both right and measure different things. On 2025-03-06 the minutes give the works estimate: [€303,721.53](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=1) excl. VAT (the notice and the sum of the funders say €303,721.63; the €0.10 gap is real and unexplained: probably a typo, in the minutes or on the notice). After the tender, the validated firm-tranche amount is [€281,516.83](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2) excl. VAT, because lot 3 (plastering) was not awarded and was put out again. The tender table gives [€1,168,188.45](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2) excl. VAT for all tranches, with lot 3 counted at its estimate of [€77,661.00](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2) excl. VAT. On 2025-10-27 lot 3 was awarded to Europlâtre for [€104,525.12](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8) excl. VAT, all tranches, so the total becomes €1,195,052.57 excl. VAT. The notice gives €1,224,677.81 excl. VAT: that is the overall estimate, and the 2025-10-27 minutes say the overall cost stays below the estimate by €29,625.00 (2.42 %); the gap calculated here is €29,625.24 (2.42 %). So that figure on the notice is the pre-tender estimate. This reconciliation is this project’s arithmetic, not an official figure.
 
+### Open questions
+
+- Lot 6 (painted decoration): the table in the 6 March 2025 minutes names “Paillard Boyer” (estimate €157,009.51 excl. VAT), while the site notice shows “Atelier d’Autan”. It may be a change of contractor or a transcription error; nothing in the documents read here says which. To be confirmed with the Mairie. ([minutes, page 2](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2))
+
 ## Council decisions
 
 ### Cérès Franco museum

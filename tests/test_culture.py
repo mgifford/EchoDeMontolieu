@@ -31,3 +31,10 @@ def test_church_section_reconciles_the_two_firm_tranche_figures():
     assert "€1,195,052.57" in lines   # 1,168,188.45 - 77,661.00 (lot 3 estimate) + 104,525.12
     assert "€29,625.24 (2.42 %)" in lines   # the minutes say 2.42 % / 29,625
     assert sum(v for _, v in church["sign"]["funders"]) == church["sign"]["firm_tranche_ht"]
+
+
+def test_lot6_question_is_listed_in_every_language():
+    church = culture.load_church()
+    for lang, word in (("fr", "Atelier d’Autan"), ("en", "Atelier d’Autan"), ("nl", "Atelier d’Autan")):
+        out = "\n".join(culture.church_section(lang, church))
+        assert word in out and "Paillard Boyer" in out
