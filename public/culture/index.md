@@ -25,6 +25,16 @@ Ce que le conseil municipal a décidé sur le musée, le village du livre, l’�
 
 *Liens choisis le 2026-10-10.*
 
+## Église Saint-André : chantier, phase 1
+
+### Ce que dit le panneau de chantier
+
+Panneau vu sur place, photographié par le mainteneur du projet ; date non notée. L’église est classée Monument historique depuis le 1972-09-27. Coût de la phase 1 : 1 224 677,81 € HT (une tranche ferme en cours et trois tranches optionnelles). Tranche ferme : 303 721,63 € HT, financée par DRAC Occitanie 161 214,66 €, Région Occitanie 52 096,00 €, Commune de Montolieu 90 410,97 €. La Fondation du Patrimoine ouvre une souscription.
+
+### Ce que disent les procès-verbaux, et pourquoi les chiffres diffèrent
+
+Les deux montants de la tranche ferme sont justes et ne mesurent pas la même chose. Le 2025-03-06 le procès-verbal donne l’estimation des travaux : [303 721,53 €](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=1) HT (le panneau et la somme des financeurs donnent 303 721,63 €, donc la différence de 0,10 € est probablement une coquille du procès-verbal : à vérifier sur le PDF). Après l’appel d’offres, le montant validé de la tranche ferme est [281 516,83 €](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2) HT, car le lot 3 (plâtrerie) n’a pas été attribué et a été relancé ; l’ensemble des tranches des lots attribués fait [1 168 188,45 €](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2) HT. Le 2025-10-27 le lot 3 a été attribué à Europlâtre pour [104 525,12 €](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8) HT, toutes tranches. Ajouter les deux donne 1 272 713,57 € HT, comparé aux 1 224 677,81 € HT du panneau : c’est un calcul de ce projet, non un chiffre officiel, et le panneau peut dater d’avant l’appel d’offres.
+
 ## Décisions du conseil
 
 ### Musée Cérès Franco

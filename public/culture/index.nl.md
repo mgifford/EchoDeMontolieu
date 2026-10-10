@@ -24,6 +24,16 @@ Wat de gemeenteraad besloot over het museum, het boekendorp, de kerk en het toer
 
 *Links gekozen op 2026-10-10.*
 
+## Sint-Andrékerk: werken fase 1
+
+### Wat het bouwbord zegt
+
+Bord gezien ter plaatse, gefotografeerd door de beheerder van het project; datum niet genoteerd. De kerk is sinds 1972-09-27 beschermd monument. Fase 1 kost 1 224 677,81 € excl. btw (een lopende vaste tranche en drie optionele tranches). Vaste tranche: 303 721,63 € excl. btw, gefinancierd door DRAC Occitanie 161 214,66 €, Région Occitanie 52 096,00 €, Commune de Montolieu 90 410,97 €. De Fondation du Patrimoine heeft een inzameling open.
+
+### Wat de notulen zeggen, en waarom de bedragen verschillen
+
+Beide bedragen voor de vaste tranche zijn juist en meten iets anders. Op 2025-03-06 geven de notulen de raming van de werken: [303 721,53 €](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=1) excl. btw (het bord en de som van de financiers zeggen 303 721,63 €, dus het verschil van 0,10 € is waarschijnlijk een tikfout in de notulen: controleer de pdf). Na de aanbesteding is het goedgekeurde bedrag van de vaste tranche [281 516,83 €](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2) excl. btw, omdat kavel 3 (stucwerk) niet werd gegund en opnieuw werd uitgeschreven; alle tranches van de gegunde kavels samen zijn [1 168 188,45 €](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2) excl. btw. Op 2025-10-27 werd kavel 3 gegund aan Europlâtre voor [104 525,12 €](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8) excl. btw, alle tranches. Samen is dat 1 272 713,57 € excl. btw, tegenover 1 224 677,81 € excl. btw op het bord: dit is een berekening van dit project, geen officieel cijfer, en het bord kan van voor de aanbesteding dateren.
+
 ## Besluiten van de raad
 
 ### Museum Cérès Franco

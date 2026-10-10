@@ -43,9 +43,43 @@ T = {
 }
 
 
+CHURCH = {'fr': {'church': 'Église Saint-André : chantier, phase 1', 'sign_h': 'Ce que dit le panneau de chantier', 'sign': 'Panneau vu {seen}. L’église est classée Monument historique depuis le {listed}. Coût de la phase 1 : {total} HT (une tranche ferme en cours et trois tranches optionnelles). Tranche ferme : {firm} HT, financée par {funders}. La Fondation du Patrimoine ouvre une souscription.', 'rec_h': 'Ce que disent les procès-verbaux, et pourquoi les chiffres diffèrent', 'rec': 'Les deux montants de la tranche ferme sont justes et ne mesurent pas la même chose. Le {d1} le procès-verbal donne l’estimation des travaux : {est} HT (le panneau et la somme des financeurs donnent {firm}, donc la différence de {diff} est probablement une coquille du procès-verbal : à vérifier sur le PDF). Après l’appel d’offres, le montant validé de la tranche ferme est {val} HT, car le lot 3 (plâtrerie) n’a pas été attribué et a été relancé ; l’ensemble des tranches des lots attribués fait {allt} HT. Le {d2} le lot 3 a été attribué à Europlâtre pour {lot3} HT, toutes tranches. Ajouter les deux donne {sum} HT, comparé aux {total} HT du panneau : c’est un calcul de ce projet, non un chiffre officiel, et le panneau peut dater d’avant l’appel d’offres.', 'est': 'estimation', 'val': 'validé'}, 'en': {'church': 'St André church: phase 1 works', 'sign_h': 'What the site notice says', 'sign': 'Notice seen {seen}. The church has been a listed historic monument since {listed}. Phase 1 costs {total} excl. VAT (a firm tranche under way and three optional tranches). Firm tranche: {firm} excl. VAT, funded by {funders}. The Fondation du Patrimoine has a public appeal open.', 'rec_h': 'What the minutes say, and why the figures differ', 'rec': 'The two firm-tranche amounts are both right and measure different things. On {d1} the minutes give the works estimate: {est} excl. VAT (the notice and the sum of the funders say {firm}, so the {diff} difference is probably a typo in the minutes: check the PDF). After the tender, the validated firm-tranche amount is {val} excl. VAT, because lot 3 (plastering) was not awarded and was put out again; all tranches of the awarded lots come to {allt} excl. VAT. On {d2} lot 3 was awarded to Europlâtre for {lot3} excl. VAT, all tranches. Adding the two gives {sum} excl. VAT, compared with the notice’s {total} excl. VAT: that is this project’s arithmetic, not an official figure, and the notice may predate the tender.', 'est': 'estimate', 'val': 'validated'}, 'nl': {'church': 'Sint-Andrékerk: werken fase 1', 'sign_h': 'Wat het bouwbord zegt', 'sign': 'Bord gezien {seen}. De kerk is sinds {listed} beschermd monument. Fase 1 kost {total} excl. btw (een lopende vaste tranche en drie optionele tranches). Vaste tranche: {firm} excl. btw, gefinancierd door {funders}. De Fondation du Patrimoine heeft een inzameling open.', 'rec_h': 'Wat de notulen zeggen, en waarom de bedragen verschillen', 'rec': 'Beide bedragen voor de vaste tranche zijn juist en meten iets anders. Op {d1} geven de notulen de raming van de werken: {est} excl. btw (het bord en de som van de financiers zeggen {firm}, dus het verschil van {diff} is waarschijnlijk een tikfout in de notulen: controleer de pdf). Na de aanbesteding is het goedgekeurde bedrag van de vaste tranche {val} excl. btw, omdat kavel 3 (stucwerk) niet werd gegund en opnieuw werd uitgeschreven; alle tranches van de gegunde kavels samen zijn {allt} excl. btw. Op {d2} werd kavel 3 gegund aan Europlâtre voor {lot3} excl. btw, alle tranches. Samen is dat {sum} excl. btw, tegenover {total} excl. btw op het bord: dit is een berekening van dit project, geen officieel cijfer, en het bord kan van voor de aanbesteding dateren.', 'est': 'raming', 'val': 'goedgekeurd'}}
+
+
 def load_links(data_file="data/culture.json"):
     entries = json.loads(Path(data_file).read_text(encoding="utf-8")).get("entries", [])
     return [e for e in entries if str(e.get("url", "")).startswith("https://")]
+
+
+def load_church(data_file="data/culture.json"):
+    return json.loads(Path(data_file).read_text(encoding="utf-8")).get("church")
+
+
+def _eur(x, lang):
+    s = f"{x:,.2f}"
+    s = s.replace(",", "\u202f").replace(".", ",") if lang != "en" else s
+    return f"€{s}" if lang == "en" else f"{s}\u00a0€"
+
+
+def church_section(lang, church):
+    """The church notice and how it matches the minutes. Every figure comes from data/culture.json."""
+    if not church:
+        return []
+    c, sign = CHURCH[lang], church["sign"]
+    m = {x["label"]: x for x in church["minutes"]}
+    e = lambda v: _eur(v, lang)
+    link = lambda x: f"[{e(x['amount_ht'])}]({x['url']})"
+    funders = ", ".join(f"{n} {e(v)}" for n, v in sign["funders"])
+    firm, est = sign["firm_tranche_ht"], m["firm_estimate"]["amount_ht"]
+    lines = [f"## {c['church']}", "", f"### {c['sign_h']}", "",
+             c["sign"].format(seen=sign["seen"][lang], listed=sign["listed_since"], total=e(sign["phase1_total_ht"]),
+                              firm=e(firm), funders=funders), "",
+             f"### {c['rec_h']}", "",
+             c["rec"].format(d1=m["firm_estimate"]["date"], est=link(m["firm_estimate"]), firm=e(firm), diff=e(abs(firm - est)),
+                             val=link(m["firm_validated"]), v=c["val"], allt=link(m["awarded_all_tranches"]), d2=m["lot3_all_tranches"]["date"],
+                             lot3=link(m["lot3_all_tranches"]), total=e(sign["phase1_total_ht"]),
+                             sum=e(m["awarded_all_tranches"]["amount_ht"] + m["lot3_all_tranches"]["amount_ht"])), ""]
+    return lines
 
 
 def load_decisions(public_dir):
@@ -73,13 +107,13 @@ def _vote(row, t):
     return t["votes"][key] + counts
 
 
-def render(lang, links, groups, checked):
+def render(lang, links, groups, checked, church=None):
     t = T[lang]
     lines = [f"# {t['title']}", "", disclosure.markdown("site", lang), "", f"> {t['basis']}", "", t["intro"], "", f"> {t['gap']}", ""]
     lines += [f"## {t['links']}", ""]
     for e in links:
         lines.append(f"- [{e['title'][lang]}]({e['url']}): {e['about'][lang]}")
-    lines += ["", f"*{t['ok']} {checked}.*", "", f"## {t['decisions']}", ""]
+    lines += ["", f"*{t['ok']} {checked}.*", ""] + church_section(lang, church) + [f"## {t['decisions']}", ""]
     for g in GROUP_ORDER:
         rows = groups.get(g, [])
         if not rows:
@@ -98,7 +132,7 @@ def write(public_dir, data_file="data/culture.json", checked="2026-10-10"):
     target = Path(public_dir) / "culture"
     target.mkdir(parents=True, exist_ok=True)
     for lang, name in (("fr", "index.md"), ("en", "index.en.md"), ("nl", "index.nl.md")):
-        page = disclosure.with_front_matter(render(lang, links, groups, checked), T[lang]["title"], kind="site")
+        page = disclosure.with_front_matter(render(lang, links, groups, checked, load_church(data_file)), T[lang]["title"], kind="site")
         if lang == "fr":
             page = page.replace("---\n", "---\nlanguage: fr\n", 1)
         (target / name).write_text(page, encoding="utf-8")

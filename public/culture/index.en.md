@@ -24,6 +24,16 @@ What the council decided about the museum, the book village, the church and tour
 
 *Links chosen on 2026-10-10.*
 
+## St André church: phase 1 works
+
+### What the site notice says
+
+Notice seen on site, photographed by the project maintainer; date not recorded. The church has been a listed historic monument since 1972-09-27. Phase 1 costs €1,224,677.81 excl. VAT (a firm tranche under way and three optional tranches). Firm tranche: €303,721.63 excl. VAT, funded by DRAC Occitanie €161,214.66, Région Occitanie €52,096.00, Commune de Montolieu €90,410.97. The Fondation du Patrimoine has a public appeal open.
+
+### What the minutes say, and why the figures differ
+
+The two firm-tranche amounts are both right and measure different things. On 2025-03-06 the minutes give the works estimate: [€303,721.53](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=1) excl. VAT (the notice and the sum of the funders say €303,721.63, so the €0.10 difference is probably a typo in the minutes: check the PDF). After the tender, the validated firm-tranche amount is [€281,516.83](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2) excl. VAT, because lot 3 (plastering) was not awarded and was put out again; all tranches of the awarded lots come to [€1,168,188.45](https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2) excl. VAT. On 2025-10-27 lot 3 was awarded to Europlâtre for [€104,525.12](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8) excl. VAT, all tranches. Adding the two gives €1,272,713.57 excl. VAT, compared with the notice’s €1,224,677.81 excl. VAT: that is this project’s arithmetic, not an official figure, and the notice may predate the tender.
+
 ## Council decisions
 
 ### Cérès Franco museum
