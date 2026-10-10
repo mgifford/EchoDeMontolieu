@@ -100,7 +100,7 @@
    },
    {
     "date": "2025-03-06",
-    "label": "awarded_all_tranches",
+    "label": "tender_total",
     "amount_ht": 1168188.45,
     "url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2"
    },
@@ -108,6 +108,19 @@
     "date": "2025-10-27",
     "label": "lot3_all_tranches",
     "amount_ht": 104525.12,
+    "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8"
+   },
+   {
+    "date": "2025-03-06",
+    "label": "lot3_estimate",
+    "amount_ht": 77661.0,
+    "url": "https://www.montolieu.fr/wp-content/uploads/2025/04/CRCM-6-MARS-2025-site-internet.pdf#page=2"
+   },
+   {
+    "date": "2025-10-27",
+    "label": "saving_stated",
+    "amount_ht": 29625.0,
+    "pct": 2.42,
     "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf#page=8"
    }
   ]

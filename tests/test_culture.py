@@ -28,5 +28,6 @@ def test_church_section_reconciles_the_two_firm_tranche_figures():
     church = culture.load_church()
     lines = "\n".join(culture.church_section("en", church))
     assert "€303,721.63" in lines and "€281,516.83" in lines and "€0.10" in lines
-    assert "€1,272,713.57" in lines                      # 1,168,188.45 + 104,525.12
+    assert "€1,195,052.57" in lines   # 1,168,188.45 - 77,661.00 (lot 3 estimate) + 104,525.12
+    assert "€29,625.24 (2.42 %)" in lines   # the minutes say 2.42 % / 29,625
     assert sum(v for _, v in church["sign"]["funders"]) == church["sign"]["firm_tranche_ht"]
