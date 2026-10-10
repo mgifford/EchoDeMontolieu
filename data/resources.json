@@ -1,0 +1,116 @@
+{
+ "entries": [
+  {
+   "id": "georisques",
+   "url": "https://www.georisques.gouv.fr/",
+   "title": {
+    "fr": "Géorisques : les risques à une adresse",
+    "en": "Géorisques: the risks at an address",
+    "nl": "Géorisques: de risico’s op een adres"
+   },
+   "about": {
+    "fr": "Le site officiel de l’État. On tape une adresse pour voir les inondations, les mouvements de terrain (retrait-gonflement des argiles, cavités, glissements), le séisme, le radon et les sites industriels voisins.",
+    "en": "The State’s official site. Type an address to see flooding, ground movement (clay shrink and swell, cavities, landslides), earthquake zone, radon and nearby industrial sites.",
+    "nl": "De officiële site van de Franse staat. Typ een adres om overstromingen, bodembewegingen (krimp en zwelling van klei, holtes, aardverschuivingen), aardbevingszone, radon en nabije industriële sites te zien."
+   }
+  },
+  {
+   "id": "dicrim_fr",
+   "url": "https://www.montolieu.fr/wp-content/uploads/2024/10/DICRIM_FR_Montolieu.pdf",
+   "title": {
+    "fr": "DICRIM de Montolieu (PDF, français)",
+    "en": "Montolieu’s local risk information document, DICRIM (PDF, French)",
+    "nl": "DICRIM van Montolieu (pdf, Frans)"
+   },
+   "about": {
+    "fr": "Le document d’information communal sur les risques majeurs, publié par la Mairie : ce qui menace le village et que faire.",
+    "en": "The commune’s information document on major risks, published by the Mairie: what threatens the village and what to do.",
+    "nl": "Het gemeentelijke informatiedocument over grote risico’s, gepubliceerd door het gemeentehuis: wat het dorp bedreigt en wat te doen."
+   }
+  },
+  {
+   "id": "dicrim_en",
+   "url": "https://www.montolieu.fr/wp-content/uploads/2024/10/DICRIM_UK_Montolieu.pdf",
+   "title": {
+    "fr": "DICRIM de Montolieu (PDF, anglais)",
+    "en": "The same document in English (PDF)",
+    "nl": "Hetzelfde document in het Engels (pdf)"
+   },
+   "about": {
+    "fr": "Version anglaise publiée par la Mairie.",
+    "en": "English version published by the Mairie.",
+    "nl": "Engelse versie, gepubliceerd door het gemeentehuis."
+   }
+  },
+  {
+   "id": "pcs",
+   "url": "https://www.montolieu.fr/wp-content/uploads/2024/10/PCS-CITOYEN-MONTOLIEU.pdf",
+   "title": {
+    "fr": "Plan communal de sauvegarde, version citoyenne (PDF)",
+    "en": "Municipal safeguard plan, citizen version (PDF, French)",
+    "nl": "Gemeentelijk veiligheidsplan, versie voor burgers (pdf, Frans)"
+   },
+   "about": {
+    "fr": "Comment la commune s’organise en cas de crise (inondation, tempête, incendie) et ce que les habitants doivent faire.",
+    "en": "How the commune organises itself in a crisis (flood, storm, fire) and what residents should do.",
+    "nl": "Hoe de gemeente zich organiseert bij een crisis (overstroming, storm, brand) en wat inwoners moeten doen."
+   }
+  },
+  {
+   "id": "brgm",
+   "url": "https://infoterre.brgm.fr/",
+   "title": {
+    "fr": "InfoTerre (BRGM) : cartes géologiques",
+    "en": "InfoTerre (BRGM): geology maps",
+    "nl": "InfoTerre (BRGM): geologische kaarten"
+   },
+   "about": {
+    "fr": "Le service géologique national. Les cartes montrent la nature du sol et de la roche sous une parcelle, utile pour savoir si une maison repose sur le rocher ou sur de l’argile.",
+    "en": "The national geological survey. The maps show the soil and rock under a plot, useful to know whether a house stands on bedrock or on clay.",
+    "nl": "De nationale geologische dienst. De kaarten tonen de grond en het gesteente onder een perceel, handig om te weten of een huis op rots of op klei staat."
+   }
+  },
+  {
+   "id": "dvf",
+   "url": "https://app.dvf.etalab.gouv.fr/",
+   "title": {
+    "fr": "Carte DVF : les ventes enregistrées",
+    "en": "DVF map: recorded property sales",
+    "nl": "DVF-kaart: geregistreerde verkopen"
+   },
+   "about": {
+    "fr": "Les ventes immobilières enregistrées par l’État, avec la date, le prix, la surface et la parcelle. Les données arrivent quelques mois après la vente.",
+    "en": "Property sales registered by the State, with date, price, surface and parcel. The data arrives some months after the sale.",
+    "nl": "Door de staat geregistreerde vastgoedverkopen, met datum, prijs, oppervlakte en perceel. De gegevens komen enkele maanden na de verkoop."
+   }
+  },
+  {
+   "id": "plu",
+   "url": "https://www.montolieu.fr/vos-demarches/revision-du-plu/",
+   "title": {
+    "fr": "Révision du PLU (Mairie)",
+    "en": "Review of the local plan, PLU (Mairie)",
+    "nl": "Herziening van het lokale plan, PLU (gemeentehuis)"
+   },
+   "about": {
+    "fr": "Où en est le plan local d’urbanisme, qui fixe ce que l’on peut construire et où.",
+    "en": "Where the local planning document stands; it sets what can be built and where.",
+    "nl": "De stand van het lokale bestemmingsplan, dat bepaalt wat waar gebouwd mag worden."
+   }
+  },
+  {
+   "id": "urbanisme",
+   "url": "https://www.montolieu.fr/mairie/urbanisme/",
+   "title": {
+    "fr": "Urbanisme (Mairie)",
+    "en": "Planning and building permits (Mairie)",
+    "nl": "Ruimtelijke ordening en bouwvergunningen (gemeentehuis)"
+   },
+   "about": {
+    "fr": "La page de la Mairie sur les autorisations d’urbanisme et les règles applicables.",
+    "en": "The Mairie’s page on planning permissions and the rules that apply.",
+    "nl": "De pagina van het gemeentehuis over bouwvergunningen en de geldende regels."
+   }
+  }
+ ]
+}
