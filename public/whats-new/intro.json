@@ -1,0 +1,25 @@
+{
+ "labels": {
+  "produced_by": "AI model (Qwen/Qwen3-235B-A22B-Instruct-2507:scaleway)",
+  "human_reviewed": false,
+  "ai_disclosure": "https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md",
+  "disclaimer": "This summary was written by an AI model (Qwen/Qwen3-235B-A22B-Instruct-2507:scaleway) from the text of the minutes, using software that was itself written with AI assistance. No person has checked it. It can contain errors, omissions or invented details; do not rely on it for decisions. The minutes and the original PDF are authoritative."
+ },
+ "kind": "whats-new-intro",
+ "prompt_version": "1",
+ "summary_model": "Qwen/Qwen3-235B-A22B-Instruct-2507:scaleway",
+ "input_sha256": "e15928e1771677577986611cab590be33efbfb894e90b703ff7638be3d1771fe",
+ "generated_at": "2026-10-10T00:11:56+00:00",
+ "status": "ok",
+ "checks_failed": [],
+ "texts": {
+  "fr": {
+   "text": "Lors des récentes séances du conseil municipal, les élus ont approuvé les procès-verbaux des réunions précédentes et adopté à l’unanimité une décision modificative budgétaire ainsi que la modification de la régie de la piscine municipale. Des ajustements ont été votés majoritairement concernant les indemnités des élus, les postes d’adjoints, la commission culture, patrimoine, tourisme, et la création de postes saisonniers. Une redevance pour l’occupation du domaine public, concernant l’appartement n°2 de l’école maternelle, a été adoptée, avec mise en place d’une caution d’un mois dès la signature du contrat. Des questions ont été soulevées sur la prolongation de l’ouverture de la piscine jusqu’au 15 septembre 2026 pour permettre aux scolaires d’y suivre leurs cours de natation. Les élections sénatoriales sont prévues le 27 septembre 2026, et des délégations ont été désignées à ce sujet. Ces informations proviennent des procès-verbaux des séances municipales et peuvent être en retard par rapport à l’actualité en cours.",
+   "model": "Qwen/Qwen3-235B-A22B-Instruct-2507:scaleway"
+  },
+  "nl": {
+   "text": "Tijdens de recente zittingen van de gemeenteraad hebben de gekozen vertegenwoordigers de notulen van de voorgaande vergaderingen goedgekeurd en unaniem een begrotingswijziging (décision modificative) aangenomen, evenals de wijziging van het reglement van het gemeentelijk zwembad. Meerderheidsbesluiten werden genomen met betrekking tot de vergoedingen van de gekozen vertegenwoordigers, de posities van adjunct-burgemeesters, de commissie cultuur, erfgoed, toerisme, en de creatie van seizoensgebonden posities. Een heffing voor het gebruik van de openbare ruimte, betreffende appartement nr. 2 van de kleuterschool, werd aangenomen, met inrichting van een borg van één maand vanaf de ondertekening van het contract. Er werden vragen gesteld over de verlenging van de opening van het zwembad tot 15 september 2026 om schoolkinderen in staat te stellen er hun zwemlessen te volgen. De senaatsverkiezingen zijn gepland voor 27 september 2026, en er zijn delegaties aangewezen in dit verband. Deze informatie is afkomstig uit de notulen van de gemeentelijke zittingen en kan achterlopen op de huidige actualiteit.",
+   "model": "google/gemma-3-27b-it:deepinfra"
+  }
+ }
+}
