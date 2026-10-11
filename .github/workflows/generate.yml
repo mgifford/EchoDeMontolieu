@@ -165,6 +165,17 @@ jobs:
       - name: Tests
         run: python -m pytest -q
 
+      - name: Keep the generated data when the tests fail, so the failure can be reproduced
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-data-after-failed-tests
+          path: |
+            data/geocode_cache.json
+            public/places/places.json
+            public/zoning/
+          retention-days: 7
+
       - name: Open a pull request with the result
         env:
           GH_TOKEN: ${{ github.token }}

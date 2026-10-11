@@ -157,6 +157,6 @@ def write_zoning(public_dir, client):
     target = Path(public_dir) / "zoning"
     target.mkdir(parents=True, exist_ok=True)
     snapshot = fetch_snapshot(client)
-    (target / "zoning.json").write_text(json.dumps(snapshot, ensure_ascii=False, indent=1), encoding="utf-8")
+    (target / "zoning.json").write_text(json.dumps({**disclosure.labels("rules"), **snapshot}, ensure_ascii=False, indent=1), encoding="utf-8")
     (target / "index.md").write_text(disclosure.with_front_matter(render_md(snapshot), "Planning and heritage zoning"), encoding="utf-8")
     return snapshot
