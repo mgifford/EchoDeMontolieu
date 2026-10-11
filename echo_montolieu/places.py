@@ -16,7 +16,9 @@ import base64
 import collections
 import hashlib
 import html
+import itertools
 import json
+import math
 import re
 import time
 from urllib.parse import quote
@@ -396,7 +398,7 @@ MAP_SCRIPT = """
 (function () {
   var data = JSON.parse(document.getElementById('places-data').textContent);
   if (!window.L || !data.places.length) { return; }
-  var map = L.map('map', {keyboard: true}).setView([data.center.lat, data.center.lon], 16);
+  var map = L.map('map', {keyboard: true}).setView([data.center.lat, data.center.lon], data.zoom);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19,
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
   data.places.forEach(function (p) {
@@ -430,10 +432,34 @@ def _farthest_km(places):
                            (p["lat"] - cy) * 110.574) for p in places), default=0.0)
 
 
+MARKER_PX = 44          # a marker is a 44 px target; two must never overlap in the opening view
+DEFAULT_ZOOM, MAX_OPENING_ZOOM = 16, 18
+
+
+def _px_apart(a, b, zoom):
+    """Distance in screen pixels between two places at a web-map zoom level."""
+    mpp = 156543.03392 * math.cos(math.radians(a["lat"])) / 2 ** zoom
+    return math.hypot((a["lon"] - b["lon"]) * 111320 * math.cos(math.radians(a["lat"])),
+                      (a["lat"] - b["lat"]) * 110574) / mpp
+
+
+def opening_zoom(places):
+    """The widest zoom (from 16, up to 18) at which the closest two places are at least 44 px apart.
+
+    Two real places can be a few dozen metres apart, so a fixed zoom would lay their 44 px markers on top
+    of each other. Zooming out still shows everything, and every place is in the list under the map.
+    """
+    zoom = DEFAULT_ZOOM
+    pairs = list(itertools.combinations(places, 2))
+    while pairs and zoom < MAX_OPENING_ZOOM and min(_px_apart(a, b, zoom) for a, b in pairs) < MARKER_PX:
+        zoom += 1
+    return zoom
+
+
 def render_map_html(places, info, lang="en"):
     T = MAP_TEXT[lang]
     far = f"{_farthest_km(places):.1f}".rstrip("0").rstrip(".")
-    data = {"center": {"lat": COMMUNE["lat"], "lon": COMMUNE["lon"]},
+    data = {"center": {"lat": COMMUNE["lat"], "lon": COMMUNE["lon"]}, "zoom": opening_zoom(places),
             "shapes": {k: _svg(k, v[2], 44) for k, v in SHAPES.items()},
             "ui": {k: T[k] for k in ("meeting_one", "meeting_many", "press")},
             "places": [{k: p[k] for k in ("label", "lat", "lon", "meetings", "shape", "items")}
