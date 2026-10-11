@@ -241,7 +241,8 @@ def test_the_closest_real_places_stay_at_least_44px_apart_at_the_opening_zoom():
     def px(a, b, z=16):
         mpp = 156543.03392 * math.cos(math.radians(a["lat"])) / 2 ** z
         return math.hypot((a["lon"] - b["lon"]) * 111320 * math.cos(math.radians(a["lat"])), (a["lat"] - b["lat"]) * 110574) / mpp
-    assert min(px(a, b) for a, b in itertools.combinations(data["places"], 2)) >= 44
+    closest = min(itertools.combinations(data["places"], 2), key=lambda ab: px(*ab))
+    assert px(*closest) >= 44, f"{closest[0]['label']!r} and {closest[1]['label']!r} are {px(*closest):.0f}px apart at zoom 16"
 
 
 def test_prune_drops_lookups_for_names_that_are_no_longer_candidates(tmp_path):

@@ -59,7 +59,9 @@ def test_page_is_dated_cited_and_says_it_is_not_legal_advice(tmp_path):
     page = (tmp_path / "zoning" / "index.md").read_text()
     assert "Not legal advice" in page and snap["retrieved_at"][:10] in page and zoning.PORTAL in page
     assert "## Gaps" in page and "prescription-lin (HTTP 404)" in page and "machine_generated: true" in page
-    assert json.loads((tmp_path / "zoning" / "zoning.json").read_text())["insee"] == "11253"
+    written = json.loads((tmp_path / "zoning" / "zoning.json").read_text())
+    assert written["insee"] == "11253"
+    assert written["human_reviewed"] is False and written["ai_disclosure"] and written["disclaimer"]
 
 
 def test_empty_answers_are_said_plainly():
