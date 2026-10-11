@@ -14,7 +14,7 @@
  "counts": {
   "meetings": 57,
   "decisions": 457,
-  "places": 13
+  "places": 27
  },
  "newest_meeting": "2026-07-22",
  "columns": {
@@ -7381,6 +7381,55 @@
  ],
  "places": [
   {
+   "label": "Route de Saint Denis",
+   "kind": "street",
+   "latitude": 43.319595,
+   "longitude": 2.217038,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.319595&mlon=2.217038#map=18/43.319595/2.217038",
+   "meetings": [
+    "2004-03-02",
+    "2004-10-16",
+    "2005-03-18",
+    "2006-04-22",
+    "2006-09-29",
+    "2006-11-24",
+    "2007-02-16",
+    "2008-04-04",
+    "2008-04-25"
+   ],
+   "first_meeting": "2004-03-02",
+   "last_meeting": "2008-04-25"
+  },
+  {
+   "label": "Place de l'Eglise",
+   "kind": "street",
+   "latitude": 43.310476,
+   "longitude": 2.214738,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.310476&mlon=2.214738#map=18/43.310476/2.214738",
+   "meetings": [
+    "2008-04-04",
+    "2008-04-25",
+    "2008-05-09",
+    "2025-09-25"
+   ],
+   "first_meeting": "2008-04-04",
+   "last_meeting": "2025-09-25"
+  },
+  {
+   "label": "Avenue du Mail",
+   "kind": "street",
+   "latitude": 43.308024,
+   "longitude": 2.21414,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.308024&mlon=2.214140#map=18/43.308024/2.214140",
+   "meetings": [
+    "2004-10-16",
+    "2005-06-25",
+    "2025-11-27"
+   ],
+   "first_meeting": "2004-10-16",
+   "last_meeting": "2025-11-27"
+  },
+  {
    "label": "Chemin de Villeneuve",
    "kind": "street",
    "latitude": 43.329399,
@@ -7395,18 +7444,84 @@
    "last_meeting": "2025-06-24"
   },
   {
-   "label": "Place de l'Eglise",
+   "label": "Route d’Alzonne",
    "kind": "street",
-   "latitude": 43.310476,
-   "longitude": 2.214738,
-   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.310476&mlon=2.214738#map=18/43.310476/2.214738",
+   "latitude": 43.301034,
+   "longitude": 2.212359,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.301034&mlon=2.212359#map=18/43.301034/2.212359",
    "meetings": [
-    "2008-04-04",
-    "2008-05-09",
-    "2025-09-25"
+    "2006-04-22",
+    "2025-09-25",
+    "2025-10-27"
    ],
-   "first_meeting": "2008-04-04",
-   "last_meeting": "2025-09-25"
+   "first_meeting": "2006-04-22",
+   "last_meeting": "2025-10-27"
+  },
+  {
+   "label": "Rue Saint Denis",
+   "kind": "street",
+   "latitude": 43.31244,
+   "longitude": 2.215653,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.312440&mlon=2.215653#map=18/43.312440/2.215653",
+   "meetings": [
+    "2003-09-20",
+    "2004-05-14",
+    "2005-02-10"
+   ],
+   "first_meeting": "2003-09-20",
+   "last_meeting": "2005-02-10"
+  },
+  {
+   "label": "Avenue Saint Martin",
+   "kind": "street",
+   "latitude": 43.307125,
+   "longitude": 2.216703,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.307125&mlon=2.216703#map=18/43.307125/2.216703",
+   "meetings": [
+    "2004-03-02",
+    "2005-06-25"
+   ],
+   "first_meeting": "2004-03-02",
+   "last_meeting": "2005-06-25"
+  },
+  {
+   "label": "Chemin de la Chapelle Saint Roch",
+   "kind": "street",
+   "latitude": 43.306259,
+   "longitude": 2.221389,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.306259&mlon=2.221389#map=18/43.306259/2.221389",
+   "meetings": [
+    "2005-03-18",
+    "2006-11-24"
+   ],
+   "first_meeting": "2005-03-18",
+   "last_meeting": "2006-11-24"
+  },
+  {
+   "label": "Chemin de l’Horte de Villeneuve",
+   "kind": "street",
+   "latitude": 43.318563,
+   "longitude": 2.20787,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.318563&mlon=2.207870#map=18/43.318563/2.207870",
+   "meetings": [
+    "2004-08-17",
+    "2005-10-14"
+   ],
+   "first_meeting": "2004-08-17",
+   "last_meeting": "2005-10-14"
+  },
+  {
+   "label": "Place des Tilleuls",
+   "kind": "street",
+   "latitude": 43.309134,
+   "longitude": 2.215388,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.309134&mlon=2.215388#map=18/43.309134/2.215388",
+   "meetings": [
+    "2003-09-20",
+    "2007-02-16"
+   ],
+   "first_meeting": "2003-09-20",
+   "last_meeting": "2007-02-16"
   },
   {
    "label": "Route de Carcassonne",
@@ -7422,19 +7537,6 @@
    "last_meeting": "2025-10-27"
   },
   {
-   "label": "Route d’Alzonne",
-   "kind": "street",
-   "latitude": 43.301034,
-   "longitude": 2.212359,
-   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.301034&mlon=2.212359#map=18/43.301034/2.212359",
-   "meetings": [
-    "2025-09-25",
-    "2025-10-27"
-   ],
-   "first_meeting": "2025-09-25",
-   "last_meeting": "2025-10-27"
-  },
-  {
    "label": "Rue des Remparts",
    "kind": "street",
    "latitude": 43.310164,
@@ -7446,18 +7548,6 @@
    ],
    "first_meeting": "2026-01-08",
    "last_meeting": "2026-07-22"
-  },
-  {
-   "label": "Avenue du Mail",
-   "kind": "street",
-   "latitude": 43.308024,
-   "longitude": 2.21414,
-   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.308024&mlon=2.214140#map=18/43.308024/2.214140",
-   "meetings": [
-    "2025-11-27"
-   ],
-   "first_meeting": "2025-11-27",
-   "last_meeting": "2025-11-27"
   },
   {
    "label": "Borderouge",
@@ -7496,6 +7586,42 @@
    "last_meeting": "2024-04-04"
   },
   {
+   "label": "Chemin de Monplaisir",
+   "kind": "street",
+   "latitude": 43.302195,
+   "longitude": 2.215611,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.302195&mlon=2.215611#map=18/43.302195/2.215611",
+   "meetings": [
+    "2003-09-20"
+   ],
+   "first_meeting": "2003-09-20",
+   "last_meeting": "2003-09-20"
+  },
+  {
+   "label": "Chemin de Peyremale",
+   "kind": "street",
+   "latitude": 43.327805,
+   "longitude": 2.188597,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.327805&mlon=2.188597#map=18/43.327805/2.188597",
+   "meetings": [
+    "2006-11-24"
+   ],
+   "first_meeting": "2006-11-24",
+   "last_meeting": "2006-11-24"
+  },
+  {
+   "label": "Chemin de l’Angelique",
+   "kind": "street",
+   "latitude": 43.301014,
+   "longitude": 2.221685,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.301014&mlon=2.221685#map=18/43.301014/2.221685",
+   "meetings": [
+    "2006-11-24"
+   ],
+   "first_meeting": "2006-11-24",
+   "last_meeting": "2006-11-24"
+  },
+  {
    "label": "Chemin des Barrens",
    "kind": "street",
    "latitude": 43.308832,
@@ -7520,6 +7646,18 @@
    "last_meeting": "2024-04-04"
   },
   {
+   "label": "Chemin du Trabet",
+   "kind": "street",
+   "latitude": 43.296186,
+   "longitude": 2.234412,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.296186&mlon=2.234412#map=18/43.296186/2.234412",
+   "meetings": [
+    "2007-02-16"
+   ],
+   "first_meeting": "2007-02-16",
+   "last_meeting": "2007-02-16"
+  },
+  {
    "label": "Montpertus",
    "kind": "lieu-dit",
    "latitude": 43.303565,
@@ -7532,6 +7670,18 @@
    "last_meeting": "2025-04-14"
   },
   {
+   "label": "Place Maurice Bertrand",
+   "kind": "street",
+   "latitude": 43.311064,
+   "longitude": 2.214776,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.311064&mlon=2.214776#map=18/43.311064/2.214776",
+   "meetings": [
+    "2004-10-16"
+   ],
+   "first_meeting": "2004-10-16",
+   "last_meeting": "2004-10-16"
+  },
+  {
    "label": "Route de Fraisse",
    "kind": "street",
    "latitude": 43.309601,
@@ -7542,6 +7692,42 @@
    ],
    "first_meeting": "2025-09-25",
    "last_meeting": "2025-09-25"
+  },
+  {
+   "label": "Route de Saissac",
+   "kind": "street",
+   "latitude": 43.315622,
+   "longitude": 2.208264,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.315622&mlon=2.208264#map=18/43.315622/2.208264",
+   "meetings": [
+    "2004-03-02"
+   ],
+   "first_meeting": "2004-03-02",
+   "last_meeting": "2004-03-02"
+  },
+  {
+   "label": "Rue Pavee",
+   "kind": "street",
+   "latitude": 43.310984,
+   "longitude": 2.215237,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.310984&mlon=2.215237#map=18/43.310984/2.215237",
+   "meetings": [
+    "2005-01-07"
+   ],
+   "first_meeting": "2005-01-07",
+   "last_meeting": "2005-01-07"
+  },
+  {
+   "label": "Rue du Collège",
+   "kind": "street",
+   "latitude": 43.309423,
+   "longitude": 2.215696,
+   "openstreetmap_url": "https://www.openstreetmap.org/?mlat=43.309423&mlon=2.215696#map=18/43.309423/2.215696",
+   "meetings": [
+    "2008-04-04"
+   ],
+   "first_meeting": "2008-04-04",
+   "last_meeting": "2008-04-04"
   }
  ]
 }

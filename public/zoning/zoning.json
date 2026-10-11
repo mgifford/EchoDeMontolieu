@@ -5,13 +5,13 @@
  "disclaimer": "This page was generated automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model wrote its text: it is extracted from the minutes by programmed rules. No person has checked it, and it can be wrong. The original documents are authoritative.",
  "source": "Géoportail de l'urbanisme (IGN APICarto, module gpu)",
  "portal": "https://www.geoportail-urbanisme.gouv.fr/",
- "retrieved_at": "2026-10-11T09:15:08+00:00",
+ "retrieved_at": "2026-10-11T10:26:06+00:00",
  "commune": "Montolieu",
  "insee": "11253",
  "municipality": {
   "insee": "11253",
-  "name": "MONTOLIEU",
-  "is_rnu": false
+  "is_rnu": false,
+  "name": "MONTOLIEU"
  },
  "documents": [],
  "zones": [],
@@ -20,5 +20,5 @@
   "municipality": 200,
   "document": 200
  },
- "requests_made": 2
+ "requests_made": 0
 }

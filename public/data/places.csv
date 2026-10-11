@@ -1,14 +1,28 @@
 label,kind,latitude,longitude,openstreetmap_url,meetings,first_meeting,last_meeting
+Route de Saint Denis,street,43.319595,2.217038,https://www.openstreetmap.org/?mlat=43.319595&mlon=2.217038#map=18/43.319595/2.217038,9,2004-03-02,2008-04-25
+Place de l'Eglise,street,43.310476,2.214738,https://www.openstreetmap.org/?mlat=43.310476&mlon=2.214738#map=18/43.310476/2.214738,4,2008-04-04,2025-09-25
+Avenue du Mail,street,43.308024,2.21414,https://www.openstreetmap.org/?mlat=43.308024&mlon=2.214140#map=18/43.308024/2.214140,3,2004-10-16,2025-11-27
 Chemin de Villeneuve,street,43.329399,2.204645,https://www.openstreetmap.org/?mlat=43.329399&mlon=2.204645#map=18/43.329399/2.204645,3,2006-11-24,2025-06-24
-Place de l'Eglise,street,43.310476,2.214738,https://www.openstreetmap.org/?mlat=43.310476&mlon=2.214738#map=18/43.310476/2.214738,3,2008-04-04,2025-09-25
+Route d’Alzonne,street,43.301034,2.212359,https://www.openstreetmap.org/?mlat=43.301034&mlon=2.212359#map=18/43.301034/2.212359,3,2006-04-22,2025-10-27
+Rue Saint Denis,street,43.31244,2.215653,https://www.openstreetmap.org/?mlat=43.312440&mlon=2.215653#map=18/43.312440/2.215653,3,2003-09-20,2005-02-10
+Avenue Saint Martin,street,43.307125,2.216703,https://www.openstreetmap.org/?mlat=43.307125&mlon=2.216703#map=18/43.307125/2.216703,2,2004-03-02,2005-06-25
+Chemin de la Chapelle Saint Roch,street,43.306259,2.221389,https://www.openstreetmap.org/?mlat=43.306259&mlon=2.221389#map=18/43.306259/2.221389,2,2005-03-18,2006-11-24
+Chemin de l’Horte de Villeneuve,street,43.318563,2.20787,https://www.openstreetmap.org/?mlat=43.318563&mlon=2.207870#map=18/43.318563/2.207870,2,2004-08-17,2005-10-14
+Place des Tilleuls,street,43.309134,2.215388,https://www.openstreetmap.org/?mlat=43.309134&mlon=2.215388#map=18/43.309134/2.215388,2,2003-09-20,2007-02-16
 Route de Carcassonne,street,43.297673,2.221459,https://www.openstreetmap.org/?mlat=43.297673&mlon=2.221459#map=18/43.297673/2.221459,2,2024-09-18,2025-10-27
-Route d’Alzonne,street,43.301034,2.212359,https://www.openstreetmap.org/?mlat=43.301034&mlon=2.212359#map=18/43.301034/2.212359,2,2025-09-25,2025-10-27
 Rue des Remparts,street,43.310164,2.213583,https://www.openstreetmap.org/?mlat=43.310164&mlon=2.213583#map=18/43.310164/2.213583,2,2026-01-08,2026-07-22
-Avenue du Mail,street,43.308024,2.21414,https://www.openstreetmap.org/?mlat=43.308024&mlon=2.214140#map=18/43.308024/2.214140,1,2025-11-27,2025-11-27
 Borderouge,lieu-dit,43.335715,2.215318,https://www.openstreetmap.org/?mlat=43.335715&mlon=2.215318#map=18/43.335715/2.215318,1,2026-07-22,2026-07-22
 Chemin de Borderouge,street,43.334026,2.216254,https://www.openstreetmap.org/?mlat=43.334026&mlon=2.216254#map=18/43.334026/2.216254,1,2024-04-04,2024-04-04
 Chemin de Jalabert,street,43.305872,2.213886,https://www.openstreetmap.org/?mlat=43.305872&mlon=2.213886#map=18/43.305872/2.213886,1,2024-04-04,2024-04-04
+Chemin de Monplaisir,street,43.302195,2.215611,https://www.openstreetmap.org/?mlat=43.302195&mlon=2.215611#map=18/43.302195/2.215611,1,2003-09-20,2003-09-20
+Chemin de Peyremale,street,43.327805,2.188597,https://www.openstreetmap.org/?mlat=43.327805&mlon=2.188597#map=18/43.327805/2.188597,1,2006-11-24,2006-11-24
+Chemin de l’Angelique,street,43.301014,2.221685,https://www.openstreetmap.org/?mlat=43.301014&mlon=2.221685#map=18/43.301014/2.221685,1,2006-11-24,2006-11-24
 Chemin des Barrens,street,43.308832,2.226179,https://www.openstreetmap.org/?mlat=43.308832&mlon=2.226179#map=18/43.308832/2.226179,1,2025-11-27,2025-11-27
 Chemin des Bretous,street,43.31158,2.210658,https://www.openstreetmap.org/?mlat=43.311580&mlon=2.210658#map=18/43.311580/2.210658,1,2024-04-04,2024-04-04
+Chemin du Trabet,street,43.296186,2.234412,https://www.openstreetmap.org/?mlat=43.296186&mlon=2.234412#map=18/43.296186/2.234412,1,2007-02-16,2007-02-16
 Montpertus,lieu-dit,43.303565,2.204505,https://www.openstreetmap.org/?mlat=43.303565&mlon=2.204505#map=18/43.303565/2.204505,1,2025-04-14,2025-04-14
+Place Maurice Bertrand,street,43.311064,2.214776,https://www.openstreetmap.org/?mlat=43.311064&mlon=2.214776#map=18/43.311064/2.214776,1,2004-10-16,2004-10-16
 Route de Fraisse,street,43.309601,2.223845,https://www.openstreetmap.org/?mlat=43.309601&mlon=2.223845#map=18/43.309601/2.223845,1,2025-09-25,2025-09-25
+Route de Saissac,street,43.315622,2.208264,https://www.openstreetmap.org/?mlat=43.315622&mlon=2.208264#map=18/43.315622/2.208264,1,2004-03-02,2004-03-02
+Rue Pavee,street,43.310984,2.215237,https://www.openstreetmap.org/?mlat=43.310984&mlon=2.215237#map=18/43.310984/2.215237,1,2005-01-07,2005-01-07
+Rue du Collège,street,43.309423,2.215696,https://www.openstreetmap.org/?mlat=43.309423&mlon=2.215696#map=18/43.309423/2.215696,1,2008-04-04,2008-04-04

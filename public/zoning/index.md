@@ -14,8 +14,8 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 ## Status of the commune on the portal
 
 - insee: 11253
-- name: MONTOLIEU
 - is_rnu: False
+- name: MONTOLIEU
 
 ## Planning documents
 
