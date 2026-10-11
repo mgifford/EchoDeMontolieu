@@ -12,6 +12,198 @@
  "disclaimer": "This page was generated automatically by software that was written with AI assistance (Claude, an AI assistant from Anthropic). No AI model wrote its text: it is extracted from the minutes by programmed rules. No person has checked it, and it can be wrong. The original documents are authoritative.",
  "places": [
   {
+   "label": "Route de Saint Denis",
+   "kind": "street",
+   "lat": 43.319595,
+   "lon": 2.217038,
+   "ban_label": "Route de Saint Denis 11170 Montolieu",
+   "ban_score": 0.944,
+   "mentioned_as": [
+    "côte route de Saint-Denis",
+    "route St Denis",
+    "route de Saint- Denis",
+    "route de Saint-Denis"
+   ],
+   "items": [
+    {
+     "date": "2004-03-02",
+     "folder": "2004-03-02",
+     "title": "Mentioned in the minutes of 2004-03-02",
+     "page": 4,
+     "url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf",
+     "topics": []
+    },
+    {
+     "date": "2004-10-16",
+     "folder": "2004-10-16",
+     "title": "Mentioned in the minutes of 2004-10-16",
+     "page": 4,
+     "url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf",
+     "topics": []
+    },
+    {
+     "date": "2005-03-18",
+     "folder": "2005-03-18",
+     "title": "Mentioned in the minutes of 2005-03-18",
+     "page": 3,
+     "url": "https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf",
+     "topics": []
+    },
+    {
+     "date": "2006-04-22",
+     "folder": "2006-04-22-25c32404ddc5",
+     "title": "Mentioned in the minutes of 2006-04-22",
+     "page": 4,
+     "url": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf",
+     "topics": []
+    },
+    {
+     "date": "2006-09-29",
+     "folder": "2006-09-29",
+     "title": "Mentioned in the minutes of 2006-09-29",
+     "page": 2,
+     "url": "https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf",
+     "topics": []
+    },
+    {
+     "date": "2006-11-24",
+     "folder": "2006-11-24",
+     "title": "Mentioned in the minutes of 2006-11-24",
+     "page": 3,
+     "url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf",
+     "topics": []
+    },
+    {
+     "date": "2007-02-16",
+     "folder": "2007-02-16",
+     "title": "Mentioned in the minutes of 2007-02-16",
+     "page": 2,
+     "url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf",
+     "topics": []
+    },
+    {
+     "date": "2008-04-04",
+     "folder": "2008-04-04",
+     "title": "Mentioned in the minutes of 2008-04-04",
+     "page": 9,
+     "url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf",
+     "topics": []
+    },
+    {
+     "date": "2008-04-25",
+     "folder": "2008-04-25",
+     "title": "Mentioned in the minutes of 2008-04-25",
+     "page": 7,
+     "url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 9
+  },
+  {
+   "label": "Place de l'Eglise",
+   "kind": "street",
+   "lat": 43.310476,
+   "lon": 2.214738,
+   "ban_label": "Place de l'Eglise 11170 Montolieu",
+   "ban_score": 0.945,
+   "mentioned_as": [
+    "place de l'église",
+    "place de l’église"
+   ],
+   "items": [
+    {
+     "date": "2008-04-04",
+     "folder": "2008-04-04",
+     "title": "Mentioned in the minutes of 2008-04-04",
+     "page": 9,
+     "url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf",
+     "topics": []
+    },
+    {
+     "date": "2008-04-25",
+     "folder": "2008-04-25",
+     "title": "Mentioned in the minutes of 2008-04-25",
+     "page": 7,
+     "url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf",
+     "topics": []
+    },
+    {
+     "date": "2008-05-09",
+     "folder": "2008-05-09",
+     "title": "Mentioned in the minutes of 2008-05-09",
+     "page": 2,
+     "url": "https://web.archive.org/web/20081112035845/http://www.montolieu.fr/docs/CRCM%2020080509.pdf",
+     "topics": []
+    },
+    {
+     "date": "2025-09-25",
+     "folder": "2025-09-25",
+     "title": "Mise en place d’une video protection en location",
+     "page": 2,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 4
+  },
+  {
+   "label": "Avenue du Mail",
+   "kind": "street",
+   "lat": 43.308024,
+   "lon": 2.21414,
+   "ban_label": "Avenue du Mail 11170 Montolieu",
+   "ban_score": 0.947,
+   "mentioned_as": [
+    "avenue du Mail",
+    "avenue du mail"
+   ],
+   "items": [
+    {
+     "date": "2004-10-16",
+     "folder": "2004-10-16",
+     "title": "Mentioned in the minutes of 2004-10-16",
+     "page": 2,
+     "url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf",
+     "topics": []
+    },
+    {
+     "date": "2005-06-25",
+     "folder": "2005-06-25",
+     "title": "Mentioned in the minutes of 2005-06-25",
+     "page": 2,
+     "url": "https://web.archive.org/web/20061123182917/http://www.montolieu.fr/docs/CRCM250605.pdf",
+     "topics": []
+    },
+    {
+     "date": "2025-11-27",
+     "folder": "2025-11-27",
+     "title": "Signaletique a partir d’un cheminement debutant au parking st roch",
+     "page": 7,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf",
+     "topics": [
+      "patrimoine, culture, tourisme",
+      "Village du Livre (MVDL)",
+      "musée Cérès Franco"
+     ]
+    }
+   ],
+   "themes": {
+    "patrimoine, culture, tourisme": 1,
+    "Village du Livre (MVDL)": 1,
+    "musée Cérès Franco": 1
+   },
+   "main_theme": "patrimoine, culture, tourisme",
+   "shape": "triangle",
+   "meetings": 3
+  },
+  {
    "label": "Chemin de Villeneuve",
    "kind": "street",
    "lat": 43.329399,
@@ -61,38 +253,101 @@
    "meetings": 3
   },
   {
-   "label": "Place de l'Eglise",
+   "label": "Route d’Alzonne",
    "kind": "street",
-   "lat": 43.310476,
-   "lon": 2.214738,
-   "ban_label": "Place de l'Eglise 11170 Montolieu",
-   "ban_score": 0.945,
+   "lat": 43.301034,
+   "lon": 2.212359,
+   "ban_label": "Route d’Alzonne 11170 Montolieu",
+   "ban_score": 0.941,
    "mentioned_as": [
-    "place de l’église"
+    "route d'Alzonne",
+    "route d’Alzonne"
    ],
    "items": [
     {
-     "date": "2008-04-04",
-     "folder": "2008-04-04",
-     "title": "Mentioned in the minutes of 2008-04-04",
-     "page": 9,
-     "url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf",
-     "topics": []
-    },
-    {
-     "date": "2008-05-09",
-     "folder": "2008-05-09",
-     "title": "Mentioned in the minutes of 2008-05-09",
-     "page": 2,
-     "url": "https://web.archive.org/web/20081112035845/http://www.montolieu.fr/docs/CRCM%2020080509.pdf",
+     "date": "2006-04-22",
+     "folder": "2006-04-22-25c32404ddc5",
+     "title": "Mentioned in the minutes of 2006-04-22",
+     "page": 4,
+     "url": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf",
      "topics": []
     },
     {
      "date": "2025-09-25",
      "folder": "2025-09-25",
-     "title": "Mise en place d’une video protection en location",
-     "page": 2,
+     "title": "Cheminement pietonnier vers la coopérative musée ceres franco",
+     "page": 4,
      "url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
+     "topics": [
+      "voirie et travaux",
+      "musée Cérès Franco"
+     ]
+    },
+    {
+     "date": "2025-10-27",
+     "folder": "2025-10-27",
+     "title": "Cooperative musee ceres franco",
+     "page": 2,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf",
+     "topics": [
+      "voirie et travaux",
+      "musée Cérès Franco"
+     ]
+    },
+    {
+     "date": "2025-10-27",
+     "folder": "2025-10-27",
+     "title": "Photovoltaîque de nouvenergie et le projet agrivolatîque de guitard",
+     "page": 4,
+     "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf",
+     "topics": [
+      "urbanisme"
+     ]
+    }
+   ],
+   "themes": {
+    "voirie et travaux": 2,
+    "musée Cérès Franco": 2,
+    "urbanisme": 1
+   },
+   "main_theme": "voirie et travaux",
+   "shape": "square",
+   "meetings": 3
+  },
+  {
+   "label": "Rue Saint Denis",
+   "kind": "street",
+   "lat": 43.31244,
+   "lon": 2.215653,
+   "ban_label": "Rue Saint Denis 11170 Montolieu",
+   "ban_score": 0.951,
+   "mentioned_as": [
+    "rue Saint- Denis",
+    "rue Saint-Denis"
+   ],
+   "items": [
+    {
+     "date": "2003-09-20",
+     "folder": "2003-09-20",
+     "title": "Mentioned in the minutes of 2003-09-20",
+     "page": 1,
+     "url": "https://web.archive.org/web/20031030083200/http://www.montolieu.fr:80/conseil/crcm200903.html",
+     "topics": []
+    },
+    {
+     "date": "2004-05-14",
+     "folder": "2004-05-14",
+     "title": "Mentioned in the minutes of 2004-05-14",
+     "page": 3,
+     "url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf",
+     "topics": []
+    },
+    {
+     "date": "2005-02-10",
+     "folder": "2005-02-10",
+     "title": "Mentioned in the minutes of 2005-02-10",
+     "page": 2,
+     "url": "https://web.archive.org/web/20051014125712/http://www.montolieu.fr/docs/CRCM100205.pdf",
      "topics": []
     }
    ],
@@ -100,6 +355,139 @@
    "main_theme": null,
    "shape": "diamond",
    "meetings": 3
+  },
+  {
+   "label": "Avenue Saint Martin",
+   "kind": "street",
+   "lat": 43.307125,
+   "lon": 2.216703,
+   "ban_label": "Avenue Saint Martin 11170 Montolieu",
+   "ban_score": 0.855,
+   "mentioned_as": [
+    "avenue Saint-"
+   ],
+   "items": [
+    {
+     "date": "2004-03-02",
+     "folder": "2004-03-02",
+     "title": "Mentioned in the minutes of 2004-03-02",
+     "page": 4,
+     "url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf",
+     "topics": []
+    },
+    {
+     "date": "2005-06-25",
+     "folder": "2005-06-25",
+     "title": "Mentioned in the minutes of 2005-06-25",
+     "page": 2,
+     "url": "https://web.archive.org/web/20061123182917/http://www.montolieu.fr/docs/CRCM250605.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 2
+  },
+  {
+   "label": "Chemin de la Chapelle Saint Roch",
+   "kind": "street",
+   "lat": 43.306259,
+   "lon": 2.221389,
+   "ban_label": "Chemin de la Chapelle Saint Roch 11170 Montolieu",
+   "ban_score": 0.536,
+   "mentioned_as": [
+    "chemin de Saint-Roch"
+   ],
+   "items": [
+    {
+     "date": "2005-03-18",
+     "folder": "2005-03-18",
+     "title": "Mentioned in the minutes of 2005-03-18",
+     "page": 3,
+     "url": "https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf",
+     "topics": []
+    },
+    {
+     "date": "2006-11-24",
+     "folder": "2006-11-24",
+     "title": "Mentioned in the minutes of 2006-11-24",
+     "page": 1,
+     "url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 2
+  },
+  {
+   "label": "Chemin de l’Horte de Villeneuve",
+   "kind": "street",
+   "lat": 43.318563,
+   "lon": 2.20787,
+   "ban_label": "Chemin de l’Horte de Villeneuve 11170 Montolieu",
+   "ban_score": 0.944,
+   "mentioned_as": [
+    "chemin de l'Horte de Villeneuve",
+    "chemin de l’Horte de Villeneuve"
+   ],
+   "items": [
+    {
+     "date": "2004-08-17",
+     "folder": "2004-08-17",
+     "title": "Mentioned in the minutes of 2004-08-17",
+     "page": 1,
+     "url": "https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf",
+     "topics": []
+    },
+    {
+     "date": "2005-10-14",
+     "folder": "2005-10-14",
+     "title": "Mentioned in the minutes of 2005-10-14",
+     "page": 3,
+     "url": "https://web.archive.org/web/20061123183052/http://www.montolieu.fr/docs/CRCM141005.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 2
+  },
+  {
+   "label": "Place des Tilleuls",
+   "kind": "street",
+   "lat": 43.309134,
+   "lon": 2.215388,
+   "ban_label": "Place des Tilleuls 11170 Montolieu",
+   "ban_score": 0.944,
+   "mentioned_as": [
+    "place des Tilleuls"
+   ],
+   "items": [
+    {
+     "date": "2003-09-20",
+     "folder": "2003-09-20",
+     "title": "Mentioned in the minutes of 2003-09-20",
+     "page": 1,
+     "url": "https://web.archive.org/web/20031030083200/http://www.montolieu.fr:80/conseil/crcm200903.html",
+     "topics": []
+    },
+    {
+     "date": "2007-02-16",
+     "folder": "2007-02-16",
+     "title": "Mentioned in the minutes of 2007-02-16",
+     "page": 2,
+     "url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 2
   },
   {
    "label": "Route de Carcassonne",
@@ -144,59 +532,6 @@
    "meetings": 2
   },
   {
-   "label": "Route d’Alzonne",
-   "kind": "street",
-   "lat": 43.301034,
-   "lon": 2.212359,
-   "ban_label": "Route d’Alzonne 11170 Montolieu",
-   "ban_score": 0.941,
-   "mentioned_as": [
-    "route d’Alzonne"
-   ],
-   "items": [
-    {
-     "date": "2025-09-25",
-     "folder": "2025-09-25",
-     "title": "Cheminement pietonnier vers la coopérative musée ceres franco",
-     "page": 4,
-     "url": "https://www.montolieu.fr/wp-content/uploads/2025/10/CRCM-25092025-site.pdf",
-     "topics": [
-      "voirie et travaux",
-      "musée Cérès Franco"
-     ]
-    },
-    {
-     "date": "2025-10-27",
-     "folder": "2025-10-27",
-     "title": "Cooperative musee ceres franco",
-     "page": 2,
-     "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf",
-     "topics": [
-      "voirie et travaux",
-      "musée Cérès Franco"
-     ]
-    },
-    {
-     "date": "2025-10-27",
-     "folder": "2025-10-27",
-     "title": "Photovoltaîque de nouvenergie et le projet agrivolatîque de guitard",
-     "page": 4,
-     "url": "https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf",
-     "topics": [
-      "urbanisme"
-     ]
-    }
-   ],
-   "themes": {
-    "voirie et travaux": 2,
-    "musée Cérès Franco": 2,
-    "urbanisme": 1
-   },
-   "main_theme": "voirie et travaux",
-   "shape": "square",
-   "meetings": 2
-  },
-  {
    "label": "Rue des Remparts",
    "kind": "street",
    "lat": 43.310164,
@@ -236,39 +571,6 @@
    "main_theme": "urbanisme",
    "shape": "square",
    "meetings": 2
-  },
-  {
-   "label": "Avenue du Mail",
-   "kind": "street",
-   "lat": 43.308024,
-   "lon": 2.21414,
-   "ban_label": "Avenue du Mail 11170 Montolieu",
-   "ban_score": 0.947,
-   "mentioned_as": [
-    "avenue du mail"
-   ],
-   "items": [
-    {
-     "date": "2025-11-27",
-     "folder": "2025-11-27",
-     "title": "Signaletique a partir d’un cheminement debutant au parking st roch",
-     "page": 7,
-     "url": "https://www.montolieu.fr/wp-content/uploads/2026/01/CRCM-27-11-2025-site-internet.pdf",
-     "topics": [
-      "patrimoine, culture, tourisme",
-      "Village du Livre (MVDL)",
-      "musée Cérès Franco"
-     ]
-    }
-   ],
-   "themes": {
-    "patrimoine, culture, tourisme": 1,
-    "Village du Livre (MVDL)": 1,
-    "musée Cérès Franco": 1
-   },
-   "main_theme": "patrimoine, culture, tourisme",
-   "shape": "triangle",
-   "meetings": 1
   },
   {
    "label": "Borderouge",
@@ -360,6 +662,81 @@
    "meetings": 1
   },
   {
+   "label": "Chemin de Monplaisir",
+   "kind": "street",
+   "lat": 43.302195,
+   "lon": 2.215611,
+   "ban_label": "Chemin de Monplaisir 11170 Montolieu",
+   "ban_score": 0.947,
+   "mentioned_as": [
+    "chemin de Monplaisir"
+   ],
+   "items": [
+    {
+     "date": "2003-09-20",
+     "folder": "2003-09-20",
+     "title": "Mentioned in the minutes of 2003-09-20",
+     "page": 1,
+     "url": "https://web.archive.org/web/20031030083200/http://www.montolieu.fr:80/conseil/crcm200903.html",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 1
+  },
+  {
+   "label": "Chemin de Peyremale",
+   "kind": "street",
+   "lat": 43.327805,
+   "lon": 2.188597,
+   "ban_label": "Chemin de Peyremale 11170 Montolieu",
+   "ban_score": 0.941,
+   "mentioned_as": [
+    "chemin de Peyremale"
+   ],
+   "items": [
+    {
+     "date": "2006-11-24",
+     "folder": "2006-11-24",
+     "title": "Mentioned in the minutes of 2006-11-24",
+     "page": 1,
+     "url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 1
+  },
+  {
+   "label": "Chemin de l’Angelique",
+   "kind": "street",
+   "lat": 43.301014,
+   "lon": 2.221685,
+   "ban_label": "Chemin de l’Angelique 11170 Montolieu",
+   "ban_score": 0.945,
+   "mentioned_as": [
+    "chemin de l’Angélique"
+   ],
+   "items": [
+    {
+     "date": "2006-11-24",
+     "folder": "2006-11-24",
+     "title": "Mentioned in the minutes of 2006-11-24",
+     "page": 1,
+     "url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 1
+  },
+  {
    "label": "Chemin des Barrens",
    "kind": "street",
    "lat": 43.308832,
@@ -420,6 +797,31 @@
    "meetings": 1
   },
   {
+   "label": "Chemin du Trabet",
+   "kind": "street",
+   "lat": 43.296186,
+   "lon": 2.234412,
+   "ban_label": "Chemin du Trabet 11170 Montolieu",
+   "ban_score": 0.544,
+   "mentioned_as": [
+    "chemin communal du Trabet"
+   ],
+   "items": [
+    {
+     "date": "2007-02-16",
+     "folder": "2007-02-16",
+     "title": "Mentioned in the minutes of 2007-02-16",
+     "page": 7,
+     "url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 1
+  },
+  {
    "label": "Montpertus",
    "kind": "lieu-dit",
    "lat": 43.303565,
@@ -448,6 +850,31 @@
    },
    "main_theme": "voirie et travaux",
    "shape": "square",
+   "meetings": 1
+  },
+  {
+   "label": "Place Maurice Bertrand",
+   "kind": "street",
+   "lat": 43.311064,
+   "lon": 2.214776,
+   "ban_label": "Place Maurice Bertrand 11170 Montolieu",
+   "ban_score": 0.944,
+   "mentioned_as": [
+    "place Maurice Bertrand"
+   ],
+   "items": [
+    {
+     "date": "2004-10-16",
+     "folder": "2004-10-16",
+     "title": "Mentioned in the minutes of 2004-10-16",
+     "page": 2,
+     "url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
    "meetings": 1
   },
   {
@@ -480,30 +907,86 @@
    "main_theme": "voirie et travaux",
    "shape": "square",
    "meetings": 1
+  },
+  {
+   "label": "Route de Saissac",
+   "kind": "street",
+   "lat": 43.315622,
+   "lon": 2.208264,
+   "ban_label": "Route de Saissac 11170 Montolieu",
+   "ban_score": 0.947,
+   "mentioned_as": [
+    "route de Saissac"
+   ],
+   "items": [
+    {
+     "date": "2004-03-02",
+     "folder": "2004-03-02",
+     "title": "Mentioned in the minutes of 2004-03-02",
+     "page": 5,
+     "url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 1
+  },
+  {
+   "label": "Rue Pavee",
+   "kind": "street",
+   "lat": 43.310984,
+   "lon": 2.215237,
+   "ban_label": "Rue Pavee 11170 Montolieu",
+   "ban_score": 0.945,
+   "mentioned_as": [
+    "rue pavée"
+   ],
+   "items": [
+    {
+     "date": "2005-01-07",
+     "folder": "2005-01-07",
+     "title": "Mentioned in the minutes of 2005-01-07",
+     "page": 3,
+     "url": "https://web.archive.org/web/20051014125650/http://www.montolieu.fr/docs/CRCM050105.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 1
+  },
+  {
+   "label": "Rue du Collège",
+   "kind": "street",
+   "lat": 43.309423,
+   "lon": 2.215696,
+   "ban_label": "Rue du Collège 11170 Montolieu",
+   "ban_score": 0.944,
+   "mentioned_as": [
+    "rue du Collège"
+   ],
+   "items": [
+    {
+     "date": "2008-04-04",
+     "folder": "2008-04-04",
+     "title": "Mentioned in the minutes of 2008-04-04",
+     "page": 9,
+     "url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf",
+     "topics": []
+    }
+   ],
+   "themes": {},
+   "main_theme": null,
+   "shape": "diamond",
+   "meetings": 1
   }
  ],
  "candidates": 133,
  "held_back_items": 1,
  "unconfirmed_mentions": [
-  {
-   "label": "avenue du Mail",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=avenue%20du%20Mail%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2004-10-16",
-     "folder": "2004-10-16",
-     "page": 2,
-     "url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf"
-    },
-    {
-     "date": "2005-06-25",
-     "folder": "2005-06-25",
-     "page": 2,
-     "url": "https://web.archive.org/web/20061123182917/http://www.montolieu.fr/docs/CRCM250605.pdf"
-    }
-   ]
-  },
   {
    "label": "Boulzons",
    "kind": "lieu-dit",
@@ -544,19 +1027,6 @@
    ]
   },
   {
-   "label": "chemin communal du Trabet",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=chemin%20communal%20du%20Trabet%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2007-02-16",
-     "folder": "2007-02-16",
-     "page": 7,
-     "url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf"
-    }
-   ]
-  },
-  {
    "label": "chemin de Cennes Monnesties",
    "kind": "street",
    "search": "https://www.openstreetmap.org/search?query=chemin%20de%20Cennes%20Monnesties%2C%20Montolieu",
@@ -566,19 +1036,6 @@
      "folder": "2025-05-27",
      "page": 3,
      "url": "https://www.montolieu.fr/wp-content/uploads/2025/07/CRCM-27-05-2025-site-internet.pdf"
-    }
-   ]
-  },
-  {
-   "label": "chemin de l'Angélique",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=chemin%20de%20l%27Ang%C3%A9lique%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2006-11-24",
-     "folder": "2006-11-24",
-     "page": 1,
-     "url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf"
     }
    ]
   },
@@ -602,38 +1059,6 @@
    ]
   },
   {
-   "label": "chemin de l'Horte de Villeneuve",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=chemin%20de%20l%27Horte%20de%20Villeneuve%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2004-08-17",
-     "folder": "2004-08-17",
-     "page": 1,
-     "url": "https://web.archive.org/web/20041219055337/http://www.montolieu.fr/docs/CRCM170804.pdf"
-    },
-    {
-     "date": "2005-10-14",
-     "folder": "2005-10-14",
-     "page": 3,
-     "url": "https://web.archive.org/web/20061123183052/http://www.montolieu.fr/docs/CRCM141005.pdf"
-    }
-   ]
-  },
-  {
-   "label": "chemin de Monplaisir",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=chemin%20de%20Monplaisir%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2003-09-20",
-     "folder": "2003-09-20",
-     "page": 1,
-     "url": "https://web.archive.org/web/20031030083200/http://www.montolieu.fr:80/conseil/crcm200903.html"
-    }
-   ]
-  },
-  {
    "label": "chemin de Montplaisir",
    "kind": "street",
    "search": "https://www.openstreetmap.org/search?query=chemin%20de%20Montplaisir%2C%20Montolieu",
@@ -643,38 +1068,6 @@
      "folder": "2008-04-04",
      "page": 10,
      "url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf"
-    }
-   ]
-  },
-  {
-   "label": "chemin de Peyremale",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=chemin%20de%20Peyremale%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2006-11-24",
-     "folder": "2006-11-24",
-     "page": 1,
-     "url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf"
-    }
-   ]
-  },
-  {
-   "label": "chemin de Saint-Roch",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=chemin%20de%20Saint-Roch%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2005-03-18",
-     "folder": "2005-03-18",
-     "page": 3,
-     "url": "https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf"
-    },
-    {
-     "date": "2006-11-24",
-     "folder": "2006-11-24",
-     "page": 1,
-     "url": "https://web.archive.org/web/20071012134316/http://www.montolieu.fr/docs/CRCM%2020061124.pdf"
     }
    ]
   },
@@ -799,35 +1192,10 @@
    ]
   },
   {
-   "label": "place de l'église",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=place%20de%20l%27%C3%A9glise%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2008-04-25",
-     "folder": "2008-04-25",
-     "page": 7,
-     "url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf"
-    }
-   ]
-  },
-  {
    "label": "place des Tilleuls",
    "kind": "street",
    "search": "https://www.openstreetmap.org/search?query=place%20des%20Tilleuls%2C%20Montolieu",
    "items": [
-    {
-     "date": "2003-09-20",
-     "folder": "2003-09-20",
-     "page": 1,
-     "url": "https://web.archive.org/web/20031030083200/http://www.montolieu.fr:80/conseil/crcm200903.html"
-    },
-    {
-     "date": "2007-02-16",
-     "folder": "2007-02-16",
-     "page": 2,
-     "url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf"
-    },
     {
      "date": "2007-02-16",
      "folder": "2007-02-16",
@@ -919,113 +1287,6 @@
    ]
   },
   {
-   "label": "place Maurice Bertrand",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=place%20Maurice%20Bertrand%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2004-10-16",
-     "folder": "2004-10-16",
-     "page": 2,
-     "url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf"
-    }
-   ]
-  },
-  {
-   "label": "route d'Alzonne",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=route%20d%27Alzonne%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2006-04-22",
-     "folder": "2006-04-22-25c32404ddc5",
-     "page": 4,
-     "url": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf"
-    }
-   ]
-  },
-  {
-   "label": "route de Saint- Denis",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=route%20de%20Saint-%20Denis%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2005-03-18",
-     "folder": "2005-03-18",
-     "page": 3,
-     "url": "https://web.archive.org/web/20061123182956/http://www.montolieu.fr/docs/CRCM180305.pdf"
-    }
-   ]
-  },
-  {
-   "label": "route de Saint-Denis",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=route%20de%20Saint-Denis%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2004-03-02",
-     "folder": "2004-03-02",
-     "page": 4,
-     "url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf"
-    },
-    {
-     "date": "2004-03-02",
-     "folder": "2004-03-02",
-     "page": 5,
-     "url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf"
-    },
-    {
-     "date": "2004-10-16",
-     "folder": "2004-10-16",
-     "page": 4,
-     "url": "https://web.archive.org/web/20041225055244/http://www.montolieu.fr/docs/CRCM161004.pdf"
-    },
-    {
-     "date": "2006-04-22",
-     "folder": "2006-04-22-25c32404ddc5",
-     "page": 4,
-     "url": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf"
-    },
-    {
-     "date": "2006-04-22",
-     "folder": "2006-04-22-25c32404ddc5",
-     "page": 4,
-     "url": "https://web.archive.org/web/20071012134429/http://www.montolieu.fr/docs/CRCM%2020060422.pdf"
-    },
-    {
-     "date": "2006-09-29",
-     "folder": "2006-09-29",
-     "page": 2,
-     "url": "https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf"
-    },
-    {
-     "date": "2006-09-29",
-     "folder": "2006-09-29",
-     "page": 3,
-     "url": "https://web.archive.org/web/20071012134334/http://www.montolieu.fr/docs/CRCM%2020060929.pdf"
-    },
-    {
-     "date": "2008-04-04",
-     "folder": "2008-04-04",
-     "page": 9,
-     "url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf"
-    }
-   ]
-  },
-  {
-   "label": "route de Saissac",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=route%20de%20Saissac%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2004-03-02",
-     "folder": "2004-03-02",
-     "page": 5,
-     "url": "https://web.archive.org/web/20041225055345/http://www.montolieu.fr/docs/CRCM02032004.pdf"
-    }
-   ]
-  },
-  {
    "label": "route de Villelongue",
    "kind": "street",
    "search": "https://www.openstreetmap.org/search?query=route%20de%20Villelongue%2C%20Montolieu",
@@ -1049,18 +1310,6 @@
    "kind": "street",
    "search": "https://www.openstreetmap.org/search?query=route%20St%20Denis%2C%20Montolieu",
    "items": [
-    {
-     "date": "2007-02-16",
-     "folder": "2007-02-16",
-     "page": 2,
-     "url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf"
-    },
-    {
-     "date": "2008-04-25",
-     "folder": "2008-04-25",
-     "page": 7,
-     "url": "https://web.archive.org/web/20081112040228/http://www.montolieu.fr/docs/CRCM%2020080425.pdf"
-    },
     {
      "date": "2007-02-16",
      "folder": "2007-02-16",
@@ -1109,19 +1358,6 @@
    ]
   },
   {
-   "label": "rue du Collège",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=rue%20du%20Coll%C3%A8ge%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2008-04-04",
-     "folder": "2008-04-04",
-     "page": 9,
-     "url": "https://web.archive.org/web/20081112040045/http://www.montolieu.fr/docs/CRCM%2020080404.pdf"
-    }
-   ]
-  },
-  {
    "label": "rue du Général Izard",
    "kind": "street",
    "search": "https://www.openstreetmap.org/search?query=rue%20du%20G%C3%A9n%C3%A9ral%20Izard%2C%20Montolieu",
@@ -1137,50 +1373,6 @@
      "folder": "2007-02-16",
      "page": 6,
      "url": "https://web.archive.org/web/20081112035620/http://www.montolieu.fr/docs/CRCM%2020070216.pdf"
-    }
-   ]
-  },
-  {
-   "label": "rue Saint- Denis",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=rue%20Saint-%20Denis%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2004-05-14",
-     "folder": "2004-05-14",
-     "page": 5,
-     "url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf"
-    }
-   ]
-  },
-  {
-   "label": "rue Saint-Denis",
-   "kind": "street",
-   "search": "https://www.openstreetmap.org/search?query=rue%20Saint-Denis%2C%20Montolieu",
-   "items": [
-    {
-     "date": "2003-09-20",
-     "folder": "2003-09-20",
-     "page": 1,
-     "url": "https://web.archive.org/web/20031030083200/http://www.montolieu.fr:80/conseil/crcm200903.html"
-    },
-    {
-     "date": "2004-05-14",
-     "folder": "2004-05-14",
-     "page": 3,
-     "url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf"
-    },
-    {
-     "date": "2004-05-14",
-     "folder": "2004-05-14",
-     "page": 3,
-     "url": "https://web.archive.org/web/20041225055309/http://www.montolieu.fr/docs/CRCM140504.pdf"
-    },
-    {
-     "date": "2005-02-10",
-     "folder": "2005-02-10",
-     "page": 2,
-     "url": "https://web.archive.org/web/20051014125712/http://www.montolieu.fr/docs/CRCM100205.pdf"
     }
    ]
   }
