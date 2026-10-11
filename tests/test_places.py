@@ -229,22 +229,41 @@ def test_the_map_opens_at_village_scale_so_44px_targets_never_overlap_and_focus_
     _, folder = built(tmp_path)
     page = (folder / "map.html").read_text(encoding="utf-8")
     script = re.search(r"<script>(.*?)</script>", page, re.S).group(1)
-    assert "setView([data.center.lat, data.center.lon], 16)" in script and "fitBounds" not in script
+    assert "setView([data.center.lat, data.center.lon], data.zoom)" in script and "fitBounds" not in script
     assert "panInside" in script and "addEventListener('focus'" in script
     assert "The map opens on the village; places up to about" in page and "zoom out" in page
 
 
 def test_the_closest_real_places_stay_at_least_44px_apart_at_the_opening_zoom():
-    import itertools, json, math
+    import itertools, json
     from pathlib import Path
+    from echo_montolieu.places import MARKER_PX, MAX_OPENING_ZOOM, _px_apart, opening_zoom
     data = json.loads(Path("public/places/places.json").read_text(encoding="utf-8"))
-    def px(a, b, z=16):
-        mpp = 156543.03392 * math.cos(math.radians(a["lat"])) / 2 ** z
-        return math.hypot((a["lon"] - b["lon"]) * 111320 * math.cos(math.radians(a["lat"])), (a["lat"] - b["lat"]) * 110574) / mpp
-    closest = min(itertools.combinations(data["places"], 2), key=lambda ab: px(*ab))
-    assert px(*closest) >= 44, f"{closest[0]['label']!r} and {closest[1]['label']!r} are {px(*closest):.0f}px apart at zoom 16"
+    zoom = opening_zoom(data["places"])
+    closest = min(itertools.combinations(data["places"], 2), key=lambda ab: _px_apart(*ab, zoom))
+    gap = _px_apart(*closest, zoom)
+    assert zoom == MAX_OPENING_ZOOM or gap >= MARKER_PX, \
+        f"{closest[0]['label']!r} and {closest[1]['label']!r} are {gap:.0f}px apart at zoom {zoom}"
 
 
+def test_opening_zoom_zooms_in_only_as_far_as_needed():
+    from echo_montolieu.places import opening_zoom
+    far = [{"lat": 43.310, "lon": 2.210}, {"lat": 43.312, "lon": 2.216}]
+    near = [{"lat": 43.311064, "lon": 2.214776}, {"lat": 43.310984, "lon": 2.215237}]    # about 37 m apart
+    assert opening_zoom(far) == 16
+    assert opening_zoom(near) == 17
+    assert opening_zoom(near[:1]) == 16 and opening_zoom([]) == 16
+    same = [{"lat": 43.311, "lon": 2.2147}, {"lat": 43.311, "lon": 2.2147}]
+    assert opening_zoom(same) == 18                  # capped: the list under the map covers the rest
+
+
+def test_the_map_page_opens_at_the_computed_zoom():
+    import json
+    from echo_montolieu import places as pl
+    place = {"label": "A", "kind": "street", "lat": 43.311064, "lon": 2.214776, "meetings": 1, "shape": "circle", "items": [], "main_theme": "finances", "themes": ["finances"], "ban_label": "", "ban_score": 1, "mentioned_as": []}
+    other = {**place, "label": "B", "lat": 43.310984, "lon": 2.215237}
+    page = pl.render_map_html([place, other], {"places": 2, "candidates": 2, "unconfirmed": 0, "held_back_items": 0}, "en")
+    assert '"zoom": 17' in page and "data.zoom" in pl.MAP_SCRIPT
 def test_prune_drops_lookups_for_names_that_are_no_longer_candidates(tmp_path):
     g, _ = geocoder(tmp_path)
     g.lookup("rue des remparts")
