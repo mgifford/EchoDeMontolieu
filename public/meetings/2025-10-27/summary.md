@@ -9,8 +9,8 @@ machine_generated: true
 kind: summary
 summary_model: Qwen/Qwen3-235B-A22B-Instruct-2507:scaleway
 prompt_version: 1
-input_sha256: ae2f6ca2646654f363f5d9aa8374e2c4b7885870fb31ee820f3ce466aad9d9c7
-generated_at: 2026-10-09T22:52:26+00:00
+input_sha256: b2e7f3ac543d3559e5a104f3961e1a02a869dedfe0a1935fa07667bdb1a8ca78
+generated_at: 2026-10-11T06:29:37+00:00
 status: ok
 checks_failed: []
 produced_by: "AI model (Qwen/Qwen3-235B-A22B-Instruct-2507:scaleway)"
@@ -24,21 +24,20 @@ ai_disclosure: https://github.com/mgifford/EchoDeMontolieu/blob/main/AI.md
 
 > Lire le [procès-verbal](minutes.md) ou le [PDF original](https://www.montolieu.fr/wp-content/uploads/2025/12/CRCM-27102025-site.pdf).
 ## Résumé  
-Le conseil municipal de Montolieu, réuni le 27 octobre 2025, a approuvé le procès-verbal de la séance précédente, adopté un contrat d’assurance avec une franchise intermédiaire, et rejeté une demande de subvention pour un cheminement piétonnier depuis le parking St Roch. Le conseil a donné un accord de principe pour des études sur un projet agrivoltaïque, tout en refusant de se prononcer sur un parc photovoltaïque au sol. D'autres décisions ont porté sur l'avis favorable à un schéma de gestion de l'eau, l'approbation d'un projet éducatif de territoire, l'octroi d'une subvention à un musée, l'installation d'une borne de recharge électrique et l'attribution d’un lot de travaux pour l’église.
+Le conseil municipal de Montolieu s’est réuni le 27 octobre 2025 pour examiner plusieurs dossiers, notamment l’approbation du procès-verbal précédent, des décisions budgétaires et d’aménagement, ainsi que des projets liés à l’énergie, à l’éducation et à la mobilité. Des désaccords ont émergé sur le projet de cheminement piétonnier vers le musée Cérès Franco, qui a été rejeté, tandis que d'autres projets, comme l’installation d’une borne de recharge électrique, ont été adoptés à l’unanimité.
 
 ## Points abordés  
-- **Approbation du procès-verbal du conseil du 25 septembre 2025** : Le procès-verbal a été approuvé malgré des remarques sur son exhaustivité. Vote : 13 voix pour, 1 abstention. [p.1-2]  
-- **Reconduction contrat d’assurance SMACL** : Le conseil a choisi l’option avec franchise intermédiaire pour un montant de 15 418,93 € TTC. Vote : à l’unanimité. [p.2]  
-- **Demande de subvention pour le cheminement piétonnier vers la coopérative musée Cérès Franco** : Le conseil a rejeté la demande de subvention pour la première phase des travaux. Vote : 7 voix contre, 1 abstention. [p.2-4]  
-- **Accord de principe et accord pour lancement des études pour la centrale photovoltaïque de Nouvenergie et le projet agrivoltaïque de Guitard** : Le conseil a autorisé les études de faisabilité pour le projet agrivoltaïque. Pour le photovoltaïque au sol, il ne s’est pas prononcé. Vote : 12 voix pour, 2 abstentions (agrivoltaïque) ; 3 voix contre, 6 abstentions (photovoltaïque). [p.4-6]  
-- **Schéma d’aménagement et de gestion des eaux (SAGE) Aude et Côtiers audois** : Le conseil a donné un avis favorable au périmètre du SAGE. Vote : à l’unanimité. [p.6]  
-- **Projet éducatif de territoire de Carcassonne Agglo** : Le conseil a approuvé le PEDT et autorisé le maire à le signer. Vote : à l’unanimité. [p.6-7]  
+- **Approvation du procès-verbal du conseil du 25 septembre 2025** : Le procès-verbal a été approuvé par 13 voix pour et 1 abstention, malgré des remarques sur son exhaustivité. [p.1-2]  
+- **Reconduction du contrat d’assurance SMACL** : Le conseil a voté à l’unanimité pour la proposition avec franchise intermédiaire, pour un montant de 15 418,93 € TTC. [p.2]  
+- **Coopérative musée Cérès Franco – Demande de subvention pour le cheminement piétonnier** : Le conseil a rejeté la demande de subvention pour le cheminement depuis le parking St Roch, par 7 voix contre et 1 abstention. [p.2-4]  
+- **Photovoltaïque de Nouvenergie et projet agrivoltaïque de Guitard** : Le conseil a autorisé à 12 voix pour et 2 abstentions les études de faisabilité pour le projet agrivoltaïque, mais a refusé de se prononcer sur le parc photovoltaïque au sol (3 voix contre, 6 abstentions). [p.4-6]  
+- **Schéma d’aménagement et de gestion des eaux (SAGE) Aude et Côtiers audois** : Le conseil a donné un avis favorable à l’unanimité au périmètre du SAGE. [p.6]  
+- **Projet éducatif de territoire de Carcassonne Agglo** : Le PEDT 2025-2027 a été approuvé à l’unanimité, avec autorisation pour le maire de le signer. [p.6-7]  
 - **Droit de préemption** : Décisions prises concernant des ventes de biens privés. Aucun détail fourni. [p.7]  
-- **Pour la coopérative musée Cérès Franco** : Le conseil a voté une subvention de 606,18 € pour une campagne de communication. Vote : à l’unanimité. [p.8]  
-- **Installation d’une borne de recharge pour véhicule électrique** : Le conseil a choisi l’installation sur le parking du lotissement au-dessus de la pharmacie. Vote : à l’unanimité. [p.8]  
-- **Attribution du lot 3 des travaux de l’église : Lot plâtrerie** : Le marché a été attribué à l’entreprise EUROPLATRE pour 104 525,12 € HT. Vote : à l’unanimité. [p.8]  
+- **Subvention pour la campagne de communication du musée Cérès Franco** : Le conseil a voté à l’unanimité la subvention de 606,18 €, répartie sur deux ans. [p.8]  
+- **Installation d’une borne de recharge pour véhicule électrique** : Le conseil a adopté à l’unanimité l’installation sur le parking du lotissement au-dessus de la pharmacie. [p.8]  
+- **Attribution du lot 3 des travaux de l’église : Lot plâtrerie** : L’offre d’EUROPLATRE a été retenue à l’unanimité pour un montant de 104 525,12 € HT. [p.8]  
 
 ## Suites annoncées  
-- Lancement des études de faisabilité pour le projet agrivoltaïque sur le domaine de Guitard. [p.4-6]  
-- Installation d’une borne de recharge pour véhicule électrique sur le parking du lotissement au-dessus de la pharmacie. [p.8]  
-- Versement de la subvention de 606,18 € à la coopérative musée Cérès Franco prévu en deux fois, début 2026 et début 2027. [p.8]
+- Le premier versement de la subvention au GIP pour la campagne de communication du musée est prévu début 2026, le second début 2027. [p.8]  
+- Aucune autre suite annoncée dans le texte.
